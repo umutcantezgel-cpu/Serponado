@@ -1,6 +1,6 @@
 # Branching-Strategie & Git-Workflow
 
-> MS Schlüsseldienst Wetzlar — Phase 17
+> Serponado — Phase 17
 
 ## Trunk-Based Development
 

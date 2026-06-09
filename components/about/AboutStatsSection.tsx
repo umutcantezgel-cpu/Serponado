@@ -18,30 +18,24 @@ export default function AboutStatsSection() {
           </div>
 
           <h2 id="about-stats-heading" className="typo-h2 text-[color:var(--text-primary)]">
-            Ihr Wetzlarer <span className="text-[var(--color-red-500)]">Schlüsseldienst</span> des Vertrauens
-          </h2>
+            {"Serponado Notfallmaßnahmen"}<span className="text-[var(--color-red-500)]">{"SEO-Notdienst"}</span> {"Serponado Notfallmaßnahmen"}</h2>
 
           <p className="text-lg text-[color:var(--text-secondary)] mb-[var(--space-6)] leading-relaxed">
-            Wir sind kein anonymes Callcenter, sondern echte Handwerker aus der Region. Seit über 15 Jahren stehen
-            wir für schnelle Hilfe, faire Preise und professionelle Arbeit direkt hier in Wetzlar und dem Lahn-Dill-Kreis.
-            Unser Ziel ist es, Ihnen in Notsituationen sicher, schnell und zu 100% transparent zur Seite zu stehen.
-          </p>
+            {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
 
           {/* Sarfeld Authority Badge */}
           <blockquote className="relative bg-white rounded-2xl px-7 py-6 mb-[var(--space-8)] w-full overflow-hidden border border-[var(--color-charcoal-100)] shadow-[var(--elevation-1)] hover:shadow-[var(--elevation-2)] transition-shadow duration-300">
             <Quote className="absolute top-4 left-4 w-10 h-10 text-[var(--atmosphere-glow)] opacity-[0.15]" aria-hidden="true" />
             <p className="relative z-10 text-lg font-semibold text-[color:var(--text-primary)] leading-relaxed">
-              Zertifiziertes Mentoring: Gezieltes Training durch <span className="text-[color:var(--value-primary)] font-bold">TV-Sicherheitsprofi Uwe Sarfeld</span> garantiert unser hohes technisches Niveau.
-            </p>
+              {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<span className="text-[color:var(--value-primary)] font-bold">TV-Sicherheitsprofi Uwe Sarfeld</span> {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
             <p className="relative z-10 mt-2 text-sm text-[color:var(--text-secondary)] leading-relaxed">
-              Unsere Techniker arbeiten mit den modernsten Methoden und dem höchsten Qualitätsstandard.
-            </p>
+              {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
           </blockquote>
 
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 items-start sm:items-center">
             <div className="flex flex-col items-start gap-1">
               <HeartbeatCTA>
-                <a href="tel:+4964418056279" className="inline-flex items-center justify-center h-[52px] px-8 bg-[var(--color-red-500)] hover:bg-[var(--color-red-600)] text-white typo-cta-button rounded-xl transition-all shadow-[var(--shadow-brand-1)] hover:shadow-[var(--shadow-brand-2)] hover:-translate-y-[2px]">
+                <a href="tel:0800-SERP-SOS" className="inline-flex items-center justify-center h-[52px] px-8 bg-[var(--color-red-500)] hover:bg-[var(--color-red-600)] text-white typo-cta-button rounded-xl transition-all shadow-[var(--shadow-brand-1)] hover:shadow-[var(--shadow-brand-2)] hover:-translate-y-[2px]">
                   Jetzt kontaktieren
                 </a>
               </HeartbeatCTA>
@@ -60,14 +54,14 @@ export default function AboutStatsSection() {
           <div className="bg-white rounded-2xl p-6 flex flex-col justify-center items-center text-center hover:-translate-y-1 transition-all duration-300 border border-[var(--color-charcoal-100)] shadow-[var(--elevation-1)] hover:shadow-[var(--elevation-2)] hover:border-[var(--value-primary)]/30">
             <AnimatedCounter target={15} suffix="+" className="font-black text-5xl leading-tight text-[color:var(--value-primary)] tracking-tight" />
             <span className="text-base font-bold text-[color:var(--text-primary)] mt-2">Jahre Erfahrung</span>
-            <span className="text-sm text-[color:var(--text-secondary)] mt-1">Im Lahn-Dill-Kreis</span>
+            <span className="text-sm text-[color:var(--text-secondary)] mt-1">Im {"Serponado"}</span>
           </div>
 
           {/* Stat 2 */}
           <div className="bg-white rounded-2xl p-6 flex flex-col justify-center items-center text-center hover:-translate-y-1 transition-all duration-300 border border-[var(--color-charcoal-100)] shadow-[var(--elevation-1)] hover:shadow-[var(--elevation-2)] hover:border-[var(--value-primary)]/30">
             <span className="font-black text-5xl leading-tight text-[color:var(--value-primary)] tracking-tight">20<span className="text-[28px]">-30</span></span>
             <span className="text-base font-bold text-[color:var(--text-primary)] mt-2">Min. Anfahrt</span>
-            <span className="text-sm text-[color:var(--text-secondary)] mt-1">Wetzlar & Umgebung</span>
+            <span className="text-sm text-[color:var(--text-secondary)] mt-1">{"Serponado"} & Umgebung</span>
           </div>
 
           {/* Stat 3 */}
@@ -80,7 +74,7 @@ export default function AboutStatsSection() {
           {/* Stat 4 */}
           <div className="bg-white rounded-2xl p-6 flex flex-col justify-center items-center text-center hover:-translate-y-1 transition-all duration-300 border border-[var(--color-charcoal-100)] shadow-[var(--elevation-1)] hover:shadow-[var(--elevation-2)] hover:border-[var(--value-primary)]/30">
             <AnimatedCounter target={100} suffix="%" className="font-black text-5xl leading-tight text-[color:var(--value-primary)] tracking-tight" />
-            <span className="text-base font-bold text-[color:var(--text-primary)] mt-2">Festpreis-Garantie</span>
+            <span className="text-base font-bold text-[color:var(--text-primary)] mt-2">{"Festpreis"}-Garantie</span>
             <span className="text-sm text-[color:var(--text-secondary)] mt-1">Ohne Wenn und Aber</span>
           </div>
         </div>

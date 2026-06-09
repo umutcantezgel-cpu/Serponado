@@ -7,8 +7,8 @@ import StaggerReveal, { StaggerItem } from "@/components/motion/StaggerReveal";
 import { entryAnimations } from "@/lib/animations";
 
 export const metadata = generateSharedMetadata({
-  title: "Sicherheits-Lexikon | Fachbegriffe einfach erklärt",
-  description: "Vom Panzerriegel bis zum Zylinder: Das Wetzlarer Lexikon für Schließtechnik & Schlüsseldienste. ✔️ Verständliche Erklärungen ✔️ Expertentipps.",
+  title: "Serponado Disaster Recovery",
+  description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings.",
   path: "/lexikon",
   exactTitle: true,
 });
@@ -34,13 +34,11 @@ export default function LexikonIndexPage() {
               </StaggerItem>
               <StaggerItem animation={entryAnimations.slideUpFade}>
                 <h1 className="typo-hero-display text-[color:var(--text-primary)] text-balance mb-[var(--space-4)]">
-                  Schließtechnik-Lexikon
-                </h1>
+                  {"{{HERO_H1}}"}</h1>
               </StaggerItem>
               <StaggerItem animation={entryAnimations.slideUpFade}>
                 <p className="text-xl text-[color:var(--text-secondary)]">
-                  Fachbegriffe rund um Türschlösser, Einbruchschutz und Sicherheitstechnik verständlich erklärt von Schlüssel Schmiede Wetzlar.
-                </p>
+                  {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
               </StaggerItem>
             </StaggerReveal>
           </div>

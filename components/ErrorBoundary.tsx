@@ -41,7 +41,7 @@ export class ErrorBoundary extends Component<Props, State> {
     if (this.state.hasError) {
       return (
         <div className="p-4 bg-red-100 border border-red-300 rounded shadow-sm m-4 lg:m-8 max-w-xl mx-auto">
-          <h2 className="text-red-800 font-bold mb-2">Etwas ist schief gelaufen</h2>
+          <h2 className="text-red-800 font-bold mb-2">{"Serponado Notfallmaßnahmen"}</h2>
           <p className="text-red-700 mb-4">{this.state.error?.message || "Ein unbekannter Fehler ist aufgetreten."}</p>
           <button 
             type="button"

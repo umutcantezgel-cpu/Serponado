@@ -83,7 +83,7 @@ export async function GET() {
     {
       status: overallStatus === "down" ? 503 : 200,
       headers: {
-        "Cache-Control": "no-store, no-cache, must-revalidate",
+        "Cache-Control": "no-store,no-cache, must-revalidate",
       },
     }
   );

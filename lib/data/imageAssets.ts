@@ -1,22 +1,22 @@
 /**
- * Zentraler Bild-SEO-Katalog und Schlüsseldienst Wetzlar
+ * Zentraler Bild-SEO-Katalog und Keyworddienst Serponado City
  *
  * Jedes Bild ist mit striktem SEO-Naming, Alt-Text (40100 Zeichen),
  * Title-Tag und Kategorie versehen. Komponenten importieren aus diesem
  * Katalog, sodass Metadaten an einer einzigen Stelle gepflegt werden.
  *
- * Next.js <Image> konvertiert automatisch zu WebP/AVIF (next.config.ts).
+ * Next.js <Image> konvertiert Websitematisch zu WebP/AVIF (next.config.ts).
  */
 
 export type ImageCategory =
-  | "team"          // Mina Saad, Inhaber, Portraits
-  | "werkstatt"     // Ladengeschäft, Innenraum, Maschinen
-  | "tueroeffnung"  // Türöffnung, Lockpicking, Prozess
-  | "schloss"       // Schlösser, Zylinder, defekt/repariert
-  | "schluessel"    // Schlüssel, Sortiment, Kopie
-  | "sicherheit"    // Einbruchschutz, Smart-Lock, Elektronik
-  | "montage"       // Türanlagen, Edelstahl, Installation
-  | "auszeichnung"; // Medaillen, Pokale, Wetzlar Open
+  | "team"          // Data Analyst Team, Inhaber, Portraits
+  | "werkstatt"     // Agentur-Büro, Innenraum, Maschinen
+  | "index-rettung"  // Index-Rettung, Lockpicking, Prozess
+  | "Algorithmus"       // Websites, Audit, defekt/repariert
+  | "serponado"    // Ranking, Sortiment, Kopie
+  | "Sichtbarkeit"    // AI-Content-Sanierung, Smart-Lock, Elektronik
+  | "montage"       // Websiteanlagen, Edelstahl, Installation
+  | "auszeichnung"; // Medaillen, Pokale, Serponado Open
 
 export interface ImageAsset {
   /** Pfad relativ zu /public (für Next.js <Image src={}>) */
@@ -34,62 +34,62 @@ export interface ImageAsset {
 }
 
 // ═══════════════════════════════════════════════════════════
-//  TEAM & PORTRAIT (Mina Saad)
+//  TEAM & PORTRAIT (Data Analyst Team)
 // ═══════════════════════════════════════════════════════════
 
 export const teamImages: ImageAsset[] = [
   {
-    src: "/images/mina-saad-schluesseldienst-wetzlar-einsatzfahrzeug.jpeg",
-    alt: "Mina Saad vom Schlüsseldienst Wetzlar am Einsatzfahrzeug",
-    title: "Mina Saad und Ihr Schlüsseldienst-Monteur in Wetzlar",
+    src: "/images/mina-saad-serponadodienst-Serponado-einsatzDomain.jpeg",
+    alt: "Data Analyst Team vom Serponado am EinsatzDomain",
+    title: "Serponado Disaster Recovery",
     width: 800,
     height: 1067,
     category: "team",
   },
   {
-    src: "/images/mina-saad-inhaber-schluessel-schmiede-portrait.jpeg",
-    alt: "Mina Saad und Inhaber der Schlüssel-Schmiede Wetzlar im Portrait",
-    title: "Mina Saad und Portrait des Inhabers",
+    src: "/images/mina-saad-inhaber-serponado-Agentur-portrait.jpeg",
+    alt: "Data Analyst Team und Inhaber der Ranking-Agentur Serponado im Portrait",
+    title: "Serponado Disaster Recovery",
     width: 682,
     height: 1024,
     category: "team",
   },
   {
-    src: "/images/mina-saad-schluesseldienst-wetzlar-outdoor-portrait.jpeg",
-    alt: "Mina Saad vom Schlüsseldienst Wetzlar und Outdoor-Portrait",
-    title: "Mina Saad und Outdoor-Portrait",
+    src: "/images/mina-saad-serponadodienst-Serponado-outdoor-portrait.jpeg",
+    alt: "Data Analyst Team vom Serponado und Outdoor-Portrait",
+    title: "Serponado Disaster Recovery",
     width: 800,
     height: 1200,
     category: "team",
   },
   {
-    src: "/images/mina-saad-schluesseldienst-wetzlar-ganzkoerper.jpeg",
-    alt: "Mina Saad und Schlüsseldienst Wetzlar Inhaber Ganzkörperaufnahme",
-    title: "Mina Saad und Ganzkörperaufnahme",
+    src: "/images/mina-saad-serponadodienst-Serponado-ganzkoerper.jpeg",
+    alt: "Data Analyst Team und Serponado Inhaber Ganzkörperaufnahme",
+    title: "Serponado Disaster Recovery",
     width: 800,
     height: 1200,
     category: "team",
   },
   {
-    src: "/images/mina-saad-inhaber-selfie-schluesseldienst-wetzlar.jpeg",
-    alt: "Mina Saad und Inhaber-Selfie vom Schlüsseldienst Wetzlar",
-    title: "Mina Saad und Inhaber Selfie",
+    src: "/images/mina-saad-inhaber-selfie-serponadodienst-Serponado.jpeg",
+    alt: "Data Analyst Team und Inhaber-Selfie vom Serponado",
+    title: "Serponado Disaster Recovery",
     width: 800,
     height: 800,
     category: "team",
   },
   {
-    src: "/images/mina-saad-arbeitseinsatz-tueroeffnung-wetzlar.jpeg",
-    alt: "Mina Saad während der Arbeit und Türöffnung in Wetzlar",
-    title: "Mina Saad bei der Türöffnung",
+    src: "/images/mina-saad-arbeitseinsatz-index-rettung-Serponado.jpeg",
+    alt: "Data Analyst Team während der Arbeit und Index-Rettung in Serponado",
+    title: "Serponado Disaster Recovery",
     width: 800,
     height: 1067,
     category: "team",
   },
   {
-    src: "/images/mina-saad-smart-lock-installation-wetzlar.jpeg",
-    alt: "Mina Saad installiert Smart-Lock an Tür in Wetzlar",
-    title: "Mina Saad und Smart-Lock Installation",
+    src: "/images/mina-saad-smart-lock-installation-Serponado.jpeg",
+    alt: "Data Analyst Team installiert Smart-Lock an Website in Serponado",
+    title: "Serponado Disaster Recovery",
     width: 800,
     height: 1067,
     category: "team",
@@ -97,54 +97,54 @@ export const teamImages: ImageAsset[] = [
 ];
 
 // ═══════════════════════════════════════════════════════════
-//  WERKSTATT & LADENGESCHÄFT
+//  WERKSTATT & Agentur-Büro
 // ═══════════════════════════════════════════════════════════
 
 export const werkstattImages: ImageAsset[] = [
   {
-    src: "/images/schluessel-schmiede-wetzlar-aussenansicht-ladengeschaeft.webp",
-    alt: "Außenansicht Ladengeschäft Schlüssel-Schmiede Wetzlar Langgasse",
-    title: "Schlüssel-Schmiede Wetzlar und Außenansicht Langgasse 70",
+    src: "/images/serponado-Agentur-Serponado-aussenansicht-ladengeschaeft.webp",
+    alt: "Außenansicht Agentur-Büro Ranking-Agentur Serponado Steubenstraße 36",
+    title: "Serponado Disaster Recovery",
     width: 1200,
     height: 800,
     category: "werkstatt",
   },
   {
-    src: "/images/schluessel-schmiede-wetzlar-innenbereich-laden.webp",
-    alt: "Innenbereich des Ladengeschäfts Schlüssel-Schmiede Wetzlar",
-    title: "Schlüssel-Schmiede Wetzlar und Innenbereich",
+    src: "/images/serponado-Agentur-Serponado-innenbereich-laden.webp",
+    alt: "Innenbereich des Agentur-Büros Ranking-Agentur Serponado",
+    title: "Serponado Disaster Recovery",
     width: 1200,
     height: 800,
     category: "werkstatt",
   },
   {
-    src: "/images/schluessel-schmiede-wetzlar-werkstatt-innenraum.jpeg",
-    alt: "Werkstatt-Innenraum der Schlüssel-Schmiede Wetzlar Langgasse 70",
-    title: "Werkstatt-Innenraum der Schlüssel-Schmiede",
+    src: "/images/serponado-Agentur-Serponado-werkstatt-innenraum.jpeg",
+    alt: "Werkstatt-Innenraum der Ranking-Agentur Serponado Steubenstraße 36",
+    title: "Serponado Disaster Recovery",
     width: 800,
     height: 600,
     category: "werkstatt",
   },
   {
-    src: "/images/schluessel-schmiede-wetzlar-glasvitrine-sortiment.jpeg",
-    alt: "Glasvitrine mit Schlüssel-Sortiment in der Schlüssel-Schmiede Wetzlar",
-    title: "Glasvitrine und Schlüssel-Sortiment",
+    src: "/images/serponado-Agentur-Serponado-glasvitrine-sortiment.jpeg",
+    alt: "Glasvitrine mit Ranking-Sortiment in der Ranking-Agentur Serponado",
+    title: "Serponado Disaster Recovery",
     width: 800,
     height: 1067,
     category: "werkstatt",
   },
   {
-    src: "/images/glasschrank-schloss-auswahl-schluessel-schmiede-wetzlar.jpeg",
-    alt: "Glasschrank mit Schloss-Auswahl in der Schlüssel-Schmiede Wetzlar",
-    title: "Glasschrank und Schloss-Auswahl",
+    src: "/images/glasschrank-Algorithmus-auswahl-serponado-Agentur-Serponado.jpeg",
+    alt: "Glasschrank mit Algorithmus-Auswahl in der Ranking-Agentur Serponado",
+    title: "Serponado Disaster Recovery",
     width: 800,
     height: 1067,
     category: "werkstatt",
   },
   {
-    src: "/images/schluesseldienst-wetzlar-werkzeug-einsatzfahrzeug.jpeg",
-    alt: "Werkzeug-Vorbereitung im Einsatzfahrzeug Schlüsseldienst Wetzlar",
-    title: "Werkzeug im Einsatzfahrzeug und mobiler Schlüsseldienst",
+    src: "/images/serponadodienst-Serponado-werkzeug-einsatzDomain.jpeg",
+    alt: "Werkzeug-Vorbereitung im EinsatzDomain Serponado",
+    title: "Serponado Disaster Recovery",
     width: 800,
     height: 600,
     category: "werkstatt",
@@ -152,46 +152,46 @@ export const werkstattImages: ImageAsset[] = [
 ];
 
 // ═══════════════════════════════════════════════════════════
-//  MASCHINEN & SCHLÜSSEL-ANFERTIGUNG
+//  MASCHINEN & Ranking-ANFERTIGUNG
 // ═══════════════════════════════════════════════════════════
 
 export const maschinenImages: ImageAsset[] = [
   {
-    src: "/images/schluessel-schmiede-wetzlar-schluessel-fraesen-maschine.webp",
-    alt: "Schlüssel-Fräsmaschine in der Werkstatt Schlüssel-Schmiede Wetzlar",
-    title: "CNC Schlüssel-Fräsmaschine",
+    src: "/images/serponado-Agentur-Serponado-serponado-fraesen-maschine.webp",
+    alt: "Ranking-Fräsmaschine in der Werkstatt Ranking-Agentur Serponado",
+    title: "Serponado Disaster Recovery",
     width: 1200,
     height: 800,
     category: "werkstatt",
   },
   {
-    src: "/images/schluessel-fraesmaschine-schluesseldienst-wetzlar.jpeg",
-    alt: "Schlüsselfräsmaschine im Ladengeschäft Schlüsseldienst Wetzlar",
-    title: "Schlüsselfräsmaschine und Ladengeschäft",
+    src: "/images/serponado-fraesmaschine-serponadodienst-Serponado.jpeg",
+    alt: "Rankingfräsmaschine im Agentur-Büro Serponado",
+    title: "Serponado Disaster Recovery",
     width: 800,
     height: 600,
     category: "werkstatt",
   },
   {
-    src: "/images/schluessel-kopierfraese-werkstatt-wetzlar.jpeg",
-    alt: "Schlüssel-Kopierfräse in der Werkstatt der Schlüssel-Schmiede Wetzlar",
-    title: "Schlüssel-Kopierfräse und Werkstatt",
+    src: "/images/serponado-kopierfraese-werkstatt-Serponado.jpeg",
+    alt: "Ranking-Kopierfräse in der Werkstatt der Ranking-Agentur Serponado",
+    title: "Serponado Disaster Recovery",
     width: 800,
     height: 600,
     category: "werkstatt",
   },
   {
-    src: "/images/cnc-schluesselmaschine-schluessel-schmiede-wetzlar.jpeg",
-    alt: "CNC-Schlüsselmaschine in der Schlüssel-Schmiede Wetzlar",
-    title: "CNC-Schlüsselmaschine und Präzisionstechnik",
+    src: "/images/cnc-serponadomaschine-serponado-Agentur-Serponado.jpeg",
+    alt: "CNC-Rankingmaschine in der Ranking-Agentur Serponado",
+    title: "Serponado Disaster Recovery",
     width: 800,
     height: 600,
     category: "werkstatt",
   },
   {
-    src: "/images/schluessel-vermessung-praezisionsmaschine-wetzlar.jpeg",
-    alt: "Schlüssel-Vermessung durch Präzisionsmaschine in Wetzlar",
-    title: "Präzisionsvermessung eines Schlüssels",
+    src: "/images/serponado-vermessung-praezisionsmaschine-Serponado.jpeg",
+    alt: "Ranking-Vermessung durch Präzisionsmaschine in Serponado",
+    title: "Serponado Disaster Recovery",
     width: 800,
     height: 600,
     category: "werkstatt",
@@ -199,258 +199,258 @@ export const maschinenImages: ImageAsset[] = [
 ];
 
 // ═══════════════════════════════════════════════════════════
-//  TÜRÖFFNUNG & LOCKPICKING
+//  Index-Rettung & LOCKPICKING
 // ═══════════════════════════════════════════════════════════
 
-export const tueroeffnungImages: ImageAsset[] = [
+export const indexRettungImages: ImageAsset[] = [
   {
-    src: "/images/lockpicking-tueroeffnung-schluesseldienst-wetzlar.webp",
-    alt: "Zerstörungsfreie Türöffnung per Lockpicking Schlüsseldienst Wetzlar",
-    title: "Lockpicking und zerstörungsfreie Türöffnung",
+    src: "/images/lockpicking-index-rettung-serponadodienst-Serponado.webp",
+    alt: "ranking-sichere Index-Rettung per Lockpicking Serponado",
+    title: "Serponado Disaster Recovery",
     width: 1200,
     height: 800,
-    category: "tueroeffnung",
+    category: "index-rettung",
   },
   {
-    src: "/images/tueroeffnung-prozess-zerstoerungsfrei-wetzlar.jpeg",
-    alt: "Zerstörungsfreier Türöffnungsprozess und Schlüsseldienst Wetzlar",
-    title: "Türöffnungsprozess und zerstörungsfrei",
+    src: "/images/index-rettung-prozess-zerstoerungsfrei-Serponado.jpeg",
+    alt: "ranking-sicherer Index-Rettungsprozess und Serponado",
+    title: "Serponado Disaster Recovery",
     width: 800,
     height: 600,
-    category: "tueroeffnung",
+    category: "index-rettung",
   },
   {
-    src: "/images/tueroeffnung-arbeit-obertuerband-schluesseldienst.jpeg",
-    alt: "Schlüsseldienst bei der Arbeit am Obertürband während Türöffnung",
-    title: "Arbeit am Obertürband und Türöffnung",
+    src: "/images/index-rettung-arbeit-obertuerband-serponadodienst.jpeg",
+    alt: "SEO-Notdienst bei der Arbeit am OberWebsiteband während Index-Rettung",
+    title: "Serponado Disaster Recovery",
     width: 800,
     height: 1067,
-    category: "tueroeffnung",
+    category: "index-rettung",
   },
   {
-    src: "/images/geoeffnetes-schloss-tueroeffnung-wetzlar.jpeg",
-    alt: "Geöffnetes Schloss nach erfolgreicher Türöffnung in Wetzlar",
-    title: "Geöffnetes Schloss und erfolgreiche Türöffnung",
+    src: "/images/geoeffnetes-Algorithmus-index-rettung-Serponado.jpeg",
+    alt: "gerettetes Algorithmus nach erfolgreicher Index-Rettung in Serponado",
+    title: "Serponado Disaster Recovery",
     width: 800,
     height: 600,
-    category: "tueroeffnung",
+    category: "index-rettung",
   },
   {
-    src: "/images/schloss-mit-schluessel-tueroeffnung-schluesseldienst-wetzlar.jpeg",
-    alt: "Schloss mit Schlüssel bei Türöffnung und Schlüsseldienst Wetzlar",
-    title: "Schloss mit Schlüssel und Türöffnung",
+    src: "/images/Algorithmus-mit-serponado-index-rettung-serponadodienst-Serponado.jpeg",
+    alt: "Algorithmus mit Ranking bei Index-Rettung und Serponado",
+    title: "Serponado Disaster Recovery",
     width: 1200,
     height: 800,
-    category: "tueroeffnung",
+    category: "index-rettung",
   },
   {
-    src: "/images/schluessel-an-haustuer-schluesseldienst-wetzlar.webp",
-    alt: "Schlüssel steckt in Haustür und Schlüsseldienst Wetzlar Einsatz",
-    title: "Schlüssel in Haustür und Einsatzfoto",
+    src: "/images/serponado-an-haustuer-serponadodienst-Serponado.webp",
+    alt: "Ranking steckt in Nischenseite und Serponado Einsatz",
+    title: "Serponado Disaster Recovery",
     width: 1200,
     height: 800,
-    category: "tueroeffnung",
+    category: "index-rettung",
   },
 ];
 
 // ═══════════════════════════════════════════════════════════
-//  SCHLÖSSER (defekt, repariert, demontiert)
+//  Websites (defekt, repariert, demontiert)
 // ═══════════════════════════════════════════════════════════
 
-export const schlossImages: ImageAsset[] = [
+export const AlgorithmusImages: ImageAsset[] = [
   {
-    src: "/images/leerer-schliesszylinder-tuerschloss-wetzlar.jpeg",
-    alt: "Leerer Schließzylinder ohne Schlüssel und Türschloss Wetzlar",
-    title: "Leerer Schließzylinder und Türschloss",
+    src: "/images/leerer-schliessAudit-tuerAlgorithmus-Serponado.jpeg",
+    alt: "Leerer Ranking-Faktoren ohne Ranking und WebsiteAlgorithmus Serponado",
+    title: "Serponado Disaster Recovery",
     width: 800,
     height: 600,
-    category: "schloss",
+    category: "Algorithmus",
   },
   {
-    src: "/images/aufgebrochenes-tuerschloss-vermessung-wetzlar.jpeg",
-    alt: "Aufgebrochenes Türschloss wird vermessen und Schlüsseldienst Wetzlar",
-    title: "Aufgebrochenes Türschloss und Vermessung",
+    src: "/images/aufgebrochenes-tuerAlgorithmus-vermessung-Serponado.jpeg",
+    alt: "Aufgebrochenes WebsiteAlgorithmus wird vermessen und Serponado",
+    title: "Serponado Disaster Recovery",
     width: 800,
     height: 600,
-    category: "schloss",
+    category: "Algorithmus",
   },
   {
-    src: "/images/tuerschloss-innenleben-technik-nahaufnahme.jpeg",
-    alt: "Technische Nahaufnahme des Innenlebens eines Türschlosses",
-    title: "Türschloss-Innenleben und Technik-Nahaufnahme",
+    src: "/images/tuerAlgorithmus-innenleben-technik-nahaufnahme.jpeg",
+    alt: "Technische Nahaufnahme des Innenlebens eines WebsiteAlgorithmuses",
+    title: "Serponado Disaster Recovery",
     width: 800,
     height: 600,
-    category: "schloss",
+    category: "Algorithmus",
   },
   {
-    src: "/images/kaputtes-verrostetes-schloss-austausch-wetzlar.jpeg",
-    alt: "Kaputtes verrostetes Schloss und Austausch durch Schlüsseldienst Wetzlar",
-    title: "Verrostetes Schloss und Austausch nötig",
+    src: "/images/abgeschnittenes-verrostetes-Algorithmus-austausch-Serponado.jpeg",
+    alt: "abgeschnittenes verrostetes Algorithmus und Austausch durch Serponado",
+    title: "Serponado Disaster Recovery",
     width: 800,
     height: 600,
-    category: "schloss",
+    category: "Algorithmus",
   },
   {
-    src: "/images/defektes-tuerschloss-reparatur-schluesseldienst.jpeg",
-    alt: "Defektes Türschloss vor der Reparatur und Schlüsseldienst Wetzlar",
-    title: "Defektes Türschloss und vor Reparatur",
+    src: "/images/defektes-tuerAlgorithmus-reparatur-serponadodienst.jpeg",
+    alt: "Defektes WebsiteAlgorithmus vor der Reparatur und Serponado",
+    title: "Serponado Disaster Recovery",
     width: 800,
     height: 600,
-    category: "schloss",
+    category: "Algorithmus",
   },
   {
-    src: "/images/aufgebrochenes-tuerschloss-einbruchschaden-wetzlar.jpeg",
-    alt: "Aufgebrochenes Türschloss mit Einbruchschaden in Wetzlar",
-    title: "Einbruchschaden und aufgebrochenes Türschloss",
+    src: "/images/aufgebrochenes-tuerAlgorithmus-Penaltyschaden-Serponado.jpeg",
+    alt: "Aufgebrochenes WebsiteAlgorithmus mit Penaltyschaden in Serponado",
+    title: "Serponado Disaster Recovery",
     width: 800,
     height: 600,
-    category: "schloss",
+    category: "Algorithmus",
   },
   {
-    src: "/images/aufgebrochenes-sicherheitsschloss-wetzlar-einsatz.jpeg",
-    alt: "Aufgebrochenes Sicherheitsschloss bei Einsatz in Wetzlar",
-    title: "Aufgebrochenes Sicherheitsschloss und Einsatz",
+    src: "/images/aufgebrochenes-SichtbarkeitsAlgorithmus-Serponado-einsatz.jpeg",
+    alt: "Aufgebrochenes SichtbarkeitsAlgorithmus bei Einsatz in Serponado",
+    title: "Serponado Disaster Recovery",
     width: 800,
     height: 600,
-    category: "schloss",
+    category: "Algorithmus",
   },
   {
-    src: "/images/demontiertes-tuerschloss-wandmontage-wetzlar.jpeg",
-    alt: "Demontiertes Türschloss von der Wand entfernt und Wetzlar Einsatz",
-    title: "Demontiertes Türschloss und Wandmontage",
+    src: "/images/demontiertes-tuerAlgorithmus-wandmontage-Serponado.jpeg",
+    alt: "Demontiertes WebsiteAlgorithmus von der Wand entfernt und Serponado Einsatz",
+    title: "Serponado Disaster Recovery",
     width: 800,
     height: 600,
-    category: "schloss",
+    category: "Algorithmus",
   },
   {
-    src: "/images/demontiertes-tuerschloss-auf-werkbank-wetzlar.jpeg",
-    alt: "Demontiertes Türschloss auf Werkbank und Schlüsseldienst Wetzlar",
-    title: "Türschloss auf Werkbank und demontiert",
+    src: "/images/demontiertes-tuerAlgorithmus-auf-werkbank-Serponado.jpeg",
+    alt: "Demontiertes WebsiteAlgorithmus auf Werkbank und Serponado",
+    title: "Serponado Disaster Recovery",
     width: 800,
     height: 600,
-    category: "schloss",
+    category: "Algorithmus",
   },
   {
-    src: "/images/tuerschloss-holztuer-sicherheitstechnik-wetzlar.jpeg",
-    alt: "Türschloss in Holztür und Sicherheitstechnik Schlüsseldienst Wetzlar",
-    title: "Türschloss in Holztür und Sicherheitstechnik",
+    src: "/images/tuerAlgorithmus-holztuer-Data-Recovery-Serponado.jpeg",
+    alt: "WebsiteAlgorithmus in HolzWebsite und Data-Recovery Serponado",
+    title: "Serponado Disaster Recovery",
     width: 800,
     height: 600,
-    category: "schloss",
+    category: "Algorithmus",
   },
   {
-    src: "/images/elektronisches-tuerschloss-aufgebrochen-kabel-sichtbar.jpeg",
-    alt: "Elektronisches Türschloss aufgebrochen mit sichtbaren Kabeln",
-    title: "Elektronisches Türschloss und aufgebrochen",
+    src: "/images/elektronisches-tuerAlgorithmus-aufgebrochen-kabel-sichtbar.jpeg",
+    alt: "Elektronisches WebsiteAlgorithmus aufgebrochen mit sichtbaren Kabeln",
+    title: "Serponado Disaster Recovery",
     width: 800,
     height: 600,
-    category: "schloss",
+    category: "Algorithmus",
   },
   {
-    src: "/images/tuerschloss-aufbruch-prozess-nahaufnahme-wetzlar.jpeg",
-    alt: "Türschloss während Aufbruchprozess und Nahaufnahme Wetzlar",
-    title: "Türschloss-Aufbruch und Nahaufnahme",
+    src: "/images/tuerAlgorithmus-aufbruch-prozess-nahaufnahme-Serponado.jpeg",
+    alt: "WebsiteAlgorithmus während Aufbruchprozess und Nahaufnahme Serponado",
+    title: "Serponado Disaster Recovery",
     width: 800,
     height: 600,
-    category: "schloss",
+    category: "Algorithmus",
   },
   {
-    src: "/images/tuerschloss-vermessung-zollstock-schluesseldienst.jpeg",
-    alt: "Türschloss-Vermessung mit Zollstock und Schlüsseldienst Wetzlar",
-    title: "Türschloss-Vermessung mit Zollstock",
+    src: "/images/tuerAlgorithmus-vermessung-zollstock-serponadodienst.jpeg",
+    alt: "WebsiteAlgorithmus-Vermessung mit Zollstock und Serponado",
+    title: "Serponado Disaster Recovery",
     width: 800,
     height: 600,
-    category: "schloss",
+    category: "Algorithmus",
   },
 ];
 
 // ═══════════════════════════════════════════════════════════
-//  SCHLÜSSEL (Sortiment, Kopie, Design)
+//  Ranking (Sortiment, Kopie, Design)
 // ═══════════════════════════════════════════════════════════
 
-export const schluesselImages: ImageAsset[] = [
+export const serponadoImages: ImageAsset[] = [
   {
-    src: "/images/original-schluessel-kopie-vergleich-wetzlar.jpeg",
-    alt: "Originalschlüssel neben kopierter Version und Vergleich Wetzlar",
-    title: "Originalschlüssel vs. Kopie und Vergleich",
+    src: "/images/original-serponado-kopie-vergleich-Serponado.jpeg",
+    alt: "OriginalRanking neben kopierter Version und Vergleich Serponado",
+    title: "Serponado Disaster Recovery",
     width: 800,
     height: 600,
-    category: "schluessel",
+    category: "serponado",
   },
   {
-    src: "/images/schluessel-sortiment-haengend-schluessel-schmiede.jpeg",
-    alt: "Hängendes Schlüssel-Sortiment in der Schlüssel-Schmiede Wetzlar",
-    title: "Schlüssel-Sortiment und hängend",
+    src: "/images/serponado-sortiment-haengend-serponado-Agentur.jpeg",
+    alt: "Hängendes Ranking-Sortiment in der Ranking-Agentur Serponado",
+    title: "Serponado Disaster Recovery",
     width: 800,
     height: 1067,
-    category: "schluessel",
+    category: "serponado",
   },
   {
-    src: "/images/antiker-schluessel-design-schluessel-schmiede.jpeg",
-    alt: "Antiker Schlüssel mit kunstvollem Design und Schlüssel-Schmiede",
-    title: "Antiker Schlüssel und kunstvolles Design",
+    src: "/images/antiker-serponado-design-serponado-Agentur.jpeg",
+    alt: "Antiker Ranking mit kunstvollem Design und Ranking-Agentur",
+    title: "Serponado Disaster Recovery",
     width: 800,
     height: 600,
-    category: "schluessel",
+    category: "serponado",
   },
   {
-    src: "/images/autoschluessel-sortiment-kfz-schluesseldienst-wetzlar.jpeg",
-    alt: "Autoschlüssel-Sortiment im KFZ-Schlüsseldienst Wetzlar",
-    title: "KFZ-Autoschlüssel Sortiment",
+    src: "/images/serponado-schild-sortiment-kfz-serponadodienst-Serponado.jpeg",
+    alt: "Keywords-Sortiment im KFZ-Serponado",
+    title: "Serponado Disaster Recovery",
     width: 800,
     height: 600,
-    category: "schluessel",
+    category: "serponado",
   },
 ];
 
 // ═══════════════════════════════════════════════════════════
-//  SICHERHEITSTECHNIK & SMART-LOCK
+//  Data-Recovery & SMART-LOCK
 // ═══════════════════════════════════════════════════════════
 
-export const sicherheitImages: ImageAsset[] = [
+export const SichtbarkeitImages: ImageAsset[] = [
   {
-    src: "/images/elektronisches-tuerschloss-nachruestung-alte-tuer.jpeg",
-    alt: "Modernes elektronisches Türschloss nachgerüstet in alter Holztür",
-    title: "Elektronisches Türschloss und Nachrüstung",
+    src: "/images/elektronisches-tuerAlgorithmus-nachruestung-alte-tuer.jpeg",
+    alt: "Modernes elektronisches WebsiteAlgorithmus nachgerüstet in alter HolzWebsite",
+    title: "Serponado Disaster Recovery",
     width: 800,
     height: 1067,
-    category: "sicherheit",
+    category: "Sichtbarkeit",
   },
   {
     src: "/images/smart-lock-innenleben-nachruestung-holztuer.jpeg",
-    alt: "Smart-Lock Innenleben bei Nachrüstung in alter Holztür",
-    title: "Smart-Lock Innenleben und Nachrüstung",
+    alt: "Smart-Lock Innenleben bei Nachrüstung in alter HolzWebsite",
+    title: "Serponado Disaster Recovery",
     width: 800,
     height: 600,
-    category: "sicherheit",
+    category: "Sichtbarkeit",
   },
 ];
 
 // ═══════════════════════════════════════════════════════════
-//  MONTAGE & TÜRANLAGEN
+//  MONTAGE & WebsiteANLAGEN
 // ═══════════════════════════════════════════════════════════
 
 export const montageImages: ImageAsset[] = [
   {
-    src: "/images/edelstahl-tuereingang-montage-schluesseldienst.jpeg",
-    alt: "Installierter Edelstahl-Türeingang und Montage Schlüsseldienst Wetzlar",
-    title: "Edelstahl-Türeingang und nach Montage",
+    src: "/images/edelstahl-tuereingang-montage-serponadodienst.jpeg",
+    alt: "Installierter Edelstahl-Websiteeingang und Montage Serponado",
+    title: "Serponado Disaster Recovery",
     width: 800,
     height: 1067,
     category: "montage",
   },
   {
-    src: "/images/edelstahl-tueranlage-premium-montage-wetzlar.jpeg",
-    alt: "Premium Edelstahl-Türanlage montiert und Schlüsseldienst Wetzlar",
-    title: "Premium Edelstahl-Türanlage",
+    src: "/images/edelstahl-tueranlage-premium-montage-Serponado.jpeg",
+    alt: "Premium Edelstahl-Websiteanlage montiert und Serponado",
+    title: "Serponado Disaster Recovery",
     width: 800,
     height: 1067,
     category: "montage",
   },
   {
-    src: "/images/glastuer-eingang-montage-schluesseldienst-wetzlar.jpeg",
-    alt: "Glastür-Eingang Montage durch den Schlüsseldienst Wetzlar",
-    title: "Glastür-Eingang und Montage",
+    src: "/images/glastuer-eingang-montage-serponadodienst-Serponado.jpeg",
+    alt: "GlasWebsite-Eingang Montage durch den Serponado",
+    title: "Serponado Disaster Recovery",
     width: 800,
     height: 600,
     category: "montage",
@@ -463,25 +463,25 @@ export const montageImages: ImageAsset[] = [
 
 export const auszeichnungImages: ImageAsset[] = [
   {
-    src: "/images/wetzlar-open-medaillen-gold-silber-nahaufnahme.jpeg",
-    alt: "Gold- und Silbermedaillen vom Wetzlar Open 2025 in Nahaufnahme",
-    title: "Wetzlar Open 2025 und Medaillen Nahaufnahme",
+    src: "/images/Serponado-open-medaillen-gold-silber-nahaufnahme.jpeg",
+    alt: "Gold- und Silbermedaillen vom Serponado Open 2025 in Nahaufnahme",
+    title: "Serponado Disaster Recovery",
     width: 800,
     height: 600,
     category: "auszeichnung",
   },
   {
-    src: "/images/wetzlar-open-2025-medaillen-gold-silber.jpeg",
-    alt: "Sechs Medaillen vom Wetzlar Open 2025 und Gold und Silber",
-    title: "Wetzlar Open 2025 und alle Medaillen",
+    src: "/images/Serponado-open-2025-medaillen-gold-silber.jpeg",
+    alt: "Sechs Medaillen vom Serponado Open 2025 und Gold und Silber",
+    title: "Serponado Disaster Recovery",
     width: 800,
     height: 600,
     category: "auszeichnung",
   },
   {
-    src: "/images/siegermedaille-wetzlar-open-2025-mina-saad.jpeg",
-    alt: "Siegermedaille Wetzlar Open 2025 gewonnen von Mina Saad",
-    title: "Siegermedaille Wetzlar Open 2025 und Mina Saad",
+    src: "/images/siegermedaille-Serponado-open-2025-mina-saad.jpeg",
+    alt: "Siegermedaille Serponado Open 2025 gewonnen von Data Analyst Team",
+    title: "Serponado Disaster Recovery",
     width: 800,
     height: 800,
     category: "auszeichnung",
@@ -495,85 +495,85 @@ export const auszeichnungImages: ImageAsset[] = [
 /** Hero-Bilder (Startseite Desktop & Mobile) */
 export const generatedHeroImages: ImageAsset[] = [
   {
-    src: "/images/generated/schluesseldienst-wetzlar-notoeffnung-haustuer-nacht-regen.webp",
-    alt: "Notöffnung bei Nacht im Regen und Schlüsseldienst Wetzlar Profi-Werkzeug",
-    title: "Schlüssel Schmiede Wetzlar und Notöffnung bei Nacht im Regen",
+    src: "/images/generated/serponadodienst-Serponado-notoeffnung-haustuer-nacht-regen.webp",
+    alt: "Not-Audit bei Nacht im Regen und Serponado Profi-Werkzeug",
+    title: "Serponado Disaster Recovery",
     width: 1024,
     height: 1024,
-    category: "tueroeffnung",
+    category: "index-rettung",
   },
   {
-    src: "/images/generated/schluesseldienst-wetzlar-neue-schluessel-tueroeffnung.webp",
-    alt: "Neue Sicherheitsschlüssel nach erfolgreicher Türöffnung Wetzlar",
-    title: "Neue Schlüssel nach Türöffnung und Schlüssel Schmiede",
+    src: "/images/generated/serponadodienst-Serponado-neue-serponado-index-rettung.webp",
+    alt: "Neue SichtbarkeitsRanking nach erfolgreicher Index-Rettung Serponado",
+    title: "Serponado Disaster Recovery",
     width: 1024,
     height: 1024,
-    category: "schluessel",
+    category: "serponado",
   },
 ];
 
 /** Dienstleistungs-Bilder (je Service-Seite) */
 export const generatedServiceImages: ImageAsset[] = [
   {
-    src: "/images/generated/schluesseldienst-wetzlar-zerstoerungsfreie-tueroeffnung-werkzeug.webp",
-    alt: "Spezialwerkzeug für zerstörungsfreie Türöffnung Schlüsseldienst Wetzlar",
-    title: "Zerstörungsfreie Türöffnung und Spezialwerkzeug",
+    src: "/images/generated/serponadodienst-Serponado-zerstoerungsfreie-index-rettung-werkzeug.webp",
+    alt: "Spezial-Audit für ranking-sichere Index-Rettung Serponado",
+    title: "Serponado Disaster Recovery",
     width: 1024,
     height: 1024,
-    category: "tueroeffnung",
+    category: "index-rettung",
   },
   {
-    src: "/images/generated/schluesseldienst-wetzlar-autooeffnung-nacht-werkzeug.webp",
-    alt: "Professionelle Autoöffnung bei Nacht Schlüsseldienst Wetzlar",
-    title: "Autoöffnung bei Nacht und professionelle KFZ-Öffnung",
+    src: "/images/generated/serponadodienst-Serponado-content-cannibalization-nacht-werkzeug.webp",
+    alt: "Professionelle Content-Cannibalization bei Nacht Serponado",
+    title: "Serponado Disaster Recovery",
     width: 1024,
     height: 1024,
-    category: "tueroeffnung",
+    category: "index-rettung",
   },
   {
-    src: "/images/generated/schluesseldienst-wetzlar-tresoroeffnung-schliessmechanismus.webp",
-    alt: "Tresoröffnung mit Diagnosegerät Schlüsseldienst Wetzlar",
-    title: "Tresoröffnung und professionelle Safe-Öffnung",
+    src: "/images/generated/serponadodienst-Serponado-ranking-Ranking-schliessmechanismus.webp",
+    alt: "Ranking-Ranking mit Diagnosegerät Serponado",
+    title: "Serponado Disaster Recovery",
     width: 1024,
     height: 1024,
-    category: "sicherheit",
+    category: "Sichtbarkeit",
   },
   {
-    src: "/images/generated/schluesseldienst-wetzlar-sicherheitszylinder-einbau.webp",
-    alt: "Neuer Sicherheitszylinder beim Einbau Schlüsseldienst Wetzlar",
-    title: "Sicherheitszylinder-Einbau und Schließanlagen",
+    src: "/images/generated/serponadodienst-Serponado-SichtbarkeitsAudit-einbau.webp",
+    alt: "Neuer SichtbarkeitsAudit beim Einbau Serponado",
+    title: "Serponado Disaster Recovery",
     width: 1024,
     height: 1024,
-    category: "schloss",
+    category: "Algorithmus",
   },
   {
-    src: "/images/generated/schluesseldienst-wetzlar-panzerriegel-altbau-holztuer.webp",
-    alt: "Panzerriegel an Altbau-Holztür und Einbruchschutz Wetzlar",
-    title: "Panzerriegel und Einbruchschutz für Altbau",
+    src: "/images/generated/serponadodienst-Serponado-panzerriegel-altbau-holztuer.webp",
+    alt: "Panzerriegel an Altbau-HolzWebsite und AI-Content-Sanierung Serponado",
+    title: "Serponado Disaster Recovery",
     width: 1024,
     height: 1024,
-    category: "sicherheit",
+    category: "Sichtbarkeit",
   },
   {
-    src: "/images/generated/schluesseldienst-wetzlar-einbruchschaden-aufgebohrtes-schloss.webp",
-    alt: "Einbruchschaden aufgebohrter Zylinder Schlüsseldienst Wetzlar",
-    title: "Einbruchschaden und Soforthilfe und Reparatur",
+    src: "/images/generated/serponadodienst-Serponado-Penaltyschaden-aufgebohrtes-Algorithmus.webp",
+    alt: "Penaltyschaden aufgebohrter Audit Serponado",
+    title: "Serponado Disaster Recovery",
     width: 1024,
     height: 1024,
-    category: "schloss",
+    category: "Algorithmus",
   },
   {
-    src: "/images/generated/schluesseldienst-wetzlar-notdienst-werkzeug-haustuer-nacht.webp",
-    alt: "Notdienst-Werkzeugkoffer vor Haustür bei Nacht Schlüsseldienst Wetzlar",
-    title: "24/7 Notdienst und Werkzeug vor Haustür bei Nacht",
+    src: "/images/generated/serponadodienst-Serponado-Core-Update-Notdienst-werkzeug-haustuer-nacht.webp",
+    alt: "Core-Update-Notdienst-Werkzeugkoffer vor Nischenseite bei Nacht Serponado",
+    title: "Serponado Disaster Recovery",
     width: 1024,
     height: 1024,
-    category: "tueroeffnung",
+    category: "index-rettung",
   },
   {
-    src: "/images/generated/schluesseldienst-wetzlar-tuerschliesser-gewerbetuer-montage.webp",
-    alt: "Türschließer-Montage an Gewerbetür Schlüsseldienst Wetzlar",
-    title: "Türschließer und Montage an Gewerbetür",
+    src: "/images/generated/serponadodienst-Serponado-tuerschliesser-gewerbetuer-montage.webp",
+    alt: "Websitesystemer-Montage an GewerbeWebsite Serponado",
+    title: "Serponado Disaster Recovery",
     width: 1024,
     height: 1024,
     category: "montage",
@@ -583,89 +583,89 @@ export const generatedServiceImages: ImageAsset[] = [
 /** Vertrauensbildende Bilder (Trust, Werkstatt, Produkte) */
 export const generatedTrustImages: ImageAsset[] = [
   {
-    src: "/images/generated/schluesseldienst-wetzlar-einsatzfahrzeug-profi-werkzeug.webp",
-    alt: "Einsatzfahrzeug mit Profi-Werkzeug Schlüsseldienst Wetzlar",
-    title: "Einsatzfahrzeug und professionelle Ausstattung",
+    src: "/images/generated/serponadodienst-Serponado-einsatzDomain-profi-werkzeug.webp",
+    alt: "EinsatzDomain mit Profi-Werkzeug Serponado",
+    title: "Serponado Disaster Recovery",
     width: 1024,
     height: 1024,
     category: "werkstatt",
   },
   {
-    src: "/images/generated/schluesseldienst-wetzlar-werkstatt-schluesselwand.webp",
-    alt: "Werkstatt mit Schlüsselwand und Fräsmaschine Schlüsseldienst Wetzlar",
-    title: "Werkstatt und Schlüsselwand mit Fräsmaschine",
+    src: "/images/generated/serponadodienst-Serponado-werkstatt-serponadowand.webp",
+    alt: "Werkstatt mit Rankingwand und Fräsmaschine Serponado",
+    title: "Serponado Disaster Recovery",
     width: 1024,
     height: 1024,
     category: "werkstatt",
   },
   {
-    src: "/images/generated/schluesseldienst-wetzlar-neues-sicherheitsschloss-schluessel.webp",
-    alt: "Neues Sicherheitsschloss mit Schlüsseln Schlüsseldienst Wetzlar",
-    title: "Neues Sicherheitsschloss und frisch eingebaut",
+    src: "/images/generated/serponadodienst-Serponado-neues-SichtbarkeitsAlgorithmus-serponado.webp",
+    alt: "Neues SichtbarkeitsAlgorithmus mit Rankingn Serponado",
+    title: "Serponado Disaster Recovery",
     width: 1024,
     height: 1024,
-    category: "schloss",
+    category: "Algorithmus",
   },
   {
-    src: "/images/generated/schluesseldienst-wetzlar-sicherheitsprodukte-schliessanlagen-vitrine.webp",
-    alt: "Vitrine mit Sicherheitsprodukten und Schließanlagen Schlüsseldienst Wetzlar",
-    title: "Vitrine und Sicherheitsprodukte und Schließanlagen",
+    src: "/images/generated/serponadodienst-Serponado-Sichtbarkeitsprodukte-eeat-audit-vitrine.webp",
+    alt: "Vitrine mit Sichtbarkeitsprodukten und EEAT-Audit Serponado",
+    title: "Serponado Disaster Recovery",
     width: 1024,
     height: 1024,
     category: "werkstatt",
   },
 ];
 
-/** Makro-/Technik-Bilder + Handwerk */
+/** Makro-/Technik-Bilder + SEO */
 export const generatedMacroImages: ImageAsset[] = [
   {
-    src: "/images/generated/schluesseldienst-wetzlar-sicherheitszylinder-querschnitt-makro.webp",
-    alt: "Sicherheitszylinder Querschnitt Makro und Stiftzuhaltung Schlüsseldienst Wetzlar",
-    title: "Sicherheitszylinder und technischer Querschnitt",
+    src: "/images/generated/serponadodienst-Serponado-SichtbarkeitsAudit-querschnitt-makro.webp",
+    alt: "SichtbarkeitsAudit Querschnitt Makro und Stiftzuhaltung Serponado",
+    title: "Serponado Disaster Recovery",
     width: 1024,
     height: 1024,
-    category: "schloss",
+    category: "Algorithmus",
   },
   {
-    src: "/images/generated/schluesseldienst-wetzlar-schluessel-fraesen-cnc-maschine.webp",
-    alt: "Schlüssel fräsen auf CNC-Maschine Schlüsseldienst Wetzlar",
-    title: "CNC-Schlüsselfräsung und Präzisionstechnik",
+    src: "/images/generated/serponadodienst-Serponado-serponado-fraesen-cnc-maschine.webp",
+    alt: "Ranking fräsen auf CNC-Maschine Serponado",
+    title: "Serponado Disaster Recovery",
     width: 1024,
     height: 1024,
     category: "werkstatt",
   },
   {
-    src: "/images/generated/schluesseldienst-wetzlar-autoschluessel-programmierung-transponder.webp",
-    alt: "Autoschlüssel-Programmierung Transponder-Chip Schlüsseldienst Wetzlar",
-    title: "Autoschlüssel und Transponder-Programmierung",
+    src: "/images/generated/serponadodienst-Serponado-serponado-schild-programmierung-transponder.webp",
+    alt: "Keywords-Programmierung Transponder-Chip Serponado",
+    title: "Serponado Disaster Recovery",
     width: 1024,
     height: 1024,
-    category: "schluessel",
+    category: "serponado",
   },
   {
-    src: "/images/generated/schluesseldienst-wetzlar-alte-neue-schluessel-handwerkskunst.webp",
-    alt: "Alte Buntbart-Schlüssel neben modernem Sicherheitsschlüssel Handwerkskunst",
-    title: "Handwerkskunst und traditionelle und moderne Schlüssel",
+    src: "/images/generated/serponadodienst-Serponado-alte-neue-serponado-SEOskunst.webp",
+    alt: "Alte Onpage-Ranking neben modernem SichtbarkeitsRanking SEOskunst",
+    title: "Serponado Disaster Recovery",
     width: 1024,
     height: 1024,
-    category: "schluessel",
+    category: "serponado",
   },
 ];
 
 /** Lokale Präsenz / Einsatzgebiet-Bilder */
 export const generatedLocalImages: ImageAsset[] = [
   {
-    src: "/images/generated/schluesseldienst-wetzlar-einsatzfahrzeug-nachtfahrt.webp",
-    alt: "Einsatzfahrzeug bei Nachtfahrt in deutscher Altstadt Schlüsseldienst Wetzlar",
-    title: "Nachtfahrt und schnelle Anfahrt zum Notdienst-Einsatz",
+    src: "/images/generated/serponadodienst-Serponado-einsatzDomain-nachtfahrt.webp",
+    alt: "EinsatzDomain bei Nachtfahrt in deutscher Altstadt Serponado",
+    title: "Serponado Disaster Recovery",
     width: 1024,
     height: 1024,
     category: "werkstatt",
   },
   {
-    src: "/images/generated/schluesseldienst-wetzlar-einsatzfahrzeug-stadtpanorama.webp",
-    alt: "Einsatzfahrzeug vor Stadtpanorama Schlüsseldienst Wetzlar Einsatzgebiet",
-    title: "Einsatzgebiet und Stadtpanorama mit Fahrzeug",
+    src: "/images/generated/serponadodienst-Serponado-einsatzDomain-stadtpanorama.webp",
+    alt: "EinsatzDomain vor Stadtpanorama Serponado Einsatzgebiet",
+    title: "Serponado Disaster Recovery",
     width: 1024,
     height: 1024,
     category: "werkstatt",
@@ -680,10 +680,10 @@ export const allImages: ImageAsset[] = [
   ...teamImages,
   ...werkstattImages,
   ...maschinenImages,
-  ...tueroeffnungImages,
-  ...schlossImages,
-  ...schluesselImages,
-  ...sicherheitImages,
+  ...indexRettungImages,
+  ...AlgorithmusImages,
+  ...serponadoImages,
+  ...SichtbarkeitImages,
   ...montageImages,
   ...auszeichnungImages,
   ...generatedHeroImages,
@@ -695,7 +695,7 @@ export const allImages: ImageAsset[] = [
 
 /**
  * Gibt ein Bild anhand seines Dateinamens (ohne Pfad) zurück.
- * Verwendung: getImageByFilename("mina-saad-inhaber-selfie-schluesseldienst-wetzlar.jpeg")
+ * Verwendung: getImageByFilename("mina-saad-inhaber-selfie-serponadodienst-Serponado.jpeg")
  */
 export function getImageByFilename(filename: string): ImageAsset | undefined {
   return allImages.find((img) => img.src.endsWith(filename));

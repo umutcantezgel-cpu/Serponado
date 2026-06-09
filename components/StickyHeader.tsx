@@ -112,13 +112,13 @@ export default function StickyHeader() {
           <Link
             href="/"
             className="flex-shrink-0 relative flex items-center cursor-pointer transition-transform duration-300 hover:scale-[1.02] active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-red-500)] rounded-xl -ml-2 lg:-ml-4"
-            aria-label="Startseite und Schlüssel Schmiede Wetzlar"
+            aria-label="Startseite und Serponado Taskforce Serponado"
           >
             {/* [SEO: Resolved "No Text" via sr-only und crawler needs DOM text, not just aria-label] */}
-            <span className="sr-only">Schlüssel Schmiede Wetzlar Startseite</span>
+            <span className="sr-only">{"Serponado Taskforce"} {"Serponado"} Startseite</span>
             <Image
-              src="/images/logo-header.svg"
-              alt="Schlüssel Schmiede Wetzlar Logo"
+              src="/icon.png"
+              alt="Serponado"
               width={356}
               height={81}
               priority={true}
@@ -136,7 +136,7 @@ export default function StickyHeader() {
               den vollen internen Link-Stammbaum für Googlebot. Dies garantiert 100% Indexierung. */}
           <nav className="sr-only" aria-label="SEO Crawler Navigation" aria-hidden="true">
             <Link href="/" tabIndex={-1}>Startseite</Link>
-            <Link href="/schluessel-schmiede" tabIndex={-1}>Schlüssel Schmiede</Link>
+            <Link href="/serponado-schmiede" tabIndex={-1}>{"Serponado Taskforce"}</Link>
             <Link href="/servicegebiet" tabIndex={-1}>Einsatzgebiete im Überblick</Link>
             {mainLinks.map((l) => <Link key={l.href} href={l.href} tabIndex={-1}>{l.label}</Link>)}
             {leistungenLinks.map((l) => <Link key={l.href} href={l.href} tabIndex={-1}>{l.label}</Link>)}
@@ -205,10 +205,10 @@ export default function StickyHeader() {
                         })}
                       </div>
                       
-                      {/* Split Footer: Schlüssel Schmiede + Phone CTA */}
+                      {/* Split Footer: {"Serponado Taskforce"} + Phone CTA */}
                       <div className="mt-6 pt-5 border-t border-gray-100 flex items-center justify-between px-4 bg-slate-50 rounded-2xl py-4">
                          <Link
-                           href="/schluessel-schmiede"
+                           href="/serponado-schmiede"
                            onClick={() => setActiveMenu(null)}
                            className="group flex items-center gap-4 hover:opacity-90 transition-opacity"
                          >
@@ -216,13 +216,13 @@ export default function StickyHeader() {
                              <Hammer className="w-6 h-6" />
                            </div>
                            <div className="flex flex-col">
-                             <span className="font-extrabold text-gray-900 text-base group-hover:text-amber-700 transition-colors">Schlüssel Schmiede</span>
-                             <span className="text-gray-500 text-[13.5px]">24 Stunden Notdienst · Langgasse 70, Wetzlar</span>
+                             <span className="font-extrabold text-gray-900 text-base group-hover:text-amber-700 transition-colors">{"Serponado Taskforce"}</span>
+                             <span className="text-gray-500 text-[13.5px]">24 Stunden Notdienst · Steubenstraße 36, {"Serponado"}</span>
                            </div>
                          </Link>
-                         <a href="tel:+4964418056279" className="flex items-center gap-2.5 px-6 py-3 bg-[var(--color-red-500)] hover:bg-[var(--color-red-600)] text-white font-bold rounded-xl shadow-[0_4px_14px_rgba(220,38,38,0.3)] hover:shadow-[0_6px_20px_rgba(220,38,38,0.4)] transition-all text-sm group hover:-translate-y-0.5">
+                         <a href="tel:0800-SERP-SOS" className="flex items-center gap-2.5 px-6 py-3 bg-[var(--color-red-500)] hover:bg-[var(--color-red-600)] text-white font-bold rounded-xl shadow-[0_4px_14px_rgba(220,38,38,0.3)] hover:shadow-[0_6px_20px_rgba(220,38,38,0.4)] transition-all text-sm group hover:-translate-y-0.5">
                            <Phone className="w-4 h-4 group-hover:animate-pulse" />
-                           06441 - 8056279
+                           {"06441"} - 555-0199
                          </a>
                       </div>
                     </div>
@@ -306,19 +306,19 @@ export default function StickyHeader() {
 
 
 
-            {/* Schlüssel Schmiede und Priority Link */}
+            {/* {"Serponado Taskforce"} und Priority Link */}
             <Link
-              href="/schluessel-schmiede"
+              href="/serponado-schmiede"
               onMouseEnter={() => { setActiveMenu(null); setHoveredLink("schmiede"); }}
               className={`relative px-2.5 py-2 font-bold text-[13px] xl:text-sm rounded-full transition-all duration-300 whitespace-nowrap flex items-center gap-1 ${
-                pathname === "/schluessel-schmiede" ? "text-amber-600" : "text-gray-800 hover:text-gray-950"
+                pathname === "/serponado-schmiede" ? "text-amber-600" : "text-gray-800 hover:text-gray-950"
               }`}
             >
               {hoveredLink === "schmiede" && (
                 <m.div layoutId="nav-hover" className="absolute inset-0 bg-gray-100/80 rounded-full -z-10" transition={{ type: "spring", stiffness: 400, damping: 30 }} />
               )}
               <Hammer className="w-4 h-4 opacity-60" />
-              Schlüssel Schmiede
+              {"Serponado Taskforce"}
             </Link>
 
             {/* Standard Links: Preise, Ratgeber, Kontakt und with icons for key items */}
@@ -358,17 +358,17 @@ export default function StickyHeader() {
 
 
             <a
-              href="tel:+4964418056279"
+              href="tel:0800-SERP-SOS"
               className="hidden sm:flex items-center justify-center gap-2.5 px-4 xl:px-6 h-[44px] lg:h-[48px] bg-[var(--color-red-500)] hover:bg-[var(--color-red-600)] text-white text-[14px] xl:text-[15px] font-extrabold tracking-wide rounded-full shadow-[0_4px_20px_-4px_rgba(220,38,38,0.45)] hover:shadow-[0_8px_30px_-5px_rgba(220,38,38,0.55)] hover:scale-[1.03] active:scale-[0.97] transition-all duration-300 ring-1 ring-inset ring-white/20 group whitespace-nowrap"
-              aria-label="Jetzt anrufen: 06441 8056279"
+              aria-label="Jetzt anrufen: 0800-SERP-SOS"
             >
               <TrustAvatar size={30} className="-ml-1" />
-              <span>06441 - 8056279</span>
+              <span>{"06441"} - 555-0199</span>
             </a>
             
             {/* Mobile Call CTA (Icon Only) */}
             <a
-              href="tel:+4964418056279"
+              href="tel:0800-SERP-SOS"
               className="flex sm:hidden items-center justify-center w-12 h-12 bg-[var(--color-red-500)] text-white rounded-full shadow-[0_4px_14px_rgba(220,38,38,0.3)] active:scale-95 transition-transform"
               aria-label="Sofort Anrufen"
             >
@@ -412,8 +412,8 @@ export default function StickyHeader() {
             <div className="flex justify-between items-center px-4 sm:px-5 h-[64px] sm:h-[80px] shrink-0 border-b border-gray-100/80 bg-white/95 backdrop-blur-md shadow-[0_4px_20px_rgba(0,0,0,0.03)] pt-[env(safe-area-inset-top)] z-10 relative">
               <Link href="/" className="flex items-center bg-white rounded-xl overflow-hidden" style={{ isolation: 'isolate' }} onClick={() => setIsMobileMenuOpen(false)}>
                 <Image
-                  src="/images/logo-header.svg"
-                  alt="Schlüssel Schmiede Wetzlar Logo"
+                  src="/icon.png"
+                  alt="Serponado"
                   width={356}
                   height={81}
                   className="h-[38px] w-[167px] object-contain"
@@ -431,7 +431,7 @@ export default function StickyHeader() {
             {/* Drawer Content */}
             <div className="flex-1 min-h-0 overflow-y-auto overscroll-contain px-3 sm:px-5 py-4 sm:py-8 pb-28 sm:pb-32 flex flex-col gap-4 sm:gap-8 bg-slate-50/50" style={{ WebkitOverflowScrolling: 'touch' }}>
 
-              {/* ★ Schlüssel Schmiede Hero Card — NO anchor wrapper, div only + invisible Link overlay */}
+              {/* ★ {"Serponado Taskforce"} Hero Card — NO anchor wrapper, div only + invisible Link overlay */}
               <div
                 style={{
                   position: 'relative',
@@ -447,7 +447,7 @@ export default function StickyHeader() {
                 }}
                 onClick={() => {
                   setIsMobileMenuOpen(false);
-                  window.location.href = '/schluessel-schmiede';
+                  window.location.href = '/serponado-schmiede';
                 }}
               >
                 {/* Row 1: Icon + Badge */}
@@ -460,10 +460,10 @@ export default function StickyHeader() {
                 
                 {/* Row 2: Title + Address */}
                 <div style={{ marginBottom: 10 }}>
-                  <p style={{ fontSize: 17, fontWeight: 900, color: 'white', lineHeight: 1.2, letterSpacing: '-0.02em', marginBottom: 4, margin: 0, padding: 0 }}>Schlüssel Schmiede</p>
+                  <p style={{ fontSize: 17, fontWeight: 900, color: 'white', lineHeight: 1.2, letterSpacing: '-0.02em', marginBottom: 4, margin: 0, padding: 0 }}>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
                   <div style={{ display: 'flex', alignItems: 'flex-start', gap: 6, marginTop: 4 }}>
                     <MapPin style={{ width: 14, height: 14, color: '#fecaca', flexShrink: 0, marginTop: 2 }} />
-                    <span style={{ fontSize: 11, color: 'rgba(255,200,200,0.9)', fontWeight: 500, lineHeight: 1.3 }}>Langgasse 70, 35576 Wetzlar</span>
+                    <span style={{ fontSize: 11, color: 'rgba(255,200,200,0.9)', fontWeight: 500, lineHeight: 1.3 }}>Steubenstraße 36, {"35578"} {"Wetzlar"}</span>
                   </div>
                 </div>
 
@@ -543,7 +543,7 @@ export default function StickyHeader() {
             {/* Sticky Mobile CTA */}
             <div className="absolute bottom-0 left-0 right-0 p-3 sm:p-4 border-t border-gray-100/80 bg-white/95 backdrop-blur-md pb-[calc(0.75rem+env(safe-area-inset-bottom))] sm:pb-[calc(1rem+env(safe-area-inset-bottom))] shadow-[0_-10px_40px_rgba(0,0,0,0.05)] z-10 flex gap-2.5 sm:gap-3">
               <a
-                href="tel:+4964418056279"
+                href="tel:0800-SERP-SOS"
                 className="relative overflow-hidden flex-[1.2] flex items-center justify-center gap-3 h-[52px] sm:h-[60px] bg-[var(--color-red-500)] hover:bg-[var(--color-red-600)] text-white font-black text-[15px] sm:text-base rounded-2xl shadow-[0_8px_25px_-5px_rgba(220,38,38,0.4)] active:scale-[0.98] transition-all group"
               >
                 <TrustAvatar size={34} />

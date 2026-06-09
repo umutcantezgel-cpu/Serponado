@@ -5,9 +5,9 @@ import { generateSharedMetadata } from "@/lib/metadata";
 import Link from "next/link";
 
 export const metadata = generateSharedMetadata({
-  title: "Vielen Dank",
+  title: "Serponado Disaster Recovery",
   description:
-    "Vielen Dank für Ihre Nachricht an Schlüssel Schmiede Wetzlar. Wir melden uns schnellstmöglich.",
+    "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings.",
   path: "/danke",
   noindex: true,
 });
@@ -44,15 +44,12 @@ export default function DankePage() {
 
             <StaggerItem animation={entryAnimations.slideUpFade}>
               <h1 className="typo-hero-display text-[color:var(--text-primary)] text-balance mb-[var(--space-4)]">
-                Vielen Dank!
-              </h1>
+                {"{{HERO_H1}}"}</h1>
             </StaggerItem>
 
             <StaggerItem animation={entryAnimations.slideUpFade}>
               <p className="text-lg text-[color:var(--text-secondary)] max-w-xl">
-                Ihre Nachricht ist bei uns eingegangen. Wir melden uns in der Regel
-                innerhalb von <strong>30 Minuten</strong> bei Ihnen zurück.
-              </p>
+                {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<strong>30 Minuten</strong> {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
             </StaggerItem>
           </StaggerReveal>
         </div>
@@ -71,8 +68,7 @@ export default function DankePage() {
         >
           <StaggerItem animation={entryAnimations.slideUpFade}>
             <h2 className="typo-h2 text-[color:var(--text-primary)] mb-8">
-              Wie geht es weiter?
-            </h2>
+              {"Serponado Notfallmaßnahmen"}</h2>
           </StaggerItem>
 
           <StaggerItem animation={entryAnimations.slideUpFade}>
@@ -80,17 +76,17 @@ export default function DankePage() {
               {[
                 {
                   step: "1",
-                  title: "Eingangsbestätigung",
+                  title: "Serponado Disaster Recovery",
                   text: "Sie erhalten in Kürze eine Bestätigungs-E-Mail von uns.",
                 },
                 {
                   step: "2",
-                  title: "Persönliche Rückmeldung",
+                  title: "Serponado Disaster Recovery",
                   text: "Ein Mitarbeiter prüft Ihre Anfrage und kontaktiert Sie telefonisch oder per E-Mail.",
                 },
                 {
                   step: "3",
-                  title: "Transparentes Angebot",
+                  title: "Serponado Disaster Recovery",
                   text: "Sie erhalten ein unverbindliches Festpreis-Angebot und keine versteckten Kosten.",
                 },
               ].map((item) => (
@@ -123,10 +119,10 @@ export default function DankePage() {
                 Zur Startseite
               </Link>
               <Link
-                href="tel:+4964418056279"
+                href="tel:0800-SERP-SOS"
                 className="inline-flex items-center justify-center px-6 py-3 rounded-[var(--radius-md)] border-2 border-[var(--border-medium)] text-[color:var(--text-primary)] font-semibold hover:bg-[var(--surface-elevated)] transition-colors"
               >
-                Direkt anrufen: 06441 8056279
+                Direkt anrufen: {"0800-SERP-SOS"}
               </Link>
             </div>
           </StaggerItem>

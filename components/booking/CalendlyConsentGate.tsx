@@ -71,8 +71,7 @@ export default function CalendlyConsentGate({ children }: CalendlyConsentGatePro
         </div>
         
         <p className="text-base text-[color:var(--text-secondary)] leading-relaxed mb-8">
-          Um unseren digitalen Terminkalender anzuzeigen, benötigen wir Ihre Zustimmung. Wir nutzen <strong>Calendly</strong>, einen externen Dienstleister. Beim Laden werden Marketing-Cookies gesetzt und Verbindungen zu Fremdservern aufgebaut.
-        </p>
+          {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<strong>Calendly</strong>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
 
         <div className="flex flex-col gap-3 w-full">
           <button

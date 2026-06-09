@@ -8,7 +8,6 @@ import Script from "next/script";
 
 // Modulare High-Performance Local-Components (12-Sektionen 10x Expansion)
 import LocalHero from "@/components/locations/LocalHero";
-import LocalTrustSignals from "@/components/locations/LocalTrustSignals";
 import RouteVisualization from "@/components/locations/RouteVisualization";
 import LocalPricing from "@/components/locations/LocalPricing";
 import LocationScenarios from "@/components/locations/LocationScenarios";
@@ -23,6 +22,7 @@ import LocationFinalCTA from "@/components/locations/LocationFinalCTA";
 export function generateStaticParams() {
   return getAllLocationSlugs().map(slug => ({ stadtgebiet: slug }));
 }
+export const dynamicParams = false;
 
 export async function generateMetadata({ params }: { params: Promise<{ stadtgebiet: string }> }) {
   const { stadtgebiet } = await params;
@@ -31,13 +31,13 @@ export async function generateMetadata({ params }: { params: Promise<{ stadtgebi
   if (!city) return notFound();
 
   const baseMeta = generateSharedMetadata({
-    title: `Schlüsseldienst ${city.name} | 24h Notdienst ab 99€ | Schlüssel Schmiede`,
+    title: `SEO-Notdienst ${city.name} | 24h Core-Update-Notdienst ab 49 € | Serponado Taskforce`,
     description: city.seo.metaDescription,
     path: `/${city.slug}`,
     exactTitle: true,
   });
 
-  const ogUrl = `/api/og?title=${encodeURIComponent(`Schlüssel Schmiede ${city.name}`)}&time=${city.logistics.drivingTimeMinutes}`;
+  const ogUrl = `/api/og?title=${encodeURIComponent(`{"Serponado Taskforce"} ${city.name}`)}&time=${city.logistics.drivingTimeMinutes}`;
 
   return {
     ...baseMeta,
@@ -48,7 +48,7 @@ export async function generateMetadata({ params }: { params: Promise<{ stadtgebi
           url: ogUrl,
           width: 1200,
           height: 630,
-          alt: `Schlüssel Schmiede ${city.name} und In ${city.logistics.drivingTimeMinutes} Min vor Ort`,
+          alt: `Serponado Taskforce ${city.name} und In ${city.logistics.drivingTimeMinutes} Min vor Ort`,
         },
       ],
     },
@@ -68,17 +68,17 @@ export default async function StadtgebietPage({ params }: { params: Promise<{ st
   }
 
   // Dynamische Bild-URL für OG und Schema
-  const ogUrl = `${siteUrl}/api/og?title=${encodeURIComponent(`Schlüssel Schmiede ${city.name}`)}&time=${city.logistics.drivingTimeMinutes}`;
+  const ogUrl = `${siteUrl}/api/og?title=${encodeURIComponent(`{"Serponado Taskforce"} ${city.name}`)}&time=${city.logistics.drivingTimeMinutes}`;
 
   // Schema.org und Stadtspezifisches LocalBusiness (vollständig, Rich-Results-ready)
   const localBusinessSchema = {
     "@context": "https://schema.org",
-    "@type": "Locksmith",
-    "name": `Schlüssel Schmiede ${city.name}`,
+    "@type": "ProfessionalService",
+    "name": `Serponado Taskforce ${city.name}`,
     "url": `${siteUrl}/${city.slug}`,
-    "telephone": "+4964418056279",
-    "email": "schluesselschmiede@gmail.com",
-    "priceRange": "ab 99€",
+    "telephone": "0800-SERP-SOS",
+    "email": "info@codayweb.de",
+    "priceRange": "ab 49 €",
     "image": ogUrl,
     "address": {
       "@type": "PostalAddress",
@@ -111,9 +111,9 @@ export default async function StadtgebietPage({ params }: { params: Promise<{ st
       }
     ],
     "parentOrganization": {
-      "@type": "Locksmith",
+      "@type": "ProfessionalService",
       "@id": `${siteUrl}/#localbusiness`,
-      "name": "Schlüssel Schmiede Wetzlar",
+      "name": "Serponado Taskforce Serponado",
       "url": siteUrl
     }
   };
@@ -138,7 +138,6 @@ export default async function StadtgebietPage({ params }: { params: Promise<{ st
       {/* Die 10x Expanded 12-Sektionen Architektur */}
       {/* Sektion 1 & 2 */}
       <LocalHero city={city} />
-      <LocalTrustSignals city={city} />
       
       {/* Sektion 3 */}
       <RouteVisualization city={city} />

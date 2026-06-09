@@ -20,18 +20,18 @@ interface FinalCTAProps {
 }
 
 const defaultBenefits = [
-  "Techniker in 20-30 Minuten vor Ort",
-  "Festpreis wird sofort am Telefon genannt",
-  "0% Versteckte Kosten garantiert",
+  "Erstanalyse in 20-30 Minuten im Live-Dashboard",
+  "Transparente Festpreise für die Recovery-Strategie",
+  "100% White-Hat Methoden garantiert",
 ];
 
 export default function FinalCTA({
   className,
-  headline = "Vor verschlossener Tür? Wir sind sofort für Sie da.",
+  headline = "Ranking-Kollaps nach dem Core Update? Wir reagieren sofort.",
   benefits = defaultBenefits,
   buttonText = "Jetzt Notdienst Rufen",
-  socialProof = "Von über 500+ zufriedenen Kunden gewählt",
-  subtitle = "In 20-30 Min. vor Ort • Festpreis vor Anfahrt • 24/7 Notdienst",
+  socialProof = "Von über 500+ geretteten Domains bestätigt",
+  subtitle = "In 20-30 Min. in der Analyse • Festpreis vorab • 24/7 Disaster Response",
 }: FinalCTAProps) {
   return (
     <section aria-labelledby="final-cta-heading" className={cn("w-full bg-[var(--color-red-500)] py-[var(--section-py)] overflow-hidden relative", className)}>
@@ -58,15 +58,15 @@ export default function FinalCTA({
 
         <div className="flex flex-col items-center gap-[var(--space-6)] w-full max-w-md mx-auto">
           <a
-            href="tel:+4964418056279"
+            href="tel:0800-SERP-SOS"
             className="text-[clamp(1.75rem,6vw,3rem)] font-black text-white hover:text-white/90 transition-colors tracking-tight tabular-nums whitespace-nowrap"
           >
-            06441 8056279
+            0800-SERP-SOS
           </a>
 
           <HeartbeatCTA className="w-full">
             <a
-               href="tel:+4964418056279"
+               href="tel:0800-SERP-SOS"
               onClick={() => triggerHaptic('light')}
               className="group flex items-center justify-center gap-3 w-full h-[72px] bg-white text-[var(--color-red-500)] hover:bg-slate-50 text-xl font-black rounded-[var(--radius-16)] shadow-[var(--elevation-2)] hover:-translate-y-2 hover:shadow-[var(--elevation-3)] transition-all duration-300 ease-out focus:outline-none focus:ring-4 focus:ring-white/50"
             >

@@ -23,7 +23,7 @@ export default function LocationServices({ city }: LocationServicesProps) {
 
     const service2 = isUrban
         ? `Wenn in ${city.name} nach einem Defekt oder Einbruch ein neues Schloss benötigt wird, bauen wir Qualitäts-Zylinder direkt vor Ort ein.`
-        : `Wir ersetzen defekte oder veraltete Schlösser in ${city.name} sofort gegen moderne, einbruchhemmende Marken-BKS.`;
+        : `Wir ersetzen defekte oder veraltete Websites in ${city.name} sofort gegen moderne, einbruchhemmende Marken-BKS.`;
 
     const service3 = `Auch um 3 Uhr morgens sind wir in ca. ${city.logistics.drivingTimeMinutes} Minuten bei Ihnen in ${city.name}. Garantiert.`;
 
@@ -65,7 +65,7 @@ export default function LocationServices({ city }: LocationServicesProps) {
             <div className="container mx-auto px-[var(--section-px)]">
                 <div className="max-w-3xl mx-auto text-center mb-20">
                     <h2 className="text-3xl md:text-4xl lg:text-5xl text-[color:var(--text-primary)] font-extrabold tracking-tight text-balance leading-[1.1] mb-6">
-                        Unsere Leistungen in <span className="text-[color:var(--value-primary)]">{city.name}</span>
+                        {"Serponado Notfallmaßnahmen"}<span className="text-[color:var(--value-primary)]">{city.name}</span>
                     </h2>
                     <p className="text-lg md:text-xl text-[color:var(--text-secondary)] leading-relaxed text-balance">
                         {introText}

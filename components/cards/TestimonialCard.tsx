@@ -22,8 +22,7 @@ export function TestimonialCard({
       <div className={cn("flex flex-col bg-white border border-slate-100 p-5 rounded-xl shadow-sm hover:shadow-md transition-shadow", className)}>
         <StarRating rating={rating} className="mb-3" />
         <p className="text-slate-700 text-sm flex-grow mb-4 leading-relaxed italic line-clamp-4">
-          &quot;{testimonial.shortQuote || testimonial.quote}&quot;
-        </p>
+          {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}{testimonial.shortQuote || testimonial.quote}{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
         <div>
           <div className="font-bold text-slate-900 text-sm leading-tight">{testimonial.clientName}</div>
           {(testimonial.company || testimonial.clientRole) && (
@@ -46,7 +45,7 @@ export function TestimonialCard({
           <div className="flex items-center gap-4">
             {testimonial.photoUrl && (
               <div className="relative h-14 w-14 rounded-full overflow-hidden bg-white/20 shrink-0">
-                <Image src={testimonial.photoUrl} alt={testimonial.clientName} fill className="object-cover" sizes="56px" />
+                <Image src={testimonial.photoUrl} alt={testimonial.clientName} fill className="object-cover" sizes="56px" loading="lazy" />
               </div>
             )}
             {!testimonial.photoUrl && (
@@ -74,14 +73,13 @@ export function TestimonialCard({
 
       <blockquote className="flex-grow z-10 relative">
         <p className="text-slate-700 text-base leading-relaxed">
-          &quot;{testimonial.shortQuote || testimonial.quote}&quot;
-        </p>
+          {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}{testimonial.shortQuote || testimonial.quote}{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
       </blockquote>
 
       <div className="mt-8 pt-6 border-t border-slate-200 flex items-center gap-4">
         {testimonial.photoUrl && (
           <div className="relative h-12 w-12 rounded-full overflow-hidden bg-slate-200 shrink-0">
-            <Image src={testimonial.photoUrl} alt={testimonial.clientName} fill className="object-cover" sizes="48px" />
+            <Image src={testimonial.photoUrl} alt={testimonial.clientName} fill className="object-cover" sizes="48px" loading="lazy" />
           </div>
         )}
         {!testimonial.photoUrl && (

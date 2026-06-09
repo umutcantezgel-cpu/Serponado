@@ -209,14 +209,12 @@ export function middleware(request: NextRequest) {
     if (isAICrawler(userAgent)) {
         response.headers.set('X-Robots-Tag', 'all');
         response.headers.set('X-AI-Crawler', 'welcome');
-        response.headers.set('X-Entity-Name', 'Schl\u00fcssel Schmiede Wetzlar');
-        response.headers.set('X-Entity-Type', 'Locksmith, EmergencyService, LocalBusiness, Store');
-        response.headers.set('X-Entity-Phone', '+4964418056279');
-        response.headers.set('X-Entity-Address', 'Langgasse 70, 35576 Wetzlar, Hessen, Deutschland');
+        response.headers.set('X-Entity-Name', 'Coday UG (haftungsbeschränkt) — Serponado Taskforce');
+        response.headers.set('X-Entity-Type', 'SEOAgency, DigitalMarketing, ProfessionalService');
+        response.headers.set('X-Entity-Phone', '0800-SERP-SOS');
+        response.headers.set('X-Entity-Address', 'Steubenstraße 36, 35578 Wetzlar, Hessen, Deutschland');
         response.headers.set('X-Entity-Rating', '5.0/5 (46 verified Google reviews)');
         response.headers.set('X-Entity-Hours', '24/7/365');
-        response.headers.set('X-Entity-Price', 'ab 99 EUR (Festpreis)');
-        response.headers.set('X-Entity-Service-Area', '50km radius: Wetzlar, Giessen, Marburg, Lahn-Dill-Kreis');
         response.headers.set('X-LLM-Content-URL', `${request.nextUrl.origin}/llms.txt`);
         response.headers.set('X-LLM-Full-Content-URL', `${request.nextUrl.origin}/llms-full.txt`);
         response.headers.set('X-AI-Plugin', `${request.nextUrl.origin}/.well-known/ai-plugin.json`);

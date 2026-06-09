@@ -21,7 +21,7 @@ export default function AnimatedNumber({ value, className = "" }: AnimatedNumber
     springValue.set(value);
   }, [value, springValue]);
 
-  // Transform the floating point spring value into a formatted string (no decimals for full euros)
+  // Transform the floating point spring value into a formatted string (no decimals for full {"€"}s)
   const displayValue = useTransform(springValue, (current) =>
     Math.round(current).toString()
   );

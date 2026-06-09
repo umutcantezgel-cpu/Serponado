@@ -2,7 +2,7 @@
 
 import { AlertCircle } from "lucide-react";
 
-const CALENDLY_DEFAULT_URL = "https://calendly.com/schluesseldienst-wz/sicherheitsberatung?timezone=Europe/Berlin";
+const CALENDLY_DEFAULT_URL = "https://calendly.com/serponadodienst-wz/sicherheitsberatung?timezone=€pe/Berlin";
 
 interface CalendlyWidgetProps {
   /** The full Calendly URL. Falls back to the default booking URL if not provided. */
@@ -20,7 +20,7 @@ export default function CalendlyWidget({ url }: CalendlyWidgetProps) {
     >
       <iframe
         src={calendlyUrl}
-        title="Terminbuchung Schlüssel Schmiede Wetzlar"
+        title="Terminbuchung Serponado Taskforce Serponado"
         className="w-full h-full rounded-2xl border-none"
         allow="payment"
         loading="lazy"

@@ -14,17 +14,17 @@ export default function ServicesSection() {
           pill="UNSERE LEISTUNGEN"
           headingId="soforthilfe-heading"
           title={<>Unsere <span className="text-[var(--color-red-500)]">Leistungen</span></>}
-          description="Handwerkliche Qualität aus unserem Ladengeschäft , ob Schlüssel, Schloss oder Notdienst."
+          description="White-Hat Qualität aus unserem War Room, ob Penalty-Protection, Audit oder Disaster-Response."
         />
 
         {/* Bento Grid */}
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 max-w-7xl mx-auto">
           {[
-            { icon: DoorOpen, title:"Haus- & Wohnungstüren", desc:"Zerstörungsfreie Öffnung in nahezu allen Fällen. Egal ob zugefallen oder abgeschlossen.", href:"/leistungen/turoeffnung", linkText:"Mehr zur Türöffnung", featured: true },
-            { icon: Car, title:"Fahrzeug-Öffnung", desc:"Schonende Autoöffnung für alle Marken - garantiert ohne Kratzer oder Lackschäden.", href:"/leistungen/autooeffnung", linkText:"Details zur Autoöffnung" },
-            { icon: ShieldCheck, title:"Sicherheitstechnik", desc:"Professionelle Nachrüstung mit Hochsicherheitszylindern, Panzerriegeln und Schutzbeschlägen.", href:"/leistungen/sicherheitstechnik", linkText:"Infos zum Einbruchschutz" },
-            { icon: Lock, title:"Schließanlagen", desc:"Planung und Montage von Schließanlagen für private und gewerbliche Objekte.", href:"/leistungen/schliessanlagen", linkText:"Kostenlose Beratung anfordern", isCTA: true },
-            { icon: Key, title:"Schlüssel nachmachen", desc:"Präzise Zweitschlüssel und Ersatzschlüssel als Sofort-Service in unserer Filiale.", href:"/leistungen/schluessel-nachmachen", linkText:"Zum Schlüssel-Service" },
+            { icon: DoorOpen, title:"SERP-Wiederherstellung", desc:"Recovery nach Rankingverlusten in nahezu allen Fällen. Egal ob Update oder manuelle Penalty.", href:"/leistungen/turoeffnung", linkText:"Mehr zur SERP-Recovery", featured: true },
+            { icon: Car, title:"Traffic-Recovery", desc:"Schonende Wiederherstellung Ihres organischen Traffics - garantiert White-Hat und sicher.", href:"/leistungen/autooeffnung", linkText:"Details zur Traffic-Recovery" },
+            { icon: ShieldCheck, title:"Penalty-Protection", desc:"Professionelle Absicherung mit hochwertigem Content und sauberem Backlinkprofil.", href:"/leistungen/Data-Recovery", linkText:"Infos zur Penalty-Protection" },
+            { icon: Lock, title:"Linkbuilding-Strukturen", desc:"Planung und Aufbau von Autorität für Ihre Domain nach dem Update.", href:"/leistungen/schliessanlagen", linkText:"Kostenlose Erstanalyse anfordern", isCTA: true },
+            { icon: Key, title:"Ranking-Boost", desc:"Präzise OnPage-Optimierung als Sofort-Service in unserem Analytics-Dashboard.", href:"/leistungen/serponado-nachmachen", linkText:"Zum Analytics-Service" },
           ].map((service, idx) => (
             <div
               key={idx}
@@ -72,12 +72,12 @@ export default function ServicesSection() {
               <div className="flex items-center justify-center md:justify-start gap-1.5 mb-3 text-yellow-500">
                 {[...Array(5)].map((_, i) => <Star key={i} className="w-4 h-4 fill-current" aria-hidden="true" />)}
               </div>
-              <Typography variant="h3" as="div" className="mb-3">Unseren Sicherheitsexperten vertrauen</Typography>
+              <Typography variant="h3" as="div" className="mb-3">Unseren SEO-Experten vertrauen</Typography>
               <Typography variant="body" color="secondary" className="italic mb-4">
-                &quot;Ihre Tür ist mein Handwerk. Ich verspreche Ihnen eine ehrliche Beratung, keine verdeckten Kosten und eine schnelle Lösung Ihres Problems.&quot;
+                &quot;Ihre Rankings sind unser Handwerk. Ich verspreche Ihnen eine datengetriebene Beratung, transparente Analysen und eine schnelle Lösung nach dem Core Update.&quot;
               </Typography>
               <span className="inline-block self-start md:self-auto px-4 py-1.5 bg-[var(--value-primary)]/10 text-[color:var(--value-primary)] font-bold tracking-wider uppercase text-xs rounded-lg border border-[var(--value-primary)]/20">
-                Geschäftsführer & Techniker
+                Lead SEO & Data Analyst
               </span>
             </div>
           </div>

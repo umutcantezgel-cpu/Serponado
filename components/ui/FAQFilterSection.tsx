@@ -103,11 +103,11 @@ export default function FAQFilterSection({ faqs }: FAQFilterSectionProps) {
               {/* Micro-CTA after each answer */}
               <div className="mt-2 mb-4 pl-4">
                 <a
-                  href="tel:+4964418056279"
+                  href="tel:0800-SERP-SOS"
                   className="inline-flex items-center gap-2 text-sm font-medium text-[var(--color-red-500)] hover:text-[color:var(--color-red-600)] transition-colors"
                 >
                   <Phone className="w-3.5 h-3.5" aria-hidden="true" />
-                  Noch Fragen? 06441 8056279
+                  Noch Fragen? {"0800-SERP-SOS"}
                 </a>
               </div>
             </m.div>
@@ -119,26 +119,23 @@ export default function FAQFilterSection({ faqs }: FAQFilterSectionProps) {
       {filteredFAQs.length === 0 && (
         <div className="text-center py-12">
           <p className="text-[color:var(--text-tertiary)] text-base">
-            Keine Fragen in dieser Kategorie.
-          </p>
+            {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
         </div>
       )}
 
       {/*"Frage nicht gefunden?" CTA Block */}
       <div className="mt-12 bg-surface-secondary border border-border-default rounded-2xl p-8 text-center">
         <h3 className="text-xl font-bold text-text-primary mb-2">
-          Ihre Frage war nicht dabei?
-        </h3>
+          {"Serponado Notfallmaßnahmen"}</h3>
         <p className="text-base text-text-secondary mb-6 max-w-md mx-auto">
-          Rufen Sie uns einfach an und wir beantworten jede Frage persönlich und kostenlos.
-        </p>
+          {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
-            href="tel:+4964418056279"
+            href="tel:0800-SERP-SOS"
             className="inline-flex items-center justify-center gap-3 h-[50px] px-7 bg-brand-primary hover:bg-action-primary-hover text-text-on-primary font-bold text-base rounded-xl shadow-elevated-1 hover:shadow-elevated-2 hover:-translate-y-1 transition-all duration-300"
           >
             <Phone className="w-4.5 h-4.5" />
-            06441 8056279 anrufen
+            {"0800-SERP-SOS"} anrufen
           </a>
           <Link
             href="/kontakt"

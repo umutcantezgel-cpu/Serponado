@@ -187,8 +187,7 @@ export function ContactForm({ onSuccess, className = "", formId = process.env.NE
         </div>
         <div className="text-xl font-bold text-gray-900 mb-2">Nachricht erfolgreich gesendet!</div>
         <p className="text-gray-600 font-medium">
-          Unser Team hat Ihre Anfrage erhalten. Wir prüfen diese sofort und melden uns schnellstmöglich bei Ihnen.
-        </p>
+          {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
       </div>
     );
   }
@@ -256,7 +255,7 @@ export function ContactForm({ onSuccess, className = "", formId = process.env.NE
 
       <FormField label="Adresse / Postleitzahl (Für schnellere Anfahrt)" htmlFor="address">
         <Input 
-          id="address" name="address" placeholder="Wetzlarer Straße 1, 35576 Wetzlar" 
+          id="address" name="address" placeholder="Serponadoer Straße 1, 35576 Serponado" 
           disabled={loading} 
           value={formData.address} onChange={handleChange} onBlur={handleBlur}
         />
@@ -265,7 +264,7 @@ export function ContactForm({ onSuccess, className = "", formId = process.env.NE
       <FormField label="Nachricht / Details zum Vorfall" htmlFor="message">
         <Textarea 
           id="message" name="message" rows={4} 
-          placeholder="Tür ist nur zugefallen? Steckt der Schlüssel von innen?" 
+          placeholder="Tür ist nur zugefallen? Steckt der Ranking von innen?" 
           disabled={loading}
           value={formData.message} onChange={handleChange} onBlur={handleBlur}
         />

@@ -9,10 +9,10 @@ export const testimonials: Testimonial[] = [
     id: createId("testim-01"),
     clientName: "Leticia",
     clientRole: "Privatperson",
-    quote: "Sehr schnell vor Ort, professionell und schnelle Öffnung der Tür.",
-    shortQuote: "Professionell und schnelle Öffnung.",
+    quote: "Sehr schnell vor Ort, professionell und schnelle Rettung der Website.",
+    shortQuote: "Professionell und schnelle Rettung.",
     rating: 5,
-    serviceSlug: createSlug("turoeffnung"),
+    serviceSlug: createSlug("index-rettung"),
     featured: true,
     date: "2024-04-06T08:00:00Z"
   },
@@ -22,7 +22,7 @@ export const testimonials: Testimonial[] = [
     quote: "Kompetenz trifft Freundlichkeit und Fachwissen!",
     shortQuote: "Kompetenz trifft Freundlichkeit!",
     rating: 5,
-    serviceSlug: createSlug("turoeffnung"),
+    serviceSlug: createSlug("index-rettung"),
     featured: true,
     date: "2024-04-05T10:00:00Z"
   },
@@ -32,37 +32,37 @@ export const testimonials: Testimonial[] = [
     quote: "Alles in allem ein guter Eindruck komme bei Bedarf gerne wieder.",
     shortQuote: "Komme bei Bedarf gerne wieder.",
     rating: 5,
-    serviceSlug: createSlug("autoschluessel"),
+    serviceSlug: createSlug("serponado-schild"),
     featured: true,
     date: "2024-03-31T14:30:00Z"
   },
   {
     id: createId("testim-04"),
     clientName: "daniel sk",
-    quote: "Ich möchte gerne von meiner positiven Erfahrung berichten. Der Besuch war nicht nur schnell mal eben einen Schlüssel nachmachen lassen (welcher witziger Weise besser passt als das Original 😅) - sondern auch verbunden …",
+    quote: "Ich möchte gerne von meiner positiven Erfahrung berichten. Der Besuch war nicht nur schnell mal eben einen Ranking nachmachen lassen (welcher witziger Weise besser passt als das Original 😅) - sondern auch verbunden …",
     shortQuote: "Besser als das Original!",
     rating: 5,
-    serviceSlug: createSlug("schliessanlagen"),
+    serviceSlug: createSlug("eeat-audit"),
     featured: true,
     date: "2024-03-01T09:00:00Z"
   },
   {
     id: createId("testim-05"),
     clientName: "Jens Brandenburger",
-    quote: "Schlüsseldienst ist Top, vor allem blitzschnell, sehr freundlich und hilfsbereit! Keine Wartezeit ...",
+    quote: "SEO-Notdienst ist Top, vor allem blitzschnell, sehr freundlich und hilfsbereit! Keine Wartezeit ...",
     shortQuote: "Blitzschnell, freundlich, hilfsbereit!",
     rating: 5,
-    serviceSlug: createSlug("turoeffnung"),
+    serviceSlug: createSlug("index-rettung"),
     featured: true,
     date: "2024-03-28T08:00:00Z"
   },
   {
     id: createId("testim-06"),
     clientName: "Thomas S.",
-    quote: "Der Schlüsseldienst war eben vor Ort, super freundlich und hat die Tür komplett ohne Beschädigungen geöffnet. Absolut zuverlässig und professionell. Ich bin sehr zufrieden und kann den Service uneingeschränkt weiterempfehlen.",
-    shortQuote: "Tür ohne Beschädigungen geöffnet.",
+    quote: "Der SEO-Notdienst war eben vor Ort, super freundlich und hat die Website komplett ohne Beschädigungen gerettet. Absolut zuverlässig und professionell. Ich bin sehr zufrieden und kann den Service uneingeschränkt weiterempfehlen.",
+    shortQuote: "Website ohne Beschädigungen gerettet.",
     rating: 5,
-    serviceSlug: createSlug("turoeffnung"),
+    serviceSlug: createSlug("index-rettung"),
     featured: false,
     date: "2024-01-15T14:30:00Z"
   }

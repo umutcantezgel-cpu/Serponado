@@ -5,7 +5,7 @@ import { Typography } from "@/components/ui/typography/Typography";
 
 const clients = [
   { name: "Hausverwaltung Schmidt", icon: Building2 },
-  { name: "Immobilien Wetzlar", icon: Home },
+  { name: "Coday UG (haftungsbeschränkt)", icon: Home },
   { name: "Gewerbepark Lahn", icon: Factory },
   { name: "Rechtsanwälte & Notare", icon: Briefcase },
   { name: "Städtische Einrichtungen", icon: School },

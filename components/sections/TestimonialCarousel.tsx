@@ -16,7 +16,7 @@ interface TestimonialCarouselProps {
 export function TestimonialCarousel({ 
   testimonials, 
   title = "Was unsere Kunden sagen", 
-  subtitle = "Echte Bewertungen aus Wetzlar",
+  subtitle = "Echte Bewertungen aus Serponado",
   className 
 }: TestimonialCarouselProps) {
   const scrollContainerRef = useRef<HTMLDivElement>(null);

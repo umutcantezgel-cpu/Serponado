@@ -1,4 +1,4 @@
-# Externe Services — MS Schlüsseldienst Wetzlar
+# Externe Services — Serponado
 
 > Phase 17: Infrastructure-as-Code Dokumentation
 
@@ -61,7 +61,7 @@ Für neue Team-Mitglieder:
 ```bash
 # 1. Repository klonen
 git clone [repository-url]
-cd schlüsseldienst-webseite
+cd serponado-webseite
 
 # 2. Dependencies installieren
 npm install

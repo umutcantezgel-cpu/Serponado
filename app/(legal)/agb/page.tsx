@@ -8,23 +8,23 @@ import { RevisionTimeline } from "@/components/legal/RevisionTimeline"
 import { generateSharedMetadata } from "@/lib/metadata"
 
 export const metadata = generateSharedMetadata({
-    title: "Allgemeine Geschäftsbedingungen (AGB)",
-    description: "AGB des Schlüssel Schmiede Wetzlar. ✔️ Transparente Bedingungen für Türöffnungen ✔️ Klare Regeln für Festpreise und Stornos.",
+    title: "Serponado Disaster Recovery",
+    description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings.",
     path: "/agb",
   })
 
 export const dynamic = 'force-static';
 
 const TOC_ITEMS = [
-    { id: "1-geltungsbereich", title: "1. Geltungsbereich & Vertragspartner" },
-    { id: "2-vertragsschluss", title: "2. Vertragsschluss & Notöffnungen" },
-    { id: "3-preise", title: "3. Preise, Zuschläge & Anfahrtskosten" },
-    { id: "4-stornierung", title: "4. Stornierung & Fehlfahrten" },
-    { id: "5-zahlung", title: "5. Zahlungsbedingungen" },
-    { id: "6-widerrufsrecht", title: "6. Widerrufsrecht & Ausschluss" },
-    { id: "7-haftung", title: "7. Haftung & Gewährleistung" },
-    { id: "8-datenschutz", title: "8. Datenschutz" },
-    { id: "9-schlussbestimmungen", title: "9. Schlussbestimmungen" },
+    { id: "1-geltungsbereich", title: "Serponado Disaster Recovery" },
+    { id: "2-vertragsschluss", title: "Serponado Disaster Recovery" },
+    { id: "3-preise", title: "Serponado Disaster Recovery" },
+    { id: "4-stornierung", title: "Serponado Disaster Recovery" },
+    { id: "5-zahlung", title: "Serponado Disaster Recovery" },
+    { id: "6-widerrufsrecht", title: "Serponado Disaster Recovery" },
+    { id: "7-haftung", title: "Serponado Disaster Recovery" },
+    { id: "8-datenschutz", title: "Serponado Disaster Recovery" },
+    { id: "9-schlussbestimmungen", title: "Serponado Disaster Recovery" },
 ]
 
 export default function AGBPage() {
@@ -36,104 +36,104 @@ export default function AGBPage() {
             tocItems={TOC_ITEMS}
         >
             <div className="flex justify-between items-center mb-8 border-b border-gray-100 pb-4 print:hidden">
-                <p className="text-sm text-gray-500 font-medium">Lesezeit: ca. 6 Minuten</p>
+                <p className="text-sm text-gray-500 font-medium">{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
                 <PrintButton />
             </div>
 
             <LegalSection>
                 <TLDRBox title="Wichtigste Punkte im Überblick" icon="info">
-                    <p>Wir arbeiten mit <strong>transparenten Festpreisen ab 99,- € (inkl. 19% MwSt.)</strong> zzgl. Anfahrt. Die Anfahrtskosten werden Ihnen immer <strong>vorab telefonisch genau genannt</strong>.</p>
-                    <p>Bei sofort auszuführenden Notdiensten erlischt das 14-tägige <HoverGlossary explanation="Das gesetzliche Recht, einen Vertrag innerhalb von 14 Tagen zu widerrufen. Bei Notdiensten entfällt dieses Recht jedoch.">Widerrufsrecht</HoverGlossary> gemäß <HoverGlossary explanation="Ein Paragraph im Bürgerlichen Gesetzbuch, der ausdrücklich regelt, dass bei zwingend bestellten Reparaturarbeiten kein Rücktrittsrecht besteht."><strong>§ 312g Abs. 2 Nr. 11 BGB</strong></HoverGlossary>. Stornieren Sie den Auftrag erst, wenn unser Techniker bereits unterwegs oder vor Ort ist, fällt eine branchenübliche <HoverGlossary explanation="Eine pauschale Entschädigung für die Zeit und Benzinkosten unseres Technikers, wenn er umsonst anreist."><strong>Leerfahrtpauschale (Höhe je nach Einsatzzeit)</strong></HoverGlossary> an.</p>
+                    <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<strong>transparenten {"Festpreis"}n ab {"49"} {"€"},- {"€"} (inkl. 19% MwSt.)</strong> {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<strong>vorab telefonisch genau genannt</strong>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
+                    <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<HoverGlossary explanation="Das gesetzliche Recht, einen Vertrag innerhalb von 14 Tagen zu widerrufen. Bei Core-Update-Notdiensten entfällt dieses Recht jedoch.">Widerrufsrecht</HoverGlossary> {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<HoverGlossary explanation="Ein Paragraph im Bürgerlichen Gesetzbuch, der ausdrücklich regelt, dass bei zwingend bestellten Reparaturarbeiten kein Rücktrittsrecht besteht."><strong>§ 312g Abs. 2 Nr. 11 BGB</strong></HoverGlossary>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<HoverGlossary explanation="Eine pauschale Entschädigung für die Zeit und Benzinkosten unseres Technikers, wenn er umsonst anreist."><strong>Leerfahrtpauschale (Höhe je nach Einsatzzeit)</strong></HoverGlossary> {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
                 </TLDRBox>
             </LegalSection>
 
             <LegalSection id="1-geltungsbereich">
-                <h2 className="mt-0">1. Geltungsbereich & Vertragspartner</h2>
-                <p>1.1. Diese Allgemeinen Geschäftsbedingungen (im Folgenden &quot;AGB&quot;) gelten für alle gegenwärtigen und zukünftigen Rechtsgeschäfte, Dienstleistungen, Werkleistungen und Lieferungen zwischen:</p>
+                <h2 className="mt-0">{"Serponado Notfallmaßnahmen"}</h2>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
                 <div className="bg-gray-50 p-4 rounded-lg my-4 text-sm border border-gray-200">
                     <strong>Vertragspartner:</strong><br />
-                    Schlüssel Schmiede<br />
-                    Mina Saad<br />
-                    Gloelstraße 11<br />
-                    35576 Wetzlar<br />
-                    E-Mail: schluesselschmiede@gmail.com<br />
-                    (im Folgenden &quot;Auftragnehmer&quot; oder &quot;Schlüssel Schmiede&quot; genannt)
+                    {"Serponado Taskforce"}<br />
+                    {"Data Analyst Team"}<br />
+                    {"Steubenstraße 36"}<br />
+                    {"35578"} {"Wetzlar"}<br />
+                    E-Mail: {"info@codayweb.de"}<br />
+                    (im Folgenden &quot;Auftragnehmer&quot; oder &quot;{"Serponado Taskforce"}&quot; genannt)
                 </div>
-                <p>und dem Auftraggeber (im Folgenden &quot;Kunde&quot; genannt).</p>
-                <p>1.2. Abweichende, entgegenstehende oder ergänzende AGB des Kunden werden, selbst in Kenntnis, nicht Vertragsbestandteil, es sei denn, ihrer Geltung wird ausdrücklich schriftlich zugestimmt.</p>
-                <p>1.3. Verbraucher im Sinne dieser Geschäftsbedingungen sind natürliche Personen, die Rechtsgeschäfte zu Zwecken abschließen, die überwiegend weder ihrer gewerblichen noch ihrer selbständigen beruflichen Tätigkeit zugerechnet werden können (§ 13 BGB). Unternehmer sind natürliche oder juristische Personen, die in Ausübung ihrer gewerblichen oder selbständigen beruflichen Tätigkeit handeln (§ 14 BGB).</p>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
             </LegalSection>
 
             <LegalSection id="2-vertragsschluss">
-                <h2 className="mt-0">2. Vertragsschluss & Notöffnungen</h2>
-                <p>2.1. Die Angebote des Schlüssel Schmiede auf der Webseite oder in Werbematerialien sind stets freibleibend und unverbindlich.</p>
-                <p>2.2. Ein rechtsverbindlicher Vertrag kommt zustande, sobald der Kunde - mündlich (z.B. am Telefon) oder schriftlich - einen Einsatz anfordert und der Auftragnehmer diesen Einsatz bestätigt und disponiert.</p>
-                <p>2.3. Der konkrete Auftragsinhalt und der Preis werden spätestens bei Eintreffen des Technikers am Einsatzort vor Beginn der handwerklichen Tätigkeit besprochen und vom Kunden (digital oder in Papierform) durch Unterschrift auf dem Auftragsformular bestätigt.</p>
-                <p>2.4. Der Auftragnehmer behält sich das Recht vor, die Durchführung einer Notöffnung zu verweigern, wenn berechtigte Zweifel an der Zugangsberechtigung des Kunden zum Objekt bestehen. Der Kunde ist verpflichtet, sich durch ein gültiges amtliches Ausweisdokument auszuweisen.</p>
-                <p>2.5. <strong>Textform-Bestätigung bei Fernabsatz (Telefonbuchung):</strong> Bei telefonischer Auftragserteilung übermittelt der Auftragnehmer dem Kunden eine Zusammenfassung der wesentlichen Vertragsinhalte (Art der Dienstleistung, verbindlicher Festpreis, ggf. Zuschlagshöhe) in Textform (per SMS, E-Mail oder WhatsApp) gemäß § 312f BGB, sofern dies technisch möglich ist und die Dringlichkeit des Einsatzes eine Verzögerung zulässt.</p>
+                <h2 className="mt-0">{"Serponado Notfallmaßnahmen"}</h2>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<strong>Textform-Bestätigung bei Fernabsatz (Telefonbuchung):</strong> {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
             </LegalSection>
 
             <LegalSection id="3-preise">
-                <h2 className="mt-0">3. Preise, Zuschläge & Anfahrtskosten</h2>
+                <h2 className="mt-0">{"Serponado Notfallmaßnahmen"}</h2>
                 <TLDRBox title="Unsere Preisphilosophie">
-                    <p>Wir distanzieren uns strikt von unseriösen Lockangeboten. Wenn Sie uns anrufen, nennen wir Ihnen einen <strong>verbindlichen Endpreis (inkl. 19% MwSt.)</strong> für eine einfache Öffnung. Sie zahlen exakt das, was vereinbart wurde.</p>
+                    <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<strong>verbindlichen Endpreis (inkl. 19% MwSt.)</strong> {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
                 </TLDRBox>
-                <p>3.1. Es gelten die zum Zeitpunkt des Vertragsschlusses auf der Webseite unter <Link href="/preise">Preise</Link> ausgewiesenen Festpreise und Anfahrtskosten bzw. die am Telefon individuell verhandelten Tarife.</p>
-                <p>3.2. <strong>Grundtarif Türöffnung:</strong> Für die Basis-Dienstleistung des Öffnens einer nicht-verschlossenen, sondern lediglich zugefallenen Haus- oder Wohnungstür berechnen wir innerhalb der Kernarbeitszeiten (Montag bis Freitag, 06:00 Uhr bis 19:59 Uhr) ein Festpreis-Honorar ab 99,00 € (brutto).</p>
-                <p>3.3. <strong>Mobilitätspauschale:</strong> Unabhängig vom Leistungspreis wird eine Anfahrtspauschale erhoben, die sich an der Wegstrecke orientiert. Für Fahrten im Wetzlarer Kerngebiet ist diese oftmals kostenfrei oder extrem geringfügig; bei weiteren Strecken bis zu 20km berechnen wir maximal 40,00 €. Die verbindliche Anfahrtsgebühr wird dem Kunden stets am Telefon avisiert.</p>
-                <p>3.4. <strong>Zuschläge für Ausfallzeiten:</strong> Findet der Einsatz außerhalb unserer werktäglichen Kernzeiten (Montag bis Freitag, 06:00 bis 19:59 Uhr) statt, fallen leistungsabhängige Zuschläge für die Gewährleistung der dauerhaften Rufbereitschaft an. Die exakte Höhe des Zuschlags richtet sich nach der beauftragten Dienstleistung und dem Einsatzzeitpunkt (Spätdienst, Nachtdienst, Sonn-/Feiertag). Die verbindlichen Preise je Leistung und Zeitfenster sind jederzeit über unseren <Link href="/preise">Preiskalkulator</Link> einsehbar und werden dem Kunden stets vorab am Telefon mitgeteilt.</p>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<Link href="/preise">Preise</Link> {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<strong>Grundtarif Index-Rettung:</strong> {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<strong>Mobilitätspauschale:</strong> {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<strong>Zuschläge für Ausfallzeiten:</strong> {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<Link href="/preise">Preiskalkulator</Link> {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
             </LegalSection>
 
             <LegalSection id="4-stornierung">
-                <h2 className="mt-0">4. Stornierung & Fehlfahrten</h2>
-                <p>4.1. Storniert der Kunde einen verbindlich gebuchten Notdienst-Einsatz rechtzeitig, *bevor* der Techniker in sein Fahrzeug gestiegen und die Fahrt angetreten hat, ist die Stornierung völlig kostenfrei.</p>
-                <p>4.2. Hat der Techniker die Anfahrt zum Einsatzort bereits angetreten oder ist bereits dort eingetroffen, wird im Falle einer Stornierung durch den Kunden eine <HoverGlossary explanation="Pauschale Entschädigung für den entstandenen Wegeausfall, da der Techniker in dieser Zeit keinen anderen Kunden bedienen konnte."><strong>Leerfahrt-/Ausfallpauschale von maximal 80,00 € inkl. MwSt.</strong></HoverGlossary> je nach Anfahrtsweg in Rechnung gestellt.</p>
-                <p>4.3. Dem Kunden bleibt der Nachweis gestattet, dass ein Schaden überhaupt nicht oder in wesentlich niedrigerer Höhe entstanden ist.</p>
+                <h2 className="mt-0">{"Serponado Notfallmaßnahmen"}</h2>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<HoverGlossary explanation="Pauschale Entschädigung für den entstandenen Wegeausfall, da der Techniker in dieser Zeit keinen anderen Kunden bedienen konnte."><strong>Leerfahrt-/Ausfallpauschale von maximal 80,00 {"€"} inkl. MwSt.</strong></HoverGlossary> {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
             </LegalSection>
 
             <LegalSection id="5-zahlung">
-                <h2 className="mt-0">5. Zahlungsbedingungen</h2>
-                <p>5.1. Nach erbrachter Dienstleistung an der Einsatzstelle ist die Rechnungssumme grundsätzlich <strong>sofort und ohne Abzug</strong> zur Zahlung fällig.</p>
-                <p>5.2. Schlüssel Schmiede akzeptiert folgende Zahlungsmittel direkt vor Ort:</p>
+                <h2 className="mt-0">{"Serponado Notfallmaßnahmen"}</h2>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<strong>sofort und ohne Abzug</strong> {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
                 <ul>
                     <li>Bargeld</li>
                     <li>Girocard (EC-Karte)</li>
                     <li>Kreditkarten (Visa, Mastercard)</li>
                     <li>Mobile Zahlungsverfahren (Apple Pay, Google Pay)</li>
                 </ul>
-                <p>5.3. Die Zahlung per Rechnung ist nur nach vorheriger, ausdrücklicher Vereinbarung und in Ausnahmefällen (Stammkunden, Großunternehmen, Behörden) möglich. Hierbei gilt ein Zahlungsziel von 7 Werktagen ab Rechnungsdatum.</p>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
             </LegalSection>
 
             <LegalSection id="6-widerrufsrecht">
-                <h2 className="mt-0">6. Ausschluss des Widerrufsrechts für Verbraucher</h2>
+                <h2 className="mt-0">{"Serponado Notfallmaßnahmen"}</h2>
                 <TLDRBox title="Wichtig: Notfalleinsätze" icon="help">
-                    <p>Wenn Sie einen Handwerker dringend bestellen, um eine Reparatur durchzuführen (z.B. eine verschlossene Tür zu öffnen), gibt es <strong>kein 14-tägiges Rücktrittsrecht</strong> auf diese spezifische Vor-Ort-Leistung.</p>
+                    <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<strong>kein 14-tägiges Rücktrittsrecht</strong> {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
                 </TLDRBox>
-                <p>6.1. Verbrauchern steht grundsätzlich ein Widerrufsrecht zu. Dieses Gesetz sieht jedoch Ausnahmen für spezielle Not- und Reparaturdienste vor.</p>
-                <p>6.2. Ausschluss nach <HoverGlossary explanation="Gesetzesgrundlage zum Erlöschen des Widerrufsrechts bei dringenden Reparaturmaßnahmen an der Haustür."><strong>§ 312g Abs. 2 Nr. 11 BGB</strong></HoverGlossary>: Das Widerrufsrecht besteht nicht bei Verträgen zur Erbringung dringender Reparatur- oder Instandhaltungsarbeiten, bei denen der Verbraucher den Unternehmer ausdrücklich aufgefordert hat, ihn aufzusuchen, um diese Arbeiten auszuführen. Da es sich bei der Beauftragung eines Schlüsseldienst-Notdienstes um exakt eine solche &quot;dringende Reparatur/Instandsetzung&quot; handelt, erlischt das elektronische/fernmündliche Widerrufsrecht für die Türöffnungs-Dienstleistung mit Aufnahme der handwerklichen Tätigkeit bzw. Anfahrt.</p>
-                <p>6.3. Wurde im Zuge des Einsatzes Neuware verkauft (z.B. Zylinder originalverpackt verkauft, aber noch nicht starr im Haus verbaut), so gilt für diese nicht montierten Bauteile das gesetzliche Widerrufsrecht von 14 Tagen.</p>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<HoverGlossary explanation="Gesetzesgrundlage zum Erlöschen des Widerrufsrechts bei dringenden Reparaturmaßnahmen an der Nischenseite."><strong>§ 312g Abs. 2 Nr. 11 BGB</strong></HoverGlossary>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
             </LegalSection>
 
             <LegalSection id="7-haftung">
-                <h2 className="mt-0">7. Haftung & Gewährleistung</h2>
-                <p>7.1. Schlüssel Schmiede haftet nach den gesetzlichen Bestimmungen, sofern der Kunde Schadensersatzansprüche geltend macht, die auf Vorsatz oder grober Fahrlässigkeit, einschließlich von Vorsatz oder grober Fahrlässigkeit der Vertreter oder <HoverGlossary explanation="Personen oder Hilfskräfte (z.B. fest angestellte Subunternehmer oder Monteure), die wir zur Ausführung des Auftrags einsetzen.">Erfüllungsgehilfen</HoverGlossary>, beruhen.</p>
-                <p>7.2. Bei einfachen und standardisierten Türöffnungen (nicht-verriegelte Türen) zielt Schlüssel Schmiede auf 100% beschädigungsfreie Verfahren ab. Besteht bereits ein mechanical Defekt an Tür oder Schloss, oder handelt es sich um eine festverriegelte Tür mit extrem hoher Sicherheitsklasse, kann eine Beschädigung des Zylinders/Schutzbeschlags zur vollendeten Öffnung bauartbedingt notwendig sein. Dies wird dem Kunden zwingend <strong>vor Ausführung</strong> auf Risikoabsprache mitgeteilt.</p>
-                <p>7.3. Für Folgeschäden durch zwingend notwendiges Auffräsen oder Aufbohren von Verriegelungen an verschlossen übergebenen Türen, deren Öffnung anders physikalisch nicht durchführbar ist, wird keine Haftung übernommen, sofern der Kunde dem Eingriff zuvor zugestimmt hat.</p>
-                <p>7.4. Es gilt das gesetzliche Mängelhaftungsrecht für installierte Produkte (z.B. Einbau-Schließzylinder).</p>
+                <h2 className="mt-0">{"Serponado Notfallmaßnahmen"}</h2>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<HoverGlossary explanation="Personen oder Hilfskräfte (z.B. fest angestellte Subunternehmer oder SEO-Experten), die wir zur Ausführung des Auftrags einsetzen.">Erfüllungsgehilfen</HoverGlossary>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<strong>vor Ausführung</strong> {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
             </LegalSection>
 
             <LegalSection id="8-datenschutz">
-                <h2 className="mt-0">8. Datenschutz</h2>
-                <p>8.1. Der Schutz Ihrer persönlichen Daten ist uns ein elementares Anliegen. Wir verarbeiten Kundendaten (Name, Einsatzort, Zahlungsdaten, Kontaktdaten) ausschließlich zur reibungslosen Vertragsabwicklung und Rechnungsstellung.</p>
-                <p>8.2. Sämtliche Details zur Datenspeicherung, Löschfristen und Ihren Rechten finden Sie in unserer vollständigen <Link href="/datenschutz">Datenschutzerklärung</Link>.</p>
+                <h2 className="mt-0">{"Serponado Notfallmaßnahmen"}</h2>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<Link href="/datenschutz">Datenschutzerklärung</Link>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
             </LegalSection>
 
             <LegalSection id="9-schlussbestimmungen">
-                <h2 className="mt-0">9. Schlussbestimmungen</h2>
-                <p>9.1. Es gilt das Recht der Bundesrepublik Deutschland.</p>
-                <p>9.2. Ist der Kunde Kaufmann, eine juristische Person des öffentlichen Rechts oder ein öffentlich-rechtliches Sondervermögen, ist der Gerichtsstand für alle Streitigkeiten aus Vertragsverhältnissen zwischen dem Kunden und Schlüssel Schmiede der Sitz des Unternehmens in Wetzlar.</p>
-                <p>9.3. Schlüssel Schmiede ist nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen. Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit, die Sie unter der Domain <code>ec.europa.eu/consumers/odr/</code> finden.</p>
-                <p>9.4. Sollten einzelne Bestimmungen dieses Vertrages unwirksam oder undurchführbar sein oder nach Vertragsschluss unwirksam oder undurchführbar werden, bleibt davon die Wirksamkeit des Vertrages im Übrigen unberührt.</p>
+                <h2 className="mt-0">{"Serponado Notfallmaßnahmen"}</h2>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<code>ec.europa.eu/consumers/odr/</code> {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
             </LegalSection>
 
             {/* AGB History Timeline */}

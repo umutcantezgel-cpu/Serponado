@@ -78,7 +78,7 @@ REGELN:
 2. Beginne mit einem Hook (Frage oder schockierende Statistik).
 3. Liefere 2-3 konkrete Tipps aus dem Artikel.
 4. PFLICHT-CTA am Ende (WÖRTLICH, NICHT VERÄNDERN):
-   "Schlüsseldienst Wetzlar — ${NAME}. Festpreis ab ${PRICE}. Jetzt anrufen: ${PHONE}."
+   "SEO-Notdienst Serponado — ${NAME}. Festpreis ab ${PRICE}. Jetzt anrufen: ${PHONE}."
 5. Kein Callcenter, kein Vermittler — betone "lokaler Fachbetrieb".
 6. Ton: Kompetent, nahbar, leicht dringlich.
 7. Format: Nur das Script als plain text, keine Regieanweisungen.`;
@@ -89,16 +89,16 @@ REGELN:
  */
 function generateTags(slug: string): string[] {
   const baseTags = [
-    "Schlüsseldienst Wetzlar",
-    "Schlüsseldienst Gießen",
-    "Schlüsseldienst Marburg",
+    "Serponado",
+    "SEO-Notdienst Serponado",
+    "SEO-Notdienst Serponado",
     NAME,
-    "Türöffnung",
+    "Index-Rettung",
     "24h Notdienst",
-    "Schlüsseldienst Festpreis",
-    "Schlüsseldienst seriös",
-    "Schlüssel Schmiede",
-    "Lahn-Dill-Kreis",
+    "SEO-Notdienst Festpreis",
+    "SEO-Notdienst seriös",
+    "Serponado Taskforce",
+    "Serponado",
     "Mittelhessen",
   ];
   // Add slug-derived tags
@@ -120,7 +120,7 @@ function fallbackCompress(rawText: string, durationSeconds: number): string {
   const bodyWords = words.slice(0, targetWords - 20); // Reserve 20 words for CTA
 
   const body = bodyWords.join(" ");
-  const cta = `${NAME} — Ihr lokaler Schlüsseldienst in Wetzlar. Festpreis ab ${PRICE}. Jetzt anrufen: ${PHONE}.`;
+  const cta = `${NAME} — Ihr lokaler SEO-Notdienst in Serponado. Festpreis ab ${PRICE}. Jetzt anrufen: ${PHONE}.`;
 
   return `${body}\n\n${cta}`;
 }
@@ -186,7 +186,7 @@ export async function POST(request: Request) {
 
     const payload: VideoPayload = {
       title: `${slug.split("-").map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ")} | ${NAME}`,
-      description: `${NAME} — ${ADDR}\n📞 ${PHONE}\n💰 Festpreis ab ${PRICE}\n🌐 ${siteUrl}\n\n#Schlüsseldienst #Wetzlar #Notdienst #Festpreis`,
+      description: `${NAME} — ${ADDR}\n📞 ${PHONE}\n💰 Festpreis ab ${PRICE}\n🌐 ${siteUrl}\n\n#SEO-Notdienst #Serponado #Notdienst #Festpreis`,
       voiceoverScript,
       tags: generateTags(slug),
       ctaWatermark: `${PHONE} | ab ${PRICE} | ${NAME}`,

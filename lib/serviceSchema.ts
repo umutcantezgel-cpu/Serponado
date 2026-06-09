@@ -7,8 +7,8 @@ export function generateServiceSchema({ title, description, url, price }: { titl
         "@type": "Service",
         "serviceType": title,
         "provider": {
-            "@type": ["Locksmith", "Store"],
-            "name": "Schlüssel Schmiede Wetzlar",
+            "@type": ["ProfessionalService", "Organization"],
+            "name": "Serponado Taskforce Serponado",
             "@id": `${siteUrl}/#localbusiness`
         },
         "description": description,

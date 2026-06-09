@@ -7,7 +7,7 @@ export async function GET(req: NextRequest) {
         const { searchParams } = new URL(req.url);
 
         // Parameters
-        const title = searchParams.get('title') || 'Schlüsseldienst Wetzlar';
+        const title = searchParams.get('title') || 'Serponado';
         const time = searchParams.get('time') || '15';
 
         return new ImageResponse(
@@ -68,7 +68,7 @@ export async function GET(req: NextRequest) {
                                 letterSpacing: '-0.02em',
                             }}
                         >
-                            Schlüssel Schmiede
+                            {"Serponado Taskforce"}
                         </span>
                     </div>
 
@@ -131,10 +131,10 @@ export async function GET(req: NextRequest) {
                         }}
                     >
                         <div style={{ display: 'flex', alignItems: 'center', color: '#9CA3AF', fontSize: 24, fontWeight: 500 }}>
-                            <span style={{ color: '#22C55E', marginRight: '10px' }}>✓</span> Festpreis ab 99€
+                            <span style={{ color: '#22C55E', marginRight: '10px' }}>✓</span> {"Festpreis"} ab {"49"} {"€"}
                         </div>
                         <div style={{ display: 'flex', alignItems: 'center', color: '#9CA3AF', fontSize: 24, fontWeight: 500 }}>
-                            <span style={{ color: '#22C55E', marginRight: '10px' }}>✓</span> 24/7 Notdienst
+                            <span style={{ color: '#22C55E', marginRight: '10px' }}>✓</span> 24/7 Core-Update-Notdienst
                         </div>
                         <div style={{ display: 'flex', alignItems: 'center', color: '#9CA3AF', fontSize: 24, fontWeight: 500 }}>
                             <span style={{ color: '#22C55E', marginRight: '10px' }}>✓</span> Monteur aus der Region

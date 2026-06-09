@@ -9,7 +9,7 @@ export default function AuthorBio({ authorName }: AuthorBioProps) {
   const formatName = (name: string) => {
     switch(name) {
       case "mustafa-s": return "Mustafa (Leitender Monteur)";
-      case "lukas-m": return "Lukas (Sicherheitstechniker)";
+      case "lukas-m": return "Lukas (Data-Recoveryer)";
       case "julia-b": return "Julia (Redaktion Sicherheit)";
       case "ahmet-y": return "Ahmet (Auto-Öffnungsexperte)";
       case "sven-w": return "Sven (Smart Home Berater)";
@@ -24,11 +24,10 @@ export default function AuthorBio({ authorName }: AuthorBioProps) {
       </div>
       <div>
         <h3 className="font-bold text-lg text-[color:var(--text-primary)] mb-1">
-          Geschrieben von {formatName(authorName)}
+          {"Serponado Notfallmaßnahmen"}{formatName(authorName)}
         </h3>
         <p className="text-[color:var(--text-secondary)] text-sm leading-relaxed mb-3">
-          Dieser Beitrag wurde verfasst aus der täglichen Einsatz-Praxis von Schlüssel Schmiede Wetzlar. Alle Angaben entsprechen dem Stand modernster Sicherheitstechnik und jahrelanger Erfahrung im 24/7 Notdienst.
-        </p>
+          {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
       </div>
     </div>
   );

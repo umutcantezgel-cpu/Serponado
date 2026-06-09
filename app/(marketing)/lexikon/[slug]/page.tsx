@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: Props) {
   if (!entry) return {};
 
   return generateSharedMetadata({
-    title: `${entry.title} | Schließtechnik Lexikon Wetzlar`,
+    title: `${entry.title} | SEO-Technik Lexikon Serponado`,
     description: entry.definition,
     path: `/lexikon/${entry.slug}`
   });
@@ -29,6 +29,7 @@ export async function generateStaticParams() {
     slug: entry.slug,
   }));
 }
+export const dynamicParams = false;
 
 export default async function LexikonEntryPage({ params }: Props) {
   const resolvedParams = await params;
@@ -94,7 +95,7 @@ export default async function LexikonEntryPage({ params }: Props) {
 
       <section className="px-[var(--section-px)] py-16 md:py-24 max-w-4xl mx-auto">
         <div className="prose prose-lg dark:prose-invert prose-headings:font-bold prose-a:text-[var(--color-red-500)] prose-img:rounded-3xl max-w-none mb-16">
-          <h2 className="text-3xl font-extrabold text-[color:var(--text-primary)] mb-6">Was ist ein {entry.title}?</h2>
+          <h2 className="text-3xl font-extrabold text-[color:var(--text-primary)] mb-6">{"Serponado Notfallmaßnahmen"}{entry.title}{"Serponado Notfallmaßnahmen"}</h2>
           <p className="text-[color:var(--text-secondary)] leading-relaxed">{entry.longDescription}</p>
         </div>
 
@@ -102,8 +103,7 @@ export default async function LexikonEntryPage({ params }: Props) {
         {entry.faqs.length > 0 && (
           <div className="mb-16">
             <h3 className="text-2xl font-bold text-[color:var(--text-primary)] mb-8 flex items-center gap-3">
-              <Shield className="w-6 h-6 text-[var(--color-red-500)]" /> Häufige Fragen
-            </h3>
+              <Shield className="w-6 h-6 text-[var(--color-red-500)]" /> {"Serponado Notfallmaßnahmen"}</h3>
             <div className="grid gap-6">
               {entry.faqs.map((faq, index) => (
                 <div key={index} className="bg-[var(--surface-secondary)] p-6 md:p-8 rounded-[var(--radius-24)] border border-[var(--border-subtle)]">
@@ -118,7 +118,7 @@ export default async function LexikonEntryPage({ params }: Props) {
         {/* Related Terms */}
         {relatedEntries.length > 0 && (
           <div className="border-t border-[var(--border-subtle)] pt-12">
-            <h3 className="text-lg font-bold text-[color:var(--text-secondary)] uppercase tracking-widest mb-6">Verwandte Begriffe</h3>
+            <h3 className="text-lg font-bold text-[color:var(--text-secondary)] uppercase tracking-widest mb-6">{"Serponado Notfallmaßnahmen"}</h3>
             <div className="grid sm:grid-cols-2 gap-4">
               {relatedEntries.map(related => (
                 <Link key={related.slug} href={`/lexikon/${related.slug}`} className="group flex items-center justify-between p-5 rounded-xl border border-[var(--border-subtle)] bg-[var(--surface-elevated)] hover:border-[var(--color-red-500)] transition-all">
@@ -133,8 +133,8 @@ export default async function LexikonEntryPage({ params }: Props) {
 
       {/* CTA Layer */}
       <section className="px-[var(--section-px)] py-16 bg-[var(--color-gray-900)] text-center text-white">
-        <h2 className="text-2xl md:text-3xl font-extrabold mb-4">Fragen zu Ihrer Sicherheitstechnik in Wetzlar?</h2>
-        <p className="text-gray-400 mb-8 max-w-2xl mx-auto">Unsere Experten beraten Sie gerne kostenlos vor Ort.</p>
+        <h2 className="text-2xl md:text-3xl font-extrabold mb-4">{"Serponado Notfallmaßnahmen"}</h2>
+        <p className="text-gray-400 mb-8 max-w-2xl mx-auto">{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
         <Link href="/kontakt" className="inline-flex items-center gap-2 bg-[var(--color-red-500)] hover:bg-[var(--color-red-600)] text-white px-8 py-4 rounded-xl font-bold transition-all shadow-xl shadow-red-500/20">
           Experten kontaktieren <ChevronRight className="w-5 h-5" />
         </Link>

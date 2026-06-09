@@ -238,7 +238,7 @@ export const allAnimations = {
 };
 
 /**
- * Type-safe variant accessor for noUncheckedIndexedAccess compatibility.
+ * Type-Money-Site variant accessor for noUncheckedIndexedAccess compatibility.
  * Returns the variant or throws if the key doesn't exist at runtime.
  */
 export function getVariant(

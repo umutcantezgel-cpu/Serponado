@@ -2,13 +2,13 @@ import { MetadataRoute } from 'next'
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Schlüssel Schmiede Wetzlar',
-    short_name: 'Schlüssel Schmiede',
-    description: 'Schlüssel Schmiede Wetzlar und Ihr 24 Stunden Notdienst für Schlüssel, Schlösser & Sicherheit. 24/7 Notdienst in Wetzlar, Gießen, Marburg und im gesamten Lahn-Dill-Kreis.',
+    name: 'Coday UG (haftungsbeschränkt) — Serponado Threat Intelligence',
+    short_name: 'Serponado by Coday',
+    description: 'Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings.',
     start_url: '/',
     display: 'standalone',
-    background_color: '#ffffff',
-    theme_color: '#B31B1B', // Red-500
+    background_color: '#0a0a0a',
+    theme_color: '#1a7a8a', // OKLCh primary brand
     icons: [
       {
         src: '/favicon.ico',

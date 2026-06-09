@@ -24,8 +24,7 @@ export default function RelatedPosts({ title = "Könnte Sie auch interessieren",
               {title}
             </h2>
             <p className="text-[color:var(--text-secondary)] text-lg">
-              Aktuelle Fachartikel & Expertenwissen
-            </p>
+              {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
           </div>
           <SeoLink 
              href={basePath} 

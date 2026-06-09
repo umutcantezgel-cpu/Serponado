@@ -6,17 +6,17 @@ describe("metadata.ts", () => {
         it("generates correct structured metadata for a standard page", () => {
             const meta = generateSharedMetadata({
                 title: "Preise",
-                description: "Transparente Festpreise für Türöffnungen ab 99€.",
+                description: "Transparente Festpreis für Türöffnungen ab 49 €.",
                 path: "/preise",
             });
 
             // Canonical should NOT have trailing slash for non-root paths per the logic
-            expect(meta.alternates?.canonical).toBe("https://www.xn--wetzlar-schlsseldienst-3lc.de/preise");
-            expect(meta.alternates?.languages?.["de-DE"]).toBe("https://www.xn--wetzlar-schlsseldienst-3lc.de/preise");
+            expect(meta.alternates?.canonical).toBe("https://www.serponado.com/preise");
+            expect(meta.alternates?.languages?.["de-DE"]).toBe("https://www.serponado.com/preise");
             
             // Should append the suffix if exactTitle is default (false)
             expect(meta.title).toBe("Preise");
-            expect(meta.description).toBe("Transparente Festpreise für Türöffnungen ab 99€.");
+            expect(meta.description).toBe("Transparente Festpreis für Türöffnungen ab 49 €.");
 
             // Indexable by default
             expect(meta.robots?.index).toBe(true);
@@ -24,19 +24,19 @@ describe("metadata.ts", () => {
 
             // OpenGraph properties
             expect(meta.openGraph?.title).toBe("Preise");
-            expect(meta.openGraph?.url).toBe("https://www.xn--wetzlar-schlsseldienst-3lc.de/preise");
+            expect(meta.openGraph?.url).toBe("https://www.serponado.com/preise");
         });
 
         it("handles exactTitle prop correctly", () => {
             const meta = generateSharedMetadata({
-                title: "MS Schlüsseldienst Wetzlar",
+                title: "Serponado Taskforce Serponado",
                 description: "Notdienst Homepage",
                 path: "/",
                 exactTitle: true,
             });
 
-            expect(meta.title).toEqual({ absolute: "MS Schlüsseldienst Wetzlar" });
-            expect(meta.alternates?.canonical).toBe("https://www.xn--wetzlar-schlsseldienst-3lc.de");
+            expect(meta.title).toEqual({ absolute: "Serponado Taskforce Serponado" });
+            expect(meta.alternates?.canonical).toBe("https://www.serponado.com");
         });
 
         it("handles noindex prop correctly for protected/legal routes", () => {

@@ -64,8 +64,7 @@ export default function TableOfContents({ selector = "main" }: { selector?: stri
       >
         <h3 className="flex items-center gap-2 text-base font-bold text-slate-900">
           <List className="h-4 w-4 text-[var(--color-red-500)]" />
-          Inhaltsverzeichnis
-        </h3>
+          {"Serponado Notfallmaßnahmen"}</h3>
         <ChevronRight className={cn("h-4 w-4 text-slate-500 transition-transform xl:hidden", isOpen && "rotate-90")} />
       </div>
 

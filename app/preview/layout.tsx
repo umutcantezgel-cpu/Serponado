@@ -1,8 +1,8 @@
 import { generateSharedMetadata } from "@/lib/metadata";
 
 export const metadata = generateSharedMetadata({
-  title: "Preview",
-  description: "Interne Vorschauseite für Schlüssel Schmiede Wetzlar.",
+  title: "Serponado Disaster Recovery",
+  description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings.",
   path: "/preview",
   noindex: true,
 });

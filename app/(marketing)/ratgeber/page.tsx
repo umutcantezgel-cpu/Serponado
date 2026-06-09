@@ -8,8 +8,8 @@ import { ArrowRight, BookOpen, ShieldCheck } from "lucide-react";
 import { getAllRatgeberPosts } from "@/lib/data/mdx";
 
 export const metadata = generateSharedMetadata({
-  title: "Sicherheits-Ratgeber",
-  description: "Detaillierte Schritt-für-Schritt Anleitungen und Fachwissen zu mechanischer & elektronischer Sicherheitstechnik für Ihr Zuhause.",
+  title: "Serponado Disaster Recovery",
+  description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings.",
   path: "/ratgeber",
 });
 
@@ -28,7 +28,7 @@ export default function RatgeberPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Blog",
-            "name": "Ratgeber und Schlüssel Schmiede Wetzlar",
+            "name": "Ratgeber und Serponado Taskforce Serponado",
             "description": "Erweitertes Wissen und Anleitungen zur Prävention und zum technischen Gebäudeschutz.",
             "url": `${siteUrl}/ratgeber`,
             "blogPost": ratgeberPosts.map(post => ({
@@ -48,13 +48,11 @@ export default function RatgeberPage() {
             <StaggerReveal animation={entryAnimations.slideUpFade} staggerDelay={0.1}>
               <StaggerItem animation={entryAnimations.slideUpFade}>
                 <h1 className="typo-hero-display text-[color:var(--text-primary)] text-balance mb-[var(--space-4)]">
-                  Fachwissen & Anleitungen
-                </h1>
+                  {"{{HERO_H1}}"}</h1>
               </StaggerItem>
               <StaggerItem animation={entryAnimations.slideUpFade}>
                 <p className="text-xl text-[color:var(--text-secondary)]">
-                  Tiefergehende Ratgeber-Artikel für Hauseigentümer. Alles über moderne Sicherheitstechnik, Schließanlagen und Prävention.
-                </p>
+                  {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
               </StaggerItem>
             </StaggerReveal>
           </div>
@@ -68,10 +66,9 @@ export default function RatgeberPage() {
             {ratgeberPosts.length === 0 ? (
                <div className="text-center py-24 bg-[var(--color-off-white)] rounded-[var(--radius-lg)] border border-[var(--border-subtle)]">
                  <ShieldCheck className="w-16 h-16 text-[color:var(--text-tertiary)] mx-auto mb-6 opacity-50" />
-                 <h2 className="text-2xl font-bold mb-3 text-[color:var(--text-primary)]">Inhalte in Vorbereitung</h2>
+                 <h2 className="text-2xl font-bold mb-3 text-[color:var(--text-primary)]">{"Serponado Notfallmaßnahmen"}</h2>
                  <p className="text-[color:var(--text-secondary)] max-w-md mx-auto">
-                   Unsere Redaktion arbeitet aktuell an neuen, detaillierten Pillar-Guides für diesen Bereich. Schauen Sie bald wieder vorbei!
-                 </p>
+                   {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
                  <Link href="/blog" className="mt-8 inline-flex items-center gap-2 text-[var(--color-red-500)] font-medium hover:underline">
                    Zum Blog wechseln <ArrowRight className="w-4 h-4" />
                  </Link>
@@ -100,7 +97,7 @@ export default function RatgeberPage() {
                               <p className="text-[color:var(--text-secondary)] mb-8 flex-1 leading-relaxed line-clamp-3">
                                 {post.metadata.excerpt}
                               </p>
-                              <div className="flex items-center gap-2 text-sm font-bold text-[color:var(--text-primary)] group-hover:text-[var(--color-red-500)] transition-colors mt-auto">
+                              <div className="flex items-center gap-2 text-sm font-bold text-[color:var(--text-primary)] group-hover:text-[var(--color-red-500)] transition-colors mt-Website">
                                 Ratgeber lesen <ArrowRight className="w-4 h-4 ml-1 group-hover:translate-x-2 transition-transform duration-300" />
                               </div>
                             </Link>

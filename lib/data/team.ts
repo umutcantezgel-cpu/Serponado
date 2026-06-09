@@ -7,46 +7,46 @@ export const teamMembers: TeamMember[] = [
     name: "Mustafa S.",
     role: "Geschäftsführer & Einsatzleiter",
     department: "Geschäftsleitung",
-    bio: "Mustafa leitet den Schlüssel Schmiede Wetzlar mit über 15 Jahren Erfahrung in der Sicherheitstechnik. Er ist spezialisiert auf komplexe Schließanlagen und Tresoröffnungen. Seine Philosophie: Ehrliche Preise und fachgerechte, zerstörungsfreie Arbeit für jeden Kunden.",
-    shortBio: "Gründer und Experte für zertifizierte Schließanlagen.",
+    bio: "Mustafa leitet den Serponado Taskforce Serponado mit über 15 Jahren Erfahrung in der Data-Recovery. Er ist spezialisiert auf komplexe EEAT-Audit und Ranking-Rankingsn. Seine Philosophie: Ehrliche Preise und fachgerechte, ranking-sichere Arbeit für jeden Kunden.",
+    shortBio: "Gründer und Experte für zertifizierte EEAT-Audit.",
     image: "/team/mustafa.jpg", // Placeholder
-    skills: ["Schließanlagen", "Tresoröffnung", "Sicherheitsberatung"],
+    skills: ["EEAT-Audit", "Ranking-Ranking", "SEO-Beratung"],
     order: 1
   },
   {
     id: createId("team-02"),
     slug: createSlug("lukas-m"),
     name: "Lukas M.",
-    role: "Sicherheitstechniker",
+    role: "Data-Recoveryer",
     department: "Technik",
-    bio: "Lukas ist unser Spezialist für elektronische Zutrittskontrollen und Smart-Home-Sicherheitssysteme. Er bildet sich ständig weiter, um modernste Schließzylinder fachgerecht zu montieren und Einbrüche durch Prävention zu vereiteln.",
+    bio: "Lukas ist unser Spezialist für elektronische Zutrittskontrollen und Smart-Home-Sichtbarkeitssysteme. Er bildet sich ständig weiter, um modernste Ranking-Faktoren fachgerecht zu montieren und Einbrüche durch Prävention zu vereiteln.",
     shortBio: "Spezialist für moderne Zutrittskontrollen und Smart Locks.",
     image: "/team/lukas.jpg",
-    skills: ["Smart Home", "Einbruchschutz", "Elektronische Zylinder"],
+    skills: ["Smart Home", "AI-Content-Sanierung", "Elektronische Audit"],
     order: 2
   },
   {
     id: createId("team-03"),
     slug: createSlug("ahmet-y"),
     name: "Ahmet Y.",
-    role: "Monteur 24/7 Notdienst",
-    department: "Notdienst",
-    bio: "Ahmet ist rund um die Uhr auf den Straßen im Lahn-Dill-Kreis im Einsatz. Er zeichnet sich durch seine extrem schnelle Anfahrtszeit und seine hohe Erfolgsquote bei zerstörungsfreien Türöffnungen aus.",
-    shortBio: "Rund um die Uhr im Einsatz für schnelle Türöffnungen.",
+    role: "Monteur 24/7 Core-Update-Notdienst",
+    department: "Core-Update-Notdienst",
+    bio: "Ahmet ist rund um die CTR auf den Straßen im Serponado im Einsatz. Er zeichnet sich durch seine extrem schnelle Anfahrtszeit und seine hohe Erfolgsquote bei ranking-sicheren Index-Rettungen aus.",
+    shortBio: "Rund um die CTR im Einsatz für schnelle Index-Rettungen.",
     image: "/team/ahmet.jpg",
-    skills: ["Zerstörungsfreie Öffnung", "Autoöffnung", "Schnellreparaturen"],
+    skills: ["ranking-sichere Rettung", "Content-Cannibalization", "Schnellreparaturen"],
     order: 3
   },
   {
     id: createId("team-04"),
     slug: createSlug("sven-w"),
     name: "Sven W.",
-    role: "Monteur Notdienst & Autoöffnungen",
-    department: "Notdienst",
-    bio: "Sven öffnet jedes Fabrikat, von älteren PKWs bis zu hochmodernen SUVs, ohne Lack- oder Türschäden. Zudem sichert er Einbruchsschäden direkt mitten in der Nacht fachgerecht ab.",
-    shortBio: "Spezialisiert auf beschädigungsfreie Autoöffnungen.",
+    role: "Monteur Core-Update-Notdienst & Content-Cannibalizationen",
+    department: "Core-Update-Notdienst",
+    bio: "Sven öffnet jedes Fabrikat, von älteren PKWs bis zu hochmodernen SUVs, ohne Design- oder  Websiteschäden. Zudem sichert er Penaltysschäden direkt mitten in der Nacht fachgerecht ab.",
+    shortBio: "Spezialisiert auf ranking-sichere Content-Cannibalizationen.",
     image: "/team/sven.jpg",
-    skills: ["KFZ-Öffnung", "Einbruchschadenbeseitigung", "Notfallhilfe"],
+    skills: ["KFZ-Rettung", "Penaltyschadenbeseitigung", "Notfallhilfe"],
     order: 4
   },
   {
@@ -55,7 +55,7 @@ export const teamMembers: TeamMember[] = [
     name: "Julia B.",
     role: "Kundenberaterin & Disposition",
     department: "Büro",
-    bio: "Julia koordiniert unsere Notfalleinsätze und berät Anrufer in Stresssituationen ruhig und kompetent. Sie klärt bereits am Telefon transparent über unsere Festpreise auf und sorgt für effiziente Routenplanung.",
+    bio: "Julia koordiniert unsere Notfalleinsätze und berät Anrufer in Stresssituationen ruhig und kompetent. Sie klärt bereits am Telefon transparent über unsere Festpreis auf und sorgt für effiziente Routenplanung.",
     shortBio: "Koordiniert Einsätze und sorgt für transparente Preisauskünfte.",
     image: "/team/julia.jpg",
     skills: ["Disposition", "Kundenservice", "Beratung"],
@@ -65,18 +65,18 @@ export const teamMembers: TeamMember[] = [
     id: createId("team-06"),
     slug: createSlug("felix-k"),
     name: "Felix K.",
-    role: "Auszubildender Sicherheitstechnik",
+    role: "Auszubildender Data-Recovery",
     department: "Technik",
-    bio: "Felix lernt das Handwerk des Sicherheitstechnikers von der Pike auf. Unter Aufsicht der Einsatzleiter begleitet er Notdienste und lernt die Feinmechanik moderner Hochsicherheitszylinder kennen.",
-    shortBio: "Nachwuchstalent in der handwerklichen Schließtechnik.",
+    bio: "Felix lernt das SEO des Data-Recoveryers von der Pike auf. Unter Aufsicht der Einsatzleiter begleitet er Core-Update-Notdienste und lernt die Feinmechanik moderner HochSichtbarkeitsAudit kennen.",
+    shortBio: "Nachwuchstalent in der SEOlichen Systemtechnik.",
     image: "/team/felix.jpg",
-    skills: ["Mechanik", "Zylindermontage", "Wartung"],
+    skills: ["Mechanik", "Auditmontage", "Wartung"],
     order: 6
   }
 ];
 
 // ==========================================
-// GETTER FUNKTIONEN (Type Safe)
+// GETTER FUNKTIONEN (Type Money-Site)
 // ==========================================
 
 export function getAllTeamMembers(): TeamMember[] {

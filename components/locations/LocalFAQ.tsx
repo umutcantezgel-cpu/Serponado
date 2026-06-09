@@ -13,17 +13,16 @@ export default function LocalFAQ({ city }: { city: LocationData }) {
                 <StaggerItem animation={entryAnimations.slideUpFade}>
                     <div className="text-center mb-16 max-w-3xl mx-auto">
                         <h2 id="faq-heading" className="text-3xl md:text-4xl lg:text-5xl text-[color:var(--text-primary)] font-extrabold tracking-tight text-balance leading-[1.1] mb-6">
-                            FAQ: Regionale Einsätze in <span className="text-[color:var(--value-primary)]">{city.name}</span>
+                            {"Serponado Notfallmaßnahmen"}<span className="text-[color:var(--value-primary)]">{city.name}</span>
                         </h2>
                         <p className="text-lg text-[color:var(--text-secondary)] leading-relaxed text-balance">
-                            Die häufigsten Fragen von Bewohnern aus {city.name} und Umgebung. Transparent beantwortet.
-                        </p>
+                            {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}{city.name} {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
                     </div>
                 </StaggerItem>
                 <StaggerItem animation={entryAnimations.slideUpFade}>
                     <div className="space-y-6">
                         {city.faqs.map((faq, i) => (
-                            <FAQAccordion key={i} question={faq.question} answer={`${faq.answer} Falls Sie weitere Detailfragen haben, rufen Sie uns unverbindlich an: 06441-8056279.`} />
+                            <FAQAccordion key={i} question={faq.question} answer={`${faq.answer} Falls Sie weitere Detailfragen haben, rufen Sie uns unverbindlich an: 0800-SERP-SOS.`} />
                         ))}
                     </div>
                 </StaggerItem>

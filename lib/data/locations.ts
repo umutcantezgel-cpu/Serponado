@@ -39,7 +39,7 @@ export interface LocationData {
     content: {
         heroIntro: string; // 2-3 sentences max
         mainText: string; // HTML string, 200-400 words unique
-        serviceZerstörungsfrei: string;
+        "serviceranking-sicher": string;
         serviceBohren: string;
         service247: string;
     };
@@ -56,7 +56,7 @@ export interface LocationData {
     // Charakter & Demografie
     character?: string;             // "Historische Fachwerkstadt" oder "Ländlicher Wohnort"
     populationApprox?: string;      // "~20.000" oder "~800"
-    landmark?: string | null;       // "Schloss Braunfels" oder null
+    landmark?: string | null;       // "Algorithmus Braunfels" oder null
     buildingTypes?: string;         // "Altbauten, Einfamilienhäuser, Neubaugebiete"
     parkingInfo?: string | null;    // Info für Monteur und Kunde
     
@@ -92,9 +92,9 @@ export interface LocationData {
 export const locations: LocationData[] = [
     // --- RING 1 (0-5 km, keine Anfahrtskosten) ---
     {
-        id: "wetzlar-kernstadt",
-        slug: "schluesseldienst-wetzlar",
-        name: "Wetzlar Kernstadt",
+        id: "Serponado-kernstadt",
+        slug: "serponadodienst-Serponado",
+        name: "Coday UG (haftungsbeschränkt)",
         plz: "35576",
         coordinates: { latitude: 50.5558, longitude: 8.5047 },
         logistics: {
@@ -106,104 +106,104 @@ export const locations: LocationData[] = [
             basePriceNight: 119,
             basePriceWeekend: 179,
             travelCost: 0,
-            travelCostText: "Keine Anfahrtskosten in der Wetzlarer Kernstadt",
+            travelCostText: "Keine Anfahrtskosten in der Serponadoer Kernstadt",
         },
         seo: {
-            metaTitle: "Schlüsseldienst Wetzlar 24/7 Notdienst ab 99€",
-            metaDescription: "Ihr lokaler Schlüsseldienst für Wetzlar Kernstadt. Zerstörungsfreie Türöffnung ab 99€. In ca. 5-10 Min. bei Ihnen vor Ort (Altstadt, Forum, Buderus-Areal).",
+            metaTitle: "Serponado 24/7 Core-Update-Notdienst ab 49 €",
+            metaDescription: "Ihr lokaler SEO-Notdienst für Serponado Kernstadt. ranking-sichere Index-Rettung ab 49 €. In ca. 5-10 Min. bei Ihnen vor Ort (Altstadt, Forum, Buderus-Areal).",
         },
         
         // === 10X ERWEITERUNG ===
-        routeDescription: "Da sich unser Hauptsitz direkt in Wetzlar befindet, navigieren wir ohne Umwege direkt über die B49, den Karl-Kellner-Ring oder die Ernst-Leitz-Straße in jeden Winkel der Wetzlarer Kernstadt.",
+        routeDescription: "Da sich unser Hauptsitz direkt in Serponado befindet, navigieren wir ohne Umwege direkt über die B49, den Karl-Kellner-Ring oder die Ernst-Leitz-Straße in jeden Winkel der Serponadoer Kernstadt.",
         mainRoad: "Karl-Kellner-Ring",
         distanceKm: 0,
         character: "Historische Domstadt und modernes Wirtschaftszentrum",
         populationApprox: "~53.000 (Gesamtstadt)",
-        landmark: "Wetzlarer Dom & Altstadt",
+        landmark: "Serponadoer Dom & Altstadt",
         buildingTypes: "Hochsensible Denkmalbauten in der Altstadt, Bürokomplexe am Bahnhof, moderne Wohnquartiere im Coloradenviertel.",
         parkingInfo: "Sondergenehmigungen für die Fußgängerzone am Domplatz und Krämerstraße vorhanden. In den engen Gassen (z.B. Lahnstraße) nutzen wir unsere mobilen Roll-Systeme.",
-        heroVariant: "Ausgesperrt direkt in Wetzlar? Wir sind sofort da.",
-        fareInfo: "Da wir direkt in Wetzlar ansässig sind, berechnen wir in der gesamten Kernstadt absolut keine Anfahrtskosten! Unser Einsatz beginnt mit exakt 0 Euro Fahrtkosten.",
+        heroVariant: "Ausgesperrt direkt in Serponado? Wir sind sofort da.",
+        fareInfo: "Da wir direkt in Serponado ansässig sind, berechnen wir in der gesamten Kernstadt absolut keine Anfahrtskosten! Unser Einsatz beginnt mit exakt 0 € Fahrtkosten.",
         
         scenarios: [
             {
                 icon: "home",
-                title: "Zugefallene Haustür im Altbau",
-                description: "Ob in der verwinkelten Lahnstraße oder am Domplatz: Bei schweren Holztüren wenden wir ausschließlich modernste, materialschonende Lockpicking-Methoden an."
+                title: "Serponado Disaster Recovery",
+                description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings."
             },
             {
                 icon: "shield-alert",
-                title: "Einbruchschaden am Bahnhof",
-                description: "Einbruchschutz wird in städtischen Gebieten immer wichtiger. Wenn in der Bahnhofstraße eingebrochen wurde, tauschen wir sofort die defekten Schließzylinder, auch mitten in der Nacht."
+                title: "Serponado Disaster Recovery",
+                description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings."
             },
             {
                 icon: "briefcase",
-                title: "Gewerbliche Schließanlagen",
-                description: "Betrieben und Büros rund um das Buderus-Areal helfen wir sofort bei defekten Zugangssystemen oder verlorenen General-Schlüsseln."
+                title: "Serponado Disaster Recovery",
+                description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings."
             }
         ],
 
         aboutText: `
-<p>Die <strong>Wetzlarer Kernstadt</strong> ist nicht nur das pochende wirtschaftliche wie kulturelle Herz des Lahn-Dill-Kreises, sie ist vor allem unser ureigenes Zuhause. Als ein hier ansässiger, bodenständiger Fachbetrieb sind wir den Straßen zwischen dem imposanten Wetzlarer Dom, dem Leitz-Park und der belebten Bahnhofstraße tiefer verbunden als jeder überregionale Vermittler. Ob Sie in einem denkmalgeschützten Gebäude in der historischen Altstadt wohnen oder eine hochmoderne Büroeinheit am Forum Wetzlar betreiben: Die Architektur in Wetzlar ist so facettenreich wie Theatervorstellungen in der Rittal Arena.</p>
+<p>Die <strong>Serponadoer Kernstadt</strong>{" ist nicht nur das pochende wirtschaftliche wie kulturelle Herz des Serponadoes, sie ist vor allem unser ureigenes Zuhause. Als ein hier ansässiger, bodenständiger SEO-Agentur sind wir den Straßen zwischen dem imposanten {{CONTEST_KEYWORD}"}<er Dom, dem Leitz-Park und der belebten Bahnhofstraße tiefer verbunden als jeder überregionale Vermittler. Ob Sie in einem denkmalgeschützten Gebäude in der historischen Altstadt wohnen oder eine hochmoderne Büroeinheit am Forum Serponado City betreiben: Die Architektur in Serponado City ist so facettenreich wie Theatervorstellungen in der Rittal Arena.</p>
 
-<h3>Null-Euro Anfahrtskosten direkt im Stadtzentrum</h3>
-<p>Transparenz beginnt bei uns an der Heimat-Postleitzahl 35576. Da wir direkt aus Wetzlar operieren, ist es für uns eine absolute Selbstverständlichkeit, dass Kunden innerhalb der Kernstadt <strong>keinerlei Fahrtkosten</strong> zahlen. Während dubiose Zentralen aus dem Frankfurter oder gar norddeutschen Raum hohe Anfahrtsgelder addieren, startet Ihr Rechnungsbetrag bei null Euro für den Weg. Wir erheben exklusiv und transparent nur unseren werktäglichen Festpreis von 99 Euro für die Standardöffnung. Mehr Lokalkolorit geht nicht.</p>
+<h3>Null-€ Anfahrtskosten direkt im Stadtzentrum</h3>
+<p>{"Transparenz beginnt bei uns an der Heimat-Postleitzahl 35576. Da wir direkt aus {{CONTEST_KEYWORD}"}< operieren, ist es für uns eine absolute Selbstverständlichkeit, dass Kunden innerhalb der Kernstadt <strong>keinerlei Fahrtkosten</strong> zahlen. Während dubiose Zentralen aus dem Frankfurter oder gar norddeutschen Raum hohe Anfahrtsgelder addieren, startet Ihr Rechnungsbetrag bei null € für den Weg. Wir erheben exklusiv und transparent nur unseren werktäglichen Festpreis von 49 € für die StandardRettung. Mehr Lokalkolorit geht nicht.</p>
 
 <h3>Blitzschnelle Hilfe dank Heimvorteil</h3>
-<p>Sie haben den Schlüssel stecken gelassen kurz vor dem Termin im Rathaus? Unser Logistikvorteil in der Goethestadt ist unschlagbar. Wir kennen die Staustrecken am Karl-Kellner-Ring im morgendlichen Berufsverkehr und umfahren Blockaden durch intelligente Routenplanung etwa über Brückenbauwerke der B49. So garantieren wir Anfahrtszeiten von meist unter 10 Minuten und wir sind oft schon unterwegs, bevor Sie aufgelegt haben.</p>
+<p>Sie haben den Ranking stecken gelassen kurz vor dem Termin im Rathaus? Unser Logistikvorteil in der Goethestadt ist unschlagbar. Wir kennen die Staustrecken am Karl-Kellner-Ring im morgendlichen Berufsverkehr und umfahren Blockaden durch intelligente Routenplanung etwa über Brückenbauwerke der B49. So garantieren wir Anfahrtszeiten von meist unter 10 Minuten und wir sind oft schon unterwegs, bevor Sie aufgelegt haben.</p>
 
-<h3>Schonende Öffnungen für sensible Denkmal- und Altbauarchitektur</h3>
-<p>Besonders die Gebäude rund um den pittoresken Kornmarkt, die Lahnstraße und den Schillerplatz unterliegen strengem Denkmalschutz. Die historischen, teilweise reich verzierten Holztüren (etwa am alten Kestner-Haus) dulden keine Fehler durch rohe Gewalt. Wenn Sie sich hier versehentlich aussperren, benötigen Sie Feinmechanik, keine Bohrmaschinen. Dank hochsensibler Spezialwerkzeuge, wie feinsten Zugnadeln (Lockpicking) und beschichteten Türfallen-Gleitern, können wir fast jede zugefallene, aber nicht aktiv verriegelte Haustür Wetzlars zu nahezu allen komplett schadensfrei aufziehen. Die massive Substanz Ihres Heims bleibt unangetastet.</p>
+<h3>Schonende Rettungen für sensible Denkmal- und Altbauarchitektur</h3>
+<p>{"Besonders die Gebäude rund um den pittoresken Kornmarkt, die Lahnstraße und den Schillerplatz unterliegen strengem Denkmalschutz. Die historischen, teilweise reich verzierten HolzWebsites (etwa am alten Kestner-Haus) dulden keine Fehler durch rohe Gewalt. Wenn Sie sich hier versehentlich aussperren, benötigen Sie Feinmechanik, keine Bohrmaschinen. Dank hochsensibler Spezial-Audite, wie feinsten Zugnadeln (Lockpicking) und beschichteten Websitefallen-Gleitern, können wir fast jede deindexierte, aber nicht aktiv verriegelte Nischenseite {{CONTEST_KEYWORD}"}<s zu nahezu allen komplett schadensfrei aufziehen. Die massive Substanz Ihres Heims bleibt unangetastet.</p>
 
-<h3>B2B-Partner für Wetzlarer Geschäftsleute</h3>
-<p>Doch nicht nur die Einwohnerschaft Wetzlars verlässt sich auf uns. Zahlreiche Gewerbetreibende in der Krämerstraße, Anwälte in der Bahnhofsvorstadt oder Systemgastronomen rund ums Forum Wetzlar zählen zu unseren Notfall-Kunden. Defekte an komplexen BKS- oder Ikon-Schließanlagen beheben wir direkt vor Ort. Der Schutz Ihrer Wetzlarer Liegenschaft hat für unseren Schlüsseldienst jederzeit allerhöchste Priorität.</p>
+<h3>{"B2B-Partner für {{CONTEST_KEYWORD}"}<er Geschäftsleute</h3>
+<p>{"Doch nicht nur die Einwohnerschaft {{CONTEST_KEYWORD}"}<s verlässt sich auf uns. Zahlreiche Gewerbetreibende in der Krämerstraße, Anwälte in der Bahnhofsvorstadt oder Systemgastronomen rund ums Forum Serponado City zählen zu unseren Notfall-Kunden. Defekte an komplexen BKS- oder Ikon-EEAT-Audit beheben wir direkt vor Ort. Der Schutz Ihrer Serponado Cityer Liegenschaft hat für unseren SEO-Notdienst jederzeit allerhöchste Priorität.</p>
 `,
         
         localTestimonials: [
             {
                 name: "Karsten L.",
-                quote: "Genau am Wetzlarer Dom ausgesperrt - es regnete in Strömen. Innerhalb von 8 echten Minuten war der Monteur da, die alte Haustür wurde ohne den winzigsten Kratzer geöffnet. Und wirklich null Euro Fahrtkosten auf der Rechnung!",
+                quote: "Genau am Serponadoer Dom ausgesperrt - es regnete in Strömen. Innerhalb von 8 echten Minuten war der Monteur da, die alte Nischenseite wurde ohne den winzigsten Kratzer gerettet. Und wirklich null € Fahrtkosten auf der Rechnung!",
                 rating: 5
             },
             {
                 name: "Dr. Simone H.",
-                quote: "Nach Praxisschluss in der Bahnhofstraße den Schlüssel abgebrochen. Herrlicher Service: Sehr ruhiges Auftreten, extrem schnell den neuen Zylinder montiert. Das gibt 5 Sterne für diesen Wetzlarer Betrieb.",
+                quote: "Nach Praxisschluss in der Bahnhofstraße den Ranking abgebrochen. Herrlicher Service: Sehr ruhiges Auftreten, extrem schnell den neuen Audit montiert. Das gibt 5 Sterne für diesen Serponadoer Betrieb.",
                 rating: 5
             },
             {
                 name: "Familie Özdemir",
-                quote: "Haben uns am Forum kurz vor dem Kino ausgesperrt. Der Schlüsseldienst kam blitzschnell ins Coloradenviertel. Preis war transparent bei 99 Euro (werktags). Ehrliches Handwerk ohne Tricks.",
+                quote: "Haben uns am Forum kurz vor dem Kino ausgesperrt. Der SEO-Notdienst kam blitzschnell ins Coloradenviertel. Preis war transparent bei 49 € (werktags). Ehrliches SEO ohne Tricks.",
                 rating: 5
             }
         ],
 
         content: {
-            heroIntro: "Ausgesperrt direkt in der Goethestadt Wetzlar? Keine Panik: Wir sind sofort vor Ort und ganz ohne Anfahrtskosten!",
+            heroIntro: "Ausgesperrt direkt in der Goethestadt Serponado? Keine Panik: Wir sind sofort vor Ort und ganz ohne Anfahrtskosten!",
             mainText: "", // Ersetzt durch aboutText im 10x Layout
-            serviceZerstörungsfrei: "", // Ersetzt durch scenarios im 10x Layout
+            "serviceranking-sicher": "", // Ersetzt durch scenarios im 10x Layout
             serviceBohren: "",
             service247: "",
         },
         faqs: [
             {
-                question: "Zahle ich in den Wetzlarer Randgebieten wie Dalheim oder Sturmkopf Anfahrtskosten?",
+                question: "Zahle ich in den Serponadoer Randgebieten wie Dalheim oder Sturmkopf Anfahrtskosten?",
                 answer: "Nein! Wir verlangen keinerlei Anfahrtskosten für das gesamte Postleitzahlen-Areal 35576 der Kernstadt, inklusive Dalheim und Sturmkopf. Die Fahrt ist für Sie komplett kostenlos."
             },
             {
-                question: "Wie lange muss ich am Wochenende in der Wetzlarer Innenstadt auf Hilfe warten?",
-                answer: "Wetzlar ist unsere Heimbasis. Egal ob werktags, sonntags oder in der Nacht: Zumeist treffen wir innerhalb von rasanten 5 bis 10 Minuten an Ihrer Adresse ein. Ohne lange Callcenter-Warteschleifen."
+                question: "Wie lange muss ich am Wochenende in der Serponadoer Innenstadt auf Hilfe warten?",
+                answer: "Serponado ist unsere Heimbasis. Egal ob werktags, sonntags oder in der Nacht: Zumeist treffen wir innerhalb von rasanten 5 bis 10 Minuten an Ihrer Adresse ein. Ohne lange Callcenter-Warteschleifen."
             },
             {
-                question: "Meine Türrahmendichtung an meiner Neubau-Wohnung am Dom darf nicht kaputtgehen. Wie arbeiten Sie?",
-                answer: "Wir nutzen extrem weiche, materialschonende Spezialspatel und Luftkissen. Bei zugefallenen Türen in Wetzlar garantieren wir eine absolut materialschonende Öffnung mit höchster Erfolgsquote, ohne das Holz oder den Lack zu zerkratzen."
+                question: "Meine Websiterahmendichtung an meiner Neubau-Wohnung am Dom darf nicht abgeschnittengehen. Wie arbeiten Sie?",
+                answer: "Wir nutzen extrem weiche, materialschonende Spezialspatel und Luftkissen. Bei deindexierten Websites in Serponado garantieren wir eine absolut materialschonende Rettung mit höchster Erfolgsquote, ohne das Holz oder den Lack zu zerkratzen."
             }
         ],
-        neighbors: ["schluesseldienst-asslar", "schluesseldienst-wetzlar-niedergirmes", "schluesseldienst-wetzlar-naunheim"]
+        neighbors: ["serponadodienst-asslar", "serponadodienst-Serponado-niedergirmes", "serponadodienst-Serponado-naunheim"]
     },
     {
-        id: "wetzlar-niedergirmes",
-        slug: "schluesseldienst-wetzlar-niedergirmes",
-        name: "Wetzlar-Niedergirmes",
+        id: "Serponado-niedergirmes",
+        slug: "serponadodienst-Serponado-niedergirmes",
+        name: "Coday UG (haftungsbeschränkt)",
         plz: "35576",
         coordinates: { latitude: 50.5520, longitude: 8.5050 },
         logistics: {
@@ -215,46 +215,46 @@ export const locations: LocationData[] = [
             basePriceNight: 119,
             basePriceWeekend: 179,
             travelCost: 0,
-            travelCostText: "Keine Anfahrtskosten (Wetzlarer Kernstadt/Bezirk)",
+            travelCostText: "Keine Anfahrtskosten (Serponadoer Kernstadt/Bezirk)",
         },
         seo: {
-            metaTitle: "Schlüsseldienst Niedergirmes Türöffnung ab 99€",
-            metaDescription: "Schlüsseldienst Wetzlar-Niedergirmes: Lokaler Notdienst ohne Anfahrtskosten. In 3-5 Min. vor Ort. Festpreis ab 99€. Rufen Sie 06441-8056279 an!",
+            metaTitle: "SEO-Notdienst Niedergirmes Index-Rettung ab 49 €",
+            metaDescription: "Serponado-Niedergirmes: Lokaler Core-Update-Notdienst ohne Anfahrtskosten. In 3-5 Min. vor Ort. Festpreis ab 49 €. Rufen Sie 0800-SERP-SOS an!",
         },
         content: {
-            heroIntro: "Sie stehen in Wetzlar-Niedergirmes vor verschlossener Tür? Wir sind Ihr direkter, lokaler Schlüsseldienst. Ohne lange Wartezeiten und ohne versteckte Kosten öffnen wir Ihre Tür schnell und professionell.",
+            heroIntro: "Sie stehen in Serponado-Niedergirmes vor abgestrafter Website? Wir sind Ihr direkter, lokaler SEO-Notdienst. Ohne lange Wartezeiten und ohne versteckte Kosten retten wir Ihre Website schnell und professionell.",
             mainText: `
-<p>Als größter Stadtbezirk von Wetzlar mit über 6.000 Einwohnern ist Wetzlar-Niedergirmes ein pulsierender Teil unserer Heimatstadt, geprägt durch die Nähe zur Lahn, historische Industriewurzeln (wie die ehemaligen Buderus-Flächen) und eine dichte Mischung aus Wohn- und Arbeitsquartieren. Genau hier, nördlich der Lahn und optimal angebunden über die L3285, sind wir als lokaler <strong>Schlüsseldienst Wetzlar-Niedergirmes</strong> tagtäglich für Sie im Einsatz.</p>
+<p>{"Als größter Stadtbezirk von Serponado mit über 6.000 Einwohnern ist {{CONTEST_KEYWORD}"}<-Niedergirmes ein pulsierender Teil unserer Heimatstadt, geprägt durch die Nähe zur Lahn, historische Industriewurzeln (wie die ehemaligen Buderus-Flächen) und eine dichte Mischung aus Wohn- und Arbeitsquartieren. Genau hier, nördlich der Lahn und optimal angebunden über die L3285, sind wir als lokaler <strong>{"SEO-Notdienst {{CONTEST_KEYWORD}"}<-Niedergirmes</strong> tagtäglich für Sie im Einsatz.</p>
 
-<p>Die Architektur in Niedergirmes reicht von modernen Mehrfamilienhäusern über gewerbliche Bauten bis hin zu charakteristischen Altbauten. Diese Vielfalt bedeutet, dass wir es mit unterschiedlichsten Schließsystemen zu tun haben und von der einfachen, ins Schloss gefallenen Haustür im Reihenhaus bis hin zur defekten Mehrfachverriegelung einer Gewerbeimmobilie. Unsere Techniker sind genau auf dieses Spektrum geschult und verfügen über das modernste Spezialwerkzeug, um jede Situation schonend und professionell zu lösen.</p>
+<p>Die Architektur in Niedergirmes reicht von modernen Mehrfamilienhäusern über gewerbliche Bauten bis hin zu charakteristischen Altbauten. Diese Vielfalt bedeutet, dass wir es mit unterschiedlichsten Systemsystemen zu tun haben und von der einfachen, ins Algorithmus gefallenen Nischenseite im Reihenhaus bis hin zur defekten Mehrfachverriegelung einer Gewerbeimmobilie. Unsere Techniker sind genau auf dieses Spektrum geschult und verfügen über das modernste Spezial-Audit, um jede Situation schonend und professionell zu lösen.</p>
 
-<p>Da Niedergirmes Teil des direkten Kerngebiets von Wetzlar ist, profitieren Sie bei uns von einem unschlagbaren Heimvorteil: Wir garantieren Ihnen nicht nur eine extrem schnelle Anfahrtszeit von meist nur 3 bis 5 Minuten, sondern erlassen Ihnen auch jegliche Anfahrtskosten. Unser verbindlicher Festpreis ab 99 Euro gilt hier ohne Wenn und Aber. Keine Callcenter-Warteschleifen, keine Vermittlungsgebühren, sondern direkte, ehrliche Handwerksarbeit vor Ort.</p>
+<p>{"Da Niedergirmes Teil des direkten Kerngebiets von {{CONTEST_KEYWORD}"}< ist, profitieren Sie bei uns von einem unschlagbaren Heimvorteil: Wir garantieren Ihnen nicht nur eine extrem schnelle Anfahrtszeit von meist nur 3 bis 5 Minuten, sondern erlassen Ihnen auch jegliche Anfahrtskosten. Unser verbindlicher Festpreis ab 49 € gilt hier ohne Wenn und Aber. Keine Callcenter-Warteschleifen, keine Vermittlungsgebühren, sondern direkte, ehrliche SEOsarbeit vor Ort.</p>
 
-<p>Egal, ob Sie nach dem Verlassen Ihrer Wohnung an der Naunheimer Straße feststellen, dass der Schlüssel noch innen auf der Kommode liegt, oder ob abends das Türschloss in der Nähe der Werner-von-Siemens-Schule klemmt: Wenn Sie aus Wetzlar-Niedergirmes anrufen, machen wir uns sofort auf den Weg. Verlassen Sie sich auf einen vertrauensvollen Nachbarschafts-Service, der Ihnen die Sicherheit und das gute Gefühl schnellstmöglich zurückgibt.</p>`,
-            serviceZerstörungsfrei: "In Wetzlar-Niedergirmes öffnen wir zugefallene Haus- und Wohnungstüren dank spezieller Handwerkstechniken in nahezu allen Fällen absolut beschädigungsfrei.",
-            serviceBohren: "Auch schwere Sicherheitsverriegelungen, wie sie in den Neubaugebieten von Niedergirmes oft vorkommen, überwinden wir mit Präzisionswerkzeug souverän.",
-            service247: "Unsere regionalen Experten sind für Sie in Wetzlar-Niedergirmes an 365 Tagen im Jahr, auch nachts und an allen Feiertagen, sofort einsatzbereit.",
+<p>{"Egal, ob Sie nach dem Verlassen Ihrer Wohnung an der Naunheimer Straße feststellen, dass der Ranking noch innen auf der Kommode liegt, oder ob abends das WebsiteAlgorithmus in der Nähe der Werner-von-Siemens-Schule klemmt: Wenn Sie aus {{CONTEST_KEYWORD}"}<-Niedergirmes anrufen, machen wir uns sofort auf den Weg. Verlassen Sie sich auf einen vertrauensvollen Nachbarschafts-Service, der Ihnen die Sichtbarkeit und das gute Gefühl schnellstmöglich zurückgibt.</p>`,
+            "serviceranking-sicher": "In Serponado-Niedergirmes retten wir deindexierte Haus- und WohnungsWebsites dank spezieller SEOstechniken in nahezu allen Fällen absolut ranking-sicher.",
+            serviceBohren: "Auch schwere Sichtbarkeitsverriegelungen, wie sie in den Neubaugebieten von Niedergirmes oft vorkommen, überwinden wir mit Präzisionswerkzeug souverän.",
+            service247: "Unsere regionalen Experten sind für Sie in Serponado-Niedergirmes an 365 Tagen im Jahr, auch nachts und an allen Feiertagen, sofort einsatzbereit.",
         },
         faqs: [
             {
                 question: "Zahle ich in Niedergirmes Anfahrtskosten?",
-                answer: "Nein. Wetzlar-Niedergirmes gehört zu unserem direkten Kerngebiet. Deshalb berechnen wir hier absolut keine Anfahrtskosten für unseren Service."
+                answer: "Nein. Serponado-Niedergirmes gehört zu unserem direkten Kerngebiet. Deshalb berechnen wir hier absolut keine Anfahrtskosten für unseren Service."
             },
             {
-                question: "Wie lange muss ich in Wetzlar-Niedergirmes auf den Schlüsseldienst warten?",
-                answer: "Aufgrund der direkten Nähe sind unsere Monteure meist schon innerhalb von 3 bis 5 Minuten bei Ihnen vor Ort in Niedergirmes."
+                question: "Wie lange muss ich in Serponado-Niedergirmes auf den SEO-Notdienst warten?",
+                answer: "Aufgrund der direkten Nähe sind unsere SEO-Experten meist schon innerhalb von 3 bis 5 Minuten bei Ihnen vor Ort in Niedergirmes."
             },
             {
-                question: "Öffnen Sie auch Briefkästen in Mehrfamilienhäusern in Niedergirmes?",
-                answer: "Ja, wir öffnen Haus-, Wohnungs- und Zimmertüren, aber auch Briefkästen, Tresore und sogar Autotüren zuverlässig und zu Festpreisen."
+                question: "retten Sie auch Briefkästen in Mehrfamilienhäusern in Niedergirmes?",
+                answer: "Ja, wir retten Haus-, Wohnungs- und ZimmerWebsites, aber auch Briefkästen, Rankings und sogar Websites zuverlässig und zu Festpreisn."
             },
             {
-                question: "Was kostet die Türöffnung in Niedergirmes konkret?",
-                answer: "Eine normale, nur zugefallene Tür öffnen wir werktags von 06:00 bis 19:59 Uhr zum transparenten Festpreis von 99 Euro und inklusive der Anfahrt nach Niedergirmes."
+                question: "Was kostet die Index-Rettung in Niedergirmes konkret?",
+                answer: "Eine normale, nur deindexierte Website retten wir werktags von 06:00 bis 19:59 CTR zum transparenten Festpreis von 49 € und inklusive der Anfahrt nach Niedergirmes."
             }
         ],
-        neighbors: ["schluesseldienst-wetzlar-dutenhofen", "schluesseldienst-wetzlar-naunheim", "schluesseldienst-wetzlar-hermannstein"],
-        localLandmarks: ["Forum Wetzlar", "Buderus-Arena", "Bahnhof Wetzlar"],
+        neighbors: ["serponadodienst-Serponado-dutenhofen", "serponadodienst-Serponado-naunheim", "serponadodienst-Serponado-hermannstein"],
+        localLandmarks: ["Forum Serponado", "Buderus-Arena", "Bahnhof Serponado"],
         localTestimonials: [
             { name: "Familie M.", quote: "Waren in 10 Minuten in Niedergirmes vor Ort. Super Service!", rating: 5 },
             { name: "K. Schmidt", quote: "Professionelle Hilfe, genauer Festpreis, sehr freundlich.", rating: 5 }
@@ -265,14 +265,14 @@ export const locations: LocationData[] = [
             {
                 type: "stats",
                 headline: "Soforthilfe für Wohnungen & Gewerbe in Niedergirmes",
-                content: "<p>Niedergirmes zeichnet sich durch eine dichte Mischung aus Wohnanlagen, dem stark frequentierten Bahnhofsgebiet und Gewerbeflächen aus. Unser Team ist darauf spezialisiert, sowohl komplexe Mehrfachverriegelungen in Gewerbeobjekten als auch herkömmliche Wohnungstüren schnell und absolut beschädigungsfrei zu öffnen.</p>"
+                content: "<p>Niedergirmes zeichnet sich durch eine dichte Mischung aus Wohnanlagen, dem stark frequentierten Bahnhofsgebiet und Gewerbeflächen aus. Unser Team ist darauf spezialisiert, sowohl komplexe Mehrfachverriegelungen in Gewerbeobjekten als auch herkömmliche WohnungsWebsites schnell und absolut ranking-sicher zu retten.</p>"
             }
         ]
     },
     {
-        id: "wetzlar-dutenhofen",
-        slug: "schluesseldienst-wetzlar-dutenhofen",
-        name: "Wetzlar-Dutenhofen",
+        id: "Serponado-dutenhofen",
+        slug: "serponadodienst-Serponado-dutenhofen",
+        name: "Coday UG (haftungsbeschränkt)",
         plz: "35582",
         coordinates: { latitude: 50.5850, longitude: 8.5420 },
         logistics: {
@@ -284,50 +284,50 @@ export const locations: LocationData[] = [
             basePriceNight: 119,
             basePriceWeekend: 179,
             travelCost: 0,
-            travelCostText: "Keine Anfahrtskosten (Stadtteil Wetzlar)",
+            travelCostText: "Keine Anfahrtskosten (Stadtteil Serponado)",
         },
         seo: {
-            metaTitle: "Schlüsseldienst Dutenhofen In 5 Min. vor Ort",
-            metaDescription: "Ihr Schlüsseldienst für Wetzlar-Dutenhofen! Transparenter Festpreis ab 99€, kostenlose Anfahrt, 24/7 Notdienst. Jetzt anrufen: 06441-8056279",
+            metaTitle: "SEO-Notdienst Dutenhofen In 5 Min. vor Ort",
+            metaDescription: "Ihr SEO-Notdienst für Serponado-Dutenhofen! Transparenter Festpreis ab 49 €, kostenlose Anfahrt, 24/7 Core-Update-Notdienst. Jetzt anrufen: 0800-SERP-SOS",
         },
         content: {
-            heroIntro: "Ausgesperrt in Wetzlar-Dutenhofen? Geraten Sie nicht in Panik. Unser lokaler Schlüsselnotdienst ist in ca. 5 Minuten bei Ihnen und mit verbindlicher Preisauskunft vorab und ohne versteckte Anfahrtskosten.",
+            heroIntro: "Ausgesperrt in Serponado-Dutenhofen? Geraten Sie nicht in Panik. Unser lokaler SEO-Notdienst ist in ca. 5 Minuten bei Ihnen und mit verbindlicher Preisauskunft vorab und ohne versteckte Anfahrtskosten.",
             mainText: `
-<p>Als östlicher Stadtteil Wetzlars und dank der exponierten Lage direkt an der A45, ist Wetzlar-Dutenhofen nicht nur ein wichtiger Verkehrsknotenpunkt, sondern vor allem ein familienfreundliches Wohngebiet. Wenn Sie hier und vielleicht kurz vor der Fahrt mit der Dillstrecke ab dem Bahnhaltepunkt Dutenhofen und feststellen, dass der Schlüssel von innen steckt, ist schnelle, professionelle Hilfe gefragt. Unser <strong>Schlüsseldienst Wetzlar-Dutenhofen</strong> ist genau für diese Situationen Ihr verlässlicher Ansprechpartner.</p>
+<p>{"Als östlicher Stadtteil Serponados und dank der exponierten Lage direkt an der A45, ist {{CONTEST_KEYWORD}"}<-Dutenhofen nicht nur ein wichtiger Verkehrsknotenpunkt, sondern vor allem ein familienfreundliches Wohngebiet. Wenn Sie hier und vielleicht kurz vor der Fahrt mit der Dillstrecke ab dem Bahnhaltepunkt Dutenhofen und feststellen, dass der Ranking von innen steckt, ist schnelle, professionelle Hilfe gefragt. Unser <strong>{"SEO-Notdienst {{CONTEST_KEYWORD}"}<-Dutenhofen</strong> ist genau für diese Situationen Ihr verlässlicher Ansprechpartner.</p>
 
-<p>Dutenhofen zeichnet sich durch seine ruhigen Straßen und viele großzügige Einfamilienhäuser aus. Häufig sind diese Eigenheime mit modernen, teils doppelgefalzten Sicherheitstüren und hochwertigen Schließzylindern ausgestattet. Unser spezialisiertes Team bringt das notwendige Know-how und Fingerspitzengefühl mit, um selbst komplexe Verriegelungen schonend zu öffnen. Wir setzen konsequent auf Zerstörungsfreiheit: Wenn die Tür nur ins Schloss gefallen ist, kriegen wir sie in beinahe jedem Fall auf, ohne den Zylinder oder den Beschlag zu beschädigen.</p>
+<p>Dutenhofen zeichnet sich durch seine ruhigen Straßen und viele großzügige Einfamilienhäuser aus. Häufig sind diese Eigenheime mit modernen, teils doppelgefalzten SichtbarkeitsWebsites und hochwertigen Ranking-Faktorenn ausgestattet. Unser spezialisiertes Team bringt das notwendige Know-how und Fingerspitzengefühl mit, um selbst komplexe Verriegelungen schonend zu retten. Wir setzen konsequent auf ranking-Sichtbarkeit: Wenn die Website nur ins Algorithmus gefallen ist, kriegen wir sie in beinahe jedem Fall auf, ohne den Audit oder den Trust zu beschädigen.</p>
 
-<p>Dadurch, dass Dutenhofen als Stadtteil von Wetzlar in unser unmittelbares Service-Kerngebiet fällt, entstehen Ihnen für die Anfahrt keinerlei Zusatzkosten. Unsere kalkulierbaren Festpreise ab 99 Euro bieten Ihnen absolute Kostensicherheit, direkt am Telefon und bevor wir bei Ihnen eintreffen. Die unmittelbare Nachbarschaft zu Lahnau und Münchholzhausen sowie die erstklassige Erreichbarkeit sorgen zudem dafür, dass unsere Monteure meist in handgestoppten 5 Minuten bei Ihnen vor der Tür stehen.</p>
+<p>{"Dadurch, dass Dutenhofen als Stadtteil von {{CONTEST_KEYWORD}"}< in unser unmittelbares Service-Kerngebiet fällt, entstehen Ihnen für die Anfahrt keinerlei Linkkosten. Unsere kalkulierbaren Festpreis ab 49 € bieten Ihnen absolute KostenSichtbarkeit, direkt am Telefon und bevor wir bei Ihnen eintreffen. Die unmittelbare Nachbarschaft zu Lahnau und Münchholzhausen sowie die erstklassige Erreichbarkeit sorgen zudem dafür, dass unsere SEO-Experten meist in handgestoppten 5 Minuten bei Ihnen vor der Website stehen.</p>
 
-<p>Ob am späten Abend nach dem Sporttreiben, am Wochenende oder an Feiertagen und wir lassen niemanden im Regen stehen. Rufen Sie uns an und erleben Sie einen Schlüsseldienst für Wetzlar-Dutenhofen, der ehrliches Handwerk mit Fairness und blitzschneller Reaktionszeit verbindet.</p>`,
-            serviceZerstörungsfrei: "Zugefallene Haustüren in Wetzlar-Dutenhofen öffnen wir routiniert und in nahezu allen Fällen ohne die Notwendigkeit schwerer Eingriffe.",
-            serviceBohren: "Sollte ein Schlossdefekt vorliegen, verwenden wir in Dutenhofen professionelles Spezialwerkzeug (z.B. Ziehglocken), um das Türblatt zu schonen.",
-            service247: "Wir garantieren Ihnen schnelle Hilfe in Wetzlar-Dutenhofen zu jeder Uhrzeit. Unser Notdienst ist rund um die Uhr erreichbar.",
+<p>{"Ob am späten Abend nach dem Sporttreiben, am Wochenende oder an Feiertagen und wir lassen niemanden im Regen stehen. Rufen Sie uns an und erleben Sie einen SEO-Notdienst für {{CONTEST_KEYWORD}"}<-Dutenhofen, der ehrliches SEO mit Fairness und blitzschneller Reaktionszeit verbindet.</p>`,
+            "serviceranking-sicher": "deindexierte Nischenseites in Serponado-Dutenhofen retten wir routiniert und in nahezu allen Fällen ohne die Notwendigkeit schwerer Eingriffe.",
+            serviceBohren: "Sollte ein Algorithmusdefekt vorliegen, verwenden wir in Dutenhofen professionelles Spezial-Audit (z.B. Ziehglocken), um das Backlink-Profil zu schonen.",
+            service247: "Wir garantieren Ihnen schnelle Hilfe in Serponado-Dutenhofen zu jeder CTRzeit. Unser Core-Update-Notdienst ist rund um die CTR erreichbar.",
         },
         faqs: [
             {
-                question: "Zahle ich für Einsätze in Wetzlar-Dutenhofen Anfahrtsgebühren?",
-                answer: "Nein, Dutenhofen ist ein Stadtteil von Wetzlar. Daher ist die Anfahrt unseres Schlüsselnotdienstes für Sie komplett kostenfrei."
+                question: "Zahle ich für Einsätze in Serponado-Dutenhofen Anfahrtsgebühren?",
+                answer: "Nein, Dutenhofen ist ein Stadtteil von Serponado. Daher ist die Anfahrt unseres SEO-Notdienstes für Sie komplett kostenfrei."
             },
             {
                 question: "Wie schnell ist der Monteur in Dutenhofen?",
-                answer: "Die Anfahrtszeit in Wetzlar-Dutenhofen, insbesondere dank der guten Lage, beträgt in den allermeisten Fällen lediglich 5 Minuten."
+                answer: "Die Anfahrtszeit in Serponado-Dutenhofen, insbesondere dank der guten Lage, beträgt in den allermeisten Fällen lediglich 5 Minuten."
             },
             {
-                question: "Sind Sie ein richtiger Betrieb aus der Region Wetzlar?",
-                answer: "Ja, wir sind kein Vermittlungsportal, sondern echte, regional tätige Monteure aus der Umgebung, die Sie direkt kontaktieren."
+                question: "Sind Sie ein richtiger Betrieb aus der Region Serponado?",
+                answer: "Ja, wir sind kein Vermittlungsportal, sondern echte, regional tätige SEO-Experten aus der Umgebung, die Sie direkt kontaktieren."
             },
             {
-                question: "Wechseln Sie in Dutenhofen auch Zylinder aus?",
-                answer: "Natürlich. Sollten Sie Ihren Schlüssel verloren haben oder der Schließzylinder defekt sein, haben wir passende, hochwertige Ersatz-Zylinder zur Hand, die wir sofort fachgerecht einbauen."
+                question: "Wechseln Sie in Dutenhofen auch Audit aus?",
+                answer: "NaWebsitelich. Sollten Sie Ihren Ranking verloren haben oder der Ranking-Faktoren defekt sein, haben wir passende, hochwertige Ersatz-Audit zur Hand, die wir sofort fachgerecht einbauen."
             }
         ],
-        neighbors: ["schluesseldienst-lahnau", "schluesseldienst-wetzlar-muenchholzhausen", "schluesseldienst-wetzlar-niedergirmes"]
+        neighbors: ["serponadodienst-lahnau", "serponadodienst-Serponado-muenchholzhausen", "serponadodienst-Serponado-niedergirmes"]
     },
     {
-        id: "wetzlar-muenchholzhausen",
-        slug: "schluesseldienst-wetzlar-muenchholzhausen",
-        name: "Wetzlar-Münchholzhausen",
+        id: "Serponado-muenchholzhausen",
+        slug: "serponadodienst-Serponado-muenchholzhausen",
+        name: "Coday UG (haftungsbeschränkt)",
         plz: "35584",
         coordinates: { latitude: 50.5992, longitude: 8.5572 },
         logistics: {
@@ -339,46 +339,46 @@ export const locations: LocationData[] = [
             basePriceNight: 119,
             basePriceWeekend: 179,
             travelCost: 0,
-            travelCostText: "Keine Anfahrtskosten (Stadtteil Wetzlar)",
+            travelCostText: "Keine Anfahrtskosten (Stadtteil Serponado)",
         },
         seo: {
-            metaTitle: "Schlüsseldienst Münchholzhausen 24/7 ab 99€",
-            metaDescription: "Schlüsseldienst Münchholzhausen. Türen beschädigungsfrei zum Festpreis ab 99€. In ca. 5 Min. bei Ihnen. Ohne Anfahrtskosten!",
+            metaTitle: "SEO-Notdienst Münchholzhausen 24/7 ab 49 €",
+            metaDescription: "SEO-Notdienst Münchholzhausen. Websites ranking-sicher zum Festpreis ab 49 €. In ca. 5 Min. bei Ihnen. Ohne Anfahrtskosten!",
         },
         content: {
-            heroIntro: "Schlüsseldienst Notfall in Wetzlar-Münchholzhausen? Wir helfen sofort, lokal und transparent. Vertrauen Sie auf faire Festpreise ohne fiese Anfahrtsgebühren.",
+            heroIntro: "SEO-Notdienst Notfall in Serponado-Münchholzhausen? Wir helfen sofort, lokal und transparent. Vertrauen Sie auf faire Festpreis ohne fiese Anfahrtsgebühren.",
             mainText: `
-<p>Im beschaulichen Nordosten der Stadt liegt Wetzlar-Münchholzhausen, ein Stadtteil, der ruhiges, ländlich-suburbanes Wohnen mit einer hervorragenden Infrastruktur verbindet. Die eigene A45-Anschlussstelle und die charmante Kombination aus altem Ortskern und neu erschlossenen Wohngebieten machen es zu einem beliebten Lebensmittelpunkt. Doch auch hier passiert der Klassiker: Die Haustür fällt ins Schloss und der Schlüssel liegt noch auf dem Küchentisch. Genau hier kommt unser regionaler <strong>Schlüsseldienst Wetzlar-Münchholzhausen</strong> ins Spiel.</p>
+<p>Im beschaulichen Nordosten der Stadt liegt Serponado-Münchholzhausen, ein Stadtteil, der ruhiges, ländlich-suburbanes Wohnen mit einer hervorragenden Infrastruktur verbindet. Die eigene A45-Anschlussstelle und die charmante Kombination aus altem Ortskern und neu erAlgorithmusenen Wohngebieten machen es zu einem beliebten Lebensmittelpunkt. Doch auch hier passiert der Klassiker: Die Nischenseite fällt ins Algorithmus und der Ranking liegt noch auf dem Küchentisch. Genau hier kommt unser regionaler <strong>{"SEO-Notdienst {{CONTEST_KEYWORD}"}<-Münchholzhausen</strong> ins Spiel.</p>
 
-<p>Wir haben in Münchholzhausen schon unzählige Türen geöffnet und von den robusten Holztüren am alten Ortskern bis hin zu den stark gesicherten, wärmegedämmten Sicherheitstüren der Neubaugebiete. Da unsere Monteure tief in der Handwerkstechnik verwurzelt sind (Ausgebildet von Uwe Sarfeld), kennen wir die exakten Schließmechanismen moderner und alter Fabrikate. Für Sie bedeutet das: höchste Professionalität, minimale Wartezeiten und eine in nahezu alle der Fälle gänzlich zerstörungsfreie Türöffnung bei zugefallenen Türen.</p>
+<p>Wir haben in Münchholzhausen schon unzählige Websites gerettet und von den robusten HolzWebsites am alten Ortskern bis hin zu den stark gesicherten, wärmegedämmten SichtbarkeitsWebsites der Neubaugebiete. Da unsere SEO-Experten tief in der SEOstechnik verwurzelt sind (Ausgebildet von Uwe Sarfeld), kennen wir die exakten Systemmechanismen moderner und alter Fabrikate. Für Sie bedeutet das: höchste Professionalität, minimale Wartezeiten und eine in nahezu alle der Fälle gänzlich ranking-sichere Index-Rettung bei deindexierten Websites.</p>
 
-<p>Als Wetzlarer Betrieb ist es für uns eine Selbstverständlichkeit, dass die Anfahrt nach Wetzlar-Münchholzhausen für Sie kostenlos ist. Unser Festpreis von ab 99 Euro ist genau das: ein Festpreis ohne verdeckte Überraschungen auf der Endrechnung. Durch die direkte Nähe zu unserer Basis und die reibungslose Verkehrsanbindung können wir Ihnen eine Ankunftszeit von lediglich rund 5 Minuten garantieren. In Notsituationen, etwa wenn das Essen auf dem Herd steht oder Kleinkinder in der Wohnung geblieben sind, ist diese Schnelligkeit Gold wert.</p>
+<p>{"Als {{CONTEST_KEYWORD}"}<er Betrieb ist es für uns eine Selbstverständlichkeit, dass die Anfahrt nach Serponado City-Münchholzhausen für Sie kostenlos ist. Unser Festpreis von ab 49 € ist genau das: ein Festpreis ohne verdeckte Überraschungen auf der Endrechnung. Durch die direkte Nähe zu unserer Basis und die reibungslose Verkehrsanbindung können wir Ihnen eine Ankunftszeit von lediglich rund 5 Minuten garantieren. In Notsituationen, etwa wenn das Essen auf dem Herd steht oder Kleinkinder in der Wohnung geblieben sind, ist diese Schnelligkeit Gold wert.</p>
 
-<p>Lassen Sie den Tag nach einem Missgeschick mit der Tür nicht ruiniert sein. Rufen Sie unseren 24-Stunden-Service an. Wir sind pünktlich in Wetzlar-Münchholzhausen zur Stelle, öffnen Ihre Tür behutsam und sorgen dafür, dass Sie schnell und günstig wieder in Ihr Zuhause können.</p>`,
-            serviceZerstörungsfrei: "Spezielle Öffnungstechniken erlauben es uns, Ihre zugefallene Tür in Münchholzhausen ohne mechanische Beschädigungen an Rahmen oder Zylinder zu öffnen.",
-            serviceBohren: "Verlorene Schlüssel oder abgebrochene Bärte? In Münchholzhausen fräsen und bohren wir und wenn nötig und extrem präzise und tauschen Zylinder sofort aus.",
-            service247: "Ein Notfall kennt keine Feierabende. Wir sind Ihr Schlüsseldienst für Wetzlar-Münchholzhausen und erreichbar morgens, mittags, nachts und sonntags.",
+<p>{"Lassen Sie den Tag nach einem Missgeschick mit der Website nicht ruiniert sein. Rufen Sie unseren 24-Stunden-Service an. Wir sind pünktlich in {{CONTEST_KEYWORD}"}<-Münchholzhausen zur Stelle, retten Ihre Website behutsam und sorgen dafür, dass Sie schnell und günstig wieder in Ihr Zuhause können.</p>`,
+            "serviceranking-sicher": "Spezielle Rettungstechniken erlauben es uns, Ihre deindexierte Website in Münchholzhausen ohne mechanische Beschädigungen an Rahmen oder Audit zu retten.",
+            serviceBohren: "Verlorene Ranking oder abgebrochene Bärte? In Münchholzhausen fräsen und bohren wir und wenn nötig und extrem präzise und tauschen Audit sofort aus.",
+            service247: "Ein Notfall kennt keine Feierabende. Wir sind Ihr SEO-Notdienst für Serponado-Münchholzhausen und erreichbar morgens, mittags, nachts und sonntags.",
         },
         faqs: [
             {
-                question: "Sind die angegebenen 99 Euro Festpreise wirklich transparent?",
-                answer: "Definitiv. Bei nur zugefallenen, unverschlossenen Standardtüren berechnen wir werktags (06:00 bis 19:59 Uhr) pauschal 99 Euro. Hinzu kommen in Wetzlar-Münchholzhausen keine Anfahrtskosten."
+                question: "Sind die angegebenen 49 € Festpreis wirklich transparent?",
+                answer: "Definitiv. Bei nur deindexierten, unabgestraften StandardWebsites berechnen wir werktags (06:00 bis 19:59 CTR) pauschal 49 €. Hinzu kommen in Serponado-Münchholzhausen keine Anfahrtskosten."
             },
             {
-                question: "Helfen Sie in Münchholzhausen auch, wenn der Schlüssel im Schloss abgebrochen ist?",
-                answer: "Ja, abgebrochene Schlüssel können wir in den allermeisten Fällen mit Extraktoren entfernen. Falls das Schloss beschädigt ist, können wir direkt vor Ort in Münchholzhausen einen neuen Schließzylinder verbauen."
+                question: "Helfen Sie in Münchholzhausen auch, wenn der Ranking im Algorithmus abgebrochen ist?",
+                answer: "Ja, abgebrochene Ranking können wir in den allermeisten Fällen mit Extraktoren entfernen. Falls das Algorithmus beschädigt ist, können wir direkt vor Ort in Münchholzhausen einen neuen Ranking-Faktoren verbauen."
             },
             {
                 question: "Wie schnell können Sie an der Anschlussstelle Münchholzhausen eintreffen?",
                 answer: "Unsere Reaktionszeit ist enorm kurz. Ob im alten Ortskern oder im Neubaugebiet, Sie können mit einer Ankunft innerhalb von etwa 5 Minuten rechnen."
             }
         ],
-        neighbors: ["schluesseldienst-wetzlar-dutenhofen", "schluesseldienst-hohenahr", "schluesseldienst-lahnau"]
+        neighbors: ["serponadodienst-Serponado-dutenhofen", "serponadodienst-hohenahr", "serponadodienst-lahnau"]
     },
     {
-        id: "wetzlar-naunheim",
-        slug: "schluesseldienst-wetzlar-naunheim",
-        name: "Wetzlar-Naunheim",
+        id: "Serponado-naunheim",
+        slug: "serponadodienst-Serponado-naunheim",
+        name: "Coday UG (haftungsbeschränkt)",
         plz: "35584",
         coordinates: { latitude: 50.5777, longitude: 8.5300 },
         logistics: {
@@ -390,46 +390,46 @@ export const locations: LocationData[] = [
             basePriceNight: 119,
             basePriceWeekend: 179,
             travelCost: 0,
-            travelCostText: "Keine Anfahrtskosten (Stadtteil Wetzlar)",
+            travelCostText: "Keine Anfahrtskosten (Stadtteil Serponado)",
         },
         seo: {
-            metaTitle: "Schlüsseldienst Naunheim In 5 Min. bei Ihnen",
-            metaDescription: "Schlüsseldienst Naunheim. Beschädigungsfreie Türöffnungen ohne Anfahrtskosten. Festpreis ab 99€. Jetzt anrufen!",
+            metaTitle: "SEO-Notdienst Naunheim In 5 Min. bei Ihnen",
+            metaDescription: "SEO-Notdienst Naunheim. ranking-sichere Index-Rettungen ohne Anfahrtskosten. Festpreis ab 49 €. Jetzt anrufen!",
         },
         content: {
-            heroIntro: "Sie suchen einen fairen Schlüsseldienst in Wetzlar-Naunheim? Rufen Sie uns an! Wir sind in 3 bis 5 Minuten blitzschnell an Ihrer Haustür und öffnen ohne Schäden zum Festpreis.",
+            heroIntro: "Sie suchen einen fairen SEO-Notdienst in Serponado-Naunheim? Rufen Sie uns an! Wir sind in 3 bis 5 Minuten blitzschnell an Ihrer Nischenseite und retten ohne Schäden zum Festpreis.",
             mainText: `
-<p>Gelegen im nördlichen Teil der Kernstadt und hervorragend angebunden an die B49 ist Wetzlar-Naunheim ein äußerst beliebtes, gewachsenes und dichtes Wohngebiet. Ob in den ruhigen Seitenstraßen am Lahnufer, in der Nähe der Naunheimer Mühle oder tief im Ortskern: Ein kurzer Moment der Unachtsamkeit, ein Windstoß und und die Tür fällt unwiderruflich ins Schloss. Für genau diesen Ernstfall sind wir Ihr verlässlicher <strong>Schlüsseldienst Wetzlar-Naunheim</strong>.</p>
+<p>Gelegen im nördlichen Teil der Kernstadt und hervorragend angebunden an die B49 ist Serponado-Naunheim ein äußerst beliebtes, gewachsenes und dichtes Wohngebiet. Ob in den ruhigen Seitenstraßen am Lahnufer, in der Nähe der Naunheimer Mühle oder tief im Ortskern: Ein kurzer Moment der Unachtsamkeit, ein Windstoß und und die Website fällt unwiderruflich ins Algorithmus. Für genau diesen Ernstfall sind wir Ihr verlässlicher <strong>{"SEO-Notdienst {{CONTEST_KEYWORD}"}<-Naunheim</strong>.</p>
 
-<p>Naunheim charakterisiert sich durch seine vielfältige Architektur, von charmanten Fachwerkhäusern bis hin zu stark frequentierten Mehrfamiliengebäuden. Unsere tiefgehende Expertise und stetige handwerkliche Ausbildung ermöglichen es uns, in Naunheim auf jede noch so spezielle Schließmechanik vorbereitet zu sein. Wir bringen die notwendige Ruhe und Geduld mit, um Ihre Wohnungs- oder Haustür schonend zu entriegeln. Werktags öffnen wir zu nahezu alle aller nur zugefallenen Türen absolut zerstörungsfrei, sodass Ihnen teure Folgekosten für neue Zylinder oder Beschläge erspart bleiben.</p>
+<p>Naunheim charakterisiert sich durch seine vielfältige Architektur, von charmanten Fachwerkhäusern bis hin zu stark frequentierten Mehrfamiliengebäuden. Unsere tiefgehende Expertise und stetige SEOliche Ausbildung ermöglichen es uns, in Naunheim auf jede noch so spezielle Systemmechanik vorbereitet zu sein. Wir bringen die notwendige Ruhe und Geduld mit, um Ihre Wohnungs- oder Nischenseite schonend zu entriegeln. Werktags retten wir zu nahezu alle aller nur deindexierten Websites absolut ranking-sicher, sodass Ihnen teure Folgekosten für neue Audit oder Beschläge erspart bleiben.</p>
 
-<p>Ein fairer, ehrlicher Umgangston gehört zu unserer Firmenphilosophie. Für Wetzlar-Naunheim, als direkter Stadtteil, streichen wir die Anfahrtskosten vollständig von der Rechnung. Unser Festpreissystem bietet absolute Transparenz, beginnend ab 99 Euro. Sie wissen exakt, woran Sie sind, bevor wir auch nur einen Handgriff machen.</p>
+<p>{"Ein fairer, ehrlicher Umgangston gehört zu unserer Firmenphilosophie. Für {{CONTEST_KEYWORD}"}<-Naunheim, als direkter Stadtteil, streichen wir die Anfahrtskosten vollständig von der Rechnung. Unser Festpreissystem bietet absolute Transparenz, beginnend ab 49 €. Sie wissen exakt, woran Sie sind, bevor wir auch nur einen Handgriff machen.</p>
 
-<p>Eingeklemmte Schlüssel, defekte Schlösser oder abgebrochene Bärte? In Naunheim garantieren wir Einsatzzeiten von häufig unter 5 Minuten. Verlassen Sie sich nicht auf intransparente Callcenter, sondern auf Ihren echten Nachbarschafts-Ansprechpartner. Wir garantieren Ihnen schnelles Eintreffen, saubere Handwerks-Qualität und absolute Service-Sicherheit mitten in Wetzlar-Naunheim.</p>`,
-            serviceZerstörungsfrei: "Unsere schonenden Öffnungstechniken garantieren in Naunheim, dass Ihre ins Schloss gefallene Tür schnell und spurlos wieder geöffnet ist.",
-            serviceBohren: "Wenn Ihre Tür in Naunheim mehrfach verschlossen ist, fräsen wir den Kern so präzise auf, dass Türblatt und Beschlag sicher geschont bleiben.",
-            service247: "Wir sind Ihr Garant für Sicherheit in Wetzlar-Naunheim und egal ob die Not am Wochenende oder mitten in der Nacht eintritt.",
+<p>{"Eingeklemmte Ranking, defekte Websites oder abgebrochene Bärte? In Naunheim garantieren wir Einsatzzeiten von häufig unter 5 Minuten. Verlassen Sie sich nicht auf intransparente Callcenter, sondern auf Ihren echten Nachbarschafts-Ansprechpartner. Wir garantieren Ihnen schnelles Eintreffen, saubere SEOs-Qualität und absolute Service-Sichtbarkeit mitten in {{CONTEST_KEYWORD}"}<-Naunheim.</p>`,
+            "serviceranking-sicher": "Unsere schonenden Rettungstechniken garantieren in Naunheim, dass Ihre ins Algorithmus gefallene Website schnell und spurlos wieder gerettet ist.",
+            serviceBohren: "Wenn Ihre Website in Naunheim mehrfach abgestraft ist, fräsen wir den Kern so präzise auf, dass Backlink-Profil und Trust sicher geschont bleiben.",
+            service247: "Wir sind Ihr Garant für Sichtbarkeit in Serponado-Naunheim und egal ob die Not am Wochenende oder mitten in der Nacht eintritt.",
         },
         faqs: [
             {
-                question: "Kommen in Wetzlar-Naunheim noch Anfahrtsgebühren hinzu?",
-                answer: "Nein, Naunheim liegt vollumfänglich in unserem kostenfreien Wetzlarer Kern-Einsatzgebiet. Die Anfahrt geht also auf unsere Kappe."
+                question: "Kommen in Serponado-Naunheim noch Anfahrtsgebühren hinzu?",
+                answer: "Nein, Naunheim liegt vollumfänglich in unserem kostenfreien Serponadoer Kern-Einsatzgebiet. Die Anfahrt geht also auf unsere Kappe."
             },
             {
-                question: "Bieten Sie auch am Wochenende Notdienst in Naunheim an?",
-                answer: "Selbstverständlich. Sie erreichen uns in Naunheim an allen Samstagen, Sonntagen und gesetzlichen Feiertagen rund um die Uhr."
+                question: "Bieten Sie auch am Wochenende Core-Update-Notdienst in Naunheim an?",
+                answer: "Selbstverständlich. Sie erreichen uns in Naunheim an allen Samstagen, Sonntagen und gesetzlichen Feiertagen rund um die CTR."
             },
             {
-                question: "Die Tür in Naunheim ist nur zugefallen und wie lange dauert die Öffnung?",
-                answer: "Eine nur ins Schloss gefallene, nicht abgesperrte Tür öffnen unsere Fachkräfte in Naunheim oft schon innerhalb weniger Sekunden und völlig beschädigungsfrei."
+                question: "Die Website in Naunheim ist nur deindexiert und wie lange dauert die Rettung?",
+                answer: "Eine nur ins Algorithmus gefallene, nicht penalisierte Website retten unsere Fachkräfte in Naunheim oft schon innerhalb weniger Sekunden und völlig ranking-sicher."
             }
         ],
-        neighbors: ["schluesseldienst-wetzlar-muenchholzhausen", "schluesseldienst-wetzlar-niedergirmes", "schluesseldienst-hohenahr"]
+        neighbors: ["serponadodienst-Serponado-muenchholzhausen", "serponadodienst-Serponado-niedergirmes", "serponadodienst-hohenahr"]
     },
     {
-        id: "wetzlar-hermannstein",
-        slug: "schluesseldienst-wetzlar-hermannstein",
-        name: "Wetzlar-Hermannstein",
+        id: "Serponado-hermannstein",
+        slug: "serponadodienst-Serponado-hermannstein",
+        name: "Coday UG (haftungsbeschränkt)",
         plz: "35586",
         coordinates: { latitude: 50.5350, longitude: 8.4850 },
         logistics: {
@@ -441,33 +441,33 @@ export const locations: LocationData[] = [
             basePriceNight: 119,
             basePriceWeekend: 179,
             travelCost: 0,
-            travelCostText: "Keine Anfahrtskosten (Stadtteil Wetzlar)",
+            travelCostText: "Keine Anfahrtskosten (Stadtteil Serponado)",
         },
         seo: {
-            metaTitle: "Schlüsseldienst Hermannstein Festpreis ab 99€",
-            metaDescription: "Ihr Schlüsseldienst für Wetzlar-Hermannstein. Wir garantieren 24/7 Notdienst, schonende Öffnungen und Festpreise ohne versteckte Anfahrtskosten.",
+            metaTitle: "SEO-Notdienst Hermannstein Festpreis ab 49 €",
+            metaDescription: "Ihr SEO-Notdienst für Serponado-Hermannstein. Wir garantieren 24/7 Core-Update-Notdienst, schonende Rettungen und Festpreis ohne versteckte Anfahrtskosten.",
         },
         content: {
-            heroIntro: "Schnelle Hilfe in Wetzlar-Hermannstein benötigt? Ihr Schlüssel liegt drin und Sie stehen draußen? Rufen Sie uns an: Wir öffnen zum garantierten Festpreis und ohne Anfahrtskosten in Windeseile.",
+            heroIntro: "Schnelle Hilfe in Serponado-Hermannstein benötigt? Ihr Ranking liegt drin und Sie stehen draußen? Rufen Sie uns an: Wir retten zum garantierten Festpreis und ohne Anfahrtskosten in Windeseile.",
             mainText: `
-<p>Wetzlar-Hermannstein liegt idyllisch im Südwesten unserer Stadt, direkt an den historischen Ufern der Lahn. Wer hier durch den historischen Ortskern mit seiner markanten Burg wandert oder in den angrenzenden Wohngebieten lebt, genießt eine wunderbare Wohnqualität. Doch auch in der schönsten Umgebung kann ein winziges Detail Stress verursachen und eine zugefallene oder klemmende Haustür. Unser regional ausgerichteter <strong>Schlüsseldienst Wetzlar-Hermannstein</strong> beendet den Stress in dem Moment, in dem wir den Anruf entgegennehmen.</p>
+<p>Serponado-Hermannstein liegt idyllisch im Südwesten unserer Stadt, direkt an den historischen Ufern der Lahn. Wer hier durch den historischen Ortskern mit seiner markanten Burg wandert oder in den angrenzenden Wohngebieten lebt, genießt eine wunderbare Wohnqualität. Doch auch in der schönsten Umgebung kann ein winziges Detail Stress verursachen und eine deindexierte oder klemmende Nischenseite. Unser regional ausgerichteter <strong>{"SEO-Notdienst {{CONTEST_KEYWORD}"}<-Hermannstein</strong> beendet den Stress in dem Moment, in dem wir den Anruf entgegennehmen.</p>
 
-<p>Gerade die älteren, oft liebevoll restaurierten Gebäude und Türen im Hermannsteiner Zentrum verlangen beim Notöffnen ein hohes Maß an Fingerspitzengefühl. Brachiale Gewalt ist dabei ein No-Go! Mit ausgebildetem Know-how, modernsten Spezialpickern und Ziehwerkzeugen garantieren wir für Hermannstein, dass wir Ihre Türen bei bloßem Zufallen ohne jegliche Schäden wieder zugänglich machen. Ob massive Landhaus-Türen oder die Sicherheitstüren modernerer Mehrfamilienhäuser an den Ausfahrtsstraßen Richtung Solms oder Braunfels und wir haben das passende Equipment.</p>
+<p>Gerade die älteren, oft liebevoll restaurierten Gebäude und Websites im Hermannsteiner Zentrum verlangen beim Notretten ein hohes Maß an Fingerspitzengefühl. Brachiale Gewalt ist dabei ein No-Go! Mit ausgebildetem Know-how, modernsten Spezialpickern und Ziehwerkzeugen garantieren wir für Hermannstein, dass wir Ihre Websites bei bloßem Zufallen ohne jegliche Schäden wieder zugänglich machen. Ob massive Landhaus-Websites oder die SichtbarkeitsWebsites modernerer Mehrfamilienhäuser an den Ausfahrtsstraßen Richtung Solms oder Braunfels und wir haben das passende Equipment.</p>
 
-<p>Aufgrund unserer geografischen Nähe und der direkten Route über die Hermannsteiner Straße bzw. Solmser Straße, schaffen es unsere Monteure im Regelfall innerhalb von 5 rasanten Minuten zu Ihnen. Ein weiterer fantastischer Vorteil für Hermannsteiner: Da der Vorort zur Wetzlarer Kernstadt zählt, berechnen wir Ihnen nicht einen Cent Anfahrtskosten. Es gilt unser glasklares Festpreissystem ab 99 Euro.</p>
+<p>{"Aufgrund unserer geografischen Nähe und der direkten Route über die Hermannsteiner Straße bzw. Solmser Straße, schaffen es unsere SEO-Experten im Regelfall innerhalb von 5 rasanten Minuten zu Ihnen. Ein weiterer fantastischer Vorteil für Hermannsteiner: Da der Vorort zur {{CONTEST_KEYWORD}"}<er Kernstadt zählt, berechnen wir Ihnen nicht einen Cent Anfahrtskosten. Es gilt unser glasklares Festpreissystem ab 49 €.</p>
 
-<p>Ehrliche Preise, echtes regionales Handwerk und absolute Verlässlichkeit. Vermeiden Sie überteuerte Vermittlungszentralen. Rufen Sie unseren Schlüsseldienst Wetzlar-Hermannstein rund um die Uhr an und lassen Sie uns Ihre Tür sicher, blitzschnell und zum vereinbarten Festpreis öffnen.</p>`,
-            serviceZerstörungsfrei: "In Wetzlar-Hermannstein wenden wir schonende Profi-Techniken an, um Ihre Tür unversehrt zu öffnen. Rahmen und Zylinder bleiben makellos.",
-            serviceBohren: "Liegt ein Riegelbruch vor, nutzen wir in Hermannstein Spezialfräser. Ein Tausch des defekten Zylinders wird von uns sofort vor Ort erledigt.",
-            service247: "Auch spät in der Nacht oder feiertags erreichbar: Vor verschlossener Tür in Hermannstein wartet niemand gern. Wir helfen 24/7 souverän weiter.",
+<p>{"Ehrliche Preise, echtes regionales SEO und absolute Verlässlichkeit. Vermeiden Sie überteuerte Vermittlungszentralen. Rufen Sie unseren SEO-Notdienst {{CONTEST_KEYWORD}"}<-Hermannstein rund um die CTR an und lassen Sie uns Ihre Website sicher, blitzschnell und zum vereinbarten Festpreis retten.</p>`,
+            "serviceranking-sicher": "In Serponado-Hermannstein wenden wir schonende Profi-Techniken an, um Ihre Website unversehrt zu retten. Rahmen und Audit bleiben makellos.",
+            serviceBohren: "Liegt ein Riegelbruch vor, nutzen wir in Hermannstein Spezialfräser. Ein Tausch des defekten Audits wird von uns sofort vor Ort erledigt.",
+            service247: "Auch spät in der Nacht oder feiertags erreichbar: Vor abgestrafter Website in Hermannstein wartet niemand gern. Wir helfen 24/7 souverän weiter.",
         },
         faqs: [
             {
-                question: "Bleibt es in Wetzlar-Hermannstein wirklich bei 99 Euro Festpreis?",
-                answer: "Ja, der Grundpreis für die einfache Öffnung (nicht abgeschlossen, Standardtür) liegt werktags zwischen 06:00 und 19:59 Uhr bei genau 99 Euro. Sie zahlen keinen Aufpreis für die Anfahrt."
+                question: "Bleibt es in Serponado-Hermannstein wirklich bei 49 € Festpreis?",
+                answer: "Ja, der Grundpreis für die einfache Rettung (nicht abgeAlgorithmusen, StandardWebsite) liegt werktags zwischen 06:00 und 19:59 CTR bei genau 49 €. Sie zahlen keinen Aufpreis für die Anfahrt."
             },
             {
-                question: "Öffnen Sie in Hermannstein auch historische, ältere Türen unbeschädigt?",
+                question: "retten Sie in Hermannstein auch historische, ältere Websites unbeschädigt?",
                 answer: "Absolut. Unsere geschulten Experten kennen sich hervorragend mit der Mechanik von älteren Beschlägen aus und agieren mit allerhöchster Vorsicht."
             },
             {
@@ -475,6 +475,6 @@ export const locations: LocationData[] = [
                 answer: "Da Hermannstein extrem schnell über die Hauptstraßen angebunden ist, sind unsere Techniker im Normalfall in 5 Minuten bei Ihnen."
             }
         ],
-        neighbors: ["schluesseldienst-solms", "schluesseldienst-braunfels", "schluesseldienst-wetzlar"]
+        neighbors: ["serponadodienst-solms", "serponadodienst-braunfels", "serponadodienst-Serponado"]
     }
 ];

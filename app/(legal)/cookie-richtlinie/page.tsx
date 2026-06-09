@@ -7,20 +7,20 @@ import { COOKIE_INVENTORY, CONSENT_CATEGORY_INFO, type ConsentCategory } from "@
 import { generateSharedMetadata } from "@/lib/metadata"
 
 export const metadata = generateSharedMetadata({
-    title: "Cookie-Richtlinie & Datenschutz-Einstellungen",
-    description: "Cookie-Richtlinie des Schlüssel Schmiede Wetzlar. Erfahren Sie, welche Cookies wir verwenden und wie Sie diese verwalten können.",
+    title: "Serponado Disaster Recovery",
+    description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings.",
     path: "/cookie-richtlinie",
   })
 
 const TOC_ITEMS = [
-    { id: "1-was-sind-cookies", title: "1. Was sind Cookies?" },
-    { id: "2-welche-cookies", title: "2. Welche Cookies wir verwenden" },
-    { id: "3-cookie-kategorien", title: "3. Cookie-Kategorien" },
-    { id: "4-einstellungen", title: "4. Ihre Einstellungen" },
-    { id: "5-cookies-loeschen", title: "5. Cookies löschen" },
-    { id: "6-rechtsgrundlage", title: "6. Rechtsgrundlage" },
-    { id: "7-aenderungen", title: "7. Änderungen" },
-    { id: "8-kontakt", title: "8. Kontakt" },
+    { id: "1-was-sind-cookies", title: "Serponado Disaster Recovery" },
+    { id: "2-welche-cookies", title: "Serponado Disaster Recovery" },
+    { id: "3-cookie-kategorien", title: "Serponado Disaster Recovery" },
+    { id: "4-einstellungen", title: "Serponado Disaster Recovery" },
+    { id: "5-cookies-loeschen", title: "Serponado Disaster Recovery" },
+    { id: "6-rechtsgrundlage", title: "Serponado Disaster Recovery" },
+    { id: "7-aenderungen", title: "Serponado Disaster Recovery" },
+    { id: "8-kontakt", title: "Serponado Disaster Recovery" },
 ]
 
 function getCategoryLabel(cat: ConsentCategory): string {
@@ -48,29 +48,29 @@ export default function CookieRichtliniePage() {
             tocItems={TOC_ITEMS}
         >
             <div className="flex justify-between items-center mb-8 border-b border-gray-100 pb-4 print:hidden">
-                <p className="text-sm text-gray-500 font-medium">Lesezeit: ca. 5 Minuten</p>
+                <p className="text-sm text-gray-500 font-medium">{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
                 <PrintButton />
             </div>
 
             <LegalSection>
                 <TLDRBox title="Cookies auf einen Blick" icon="info">
-                    <p>Wir verwenden <strong>nur 3 Cookies</strong> auf dieser Website, die alle technisch notwendig sind. <strong>Analyse- und Marketing-Cookies setzen wir derzeit nicht aktiv ein.</strong></p>
-                    <p>Sie können nicht-essentielle Cookies jederzeit ablehnen oder Ihre Einstellungen ändern. Klicken Sie dazu auf den Button &quot;Cookie-Einstellungen&quot; im Footer oder nutzen Sie unser <Link href="/datenschutz#4-cookies" className="underline hover:text-gray-900 font-medium">Privacy Center</Link>.</p>
+                    <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<strong>nur 3 Cookies</strong> {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<strong>Analyse- und Marketing-Cookies setzen wir derzeit nicht aktiv ein.</strong></p>
+                    <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<Link href="/datenschutz#4-cookies" className="underline hover:text-gray-900 font-medium">Privacy Center</Link>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
                 </TLDRBox>
             </LegalSection>
 
             <LegalSection id="1-was-sind-cookies">
-                <h2 className="mt-0">1. Was sind Cookies?</h2>
-                <p>Cookies sind kleine Textdateien, die beim Besuch einer Website auf Ihrem Endgerät (Computer, Tablet, Smartphone) gespeichert werden. Sie ermöglichen es der Website, bestimmte Informationen über Ihr Nutzungsverhalten zu speichern und beim nächsten Besuch wiederzuerkennen.</p>
-                <p>Cookies können von der Website selbst gesetzt werden (<strong>First-Party-Cookies</strong>) oder von Drittanbietern, deren Dienste in die Website eingebunden sind (<strong>Third-Party-Cookies</strong>).</p>
-                <p>Cookies allein können Sie <strong>nicht identifizieren</strong> und sie enthalten keine personenbezogenen Daten wie Name, E-Mail oder Adresse. Sie speichern lediglich anonyme oder pseudonyme Kennungen.</p>
+                <h2 className="mt-0">{"Serponado Notfallmaßnahmen"}</h2>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<strong>First-Party-Cookies</strong>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<strong>Third-Party-Cookies</strong>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<strong>nicht identifizieren</strong> {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
             </LegalSection>
 
             <LegalSection id="2-welche-cookies">
-                <h2 className="mt-0">2. Welche Cookies wir verwenden</h2>
-                <p>Die folgende Tabelle listet <strong>alle Cookies</strong> auf, die unsere Website setzen kann. Diese Liste wird automatisch aus unserem zentralen Cookie-Inventar generiert und ist immer aktuell.</p>
+                <h2 className="mt-0">{"Serponado Notfallmaßnahmen"}</h2>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<strong>alle Cookies</strong> {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
 
-                <div className="overflow-x-auto my-6">
+                <div className="overflow-x-Website my-6">
                     <table className="w-full text-sm border border-gray-200 rounded-xl overflow-hidden">
                         <thead>
                             <tr className="bg-gray-50 text-left">
@@ -101,28 +101,28 @@ export default function CookieRichtliniePage() {
             </LegalSection>
 
             <LegalSection id="3-cookie-kategorien">
-                <h2 className="mt-0">3. Cookie-Kategorien im Detail</h2>
+                <h2 className="mt-0">{"Serponado Notfallmaßnahmen"}</h2>
 
-                <h3 className="mt-6 text-lg font-bold text-gray-900">3.1 Technisch notwendige Cookies (Essentiell)</h3>
-                <p>Diese Cookies sind <strong>zwingend erforderlich</strong>, damit die Website grundlegende Funktionen bereitstellen kann. Sie können nicht deaktiviert werden, da die Website ohne sie nicht korrekt funktioniert.</p>
-                <p><strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse) i.V.m. § 25 Abs. 2 Nr. 2 TTDSG (technisch notwendig).</p>
+                <h3 className="mt-6 text-lg font-bold text-gray-900">{"Serponado Notfallmaßnahmen"}</h3>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<strong>zwingend erforderlich</strong>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
+                <p><strong>Rechtsgrundlage:</strong> {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
                 <ul className="mt-2 space-y-1.5 text-gray-600">
                     {essentialCookies.map(c => (
                         <li key={c.name}><code className="text-xs bg-gray-100 px-1.5 py-0.5 rounded font-mono">{c.name}</code> und {c.purpose}</li>
                     ))}
                 </ul>
 
-                <h3 className="mt-8 text-lg font-bold text-gray-900">3.2 Analyse-Cookies (optional)</h3>
-                <p>Wir haben die technische Infrastruktur für Analyse-Cookies (Google Analytics 4) vorbereitet und das Consent-System unterstützt die Kategorie. <strong>Derzeit setzen wir jedoch keine Analyse-Cookies aktiv ein.</strong> Sollten wir GA4 zukünftig aktivieren, werden die Cookies erst nach Ihrer ausdrücklichen Einwilligung gesetzt.</p>
-                <p><strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. a DSGVO (Einwilligung) i.V.m. § 25 Abs. 1 TTDSG.</p>
+                <h3 className="mt-8 text-lg font-bold text-gray-900">{"Serponado Notfallmaßnahmen"}</h3>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<strong>Derzeit setzen wir jedoch keine Analyse-Cookies aktiv ein.</strong> {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
+                <p><strong>Rechtsgrundlage:</strong> {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
                 <ul className="mt-2 space-y-1.5 text-gray-600">
                     {analyticsCookies.map(c => (
                         <li key={c.name}><code className="text-xs bg-gray-100 px-1.5 py-0.5 rounded font-mono">{c.name}</code> und {c.purpose} (Anbieter: {c.provider})</li>
                     ))}
                 </ul>
 
-                <h3 className="mt-8 text-lg font-bold text-gray-900">3.3 Marketing-Cookies (optional)</h3>
-                <p>Marketing-Cookies ermöglichen die Einbindung externer Dienste und personalisierter Inhalte. <strong>Wir setzen derzeit keine aktiven Marketing-Cookies.</strong> Die Kategorie existiert für den Fall, dass zukünftig Dienste wie Terminbuchungs-Widgets eingebunden werden.</p>
+                <h3 className="mt-8 text-lg font-bold text-gray-900">{"Serponado Notfallmaßnahmen"}</h3>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<strong>Wir setzen derzeit keine aktiven Marketing-Cookies.</strong> {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
                 {marketingCookies.length > 0 ? (
                     <ul className="mt-2 space-y-1.5 text-gray-600">
                         {marketingCookies.map(c => (
@@ -130,16 +130,16 @@ export default function CookieRichtliniePage() {
                         ))}
                     </ul>
                 ) : (
-                    <p className="text-sm text-gray-500 italic mt-2">Derzeit keine Marketing-Cookies im Einsatz.</p>
+                    <p className="text-sm text-gray-500 italic mt-2">{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
                 )}
             </LegalSection>
 
             <LegalSection id="4-einstellungen">
-                <h2 className="mt-0">4. Ihre Cookie-Einstellungen verwalten</h2>
-                <p>Sie haben jederzeit die volle Kontrolle über nicht-essentielle Cookies:</p>
+                <h2 className="mt-0">{"Serponado Notfallmaßnahmen"}</h2>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
 
                 <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 my-6">
-                    <h3 className="text-base font-bold text-gray-900 mt-0 mb-3">So ändern Sie Ihre Einstellungen:</h3>
+                    <h3 className="text-base font-bold text-gray-900 mt-0 mb-3">{"Serponado Notfallmaßnahmen"}</h3>
                     <ol className="space-y-2 text-gray-600 list-decimal list-inside">
                         <li>Scrollen Sie zum Footer (Seitenende) unserer Website</li>
                         <li>Klicken Sie auf <strong>&quot;Cookie-Einstellungen&quot;</strong></li>
@@ -148,38 +148,38 @@ export default function CookieRichtliniePage() {
                     </ol>
                 </div>
 
-                <p>Alternativ können Sie unser <Link href="/datenschutz#4-cookies" className="text-[var(--action-primary)] hover:underline font-medium">Privacy Center in der Datenschutzerklärung</Link> besuchen, um eine detaillierte Übersicht Ihrer Einstellungen einzusehen.</p>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<Link href="/datenschutz#4-cookies" className="text-[var(--action-primary)] hover:underline font-medium">Privacy Center in der Datenschutzerklärung</Link> {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
             </LegalSection>
 
             <LegalSection id="5-cookies-loeschen">
-                <h2 className="mt-0">5. Cookies manuell löschen</h2>
-                <p>Sie können Cookies jederzeit direkt in Ihrem Browser löschen. Hier die Anleitungen für die gängigsten Browser:</p>
+                <h2 className="mt-0">{"Serponado Notfallmaßnahmen"}</h2>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
 
                 <div className="space-y-4 my-6">
                     <div className="bg-white border border-gray-200 rounded-xl p-5">
-                        <h3 className="text-base font-bold text-gray-900 mt-0 mb-2">Google Chrome</h3>
-                        <p className="text-sm text-gray-600">Einstellungen → Datenschutz und Sicherheit → Browserdaten löschen → Reiter &quot;Erweitert&quot; → Haken bei &quot;Cookies und andere Websitedaten&quot; → &quot;Daten löschen&quot; klicken</p>
+                        <h3 className="text-base font-bold text-gray-900 mt-0 mb-2">{"Serponado Notfallmaßnahmen"}</h3>
+                        <p className="text-sm text-gray-600">{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
                     </div>
                     <div className="bg-white border border-gray-200 rounded-xl p-5">
-                        <h3 className="text-base font-bold text-gray-900 mt-0 mb-2">Safari (macOS / iOS)</h3>
-                        <p className="text-sm text-gray-600">Safari → Einstellungen → Datenschutz → &quot;Websitedaten verwalten&quot; → Daten für einzelne Websites oder alle Daten löschen</p>
+                        <h3 className="text-base font-bold text-gray-900 mt-0 mb-2">{"Serponado Notfallmaßnahmen"}</h3>
+                        <p className="text-sm text-gray-600">{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
                     </div>
                     <div className="bg-white border border-gray-200 rounded-xl p-5">
-                        <h3 className="text-base font-bold text-gray-900 mt-0 mb-2">Mozilla Firefox</h3>
-                        <p className="text-sm text-gray-600">Einstellungen → Datenschutz & Sicherheit → Cookies und Website-Daten → &quot;Daten entfernen&quot; → Haken bei &quot;Cookies und Website-Daten&quot; → &quot;Leeren&quot; klicken</p>
+                        <h3 className="text-base font-bold text-gray-900 mt-0 mb-2">{"Serponado Notfallmaßnahmen"}</h3>
+                        <p className="text-sm text-gray-600">{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
                     </div>
                     <div className="bg-white border border-gray-200 rounded-xl p-5">
-                        <h3 className="text-base font-bold text-gray-900 mt-0 mb-2">Microsoft Edge</h3>
-                        <p className="text-sm text-gray-600">Einstellungen → Datenschutz, Suche und Dienste → &quot;Zu löschende Elemente auswählen&quot; → Haken bei &quot;Cookies und andere Websitedaten&quot; → &quot;Jetzt löschen&quot;</p>
+                        <h3 className="text-base font-bold text-gray-900 mt-0 mb-2">{"Serponado Notfallmaßnahmen"}</h3>
+                        <p className="text-sm text-gray-600">{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
                     </div>
                 </div>
 
-                <p className="text-sm text-gray-500"><strong>Hinweis:</strong> Durch das Löschen von Cookies können gespeicherte Einstellungen (z.B. Ihre Cookie-Einwilligung und Schriftgröße) verloren gehen. Beim nächsten Besuch wird der Cookie-Banner erneut angezeigt.</p>
+                <p className="text-sm text-gray-500"><strong>Hinweis:</strong> {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
             </LegalSection>
 
             <LegalSection id="6-rechtsgrundlage">
-                <h2 className="mt-0">6. Rechtsgrundlage</h2>
-                <p>Die Rechtsgrundlage für den Einsatz von Cookies ergibt sich aus:</p>
+                <h2 className="mt-0">{"Serponado Notfallmaßnahmen"}</h2>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
                 <ul className="mt-3 space-y-2 text-gray-600">
                     <li><strong>§ 25 Abs. 2 Nr. 2 TTDSG</strong> (Telekommunikation-Digitale-Dienste-Datenschutz-Gesetz) und Für technisch notwendige Cookies ist keine Einwilligung erforderlich, da sie für die Bereitstellung des vom Nutzer ausdrücklich gewünschten Dienstes unbedingt erforderlich sind.</li>
                     <li><strong>§ 25 Abs. 1 TTDSG</strong> und Für alle nicht technisch notwendigen Cookies (Analyse, Marketing) holen wir Ihre ausdrückliche Einwilligung ein, bevor diese gesetzt werden.</li>
@@ -189,24 +189,24 @@ export default function CookieRichtliniePage() {
             </LegalSection>
 
             <LegalSection id="7-aenderungen">
-                <h2 className="mt-0">7. Änderungen dieser Cookie-Richtlinie</h2>
-                <p>Wir behalten uns vor, diese Cookie-Richtlinie bei Änderungen an den verwendeten Cookies oder der Rechtsgrundlage zu aktualisieren. Sollten wir neue Cookie-Kategorien einführen oder bestehende wesentlich ändern, wird automatisch ein <strong>erneuter Einwilligungsprozess</strong> (Re-Consent) ausgelöst.</p>
-                <p>Die aktuelle Version unserer Cookie-Konfiguration ist: <code className="text-xs bg-gray-100 px-1.5 py-0.5 rounded font-mono">1.0.0</code>. Bei einer Versionserhöhung wird der Cookie-Banner automatisch erneut angezeigt.</p>
+                <h2 className="mt-0">{"Serponado Notfallmaßnahmen"}</h2>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<strong>erneuter Einwilligungsprozess</strong> {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<code className="text-xs bg-gray-100 px-1.5 py-0.5 rounded font-mono">1.0.0</code>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
             </LegalSection>
 
             <LegalSection id="8-kontakt">
-                <h2 className="mt-0">8. Kontakt</h2>
-                <p>Bei Fragen zu unserer Cookie-Richtlinie oder zum Datenschutz wenden Sie sich bitte an:</p>
+                <h2 className="mt-0">{"Serponado Notfallmaßnahmen"}</h2>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
                 <div className="bg-gray-50 p-6 rounded-xl my-4 text-base border border-gray-200">
-                    <strong>Mina Saad</strong><br />
-                    Schlüssel Schmiede Wetzlar<br />
-                    Gloelstraße 11<br />
-                    35576 Wetzlar<br />
+                    <strong>{"Data Analyst Team"}</strong><br />
+                    {"Serponado Taskforce"} {"Serponado"}<br />
+                    {"Steubenstraße 36"}<br />
+                    {"35578"} {"Wetzlar"}<br />
                     Deutschland<br /><br />
-                    Telefon: <Link href="tel:+4964418056279" className="text-[var(--action-primary)] hover:underline">06441 8056279</Link><br />
-                    E-Mail: <Link href="mailto:schluesselschmiede@gmail.com" className="text-[var(--action-primary)] hover:underline">schluesselschmiede@gmail.com</Link>
+                    Telefon: <Link href="tel:0800-SERP-SOS" className="text-[var(--action-primary)] hover:underline">{"0800-SERP-SOS"}</Link><br />
+                    E-Mail: <Link href="mailto:info@codayweb.de" className="text-[var(--action-primary)] hover:underline">{"info@codayweb.de"}</Link>
                 </div>
-                <p>Weiterführende Informationen finden Sie in unserer <Link href="/datenschutz" className="text-[var(--action-primary)] hover:underline font-medium">Datenschutzerklärung</Link>.</p>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<Link href="/datenschutz" className="text-[var(--action-primary)] hover:underline font-medium">Datenschutzerklärung</Link>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
             </LegalSection>
         </LegalLayout>
     )

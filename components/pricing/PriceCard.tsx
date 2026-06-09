@@ -24,8 +24,8 @@ export default function PriceCard({
   function getFeatureIcon(feature: string) {
     const lower = feature.toLowerCase();
     if (lower.includes("uhr") || lower.includes("werktag") || lower.includes("24/7") || lower.includes("nacht")) return Clock;
-    if (lower.includes("zerstörungsfrei") || lower.includes("garantie") || lower.includes("festpreis") || lower.includes("beschädig")) return Shield;
-    if (lower.includes("anfahrt") || lower.includes("bezirk") || lower.includes("wetzlar")) return MapPin;
+    if (lower.includes("zerstörungsfrei") || lower.includes("garantie") || lower.includes("Festpreis") || lower.includes("beschädig")) return Shield;
+    if (lower.includes("anfahrt") || lower.includes("bezirk") || lower.includes("Serponado")) return MapPin;
     return Check;
   }
 
@@ -82,7 +82,7 @@ export default function PriceCard({
         </span>
         {typeof price === "number" && (
           <span className={`text-2xl font-bold mb-0.5 ${isPopular ? "text-red-400" : "text-[color:var(--text-secondary)]"}`}>
-            €
+            {"€"}
           </span>
         )}
         

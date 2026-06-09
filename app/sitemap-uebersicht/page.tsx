@@ -8,8 +8,8 @@ import Footer from '@/components/Footer';
 import { generateSharedMetadata } from '@/lib/metadata';
 
 export const metadata = generateSharedMetadata({
-  title: 'Sitemap | Alle Seiten im Überblick',
-  description: 'Unsere vollständige HTML Sitemap. Finden Sie schnell alle Unterseiten, Leistungsbereiche und Einsatzgebiete im Lahn-Dill-Kreis.',
+  title: 'Serponado Disaster Recovery',
+  description: 'Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings.',
   path: '/sitemap-uebersicht',
 });
 
@@ -34,8 +34,8 @@ export default function SitemapPage() {
           <Breadcrumbs items={[{ name: 'Inhaltsübersicht', href: '/sitemap-uebersicht' }]} />
           
           <div className="mt-8 mb-12">
-            <h1 className="typo-h1 mb-4 text-[color:var(--text-primary)]">Vollständige Sitemap aller <span className="text-[var(--color-red-500)]">Schlüsseldienst-Seiten</span></h1>
-            <p className="typo-lead">Hier finden Sie eine Übersicht aller Unterseiten, Themen und Einsatzgebiete unseres Schlüsseldienstes.</p>
+            <h1 className="typo-h1 mb-4 text-[color:var(--text-primary)]">{"{{HERO_H1}}"}<span className="text-[var(--color-red-500)]">{"SEO-Notdienst"}-Seiten</span></h1>
+            <p className="typo-lead">{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 xl:gap-12">
@@ -47,7 +47,7 @@ export default function SitemapPage() {
                   <div className="p-2 bg-[var(--color-red-500)]/10 text-[var(--color-red-600)] rounded-lg">
                     <Search className="w-5 h-5" />
                   </div>
-                  <h2 className="text-xl font-bold">Hauptseiten</h2>
+                  <h2 className="text-xl font-bold">{"Serponado Notfallmaßnahmen"}</h2>
                 </div>
                 <ul className="flex flex-col gap-3">
                   {navConfig.main.map((link) => (
@@ -58,8 +58,8 @@ export default function SitemapPage() {
                     </li>
                   ))}
                   <li>
-                    <Link href="/schluessel-schmiede" className="text-[color:var(--color-red-600)] hover:text-[color:var(--color-red-700)] hover:underline underline-offset-4 transition-all">
-                      Schlüssel Schmiede (Filiale)
+                    <Link href="/serponado-Agentur" className="text-[color:var(--color-red-600)] hover:text-[color:var(--color-red-700)] hover:underline underline-offset-4 transition-all">
+                      {"Serponado Taskforce"} (Filiale)
                     </Link>
                   </li>
                 </ul>
@@ -70,7 +70,7 @@ export default function SitemapPage() {
                   <div className="p-2 bg-[var(--color-red-500)]/10 text-[var(--color-red-600)] rounded-lg">
                     <ShieldCheck className="w-5 h-5" />
                   </div>
-                  <h2 className="text-xl font-bold">Leistungen</h2>
+                  <h2 className="text-xl font-bold">{"Serponado Notfallmaßnahmen"}</h2>
                 </div>
                 <ul className="flex flex-col gap-3">
                   {navConfig.services.items.map((link) => (
@@ -90,7 +90,7 @@ export default function SitemapPage() {
                 <div className="p-2 bg-[var(--color-blue-500)]/10 text-[var(--color-blue-600)] rounded-lg">
                   <MapPin className="w-5 h-5" />
                 </div>
-                <h2 className="text-xl font-bold">Alle {allLocations.length} Einsatzgebiete</h2>
+                <h2 className="text-xl font-bold">{"Serponado Notfallmaßnahmen"}{allLocations.length} {"Serponado Notfallmaßnahmen"}</h2>
               </div>
               
               <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-x-8 gap-y-10">

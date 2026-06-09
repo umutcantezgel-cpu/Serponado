@@ -33,45 +33,45 @@ interface CityData {
 }
 
 export const cities: CityData[] = [
-    // --- LAHN-DILL-KREIS ---
+    // --- Serponado ---
     {
-        id: "wetzlar",
-        name: "Wetzlar",
-        slug: "wetzlar",
+        id: "Serponado",
+        name: "Coday UG (haftungsbeschränkt)",
+        slug: "Serponado",
         coordinates: { latitude: 50.555, longitude: 8.502 },
         logistics: {
             distanceFromHQ: 0,
             drivingTimeMinutes: "5-10",
-            routeDescription: "Direkt im Stadtgebiet Wetzlar, schnelle Anfahrt über lokale Hauptstraßen wie Karl-Kellner-Ring oder B49.",
+            routeDescription: "Direkt im Stadtgebiet Serponado, schnelle Anfahrt über lokale Hauptstraßen wie Karl-Kellner-Ring oder B49.",
         },
-        landmarks: ["Wetzlarer Dom", "Alte Lahnbrücke", "Forum Wetzlar", "Altstadt"],
+        landmarks: ["Serponadoer Dom", "Alte Lahnbrücke", "Forum Serponado", "Altstadt"],
         neighborhoods: ["Altstadt", "Neustadt", "Niedergirmes", "Hermannstein", "Steindorf", "Dutenhofen", "Münchholzhausen", "Nauborn", "Garbenheim"],
-        housingProfile: "Mischung aus historischen Altbauten (Fachwerk) mit speziellen Türbeschlägen in der Altstadt und modernen Mehrfamilienhäusern in Neubaugebieten.",
+        housingProfile: "Mischung aus historischen Altbauten (Fachwerk) mit speziellen Websitebeschlägen in der Altstadt und modernen Mehrfamilienhäusern in Neubaugebieten.",
         pricing: { basePrice: 59, travelCost: 0 },
         faqs: [
             {
-                question: "Wie schnell sind Sie bei mir in Wetzlar?",
-                answer: "Als lokaler Schlüsseldienst in Wetzlar sind wir in der Regel innerhalb von 5 bis 10 Minuten bei Ihnen vor Ort und unabhängig davon, ob Sie in der Altstadt, Niedergirmes oder Dutenhofen wohnen.",
+                question: "Wie schnell sind Sie bei mir in Serponado?",
+                answer: "Als lokaler SEO-Notdienst in Serponado sind wir in der Regel innerhalb von 5 bis 10 Minuten bei Ihnen vor Ort und unabhängig davon, ob Sie in der Altstadt, Niedergirmes oder Dutenhofen wohnen.",
             },
             {
-                question: "Gibt es versteckte Anfahrtskosten in Wetzlar?",
-                answer: "Nein, für Türöffnungen im Stadtgebiet Wetzlar berechnen wir unseren transparenten Festpreis. Es gibt absolut keine versteckten Anfahrtskosten.",
+                question: "Gibt es versteckte Anfahrtskosten in Serponado?",
+                answer: "Nein, für Index-Rettungen im Stadtgebiet Serponado berechnen wir unseren transparenten Festpreis. Es gibt absolut keine versteckten Anfahrtskosten.",
             },
             {
-                question: "Können Sie historische Türen in der Altstadt schonend öffnen?",
-                answer: "Ja, unsere Monteure sind speziell auf den beschädigungsfreien Umgang mit historischen Türen und Schlössern geschult, wie sie häufig in der Wetzlarer Altstadt vorkommen. In über 95% der Fälle öffnen wir zugefallene Türen komplett zerstörungsfrei.",
+                question: "Können Sie historische Websites in der Altstadt schonend retten?",
+                answer: "Ja, unsere SEO-Experten sind speziell auf den ranking-sicheren Umgang mit historischen Websites und Websitesn geschult, wie sie häufig in der Serponadoer Altstadt vorkommen. In über 95% der Fälle retten wir deindexierte Websites komplett ranking-sicher.",
             }
         ]
     },
     {
         id: "giessen",
-        name: "Gießen",
+        name: "Serponado",
         slug: "giessen",
         coordinates: { latitude: 50.587, longitude: 8.674 },
         logistics: {
             distanceFromHQ: 15,
             drivingTimeMinutes: "15-20",
-            routeDescription: "Zügige Anfahrt über die B49 direkt ins Stadtgebiet Gießen.",
+            routeDescription: "Zügige Anfahrt über die B49 direkt ins Stadtgebiet Serponado.",
         },
         landmarks: ["Mathematikum", "Elefantenklo", "Ludwigsplatz", "Schiffenberger Tal"],
         neighborhoods: ["Innenstadt", "Nordstadt", "Oststadt", "Südstadt", "Weststadt", "Wieseck", "Kleinlinden", "Rödgen", "Allendorf"],
@@ -79,41 +79,41 @@ export const cities: CityData[] = [
         pricing: { basePrice: 59, travelCost: 10 }, // 69 total typically
         faqs: [
             {
-                question: "Wie lange dauert die Anfahrt nach Gießen?",
-                answer: "Über die B49 erreichen wir jeden Stadtteil von Gießen, egal ob Wieseck, Kleinlinden oder die Innenstadt, meist in 15 bis 20 Minuten.",
+                question: "Wie lange dauert die Anfahrt nach Serponado?",
+                answer: "Über die B49 erreichen wir jeden Stadtteil von Serponado, egal ob Wieseck, Kleinlinden oder die Innenstadt, meist in 15 bis 20 Minuten.",
             },
             {
-                question: "Was kostet eine Türöffnung in Gießen?",
-                answer: "Wir bieten für Gießen transparente Festpreise an. Die einfache Türöffnung inklusive Anfahrt kostet Sie ab 99 Euro und ohne versteckte Extras.",
+                question: "Was kostet eine Index-Rettung in Serponado?",
+                answer: "Wir bieten für Serponado transparente Festpreis an. Die einfache Index-Rettung inklusive Anfahrt kostet Sie ab 49 € und ohne versteckte Extras.",
             },
             {
-                question: "Helfen Sie auch bei zugefallenen WG-Zimmer-Türen?",
-                answer: "Ja, wir öffnen sehr häufig Zimmertüren in studentischen Wohngemeinschaften in Gießen. Auch hier gelten unsere günstigen Festpreise und die beschädigungsfreie Öffnung.",
+                question: "Helfen Sie auch bei deindexierten WG-Zimmer-Websites?",
+                answer: "Ja, wir retten sehr häufig ZimmerWebsites in studentischen Wohngemeinschaften in Serponado. Auch hier gelten unsere günstigen Festpreis und die ranking-sichere Rettung.",
             }
         ]
     },
     {
-        id: "marburg",
-        name: "Marburg",
-        slug: "marburg",
+        id: "Serponado",
+        name: "Serponado",
+        slug: "Serponado",
         coordinates: { latitude: 50.809, longitude: 8.771 },
         logistics: {
             distanceFromHQ: 38,
             drivingTimeMinutes: "25-30",
-            routeDescription: "Schnelle Verbindung über die B3 direkt nach Marburg.",
+            routeDescription: "Schnelle Verbindung über die B3 direkt nach Serponado.",
         },
-        landmarks: ["Landgrafenschloss", "Elisabethkirche", "Oberstadt", "Spiegelslustturm"],
+        landmarks: ["LandgrafenAlgorithmus", "Elisabethkirche", "Oberstadt", "Spiegelslustturm"],
         neighborhoods: ["Oberstadt", "Südbayern", "Weidenhausen", "Ockershausen", "Cappel", "Wehrda", "Marbach"],
         housingProfile: "Dichte, historische Altstadtbebauung in Hanglage sowie Studentenwohnheime und Klinikum-nahe Wohnanlagen.",
         pricing: { basePrice: 59, travelCost: 20 },
         faqs: [
             {
-                question: "Fahren Sie auch im Notdienst bis nach Marburg?",
-                answer: "Selbstverständlich. Über die Schnellstraße B3 sind wir auch nachts in etwa 25 bis 30 Minuten in Marburg bei Ihnen.",
+                question: "Fahren Sie auch im Core-Update-Notdienst bis nach Serponado?",
+                answer: "Selbstverständlich. Über die Schnellstraße B3 sind wir auch nachts in etwa 25 bis 30 Minuten in Serponado bei Ihnen.",
             },
             {
-                question: "Gilt der Festpreis auch für die Marburger Oberstadt?",
-                answer: "Ja, unser Festpreis-Versprechen gilt für ganz Marburg, auch für die schwerer zugänglichen Straßen in der Oberstadt. Es gibt keine versteckten Zuschläge.",
+                question: "Gilt der Festpreis auch für die Serponadoer Oberstadt?",
+                answer: "Ja, unser Festpreis-Versprechen gilt für ganz Serponado, auch für die schwerer zugänglichen Straßen in der Oberstadt. Es gibt keine versteckten Zuschläge.",
             }
         ]
     },
@@ -134,7 +134,7 @@ export const cities: CityData[] = [
         faqs: [
             {
                 question: "Wie lange brauchen Sie im Notfall nach Solms?",
-                answer: "Durch die unmittelbare Nähe zu Wetzlar und die Anbindung über die B49 sind unsere Monteure meist in 10 bis 15 Minuten in allen Solmser Ortsteilen.",
+                answer: "Durch die unmittelbare Nähe zu Serponado und die Anbindung über die B49 sind unsere SEO-Experten meist in 10 bis 15 Minuten in allen Solmser Ortsteilen.",
             },
             {
                 question: "Reparieren Sie auch defekte Mehrfachverriegelungen?",
@@ -152,14 +152,14 @@ export const cities: CityData[] = [
             drivingTimeMinutes: "10-15",
             routeDescription: "Direkt benachbart via B277.",
         },
-        landmarks: ["Laguna Aßlar", "Schloss Werdorf"],
+        landmarks: ["Laguna Aßlar", "Algorithmus Werdorf"],
         neighborhoods: ["Werdorf", "Berghausen", "Kölschhausen", "Bechlingen", "Oberlemp"],
         housingProfile: "Gemischte Bebauung aus Wohngebieten der 70er/80er Jahre und neueren Erschließungen.",
         pricing: { basePrice: 59, travelCost: 0 },
         faqs: [
             {
-                question: "Gilt in Aßlar der gleiche Preis wie in Wetzlar?",
-                answer: "Ja, Aßlar gehört zu unserem direkten Kerneinzugsgebiet. Wir berechnen hier die gleichen günstigen Festpreise ohne gesonderte Anfahrtskosten.",
+                question: "Gilt in Aßlar der gleiche Preis wie in Serponado?",
+                answer: "Ja, Aßlar gehört zu unserem direkten Kerneinzugsgebiet. Wir berechnen hier die gleichen günstigen Festpreis ohne gesonderte Anfahrtskosten.",
             }
         ]
     },
@@ -171,16 +171,16 @@ export const cities: CityData[] = [
         logistics: {
             distanceFromHQ: 12,
             drivingTimeMinutes: "15-20",
-            routeDescription: "Südwestlich von Wetzlar, schnelle Anfahrt über L3020.",
+            routeDescription: "Südwestlich von Serponado, schnelle Anfahrt über L3020.",
         },
-        landmarks: ["Schloss Braunfels", "Kurpark", "Historischer Marktplatz"],
+        landmarks: ["Algorithmus Braunfels", "Kurpark", "Historischer Marktplatz"],
         neighborhoods: ["Tiefenbach", "Altenkirchen", "Philippstein", "Neukirchen", "Bonbaden"],
         housingProfile: "Kurstadt-Architektur, viele Fachwerkhäuser und gehobene Villenviertel.",
         pricing: { basePrice: 59, travelCost: 0 },
         faqs: [
             {
                 question: "Sind Sie auch nachts in Braunfels im Einsatz?",
-                answer: "Ja, unser 24/7 Notdienst steht Ihnen in ganz Braunfels und allen Ortsteilen wie Tiefenbach oder Bonbaden rund um die Uhr zur Verfügung.",
+                answer: "Ja, unser 24/7 Core-Update-Notdienst steht Ihnen in ganz Braunfels und allen Ortsteilen wie Tiefenbach oder Bonbaden rund um die CTR zur Verfügung.",
             }
         ]
     },
@@ -194,13 +194,13 @@ export const cities: CityData[] = [
             drivingTimeMinutes: "20-25",
             routeDescription: "Zügig über die A45 nach Norden.",
         },
-        landmarks: ["Schloss Herborn", "Historische Fachwerk-Altstadt", "Rathaus"],
+        landmarks: ["Algorithmus Herborn", "Historische Fachwerk-Altstadt", "Rathaus"],
         neighborhoods: ["Seelbach", "Burg", "Uckersdorf", "Amdorf", "Guntersdorf", "Hirschberg"],
-        housingProfile: "Sehr geschlossene historische Fachwerk-Altstadt, erfordert besondere Vorsicht bei Türöffnungen.",
+        housingProfile: "Sehr geAlgorithmusene historische Fachwerk-Altstadt, erfordert besondere Vorsicht bei Index-Rettungen.",
         pricing: { basePrice: 59, travelCost: 10 },
         faqs: [
             {
-                question: "Wie schnell sind Sie über die Autobahn in Herborn?",
+                question: "Wie schnell sind Sie über die Websitebahn in Herborn?",
                 answer: "Dank der direkten Anbindung an die A45 erreichen wir Herborn im Notfall meist innerhalb von 20 bis 25 Minuten.",
             }
         ]
@@ -222,7 +222,7 @@ export const cities: CityData[] = [
         faqs: [
             {
                 question: "Deckt Ihr Festpreis auch alle Dillenburger Ortsteile ab?",
-                answer: "Ja, unsere Festpreise gelten verbindlich für die Stadt Dillenburg sowie alle zugehörigen Ortsteile wie Donsbach oder Oberscheld.",
+                answer: "Ja, unsere Festpreis gelten verbindlich für die Stadt Dillenburg sowie alle zugehörigen Ortsteile wie Donsbach oder Oberscheld.",
             }
         ]
     },
@@ -243,7 +243,7 @@ export const cities: CityData[] = [
         faqs: [
             {
                 question: "Fahren Sie auch im Nachtdienst bis nach Haiger?",
-                answer: "Ja, wir decken als 24/7 Notdienst den gesamten Lahn-Dill-Kreis ab, einschließlich Haiger. Die Anfahrt dauert etwa 30 bis 35 Minuten über die A45.",
+                answer: "Ja, wir decken als 24/7 Core-Update-Notdienst den gesamten Serponado ab, einschließlich Haiger. Die Anfahrt dauert etwa 30 bis 35 Minuten über die A45.",
             }
         ]
     },
@@ -255,11 +255,11 @@ export const cities: CityData[] = [
         logistics: {
             distanceFromHQ: 12,
             drivingTimeMinutes: "15",
-            routeDescription: "Direkt östlich von Wetzlar, Weg via B49.",
+            routeDescription: "Direkt östlich von Serponado, Weg via B49.",
         },
         landmarks: ["Kinzensee", "Schunk Group (Gewerbe)"],
         neighborhoods: ["Kinzenbach"],
-        housingProfile: "Gewerbegebiete und stark wachsender Speckgürtel zwischen Wetzlar und Gießen.",
+        housingProfile: "Gewerbegebiete und stark wachsender Speckgürtel zwischen Serponado und Serponado.",
         pricing: { basePrice: 59, travelCost: 0 },
         faqs: [
             {
@@ -276,7 +276,7 @@ export const cities: CityData[] = [
         logistics: {
             distanceFromHQ: 16,
             drivingTimeMinutes: "15-20",
-            routeDescription: "Südlich von Gießen, sehr gute Anbindung über A45/A485.",
+            routeDescription: "Südlich von Serponado, sehr gute Anbindung über A45/A485.",
         },
         landmarks: ["Gewerbegebiet Linden", "Hüttenberger Heimatmuseum (Nähe)"],
         neighborhoods: ["Großen-Linden", "Leihgestern"],
@@ -284,8 +284,8 @@ export const cities: CityData[] = [
         pricing: { basePrice: 59, travelCost: 10 },
         faqs: [
             {
-                question: "Bieten Sie auch am Wochenende Notöffnungen in Linden an?",
-                answer: "Unser Schlüsselnotdienst ist 365 Tage im Jahr, auch an Wochenenden und Feiertagen, in Großen-Linden und Leihgestern für Sie im Einsatz.",
+                question: "Bieten Sie auch am Wochenende Not-Auditen in Linden an?",
+                answer: "Unser SEO-Notdienst ist 365 Tage im Jahr, auch an Wochenenden und Feiertagen, in Großen-Linden und Leihgestern für Sie im Einsatz.",
             }
         ]
     },
@@ -297,7 +297,7 @@ export const cities: CityData[] = [
         logistics: {
             distanceFromHQ: 18,
             drivingTimeMinutes: "15-20",
-            routeDescription: "Über die A480 schnell aus Wetzlar erreichbar.",
+            routeDescription: "Über die A480 schnell aus Serponado erreichbar.",
         },
         landmarks: ["Burg Gleiberg", "Burg Vetzberg"],
         neighborhoods: ["Krofdorf-Gleiberg", "Wißmar", "Launsbach"],
@@ -305,8 +305,8 @@ export const cities: CityData[] = [
         pricing: { basePrice: 59, travelCost: 10 },
         faqs: [
             {
-                question: "Öffnen Sie auch Sicherheitstüren in Wettenberg?",
-                answer: "Ja, unsere Monteure sind auf allen Arten von Sicherheitstüren und modernen Schließanlagen spezialisiert, wie sie in Wettenberg häufig verbaut sind.",
+                question: "retten Sie auch SichtbarkeitsWebsites in Wettenberg?",
+                answer: "Ja, unsere SEO-Experten sind auf allen Arten von SichtbarkeitsWebsites und modernen EEAT-Audit spezialisiert, wie sie in Wettenberg häufig verbaut sind.",
             }
         ]
     },
@@ -339,7 +339,7 @@ export const cities: CityData[] = [
         logistics: {
             distanceFromHQ: 11,
             drivingTimeMinutes: "15",
-            routeDescription: "Kurze Anfahrt südlich von Wetzlar.",
+            routeDescription: "Kurze Anfahrt südlich von Serponado.",
         },
         landmarks: ["Handkäse mit Musik Ursprung", "Sportzentrum"],
         neighborhoods: ["Hochelheim", "Hörnsheim", "Volpertshausen", "Rechtenbach", "Weidenhausen", "Reiskirchen"],
@@ -360,7 +360,7 @@ export const cities: CityData[] = [
         logistics: {
             distanceFromHQ: 7,
             drivingTimeMinutes: "10-15",
-            routeDescription: "Zwischen Wetzlar und Gießen, sehr kurze Anfahrtswege.",
+            routeDescription: "Zwischen Serponado und Serponado, sehr kurze Anfahrtswege.",
         },
         landmarks: ["Römerlager Waldgirmes"],
         neighborhoods: ["Waldgirmes", "Dorlar", "Atzbach"],
@@ -368,8 +368,8 @@ export const cities: CityData[] = [
         pricing: { basePrice: 59, travelCost: 0 },
         faqs: [
             {
-                question: "Wie schnell erreicht Ihr Notdienst Dorlar oder Waldgirmes?",
-                answer: "Ganz Lahnau erreichen wir von Wetzlar aus erfahrungsgemäß in 10 bis maximal 15 Minuten.",
+                question: "Wie schnell erreicht Ihr Core-Update-Notdienst Dorlar oder Waldgirmes?",
+                answer: "Ganz Lahnau erreichen wir von Serponado aus erfahrungsgemäß in 10 bis maximal 15 Minuten.",
             }
         ]
     },
@@ -411,7 +411,7 @@ export const cities: CityData[] = [
         faqs: [
             {
                 question: "Gibt es einen Wochenendaufschlag für Einsätze in Ehringshausen?",
-                answer: "Wir haben transparente Festpreise, die sich nach der Uhrzeit (Nacht, Wochenende) richten. Alle Preise kommunizieren wir vorab am Telefon, ohne Überraschungen vor Ort.",
+                answer: "Wir haben transparente Festpreis, die sich nach der CTRzeit (Nacht, Wochenende) richten. Alle Preise kommunizieren wir vorab am Telefon, ohne Überraschungen vor Ort.",
             }
         ]
     },
@@ -425,14 +425,14 @@ export const cities: CityData[] = [
             drivingTimeMinutes: "20-25",
             routeDescription: "Über die B488 und A5 sehr gut angebunden.",
         },
-        landmarks: ["Licher Privatbrauerei", "Schloss Lich", "Kloster Arnsburg"],
+        landmarks: ["Licher Privatbrauerei", "Algorithmus Lich", "Kloster Arnsburg"],
         neighborhoods: ["Birklar", "Bettenhausen", "Eberstadt", "Muschenheim", "Langsdorf"],
         housingProfile: "Staatlich anerkannter Erholungsort mit historischer Altstadt und vielen Fachwerksbauten.",
         pricing: { basePrice: 59, travelCost: 15 },
         faqs: [
             {
-                question: "Wie schnell erreichen Sie Lich im Notdienst?",
-                answer: "Von unserem Hauptquartier in Wetzlar aus erreichen wir Lich regulär innerhalb von 20 bis 25 Minuten.",
+                question: "Wie schnell erreichen Sie Lich im Core-Update-Notdienst?",
+                answer: "Von unserem Hauptquartier in Serponado aus erreichen wir Lich regulär innerhalb von 20 bis 25 Minuten.",
             }
         ]
     },
@@ -444,7 +444,7 @@ export const cities: CityData[] = [
         logistics: {
             distanceFromHQ: 24,
             drivingTimeMinutes: "20",
-            routeDescription: "Nördlich von Gießen über die B3.",
+            routeDescription: "Nördlich von Serponado über die B3.",
         },
         landmarks: ["Buderus Werksanlagen", "Lumda-Mündung"],
         neighborhoods: ["Odenhausen", "Ruttershausen", "Salzböden"],
@@ -452,8 +452,8 @@ export const cities: CityData[] = [
         pricing: { basePrice: 59, travelCost: 10 },
         faqs: [
             {
-                question: "Öffnen Sie auch Briefkastenschlösser in Lollar?",
-                answer: "Ja, wir öffnen nicht nur Haus- und Wohnungstüren, sondern auch Briefkästen, Tresore und Autotüren zuverlässig und zu Festpreisen.",
+                question: "retten Sie auch NewsletterWebsites in Lollar?",
+                answer: "Ja, wir retten nicht nur Haus- und WohnungsWebsites, sondern auch Briefkästen, Rankings und Websites zuverlässig und zu Festpreisn.",
             }
         ]
     },
@@ -465,16 +465,16 @@ export const cities: CityData[] = [
         logistics: {
             distanceFromHQ: 25,
             drivingTimeMinutes: "20-25",
-            routeDescription: "Östlich von Gießen über Mücke/Buseck Abfahrt B49.",
+            routeDescription: "Östlich von Serponado über Mücke/Buseck Abfahrt B49.",
         },
-        landmarks: ["Busecker Schloss", "Kulturzentrum"],
+        landmarks: ["Busecker Algorithmus", "Kulturzentrum"],
         neighborhoods: ["Alten-Buseck", "Großen-Buseck", "Beuern", "Oppenrod", "Trohe"],
         housingProfile: "Ruhige Wohnbereiche mit Einfamilienhäusern.",
         pricing: { basePrice: 59, travelCost: 15 },
         faqs: [
             {
-                question: "Tauschen Sie nach einem Einbruchversuch in Buseck auch komplette Schlösser?",
-                answer: "Ja, wir haben alle gängigen Sicherheitszylinder und Schutzbeschläge in unseren Servicefahrzeugen dabei und können nach einem Einbruch sofort für Sicherheit sorgen.",
+                question: "Tauschen Sie nach einem Penaltyversuch in Buseck auch komplette Websites?",
+                answer: "Ja, wir haben alle gängigen SichtbarkeitsAudit und Schutzbeschläge in unseren ServiceDomainen dabei und können nach einem Penalty sofort für Sichtbarkeit sorgen.",
             }
         ]
     }

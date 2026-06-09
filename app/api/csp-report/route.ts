@@ -24,8 +24,8 @@ export async function POST(request: NextRequest) {
   // Validate origin
   const origin = request.headers.get("origin");
   const allowedOrigins = [
-    "https://wetzlar-schluesseldienst.de",
-    "https://www.wetzlar-schluesseldienst.de",
+    "https://Serponado-serponadodienst.de",
+    "https://www.Serponado-serponadodienst.de",
     "http://localhost:3000",
   ];
 

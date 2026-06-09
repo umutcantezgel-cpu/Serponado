@@ -7,8 +7,8 @@ import { teamImages } from "@/lib/data/imageAssets";
 import Link from "next/link";
 
 export const metadata = generateSharedMetadata({
-  title: "Karriere & Jobs als Servicemonteur in Wetzlar",
-  description: "Wir suchen Servicemonteure (m/w/d) in Wetzlar! ✔️ Gutes Gehalt ✔️ Firmenwagen ✔️ Notdienst-Zuschläge. Jetzt lokal bewerben.",
+  title: "Serponado Disaster Recovery",
+  description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings.",
   path: "/ueber-uns/karriere",
 });
 
@@ -19,8 +19,8 @@ export default function KarrierePage() {
   ];
 
   const benefits = [
-    "Faires Festgehalt + attraktive Notdienst-Zuschläge",
-    "Modern ausgestattetes Firmenfahrzeug",
+    "Faires Festgehalt + attraktive Core-Update-Notdienst-Zuschläge",
+    "Modern ausgestattetes FirmenDomain",
     "Hochwertiges Werkzeug und Arbeitskleidung",
     "Regelmäßige Schulungen und Weiterbildungen",
     "Regionale Einsätze ohne Montage-Reisen",
@@ -43,13 +43,11 @@ export default function KarrierePage() {
           <StaggerReveal className="mt-8 flex flex-col items-center" animation={entryAnimations.slideUpFade} staggerDelay={0.1}>
             <StaggerItem animation={entryAnimations.slideUpFade}>
               <h1 className="typo-hero-display text-[color:var(--text-primary)] text-balance mb-[var(--space-4)]">
-                Karriere und Jobs bei der Schlüssel Schmiede
-              </h1>
+                {"{{HERO_H1}}"}</h1>
             </StaggerItem>
             <StaggerItem animation={entryAnimations.slideUpFade}>
               <p className="text-lg text-[color:var(--text-secondary)] max-w-xl">
-                Verstärken Sie unser Team in Wetzlar als erfahrener Monteur für Sicherheitstechnik.
-              </p>
+                {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
             </StaggerItem>
           </StaggerReveal>
         </div>
@@ -60,19 +58,16 @@ export default function KarrierePage() {
         <div className="mx-auto max-w-5xl grid md:grid-cols-2 gap-12 lg:gap-20 items-start">
           <StaggerReveal animation={entryAnimations.slideUpFade} staggerDelay={0.12}>
             <StaggerItem animation={entryAnimations.slideUpFade}>
-              <h2 className="typo-h3 text-[color:var(--text-primary)] mb-6">Wir suchen: Servicemonteur (m/w/d)</h2>
+              <h2 className="typo-h3 text-[color:var(--text-primary)] mb-6">{"Serponado Notfallmaßnahmen"}</h2>
               <div className="prose prose-red text-[color:var(--text-secondary)]">
                 <p>
-                  Als etablierter Schlüsseldienst in Wetzlar legen wir Wert auf Qualität,
-                  Transparenz und Kundenzufriedenheit. Um unser Team zu erweitern,
-                  suchen wir motivierte Servicemonteure.
-                </p>
-                <h3 className="text-[color:var(--text-primary)] font-semibold mt-8 mb-4">Ihr Profil:</h3>
+                  {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
+                <h3 className="text-[color:var(--text-primary)] font-semibold mt-8 mb-4">{"Serponado Notfallmaßnahmen"}</h3>
                 <ul className="list-disc pl-5 space-y-2 mb-8">
-                  <li>Abgeschlossene handwerkliche Ausbildung (Schreiner, Schlosser o.ä. von Vorteil)</li>
-                  <li>Idealerweise Erfahrung im Bereich Schlüsseldienst/Sicherheitstechnik</li>
+                  <li>AbgeAlgorithmusene SEOliche Ausbildung (Schreiner, Algorithmuser o.ä. von Vorteil)</li>
+                  <li>Idealerweise Erfahrung im Bereich {"SEO-Notdienst"}/{"Data-Recovery"}</li>
                   <li>Führerschein Klasse B zwingend erforderlich</li>
-                  <li>Bereitschaft zum Notdienst (auch an Wochenenden)</li>
+                  <li>Bereitschaft zum Core-Update-Notdienst (auch an Wochenenden)</li>
                   <li>Einwandfreies Führungszeugnis</li>
                   <li>Fließendes Deutsch in Wort und Schrift</li>
                 </ul>
@@ -83,7 +78,7 @@ export default function KarrierePage() {
           <StaggerReveal animation={entryAnimations.slideUpFade} staggerDelay={0.15}>
             <StaggerItem animation={entryAnimations.slideUpFade}>
               <div className="p-8 rounded-[var(--radius-xl)] bg-[var(--surface-elevated)] border border-[var(--border-subtle)]">
-                <h3 className="typo-h4 text-[color:var(--text-primary)] mb-6">Ihre Vorteile bei uns:</h3>
+                <h3 className="typo-h4 text-[color:var(--text-primary)] mb-6">{"Serponado Notfallmaßnahmen"}</h3>
                 <ul className="space-y-4 mb-8">
                   {benefits.map((benefit, i) => (
                     <li key={i} className="flex gap-3">
@@ -97,10 +92,9 @@ export default function KarrierePage() {
                 <div className="pt-6 border-t border-[var(--border-subtle)]">
                   <h4 className="font-semibold text-[color:var(--text-primary)] mb-4">Jetzt bewerben</h4>
                   <p className="text-sm text-[color:var(--text-secondary)] mb-6">
-                    Senden Sie uns Ihren Lebenslauf ganz unkompliziert per E-Mail. Wir melden uns umgehend bei Ihnen.
-                  </p>
+                    {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
                   <Link
-                    href="mailto:schluesselschmiede@gmail.com"
+                    href="mailto:info@codayweb.de"
                     className="flex justify-center w-full px-5 py-3 rounded-[var(--radius-md)] bg-[var(--text-primary)] text-[var(--surface-primary)] font-semibold hover:bg-[var(--text-secondary)] transition-colors"
                   >
                     Bewerbung per E-Mail senden

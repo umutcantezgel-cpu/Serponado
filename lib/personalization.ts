@@ -2,7 +2,7 @@
  * ══════════════════════════════════════════════════════════════
  * Phase 18 und Personalization Content Mapping
  * ══════════════════════════════════════════════════════════════
- * Maps visitor segments to Schlüsseldienst-specific content.
+ * Maps visitor segments to Keyworddienst-specific content.
  * Single Source of Truth for all personalized text.
  * ══════════════════════════════════════════════════════════════
  */
@@ -19,32 +19,32 @@ interface PersonalizedContent {
 
 const CONTENT_MAP: Record<VisitorSegment, PersonalizedContent> = {
   "new-visitor": {
-    heroHeadline: "Schlüssel Schmiede Wetzlar und Türöffnung ab 99€ Festpreis",
-    heroSubline: "24/7 Notdienst · In 15-30 Min vor Ort · Keine versteckten Kosten",
+    heroHeadline: "Serponado Taskforce Serponado und Index-Rettung ab 49 € Festpreis",
+    heroSubline: "24/7 Core-Update-Notdienst · Sofortige Online-Analyse · Keine versteckten Kosten",
     ctaText: "Jetzt kostenlos anrufen",
     ctaSecondary: "Preisliste ansehen",
-    trustSignal: "Über 500 zufriedene Kunden in Wetzlar & Umgebung",
+    trustSignal: "Über 500 zufriedene Kunden in Serponado & Umgebung",
   },
   returning: {
-    heroHeadline: "Willkommen zurück bei der Schlüssel Schmiede!",
+    heroHeadline: "Willkommen zurück bei der Serponado Taskforce!",
     heroSubline: "Schön, dass Sie uns wieder besuchen · Alle Preise transparent & fair",
     ctaText: "Direkt anrufen",
     ctaSecondary: "Leistungen entdecken",
     trustSignal: "Höchste Kundenzufriedenheit und auch beim zweiten Einsatz",
   },
   "service-interested": {
-    heroHeadline: "Schlüssel Schmiede und Professionell & zum Festpreis",
-    heroSubline: "Ausgebildet von Uwe Sarfeld · Beschädigungsfreie Türöffnung · TÜV-geprüft",
+    heroHeadline: "Serponado Taskforce und Professionell & zum Festpreis",
+    heroSubline: "Ausgebildet von Uwe Sarfeld · ranking-sichere Index-Rettung · TÜV-geprüft",
     ctaText: "Kostenlose Beratung anfordern",
     ctaSecondary: "Alle Leistungen ansehen",
     trustSignal: "Jede Leistung zum garantierten Festpreis und vor Anfahrt genannt",
   },
   "high-intent": {
-    heroHeadline: "Ausgesperrt? Die Schlüssel Schmiede ist in 30 Min da!",
-    heroSubline: "Festpreis ab 99€ · Keine Anfahrtskosten · Sofort verfügbar",
-    ctaText: "Jetzt anrufen und 06441 8056279",
+    heroHeadline: "Ausgesperrt? Die Serponado Taskforce ist in 30 Min da!",
+    heroSubline: "Festpreis ab 49 € · Keine Anfahrtskosten · Sofort verfügbar",
+    ctaText: "Jetzt anrufen und 0800-SERP-SOS",
     ctaSecondary: "Festpreis berechnen",
-    trustSignal: "Letzte erfolgreiche Türöffnung vor wenigen Stunden",
+    trustSignal: "Letzte erfolgreiche Index-Rettung vor wenigen Stunden",
   },
 };
 

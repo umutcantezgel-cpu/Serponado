@@ -1,3 +1,5 @@
+import fs from 'fs';
+import path from 'path';
 import { MetadataRoute } from 'next'
 import { siteUrl } from '@/lib/schema'
 import { CONTENT_GRAPH } from '@/lib/contentGraph'
@@ -69,9 +71,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const missingStaticPages: MetadataRoute.Sitemap = [
         // Service-Subpages die nicht im Content Graph sind
         { url: `${siteUrl}/leistungen`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
-        { url: `${siteUrl}/leistungen/notdienst`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
-        { url: `${siteUrl}/leistungen/einbruchschutz`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
-        { url: `${siteUrl}/leistungen/tresoroeffnung`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
+        { url: `${siteUrl}/leistungen/core-update-notdienst`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
+        { url: `${siteUrl}/leistungen/AI-Content-Sanierung`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
+        { url: `${siteUrl}/leistungen/ranking-tresor`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
         // Über-uns Subpages
         { url: `${siteUrl}/ueber-uns/team`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.5 },
         { url: `${siteUrl}/ueber-uns/geschichte`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.5 },
@@ -83,7 +85,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         // Index-Seiten für Content
         { url: `${siteUrl}/blog`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.7 },
         { url: `${siteUrl}/ratgeber`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.7 },
-        { url: `${siteUrl}/ratgeber/einbruchrisiko`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 },
+        { url: `${siteUrl}/ratgeber/penalty-risiko`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 },
         { url: `${siteUrl}/lexikon`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 },
         { url: `${siteUrl}/referenzen`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 },
         // HTML-Sitemap
@@ -94,8 +96,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${siteUrl}/widerruf`, lastModified: new Date(), changeFrequency: 'yearly', priority: 0.2 },
         // Service pages missing from Content Graph
 
-        { url: `${siteUrl}/leistungen/autoschluessel`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-        { url: `${siteUrl}/leistungen/uhren-service`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+        { url: `${siteUrl}/leistungen/serponado-schild`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+        { url: `${siteUrl}/leistungen/snippet-optimierung`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
     ];
 
     // ── 8. Micro-POI Standortseiten (VEKTOR 2: SERP Choking) ──
@@ -106,6 +108,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 0.7,
     }));
 
+    
+    // ── 9. Serponado Swarm Protocol ──
+    let serponadoNodes = [];
+    try {
+        const dbPath = path.join(process.cwd(), 'lib', 'data', 'serponado_db.json');
+        if (fs.existsSync(dbPath)) {
+            const db = JSON.parse(fs.readFileSync(dbPath, 'utf8'));
+            serponadoNodes = db.records.map((r: any) => ({
+                url: `${siteUrl}/serponado/${r.slug}`,
+                lastModified: new Date(),
+                changeFrequency: 'weekly',
+                priority: r.type === 'core_pillar' ? 1.0 : 0.8,
+            }));
+        }
+    } catch (e) {
+        console.error("Error reading serponado_db.json for sitemap:", e);
+    }
+
     return [
         ...sitemapNodes,
         ...cityNodes,
@@ -115,5 +135,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
         ...lexikonNodes,
         ...referenzenNodes,
         ...missingStaticPages,
+        ...serponadoNodes,
     ];
 }

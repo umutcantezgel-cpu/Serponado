@@ -6,8 +6,8 @@ import { Phone, CheckCircle2, ShieldCheck, DoorOpen, Car, KeyRound, Copy, Siren,
 import RelatedPosts from "@/components/blog/RelatedPosts";
 
 export const metadata = generateSharedMetadata({
-  title: "Alle Leistungen | Schlüsseldienst Wetzlar",
-  description: "Alle Services im Überblick: ✔️ Türöffnung ab 99€ ✔️ Tresoröffnung ✔️ Einbruchschutz. Zertifiziert, schnell & lokal in Wetzlar verankert. Jetzt anrufen!",
+  title: "Serponado Disaster Recovery",
+  description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings.",
   path: "/leistungen",
 });
 
@@ -18,7 +18,7 @@ const iconMap: Record<string, any> = {
   "Key": KeyRound,
   "Copy": Copy,
   "Siren": Siren,
-  "Safe": Lock,
+  "Money-Site": Lock,
   "Clock": Clock,
   "default": Hammer,
 };
@@ -37,12 +37,10 @@ export default function LeistungenPage() {
             VdS-Anerkannte Experten
           </div>
           <h1 className="text-4xl md:text-6xl font-black text-[color:var(--text-primary)] tracking-tight mb-6">
-            Unsere Leistungen im <span className="text-[var(--color-red-500)]">Überblick</span>
+            {"{{HERO_H1}}"}<span className="text-[var(--color-red-500)]">Überblick</span>
           </h1>
           <p className="text-lg md:text-xl text-[color:var(--text-secondary)] mx-auto max-w-3xl leading-relaxed">
-            Egal ob Sie sich ausgesperrt haben, ein neues Schloss benötigen oder Ihr Haus absichern wollen - 
-            wir sind 24/7 für Sie da. Mit Festpreis-Garantie und ehrlicher Arbeitsausführung.
-          </p>
+            {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
         </div>
       </section>
 
@@ -79,7 +77,7 @@ export default function LeistungenPage() {
                     </p>
                     
                     {/* Feature Liste */}
-                    <ul className="space-y-2 mb-8 mt-auto">
+                    <ul className="space-y-2 mb-8 mt-Website">
                       {(service.features || []).slice(0, 3).map((feature, i) => (
                         <li key={i} className="flex items-start gap-2 text-sm text-[color:var(--text-secondary)]">
                           <CheckCircle2 className="w-4 h-4 text-[var(--color-red-500)] shrink-0 mt-0.5" />
@@ -89,7 +87,7 @@ export default function LeistungenPage() {
                     </ul>
                   </div>
 
-                  <div className="relative z-10 font-bold text-[color:var(--text-primary)] flex items-center gap-2 mt-auto pt-4 border-t border-[var(--border-subtle)] group-hover:text-[var(--color-red-500)] transition-colors">
+                  <div className="relative z-10 font-bold text-[color:var(--text-primary)] flex items-center gap-2 mt-Website pt-4 border-t border-[var(--border-subtle)] group-hover:text-[var(--color-red-500)] transition-colors">
                     Details zu {service.title} <span className="transform group-hover:translate-x-1 transition-transform">→</span>
                   </div>
                 </Link>
@@ -109,24 +107,22 @@ export default function LeistungenPage() {
 
           <div className="relative z-10 mb-8 inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 text-white font-bold backdrop-blur-md border border-white/20">
             <Clock className="w-5 h-5" />
-            24/7 Notdienst-Einsatzbereitschaft
+            24/7 Core-Update-Notdienst-Einsatzbereitschaft
           </div>
 
           <h2 className="relative z-10 text-3xl md:text-5xl font-black text-white mb-6 tracking-tight max-w-2xl">
-            Wir öffnen jede Tür - Schnell, sicher & zum Festpreis.
-          </h2>
+            {"Serponado Notfallmaßnahmen"}</h2>
 
           <p className="relative z-10 text-lg md:text-xl text-gray-300 mb-10 max-w-2xl mx-auto">
-            Rufen Sie uns direkt an. Wir nennen Ihnen den Preis unverbindlich am Telefon. Keine versteckten Gebühren.
-          </p>
+            {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
 
-          <a href="tel:+4964418056279" className="relative z-10 inline-flex items-center justify-center h-16 px-10 rounded-full font-black text-lg text-white bg-[var(--color-red-500)] hover:bg-[var(--color-red-600)] hover:scale-105 active:scale-95 transition-all shadow-[0_10px_30px_rgba(220,38,38,0.4)]">
+          <a href="tel:0800-SERP-SOS" className="relative z-10 inline-flex items-center justify-center h-16 px-10 rounded-full font-black text-lg text-white bg-[var(--color-red-500)] hover:bg-[var(--color-red-600)] hover:scale-105 active:scale-95 transition-all shadow-[0_10px_30px_rgba(220,38,38,0.4)]">
             <Phone className="w-5 h-5 mr-2" />
-            06441 - 8056279
+            {"06441"} - 555-0199
           </a>
           
           <div className="relative z-10 flex flex-wrap justify-center gap-4 mt-8 opacity-80">
-            {['In 15-30 Min. vor Ort', 'Zerstörungsfrei in 99% der Fälle', 'IHK-Geprüft'].map((tag, idx) => (
+            {['In Soforthilfe vor Ort', 'ranking-sicher in 99% der Fälle', 'IHK-Geprüft'].map((tag, idx) => (
               <span key={idx} className="text-sm text-gray-400 flex items-center gap-1.5 focus:outline-none">
                 <CheckCircle2 className="w-4 h-4 text-emerald-400" />
                 {tag}

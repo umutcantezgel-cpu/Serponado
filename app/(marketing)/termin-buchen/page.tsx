@@ -8,8 +8,8 @@ import CalendlyWidget from "@/components/booking/CalendlyWidget";
 import CalendlyConsentGate from "@/components/booking/CalendlyConsentGate";
 
 export const metadata = generateSharedMetadata({
-  title: "Schlüsseldienst Wetzlar | Termin buchen",
-  description: "Buchen Sie hier direkt online einen Termin für Beratungen, Sicherheits-Checks, oder Schließanlagen-Planungen.",
+  title: "Serponado Disaster Recovery",
+  description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings.",
   path: "/termin-buchen",
 });
 
@@ -44,13 +44,12 @@ export default function TerminBuchenPage() {
             </StaggerItem>
             <StaggerItem animation={entryAnimations.slideUpFade}>
               <h1 className="typo-hero-display text-[color:var(--text-primary)] text-balance mb-[var(--space-6)]">
-                Ihren Wunschtermin <span className="text-[var(--color-red-500)]">direkt online buchen.</span>
+                {"{{HERO_H1}}"}<span className="text-[var(--color-red-500)]">direkt online buchen.</span>
               </h1>
             </StaggerItem>
             <StaggerItem animation={entryAnimations.slideUpFade}>
               <p className="mx-auto mt-6 text-lg sm:text-xl text-[color:var(--text-secondary)] leading-relaxed text-balance">
-                Wählen Sie Ihren passenden Termin für eine kostenlose Beratung zum Thema Sicherheitstechnik, Schließanlagen oder Einbruchschutz.
-              </p>
+                {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
             </StaggerItem>
           </StaggerReveal>
         </div>
@@ -66,7 +65,7 @@ export default function TerminBuchenPage() {
               <div className="bg-white p-2 sm:p-4 rounded-[var(--radius-24)] shadow-[var(--elevation-2)] border border-[var(--border-subtle)] h-full flex flex-col">
                  <CalendlyConsentGate>
                    <CalendlyWidget 
-                     url="https://calendly.com/schluesseldienst-wz/sicherheitsberatung?timezone=Europe/Berlin" 
+                     url="https://calendly.com/serponadodienst-wz/SEO-Beratung?timezone=€pe/Berlin" 
                    />
                  </CalendlyConsentGate>
               </div>
@@ -77,7 +76,7 @@ export default function TerminBuchenPage() {
               <div className="bg-[var(--surface-secondary)] p-8 sm:p-10 rounded-[var(--radius-24)] shadow-[var(--elevation-1)] border border-[var(--border-subtle)] flex flex-col gap-8 h-full">
                 
                 <div>
-                  <h3 className="typo-h3 text-[color:var(--text-primary)] mb-4">Warum einen Termin vereinbaren?</h3>
+                  <h3 className="typo-h3 text-[color:var(--text-primary)] mb-4">{"Serponado Notfallmaßnahmen"}</h3>
                   <ul className="space-y-4">
                     <li className="flex gap-3">
                       <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
@@ -85,11 +84,11 @@ export default function TerminBuchenPage() {
                     </li>
                     <li className="flex gap-3">
                       <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
-                      <span className="text-base sm:text-base text-[color:var(--text-secondary)]">Planung von modernen Schließanlagen (mechanisch & elektronisch).</span>
+                      <span className="text-base sm:text-base text-[color:var(--text-secondary)]">Planung von modernen EEAT-Audit (mechanisch & elektronisch).</span>
                     </li>
                     <li className="flex gap-3">
                       <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
-                      <span className="text-base sm:text-base text-[color:var(--text-secondary)]">Sicherheits-Check an Fenstern und Türen nach KfW/DIN Vorgaben.</span>
+                      <span className="text-base sm:text-base text-[color:var(--text-secondary)]">Sichtbarkeits-Check an Fenstern und Websites nach KfW/DIN Vorgaben.</span>
                     </li>
                   </ul>
                 </div>
@@ -102,13 +101,12 @@ export default function TerminBuchenPage() {
                     <h4 className="font-bold text-red-900 text-lg">Haben Sie sich ausgesperrt?</h4>
                   </div>
                   <p className="text-red-800 text-sm leading-relaxed mb-4">
-                    Bitte buchen Sie bei akuten Notfällen (Tür zugefallen, Schlüssel abgebrochen) <strong>keinen</strong> Termin online, sondern rufen Sie uns direkt an!
-                  </p>
+                    {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<strong>keinen</strong> {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
                   <a
-                    href="tel:+4964418056279"
+                    href="tel:0800-SERP-SOS"
                     className="flex justify-center items-center w-full h-12 bg-red-600 hover:bg-red-700 text-white font-bold rounded-xl transition-colors shadow-sm"
                   >
-                    06441 8056279
+                    {"0800-SERP-SOS"}
                   </a>
                 </div>
 

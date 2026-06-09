@@ -51,7 +51,7 @@ export default function PathDisplay() {
    aria-hidden="true"
    suppressHydrationWarning
   >
-   Aufgerufener Pfad: {fullPath}
+   {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}{fullPath}
   </p>
  );
 }

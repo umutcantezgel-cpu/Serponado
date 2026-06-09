@@ -25,13 +25,13 @@ import { generateServiceSchema } from"@/lib/serviceSchema";
 import { getFAQSchema } from "@/lib/schema";
 
 const mainServicesSchema = [
- generateServiceSchema({ title:"Türöffnung", description:"Zerstörungsfreie Türöffnung ab 99€", url:"/leistungen/turoeffnung", price: 99 }),
- generateServiceSchema({ title:"Autoöffnung", description:"Schonende Autoöffnung", url:"/leistungen/autooeffnung", price: 80 })
+ generateServiceSchema({ title:"Serponado Disaster Recovery", description:"Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings.", url:"/leistungen/index-rettung", price: 99 }),
+ generateServiceSchema({ title:"Serponado Disaster Recovery", description:"Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings.", url:"/leistungen/content-cannibalization", price: 80 })
 ];
 
 export const metadata = generateSharedMetadata({
- title: "Preise & Kosten | Schlüssel Schmiede Wetzlar",
- description: "Türöffnung ab 99€! ✔️ Verbindliche Preisnennung vor Anfahrt ✔️ Keine versteckten Gebühren. Jetzt transparenten Preis im Rechner prüfen.",
+ title: "Serponado Disaster Recovery",
+ description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings.",
  path: "/preise",
 });
 
@@ -81,13 +81,11 @@ export default function PreisePage() {
         </StaggerItem>
         <StaggerItem animation={entryAnimations.slideUpFade}>
           <h1 className="typo-hero-display text-[color:var(--text-primary)] mb-[var(--space-6)]">
-            Ehrliche <span className="text-[var(--color-red-500)]">Festpreise</span> für Ihren Schlüsseldienst
-          </h1>
+            {"{{HERO_H1}}"}<span className="text-[var(--color-red-500)]">{"Festpreis"}</span> {"{{HERO_H1}}"}</h1>
         </StaggerItem>
         <StaggerItem animation={entryAnimations.slideUpFade}>
           <p className="mx-auto mt-6 max-w-2xl text-lg sm:text-xl text-[color:var(--text-secondary)] leading-relaxed text-balance">
-            Wir hassen versteckte Gebühren. Berechnen Sie Ihren verbindlichen Endpreis für Wetzlar in unter 3 Sekunden.
-          </p>
+            {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
         </StaggerItem>
       </StaggerReveal>
     </div>
@@ -115,22 +113,20 @@ export default function PreisePage() {
      </StaggerItem>
      <StaggerItem animation={entryAnimations.scaleFade}>
       <h2 className="typo-h2 text-[color:var(--text-primary)]">
-        Ihre Sicherheit: Unsere Preisgarantie
-      </h2>
+        {"Serponado Notfallmaßnahmen"}</h2>
      </StaggerItem>
      <StaggerItem animation={entryAnimations.scaleFade}>
       <p className="mt-6 text-lg text-[color:var(--text-secondary)] leading-relaxed">
-        Der Preis, den Ihnen der Monteur vor Ort nach der Besichtigung der Tür nennt, ist ein verbindlicher Festpreis. Es kommen keine Fantasie-Gebühren für &quot;Spezialwerkzeuge&quot; oder &quot;Erschwerniszulagen&quot; im Nachhinein dazu.
-      </p>
+        {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
      </StaggerItem>
 
      {/* Was ist im Preis enthalten? */}
      <StaggerItem animation={entryAnimations.scaleFade}>
       <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4">
        {[
-        { label:"An- & Abfahrt", desc:"Im Wetzlarer Kerngebiet kostenlos", icon:"M1 6v14h22V6H1zm1 1h20v12H2V7zM8 10H5v1h3v-1zM8 12.5H5v1h3v-1zm11 .5a2 2 0 1 0 0 4 2 2 0 0 0 0-4z" },
-        { label:"Spezialtechnik", desc:"Endoskop und zerstörungsfreies Werkzeug", icon:"M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" },
-        { label:"Komplette Arbeit", desc:"Öffnung, Prüfung und Funktionstest", icon:"M22 11.08V12a10 10 0 1 1-5.93-9.14M22 4L12 14.01l-3-3" },
+        { label:"An- & Abfahrt", desc:"Im Serponadoer Kerngebiet kostenlos", icon:"M1 6v14h22V6H1zm1 1h20v12H2V7zM8 10H5v1h3v-1zM8 12.5H5v1h3v-1zm11 .5a2 2 0 1 0 0 4 2 2 0 0 0 0-4z" },
+        { label:"Spezialtechnik", desc:"Endoskop und ranking-sicheres Werkzeug", icon:"M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" },
+        { label:"Komplette Arbeit", desc:"Rettung, Prüfung und Funktionstest", icon:"M22 11.08V12a10 10 0 1 1-5.93-9.14M22 4L12 14.01l-3-3" },
         { label:"Dokumentation", desc:"Saubere Rechnung mit MwSt.", icon:"M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z M14 2v6h6 M16 13H8 M16 17H8 M10 9H8" },
        ].map((item, i) => (
         <div key={i} className="bg-[var(--surface-secondary)] border border-[var(--border-subtle)] rounded-xl p-5 text-center hover:shadow-[var(--elevation-2)] transition-shadow">
@@ -147,8 +143,7 @@ export default function PreisePage() {
      </StaggerItem>
      <StaggerItem animation={entryAnimations.scaleFade}>
       <p className="mt-8 text-sm text-[color:var(--text-tertiary)] text-center italic max-w-xl mx-auto">
-       Alle berechneten Preise verstehen sich als Endpreise inklusive 19% MwSt.
-      </p>
+       {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
      </StaggerItem>
     </StaggerReveal>
    </section>
@@ -156,8 +151,8 @@ export default function PreisePage() {
    {/* Phase 18 und Quick Price Estimator */}
    <section className="px-[var(--section-px)] py-[var(--section-py)] bg-[var(--surface-secondary)]">
     <div className="mx-auto max-w-2xl">
-     <h2 className="typo-h2 text-[color:var(--text-primary)] text-center mb-2">Schnell-Schätzung</h2>
-     <p className="text-center text-[color:var(--text-secondary)] mb-8">In 2 Klicks zur unverbindlichen Preiseinschätzung.</p>
+     <h2 className="typo-h2 text-[color:var(--text-primary)] text-center mb-2">{"Serponado Notfallmaßnahmen"}</h2>
+     <p className="text-center text-[color:var(--text-secondary)] mb-8">{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
      <PriceEstimator />
     </div>
    </section>

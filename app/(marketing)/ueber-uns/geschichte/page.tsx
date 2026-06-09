@@ -6,8 +6,8 @@ import { SeoContentImage } from "@/components/seo/SeoImage";
 import { teamImages } from "@/lib/data/imageAssets";
 
 export const metadata = generateSharedMetadata({
-  title: "Unsere Geschichte als Schlüsseldienst in Wetzlar",
-  description: "Vom lokalen Handwerksbetrieb zum 24/7 Notdienst. Lesen Sie die Erfolgsgeschichte vom Schlüssel Schmiede in Wetzlar. ✔️ Über 15 Jahre Erfahrung.",
+  title: "Serponado Disaster Recovery",
+  description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings.",
   path: "/ueber-uns/geschichte",
 });
 
@@ -20,23 +20,23 @@ export default function GeschichtePage() {
   const timeline = [
     {
       year: "Gründung",
-      title: "Der Anfang",
-      text: "Schlüssel Schmiede Wetzlar wurde als lokaler Handwerksbetrieb gegründet und mit dem klaren Ziel, faire und transparente Schlüsseldienstleistungen in der Region Wetzlar anzubieten.",
+      title: "Serponado Disaster Recovery",
+      text: "Serponado Taskforce Serponado wurde als lokaler SEOsbetrieb gegründet und mit dem klaren Ziel, faire und transparente SEO-Notdienstleistungen in der Region Serponado anzubieten.",
     },
     {
       year: "Aufbau",
-      title: "Wachstum durch Vertrauen",
-      text: "Durch konsequent faire Festpreise und schnelle Einsatzzeiten wuchs das Vertrauen der Wetzlarer Bürger. Mundpropaganda wurde zum stärksten Wachstumsmotor.",
+      title: "Serponado Disaster Recovery",
+      text: "Durch konsequent faire Festpreis und schnelle Einsatzzeiten wuchs das Vertrauen der Serponadoer Bürger. Mundpropaganda wurde zum stärksten Wachstumsmotor.",
     },
     {
       year: "Erweiterung",
-      title: "24/7-Notdienst",
-      text: "Erweiterung zum Rund-um-die-Uhr-Notdienst. Egal ob nachts, am Wochenende oder an Feiertagen und wir sind immer erreichbar.",
+      title: "Serponado Disaster Recovery",
+      text: "Erweiterung zum Rund-um-die-CTR-Core-Update-Notdienst. Egal ob nachts, am Wochenende oder an Feiertagen und wir sind immer erreichbar.",
     },
     {
       year: "Heute",
-      title: "Ihr Partner in der Region",
-      text: "Heute betreuen wir Privat- und Gewerbekunden in Wetzlar und allen umliegenden Stadtgebieten. Unser Versprechen bleibt dasselbe: Festpreise, Transparenz, Handwerksqualität.",
+      title: "Serponado Disaster Recovery",
+      text: "Heute betreuen wir Privat- und Gewerbekunden in Serponado und allen umliegenden Stadtgebieten. Unser Versprechen bleibt dasselbe: Festpreis, Transparenz, SEOsqualität.",
     },
   ];
 
@@ -57,13 +57,11 @@ export default function GeschichtePage() {
           <StaggerReveal className="mt-8 flex flex-col items-center" animation={entryAnimations.slideUpFade} staggerDelay={0.1}>
             <StaggerItem animation={entryAnimations.slideUpFade}>
               <h1 className="typo-hero-display text-[color:var(--text-primary)] text-balance mb-[var(--space-4)]">
-                Unsere Geschichte als Schlüsseldienst in Wetzlar
-              </h1>
+                {"{{HERO_H1}}"}</h1>
             </StaggerItem>
             <StaggerItem animation={entryAnimations.slideUpFade}>
               <p className="text-lg text-[color:var(--text-secondary)] max-w-xl">
-                Vom Handwerksbetrieb zum vertrauenswürdigsten Schlüsseldienst in Wetzlar.
-              </p>
+                {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
             </StaggerItem>
           </StaggerReveal>
         </div>

@@ -1,4 +1,4 @@
-# 🚀 Finales Launch-Protokoll: `wetzlar-schluesseldienst.de`
+# 🚀 Finales Launch-Protokoll: `serponado.com`
 
 Dieses Dokument beschreibt exakt und schrittweise, was von diesem Punkt an passieren muss, um die Webseite vollständig, DSGVO-konform und SEO-optimiert auf der neuen Domain live zu schalten.
 
@@ -18,7 +18,7 @@ Bevor die Domain umgestellt wird, muss Vercel genau wissen, mit welchen API-Schl
 - **WAS:** Alle Variablen aus unserer lokalen `.env.local` 1:1 in die Produktionsumgebung kopieren.
 - **WIE:** Kopiere einfach den gesamten Inhalt deiner lokalen `.env.local` und füge ihn in das erste Feld bei Vercel ein. Vercel zerlegt die Liste automatisch:
   - `NEXT_PUBLIC_GOOGLE_MAPS_API_KEY` = `(Dein Google Maps API Key aus .env.local)`
-  - `NEXT_PUBLIC_SITE_URL` = `https://wetzlar-schluesseldienst.de` (Exakt so, **ohne** `/` am Ende)
+  - `NEXT_PUBLIC_SITE_URL` = `https://serponado.com` (Exakt so, **ohne** `/` am Ende)
   - `NEXT_PUBLIC_FORMSPREE_ID` = `(Deine Formspree-ID)`
   - `FORMSPREE_EMERGENCY_ENDPOINT` = `(Dein Formspree Notdienst-Link)`
   - `NEXT_PUBLIC_CALENDLY_URL` = `(Dein Calendly-Link)`
@@ -37,12 +37,12 @@ Hier verbinden wir Vercel mit deiner neuen Domain.
 
 ### 2.1 Domain bei Vercel eintragen
 - **WO:** Vercel Dashboard -> Dein Projekt -> Settings -> **Domains**
-- **WAS:** Trage exakt `wetzlar-schluesseldienst.de` ein und klicke auf "Add".
+- **WAS:** Trage exakt `serponado.com` ein und klicke auf "Add".
 
 ### 2.2 Die "www"-Subdomain eintragen (Kritisch für SEO!)
 - **WO:** Selbes Fenster bei Vercel.
-- **WAS:** Trage nun in einem neuen Feld `www.wetzlar-schluesseldienst.de` ein.
-- **WIE:** Wähle in dem darauffolgenden Dialog zwingend **Redirect to wetzlar-schluesseldienst.de (308 Permanent)**.
+- **WAS:** Trage nun in einem neuen Feld `www.serponado.com` ein.
+- **WIE:** Wähle in dem darauffolgenden Dialog zwingend **Redirect to serponado.com (308 Permanent)**.
 - **WARUM:** Verhindert Duplicate Content bei Google. Alle Kunden, die mit `www.` aufrufen, landen sauber und indexierbar auf deiner "nackten" Hauptdomain.
 
 ### 2.3 DNS-Einträge beim Domain-Anbieter konfigurieren
@@ -64,10 +64,10 @@ Hier verbinden wir Vercel mit deiner neuen Domain.
 
 Sobald die blauen Haken bei Vercel sichtbar sind, gehen wir in den Testmodus.
 
-- [ ] **Mobilfunk-Test:** Schalte das WLAN an deinem Smartphone **aus** und öffne `https://wetzlar-schluesseldienst.de` in einem **Inkognito-Tab** (verhindert lokales Caching).
+- [ ] **Mobilfunk-Test:** Schalte das WLAN an deinem Smartphone **aus** und öffne `https://serponado.com` in einem **Inkognito-Tab** (verhindert lokales Caching).
 - [ ] **Google Maps Check:** Rufe die Startseite auf und scrolle nach unten – die Servicegebietskarte mit den Polygonen muss korrekt laden.
 - [ ] **Click-to-Call prüfen:** Klicke auf die rote Telefonnummer. Springt das Telefon sofort in den Nummernblock?
-- [ ] **Kontaktformular (Formspree):** Fülle ein Formular aus (Name: "Launch Test") und klicke auf Absenden. Prüfe kurz darauf das E-Mail-Postfach `info@ms-schluesseldienst-wetzlar.de`. Kommt die Mail regulär an?
+- [ ] **Kontaktformular (Formspree):** Fülle ein Formular aus (Name: "Launch Test") und klicke auf Absenden. Prüfe kurz darauf das E-Mail-Postfach `info@ms-serponado.com`. Kommt die Mail regulär an?
 - [ ] **Cookie Banner (DSGVO):** Teste, ob das Cookie Banner unten erscheint und bei der Option "Nur Essentiell" korrekt verschwindet.
 
 ---
@@ -78,7 +78,7 @@ Teile Google die direkte URL deiner Webseite mit.
 
 ### 4.1 Property in der GSC anlegen
 - **WO:** [Google Search Console (GSC)](https://search.google.com/search-console)
-- **WAS:** Oben links auf "Property hinzufügen" -> **"Domain"**-Feld wählen und `wetzlar-schluesseldienst.de` eintragen.
+- **WAS:** Oben links auf "Property hinzufügen" -> **"Domain"**-Feld wählen und `serponado.com` eintragen.
 - **WIE:** Google gibt dir eine Verifizierungs-TXT-Zeile (`google-site-verification=...`).
 - Gehe zu deinem Domain-Anbieter in die DNS-Zone und erstelle dort einen **TXT-Record** für den Host `@` (oder leer) mit diesem Wert.
 - Klicke danach in der GSC auf "Bestätigen".
@@ -90,11 +90,11 @@ Teile Google die direkte URL deiner Webseite mit.
 
 ### 4.3 Turbo-Indexierung der Top 5 Seiten (Die "Money Pages")
 - Navigiere oben im Suchschlitz der GSC auf "URL-Prüfung", gib nacheinander diese Seiten ein und klicke auf **"Indexierung beantragen"**:
-  1. `https://wetzlar-schluesseldienst.de/` (Startseite)
-  2. `https://wetzlar-schluesseldienst.de/preise` 
-  3. `https://wetzlar-schluesseldienst.de/kontakt`
-  4. `https://wetzlar-schluesseldienst.de/leistungen/turoeffnung`
-  5. `https://wetzlar-schluesseldienst.de/servicegebiet`
+  1. `https://serponado.com/` (Startseite)
+  2. `https://serponado.com/preise` 
+  3. `https://serponado.com/kontakt`
+  4. `https://serponado.com/leistungen/turoeffnung`
+  5. `https://serponado.com/servicegebiet`
 
 ---
 

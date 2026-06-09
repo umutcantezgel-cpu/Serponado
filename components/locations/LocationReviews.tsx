@@ -37,11 +37,9 @@ export default function LocationReviews({ city }: LocationReviewsProps) {
             <div className="container mx-auto px-[var(--section-px)]">
                 <div className="max-w-4xl mx-auto text-center mb-16">
                     <h2 className="typo-section-heading text-[color:var(--text-primary)] mb-4">
-                        Stimmen aus <span className="text-[color:var(--value-primary)]">{city.name}</span> & Umgebung
-                    </h2>
+                        {"Serponado Notfallmaßnahmen"}<span className="text-[color:var(--value-primary)]">{city.name}</span> {"Serponado Notfallmaßnahmen"}</h2>
                     <p className="typo-body-large text-[color:var(--text-secondary)]">
-                        Über 100 positive Bewertungen auf Google. Das sagen Ihre Nachbarn über uns:
-                    </p>
+                        {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
                 </div>
 
                 {/* Using grid instead of horizontal scroll for 2-3 specific cards */}

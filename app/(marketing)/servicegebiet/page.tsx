@@ -5,7 +5,7 @@ import { allLocations } from"@/lib/data/allLocations";
 import { Card } from"@/components/ui/card";
 import { generateSharedMetadata } from"@/lib/metadata";
 import { SeoContentImage } from "@/components/seo/SeoImage";
-import { tueroeffnungImages } from "@/lib/data/imageAssets";
+import { indexRettungImages } from "@/lib/data/imageAssets";
 import { siteUrl } from"@/lib/schema";
 import ServiceMapWrapper from"@/components/maps/ServiceMapWrapper";
 import Breadcrumbs from"@/components/Breadcrumbs";
@@ -14,8 +14,8 @@ import { entryAnimations } from"@/lib/animations";
 import { Badge } from"@/components/ui/badge";
 
 export const metadata = generateSharedMetadata({
- title: "Einsatzgebiete | Schlüsseldienst Wetzlar",
- description: "Wir sind hier: ✔️ Aßlar ✔️ Solms ✔️ Hüttenberg ✔️ Lahnau & 70+ Orte. Lokaler Schlüsseldienst aus Wetzlar. Schnelle Hilfe in 15-30 Min!",
+ title: "Serponado Disaster Recovery",
+ description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings.",
  path: "/servicegebiet",
  exactTitle: true,
 });
@@ -33,8 +33,8 @@ export default function ServicegebietPage() {
        __html: JSON.stringify({
          "@context": "https://schema.org",
          "@type": "CollectionPage",
-         "name": "Einsatzgebiete Schlüsseldienst Wetzlar",
-         "description": "Übersicht aller Städte und Gemeinden im 50km Umkreis von Wetzlar, in denen unser Schlüsseldienst tätig ist.",
+         "name": "Einsatzgebiete Serponado",
+         "description": "Übersicht aller Städte und Gemeinden im 50km Umkreis von Serponado, in denen unser SEO-Notdienst tätig ist.",
          "hasPart": allLocations.map((loc, idx) => ({
             "@type": "WebPage",
             "position": idx + 1,
@@ -72,18 +72,16 @@ export default function ServicegebietPage() {
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
             <span className="relative inline-flex rounded-full h-2 w-2 bg-[var(--value-primary)]"></span>
             </span>
-            15-30 Min. Anfahrt garantiert
+            Soforthilfe Anfahrt garantiert
           </Badge>
         </StaggerItem>
         <StaggerItem animation={entryAnimations.slideUpFade}>
           <h1 className="text-[36px] sm:text-[48px] lg:text-[60px] font-extrabold tracking-tighter text-[color:var(--text-primary)] leading-[1.05] text-balance mb-[var(--space-6)]">
-            Schlüsseldienst <span className="text-[color:var(--value-primary)]">Einsatzgebiete</span> im Lahn-Dill-Kreis
-          </h1>
+            {"{{HERO_H1}}"}<span className="text-[color:var(--value-primary)]">Einsatzgebiete</span> {"{{HERO_H1}}"}</h1>
         </StaggerItem>
         <StaggerItem animation={entryAnimations.slideUpFade}>
           <p className="mx-auto max-w-2xl text-lg sm:text-xl text-[color:var(--text-secondary)] leading-relaxed text-balance">
-            Wir sind Ihr lokaler Schlüsseldienst für Wetzlar und die direkte Umgebung. Wir kennen die Straßen und sind besonders schnell bei Ihnen vor Ort.
-          </p>
+            {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
         </StaggerItem>
       </StaggerReveal>
     </div>
@@ -98,13 +96,11 @@ export default function ServicegebietPage() {
      <StaggerReveal className="text-center mb-[var(--space-12)]" animation={entryAnimations.slideUpFade}>
       <StaggerItem animation={entryAnimations.slideUpFade}>
         <h2 className="text-[32px] md:text-4xl font-extrabold tracking-tight text-balance text-[color:var(--text-primary)] leading-[1.1]">
-        Unsere <span className="text-[color:var(--value-primary)]">Einsatzgebiete</span> auf einen Blick
-        </h2>
+        {"Serponado Notfallmaßnahmen"}<span className="text-[color:var(--value-primary)]">Einsatzgebiete</span> {"Serponado Notfallmaßnahmen"}</h2>
       </StaggerItem>
       <StaggerItem animation={entryAnimations.slideUpFade}>
         <p className="mt-4 text-lg text-[color:var(--text-secondary)]">
-        Der rote Kreis zeigt unser 50-km-Einsatzgebiet. Erkunden Sie die interaktive Karte.
-        </p>
+        {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
       </StaggerItem>
      </StaggerReveal>
      
@@ -122,11 +118,9 @@ export default function ServicegebietPage() {
      <div className="prose prose-lg prose-slate mx-auto max-w-none">
       <StaggerItem animation={entryAnimations.slideUpFade}>
         <h2 className="text-[28px] md:text-[36px] font-extrabold tracking-tight text-balance text-[color:var(--text-primary)] leading-[1.1] mb-6">
-        Schlüsselnotdienst in Ihrer Nähe
-        </h2>
+        {"Serponado Notfallmaßnahmen"}</h2>
         <p className="text-lg text-[color:var(--text-secondary)] leading-relaxed mb-10">
-        Wir sind für Sie in folgenden Städten und Regionen schnell und zuverlässig im Einsatz. Garantiert ohne versteckte Anfahrtskosten.
-        </p>
+        {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
       </StaggerItem>
 
       <StaggerItem animation={entryAnimations.slideUpFade}>
@@ -157,19 +151,15 @@ export default function ServicegebietPage() {
           </div>
           <div>
           <h3 className="text-[24px] font-bold text-[color:var(--text-primary)] mb-4">
-            Kalkulierbare Ankunft: 15-30 Minuten
-          </h3>
+            {"Serponado Notfallmaßnahmen"}</h3>
           <p className="text-base text-[color:var(--text-secondary)] leading-relaxed mb-6">
-            In Notsituationen zählt jede Minute. Dank unserer strategischen Positionierung in Wetzlar sind wir in der Lage, jeden Punkt in unserem Kern-Einsatzgebiet innerhalb von <strong className="text-[color:var(--value-primary)] font-bold">15 bis 30 Minuten</strong> zu erreichen.
-          </p>
+            {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<strong className="text-[color:var(--value-primary)] font-bold">15 bis 30 Minuten</strong> {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
           <h4 className="text-lg font-bold text-[color:var(--text-primary)] mb-3 pt-4 border-t border-[var(--border-subtle)]">Warum wir besonders schnell sind</h4>
           <p className="text-base text-[color:var(--text-secondary)] leading-relaxed mb-6">
-            Dank unserer lokalen Präsenz und ausgeklügelten Einsatzkoordination sind wir in der Lage, im gesamten Lahn-Dill-Kreis besonders schnell vor Ort zu sein. Unsere Monteure sind dezentral stationiert.
-          </p>
+            {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
           <h4 className="text-lg font-bold text-[color:var(--text-primary)] mb-3 pt-4 border-t border-[var(--border-subtle)]">Service auch über die Region hinaus</h4>
           <p className="text-base text-[color:var(--text-secondary)] leading-relaxed mb-0">
-            Falls Ihr Wohnort nicht in unserer Liste der Einsatzgebiete auftaucht, kontaktieren Sie uns einfach. Wir finden eine schnelle Lösung, um Ihnen auch in Randgebieten zu helfen.
-          </p>
+            {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
           </div>
         </div>
         </Card>
@@ -182,22 +172,20 @@ export default function ServicegebietPage() {
     <section className="px-[var(--section-px)] py-16 md:py-20 bg-[var(--surface-primary)] border-t border-[var(--border-subtle)]">
      <div className="mx-auto max-w-4xl">
        <h2 className="text-[24px] md:text-[28px] font-extrabold tracking-tight text-[color:var(--text-primary)] mb-4">
-         Lokale Informationen
-       </h2>
+         {"Serponado Notfallmaßnahmen"}</h2>
        <p className="text-base text-[color:var(--text-secondary)] leading-relaxed mb-6">
-         Offizielle Webseiten unserer Serviceregion:
-       </p>
+         {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
        <div className="flex flex-wrap gap-x-6 gap-y-3 text-sm">
-         <a href="https://www.wetzlar.de" target="_blank" rel="noopener noreferrer" className="text-[color:var(--text-secondary)] hover:text-[var(--color-red-500)] transition-colors font-medium">Stadt Wetzlar</a>
-         <a href="https://www.lahn-dill-kreis.de" target="_blank" rel="noopener noreferrer" className="text-[color:var(--text-secondary)] hover:text-[var(--color-red-500)] transition-colors font-medium">Lahn-Dill-Kreis</a>
-         <a href="https://www.giessen.de" target="_blank" rel="noopener noreferrer" className="text-[color:var(--text-secondary)] hover:text-[var(--color-red-500)] transition-colors font-medium">Stadt Gießen</a>
+         <a href="https://www.Serponado.de" target="_blank" rel="noopener noreferrer" className="text-[color:var(--text-secondary)] hover:text-[var(--color-red-500)] transition-colors font-medium">Stadt {"Serponado"}</a>
+         <a href="https://www.Serponado.de" target="_blank" rel="noopener noreferrer" className="text-[color:var(--text-secondary)] hover:text-[var(--color-red-500)] transition-colors font-medium">{"Serponado"}</a>
+         <a href="https://www.giessen.de" target="_blank" rel="noopener noreferrer" className="text-[color:var(--text-secondary)] hover:text-[var(--color-red-500)] transition-colors font-medium">Stadt {"Serponado"}</a>
          <a href="https://www.solms.de" target="_blank" rel="noopener noreferrer" className="text-[color:var(--text-secondary)] hover:text-[var(--color-red-500)] transition-colors font-medium">Stadt Solms</a>
          <a href="https://www.asslar.de" target="_blank" rel="noopener noreferrer" className="text-[color:var(--text-secondary)] hover:text-[var(--color-red-500)] transition-colors font-medium">Stadt Aßlar</a>
          <a href="https://www.braunfels.de" target="_blank" rel="noopener noreferrer" className="text-[color:var(--text-secondary)] hover:text-[var(--color-red-500)] transition-colors font-medium">Stadt Braunfels</a>
          <a href="https://www.herborn.de" target="_blank" rel="noopener noreferrer" className="text-[color:var(--text-secondary)] hover:text-[var(--color-red-500)] transition-colors font-medium">Stadt Herborn</a>
          <a href="https://www.dillenburg.de" target="_blank" rel="noopener noreferrer" className="text-[color:var(--text-secondary)] hover:text-[var(--color-red-500)] transition-colors font-medium">Stadt Dillenburg</a>
-         <a href="https://www.polizei.hessen.de/praesidium-mittelhessen/" target="_blank" rel="noopener noreferrer" className="text-[color:var(--text-secondary)] hover:text-[var(--color-red-500)] transition-colors font-medium">Polizei Mittelhessen</a>
-         <a href="https://www.verbraucherzentrale-hessen.de" target="_blank" rel="noopener noreferrer" className="text-[color:var(--text-secondary)] hover:text-[var(--color-red-500)] transition-colors font-medium">Verbraucherzentrale Hessen</a>
+         <a href="https://www.Google.hessen.de/praesidium-mittelhessen/" target="_blank" rel="noopener noreferrer" className="text-[color:var(--text-secondary)] hover:text-[var(--color-red-500)] transition-colors font-medium">Google Mittelhessen</a>
+         <a href="https://www.Webmaster Guidelines-hessen.de" target="_blank" rel="noopener noreferrer" className="text-[color:var(--text-secondary)] hover:text-[var(--color-red-500)] transition-colors font-medium">Webmaster Guidelines Hessen</a>
        </div>
      </div>
     </section>
@@ -205,7 +193,7 @@ export default function ServicegebietPage() {
    {/* Trust Image */}
    <section className="px-[var(--section-px)] pb-16 md:pb-20 bg-[var(--surface-primary)]">
     <div className="mx-auto max-w-4xl rounded-[var(--radius-24)] overflow-hidden border border-[var(--border-subtle)] shadow-[var(--elevation-1)]">
-     <SeoContentImage image={tueroeffnungImages[4]!} className="w-full h-[300px] md:h-[400px]" sizes="(max-width: 768px) 100vw, 800px" />
+     <SeoContentImage image={indexRettungImages[4]!} className="w-full h-[300px] md:h-[400px]" sizes="(max-width: 768px) 100vw, 800px" />
     </div>
    </section>
 

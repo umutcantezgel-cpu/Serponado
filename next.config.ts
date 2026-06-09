@@ -1,14 +1,10 @@
 import type { NextConfig } from "next";
 
 // ══════════════════════════════════════════════════════════════════════════════
-// PRODUCTION DOMAIN: www.wetzlar-schlüsseldienst.de
-// PUNYCODE:          www.xn--wetzlar-schlsseldienst-3lc.de
+// PRODUCTION DOMAIN: www.serponado.com
+// Operated by Coday UG (haftungsbeschränkt), Wetzlar
 //
-// Verified via Python encodings.idna.ToASCII('wetzlar-schlüsseldienst')
-// → "xn--wetzlar-schlsseldienst-3lc"
 // ══════════════════════════════════════════════════════════════════════════════
-const PUNYCODE_HOST = "xn--wetzlar-schlsseldienst-3lc.de";
-const PUNYCODE_WWW  = `www.${PUNYCODE_HOST}`;
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
@@ -41,6 +37,8 @@ const nextConfig: NextConfig = {
   },
 
   images: {
+    loader: "custom",
+    loaderFile: "./lib/imageLoader.ts",
     formats: ["image/avif", "image/webp"],
     deviceSizes: [640, 960, 1280, 1920, 2560],
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
@@ -52,149 +50,14 @@ const nextConfig: NextConfig = {
   trailingSlash: false,
 
   // ═══════════════════════════════════════════════════════════════════════════
-  // [SEO: Resolved "WWW/non-WWW duplicate content" via 301 Punycode Redirect]
+  // [SEO: Resolved "WWW/non-WWW duplicate content" via 301 Redirect]
   //
-  // DIRECTION: non-www → www (canonical is www.wetzlar-schlüsseldienst.de)
+  // DIRECTION: non-www → www (canonical is www.serponado.com)
   // This eliminates the Seobility "duplicate content" error that occurs when
   // both www and non-www resolve to the same content without a redirect.
   // ═══════════════════════════════════════════════════════════════════════════
   async redirects() {
-    return [
-      // ═════════════════════════════════════════════════════════════════════
-      // [SEO: WWW Enforcer und non-www to www canonical redirect]
-      // Catch both Punycode AND raw UTF-8 host headers (for old crawlers)
-      // ═════════════════════════════════════════════════════════════════════
-      {
-        source: "/:path*",
-        has: [
-          {
-            type: "host",
-            value: PUNYCODE_HOST,
-          },
-        ],
-        destination: `https://${PUNYCODE_WWW}/:path*`,
-        permanent: true,
-      },
-      {
-        source: "/:path*",
-        has: [
-          {
-            type: "host",
-            value: "wetzlar-schlüsseldienst.de",
-          },
-        ],
-        destination: `https://${PUNYCODE_WWW}/:path*`,
-        permanent: true,
-      },
-
-      // ═════════════════════════════════════════════════════════════════════
-      // [SEO: Backlink Protection - 301 Migration Map]
-      //
-      // Maps all known old Squarespace URLs to new Next.js routes.
-      // ZERO-404-TOLERANCE: Every existing backlink MUST resolve.
-      // permanent: true = HTTP 301 = passes full link equity to new URL.
-      //
-      // Source: Old Squarespace sitemap + backlink audit
-      // ═════════════════════════════════════════════════════════════════════
-
-      // ── Price page rename ──
-      {
-        source: "/preisliste",
-        destination: "/preise",
-        permanent: true,
-      },
-
-      // ── Schlüsselschmiede (old spelling without hyphen) ──
-      {
-        source: "/schluesselschmiede",
-        destination: "/schluessel-schmiede",
-        permanent: true,
-      },
-
-      // ── Service areas (old long-form URL) ──
-      {
-        source: "/einsatzgebiete-schluesseldienst-wetzlar",
-        destination: "/servicegebiet",
-        permanent: true,
-      },
-
-      // ── Service subpages (old flat structure → new nested routes) ──
-      {
-        source: "/ms-schliessanlagen",
-        destination: "/leistungen/schliessanlagen",
-        permanent: true,
-      },
-      {
-        source: "/sicherheitsloesungen",
-        destination: "/leistungen/sicherheitstechnik",
-        permanent: true,
-      },
-
-      // ── Legal pages (old combined page → separate pages) ──
-      {
-        source: "/Impressum-und-datenschutz",
-        destination: "/impressum",
-        permanent: true,
-      },
-      // Case-insensitive variant (Squarespace was case-insensitive)
-      {
-        source: "/impressum-und-datenschutz",
-        destination: "/impressum",
-        permanent: true,
-      },
-
-      // ── Trailing slash variants (catch-all safety net) ──
-      // Next.js trailingSlash: false strips them automatically,
-      // but explicit redirects ensure Squarespace backlinks with
-      // trailing slashes don't 404 on edge cases.
-      {
-        source: "/preisliste/",
-        destination: "/preise",
-        permanent: true,
-      },
-      {
-        source: "/schluesselschmiede/",
-        destination: "/schluessel-schmiede",
-        permanent: true,
-      },
-      {
-        source: "/einsatzgebiete-schluesseldienst-wetzlar/",
-        destination: "/servicegebiet",
-        permanent: true,
-      },
-      {
-        source: "/ms-schliessanlagen/",
-        destination: "/leistungen/schliessanlagen",
-        permanent: true,
-      },
-      {
-        source: "/sicherheitsloesungen/",
-        destination: "/leistungen/sicherheitstechnik",
-        permanent: true,
-      },
-      {
-        source: "/Impressum-und-datenschutz/",
-        destination: "/impressum",
-        permanent: true,
-      },
-      {
-        source: "/impressum-und-datenschutz/",
-        destination: "/impressum",
-        permanent: true,
-      },
-
-      // ── KfW Förderung (redirect to official KfW page) ──
-      {
-        source: "/kfw-foerderung",
-        destination: "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestandsimmobilien/Einbruchschutz/",
-        permanent: false,
-      },
-      {
-        source: "/kfw",
-        destination: "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestandsimmobilien/Einbruchschutz/",
-        permanent: false,
-      },
-    ];
+    return [];
   },
 
   // ═══════════════════════════════════════════════════════════════════════════

@@ -39,9 +39,9 @@ export default function ReviewCard({ review }: { review: Review }) {
       <div className="absolute -top-20 -right-20 w-40 h-40 bg-[var(--color-red-500)]/0 group-hover:bg-[var(--color-red-500)]/5 rounded-full blur-[40px] transition-all duration-500 pointer-events-none" />
 
       {/* Required by Google Structured Data */}
-      <div itemProp="itemReviewed" itemScope itemType="https://schema.org/Locksmith" className="hidden">
-        <meta itemProp="name" content="Schlüssel Schmiede Wetzlar" />
-        <meta itemProp="url" content="https://www.wetzlar-schlüsseldienst.de/" />
+      <div itemProp="itemReviewed" itemScope itemType="https://schema.org/ProfessionalService" className="hidden">
+        <meta itemProp="name" content="Serponado Taskforce Serponado" />
+        <meta itemProp="url" content="https://www.Serponado-SEO-Notdienst.de/" />
       </div>
 
       {/* Header: Avatar + Name + Stars */}
@@ -91,8 +91,7 @@ export default function ReviewCard({ review }: { review: Review }) {
           className="relative z-10 text-base text-[color:var(--text-secondary)] font-medium leading-relaxed italic line-clamp-4"
           itemProp="reviewBody"
         >
-          &quot;{review.text}&quot;
-        </p>
+          {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}{review.text}{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
       </div>
 
       {/* Google Logo Source Indicator */}

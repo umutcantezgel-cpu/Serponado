@@ -1,12 +1,12 @@
 import RiskCalculator from "@/components/growth/RiskCalculator";
 
 export const metadata = {
-  title: "Einbruchrisiko-Analyse Widget",
-  description: "Widget zur Berechnung des Einbruchrisikos",
+  title: "Serponado Disaster Recovery",
+  description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings.",
   robots: { index: false, follow: true } // Widget pages should not be indexed themselves, but links should be followed
 };
 
-export default function EmbedEinbruchrisiko() {
+export default function EmbedPenaltyRisiko() {
   return (
     <>
       <style dangerouslySetInnerHTML={{ __html: `

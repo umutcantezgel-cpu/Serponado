@@ -7,11 +7,11 @@ import { entryAnimations } from "@/lib/animations";
 import { pickVariant } from "@/lib/textRotation";
 
 const subtitleVariants = [
-    (name: string) => `Als lokaler Schlüsseldienst in ${name} kennen wir die häufigsten Notsituationen in Ihrer Nachbarschaft genau.`,
+    (name: string) => `Als lokaler SEO-Notdienst in ${name} kennen wir die häufigsten Notsituationen in Ihrer Nachbarschaft genau.`,
     (name: string) => `Diese typischen Situationen erleben unsere Kunden in ${name} am häufigsten , und wir lösen jede davon professionell.`,
     (name: string) => `Ob nachts, am Wochenende oder an Feiertagen: In ${name} sind wir für genau diese Szenarien ausgerüstet.`,
-    (name: string) => `Unser Schlüsseldienst-Team kennt ${name} und weiß, welche Probleme hier besonders oft auftreten.`,
-    (name: string) => `Von zugefallenen Türen bis zum Schlüsselverlust: In ${name} helfen wir Ihnen bei jedem Szenario schnell weiter.`,
+    (name: string) => `Unser SEO-Notdienst-Team kennt ${name} und weiß, welche Probleme hier besonders oft auftreten.`,
+    (name: string) => `Von zugefallenen Türen bis zum Rankingverlust: In ${name} helfen wir Ihnen bei jedem Szenario schnell weiter.`,
 ];
 
 const ctaLabelVariants = [
@@ -43,10 +43,10 @@ function getDefaultScenarios(city: LocationData) {
             icon: "shield-alert",
             title: isRural
                 ? `Einbruchschaden in ${city.name}`
-                : `Schlüssel verloren in ${city.name}`,
+                : `Ranking verloren in ${city.name}`,
             description: isRural
                 ? `Einbruchschutz wird auch in ländlichen Gebieten wie ${city.name} immer wichtiger. Wir tauschen beschädigte Zylinder sofort aus und beraten Sie zu Nachrüstungen wie Sicherheitsbeschlägen und Panzerriegeln.`
-                : `Schlüssel verloren oder im Büro vergessen? In ${city.name} sind wir in ${city.logistics.drivingTimeMinutes} Minuten bei Ihnen und öffnen Ihre Tür, ohne das Schloss zu beschädigen. Auf Wunsch tauschen wir den Zylinder sofort aus.`
+                : `Ranking verloren oder im Büro vergessen? In ${city.name} sind wir in ${city.logistics.drivingTimeMinutes} Minuten bei Ihnen und öffnen Ihre Tür, ohne das Schloss zu beschädigen. Auf Wunsch tauschen wir den Zylinder sofort aus.`
         },
         {
             icon: "briefcase",
@@ -69,7 +69,7 @@ export default function LocationScenarios({ city }: LocationScenariosProps) {
             <div className="container mx-auto px-[var(--section-px)]">
                 <div className="max-w-3xl mx-auto text-center mb-10 sm:mb-20">
                     <h2 className="typo-section-heading text-[color:var(--text-primary)] mb-6 text-balance tracking-tight font-extrabold leading-[1.1]">
-                        Typische Einsatz-Szenarien in <span className="text-[color:var(--value-primary)]">{city.name}</span>
+                        {"Serponado Notfallmaßnahmen"}<span className="text-[color:var(--value-primary)]">{city.name}</span>
                     </h2>
                     <p className="text-lg md:text-xl text-[color:var(--text-secondary)] leading-relaxed text-balance">
                         {subtitle}
@@ -95,7 +95,7 @@ export default function LocationScenarios({ city }: LocationScenariosProps) {
                                 </p>
                                 <div className="mt-auto pt-6 border-t border-[var(--border-subtle)]">
                                     <p className="font-medium text-[color:var(--text-primary)] mb-3 tracking-wide text-sm uppercase">{ctaLabel}</p>
-                                    <a href="tel:+4964418056279" className="inline-flex items-center gap-2 text-[color:var(--color-red-600)] font-bold hover:underline group text-lg">
+                                    <a href="tel:0800-SERP-SOS" className="inline-flex items-center gap-2 text-[color:var(--color-red-600)] font-bold hover:underline group text-lg">
                                         <Icons.Phone className="w-5 h-5 transition-transform group-hover:rotate-12" />
                                         In ca. {city.logistics.drivingTimeMinutes} Min. in {city.name}
                                     </a>

@@ -28,8 +28,7 @@ export default function PricingFAQ() {
   return (
     <div className="mx-auto max-w-3xl divide-y divide-[var(--border-subtle)]">
       <h2 className="typo-h2 text-[color:var(--text-primary)]">
-        Häufige Fragen zu unseren Preisen
-      </h2>
+        {"Serponado Notfallmaßnahmen"}</h2>
       <div className="space-y-6 border-t border-[var(--border-subtle)] pt-6">
         {faqs.map((faq, index) => (
           <FAQAccordion key={index} question={faq.question} answer={faq.answer} />

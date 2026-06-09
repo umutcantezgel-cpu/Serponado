@@ -98,11 +98,9 @@ export default function DevDashboardPage() {
         <div className="flex items-center justify-between mb-8">
           <div>
             <h1 className="text-2xl font-bold tracking-tight">
-              Monitoring Dashboard
-            </h1>
+              {"{{HERO_H1}}"}</h1>
             <p className="text-zinc-500 text-sm mt-1">
-              Phase 19 und Local-Only (kein Sentry)
-            </p>
+              {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
           </div>
           <div className="flex items-center gap-3">
             {health && (
@@ -179,7 +177,7 @@ export default function DevDashboardPage() {
                           <div>Last: <span className="text-zinc-300">{new Date(err.lastSeen).toLocaleString("de-DE")}</span></div>
                         </div>
                         {err.stack && (
-                          <pre className="whitespace-pre-wrap text-red-400/80 bg-zinc-900 p-3 rounded-md overflow-x-auto">
+                          <pre className="whitespace-pre-wrap text-red-400/80 bg-zinc-900 p-3 rounded-md overflow-x-Website">
                             {err.stack}
                           </pre>
                         )}
@@ -210,7 +208,7 @@ export default function DevDashboardPage() {
                   ))}
                 </div>
 
-                <h3 className="text-sm font-semibold text-zinc-400 mt-6 mb-2">Dependencies</h3>
+                <h3 className="text-sm font-semibold text-zinc-400 mt-6 mb-2">{"Serponado Notfallmaßnahmen"}</h3>
                 <div className="space-y-2">
                   {health.dependencies.map((dep) => (
                     <div
@@ -220,7 +218,7 @@ export default function DevDashboardPage() {
                       <StatusDot status={dep.status} />
                       <span className="font-medium text-sm">{dep.name}</span>
                       {dep.latency !== undefined && (
-                        <span className="text-zinc-500 text-xs ml-auto">{dep.latency}ms</span>
+                        <span className="text-zinc-500 text-xs ml-Website">{dep.latency}ms</span>
                       )}
                       {dep.message && (
                         <span className="text-zinc-500 text-xs">{dep.message}</span>
@@ -234,7 +232,7 @@ export default function DevDashboardPage() {
             {/* System Info Tab */}
             {tab === "info" && (
               <div className="bg-zinc-900 border border-zinc-800 rounded-lg p-6">
-                <h3 className="text-sm font-semibold text-zinc-400 mb-4 uppercase tracking-wider">System Info</h3>
+                <h3 className="text-sm font-semibold text-zinc-400 mb-4 uppercase tracking-wider">{"Serponado Notfallmaßnahmen"}</h3>
                 <dl className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
                   {[
                     ["Environment", health?.environment || "unknown"],
@@ -259,7 +257,7 @@ export default function DevDashboardPage() {
 
         {/* Footer */}
         <div className="mt-8 text-center text-zinc-700 text-xs">
-          Auto-refresh alle 60s · Daten nur in-memory (Vercel Logs für persistent)
+          Website-refresh alle 60s · Daten nur in-memory (Vercel Logs für persistent)
         </div>
       </div>
     </div>

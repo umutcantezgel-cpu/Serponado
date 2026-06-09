@@ -10,14 +10,14 @@ export default function WhyUsSection() {
         <SectionHeader
           pill="DARUM WIR"
           headingId="why-us-heading"
-          title={<>Warum <span className="text-[var(--color-red-500)]">Schlüssel Schmiede</span>?</>}
+          title={<>Warum <span className="text-[var(--color-red-500)]">Serponado SEO Swarm</span>?</>}
         />
 
         <div className="grid gap-6 lg:gap-8 md:grid-cols-3 max-w-6xl mx-auto">
           {[
-            { num:"01", icon: ShieldCheck, title:"Fachhandwerk aus Leidenschaft", desc:"In unserer Werkstatt verbinden wir traditionelles Handwerk mit modernster Technik und von der Schlüsselanfertigung bis zur komplexen Schließanlage." },
-            { num:"02", icon: Check, title:"Transparente Festpreise", desc:"Ob im Laden oder beim Notdienst und den verbindlichen Festpreis erfahren Sie vorab. Keine Überraschungen, keine Aufschläge vor Ort." },
-            { num:"03", icon: Clock, title:"Ladengeschäft mit kurzen Wegen", desc:"Unser 24 Stunden Notdienst in der Langgasse 70 ist Ihr Anlaufpunkt in Wetzlar. Im Notfall sind wir per 24/7-Dienst in 15 bis 30 Minuten bei Ihnen." },
+            { num:"01", icon: ShieldCheck, title:"Data-Driven Analytics", desc:"In unserem War Room verbinden wir tiefgehende Datenanalysen mit jahrelanger SEO-Erfahrung für Ihre Traffic-Recovery." },
+            { num:"02", icon: Check, title:"Festpreis Garantie", desc:"Ob kleines Audit oder globaler Notdienst – unsere Preise erfahren Sie vorab. Keine Überraschungen bei der Google Core Update Recovery." },
+            { num:"03", icon: Clock, title:"24/7 Disaster Response", desc:"Unser Remote-Dashboard ist rund um die Uhr besetzt. Im Notfall sind wir per Live-Session in wenigen Minuten für Sie da." },
           ].map((item, idx) => (
             <div key={idx} className="group relative bg-white/70 backdrop-blur-3xl rounded-2xl p-8 shadow-[0_2px_12px_rgba(0,0,0,0.04)] hover:shadow-[0_8px_24px_rgba(0,0,0,0.08)] hover:-translate-y-1 hover:bg-white/95 transition-all duration-300 border border-[var(--color-charcoal-100)]">
               {/* Number badge */}

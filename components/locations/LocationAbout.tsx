@@ -43,7 +43,7 @@ export default function LocationAbout({ city }: LocationAboutProps) {
                             />
                         </div>
                         <p className="mt-4 text-center text-sm font-medium text-[color:var(--text-tertiary)]">
-                            Ihr Ansprechpartner für {city.name}
+                            {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}{city.name}
                         </p>
                     </aside>
                 </div>

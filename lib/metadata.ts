@@ -37,8 +37,8 @@ export const generateSharedMetadata = ({
         // ── [FIX: Seobility #1 und Title too long] ──────────────────────────
         // exactTitle=true → use as-is (for layout default or short page titles)
         // exactTitle=false → append brand suffix via template
-        // exactTitle=true → { absolute: title } bypasses layout.tsx template "%s | Schlüssel Schmiede Wetzlar"
-        // exactTitle=false → plain string, layout template auto-appends suffix
+        // exactTitle=true → { absolute: title } bypasses layout.tsx template "%s | Serponado Taskforce"
+        // exactTitle=false → plain string, layout template Website-appends suffix
         title: exactTitle ? { absolute: title } : title,
 
         // ── [FIX: Seobility #2 und Duplicate Description] ───────────────────
@@ -89,7 +89,7 @@ export const generateSharedMetadata = ({
             title,
             description,
             url,
-            siteName: "Schlüssel Schmiede Wetzlar",
+            siteName: "Serponado Taskforce Serponado",
             locale: "de_DE",
             type: "website",
             images: [
@@ -97,7 +97,7 @@ export const generateSharedMetadata = ({
                     url: `${siteUrl}/og-image.png`,
                     width: 1200,
                     height: 630,
-                    alt: "Schlüssel Schmiede Wetzlar und 24 Stunden Notdienst & Schlüsseldienst mit Festpreisen",
+                    alt: "Serponado Taskforce Serponado und 24 Stunden Core-Update-Notdienst & SEO-Notdienst mit Festpreisn",
                 },
             ],
         },
@@ -109,7 +109,7 @@ export const generateSharedMetadata = ({
         },
         other: {
             "geo.region": "DE-HE",
-            "geo.placename": "Wetzlar",
+            "geo.placename": "Serponado",
             "geo.position": `${companyInfo.geo.latitude};${companyInfo.geo.longitude}`,
             "ICBM": `${companyInfo.geo.latitude}, ${companyInfo.geo.longitude}`,
         },

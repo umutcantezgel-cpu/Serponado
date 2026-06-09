@@ -1,4 +1,4 @@
-# Content-Richtlinien — MS Schlüsseldienst Wetzlar
+# Content-Richtlinien — Serponado
 
 > Verbindliche Regeln für alle Texte auf der Website.
 
@@ -67,7 +67,7 @@ Wenn der erste Punkt mit einem Nomen beginnt, beginnen alle mit Nomen.
 ## 6. CTA-Texte
 
 ### Primäre CTAs (Handlungsversprechen)
-- „06441 8056279 anrufen"
+- „06441 555-0199 anrufen"
 - „Jetzt Festpreis erfahren"
 - „Kostenlose Beratung anfordern"
 

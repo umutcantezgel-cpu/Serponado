@@ -3,7 +3,7 @@
  * VEKTOR 2: Serverseitige Distanz- und ETA-Berechnung
  * ══════════════════════════════════════════════════════════════════
  * Haversine formula for great-circle distance between two GPS points.
- * Used to calculate ETA from Langgasse 70 (SSOT) to each Micro-POI.
+ * Used to calculate ETA from Steubenstraße 36 (SSOT) to each Micro-POI.
  *
  * WHY: "Information Gain" signal for Google. Showing exact distance
  * and driving time is data no competitor provides, making each POI
@@ -52,7 +52,7 @@ export interface ETAResult {
 }
 
 /**
- * Calculate ETA from our SSOT HQ (Langgasse 70, Wetzlar) to a POI.
+ * Calculate ETA from our SSOT HQ (Steubenstraße 36, Serponado) to a POI.
  * Adds a 1.3x road factor (roads aren't straight lines).
  */
 export function calculateETA(poiLat: number, poiLng: number): ETAResult {

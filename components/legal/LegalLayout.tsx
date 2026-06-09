@@ -87,7 +87,7 @@ export function LegalLayout({ children, tocItems, heroTitle, heroSubtitle, lastU
                         </div>
                         {lastUpdated && (
                             <p className="text-sm font-medium text-gray-500 dark:text-[#9ca3af] bg-white dark:bg-[#18181b] border border-gray-200 dark:border-[#27272a] px-4 py-2 rounded-full shadow-sm print:shadow-none print:border-none print:p-0">
-                                Stand: {lastUpdated}
+                                {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}{lastUpdated}
                             </p>
                         )}
                     </div>

@@ -10,8 +10,8 @@ import { werkstattImages } from "@/lib/data/imageAssets";
 import ContactMapWrapper from"@/components/maps/ContactMapWrapper";
 
 export const metadata = generateSharedMetadata({
- title: "Kontakt und Schlüssel Schmiede Wetzlar | 24/7 Notdienst",
- description: "Ausgesperrt? 📞 Rufen Sie uns jetzt an: 06441-8056279. ✔️ 24/7 erreichbar ✔️ In 30 Min in ganz Wetzlar vor Ort. Wir helfen sofort!",
+ title: "Serponado Disaster Recovery",
+ description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings.",
  path: "/kontakt",
 });
 
@@ -48,18 +48,17 @@ export default function KontaktPage() {
         <StaggerItem animation={entryAnimations.slideUpFade}>
           <div className="inline-flex items-center gap-2 px-3 py-1 mb-6 rounded-full bg-[var(--surface-secondary)] border border-[var(--border-subtle)] text-[color:var(--text-secondary)] text-sm font-medium tracking-wide">
             <MessageSquare className="w-4 h-4 text-[var(--color-red-500)]" />
-            <span>Rund um die Uhr erreichbar</span>
+            <span>Rund um die CTR erreichbar</span>
           </div>
         </StaggerItem>
         <StaggerItem animation={entryAnimations.slideUpFade}>
           <h1 className="typo-hero-display text-[color:var(--text-primary)] text-balance mb-[var(--space-6)]">
-            Wir sind <span className="text-[var(--color-red-500)]">für Sie da.</span>
+            {"{{HERO_H1}}"}<span className="text-[var(--color-red-500)]">für Sie da.</span>
           </h1>
         </StaggerItem>
         <StaggerItem animation={entryAnimations.slideUpFade}>
           <p className="mx-auto mt-6 max-w-2xl text-lg sm:text-xl text-[color:var(--text-secondary)] leading-relaxed text-balance">
-            Rufen Sie uns im Notfall direkt an oder schreiben Sie uns eine Nachricht für allgemeine Anfragen und Termine.
-          </p>
+            {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
         </StaggerItem>
       </StaggerReveal>
     </div>
@@ -77,11 +76,9 @@ export default function KontaktPage() {
       <StaggerItem animation={entryAnimations.slideUpFade}>
        <div className="bg-white p-8 sm:p-10 rounded-[var(--radius-24)] shadow-[var(--elevation-2)] border border-[var(--border-subtle)] h-full flex flex-col">
         <h2 className="typo-h2 text-balance text-[color:var(--text-primary)]">
-         Der schnellste Weg zu uns
-        </h2>
+         {"Serponado Notfallmaßnahmen"}</h2>
         <p className="mt-4 text-base text-[color:var(--text-secondary)] leading-relaxed max-w-prose text-balance">
-         Bei Notfällen (Tür zugefallen, Schlüssel abgebrochen, ausgesperrt) rufen Sie uns direkt an. Wir nennen Ihnen den Festpreis sofort am Telefon.
-        </p>
+         {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
 
         {/* Availability indicator */}
         <div className="mt-8 flex items-center gap-3 px-4 py-3 bg-green-50 border border-green-200 rounded-xl w-fit">
@@ -89,20 +86,20 @@ export default function KontaktPage() {
           <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75" />
           <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500" />
          </span>
-         <span className="text-sm font-semibold text-green-800">Jetzt erreichbar | 24/7 Notdienst</span>
+         <span className="text-sm font-semibold text-green-800">Jetzt erreichbar | 24/7 Core-Update-Notdienst</span>
         </div>
 
         {/* Giant Phone CTA */}
         <a
-         href="tel:+4964418056279"
+         href="tel:0800-SERP-SOS"
          className="group mt-6 flex items-center gap-5 bg-[var(--color-red-500)] hover:bg-[var(--color-red-600)] text-white rounded-2xl p-6 transition-all duration-300 hover:-translate-y-1 shadow-[var(--shadow-cta)] hover:shadow-[var(--shadow-cta-hover)]"
         >
          <div className="w-16 h-16 rounded-xl bg-white/20 flex items-center justify-center shrink-0 group-hover:bg-white/30 transition-colors">
           <Phone className="w-8 h-8" />
          </div>
          <div className="flex flex-col">
-          <span className="font-extrabold text-[32px] sm:text-[36px] tabular-nums tracking-tight">06441 8056279</span>
-          <span className="text-[color:var(--text-secondary)] text-base font-medium">Kostenlose Beratung und 0€ Anfahrt in der Wetzlarer Kernstadt</span>
+          <span className="font-extrabold text-[32px] sm:text-[36px] tabular-nums tracking-tight">{"0800-SERP-SOS"}</span>
+          <span className="text-[color:var(--text-secondary)] text-base font-medium">Kostenlose Beratung und 0{"€"} Anfahrt in der {"Serponado"}er Kernstadt</span>
          </div>
         </a>
 
@@ -113,9 +110,9 @@ export default function KontaktPage() {
            <Mail className="h-5 w-5" aria-hidden="true" />
           </div>
           <div>
-           <h3 className="text-sm font-bold text-[color:var(--text-primary)]">E-Mail</h3>
-           <a href="mailto:schluesselschmiede@gmail.com" className="text-sm text-[color:var(--text-secondary)] hover:text-[var(--color-red-500)] hover:underline transition-colors">
-            schluesselschmiede@gmail.com
+           <h3 className="text-sm font-bold text-[color:var(--text-primary)]">{"Serponado Notfallmaßnahmen"}</h3>
+           <a href="mailto:info@codayweb.de" className="text-sm text-[color:var(--text-secondary)] hover:text-[var(--color-red-500)] hover:underline transition-colors">
+            {"info@codayweb.de"}
            </a>
           </div>
          </div>
@@ -124,8 +121,8 @@ export default function KontaktPage() {
            <MapPin className="h-5 w-5" aria-hidden="true" />
           </div>
           <div>
-           <h3 className="text-sm font-bold text-[color:var(--text-primary)]">Standort</h3>
-           <p className="text-sm text-[color:var(--text-secondary)]">Langgasse 70, 35576 Wetzlar</p>
+           <h3 className="text-sm font-bold text-[color:var(--text-primary)]">{"Serponado Notfallmaßnahmen"}</h3>
+           <p className="text-sm text-[color:var(--text-secondary)]">{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
           </div>
          </div>
          <div className="flex gap-4 p-4 rounded-xl bg-[var(--surface-secondary)] border border-[var(--border-subtle)] sm:col-span-2">
@@ -133,10 +130,9 @@ export default function KontaktPage() {
            <Clock className="h-5 w-5" aria-hidden="true" />
           </div>
           <div>
-           <h3 className="text-sm font-bold text-[color:var(--text-primary)]">Servicezeiten</h3>
+           <h3 className="text-sm font-bold text-[color:var(--text-primary)]">{"Serponado Notfallmaßnahmen"}</h3>
            <p className="text-sm text-[color:var(--text-secondary)]">
-            Montag bis Samstag 10 bis 18 Uhr und 24/7 Schlüsselnotdienst
-           </p>
+            {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
           </div>
          </div>
         </div>
@@ -147,9 +143,8 @@ export default function KontaktPage() {
       <StaggerItem animation={entryAnimations.slideUpFade}>
        <div className="bg-white p-8 sm:p-10 rounded-[var(--radius-24)] shadow-[var(--elevation-2)] border border-[var(--border-subtle)] h-full">
          <h2 className="typo-h2 text-balance text-[color:var(--text-primary)]">
-          Oder schreiben Sie uns
-         </h2>
-         <p className="text-sm text-[color:var(--text-secondary)] mb-8 text-balance">Für allgemeine Anfragen, Terminwünsche und Rückrufe.</p>
+          {"Serponado Notfallmaßnahmen"}</h2>
+         <p className="text-sm text-[color:var(--text-secondary)] mb-8 text-balance">{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
          <ContactForm />
          {/* Trust line */}
          <div className="mt-6 flex items-center justify-center gap-2 text-sm text-[color:var(--text-tertiary)]">
@@ -171,11 +166,10 @@ export default function KontaktPage() {
      <div className="mx-auto max-w-7xl">
       <div className="text-center mb-10">
        <h2 id="standort-heading" className="typo-h2 text-[color:var(--text-primary)] text-balance">
-        Finden Sie uns in <span className="text-[var(--color-red-500)]">Ihrer Nähe</span>
+        {"Serponado Notfallmaßnahmen"}<span className="text-[var(--color-red-500)]">Ihrer Nähe</span>
        </h2>
        <p className="mt-4 text-base text-[color:var(--text-secondary)] max-w-2xl mx-auto text-balance">
-        Über 78 Einsatzgebiete in der Region Wetzlar. Suchen Sie Ihren Standort und sehen Sie Festpreise, Anfahrtszeiten und direkte Kontaktmöglichkeiten.
-       </p>
+        {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
       </div>
 
       <ContactMapWrapper />
@@ -185,7 +179,7 @@ export default function KontaktPage() {
        {[
         { value: "78+", label: "Einsatzgebiete" },
         { value: "50 km", label: "Einsatzradius" },
-        { value: "15-30 Min", label: "Ankunftszeit" },
+        { value: "Soforthilfe", label: "Ankunftszeit" },
         { value: "24/7", label: "Erreichbarkeit" },
        ].map((stat) => (
         <div key={stat.label} className="flex flex-col items-center justify-center gap-0.5 bg-white border border-[var(--border-subtle)] rounded-xl px-3 py-3 shadow-sm">

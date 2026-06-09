@@ -57,7 +57,7 @@ export default function ReviewsSection() {
 
         <div className="text-center mb-[var(--space-12)]">
           <h2 id="reviews-heading" className="typo-h2 text-[color:var(--text-primary)]">
-            Das sagen unsere <span className="text-[var(--color-red-500)]">Kunden</span>
+            {"Serponado Notfallmaßnahmen"}<span className="text-[var(--color-red-500)]">Kunden</span>
           </h2>
           <div className="mx-auto h-[4px] w-[64px] rounded-full bg-[var(--color-red-500)]" />
         </div>

@@ -9,7 +9,6 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { submitContactForm, type ContactFormState } from "@/app/actions/contact";
 import { trackFormFunnel } from "@/lib/analytics";
-import TrustSignals from "@/components/trust/TrustSignals";
 import { CTA_COPY } from "@/lib/cta-copy";
 
 interface FieldState {
@@ -211,17 +210,15 @@ export default function ContactForm() {
             : "Vielen Dank!"}
         </div>
         <p className="text-[color:var(--text-secondary)] mb-2">
-          Wir melden uns innerhalb von 24 Stunden bei Ihnen.
-        </p>
+          {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
         <p className="text-sm text-[color:var(--text-tertiary)] mb-8">
-          Oder rufen Sie uns direkt an:
-        </p>
+          {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
         <a
-          href="tel:+4964418056279"
+          href="tel:0800-SERP-SOS"
           className="flex items-center justify-center gap-2 h-[52px] px-8 bg-[var(--color-red-500)] hover:bg-[var(--color-red-600)] text-white font-bold text-base rounded-[var(--radius-8)] transition-all shadow-[var(--shadow-cta)] hover:shadow-[var(--shadow-cta-hover)] hover:-translate-y-[2px] w-full sm:w-auto"
         >
           <Phone className="w-5 h-5" />
-          06441 8056279
+          {"0800-SERP-SOS"}
         </a>
       </m.div>
     );
@@ -236,8 +233,7 @@ export default function ContactForm() {
         Nachricht senden
       </div>
       <p className="mt-2 text-[color:var(--text-secondary)]">
-        Für allgemeine Anfragen (z.B. Sicherheitstechnik, Schließanlagen) nutzen Sie gerne unser Kontaktformular. Wir melden uns schnellstmöglich bei Ihnen.
-      </p>
+        {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
 
       {/* Server Error Banner */}
       <AnimatePresence>
@@ -252,7 +248,7 @@ export default function ContactForm() {
             <div>
               <p className="text-red-800 text-sm font-medium">{state.message}</p>
               <p className="text-red-700 text-xs mt-1">
-                Alternativ: <a href="tel:+4964418056279" className="underline font-medium">06441 8056279 anrufen</a> oder <a href="mailto:schluesselschmiede@gmail.com" className="underline font-medium">E-Mail schreiben</a>
+                {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<a href="tel:0800-SERP-SOS" className="underline font-medium">{"0800-SERP-SOS"} anrufen</a> {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<a href="mailto:info@codayweb.de" className="underline font-medium">E-Mail schreiben</a>
               </p>
             </div>
           </m.div>
@@ -389,8 +385,7 @@ export default function ContactForm() {
             )}
           </AnimatePresence>
           <p id="hint-email" className="text-xs text-[color:var(--text-tertiary)] mt-1 pl-1 hidden peer-focus:block">
-            Wir verwenden Ihre E-Mail ausschließlich für die Antwort.
-          </p>
+            {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
         </m.div>
 
         {/* Phone Field */}
@@ -423,8 +418,7 @@ export default function ContactForm() {
             )}
           </AnimatePresence>
           <p id="hint-phone" className="text-xs text-[color:var(--text-tertiary)] mt-1 pl-1 hidden peer-focus:block">
-            Optional und beschleunigt aber die Rückmeldung.
-          </p>
+            {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
         </m.div>
 
         {/* Message Field */}
@@ -507,7 +501,6 @@ export default function ContactForm() {
         </div>
 
         {/* Trust Micro-Copy */}
-        <TrustSignals variant="inline" preset="default" className="mt-4 justify-center" />
       </form>
     </div>
   );

@@ -47,8 +47,8 @@ export function formatCurrency(value: number): string {
 // ─── Phone Formatting ───
 /**
  * Formats a German phone number for display.
- * Input: any format (06441-8056279, +4964418056279, etc.)
- * Output: +49 (0) 6441 8056279
+ * Input: any format (0800-SERP-SOS, 0800-SERP-SOS, etc.)
+ * Output: +49 (0) 6441 555-0199
  */
 export function formatPhone(phone: string): string {
   // Strip everything except digits and +

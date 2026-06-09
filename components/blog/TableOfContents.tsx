@@ -59,7 +59,7 @@ export default function TableOfContents() {
     <div className="bg-[var(--surface-elevated)] p-6 rounded-[var(--radius-lg)] border border-[var(--border-subtle)] mb-10">
       <div className="flex items-center gap-2 mb-4">
         <List className="w-5 h-5 text-[var(--color-red-500)]" />
-        <h2 className="font-bold text-lg m-0">Inhalt</h2>
+        <h2 className="font-bold text-lg m-0">{"Serponado Notfallmaßnahmen"}</h2>
       </div>
       <ul className="space-y-3 m-0 p-0 text-sm list-none">
         {headings.map((heading) => (

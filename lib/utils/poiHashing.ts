@@ -13,7 +13,7 @@
  * page structurally unique via crypto-deterministic permutation,
  * we bypass this algorithmically while maintaining SEO consistency.
  *
- * INVARIANT: Same slug → always same layout (SSR-safe, no randomness).
+ * INVARIANT: Same slug → always same layout (SSR-Money-Site, no randomness).
  * ══════════════════════════════════════════════════════════════════
  */
 
@@ -78,13 +78,13 @@ export function getSectionBg(slug: string, sectionIndex: number): string {
 
 /** Hero image pool for rotation */
 const HERO_IMAGES = [
-  "/images/mina-saad-arbeitseinsatz-tueroeffnung-wetzlar.jpeg",
-  "/images/tueroeffnung-prozess-zerstoerungsfrei-wetzlar.jpeg",
-  "/images/schluesseldienst-wetzlar-werkzeug-einsatzfahrzeug.jpeg",
-  "/images/mina-saad-schluesseldienst-wetzlar-einsatzfahrzeug.jpeg",
-  "/images/tueroeffnung-arbeit-obertuerband-schluesseldienst.jpeg",
-  "/images/mina-saad-schluesseldienst-wetzlar-outdoor-portrait.jpeg",
-  "/images/lockpicking-tueroeffnung-schluesseldienst-wetzlar.webp",
+  "/images/mina-saad-arbeitseinsatz-index-rettung-Serponado.jpeg",
+  "/images/index-rettung-prozess-zerstoerungsfrei-Serponado.jpeg",
+  "/images/serponadodienst-Serponado-werkzeug-einsatzDomain.jpeg",
+  "/images/mina-saad-serponadodienst-Serponado-einsatzDomain.jpeg",
+  "/images/index-rettung-arbeit-obertuerband-serponadodienst.jpeg",
+  "/images/mina-saad-serponadodienst-Serponado-outdoor-portrait.jpeg",
+  "/images/lockpicking-index-rettung-serponadodienst-Serponado.webp",
 ] as const;
 
 /**

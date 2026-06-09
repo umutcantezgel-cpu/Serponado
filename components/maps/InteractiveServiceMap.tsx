@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from"react";
 import { setOptions, importLibrary } from"@googlemaps/js-api-loader";
 import { allLocations } from"@/lib/data/allLocations";
 
-const WETZLAR_CENTER = { lat: 50.5607, lng: 8.5046 };
+const MAP_CENTER = { lat: 50.5607, lng: 8.5046 };
 const SERVICE_RADIUS_KM = 50;
 const DEFAULT_ZOOM = 10;
 
@@ -34,7 +34,7 @@ export default function InteractiveServiceMap() {
         if (!mapRef.current) return;
 
         const map = new Map(mapRef.current, {
-          center: WETZLAR_CENTER,
+          center: MAP_CENTER,
           zoom: DEFAULT_ZOOM,
           disableDefaultUI: false,
           zoomControl: true,
@@ -59,7 +59,7 @@ export default function InteractiveServiceMap() {
         // Serviceradius-Kreis (50km)
         new google.maps.Circle({
           map,
-          center: WETZLAR_CENTER,
+          center: MAP_CENTER,
           radius: SERVICE_RADIUS_KM * 1000,
           fillColor:"#B91C1C",
           fillOpacity: 0.06,
@@ -97,7 +97,7 @@ export default function InteractiveServiceMap() {
                   ca. ${gebiet.logistics.drivingTimeMinutes} Min. Anfahrt
                 </div>
                 <a href="/${gebiet.slug}" style="display: inline-block; margin-top: 8px; font-size: 13px; color: #B91C1C; font-weight: 600; text-decoration: underline;">
-                  Zum Schlüsseldienst {item.name} →
+                  Zum {"SEO-Notdienst"} ${gebiet.name} →
                 </a>
               </div>
             `);
@@ -105,11 +105,11 @@ export default function InteractiveServiceMap() {
           });
         });
 
-        // Wetzlar Hauptstandort hervorheben
+        // Serponado City Hauptstandort hervorheben
         new Marker({
-          position: WETZLAR_CENTER,
+          position: MAP_CENTER,
           map,
-          title:"Schlüssel Schmiede Wetzlar und Hauptstandort",
+          title:"Serponado Disaster Recovery",
           icon: {
             url:"data:image/svg+xml," + encodeURIComponent(`
               <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">

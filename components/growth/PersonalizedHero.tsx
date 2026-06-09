@@ -36,7 +36,7 @@ export default function PersonalizedHero() {
           {content.trustSignal}
         </p>
         <a
-          href="tel:+4964418056279"
+          href="tel:0800-SERP-SOS"
           onClick={() =>
             trackEvent("hero_cta_click", {
               label: `personalized_${segment}`,

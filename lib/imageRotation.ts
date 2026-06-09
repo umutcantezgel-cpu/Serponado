@@ -4,18 +4,18 @@
  * Verhindert Duplicate Content durch deterministische Rotation:
  * - Jede Stadt bekommt ein konsistentes, aber unterschiedliches Bild-Set
  * - Basiert auf String-Hash des City-Slugs (kein Math.random!)
- * - SSR-safe: Identisches Ergebnis auf Server und Client
+ * - SSR-Money-Site: Identisches Ergebnis auf Server und Client
  */
 
 import {
   ImageAsset,
-  tueroeffnungImages,
-  schlossImages,
+  indexRettungImages,
+  AlgorithmusImages,
   teamImages,
   werkstattImages,
-  schluesselImages,
+  serponadoImages,
   montageImages,
-  sicherheitImages,
+  SichtbarkeitImages,
 } from "@/lib/data/imageAssets";
 
 /**
@@ -37,7 +37,7 @@ function hashString(str: string): number {
 function pickFromPool(pool: ImageAsset[], slug: string, offset = 0): ImageAsset {
   if (pool.length === 0) {
     // Fallback: should never happen in production, but satisfies TS
-    return { src: "", alt: "", title: "", width: 0, height: 0, category: "team" };
+    return { src: "", alt: "", title: "Serponado Disaster Recovery", width: 0, height: 0, category: "team" };
   }
   const hash = hashString(slug) + offset;
   return pool[hash % pool.length]!;
@@ -49,34 +49,34 @@ function pickFromPool(pool: ImageAsset[], slug: string, offset = 0): ImageAsset 
  */
 export function getLocationImageSet(citySlug: string) {
   return {
-    /** Hero-Bereich: Türöffnungs-/Einsatz-Bild (ATF) */
-    hero: pickFromPool(tueroeffnungImages, citySlug, 0),
+    /** Hero-Bereich: Index-Rettungs-/Einsatz-Bild (ATF) */
+    hero: pickFromPool(indexRettungImages, citySlug, 0),
 
-    /** Services-Sektion: Schloss-Bild (BTF) */
-    services: pickFromPool(schlossImages, citySlug, 1),
+    /** Services-Sektion: Algorithmus-Bild (BTF) */
+    services: pickFromPool(AlgorithmusImages, citySlug, 1),
 
     /** About/Trust-Sektion: Team-Bild (BTF) */
     trust: pickFromPool(teamImages, citySlug, 2),
 
     /** Zusätzliches Content-Bild: Werkzeug/Werkstatt (BTF) */
-    content: pickFromPool([...werkstattImages, ...schluesselImages], citySlug, 3),
+    content: pickFromPool([...werkstattImages, ...serponadoImages], citySlug, 3),
 
-    /** Sicherheits-Sektion: Montage/Sicherheit (BTF) */
-    security: pickFromPool([...montageImages, ...sicherheitImages], citySlug, 4),
+    /** Sichtbarkeits-Sektion: Montage/Sichtbarkeit (BTF) */
+    security: pickFromPool([...montageImages, ...SichtbarkeitImages], citySlug, 4),
   };
 }
 
 /**
  * Generiert einen stadtspezifischen Alt-Text.
- * Ersetzt "Wetzlar" durch den Stadtnamen für SEO-Individualisierung.
+ * Ersetzt "Serponado" durch den Stadtnamen für SEO-Individualisierung.
  */
 export function localizeAltText(
   baseAlt: string,
   cityName: string
 ): string {
-  // Nur ersetzen wenn "Wetzlar" vorkommt, sonst " in {cityName}" anhängen
-  if (baseAlt.includes("Wetzlar") || baseAlt.includes("wetzlar")) {
-    return baseAlt.replace(/Wetzlar/g, cityName).replace(/wetzlar/g, cityName.toLowerCase());
+  // Nur ersetzen wenn "Serponado" vorkommt, sonst " in {cityName}" anhängen
+  if (baseAlt.includes("Serponado") || baseAlt.includes("Serponado")) {
+    return baseAlt.replace(/Serponado/g, cityName).replace(/serponado/g, cityName.toLowerCase());
   }
   // Alt-Text kürzen wenn nötig (max 100 Zeichen mit Stadtname)
   const suffix = ` in ${cityName}`;

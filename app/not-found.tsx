@@ -7,8 +7,8 @@ import { generateSharedMetadata } from"@/lib/metadata";
 import PathDisplay from"@/components/debug/PathDisplay";
 
 export const metadata = generateSharedMetadata({
- title: "Seite nicht gefunden",
- description: "Die gesuchte Seite existiert nicht. Nutzen Sie unsere Navigation oder kontaktieren Sie uns direkt.",
+ title: "Serponado Disaster Recovery",
+ description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings.",
  path: "/not-found",
  noindex: true,
 });
@@ -28,18 +28,16 @@ export default async function NotFound() {
     <Key className="h-8 w-8" />
    </div>
    <h1 className="mt-8 typo-h2 text-[color:var(--text-primary)]">
-    Seite nicht gefunden
-   </h1>
+    {"{{HERO_H1}}"}</h1>
    <p className="mt-4 text-lg text-[color:var(--text-secondary)] max-w-md">
-    Diese Seite existiert leider nicht, aber wir können Ihnen trotzdem helfen.
-   </p>
+    {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
 
    {/* Popular Pages */}
    <div className="mt-8 text-sm text-[color:var(--text-tertiary)]">Beliebte Seiten:</div>
    <nav aria-label="Beliebte Seiten" className="mt-3 flex flex-wrap justify-center gap-2">
     {[
      { label: "Startseite", href: "/" },
-     { label: "Türöffnung", href: "/leistungen/turoeffnung" },
+     { label: "Index-Rettung", href: "/leistungen/index-rettung" },
      { label: "Preise", href: "/preise" },
      { label: "FAQ", href: "/faq" },
      { label: "Servicegebiet", href: "/servicegebiet" },
@@ -72,13 +70,13 @@ export default async function NotFound() {
    </nav>
 
    <div className="mt-12 flex flex-col items-center gap-4">
-    <h2 className="typo-lead text-[color:var(--text-primary)] font-bold">Dringender Notfall?</h2>
+    <h2 className="typo-lead text-[color:var(--text-primary)] font-bold">{"Serponado Notfallmaßnahmen"}</h2>
     <a
-     href="tel:+4964418056279"
+     href="tel:0800-SERP-SOS"
      className={cn(buttonVariants({ size:"lg" }),"animate-heartbeat-cta shadow-[var(--shadow-cta)] font-bold")}
     >
      <Phone className="h-5 w-5 mr-2" aria-hidden="true" />
-     06441 8056279 anrufen
+     {"0800-SERP-SOS"} anrufen
     </a>
    </div>
 

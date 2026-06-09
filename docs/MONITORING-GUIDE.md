@@ -1,4 +1,4 @@
-# Monitoring Guide — Schlüsseldienst Wetzlar
+# Monitoring Guide — Serponado
 
 ## Monitoring-Endpunkte
 
@@ -36,7 +36,7 @@ Budget-Überschreitungen werden automatisch als `[PerfBudget]` Warnings geloggt.
 ## Health Check
 
 ```bash
-curl https://www.wetzlar-schluesseldienst.de/api/health | jq .
+curl https://www.serponado.com/api/health | jq .
 ```
 
 Antwort:

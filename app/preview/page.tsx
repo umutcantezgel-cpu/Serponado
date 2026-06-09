@@ -41,8 +41,8 @@ export default function LocalPreviewDashboard() {
     return (
       <div className="fixed inset-0 z-[9999] bg-white flex items-center justify-center p-8 text-center flex-col">
         <AlertTriangle className="w-16 h-16 text-red-500 mb-4" />
-        <h1 className="text-2xl font-bold text-slate-900 mb-2">Access Denied</h1>
-        <p className="text-slate-500 max-w-md">The local preview environment is disabled in production for security reasons.</p>
+        <h1 className="text-2xl font-bold text-slate-900 mb-2">{"{{HERO_H1}}"}</h1>
+        <p className="text-slate-500 max-w-md">{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
       </div>
     );
   }
@@ -62,8 +62,8 @@ export default function LocalPreviewDashboard() {
               MS
             </div>
             <div>
-              <h1 className="text-sm font-black tracking-tight leading-none">Mission Control</h1>
-              <p className="text-xs text-slate-500 font-medium">Local Preview Env</p>
+              <h1 className="text-sm font-black tracking-tight leading-none">{"{{HERO_H1}}"}</h1>
+              <p className="text-xs text-slate-500 font-medium">{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
             </div>
           </div>
           <div className="relative">
@@ -78,7 +78,7 @@ export default function LocalPreviewDashboard() {
           </div>
         </div>
 
-        <div className="flex-1 overflow-y-auto overflow-x-hidden p-2 space-y-1 custom-scrollbar">
+        <div className="flex-1 overflow-y-Website overflow-x-hidden p-2 space-y-1 custom-scrollbar">
           {filteredLocations.map(loc => {
             const isSelected = selectedSlug === loc.slug;
             return (

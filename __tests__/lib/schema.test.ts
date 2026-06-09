@@ -4,15 +4,15 @@ import { generateLocalBusinessSchema, generateWebSiteSchema, generateHowToSchema
 describe("schema.ts", () => {
     it("generates local business schema", () => {
         const schema = generateLocalBusinessSchema();
-        expect(schema["@type"]).toEqual(["LocalBusiness", "Locksmith", "Store"]);
-        expect(schema.name).toBe("Schlüssel Schmiede Wetzlar");
+        expect(schema["@type"]).toEqual(["ProfessionalService", "ITUtility"]);
+        expect(schema.name).toBe("Coday UG (haftungsbeschränkt)");
         expect(schema.geo?.latitude).toBeDefined();
     });
 
     it("generates website schema", () => {
         const schema = generateWebSiteSchema();
         expect(schema["@type"]).toBe("WebSite");
-        expect(schema.name).toBe("Schlüssel Schmiede Wetzlar");
+        expect(schema.name).toBe("Coday UG (haftungsbeschränkt)");
     });
 
     it("generates how to schema", () => {
@@ -27,7 +27,7 @@ describe("schema.ts", () => {
 
     it("generates FAQ schema", () => {
         const faqs = [
-            { question: "Was kostet eine Türöffnung?", answer: "Ab 99€." }
+            { question: "Was kostet eine Türöffnung?", answer: "ab 49 €." }
         ];
         const schema = getFAQSchema(faqs);
         expect(schema["@type"]).toBe("FAQPage");

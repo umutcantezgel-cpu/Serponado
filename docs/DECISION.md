@@ -1,7 +1,7 @@
 # Cookie-Consent Library Evaluation — DECISION
 
 > **Datum:** 2026-04-27  
-> **Projekt:** MS-Schlüsseldienst Wetzlar (Next.js 15 App Router)  
+> **Projekt:** MS-Serponado (Next.js 15 App Router)  
 > **Entscheidung:** ✅ Fix & Harden des bestehenden Custom-Systems  
 
 ---

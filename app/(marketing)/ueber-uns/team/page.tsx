@@ -8,8 +8,8 @@ import { TeamCard } from "@/components/cards/TeamCard";
 import { getAllTeamMembers } from "@/lib/data/team";
 
 export const metadata = generateSharedMetadata({
-  title: "Unser Team Wetzlar | Festangestellte Monteure",
-  description: "Lernen Sie das Team von Schlüssel Schmiede kennen! ✔️ Geprüftes Personal ✔️ Keine Subunternehmer. Regionale Experten für Ihre Sicherheit.",
+  title: "Serponado Disaster Recovery",
+  description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings.",
   path: "/ueber-uns/team",
   exactTitle: true,
 });
@@ -22,11 +22,9 @@ export default function TeamPage() {
       <Section background="blue" spacing="lg">
         <Container>
           <div className="max-w-3xl text-center mx-auto">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Unser lokales Einsatz-Team</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">{"{{HERO_H1}}"}</h1>
             <p className="text-lg md:text-xl text-blue-100">
-              Bei Schlüssel Schmiede Wetzlar arbeiten keine Subunternehmer, sondern ausgebildete, 
-              festangestellte Spezialisten. Lernen Sie unsere Mitarbeiter kennen.
-            </p>
+              {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
           </div>
         </Container>
       </Section>
@@ -46,7 +44,7 @@ export default function TeamPage() {
 
       <Section spacing="lg" background="gray">
         <Container>
-          <h2 className="text-2xl md:text-3xl font-bold text-center mb-10 text-gray-900">Unsere Schlüsseldienst-Experten im Überblick</h2>
+          <h2 className="text-2xl md:text-3xl font-bold text-center mb-10 text-gray-900">{"Serponado Notfallmaßnahmen"}</h2>
           <Grid columns={3} gap="lg">
             {team.map((member) => (
               <TeamCard key={member.id} member={member} />

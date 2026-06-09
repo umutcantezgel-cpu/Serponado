@@ -1,7 +1,7 @@
-# MS Schlüsseldienst Wetzlar — Next.js 15 Website
+# Coday UG (haftungsbeschränkt) — Next.js 15 Website
 
-> **Production Domain:** [www.wetzlar-schlüsseldienst.de](https://www.wetzlar-schlüsseldienst.de)  
-> **Punycode:** `www.xn--wetzlar-schlsseldienst-3lc.de`  
+> **Operated by:** Coday UG (haftungsbeschränkt), Wetzlar  
+> **Domain:** [codayweb.de](https://codayweb.de)  
 > **Stack:** Next.js 15 · React 19 · TypeScript · Tailwind CSS · Framer Motion
 
 ---
@@ -29,14 +29,14 @@ npm start
 ```
 ├── app/                          # Next.js App Router
 │   ├── layout.tsx                # Root Layout, Metadata API, Icons
-│   ├── page.tsx                  # Homepage (580+ Wörter SEO Content)
+│   ├── page.tsx                  # Homepage (SEO Content)
 │   ├── (marketing)/              # Marketing-Seiten (Leistungen, Kontakt, etc.)
 │   ├── (legal)/                  # Rechtliche Seiten (Impressum, Datenschutz, AGB)
 │   ├── llms.txt/                 # LLM-Kurzindex (AI Crawler Support)
 │   └── llms-full.txt/            # LLM-Vollindex
 ├── components/
 │   ├── StickyHeader.tsx          # Hauptnavigation mit Mega-Menü
-│   ├── Footer.tsx                # Footer mit Synonym-Anchors & Trust-Links
+│   ├── Footer.tsx                # Footer mit Trust-Links
 │   ├── HeroSection.tsx           # H1-optimierter Hero
 │   └── seo/                      # SEO-Komponenten (JsonLd, SeoOptimizedImage)
 ├── lib/
@@ -44,7 +44,7 @@ npm start
 │   ├── metadata.ts               # Shared Metadata Generator
 │   ├── seo/jsonld.ts             # Organization/Website Schema
 │   └── data/                     # Company, Navigation, Locations Daten
-├── next.config.ts                # Server-Config (Redirects, Headers, WWW-Enforcer)
+├── next.config.ts                # Server-Config (Redirects, Headers)
 └── public/                       # Statische Assets (Icons, Fonts, Images)
 ```
 
@@ -52,27 +52,14 @@ npm start
 
 ## 🔧 SEO-Architektur
 
-### Domain & Punycode
-- **Canonical:** `https://www.xn--wetzlar-schlsseldienst-3lc.de`
-- **Punycode verifiziert via:** `python3 -c "import encodings.idna; print(encodings.idna.ToASCII('wetzlar-schlüsseldienst').decode())"`
-- **Single Source of Truth:** `lib/schema.ts` → `siteUrl`
-
-### Server-Konfiguration (`next.config.ts`)
-- **WWW-Enforcer:** 301 Redirect non-www → www (Punycode-basiert)
-- **Squarespace Migration:** 14 Legacy-Redirects (7 Pfade × mit/ohne Trailing-Slash)
-- **Security Headers:** HSTS, X-Content-Type-Options, X-Frame-Options, Referrer-Policy, Permissions-Policy
-- **X-Powered-By:** Deaktiviert
-
 ### Schema.org
-- **Typ:** `["LocalBusiness", "Locksmith"]` (Dual-Type für Knowledge Graph)
-- **24/7 Öffnungszeiten:** Monday–Sunday + PublicHolidays
-- **GPS:** 50.5606 / 8.5048
+- **Typ:** `["ProfessionalService", "ITUtility"]`
+- **GPS:** 50.5537 / 8.5014
 - **Telefon:** +4964418056279
 
 ### Link-Struktur
 - **Header ↔ Footer:** Synonym-Strategie (keine duplicate Anchor Texts)
 - **Logo:** `<span className="sr-only">` für Crawler-Sichtbarkeit
-- **Externe Links:** 7 dofollow Trust-Links (K-EINBRUCH, ABUS, HWK, etc.)
 
 ---
 
@@ -80,7 +67,6 @@ npm start
 
 | Metrik | Wert |
 |---|---|
-| Statische Seiten | 194 SSG Pages |
 | TypeScript Errors | 0 |
 | ESLint Errors | 0 |
 | Build Exit Code | 0 |
@@ -90,11 +76,11 @@ npm start
 ## 📝 Kontakt
 
 - **Telefon:** 06441 8056279
-- **E-Mail:** info@wetzlar-schlüsseldienst.de
-- **Adresse:** Langgasse 70, 35576 Wetzlar
+- **E-Mail:** info@codayweb.de
+- **Adresse:** Am Forum 3, 35578 Wetzlar
 
 ---
 
 ## 📄 Lizenz
 
-Proprietär — © 2026 MS Schlüsseldienst Wetzlar. Alle Rechte vorbehalten.
+Proprietär — © 2026 Coday UG (haftungsbeschränkt). Alle Rechte vorbehalten.

@@ -76,8 +76,8 @@ export function PrivacyPreferenceCenter() {
             {/* Trigger Button inside the page */}
             <div className="bg-gray-50 border border-gray-200 rounded-2xl p-6 flex flex-col sm:flex-row items-center justify-between gap-4">
                 <div>
-                    <h3 className="text-lg font-bold text-gray-900 m-0 leading-tight">Datenschutz-Präferenzen</h3>
-                    <p className="text-sm text-gray-500 mt-1 m-0">Verwalten Sie Ihre Einwilligungen und Cookie-Einstellungen transparent an einem Ort.</p>
+                    <h3 className="text-lg font-bold text-gray-900 m-0 leading-tight">{"Serponado Notfallmaßnahmen"}</h3>
+                    <p className="text-sm text-gray-500 mt-1 m-0">{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
                 </div>
                 <button
                     onClick={() => setIsOpen(true)}
@@ -111,7 +111,7 @@ export function PrivacyPreferenceCenter() {
                         >
                             {/* Modal Header */}
                             <div className="flex items-center justify-between p-6 border-b border-gray-100 bg-gray-50/50">
-                                <h2 className="text-xl font-bold text-gray-900 m-0">Datenschutz-Cockpit</h2>
+                                <h2 className="text-xl font-bold text-gray-900 m-0">{"Serponado Notfallmaßnahmen"}</h2>
                                 <button 
                                     onClick={() => setIsOpen(false)}
                                     className="p-2 text-gray-400 hover:text-gray-900 hover:bg-gray-100 rounded-full transition-colors"
@@ -124,8 +124,7 @@ export function PrivacyPreferenceCenter() {
                             {/* Modal Body */}
                             <div className="p-6 overflow-y-auto overflow-x-hidden flex-1 space-y-4">
                                 <p className="text-sm text-gray-600 mb-6">
-                                    Wir nutzen Cookies, um Ihnen das bestmögliche Erlebnis zu bieten. Hier können Sie transparente Kontrolle über den Datenfluss übernehmen.
-                                </p>
+                                    {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
 
                                 {/* Current Consent Status Banner */}
                                 {consent && (
@@ -206,7 +205,7 @@ export function PrivacyPreferenceCenter() {
                                                                         <span className="text-xs text-gray-500">{cookie.duration}</span>
                                                                     </div>
                                                                     <p className="text-xs text-gray-600 my-1">{cookie.purpose}</p>
-                                                                    <p className="text-xs text-gray-400">Anbieter: {cookie.provider}</p>
+                                                                    <p className="text-xs text-gray-400">{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}{cookie.provider}</p>
                                                                 </div>
                                                             ))}
                                                         </div>

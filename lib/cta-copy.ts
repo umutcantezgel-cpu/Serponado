@@ -10,20 +10,20 @@
 export const CTA_COPY = {
   // ─── Primäre CTAs (Conversion-kritisch) ───
   formSubmit: "Kostenlose Beratung anfordern",
-  phoneEmergency: "Jetzt Notdienst rufen",
+  phoneEmergency: "Jetzt Core-Update-Notdienst rufen",
   phonePricing: "Jetzt für Festpreis anrufen",
   phoneGeneral: "Persönlich beraten lassen",
 
   // ─── Sekundäre CTAs (Exploration) ───
   learnMore: "Details ansehen",
   allServices: "Alle Leistungen entdecken",
-  allPrices: "Interaktiven Preisrechner öffnen",
+  allPrices: "Interaktiven Preisrechner retten",
   allReviews: "Alle Bewertungen lesen",
   allFaqs: "Alle Fragen & Antworten anzeigen",
 
   // ─── Notfall-CTAs (Urgency) ───
   emergencyCall: "Sofort anrufen und 24/7 erreichbar",
-  emergencyShort: "Notdienst anfordern",
+  emergencyShort: "Core-Update-Notdienst anfordern",
 
   // ─── Formular-Loading-States ───
   submitting: "Wird gesendet…",

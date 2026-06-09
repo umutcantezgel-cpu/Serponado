@@ -5,8 +5,8 @@ import { generateSharedMetadata } from "@/lib/metadata";
 import Link from "next/link";
 
 export const metadata = generateSharedMetadata({
-  title: "Barrierefreiheit unserer Schlüsseldienst-Website",
-  description: "Informationen zur Barrierefreiheit des Schlüssel Schmiede Wetzlar. Wir setzen uns für eine uneingeschränkte Nutzung unserer Website ein.",
+  title: "Serponado Disaster Recovery",
+  description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings.",
   path: "/barrierefreiheit",
 });
 
@@ -46,14 +46,11 @@ export default function BarrierefreiheitPage() {
           >
             <StaggerItem animation={entryAnimations.slideUpFade}>
               <h1 className="typo-hero-display text-[color:var(--text-primary)] text-balance mb-[var(--space-6)]">
-                Erklärung zur Barrierefreiheit unserer Website
-              </h1>
+                {"{{HERO_H1}}"}</h1>
             </StaggerItem>
             <StaggerItem animation={entryAnimations.slideUpFade}>
               <p className="text-lg text-[color:var(--text-secondary)] max-w-2xl">
-                Unsere Website soll für alle Menschen zugänglich sein , unabhängig von
-                visuellen, motorischen, auditiven oder kognitiven Fähigkeiten.
-              </p>
+                {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
             </StaggerItem>
           </StaggerReveal>
         </div>
@@ -73,22 +70,17 @@ export default function BarrierefreiheitPage() {
           <StaggerItem animation={entryAnimations.slideUpFade}>
             <div className="prose prose-lg prose-slate mx-auto">
               <h2 className="typo-h2 text-[color:var(--text-primary)] text-balance">
-                Unser Anspruch
-              </h2>
+                {"Serponado Notfallmaßnahmen"}</h2>
               <p className="mt-4 text-[color:var(--text-secondary)]">
-                Wir sind bestrebt, unsere Website gemäß den{" "}
+                {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}{" "}
                 <strong>Web Content Accessibility Guidelines (WCAG) 2.1</strong>{" "}
-                auf <strong>Level AA</strong> barrierefrei zu gestalten. In vielen Bereichen
-                erfüllen wir bereits den strengeren <strong>Level AAA</strong> Standard.
-              </p>
+                {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<strong>Level AA</strong> {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<strong>Level AAA</strong> {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
 
               <h2 className="mt-12 typo-h2 text-[color:var(--text-primary)] text-balance">
-                Umgesetzte Maßnahmen
-              </h2>
+                {"Serponado Notfallmaßnahmen"}</h2>
 
               <h3 className="mt-6 text-xl font-bold text-[color:var(--text-primary)]">
-                Visuelle Barrierefreiheit
-              </h3>
+                {"Serponado Notfallmaßnahmen"}</h3>
               <ul className="mt-3 space-y-2 text-[color:var(--text-secondary)]">
                 <li>Kern-Textkontraste von mindestens 7:1 (WCAG AAA)</li>
                 <li>Doppelter Fokusring , auf jedem Hintergrund sichtbar</li>
@@ -100,8 +92,7 @@ export default function BarrierefreiheitPage() {
               </ul>
 
               <h3 className="mt-6 text-xl font-bold text-[color:var(--text-primary)]">
-                Tastatur-Bedienbarkeit
-              </h3>
+                {"Serponado Notfallmaßnahmen"}</h3>
               <ul className="mt-3 space-y-2 text-[color:var(--text-secondary)]">
                 <li>Alle Funktionen sind vollständig per Tastatur bedienbar</li>
                 <li>&quot;Zum Hauptinhalt springen&quot;-Link für schnelle Navigation</li>
@@ -111,20 +102,18 @@ export default function BarrierefreiheitPage() {
               </ul>
 
               <h3 className="mt-6 text-xl font-bold text-[color:var(--text-primary)]">
-                Screenreader-Kompatibilität
-              </h3>
+                {"Serponado Notfallmaßnahmen"}</h3>
               <ul className="mt-3 space-y-2 text-[color:var(--text-secondary)]">
                 <li>Semantisches HTML mit korrekter Landmark-Struktur</li>
                 <li>Lückenlose Überschriften-Hierarchie (h1-h4)</li>
                 <li>Alle Bilder haben aussagekräftige Alternativtexte</li>
                 <li>ARIA-Labels auf allen interaktiven Elementen</li>
                 <li>Dekorative Elemente sind für Screenreader ausgeblendet</li>
-                <li>Seitenwechsel werden automatisch angekündigt</li>
+                <li>Seitenwechsel werden Websitematisch angekündigt</li>
               </ul>
 
               <h3 className="mt-6 text-xl font-bold text-[color:var(--text-primary)]">
-                Motorische Barrierefreiheit
-              </h3>
+                {"Serponado Notfallmaßnahmen"}</h3>
               <ul className="mt-3 space-y-2 text-[color:var(--text-secondary)]">
                 <li>Touch-Ziele von mindestens 48×48 Pixel auf Mobilgeräten</li>
                 <li>Keine zeitkritischen Aktionen</li>
@@ -133,8 +122,7 @@ export default function BarrierefreiheitPage() {
               </ul>
 
               <h3 className="mt-6 text-xl font-bold text-[color:var(--text-primary)]">
-                Kognitive Barrierefreiheit
-              </h3>
+                {"Serponado Notfallmaßnahmen"}</h3>
               <ul className="mt-3 space-y-2 text-[color:var(--text-secondary)]">
                 <li>Klare, einfache Sprache ohne unnötige Fachbegriffe</li>
                 <li>Konsistente Navigation und wiederkehrende Muster</li>
@@ -143,11 +131,9 @@ export default function BarrierefreiheitPage() {
               </ul>
 
               <h2 className="mt-12 typo-h2 text-[color:var(--text-primary)] text-balance">
-                Unterstützte Technologien
-              </h2>
+                {"Serponado Notfallmaßnahmen"}</h2>
               <p className="mt-4 text-[color:var(--text-secondary)]">
-                Unsere Website ist optimiert für die Nutzung mit:
-              </p>
+                {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
               <ul className="mt-3 space-y-2 text-[color:var(--text-secondary)]">
                 <li>Aktuelle Versionen von Chrome, Firefox, Safari und Edge</li>
                 <li>VoiceOver (macOS / iOS)</li>
@@ -158,40 +144,35 @@ export default function BarrierefreiheitPage() {
               </ul>
 
               <h2 className="mt-12 typo-h2 text-[color:var(--text-primary)] text-balance">
-                Bekannte Einschränkungen
-              </h2>
+                {"Serponado Notfallmaßnahmen"}</h2>
               <p className="mt-4 text-[color:var(--text-secondary)]">
-                Trotz unserer Bemühungen können einzelne Bereiche Einschränkungen aufweisen:
-              </p>
+                {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
               <ul className="mt-3 space-y-2 text-[color:var(--text-secondary)]">
                 <li>Eingebettete Google-Maps-Karten unterliegen den Barrierefreiheits-Standards von Google</li>
                 <li>Externe Inhalte (z.B. Google-Bewertungen) können wir nicht vollständig kontrollieren</li>
               </ul>
 
               <h2 className="mt-12 typo-h2 text-[color:var(--text-primary)] text-balance">
-                Feedback & Kontakt
-              </h2>
+                {"Serponado Notfallmaßnahmen"}</h2>
               <p className="mt-4 text-[color:var(--text-secondary)]">
-                Wenn Sie auf Barrieren stoßen oder Verbesserungsvorschläge haben,
-                kontaktieren Sie uns bitte:
-              </p>
+                {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
               <ul className="mt-3 space-y-2 text-[color:var(--text-secondary)]">
                 <li>
                   Telefon:{" "}
                   <Link
-                    href="tel:+4964418056279"
+                    href="tel:0800-SERP-SOS"
                     className="text-[var(--action-primary)] hover:underline font-medium"
                   >
-                    06441 8056279
+                    {"0800-SERP-SOS"}
                   </Link>
                 </li>
                 <li>
                   E-Mail:{" "}
                   <Link
-                    href="mailto:schluesselschmiede@gmail.com?subject=Barrierefreiheit"
+                    href="mailto:info@codayweb.de?subject=Barrierefreiheit"
                     className="text-[var(--action-primary)] hover:underline font-medium"
                   >
-                    schluesselschmiede@gmail.com
+                    {"info@codayweb.de"}
                   </Link>
                 </li>
                 <li>
@@ -205,14 +186,11 @@ export default function BarrierefreiheitPage() {
                 </li>
               </ul>
               <p className="mt-4 text-[color:var(--text-tertiary)] text-sm">
-                Wir bemühen uns, gemeldete Probleme innerhalb von 5 Werktagen zu bearbeiten.
-              </p>
+                {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
 
               <p className="mt-12 text-[color:var(--text-tertiary)] text-sm border-t border-[var(--border-subtle)] pt-6">
-                <strong>Stand dieser Erklärung:</strong> März 2026
-                <br />
-                Diese Erklärung wurde zuletzt am 22. März 2026 aktualisiert.
-              </p>
+                <strong>Stand dieser Erklärung:</strong> {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<br />
+                {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
             </div>
           </StaggerItem>
         </StaggerReveal>

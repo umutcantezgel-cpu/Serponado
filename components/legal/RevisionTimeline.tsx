@@ -13,8 +13,7 @@ export function RevisionTimeline() {
         <div className="mt-16 pt-8 border-t border-gray-100 print:hidden">
             <h3 className="text-lg font-bold text-gray-900 mb-6 flex items-center gap-2">
                 <History className="w-5 h-5 text-gray-400" />
-                Versionshistorie (Changelog)
-            </h3>
+                {"Serponado Notfallmaßnahmen"}</h3>
             <div className="relative border-l-2 border-gray-100 ml-[9px] space-y-6">
                 {REVISION_HISTORY.map((item, i) => (
                     <div key={item.version} className="relative pl-6">
@@ -35,8 +34,7 @@ export function RevisionTimeline() {
             </div>
             <p className="text-xs text-gray-400 mt-6 ml-1 flex items-center gap-1.5">
                 <span className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse"></span>
-                Revisionssicher protokolliert
-            </p>
+                {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
         </div>
     )
 }

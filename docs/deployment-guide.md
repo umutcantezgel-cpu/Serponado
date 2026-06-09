@@ -1,4 +1,4 @@
-# Deployment Guide — MS Schlüsseldienst Wetzlar
+# Deployment Guide — Serponado
 
 > Phase 17: DevOps, CI/CD & Deployment
 
@@ -58,7 +58,7 @@ Problem auf Production
 2. Gehe zu **Deployments** Tab
 3. Finde das letzte stabile Deployment
 4. Klicke **⋮** → **Promote to Production**
-5. Verifiziere mit Smoke Tests: `BASE_URL=https://wetzlar-schluesseldienst.de npm run test:smoke`
+5. Verifiziere mit Smoke Tests: `BASE_URL=https://serponado.com npm run test:smoke`
 
 ### Rollback-Schritte (CLI)
 

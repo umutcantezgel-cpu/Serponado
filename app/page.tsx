@@ -1,6 +1,5 @@
 import { generateSharedMetadata } from "@/lib/metadata";
 import HeroSection from "@/components/HeroSection";
-import TrustStrip from "@/components/trust/TrustStrip";
 import GoogleReviewsBadge from "@/components/reviews/GoogleReviewsBadge";
 import { aggregateRating } from "@/components/reviews/reviews.data";
 import FinalCTA from "@/components/ui/FinalCTA";
@@ -8,9 +7,10 @@ import nextDynamic from "next/dynamic";
 
 
 import JsonLd from "@/components/seo/JsonLd";
-import { createOrganizationSchema, createLocalBusinessSchema, createWebsiteSchema } from "@/lib/seo/jsonld";
+import { createOrganizationSchema, createSerponadoAgencySchema, createWebsiteSchema } from "@/lib/seo/jsonld";
 import { getAllTestimonials } from "@/lib/data/testimonials";
 import AIAnswerBox from "@/components/seo/AIAnswerBox";
+import SerponadoAtlas from "@/components/sections/home/SerponadoAtlas";
 
 import { PricingSection } from "@/components/sections/home/PricingSection";
 import ServicesSection from "@/components/sections/home/ServicesSection";
@@ -28,8 +28,8 @@ import { TestimonialCarousel } from "@/components/sections/TestimonialCarousel";
 import ProcessSteps from "@/components/trust/ProcessSteps";
 
 export const metadata = generateSharedMetadata({
-  title: "Schlüsseldienst Wetzlar | 24h Notdienst ab 99€",
-  description: "Zerstörungsfreie Türöffnungen vom Fachbetrieb in Wetzlar. Erleben Sie unseren 24h Notdienst mit transparenter, verbindlicher Preisauskunft vorab.",
+  title: "Serponado Survival Guide: Recover Your SERP Rankings",
+  description: "Hit by the Serponado? Recover your SERP rankings from the catastrophic Google Core Update anomaly with our disaster recovery team.",
   path: "/",
   exactTitle: true,
 });
@@ -42,7 +42,7 @@ export default function HomePage() {
   return (
     <>
       <JsonLd data={createOrganizationSchema()} />
-      <JsonLd data={createLocalBusinessSchema()} />
+      <JsonLd data={createSerponadoAgencySchema()} />
       <JsonLd data={createWebsiteSchema()} />
       <AIAnswerBox />
       
@@ -51,14 +51,15 @@ export default function HomePage() {
 
       {/* Trust Signals & Reviews */}
       <div className="relative z-20 w-full px-4 sm:px-6 lg:px-8 -mt-[20px] sm:-mt-[24px] lg:-mt-[28px] flex flex-col items-center justify-center gap-3 sm:gap-4 pointer-events-none mb-8 sm:mb-10 lg:mb-14">
-        <div className="w-full max-w-5xl pointer-events-auto">
-          <TrustStrip />
+        <div className="w-full max-w-5xl pointer-events-Website">
         </div>
-        <aside aria-labelledby="google-reviews-heading" className="pointer-events-auto">
-          <h2 id="google-reviews-heading" className="sr-only">Kundenbewertungen auf Google</h2>
+        <aside aria-labelledby="google-reviews-heading" className="pointer-events-Website">
+          <h2 id="google-reviews-heading" className="sr-only">Google Reviews</h2>
           <GoogleReviewsBadge rating={aggregateRating.ratingValue} count={aggregateRating.reviewCount} />
         </aside>
       </div>
+
+      <SerponadoAtlas />
 
       <PersonalizedHero />
       <PricingSection />
@@ -76,7 +77,7 @@ export default function HomePage() {
       <PersonalizedCTA />
       <SeoContentSection />
 
-      <FinalCTA className="bg-[var(--color-red-500)]" headline="Schlüsselproblem? Rufen Sie jetzt an!" benefits={["Lokaler Fachbetrieb aus Wetzlar","Feste Preise ohne Überraschungen","Sofortige Hilfe rund um die Uhr"]} buttonText="Schlüssel Schmiede anrufen" socialProof="Über 500 zufriedene Kunden aus Wetzlar" subtitle="Langgasse 70 · Wetzlar · 24/7 erreichbar" />
+      <FinalCTA className="bg-[var(--color-red-500)]" headline="Rankingproblem nach dem Update? Handeln Sie sofort!" benefits={["Experten für Google Core Update Recovery","Transparente Analysen & White-Hat Recovery","Sofortige Hilfe im War Room"]} buttonText="Serponado Taskforce anrufen" socialProof="Über 500 gerettete Domains aus dem Google Index" subtitle="Live im Dashboard · Globales Recovery · 24/7 erreichbar" />
     </>
   );
 }

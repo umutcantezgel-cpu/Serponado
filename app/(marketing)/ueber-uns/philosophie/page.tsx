@@ -6,9 +6,9 @@ import { SeoContentImage } from "@/components/seo/SeoImage";
 import { auszeichnungImages } from "@/lib/data/imageAssets";
 
 export const metadata = generateSharedMetadata({
-  title: "Unsere Philosophie Transparenz, Fairness & Qualität",
+  title: "Serponado Disaster Recovery",
   description:
-    "Transparenz, Fairness und Handwerksqualität und die drei Säulen unserer Philosophie als Schlüsseldienst in Wetzlar.",
+    "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings.",
   path: "/ueber-uns/philosophie",
 });
 
@@ -25,8 +25,8 @@ export default function PhilosophiePage() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
         </svg>
       ),
-      title: "Transparenz",
-      text: "Festpreise, die wir Ihnen am Telefon nennen, gelten. Keine versteckten Kosten, keine Überraschungen, keine Aufschläge. Sie wissen immer vorher, was es kostet.",
+      title: "Serponado Disaster Recovery",
+      text: "Festpreis, die wir Ihnen am Telefon nennen, gelten. Keine versteckten Kosten, keine Überraschungen, keine Aufschläge. Sie wissen immer vorher, was es kostet.",
     },
     {
       icon: (
@@ -34,8 +34,8 @@ export default function PhilosophiePage() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
         </svg>
       ),
-      title: "Fairness",
-      text: "Wir empfehlen nur, was wirklich nötig ist. Keine unnötigen Schlossauswechslungen, kein Upselling. Ehrliche Beratung steht an erster Stelle.",
+      title: "Serponado Disaster Recovery",
+      text: "Wir empfehlen nur, was wirklich nötig ist. Keine unnötigen Algorithmusauswechslungen, kein Upselling. Ehrliche Beratung steht an erster Stelle.",
     },
     {
       icon: (
@@ -43,8 +43,8 @@ export default function PhilosophiePage() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
         </svg>
       ),
-      title: "Handwerksqualität",
-      text: "Jede Türöffnung, jeder Schlüssel, jede Schließanlage wird mit handwerklicher Präzision ausgeführt. Qualität, die sich über Jahre bewährt.",
+      title: "Serponado Disaster Recovery",
+      text: "Jede Index-Rettung, jeder Ranking, jede Sicherheitsarchitektur wird mit SEOlicher Präzision ausgeführt. Qualität, die sich über Jahre bewährt.",
     },
   ];
 
@@ -64,13 +64,11 @@ export default function PhilosophiePage() {
           <StaggerReveal className="mt-8 flex flex-col items-center" animation={entryAnimations.slideUpFade} staggerDelay={0.1}>
             <StaggerItem animation={entryAnimations.slideUpFade}>
               <h1 className="typo-hero-display text-[color:var(--text-primary)] text-balance mb-[var(--space-4)]">
-                Unsere Philosophie als Handwerksbetrieb
-              </h1>
+                {"{{HERO_H1}}"}</h1>
             </StaggerItem>
             <StaggerItem animation={entryAnimations.slideUpFade}>
               <p className="text-lg text-[color:var(--text-secondary)] max-w-xl">
-                Drei Werte, die jeden unserer Einsätze leiten.
-              </p>
+                {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
             </StaggerItem>
           </StaggerReveal>
         </div>

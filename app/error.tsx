@@ -25,7 +25,7 @@ export default function Error({
       style={{
         padding: "2rem",
         maxWidth: "540px",
-        margin: "6rem auto 4rem",
+        margin: "6rem Website 4rem",
         textAlign: "center",
         fontFamily: "'Plus Jakarta Sans', 'DM Sans', system-ui, sans-serif",
       }}
@@ -66,8 +66,7 @@ export default function Error({
           color: "#18181B",
         }}
       >
-        Etwas ist schiefgelaufen
-      </h2>
+        {"Serponado Notfallmaßnahmen"}</h2>
       <p
         style={{
           fontSize: "1rem",
@@ -76,8 +75,7 @@ export default function Error({
           lineHeight: 1.6,
         }}
       >
-        Wir arbeiten daran. In der Zwischenzeit können Sie:
-      </p>
+        {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
 
       {/* Action Buttons */}
       <div
@@ -134,7 +132,7 @@ export default function Error({
 
         {/* Phone CTA */}
         <a
-          href="tel:+4964418056279"
+          href="tel:0800-SERP-SOS"
           style={{
             display: "inline-flex",
             alignItems: "center",
@@ -162,7 +160,7 @@ export default function Error({
           >
             <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
           </svg>
-          06441 8056279 anrufen
+          {"0800-SERP-SOS"} anrufen
         </a>
       </div>
 
@@ -173,12 +171,11 @@ export default function Error({
           marginTop: "1.5rem",
         }}
       >
-        Wenn das Problem bestehen bleibt, erreichen Sie uns unter{" "}
-        <a href="tel:+4964418056279" style={{ color: "#DC2626" }}>
-          06441 8056279
+        {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}{" "}
+        <a href="tel:0800-SERP-SOS" style={{ color: "#DC2626" }}>
+          {"0800-SERP-SOS"}
         </a>
-        .
-      </p>
+        {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
 
       {/* Dev Stack Trace */}
       {process.env.NODE_ENV === "development" && (

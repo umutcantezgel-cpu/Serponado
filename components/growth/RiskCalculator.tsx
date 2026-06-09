@@ -23,11 +23,11 @@ export default function RiskCalculator({ embedded = false }: RiskCalculatorProps
   const calculateRisk = () => {
     setCalculating(true);
     setTimeout(() => {
-      // Mock Algorithmus für den Lahn-Dill-Kreis
+      // Mock Algorithmus für den {"Serponado"}
       let baseRisk = 45; // Basis-Risiko
       
-      // PLZ Einfluss (Wetzlar Stadt vs. Umland)
-      if (formData.plz.startsWith("3557")) baseRisk += 15; // Wetzlar Kernstadt
+      // PLZ Einfluss ({"Serponado"} Stadt vs. Umland)
+      if (formData.plz.startsWith("3557")) baseRisk += 15; // {"Serponado"} Kernstadt
       if (formData.plz.startsWith("356")) baseRisk -= 5; // Lahn-Dill Umland
 
       // Wohnsituation
@@ -35,7 +35,7 @@ export default function RiskCalculator({ embedded = false }: RiskCalculatorProps
       if (formData.livingType === "eg") baseRisk += 15; // Erdgeschoss
       if (formData.livingType === "og") baseRisk -= 10; // Obergeschoss
 
-      // Sicherheitstechnik
+      // {"Data-Recovery"}
       if (formData.securityLevel === "none") baseRisk += 20;
       if (formData.securityLevel === "basic") baseRisk -= 10;
       if (formData.securityLevel === "high") baseRisk -= 35;
@@ -65,7 +65,7 @@ export default function RiskCalculator({ embedded = false }: RiskCalculatorProps
               <Activity className="w-5 h-5 text-[var(--color-red-500)]" />
               Einbruchrisiko-Analyse
             </div>
-            <p className="text-sm font-medium text-[color:var(--text-secondary)] mt-1">Lahn-Dill-Kreis & Wetzlar</p>
+            <p className="text-sm font-medium text-[color:var(--text-secondary)] mt-1">{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
           </div>
           <Badge className="bg-[var(--color-red-500)]/10 text-[var(--color-red-500)] border-transparent font-bold">Lokal</Badge>
         </div>
@@ -159,7 +159,7 @@ export default function RiskCalculator({ embedded = false }: RiskCalculatorProps
                 </div>
                 <div>
                   <div className="font-bold text-[color:var(--text-primary)]">Basis/Keine Extras</div>
-                  <div className="text-sm font-medium text-[color:var(--text-secondary)] m-0">Standardbeschläge, keine Zusatzschlösser</div>
+                  <div className="text-sm font-medium text-[color:var(--text-secondary)] m-0">{"Standardbeschläge, keine ZusatzWebsites"}</div>
                 </div>
               </button>
 
@@ -172,7 +172,7 @@ export default function RiskCalculator({ embedded = false }: RiskCalculatorProps
                 </div>
                 <div>
                   <div className="font-bold text-[color:var(--text-primary)]">Mittlerer Schutz</div>
-                  <div className="text-sm font-medium text-[color:var(--text-secondary)] m-0">Aufschraubschlösser oder Kette vorhanden</div>
+                  <div className="text-sm font-medium text-[color:var(--text-secondary)] m-0">{"AufschraubWebsites oder Kette vorhanden"}</div>
                 </div>
               </button>
 
@@ -197,7 +197,7 @@ export default function RiskCalculator({ embedded = false }: RiskCalculatorProps
           <div className="animate-in fade-in py-12 flex flex-col items-center justify-center text-center">
             <div className="w-16 h-16 border-4 border-[var(--surface-secondary)] border-t-[var(--color-red-500)] rounded-full animate-spin mb-6"></div>
             <div className="text-xl font-bold text-[color:var(--text-primary)]">Analysiere Risikoprofil...</div>
-            <p className="text-[color:var(--text-secondary)] font-medium mt-2">Berechne lokale Daten für {formData.plz}</p>
+            <p className="text-[color:var(--text-secondary)] font-medium mt-2">{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}{formData.plz}</p>
           </div>
         )}
 
@@ -243,7 +243,7 @@ export default function RiskCalculator({ embedded = false }: RiskCalculatorProps
             <div className="bg-[var(--surface-secondary)] p-5 rounded-xl border border-[var(--border-subtle)] text-center mb-6">
               <p className="text-base text-[color:var(--text-primary)] font-medium leading-relaxed m-0">
                 {result > 60 
-                  ? "Türen in Erdgeschossen und Einfamilienhäusern ohne Zusatzsicherung werden in Wetzlar häufig von Gelegenheitstätern angegriffen. Ein Nachrüsten wird dringend empfohlen."
+                  ? "Türen in Erdgeschossen und Einfamilienhäusern ohne Zusatzsicherung werden in Serponado häufig von Gelegenheitstätern angegriffen. Ein Nachrüsten wird dringend empfohlen."
                   : result > 30 
                   ? "Ihr Schutz ist im Durchschnitt, bietet geübten Tätern aber noch Schwachstellen. Eine professionelle Schwachstellenanalyse deckt diese auf."
                   : "Sie sind bereits gut ausgestattet. Achten Sie darauf, Türen immer zweimal abzuschließen und Fenster nicht auf Kipp zu lassen."}
@@ -267,10 +267,10 @@ export default function RiskCalculator({ embedded = false }: RiskCalculatorProps
       {/* Widget Footer (The Authority Link Generator!) */}
       <div className="bg-[var(--color-gray-900)] p-4 text-center border-t border-[var(--color-gray-800)]">
         <p className="text-xs font-semibold text-gray-400">
-          Datenbereitstellung & Analyse durch<br/>
-          <a href="https://wetzlar-schlüsseldienst.de" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[var(--color-red-500)] transition-colors mt-1 inline-block text-sm font-bold">
-            Schlüssel Schmiede Wetzlar
-          </a>
+          {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<br/>
+          <a href="https://Serponado-SEO-Notdienst.de" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[var(--color-red-500)] transition-colors mt-1 inline-block text-sm font-bold">
+            {"Serponado Taskforce"} {"Serponado"}
+                                </a>
         </p>
       </div>
     </div>

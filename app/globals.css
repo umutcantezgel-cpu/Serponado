@@ -409,52 +409,58 @@
     --color-metallic-silver: #C0C0C8;
     --color-metallic-warm: #B8A088;
 
+    /* --- Serponado Dark-Tech OKLCh Palette --- */
+    --serponado-bg-base: oklch(14% 0.02 240);
+    --serponado-bg-elevated: oklch(22% 0.03 240);
+    --serponado-brand-primary: oklch(65% 0.15 220);
+    --serponado-alarm-accent: oklch(62% 0.22 25);
+
 
     /* ======================================================================
        EBENE 2 — SEMANTISCHE TOKENS & ELEVATION (80/15/5 REGEL)
        ====================================================================== */
 
     /* --- 2.1 Oberflächen --- */
-    --surface-primary: var(--color-white);
-    --surface-secondary: var(--color-off-white);
-    --surface-elevated: var(--color-white);
-    --surface-dark: var(--color-charcoal-900);
-    --surface-dark-elevated: var(--color-charcoal-800);
-    --surface-accent: var(--color-red-50);
+    --surface-primary: #050505;
+    --surface-secondary: #0a0a0a;
+    --surface-elevated: #111111;
+    --surface-dark: #000000;
+    --surface-dark-elevated: #0a0a0a;
+    --surface-accent: rgba(220, 38, 38, 0.05);
 
     /* --- 2.2 Text --- */
-    --text-primary: var(--color-charcoal-900);
-    --text-secondary: var(--color-dark-gray);
-    --text-tertiary: var(--color-mid-gray);
-    --text-on-dark: var(--color-charcoal-50);
-    --text-on-dark-secondary: rgba(247,247,248,0.75);
-    --text-accent: var(--color-red-600);
-    --text-on-accent: var(--color-white);
+    --text-primary: #f5f5f5;
+    --text-secondary: #a3a3a3;
+    --text-tertiary: #737373;
+    --text-on-dark: #f5f5f5;
+    --text-on-dark-secondary: #a3a3a3;
+    --text-accent: #00FF41;
+    --text-on-accent: #000000;
 
     /* --- 2.3 Interaktive Elemente & Semantische Drei-Paletten-Logik --- */
     
-    /* Handlung (Signal-Rot) */
-    --action-primary: var(--color-red-500);
-    --action-primary-hover: var(--color-red-600);
-    --action-primary-active: var(--color-red-700);
+    /* Handlung (Signal-Rot / Hacker-Green) */
+    --action-primary: #DC2626;
+    --action-primary-hover: #B91C1C;
+    --action-primary-active: #991B1B;
     --action-shadow-tint: rgba(220, 38, 38, 0.25);
     
-    /* Wert & Vertrauen (Glut-Warm) */
-    --value-primary: var(--color-ember-500);
-    --value-icon-bg: var(--color-ember-50);
-    --value-icon-color: var(--color-ember-400);
-    --value-price: var(--color-ember-600);
-    --value-accent-border: var(--color-ember-200);
-    --value-hover-border: var(--color-ember-200);
-    --value-link-hover: var(--color-ember-600);
+    /* Wert & Vertrauen (Hacker-Green) */
+    --value-primary: #00FF41;
+    --value-icon-bg: rgba(0, 255, 65, 0.1);
+    --value-icon-color: #00FF41;
+    --value-price: #00FF41;
+    --value-accent-border: rgba(0, 255, 65, 0.2);
+    --value-hover-border: rgba(0, 255, 65, 0.5);
+    --value-link-hover: #00FF41;
     
-    /* Atmosphäre & Premium (Rosé-Elegant) */
-    --atmosphere-glow: var(--color-blush-500);
-    --atmosphere-glass-edge: var(--color-blush-200);
-    --atmosphere-quote: var(--color-blush-400);
-    --atmosphere-accent: var(--color-blush-100);
-    --atmosphere-focus: var(--color-blush-500);
-    --atmosphere-footer-glow: var(--color-blush-500);
+    /* Atmosphäre & Premium (Alert-Crimson) */
+    --atmosphere-glow: rgba(220, 38, 38, 0.5);
+    --atmosphere-glass-edge: rgba(220, 38, 38, 0.2);
+    --atmosphere-quote: rgba(220, 38, 38, 0.4);
+    --atmosphere-accent: rgba(220, 38, 38, 0.1);
+    --atmosphere-focus: #DC2626;
+    --atmosphere-footer-glow: rgba(220, 38, 38, 0.5);
 
     /* Legacy-Interaktiv (Rückwärtskompatibilität) */
     --interactive-primary: var(--action-primary);
@@ -1862,4 +1868,36 @@ main[id="main-content"] {
 #whatsapp-floating-btn svg {
   fill: #fff !important;
   color: #fff !important;
+}
+@layer utilities {
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 4px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(220, 38, 38, 0.4);
+    border-radius: 4px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(220, 38, 38, 0.8);
+  }
+  
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* =============================================
+   SERPONADO — SCOPED BRUTALIST OVERRIDES
+   ============================================= */
+[data-serponado] * {
+  border-radius: 0 !important;
 }

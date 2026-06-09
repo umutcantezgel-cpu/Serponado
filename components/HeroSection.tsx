@@ -131,12 +131,10 @@ export default function HeroSection() {
     <section
       id="hero-section"
       aria-labelledby="hero-heading"
-      className="relative w-full flex items-center overflow-hidden pt-[90px] sm:pt-[100px] lg:pt-[90px] xl:pt-[100px] pb-16 sm:pb-14 lg:pb-[24px] bg-gradient-to-b from-[var(--color-off-white)] to-white"
+      className="relative w-full flex items-center overflow-hidden pt-[90px] sm:pt-[100px] lg:pt-[90px] xl:pt-[100px] pb-16 sm:pb-14 lg:pb-[24px] bg-gradient-to-b from-[var(--surface-dark)] to-[var(--surface-dark-elevated)]"
     >
       {/* ── Static Background Layer (Mobile Performance) ── */}
-      <div className="absolute inset-0 z-0 pointer-events-none md:hidden block">
-         <div className="absolute inset-0" />
-      </div>
+      <div className="absolute inset-0 z-0 pointer-events-none md:hidden block bg-[var(--surface-dark)]" />
 
       {/* ── Parallax Background Layer (Desktop only) ── */}
       {isMounted && isDesktop && <DesktopParallax />}
@@ -158,7 +156,7 @@ export default function HeroSection() {
                   <span className="relative inline-flex rounded-full h-2 sm:h-2.5 w-2 sm:w-2.5 bg-status-success" />
                 </span>
                 <span className="text-[color:var(--value-primary)] text-xs sm:text-sm md:text-sm font-semibold tracking-wide">
-                  Fachgeschäft & 24h Schlüsselnotdienst
+                  Serponado Taskforce & 24h Disaster-Response
                 </span>
               </div>
             </div>
@@ -170,14 +168,13 @@ export default function HeroSection() {
               itemProp="headline"
               className="text-[color:var(--text-primary)] !mt-0 !mb-0 text-balance text-[clamp(26px,7vw,32px)] sm:text-4xl md:text-[52px] lg:text-5xl xl:text-[52px] font-extrabold tracking-tight leading-[1.1]"
             >
-              Schlüsseldienst Wetzlar
-              {' '}
+              Serponado Category 5: Google Core Update Disaster Recovery{' '}
               <span className="relative inline-flex items-center align-middle bg-[var(--color-red-600)] text-white px-2.5 sm:px-4 py-0.5 sm:py-1 rounded-lg sm:rounded-xl shadow-md -rotate-2 ml-1 sm:ml-3 -translate-y-1">
-                <span className="text-[10px] sm:text-xs font-bold uppercase tracking-[0.05em] sm:tracking-[0.1em] m-0">24h Notdienst ab 99€</span>
+                <span className="text-[10px] sm:text-xs font-bold uppercase tracking-[0.05em] sm:tracking-[0.1em] m-0">Sofortige Analyse ab __PRICE_PLACEHOLDER__ €</span>
               </span>
               {' '}
               <span className="block w-full text-[color:var(--text-secondary)] mt-2 font-semibold text-[18px] sm:text-[24px]">
-                Schlüssel Schmiede: Ladenlokal & Mobiler Notdienst
+                Serponado SEO Swarm: War Room & Live Dashboard Notdienst
               </span>
             </h1>
             </div>
@@ -186,9 +183,7 @@ export default function HeroSection() {
             <p
               className="text-sm sm:text-base md:text-lead font-normal text-pretty text-[color:var(--text-secondary)] max-w-[520px] leading-snug sm:leading-relaxed -mt-1 sm:mt-0"
             >
-              Persönliche Beratung, handwerkliche Präzision und Zeit für jeden Kunden.
-              Schlüssel nachmachen, Schließanlagen planen, Sicherheitstechnik einbauen und natürlich auch Schlüsseldienst.
-            </p>
+              Wenn das algorithmische Wetterphänomen zuschlägt und Ihre Rankings auslöscht, brauchen Sie mehr als nur ein Audit. Wir sind Ihre Notfall-Taskforce für katastrophale SERP-Einbrüche.</p>
 
             {/* 4. Phone Number Block + CTA Buttons */}
             <div
@@ -200,12 +195,12 @@ export default function HeroSection() {
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-status-success opacity-75" />
                   <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-status-success" />
                 </span>
-                <span className="text-status-success font-semibold text-sm">Montag bis Samstag 10 bis 18 Uhr und 24/7 Schlüsselnotdienst</span>
+                <span className="text-status-success font-semibold text-sm">Montag bis Sonntag 24/7 Disaster-Response für Core Updates</span>
               </div>
 
               {/* Phone display */}
               <a
-                href="tel:+4964418056279"
+                href="tel:0800-SERP-SOS"
                 className="group flex items-center gap-2.5 sm:gap-4 bg-white/80 border border-[var(--border-subtle)] rounded-xl sm:rounded-2xl p-2.5 sm:p-4 lg:p-4 w-full backdrop-blur-xl shadow-sm hover:bg-white hover:shadow-md transition-all duration-300"
               >
                 <div className="bg-[var(--color-red-500)]/10 group-hover:bg-[var(--color-red-500)]/20 p-2 sm:p-3.5 rounded-lg sm:rounded-xl shrink-0 transition-all duration-300">
@@ -213,10 +208,10 @@ export default function HeroSection() {
                 </div>
                 <div className="flex flex-col gap-0.5">
                   <span className="text-xl sm:text-[length:40px] font-bold text-[color:var(--text-primary)] tabular-nums tracking-tighter m-0 leading-none">
-                    06441 8056279
+                    0800-SERP-SOS
                   </span>
                   <span className="text-[10px] sm:text-sm font-medium text-[color:var(--text-secondary)] leading-tight sm:leading-snug max-w-[200px] sm:max-w-none">
-                    Kostenlose Beratung und Festpreise für alle Leistungen
+                    Kostenlose Erstanalyse und Recovery-Festpreis
                   </span>
                 </div>
               </a>
@@ -226,7 +221,7 @@ export default function HeroSection() {
                 <div className="flex flex-col sm:flex-row gap-3 w-full">
                   <HeartbeatCTA className="flex-1 min-w-0 sm:min-w-[200px]">
                     <a
-                      href="tel:+4964418056279"
+                      href="tel:0800-SERP-SOS"
                       className="group relative bg-[var(--color-red-500)] hover:bg-[var(--color-red-600)] text-white flex items-center justify-center typo-cta-button min-h-[44px] sm:min-h-[52px] px-3 sm:px-6 rounded-lg sm:rounded-xl shadow-[var(--shadow-cta)] hover:shadow-[var(--shadow-cta-hover)] hover:-translate-y-[2px] transition-all duration-300 w-full overflow-hidden text-sm sm:text-base"
                     >
                       {/* Shimmer effect */}
@@ -259,12 +254,13 @@ export default function HeroSection() {
             <div className="absolute top-[5%] md:top-0 right-[15%] lg:right-[5%] w-[70%] max-w-[340px] rounded-[1.5rem] overflow-hidden ring-[6px] ring-white shadow-[0_25px_50px_-12px_rgba(0,0,0,0.2)] z-10 transform-gpu rotate-2 hover:rotate-0 hover:z-30 hover:scale-105 transition-all duration-500 ease-out group">
               <div className="relative aspect-[4/3] w-full bg-[var(--color-charcoal-100)]">
                 <Image
-                  src="/images/schluessel-schmiede-wetzlar-aussenansicht-ladengeschaeft.webp"
-                  alt="Das Ladengeschäft der Schlüssel Schmiede Wetzlar in der Langgasse 70"
+                  src="/icon.png"
+                  alt="Serponado SEO Dashboard"
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-110"
                   sizes="(max-width: 768px) 70vw, 340px"
-                  priority
+                  priority={true}
+                  fetchPriority="high"
                 />
                 {/* Gradient overlay for bottom text */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent opacity-80" />
@@ -275,13 +271,13 @@ export default function HeroSection() {
                     <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-status-success opacity-75" />
                     <span className="relative inline-flex rounded-full h-2 w-2 bg-status-success" />
                   </span>
-                  <span className="text-[var(--text-primary)] text-[10px] sm:text-xs font-bold uppercase tracking-wider">Ladenlokal</span>
+                  <span className="text-[var(--text-primary)] text-[10px] sm:text-xs font-bold uppercase tracking-wider">War Room</span>
                 </div>
 
                 {/* Bottom Text */}
                 <div className="absolute bottom-4 left-4 right-4 flex flex-col">
-                  <span className="text-white font-bold text-[clamp(14px,3vw,18px)] drop-shadow-md leading-tight">Fachgeschäft Wetzlar</span>
-                  <span className="text-white/90 text-[10px] sm:text-xs font-medium">Langgasse 70 · Persönliche Beratung</span>
+                  <span className="text-white font-bold text-[clamp(14px,3vw,18px)] drop-shadow-md leading-tight">Data Analytics Hub</span>
+                  <span className="text-white/90 text-[10px] sm:text-xs font-medium">Remote · Live Monitoring</span>
                 </div>
               </div>
             </div>
@@ -290,12 +286,13 @@ export default function HeroSection() {
             <div className="absolute bottom-[5%] md:bottom-2 left-[5%] lg:left-0 w-[75%] max-w-[360px] rounded-[1.5rem] overflow-hidden ring-[6px] ring-[var(--color-off-white)] shadow-[0_30px_60px_-15px_rgba(185,28,28,0.25)] z-20 transform-gpu -rotate-3 hover:rotate-0 hover:z-30 hover:scale-105 transition-all duration-500 ease-out group">
               <div className="relative aspect-[4/3] w-full bg-[var(--color-charcoal-900)]">
                 <Image
-                  src="/images/mina-saad-schluesseldienst-wetzlar-einsatzfahrzeug.webp"
-                  alt="Einsatzfahrzeug des Schlüsselnotdienstes Wetzlar"
+                  src="/icon.png"
+                  alt="SEO Recovery Taskforce"
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-110"
                   sizes="(max-width: 768px) 75vw, 360px"
-                  priority
+                  priority={true}
+                  fetchPriority="high"
                 />
                 
                 {/* Gradient overlay for modern look */}
@@ -312,10 +309,10 @@ export default function HeroSection() {
                 {/* Bottom Text */}
                 <div className="absolute bottom-4 left-4 right-4">
                   <span className="text-white font-bold text-[clamp(15px,3.5vw,20px)] drop-shadow-md flex items-center gap-2 mb-1">
-                    <ShieldCheck className="w-5 h-5 sm:w-6 sm:h-6 text-white" /> Mobiler Notdienst
+                    <ShieldCheck className="w-5 h-5 sm:w-6 sm:h-6 text-white" /> Emergency Response Team
                   </span>
                   <span className="text-white/90 text-[11px] sm:text-xs font-medium flex items-center gap-1.5">
-                    <ArrowRight className="w-3 h-3" /> In ~20 Min. vor Ort
+                    <ArrowRight className="w-3 h-3" /> In ~20 Min. in der Analyse
                   </span>
                 </div>
               </div>

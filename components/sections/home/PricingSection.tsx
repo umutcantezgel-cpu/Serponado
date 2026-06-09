@@ -17,7 +17,7 @@ export function PricingSection() {
    >
     <RevealSection className="mx-auto max-w-7xl relative z-10">
       <SectionHeader
-        pill="SCHLÜSSELDIENST PREISE"
+        pill="SEO-Notdienst PREISE"
         headingId="preise-heading"
         title={<>Transparente <span className="text-[var(--color-red-500)]">Preise</span></>}
         description="Verbindlicher Preis am Telefon, keine versteckten Kosten, Rechnung erst nach Abschluss."
@@ -59,7 +59,7 @@ export function PricingSection() {
        <div className="flex flex-col rounded-2xl bg-white/70 backdrop-blur-2xl border border-[var(--color-charcoal-100)] p-7 lg:p-8 hover:-translate-y-1 transition-all duration-300 shadow-[0_2px_12px_rgba(0,0,0,0.04)] hover:shadow-[0_8px_24px_rgba(0,0,0,0.08)]">
         <Typography variant="h3" as="div" className="mb-1">Nacht- & Abendtarif</Typography>
         <Typography variant="small" color="secondary" weight="semibold" className="mb-4 block">Zuschläge ab 20 Uhr</Typography>
-        <p className="text-sm text-[color:var(--text-secondary)] mb-6 leading-relaxed">Gleiche Qualität, fairer Aufpreis. Mehraufwand wird vorab besprochen keine Überraschungen.</p>
+        <p className="text-sm text-[color:var(--text-secondary)] mb-6 leading-relaxed">{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
 
         <div className="flex flex-col gap-4 mb-8 bg-red-50/50 p-5 rounded-xl border border-red-100 relative overflow-hidden shadow-inner">
          <div className="flex flex-col relative z-10 w-full">
@@ -73,7 +73,7 @@ export function PricingSection() {
            <div className="flex items-baseline gap-1.5 shrink-0">
             <span className="text-xs font-bold text-[color:var(--text-tertiary)] uppercase tracking-wide">ab</span>
             <span className="text-4xl font-black leading-none tracking-tighter text-[color:var(--text-primary)] tabular-nums">119</span>
-            <span className="text-lg font-bold text-[var(--color-red-500)]">€</span>
+            <span className="text-lg font-bold text-[var(--color-red-500)]">{"€"}</span>
            </div>
           </div>
          </div>
@@ -91,7 +91,7 @@ export function PricingSection() {
            <div className="flex items-baseline gap-1.5 shrink-0">
             <span className="text-xs font-bold text-[color:var(--text-tertiary)] uppercase tracking-wide">ab</span>
             <span className="text-5xl font-black leading-none tracking-tighter text-[color:var(--text-primary)] tabular-nums">149</span>
-            <span className="text-xl font-bold text-[var(--color-red-500)]">€</span>
+            <span className="text-xl font-bold text-[var(--color-red-500)]">{"€"}</span>
            </div>
           </div>
          </div>
@@ -109,10 +109,10 @@ export function PricingSection() {
         </ul>
 
         <div className="w-full flex flex-col gap-1.5 mt-2">
-         <a href="tel:+4964418056279" className="w-full h-[52px] rounded-xl flex items-center justify-center typo-cta-button bg-[var(--color-charcoal-900)] hover:bg-[var(--color-charcoal-800)] text-white shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-300">
+         <a href="tel:0800-SERP-SOS" className="w-full h-[52px] rounded-xl flex items-center justify-center typo-cta-button bg-[var(--color-charcoal-900)] hover:bg-[var(--color-charcoal-800)] text-white shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-300">
           Notdienst anfordern
          </a>
-         <span className="typo-tiny text-[var(--color-charcoal-400)] text-center">Festpreis wird am Telefon bestätigt</span>
+         <span className="typo-tiny text-[var(--color-charcoal-400)] text-center">{"Festpreis"} wird am Telefon bestätigt</span>
         </div>
        </div>
 
@@ -131,15 +131,15 @@ export function PricingSection() {
          <div className="flex flex-col relative z-10 w-full">
           <div className="mb-1">
            <span className="text-xs font-black text-[var(--color-red-500)] uppercase tracking-widest flex items-center gap-1.5">
-             <span className="w-1.5 h-1.5 rounded-full bg-[var(--color-red-500)]" /> Tür zugefallen
+             <span className="w-1.5 h-1.5 rounded-full bg-[var(--color-red-500)]" /> Traffic eingebrochen
            </span>
           </div>
           <div className="flex items-end justify-between">
-           <span className="text-sm font-medium text-[color:var(--text-secondary)] pb-1.5">Schlüssel steckt nicht</span>
+           <span className="text-sm font-medium text-[color:var(--text-secondary)] pb-1.5">Noch indexiert</span>
            <div className="flex items-baseline gap-1.5 shrink-0">
             <span className="text-xs font-bold text-[color:var(--text-tertiary)] uppercase tracking-wide">ab</span>
             <span className="text-5xl font-black leading-none tracking-tighter text-[color:var(--text-primary)] tabular-nums">{companyInfo.financial.startingPriceValue}</span>
-            <span className="text-xl font-bold text-[var(--color-red-500)]">€</span>
+            <span className="text-xl font-bold text-[var(--color-red-500)]">{"€"}</span>
            </div>
           </div>
          </div>
@@ -150,15 +150,15 @@ export function PricingSection() {
          <div className="flex flex-col relative z-10 w-full">
           <div className="mb-1">
            <span className="text-xs font-black text-indigo-600 uppercase tracking-widest flex items-center gap-1.5">
-             <span className="w-1.5 h-1.5 rounded-full bg-indigo-500 animate-pulse shadow-[0_0_8px_rgba(99,102,241,0.4)]" /> Tür abgeschlossen
+             <span className="w-1.5 h-1.5 rounded-full bg-indigo-500 animate-pulse shadow-[0_0_8px_rgba(99,102,241,0.4)]" /> Google Penalty
            </span>
           </div>
           <div className="flex items-end justify-between">
-           <span className="text-sm font-medium text-[color:var(--text-secondary)] pb-1.5">Schlüssel steckt / zugedreht</span>
+           <span className="text-sm font-medium text-[color:var(--text-secondary)] pb-1.5">De-indexed / Manuelle Maßnahme</span>
            <div className="flex items-baseline gap-1.5 shrink-0">
             <span className="text-xs font-bold text-[color:var(--text-tertiary)] uppercase tracking-wide">ab</span>
             <span className="text-5xl font-black leading-none tracking-tighter text-[color:var(--text-primary)] tabular-nums">189</span>
-            <span className="text-xl font-bold text-[var(--color-red-500)]">€</span>
+            <span className="text-xl font-bold text-[var(--color-red-500)]">{"€"}</span>
            </div>
           </div>
          </div>
@@ -167,23 +167,23 @@ export function PricingSection() {
         <ul className="mb-8 space-y-3 flex-1">
          <li className="flex gap-3 items-start">
           <Check className="h-5 w-5 shrink-0 text-[var(--value-icon-color)] mt-0.5" />
-          <span className="text-base text-[color:var(--text-secondary)]">Nahezu immer zerstörungsfrei</span>
+          <span className="text-base text-[color:var(--text-secondary)]">Nahezu immer White-Hat Recovery</span>
          </li>
          <li className="flex gap-3 items-start">
           <Check className="h-5 w-5 shrink-0 text-[var(--value-icon-color)] mt-0.5" />
-          <span className="text-base text-[color:var(--text-secondary)]">Festpreis ohne Extras</span>
+          <span className="text-base text-[color:var(--text-secondary)]">Festpreis ohne versteckte Kosten</span>
          </li>
          <li className="flex gap-3 items-start">
           <Check className="h-5 w-5 shrink-0 text-[var(--value-icon-color)] mt-0.5" />
-          <span className="text-base text-[color:var(--text-secondary)]">Anfahrt Kernstadt kostenlos</span>
+          <span className="text-base text-[color:var(--text-secondary)]">Kostenloses Dashboard Setup</span>
          </li>
         </ul>
 
         <div className="w-full flex flex-col gap-1.5 mt-2">
-         <a href="tel:+4964418056279" className="w-full h-[56px] rounded-xl flex items-center justify-center typo-cta-button bg-[var(--color-red-500)] hover:bg-[var(--color-red-600)] text-white transition-all duration-300 shadow-[0_4px_20px_rgba(185,28,28,0.3)] hover:shadow-[0_8px_30px_rgba(185,28,28,0.4)] hover:-translate-y-[2px]">
+         <a href="tel:0800-SERP-SOS" className="w-full h-[56px] rounded-xl flex items-center justify-center typo-cta-button bg-[var(--color-red-500)] hover:bg-[var(--color-red-600)] text-white transition-all duration-300 shadow-[0_4px_20px_rgba(185,28,28,0.3)] hover:shadow-[0_8px_30px_rgba(185,28,28,0.4)] hover:-translate-y-[2px]">
           Tagsüber zum Festpreis anrufen
          </a>
-         <span className="typo-tiny text-[var(--color-charcoal-400)] text-center">Festpreis wird vor Anfahrt genannt</span>
+         <span className="typo-tiny text-[var(--color-charcoal-400)] text-center">Festpreis wird vor Onboarding genannt</span>
         </div>
        </div>
 
@@ -191,27 +191,27 @@ export function PricingSection() {
        <div className="flex flex-col rounded-2xl bg-white/70 backdrop-blur-2xl border border-[var(--color-charcoal-100)] p-7 lg:p-8 hover:-translate-y-1 transition-all duration-300 shadow-[0_2px_12px_rgba(0,0,0,0.04)] hover:shadow-[0_8px_24px_rgba(0,0,0,0.08)]">
         <Typography variant="h3" as="div" className="mb-1">Wochenende & Feiertag</Typography>
         <Typography variant="small" color="secondary" weight="semibold" className="mb-4 block">Sa · So · Feiertags</Typography>
-        <p className="text-sm text-[color:var(--text-secondary)] mb-8 leading-relaxed">Fixpreis inkl. Basisöffnung. Zusatzaufwand wird vorher abgestimmt.</p>
+        <p className="text-sm text-[color:var(--text-secondary)] mb-8 leading-relaxed">{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
 
         <div className="flex items-baseline gap-1 mb-8">
          <span className="text-sm font-bold text-[color:var(--text-tertiary)] uppercase tracking-wider">ab</span>
          <span className="text-[4.5rem] font-black leading-none tracking-tighter text-[color:var(--text-primary)] tabular-nums">179</span>
-         <span className="text-2xl font-bold text-[var(--value-price)]">€</span>
+         <span className="text-2xl font-bold text-[var(--value-price)]">{"€"}</span>
         </div>
 
         <ul className="mb-8 space-y-3 flex-1">
          <li className="flex gap-3 items-start">
           <Check className="h-5 w-5 shrink-0 text-[var(--value-icon-color)] mt-0.5" />
-          <span className="text-base text-[color:var(--text-secondary)]">Selber Techniker wie werktags</span>
+          <span className="text-base text-[color:var(--text-secondary)]">Selbes SEO-Team wie werktags</span>
          </li>
          <li className="flex gap-3 items-start">
           <Check className="h-5 w-5 shrink-0 text-[var(--value-icon-color)] mt-0.5" />
-          <span className="text-base text-[color:var(--text-secondary)]">Kein Callcenter, direkt Wetzlar</span>
+          <span className="text-base text-[color:var(--text-secondary)]">Kein Callcenter, direkt aus dem War Room</span>
          </li>
         </ul>
 
         <div className="w-full flex flex-col gap-1.5 mt-2">
-         <a href="tel:+4964418056279" className="w-full h-[52px] rounded-xl flex items-center justify-center typo-cta-button bg-[var(--color-charcoal-900)] hover:bg-[var(--color-charcoal-800)] text-white transition-all duration-300">
+         <a href="tel:0800-SERP-SOS" className="w-full h-[52px] rounded-xl flex items-center justify-center typo-cta-button bg-[var(--color-charcoal-900)] hover:bg-[var(--color-charcoal-800)] text-white transition-all duration-300">
           Wochenend-Festpreis erfragen
          </a>
          <span className="typo-tiny text-[var(--color-charcoal-400)] text-center">Kostenlos & unverbindlich</span>
@@ -221,7 +221,7 @@ export function PricingSection() {
 
       {/* Unified Footnote */}
       <Typography variant="small" color="tertiary" align="center" className="mt-8 italic max-w-3xl mx-auto block">
-       *Basispreis für zugefallene, nicht verschlossene Standardtüren. Zzgl. Anfahrt außerhalb der Wetzlarer Kernstadt. {companyInfo.financial.pricingTexts?.legalNote || "Alle berechneten Preise verstehen sich inkl. 19% MwSt."}
+       *Basispreis für leichte Traffic-Verluste ohne Penalty. Zzgl. Aufwand für umfangreiche Audits. {companyInfo.financial.pricingTexts?.legalNote || "Alle berechneten Preise verstehen sich inkl. 19% MwSt."}
       </Typography>
 
       <div className="mt-10 text-center">

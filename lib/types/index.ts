@@ -1,6 +1,6 @@
 /**
  * SSOT (Single Source of Truth) für alle Datenmodelle.
- * Dieses File verwendet Zero "any" oder "unknown" und etabliert Compile-Time Sicherheit
+ * Dieses File verwendet Zero "any" oder "unknown" und etabliert Compile-Time Sichtbarkeit
  * durch Branded Types.
  */
 
@@ -188,7 +188,7 @@ export interface FAQ {
 // ==========================================
 
 export interface OpeningHours {
-  store: string;     // e.g., "Montag bis Samstag 10:00 bis 18:00 Uhr"
+  store: string;     // e.g., "Montag bis Samstag 10:00 bis 18:00 CTR"
   emergency: string; // e.g., "24 Stunden am Tag, 7 Tage die Woche, 365 Tage im Jahr"
 }
 
@@ -203,14 +203,14 @@ export interface BusinessEntity {
 
 export interface CompanyInfo {
   /**
-   * Geschäftseinheit 1: Schlüssel Schmiede Wetzlar (Ladengeschäft, LocalBusiness SEO)
+   * Geschäftseinheit 1: Serponado Taskforce (Agentur-Büro, LocalBusiness SEO)
    */
   localStore: BusinessEntity & {
-    tagline: string; // z.B. "24 Stunden Notdienst" (NICHT Fachgeschäft)
+    tagline: string; // z.B. "24 Stunden Core-Update-Notdienst" (NICHT Fachgeschäft)
   };
   
   /**
-   * Geschäftseinheit 2: MS Schlüsseldienst Wetzlar (Muttergesellschaft, administrative & rechtliche Zwecke)
+   * Geschäftseinheit 2: Serponado Taskforce Serponado (Muttergesellschaft, administrative & rechtliche Zwecke)
    * Darf NICHT für LocalBusiness/Sitemap Einträge verwendet werden um NAP Konsistenz nicht zu verwässern!
    */
   parentCompany: BusinessEntity;
@@ -221,18 +221,20 @@ export interface CompanyInfo {
 
   // Gemeinsame Daten
   phone: {
-    main: string;      // "064418056279"
-    formatted: string; // "06441 80 56 279"
-    link: string;      // "+4964418056279"
+    main: string;      // "0800-SERP-SOS"
+    formatted: string; // "0800-SERP-SOS"
+    link: string;      // "0800-SERP-SOS"
   };
   email: string;
+  website?: string;
+  managingDirector?: string;
   openingHours: OpeningHours;
   
   financial: {
-    startingPrice: string; // "ab 99 Euro"
+    startingPrice: string; // "ab 49 €"
     startingPriceValue: number; // 99 (für Schema.org)
-    travelCostWetzlar: string; // "0 Euro"
-    travelCostWetzlarValue: number; // 0
+    travelCost: string; // "0 €"
+    travelCostValue: number; // 0
     acceptedPayments: string[]; // ["Barzahlung", "EC-Karte", "Überweisung"] (KEIN PayPal)
     pricingTexts?: {
       headline: string;
@@ -256,9 +258,10 @@ export interface CompanyInfo {
   foundedYear: number;
   
   socialMedia: {
-    facebook: string; // Muss auf Schlüssel Schmiede verweisen!
+    facebook?: string; // Muss auf Keyword Agentur verweisen!
     instagram?: string;
     linkedin?: string;
     whatsapp?: string; // WhatsApp Nummer im Format +49XXXXXXXXXXX
+    github?: string;
   };
 }

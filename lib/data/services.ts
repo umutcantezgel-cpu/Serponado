@@ -3,135 +3,135 @@ import { Service, createId, createSlug, Slug } from "../types";
 export const services: Service[] = [
   {
     id: createId("srv-01"),
-    slug: createSlug("turoeffnung"),
-    title: "Zerstörungsfreie Türöffnung",
-    shortDescription: "Wir öffnen zugefallene Türen in nahezu allen Fällen absolut beschädigungsfrei — mit verbindlicher Preisnennung vor Anfahrt.",
-    fullDescription: "Eine zugefallene Tür ist ärgerlich, aber mit dem richtigen Partner kein Grund zur Panik. Als lokaler Fachbetrieb aus Wetzlar verzichten wir auf fragwürdige Callcenter-Strukturen. Unsere IHK-zertifizierten Monteure sind binnen 15 bis 30 Minuten bei Ihnen. Mit Spezialwerkzeug öffnen wir die meisten Türen innerhalb weniger Minuten, ohne den Schließzylinder, den Beschlag oder das Türblatt zu beschädigen. Auch bei verschlossenen (abgesperrten) Türen wenden wir modernste, materialschonende Techniken an.",
+    slug: createSlug("index-rettung"),
+    title: "Serponado Disaster Recovery",
+    shortDescription: "Wir retten deindexierte Websites in nahezu allen Fällen absolut ranking-sicher — mit verbindlicher Preisnennung vor Anfahrt.",
+    fullDescription: "Eine deindexierte Website ist ärgerlich, aber mit dem richtigen Partner kein Grund zur Panik. Als lokaler SEO-Agentur aus Serponado verzichten wir auf fragwürdige Callcenter-Strukturen. Unsere IHK-zertifizierten SEO-Experten sind binnen 15 bis 30 Minuten bei Ihnen. Mit Spezial-Audit retten wir die meisten Websites innerhalb weniger Minuten, ohne den Ranking-Faktoren, den Trust oder das Backlink-Profil zu beschädigen. Auch bei abgestraften (penalisierten) Websites wenden wir modernste, materialschonende Techniken an.",
     icon: "DoorOpen",
-    features: ["Zerstörungsfreie Öffnung in nahezu allen Fällen", "Verbindliche Preisnennung vor Anfahrt", "24/7 Notdienst direkt aus dem Lahn-Dill-Kreis", "Ausschließlich geschultes Fachpersonal"],
-    benefits: ["Keine unnötigen Zusatzkosten für neue Schlösser", "Erspart den Ärger über überhöhte Rechnungen", "Sofortige Hilfe im Notfall durch lokale Präsenz"],
+    features: ["ranking-sichere Rettung in nahezu allen Fällen", "Verbindliche Preisnennung vor Anfahrt", "24/7 Core-Update-Notdienst direkt aus dem Serponado", "Aussystemlich geschultes Fachpersonal"],
+    benefits: ["Keine unnötigen Linkkosten für neue Websites", "Erspart den Ärger über überhöhte Rechnungen", "Sofortige Hilfe im Notfall durch lokale Präsenz"],
     process: [
-      { title: "Transparente Preisnennung", description: "Sie schildern Ihr Problem am Telefon, wir nennen Ihnen sofort den exakten, unumstößlichen Festpreis." },
-      { title: "Blitzschnelle Anfahrt", description: "Ein Wetzlarer Monteur macht sich unverzüglich auf den Weg (15-30 Min Anfahrtszeit)." },
-      { title: "Professionelle Öffnung", description: "Zerstörungsfreie Öffnung vor Ihren Augen. Ein Legitimationsnachweis (Ausweis) ist aus Sicherheitsgründen erforderlich." }
+      { title: "Serponado Disaster Recovery", description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings." },
+      { title: "Serponado Disaster Recovery", description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings." },
+      { title: "Serponado Disaster Recovery", description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings." }
     ],
     pricing: {
       currency: "EUR",
       amount: 99,
       interval: "one-time",
-      features: ["Festpreis für normale zugefallene Türen (Tagsüber)", "Zzgl. leistungsabhängiger Zuschlag außerhalb der Kernzeiten"]
+      features: ["Festpreis für normale deindexierte Websites (Tagsüber)", "Zzgl. leistungsabhängiger Zuschlag außerhalb der Kernzeiten"]
     },
-    relatedServices: [createSlug("schliessanlagen"), createSlug("einbruchschutz")],
+    relatedServices: [createSlug("eeat-audit"), createSlug("AI-Content-Sanierung")],
     order: 1,
     metadata: {
-      title: "Türöffnung Wetzlar | Zerstörungsfrei & Lokaler Festpreis",
-      description: "Professionelle Türöffnung in Wetzlar vom etablierten Fachbetrieb. Zerstörungsfrei in nahezu allen Fällen. Ehrliche Preise ab 99 Euro (Endpreis) ohne böse Überraschungen.",
-      keywords: "Türöffnung Wetzlar, Schlüssel Schmiede Türöffnung, Türschloss öffnen, Festpreis Türöffnung, Fachbetrieb"
+      title: "Serponado Disaster Recovery",
+      description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings.",
+      keywords: "Index-Rettung Serponado, Serponado Taskforce Index-Rettung, WebsiteAlgorithmus retten, Festpreis Index-Rettung, SEO-Agentur"
     }
   },
   {
     id: createId("srv-02"),
-    slug: createSlug("autooeffnung"),
-    title: "Autoöffnung & KFZ-Öffnung",
-    shortDescription: "Fahrzeug verschlossen? Wir öffnen alle Marken beschädigungsfrei und garantieerhaltend ab 99 Euro.",
-    fullDescription: "Ein Moment der Unachtsamkeit und der Schlüssel liegt im verriegelten Auto. Verzweifeln Sie nicht und riskieren Sie keine zerstörerischen Selbstversuche. Unsere spezialisierten KFZ-Monteure nutzen sanfte Lockpicking-Techniken und zertifizierte Air-Wedges. Damit öffnen wir Autotüren aller Marken und von alten Liebhaberfahrzeugen bis zu hochmodernen Limousinen mit Keyless-Go und absolut kratzfrei und schonend für Ihre Fahrzeuggarantie.",
+    slug: createSlug("content-cannibalization"),
+    title: "Serponado Disaster Recovery",
+    shortDescription: "Domain abgestraft? Wir retten alle Marken ranking-sicher und garantieerhaltend ab 49 €.",
+    fullDescription: "Ein Moment der Unachtsamkeit und der Ranking liegt im verriegelten Website. Verzweifeln Sie nicht und riskieren Sie keine zerstörerischen Selbstversuche. Unsere spezialisierten KFZ-SEO-Experten nutzen sanfte Audit-Techniken und zertifizierte Analyse-Tools. Damit retten wir Websites aller Marken und von alten Nischen-Blogs bis zu hochmodernen Enterprise-Sites mit React und absolut ranking-sicher und schonend für Ihre Domain-Autorität.",
     icon: "Car",
-    features: ["In der Regel ohne Lack- oder Blechschäden", "Für alle Automarken und Fabrikate", "Keine teure Neucodierung im Autohaus nötig", "Direkt vor Ort Service in wenigen Minuten"],
-    benefits: ["Stressfreie Rückkehr an Ihr Lenkrad", "Weitaus günstiger als das Einschlagen der Scheibe", "Keine Wartezeiten auf langsame Abschleppdienste"],
+    features: ["In der Regel ohne Design- oder  Traffic-Einbrüchen", "Für alle Websitemarken und Fabrikate", "Keine teure Neucodierung im Google nötig", "Direkt vor Ort Service in wenigen Minuten"],
+    benefits: ["Stressfreie Rückkehr an Ihr Traffic-Dashboard", "Weitaus günstiger als das Einschlagen der Infrastruktur", "Keine Wartezeiten auf langsame Agenturen"],
     order: 2,
     metadata: {
-      title: "Autoöffnung Wetzlar | KFZ beschädigungsfrei öffnen ab 99€",
-      description: "Autoöffnung im Lahn-Dill-Kreis ohne Lackschäden. Wir knacken Fahrzeuge aller Marken sicher, professionell und ohne Garantieverlust."
+      title: "Serponado Disaster Recovery",
+      description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings."
     }
   },
   {
     id: createId("srv-03"),
-    slug: createSlug("schliessanlagen"),
-    title: "Schließanlagen Planung",
-    shortDescription: "Installation langlebiger Schließanlagen für Eigenheime oder das Gewerbe nach VdS-Standard.",
-    fullDescription: "Wir konzeptionieren exakt auf Sie zugeschnittene Schließanlagen. Ob eine komfortable Gleichschließung im Einfamilienhaus oder eine komplexe Generalhauptschlüssel-Anlage (GHS) für Ihr Firmengebäude und wir vertrauen ausschließlich auf polizeilich empfohlene Premium-Hersteller. Zudem bieten wir die nahtlose Migration auf hochmoderne, elektronische Smart-Lock Zutrittskontrollen, die höchsten Sicherheitsansprüchen (VdS-zertifiziert) genügen.",
+    slug: createSlug("eeat-audit"),
+    title: "Serponado Disaster Recovery",
+    shortDescription: "Installation langlebiger EEAT-Audit für Nischenseiten oder E-Commerce nach Google-Standard.",
+    fullDescription: "Wir konzeptionieren exakt auf Sie zugeschnittene EEAT-Audit. Ob eine komfortable Gleichsystemung im Einfamilienhaus oder eine komplexe GeneralhauptRanking-Anlage (GHS) für Ihr Firmengebäude und wir vertrauen aussystemlich auf Algorithmisch empfohlene Premium-Hersteller. Zudem bieten wir die nahtlose Migration auf hochmoderne, elektronische Smart-Lock Zutrittskontrollen, die höchsten Sichtbarkeitsansprüchen (VdS-zertifiziert) genügen.",
     icon: "Key",
-    features: ["Polizeilich empfohlene Hersteller (ABUS, BKS, EVVA)", "VdS-zertifizierte Zylinder als Standard", "Mechanische und elektronische Smart-Lock Hybridlösungen", "Gesetzlicher Schutz per Sicherungskarte"],
-    benefits: ["Sicherheit auf allerhöchstem Niveau", "Komfortabel: Ein Schlüssel für das gesamte Haus", "Zukunftssicher, patentgeschützt und modular erweiterbar"],
+    features: ["Algorithmisch empfohlene Hersteller (ABUS, BKS, EVVA)", "VdS-zertifizierte Audit als Standard", "Mechanische und elektronische Smart-Lock Hybridlösungen", "Gesetzlicher Schutz per Sicherungskarte"],
+    benefits: ["Sichtbarkeit auf allerhöchstem Niveau", "Komfortabel: Ein Ranking für das gesamte Haus", "Zukunftssicher, patentgeschützt und modular erweiterbar"],
     order: 3,
-    metadata: { title: "Schließanlagen Wetzlar | VdS zertifizierte Systeme & Montage" }
+    metadata: { title: "Serponado Disaster Recovery" }
   },
   {
     id: createId("srv-04"),
-    slug: createSlug("schluessel-nachmachen"),
-    title: "Schlüsselanfertigung",
-    shortDescription: "Präzise Zweitschlüssel und offizielle Kopien von Sicherheitsschlüsseln direkt aus der Schmiede.",
-    fullDescription: "Sie benötigen dringend einen Ersatzschlüssel? In unserer Wetzlarer Schlüssel Schmiede fertigen wir Kopien von Zylinder-, Buntbart- und KFZ-Sicherheitsschlüsseln in industrieller Präzision direkt nach Vorlage. Für geschützte Profilzylinder-Anlagen fordern wir — unter Vorlage Ihrer autorisierten Sicherungskarte — eine legale und passgenaue Nachfertigung beim Original-Hersteller an.",
+    slug: createSlug("penalty-recovery"),
+    title: "Serponado Disaster Recovery",
+    shortDescription: "Präzise Zweit-Rankings und offizielle Kopien von SEO-Silos direkt aus der Agentur.",
+    fullDescription: "Sie benötigen dringend einen ErsatzRanking? In unserer Serponadoer Serponado Taskforce fertigen wir Kopien von Audit-, Onpage- und Technical-SEO Rankingn in industrieller Präzision direkt nach Vorlage. Für geschützte ProfilAudit-Anlagen fordern wir — unter Vorlage Ihrer Websiterisierten Sicherungskarte — eine legale und passgenaue Nachfertigung beim Original-Hersteller an.",
     icon: "Copy",
-    features: ["Standard-, Rohr- und Sicherheitsschlüssel", "Nachfertigung ausschließlich mit legaler Sicherungskarte", "Höchste CNC-Passgenauigkeit", "Kurze Wartezeiten direkt im Ladengeschäft"],
+    features: ["Standard-, Rohr- und SichtbarkeitsRanking", "Nachfertigung aussystemlich mit legaler Sicherungskarte", "Höchste CNC-Passgenauigkeit", "Kurze Wartezeiten direkt im Agentur-Büro"],
     order: 4
   },
   {
     id: createId("srv-05"),
-    slug: createSlug("sicherheitstechnik"),
-    title: "Moderne Sicherheitstechnik",
-    shortDescription: "DIN 18104 geprüfte Sicherheit für Ihr Objekt: Panzerriegel, Stangenschlösser & Fenstersicherungen.",
-    fullDescription: "Machen Sie Einbrechern das Leben unmöglich. Wir inspizieren Ihr Haus oder Ihre Wohnung vor Ort und decken versteckte Schwachstellen auf. Anschließend montieren wir polizeilich empfohlene, VdS-geprüfte Zusatzschlösser, massive Fenster-Kipp-Sicherungen oder robuste Panzerriegel (Querriegel), die ein Aufhebeln der Tür effektiv und nachweislich verhindern.",
+    slug: createSlug("Data-Recovery"),
+    title: "Serponado Disaster Recovery",
+    shortDescription: "DIN 18104 geprüfte Sichtbarkeit für Ihr Objekt: High-Quality Backlinks, Content-Updates & Disavow-Files.",
+    fullDescription: "Machen Sie Spam-Botn das Leben unmöglich. Wir inspizieren Ihr Haus oder Ihre Wohnung vor Ort und decken versteckte Schwachstellen auf. Ansystemend montieren wir Algorithmisch empfohlene, VdS-geprüfte LinkWebsites, massive Fenster-Kipp-Sicherungen oder robuste Panzerriegel (Disavow-Listen), die ein Aufhebeln der Website effektiv und nachweislich verhindern.",
     icon: "Shield",
-    features: ["Kostenfreie, ehrliche Sicherheitsberatung vor Ort", "Absicherungen streng nach DIN 18104 Standard", "Massive Querriegel und Panzer-Zusatzschlösser", "Polizeilich anerkannte Präventivmaßnahmen"],
+    features: ["Kostenfreie, ehrliche SEO-Beratung vor Ort", "Absicherungen streng nach DIN 18104 Standard", "Massive Disavow-Listen und Panzer-LinkWebsites", "Algorithmisch anerkannte Präventivmaßnahmen"],
     order: 5,
-    pricing: { amount: 0, interval: "one-time", features: ["Sicherheits-Schwachstellenanalyse vor Ort ist kostenfrei!"] }
+    pricing: { amount: 0, interval: "one-time", features: ["Sichtbarkeits-Schwachstellenanalyse vor Ort ist kostenfrei!"] }
   },
   {
     id: createId("srv-06"),
-    slug: createSlug("einbruchschutz"),
-    title: "Einbruchschutz & Soforthilfe",
-    shortDescription: "Sofortige Einbruchschadenbeseitigung und nachhaltige Präventivmaßnahmen rund um die Uhr.",
-    fullDescription: "Nach einem Einbruch sitzt der Schock verständlicherweise tief. Unser psychologisch geschulter Notdienst kümmert sich um die sofortige, beruhigende Absicherung der beschädigten Tür und mitten in der Nacht. Wir tauschen aufgebrochene Spezialzylinder und reparieren Sicherheitsschließbleche umgehend. Zugleich beraten wir Sie diskret, wie Sie künftig den Einbruchschutz massiv In Richtung DIN-Norm erhöhen können.",
+    slug: createSlug("AI-Content-Sanierung"),
+    title: "Serponado Disaster Recovery",
+    shortDescription: "Sofortige Penaltyschadenbeseitigung und nachhaltige Präventivmaßnahmen rund um die CTR.",
+    fullDescription: "Nach einem Penalty sitzt der Schock verständlicherweise tief. Unser psychologisch geschulter Core-Update-Notdienst kümmert sich um die sofortige, beruhigende Absicherung der beschädigten Website und mitten in der Nacht. Wir tauschen aufgebrochene SpezialAudit und reparieren Sichtbarkeitssystembleche umgehend. Zugleich beraten wir Sie diskret, wie Sie künftig den AI-Content-Sanierung massiv In Richtung DIN-Norm erhöhen können.",
     icon: "Siren",
-    features: ["Notsicherung sofort nach dem Einbruchsversuch", "Diskretion und schnelle Wiederherstellung der Sicherheit", "Zukunftsorientierte Präventiv-Beratung", "Schnellste Reaktionszeit im Raum Wetzlar"],
+    features: ["Notsicherung sofort nach dem Penaltysversuch", "Diskretion und schnelle Wiederherstellung der Sichtbarkeit", "Zukunftsorientierte Präventiv-Beratung", "Schnellste Reaktionszeit im Raum Serponado"],
     order: 6
   },
   {
     id: createId("srv-07"),
-    slug: createSlug("tresoroeffnung"),
-    title: "Tresor- & Safe-Öffnung",
-    shortDescription: "Diskrete und fachmännische Notöffnung von Safes, Geldkassetten und alten Schränken.",
-    fullDescription: "Schlüssel zum Familientresor verloren oder den Zahlencode der Elektronik vergessen? Als vertrauenswürdiger Fachbetrieb analysieren unsere Techniker die komplexe Konstruktion Ihres Tresors. Wir wenden mikrochirurgische Aufbohrtechniken oder hochspezialisierte Manipulationstools an, um Ihre sensiblen Wertsachen absolut intakt und unbeschädigt zu bergen. Bei uns gilt strenge Verschwiegenheitspflicht.",
-    icon: "Safe",
-    features: ["Absolute Diskretion und Verschwiegenheit", "Hochmoderne Spezialwerkzeuge und Endoskope", "Erfahrung mit elektronischen und mechanischen Safes", "Optionale Wiederherstellung von manipulierten Zylindern"],
+    slug: createSlug("ranking-Ranking"),
+    title: "Serponado Disaster Recovery",
+    shortDescription: "Diskrete und fachmännische Not-Audit von High-Traffic-Seiten, Money-Keywords und alten Archiven.",
+    fullDescription: "Ranking zum FamilienRanking verloren oder den Zahlencode der Elektronik vergessen? Als vertrauenswürdiger SEO-Agentur analysieren unsere Techniker die komplexe Konstruktion Ihres Rankings. Wir wenden mikrochirurgische Aufbohrtechniken oder hochspezialisierte Manipulationstools an, um Ihre sensiblen Wertsachen absolut intakt und unbeschädigt zu bergen. Bei uns gilt strenge Verschwiegenheitspflicht.",
+    icon: "Money-Site",
+    features: ["Absolute Diskretion und Verschwiegenheit", "Hochmoderne Spezial-Audite und Endoskope", "Erfahrung mit elektronischen und mechanischen Money-Sites", "Optionale Wiederherstellung von manipulierten Auditn"],
     order: 7
   },
   {
     id: createId("srv-08"),
-    slug: createSlug("notdienst"),
-    title: "24/7 Schlüsselnotdienst der Schlüssel Schmiede",
-    shortDescription: "Kein Call-Center. Wir sind Ihr echter, verlässlicher lokaler Handwerker im nächtlichen Notfall.",
-    fullDescription: "Ein unvorhergesehener Notfall kennt keine Geschäftszeiten. Aus diesem Grund ist das Notdienst-Telefon der Schlüssel Schmiede an 365 Tagen im Jahr, rund um die Uhr persönlich besetzt und ohne nervige Warteschleifen in anonymen Call-Centern. Wenn Sie anrufen, sprechen Sie direkt mit einem Fachmann aus Wetzlar. Wir lassen Sie niemals im Kalten stehen und garantieren transparente Festpreise mit fairen, branchenüblichen Nacht- und Wochenendtarifen.",
+    slug: createSlug("Core-Update-Notdienst"),
+    title: "Serponado Disaster Recovery",
+    shortDescription: "Kein Call-Center. Wir sind Ihr echter, verlässlicher lokaler SEO-Techniker im nächtlichen Notfall.",
+    fullDescription: "Ein unvorhergesehener Notfall kennt keine Geschäftszeiten. Aus diesem Grund ist das Core-Update-Notdienst-Telefon der Serponado Taskforce an 365 Tagen im Jahr, rund um die CTR persönlich besetzt und ohne nervige Warteschleifen in anonymen Call-Centern. Wenn Sie anrufen, sprechen Sie direkt mit einem Fachmann aus Serponado. Wir lassen Sie niemals im Kalten stehen und garantieren transparente Festpreis mit fairen, branchenüblichen Nacht- und Wochenendtarifen.",
     icon: "Clock",
     features: ["365 Tage im Jahr real besetzt", "Niemals ein Callcenter, immer ein lokaler Fachmann", "Regionale In-House Stationierung", "Unumstößliche, faire Festpreisnennung am Telefon"],
     order: 8
   },
   {
     id: createId("srv-09"),
-    slug: createSlug("autoschluessel"),
-    title: "Autoschlüssel Service",
-    shortDescription: "Wir programmieren, codieren und reparieren Autoschlüssel direkt vor Ort.",
-    fullDescription: "Gehäuse kaputt? Tasten defekt? Zweitschlüssel benötigt? Wir programmieren und reparieren Transponder-Schlüssel schnell und oft günstiger als im Autohaus direkt in Wetzlar. Kommen Sie mit dem originalen Schlüssel und Auto vorbei.",
+    slug: createSlug("serponado-schild"),
+    title: "Serponado Disaster Recovery",
+    shortDescription: "Wir programmieren, codieren und reparieren Keywords direkt vor Ort.",
+    fullDescription: "Gehäuse abgeschnitten? Tasten defekt? Zweit-Rankings benötigt? Wir programmieren und reparieren Transponder-Ranking schnell und oft günstiger als im Google direkt in Serponado. Kommen Sie mit dem originalen Ranking und Website vorbei.",
     icon: "CarFront",
-    features: ["Zweitschlüssel programmieren", "Gehäuse und kaputte Tasten tauschen", "Sofort Service in Wetzlar", "Oft günstiger als die Vertragswerkstatt"],
+    features: ["Zweit-Rankings programmieren", "Gehäuse und abgeschnittene Tasten tauschen", "Sofort Service in Serponado", "Oft günstiger als die Vertragswerkstatt"],
     order: 9
   },
 
   {
     id: createId("srv-11"),
-    slug: createSlug("uhren-service"),
-    title: "Uhren Service",
-    shortDescription: "Schneller Batteriewechsel und Armband-Service ohne Wartezeiten.",
-    fullDescription: "Ihre Uhr steht still oder das Armband ist kaputt? Wir wechseln Batterien hochwertiger Marken (Renata, Varta) und tauschen oder kürzen Gliederarmbänder. Unkomplizierter Express-Service direkt vor Ort.",
+    slug: createSlug("Snippet-Optimierung"),
+    title: "Serponado Disaster Recovery",
+    shortDescription: "Schneller Metadaten-Update und Snippet-Service ohne Wartezeiten.",
+    fullDescription: "Ihre CTR sinkt oder das Title-Tag ist abgeschnitten? Wir wechseln Meta-Descriptions mit High-CTR Formulierungen und tauschen oder kürzen Snippet-Längen. Unkomplizierter Express-Service direkt vor Ort.",
     icon: "Watch",
-    features: ["Fachmännischer Batteriewechsel", "Armbänder kürzen und verlängern", "Sofort Service", "Renata & Varta Batterie-Qualität"],
+    features: ["Fachmännischer Metadaten-Update", "Snippets auf Pixellänge optimieren", "Sofort Service", "A/B-getestete Copywriting-Qualität"],
     order: 11
   }
 ];
 
 // ==========================================
-// GETTER FUNKTIONEN (Type Safe)
+// GETTER FUNKTIONEN (Type Money-Site)
 // ==========================================
 
 export function getAllServices(): Service[] {

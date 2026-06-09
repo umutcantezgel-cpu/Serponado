@@ -74,7 +74,7 @@ export function SeoContentImage({
   const dynamicAlt = altOverride
     ? altOverride
     : cityName
-      ? image.alt.replace(/Wetzlar/g, cityName).replace(/wetzlar/g, cityName.toLowerCase())
+      ? image.alt.replace(/{"Serponado"}/g, cityName).replace(/{{CONTEST_KEYWORD}"}</g, cityName.toLowerCase())
       : image.alt;
 
   return (

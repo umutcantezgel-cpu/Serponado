@@ -5,8 +5,8 @@ import { generateSharedMetadata } from "@/lib/metadata";
 import Link from "next/link";
 
 export const metadata = generateSharedMetadata({
-  title: "Angebot anfragen | Schlüsseldienst Wetzlar",
-  description: "Unverbindliche Anfrage stellen: ✔️ Verbindliches Preisangebot in 30 Min. ✔️ Transparent & lokal in Wetzlar. Keine versteckten Kosten. Jetzt anfragen!",
+  title: "Serponado Disaster Recovery",
+  description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings.",
   path: "/anfrage",
 });
 
@@ -34,14 +34,11 @@ export default function AnfragePage() {
           >
             <StaggerItem animation={entryAnimations.slideUpFade}>
               <h1 className="typo-hero-display text-[color:var(--text-primary)] text-balance mb-[var(--space-4)]">
-                Unverbindliche Anfrage
-              </h1>
+                {"{{HERO_H1}}"}</h1>
             </StaggerItem>
             <StaggerItem animation={entryAnimations.slideUpFade}>
               <p className="text-lg text-[color:var(--text-secondary)] max-w-xl">
-                Beschreiben Sie Ihr Anliegen und wir melden uns mit einem transparenten
-                Festpreis-Angebot und kostenlos und unverbindlich.
-              </p>
+                {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
             </StaggerItem>
           </StaggerReveal>
         </div>
@@ -59,8 +56,7 @@ export default function AnfragePage() {
             <StaggerItem animation={entryAnimations.slideUpFade}>
               <div className="p-8 rounded-[var(--radius-xl)] bg-[var(--surface-elevated)] border border-[var(--border-subtle)]">
                 <h2 className="typo-h3 text-[color:var(--text-primary)] mb-4">
-                  Zwei Wege zu Ihrem Angebot
-                </h2>
+                  {"Serponado Notfallmaßnahmen"}</h2>
 
                 <div className="grid sm:grid-cols-2 gap-6 mt-8">
                   {/* Option 1: Call */}
@@ -71,16 +67,14 @@ export default function AnfragePage() {
                       </svg>
                     </div>
                     <h3 className="font-semibold text-[color:var(--text-primary)] mb-2">
-                      Sofort-Angebot per Telefon
-                    </h3>
+                      {"Serponado Notfallmaßnahmen"}</h3>
                     <p className="text-sm text-[color:var(--text-secondary)] mb-4">
-                      Für dringende Anliegen und direkter Kontakt mit Festpreis-Auskunft.
-                    </p>
+                      {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
                     <Link
-                      href="tel:+4964418056279"
+                      href="tel:0800-SERP-SOS"
                       className="inline-flex items-center justify-center w-full px-5 py-3 rounded-[var(--radius-md)] bg-[var(--color-red-500)] text-white font-semibold hover:bg-[var(--color-red-600)] transition-colors"
                     >
-                      06441 8056279
+                      {"0800-SERP-SOS"}
                     </Link>
                   </div>
 
@@ -92,11 +86,9 @@ export default function AnfragePage() {
                       </svg>
                     </div>
                     <h3 className="font-semibold text-[color:var(--text-primary)] mb-2">
-                      Schriftliche Anfrage
-                    </h3>
+                      {"Serponado Notfallmaßnahmen"}</h3>
                     <p className="text-sm text-[color:var(--text-secondary)] mb-4">
-                      Nutzen Sie unser Kontaktformular für Ihre detaillierte Anfrage.
-                    </p>
+                      {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
                     <Link
                       href="/kontakt"
                       className="inline-flex items-center justify-center w-full px-5 py-3 rounded-[var(--radius-md)] border-2 border-[var(--color-red-500)] text-[var(--color-red-500)] font-semibold hover:bg-[var(--color-red-500)] hover:text-white transition-colors"
@@ -107,8 +99,7 @@ export default function AnfragePage() {
                 </div>
 
                 <p className="mt-6 text-sm text-[color:var(--text-tertiary)]">
-                  Kostenlos &amp; unverbindlich · Antwort in 30 Min · DSGVO-konform
-                </p>
+                  {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
               </div>
             </StaggerItem>
           </StaggerReveal>

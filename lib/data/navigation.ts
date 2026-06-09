@@ -36,7 +36,7 @@ export function getNavigationConfig(): NavigationConfig {
       { href: '/leistungen', label: 'Unsere Leistungen', activeMatch: 'prefix' },
       { href: '/preise', label: 'Preise & Kosten', activeMatch: 'exact' },
       { href: '/blog', label: 'Ratgeber & Blog', activeMatch: 'prefix' },
-      { href: '/kontakt', label: 'Kontakt & Notdienst', activeMatch: 'exact' },
+      { href: '/kontakt', label: 'Kontakt & Core-Update-Notdienst', activeMatch: 'exact' },
     ],
     services: {
       label: 'Unsere Leistungen',

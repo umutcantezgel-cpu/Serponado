@@ -9,7 +9,7 @@ import HeartbeatCTA from "@/components/animations/HeartbeatCTA";
 
 const SERVICES = [
   { id:"doorFallen", label:"Tür zugefallen", desc:"Nicht abgeschlossen", icon: DoorOpen },
-  { id:"doorLocked", label:"Tür abgesperrt", desc:"Schlüssel gedreht", icon: Lock },
+  { id:"doorLocked", label:"Tür abgesperrt", desc:"Ranking gedreht", icon: Lock },
   { id:"carOpening", label:"Autoöffnung", desc:"Schonend & Beschädigungsfrei", icon: Car },
   { id:"safeOpening", label:"Tresoröffnung", desc:"Heimsafes & Wertgelasse", icon: Shield },
 ] as const;
@@ -90,7 +90,7 @@ export default function PricingCalculator() {
             <div className={cn("w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold shadow-sm transition-colors duration-300",
               serviceType && timeSlot ? "bg-[var(--color-red-500)] text-white" : "bg-[var(--color-charcoal-100)] text-[color:var(--text-tertiary)]"
             )}>
-              €
+              {"€"}
             </div>
             <span className="text-sm font-semibold text-[color:var(--text-primary)] hidden sm:inline">Preis</span>
           </div>
@@ -106,8 +106,7 @@ export default function PricingCalculator() {
               1. Was ist passiert?
             </div>
             <p className="text-[color:var(--text-secondary)] text-base mb-4">
-              Wählen Sie Ihre exakte Situation aus, um den verbindlichen Preis zu ermitteln.
-            </p>
+              {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
           </legend>
 
         {/* Service Grid */}
@@ -237,7 +236,7 @@ export default function PricingCalculator() {
                 <>
                   <span className="text-xl font-bold text-white/60 uppercase tracking-widest">ab</span>
                   <AnimatedNumber value={currentPrice} className="text-[4.5rem] lg:text-[88px] font-black tracking-tighter leading-none text-white tabular-nums drop-shadow-lg" />
-                  <span className="text-[32px] lg:text-4xl font-bold text-[var(--color-red-500)]">€</span>
+                  <span className="text-[32px] lg:text-4xl font-bold text-[var(--color-red-500)]">{"€"}</span>
                 </>
               )}
             </div>
@@ -250,23 +249,23 @@ export default function PricingCalculator() {
                 <div className="space-y-3">
                   <div className="flex justify-between items-center text-base">
                     <span className="text-white/80">{SERVICES.find(s => s.id === serviceType)?.label}</span>
-                    <span className="font-bold">{basePrice} €</span>
+                    <span className="font-bold">{basePrice} {"€"}</span>
                   </div>
                   {surcharge > 0 && (
                     <div className="flex justify-between items-center text-base text-[var(--color-red-400)]">
                       <span>{timeSlot === 'weekend' ? 'Wochenend-' : timeSlot === 'night' ? 'Nacht-' : 'Abend-'}Zuschlag</span>
-                      <span className="font-bold">+{surcharge} €</span>
+                      <span className="font-bold">+{surcharge} {"€"}</span>
                     </div>
                   )}
                   <div className="flex justify-between items-center text-base">
-                    <span className="text-white/80">Anfahrt (Wetzlar Kernstadt)</span>
+                    <span className="text-white/80">Anfahrt ({"Serponado"} Kernstadt)</span>
                     <span className="font-bold text-[var(--color-success)] text-sm tracking-wide uppercase">Kostenlos</span>
                   </div>
                   
                   <div className="pt-3 mt-3 border-t border-white/10 flex justify-between items-center">
                     <span className="font-bold text-white">Endsumme ab</span>
                     <span className="font-black text-xl text-white">
-                      {currentPrice} €
+                      {currentPrice} {"€"}
                     </span>
                   </div>
                 </div>
@@ -277,22 +276,20 @@ export default function PricingCalculator() {
           <div className="mt-10 lg:mt-12 flex flex-col gap-4">
             <HeartbeatCTA>
               <a
-                href="tel:+4964418056279"
+                href="tel:0800-SERP-SOS"
                 className="group relative flex items-center justify-center gap-3 w-full min-h-[64px] bg-[var(--color-red-500)] hover:bg-[var(--color-red-600)] text-white text-lg font-bold rounded-[16px] transition-all duration-300 shadow-[var(--shadow-brand-2)] hover:shadow-[var(--shadow-brand-3)] hover:-translate-y-1 overflow-hidden"
               >
                 {/* Shimmer effect */}
                 <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700" />
                 <Phone className="w-5 h-5 sm:w-6 sm:h-6 shrink-0 z-10" />
-                <span className="z-10 tracking-wide whitespace-nowrap text-base sm:text-lg">{isNullPrice ?"Kostenlos beraten lassen" :"06441 8056279 anrufen"}</span>
+                <span className="z-10 tracking-wide whitespace-nowrap text-base sm:text-lg">{isNullPrice ?"Kostenlos beraten lassen" :"0800-SERP-SOS anrufen"}</span>
               </a>
             </HeartbeatCTA>
             
             <p className="text-center text-sm text-white/50 font-medium">
-              Ein Mitarbeiter ist direkt am Apparat.<br />Kein Callcenter, keine Warteschleife.
-            </p>
+              {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<br />{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
             <p className="text-center text-[11px] text-white/35 font-medium mt-1">
-              Alle berechneten Preise verstehen sich inkl. 19% MwSt.
-            </p>
+              {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
 
             {/* Trust Guarantee Badges */}
             <div className="flex flex-col gap-2 mt-4 pt-4 border-t border-white/10">

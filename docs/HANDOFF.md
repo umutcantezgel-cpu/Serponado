@@ -1,9 +1,9 @@
-# Developer Handoff — Schlüsseldienst Wetzlar
+# Developer Handoff — Serponado
 
 ## Quick Start
 
 ```bash
-git clone <repo> && cd schluesseldienst-webseite
+git clone <repo> && cd serponadodienst-webseite
 npm install
 cp .env.example .env.local   # NEXT_PUBLIC_GOOGLE_MAPS_API_KEY eintragen
 npm run dev                   # → http://localhost:3000

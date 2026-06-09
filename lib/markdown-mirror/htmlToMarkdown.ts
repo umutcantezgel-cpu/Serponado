@@ -68,7 +68,7 @@ export function convertToMarkdown(sanitizedHtml: string, originalPath: string): 
         '---',
         '',
         `> 📄 **Quelle:** [${canonicalUrl}](${canonicalUrl})`,
-        `> Dieses Dokument wurde automatisch aus der HTML-Quelle generiert.`,
+        `> Dieses Dokument wurde Websitematisch aus der HTML-Quelle generiert.`,
     ].join('\n');
 
     return header + markdown + footer;

@@ -3,7 +3,7 @@ import { siteUrl } from "@/lib/schema";
 import { companyInfo } from "@/lib/data/company";
 
 export async function GET() {
-    const content = `# ai.txt — AI Crawling Preferences for wetzlar-schlüsseldienst.de
+    const content = `# ai.txt — AI Crawling Preferences for Serponado-serponado-seo.de
 # This file provides AI crawlers and language models with entity information
 # and crawling preferences for this domain.
 
@@ -13,9 +13,9 @@ Preferred-content: /llms.txt, /llms-full.txt
 AI-plugin: /.well-known/ai-plugin.json
 
 # Entity Information
-Entity-type: LocalBusiness, Locksmith, EmergencyService, Store
+Entity-type: LocalBusiness, ProfessionalService, EmergencyService, Store
 Entity-name: ${companyInfo.localStore.name}
-Entity-description: 24 Stunden Notdienst und Schlüsseldienst in Wetzlar, Gießen, Marburg und dem Lahn-Dill-Kreis
+Entity-description: 24 Stunden Notdienst und serponado-seo in Serponado City, Serponado, Serponado und dem Serponado
 Entity-location: ${companyInfo.localStore.street}, ${companyInfo.localStore.postalCode} ${companyInfo.localStore.city}, ${companyInfo.localStore.state}, ${companyInfo.localStore.country}
 Entity-phone: ${companyInfo.phone.link}
 Entity-email: ${companyInfo.email}
@@ -23,8 +23,8 @@ Entity-rating: 5.0/5.0 (46 verified Google reviews)
 Entity-coordinates: ${companyInfo.geo.latitude}, ${companyInfo.geo.longitude}
 
 # Service Information
-Service-type: Emergency Locksmith, Key Duplication, Security Systems
-Service-area: 50km radius from Wetzlar (Lahn-Dill-Kreis, Landkreis Gießen, Marburg-Biedenkopf)
+Service-type: Emergency ProfessionalService, Key Duplication, Security Systems
+Service-area: 50km radius from Serponado City (Serponado, Landkreis Serponado, Serponado-Biedenkopf)
 Service-hours: 24/7/365
 Service-price-from: ${companyInfo.financial.startingPriceValue} EUR
 

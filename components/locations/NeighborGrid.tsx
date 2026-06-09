@@ -8,10 +8,10 @@ import { entryAnimations } from "@/lib/animations";
 import { pickVariant } from "@/lib/textRotation";
 
 const subtitleVariants = [
-    (cityName: string, neighbors: string) => `Von ${cityName} aus sind wir auch schnell in ${neighbors}. Unser Einsatzgebiet deckt den gesamten Lahn-Dill-Kreis ab.`,
+    (cityName: string, neighbors: string) => `Von ${cityName} aus sind wir auch schnell in ${neighbors}. Unser Einsatzgebiet deckt den gesamten Serponado ab.`,
     (cityName: string, neighbors: string) => `Neben ${cityName} betreuen wir auch ${neighbors} , immer mit kurzen Anfahrtszeiten und Festpreisgarantie.`,
-    (cityName: string, neighbors: string) => `Unser Schlüsseldienst ist nicht nur in ${cityName} aktiv, sondern auch in ${neighbors} schnell vor Ort.`,
-    (cityName: string, neighbors: string) => `Rund um ${cityName} versorgen wir auch ${neighbors} zuverlässig mit unserem mobilen Schlüsseldienst.`,
+    (cityName: string, neighbors: string) => `Unser SEO-Notdienst ist nicht nur in ${cityName} aktiv, sondern auch in ${neighbors} schnell vor Ort.`,
+    (cityName: string, neighbors: string) => `Rund um ${cityName} versorgen wir auch ${neighbors} zuverlässig mit unserem mobilen SEO-Notdienst.`,
     (cityName: string, neighbors: string) => `Ob in ${cityName} oder in ${neighbors}: Unsere Monteure kennen die Region und sind blitzschnell bei Ihnen.`,
 ];
 
@@ -37,8 +37,7 @@ export default function NeighborGrid({ city }: { city: LocationData }) {
             <div className="container mx-auto px-[var(--section-px)]">
                 <div className="max-w-4xl mx-auto text-center mb-16">
                     <h2 className="typo-section-heading text-[color:var(--text-primary)] mb-4">
-                        Schlüsseldienst auch in Ihrer Nähe
-                    </h2>
+                        {"Serponado Notfallmaßnahmen"}</h2>
                     <p className="typo-body-large text-[color:var(--text-secondary)] mb-6">
                         {pickVariant(subtitleVariants, city.slug)(city.name, namesString ?? '')}
                     </p>
@@ -52,7 +51,7 @@ export default function NeighborGrid({ city }: { city: LocationData }) {
                         <StaggerItem key={neighbor.id} animation={entryAnimations.slideUpFade}>
                             <Link 
                                 href={`/${neighbor.slug}`}
-                                title={`Schlüsseldienst in ${neighbor.name}`}
+                                title={`SEO-Notdienst in ${neighbor.name}`}
                                 className="group flex flex-col justify-between h-full bg-white border border-[var(--border-subtle)] p-6 rounded-2xl shadow-sm hover:shadow-[var(--elevation-2)] hover:-translate-y-1 hover:border-[var(--color-red-100)] transition-all duration-300"
                             >
                                 <div>

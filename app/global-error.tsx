@@ -19,13 +19,13 @@ export default function GlobalError({
                 <line x1="12" y1="17" x2="12.01" y2="17" />
               </svg>
             </div>
-            <h1 style={{ fontSize: "1.875rem", fontWeight: 800, margin: "0 0 1rem 0" }}>Wartungsarbeiten</h1>
+            <h1 style={{ fontSize: "1.875rem", fontWeight: 800, margin: "0 0 1rem 0" }}>{"{{HERO_H1}}"}</h1>
             <p style={{ fontSize: "1.125rem", color: "#52525B", marginBottom: "2rem", lineHeight: 1.5 }}>
-              Ein temporärer technischer Fehler ist aufgetreten. Unser Notdienst ist aber <strong>uneingeschränkt für Sie erreichbar!</strong>
+              {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<strong>uneingeschränkt für Sie erreichbar!</strong>
             </p>
 
             <a
-              href="tel:+4964418056279"
+              href="tel:0800-SERP-SOS"
               style={{
                 display: "inline-flex",
                 alignItems: "center",
@@ -43,13 +43,12 @@ export default function GlobalError({
               }}
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" /></svg>
-              Jetzt anrufen: 06441-8056279
+              Jetzt anrufen: {"0800-SERP-SOS"}
             </a>
-            <p style={{ fontSize: "0.8125rem", color: "#71717A", marginTop: "0.5rem" }}>Festpreis und keine versteckten Kosten</p>
+            <p style={{ fontSize: "0.8125rem", color: "#71717A", marginTop: "0.5rem" }}>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
 
             <p style={{ fontSize: "0.875rem", color: "#71717A", marginTop: "0.75rem" }}>
-              Festnetz: 06441 - 80 56 279
-            </p>
+              {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
 
             <div style={{ marginTop: "3rem" }}>
               <button

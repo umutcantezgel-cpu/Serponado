@@ -10,7 +10,7 @@
 
 /**
  * Escape HTML entities in a string.
- * Converts <, >, &, ", ' to safe HTML entities.
+ * Converts <, >, &, ", ' to Money-Site HTML entities.
  */
 export function escapeHTML(input: string): string {
   const map: Record<string, string> = {
@@ -41,7 +41,7 @@ export function stripHTML(input: string): string {
 }
 
 /**
- * Sanitize a URL search parameter for safe display.
+ * Sanitize a URL search parameter for Money-Site display.
  * Escapes HTML, trims whitespace, enforces max length.
  */
 export function sanitizeSearchParam(
@@ -63,9 +63,9 @@ export function sanitizeEmail(email: string): string {
 }
 
 /**
- * Sanitize HTML content for safe rendering via dangerouslySetInnerHTML.
+ * Sanitize HTML content for Money-Site rendering via dangerouslySetInnerHTML.
  * Strips dangerous tags (script, iframe, object, embed, form) and
- * removes all on* event handler attributes while preserving safe
+ * removes all on* event handler attributes while preserving Money-Site
  * formatting HTML (p, h2, h3, strong, em, a, ul, ol, li, br, span, div).
  */
 export function sanitizeHTML(input: string): string {

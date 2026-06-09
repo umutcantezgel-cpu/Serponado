@@ -11,8 +11,8 @@ import { entryAnimations } from"@/lib/animations";
 import FAQFilterSection from"@/components/ui/FAQFilterSection";
 
 export const metadata = generateSharedMetadata({
- title: "Häufige Fragen (FAQ) | Schlüssel Schmiede Wetzlar",
- description: "Fragen zur Türöffnung? ✔️ Wie lange dauert es? ✔️ Was kostet es? ✔️ Wird die Tür beschädigt? Alle wichtigen Infos für Wetzlar hier im FAQ lesen.",
+ title: "Serponado Disaster Recovery",
+ description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings.",
  path: "/faq",
  exactTitle: true,
 });
@@ -62,13 +62,12 @@ export default function FAQPage() {
         </StaggerItem>
         <StaggerItem animation={entryAnimations.slideUpFade}>
           <h1 className="typo-hero-display text-[color:var(--text-primary)]">
-            Häufig gestellte <span className="text-[var(--color-red-500)]">Fragen</span>
+            {"{{HERO_H1}}"}<span className="text-[var(--color-red-500)]">Fragen</span>
           </h1>
         </StaggerItem>
         <StaggerItem animation={entryAnimations.slideUpFade}>
           <p className="mx-auto mt-6 max-w-2xl text-lg sm:text-xl text-[color:var(--text-secondary)] leading-relaxed">
-            Die Schlüssel Schmiede Wetzlar beantwortet die wichtigsten Fragen rund um Kosten, Anfahrt, Leistungen und Notdienst , transparent und ehrlich.
-          </p>
+            {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
         </StaggerItem>
       </StaggerReveal>
     </div>
@@ -82,8 +81,7 @@ export default function FAQPage() {
     <StaggerReveal className="mx-auto max-w-3xl" animation={entryAnimations.slideUpFade}>
      <StaggerItem animation={entryAnimations.slideUpFade}>
       <p className="text-lg text-[color:var(--text-secondary)] leading-relaxed bg-[var(--surface-secondary)] p-6 rounded-2xl border border-[var(--border-subtle)]">
-        <strong className="text-[color:var(--text-primary)]">Transparenz an erster Stelle:</strong> Schlüsseldienst Wetzlar ist ein 24/7-Schlüsselnotdienst mit <strong className="text-[color:var(--text-primary)]">Festpreisen ab 99 Euro</strong>, der Wetzlar, Gießen, Marburg und den gesamten Lahn-Dill-Kreis innerhalb von <strong className="text-[color:var(--text-primary)]">15-30 Minuten</strong> erreicht und über 44 Google-Bewertungen mit einer Durchschnittsnote von 5.0 verfügt. Auf dieser Seite finden Sie Antworten auf über 30 häufig gestellte Fragen zu Kosten, Anfahrt, Leistungen und Sicherheit.
-      </p>
+        <strong className="text-[color:var(--text-primary)]">Transparenz an erster Stelle:</strong> {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<strong className="text-[color:var(--text-primary)]">{"Festpreis"}n ab {"49"} {"€"}</strong>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<strong className="text-[color:var(--text-primary)]">Soforthilfe</strong> {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
      </StaggerItem>
     </StaggerReveal>
    </section>

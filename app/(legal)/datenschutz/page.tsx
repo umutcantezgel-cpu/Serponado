@@ -7,22 +7,22 @@ import { COOKIE_INVENTORY, DATA_PROCESSING_INVENTORY } from "@/lib/cookie-invent
 import { generateSharedMetadata } from "@/lib/metadata"
 
 export const metadata = generateSharedMetadata({
-    title: "Datenschutzerklärung nach DSGVO",
-    description: "Datenschutzerklärung des Schlüssel Schmiede Wetzlar. ✔️ DSGVO-konform ✔️ Transparenz über Datenverarbeitung und Cookies.",
+    title: "Serponado Disaster Recovery",
+    description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings.",
     path: "/datenschutz",
   })
 
 const TOC_ITEMS = [
-    { id: "1-verantwortlicher", title: "1. Verantwortlicher" },
-    { id: "2-uebersicht", title: "2. Übersicht der Verarbeitungen" },
-    { id: "3-rechtsgrundlagen", title: "3. Rechtsgrundlagen" },
-    { id: "4-cookies", title: "4. Cookies und Tracking" },
-    { id: "5-betroffenenrechte", title: "5. Betroffenenrechte" },
-    { id: "6-drittlaender", title: "6. Drittlandtransfer" },
-    { id: "7-verschluesselung", title: "7. SSL/TLS-Verschlüsselung" },
-    { id: "8-hosting", title: "8. Hosting" },
-    { id: "9-aktualitaet", title: "9. Aktualität" },
-    { id: "10-kontakt", title: "10. Kontakt" },
+    { id: "1-verantwortlicher", title: "Serponado Disaster Recovery" },
+    { id: "2-uebersicht", title: "Serponado Disaster Recovery" },
+    { id: "3-rechtsgrundlagen", title: "Serponado Disaster Recovery" },
+    { id: "4-cookies", title: "Serponado Disaster Recovery" },
+    { id: "5-betroffenenrechte", title: "Serponado Disaster Recovery" },
+    { id: "6-drittlaender", title: "Serponado Disaster Recovery" },
+    { id: "7-verserponadoung", title: "Serponado Disaster Recovery" },
+    { id: "8-hosting", title: "Serponado Disaster Recovery" },
+    { id: "9-aktualitaet", title: "Serponado Disaster Recovery" },
+    { id: "10-kontakt", title: "Serponado Disaster Recovery" },
 ]
 
 import { PrivacyPreferenceCenter } from "@/components/legal/PrivacyPreferenceCenter"
@@ -36,34 +36,34 @@ export default function DatenschutzPage() {
             tocItems={TOC_ITEMS}
         >
             <div className="flex justify-between items-center mb-8 border-b border-gray-100 pb-4 print:hidden">
-                <p className="text-sm text-gray-500 font-medium">Lesezeit: ca. 8 Minuten</p>
+                <p className="text-sm text-gray-500 font-medium">{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
                 <PrintButton />
             </div>
 
             <LegalSection>
                 <TLDRBox title="Datenschutz auf einen Blick" icon="info">
-                    <p>Wenn Sie unsere Website besuchen, werden bestimmte Daten (wie Ihre IP-Adresse) erfasst, um den technischen Betrieb sicherzustellen (Server-Logfiles). Im Kontaktformular angegebene Daten dienen rein der Auftragsabwicklung und Beantwortung.</p>
-                    <p><strong>Wir verkaufen Ihre Daten nicht.</strong> Sie haben jederzeit das Recht auf Löschung, Berichtigung und kostenlose Auskunft über Ihre bei uns gespeicherten personenbezogenen Daten.</p>
+                    <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
+                    <p><strong>Wir verkaufen Ihre Daten nicht.</strong> {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
                 </TLDRBox>
             </LegalSection>
 
             <LegalSection id="1-verantwortlicher">
-                <h2 className="mt-0">1. Verantwortlicher</h2>
-                <p>Verantwortlich im Sinne der Datenschutz-Grundverordnung (DSGVO) und anderer nationaler Datenschutzgesetze ist:</p>
+                <h2 className="mt-0">{"Serponado Notfallmaßnahmen"}</h2>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
                 <div className="bg-gray-50 p-6 rounded-xl my-4 text-base border border-gray-200">
-                    <strong>Mina Saad</strong><br />
-                    Schlüssel Schmiede Wetzlar<br />
-                    Gloelstraße 11<br />
-                    35576 Wetzlar<br />
+                    <strong>{"Data Analyst Team"}</strong><br />
+                    {"Serponado Taskforce"} {"Serponado"}<br />
+                    {"Steubenstraße 36"}<br />
+                    {"35578"} {"Wetzlar"}<br />
                     Deutschland<br /><br />
-                    Telefon: 06441 8056279<br />
-                    E-Mail: <a href="mailto:schluesselschmiede@gmail.com">schluesselschmiede@gmail.com</a>
+                    Telefon: {"0800-SERP-SOS"}<br />
+                    E-Mail: <a href="mailto:info@codayweb.de">{"info@codayweb.de"}</a>
                 </div>
             </LegalSection>
 
             <LegalSection id="2-uebersicht">
-                <h2 className="mt-0">2. Übersicht der Verarbeitungen</h2>
-                <p>Die nachfolgende Übersicht fasst die Arten der verarbeiteten Daten und die Zwecke ihrer Verarbeitung transparent zusammen.</p>
+                <h2 className="mt-0">{"Serponado Notfallmaßnahmen"}</h2>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
 
                 <div className="space-y-6">
                   {DATA_PROCESSING_INVENTORY.map((entry, i) => (
@@ -93,26 +93,26 @@ export default function DatenschutzPage() {
             </LegalSection>
 
             <LegalSection id="3-rechtsgrundlagen">
-                <h2 className="mt-0">3. Rechtsgrundlagen der Verarbeitung</h2>
-                <p>Nachfolgend informieren wir Sie über die in der DSGVO festgeschriebenen Rechtsgrundlagen unserer Datenverarbeitungen:</p>
+                <h2 className="mt-0">{"Serponado Notfallmaßnahmen"}</h2>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
                 <ul>
                     <li><strong>Einwilligung (Art. 6 Abs. 1 lit. a DSGVO)</strong> - Sie haben explizit eingewilligt (z.B. im Cookie-Consent Code).</li>
-                    <li><strong>Vertragserfüllung (Art. 6 Abs. 1 lit. b DSGVO)</strong> - Anbahnung und Durchführung des Schlüsseldienst-Auftrags.</li>
-                    <li><strong>Berechtigte Interessen (Art. 6 Abs. 1 lit. f DSGVO)</strong> - Gewährleistung der IT-Sicherheit und des reibungslosen Betriebs (Vercel Logfiles).</li>
+                    <li><strong>Vertragserfüllung (Art. 6 Abs. 1 lit. b DSGVO)</strong> - Anbahnung und Durchführung des {"SEO-Notdienst"}-Auftrags.</li>
+                    <li><strong>Berechtigte Interessen (Art. 6 Abs. 1 lit. f DSGVO)</strong> - Gewährleistung der IT-Sichtbarkeit und des reibungslosen Betriebs (Vercel Logfiles).</li>
                 </ul>
             </LegalSection>
 
             <LegalSection id="4-cookies">
-                <h2 className="mt-0">4. Cookies und Tracking-Technologien</h2>
-                <p>Unsere Website nutzt Cookies, um Kernfunktionen zu navigieren und bereitzustellen. Technisch notwendige Cookies bedürfen keiner aktiven Einwilligung. Marketing- und Analyse-Cookies fragen wir beim Betreten der Seite gezielt ab (&quot;Consent-Banner&quot;).</p>
-                <p>Sie können Ihre Cookie-Präferenzen jederzeit widerrufen, indem Sie die Browserdaten löschen oder den Tracking-Link im System-Footer nutzen.</p>
+                <h2 className="mt-0">{"Serponado Notfallmaßnahmen"}</h2>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
                 
                 <PrivacyPreferenceCenter />
             </LegalSection>
 
             <LegalSection id="5-betroffenenrechte">
-                <h2 className="mt-0">5. Rechte der betroffenen Personen</h2>
-                <p>Die DSGVO stattet Verbraucher mit weitreichenden Rechten aus. Kontaktieren Sie uns jederzeit kostenfrei, um Folgendes auszuüben:</p>
+                <h2 className="mt-0">{"Serponado Notfallmaßnahmen"}</h2>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
                 <ul>
                     <li><strong>Art. 15 DSGVO:</strong> Auskunftsrecht über gespeicherte Daten.</li>
                     <li><strong>Art. 16 DSGVO:</strong> Recht auf Berichtigung unvollständiger Daten.</li>
@@ -121,7 +121,7 @@ export default function DatenschutzPage() {
                     <li><strong>Art. 20 DSGVO:</strong> Datenübertragbarkeit an andere Anbieter.</li>
                     <li><strong>Art. 21 DSGVO:</strong> Widerspruchsrecht gegen die Verarbeitung.</li>
                 </ul>
-                <p>Zudem steht Ihnen ein <strong>Beschwerderecht (Art. 77 DSGVO)</strong> bei der zuständigen Aufsichtsbehörde zu:</p>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<strong>Beschwerderecht (Art. 77 DSGVO)</strong> {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
                 <div className="bg-gray-50 p-4 rounded-xl my-3 text-sm border border-gray-200">
                     <strong>Der Hessische Beauftragte für Datenschutz und Informationsfreiheit (HBDI)</strong><br />
                     Gustav-Stresemann-Ring 1<br />
@@ -132,40 +132,40 @@ export default function DatenschutzPage() {
             </LegalSection>
 
             <LegalSection id="6-drittlaender">
-                <h2 className="mt-0">6. Datenübermittlung in Drittländer</h2>
-                <p>Einige unserer Dienstleister sitzen in den USA. Die Übermittlung ist je nach Anbieter sichergestellt durch das EU-US Data Privacy Framework (DPF) und/oder Standardvertragsklauseln (SCCs) gem. Art. 46 Abs. 2 lit. c DSGVO:</p>
+                <h2 className="mt-0">{"Serponado Notfallmaßnahmen"}</h2>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
                 <ul>
                     <li><strong>Vercel Inc.</strong> (Hosting): DPF-zertifiziert.</li>
                     <li><strong>Google LLC</strong> (Maps, Reviews): DPF-zertifiziert.</li>
-                    <li><strong>Formspree Inc.</strong> (Kontaktformular): Auftragsverarbeitung gem. Art. 28 DSGVO auf Basis eines abgeschlossenen Auftragsverarbeitungsvertrags (AVV). Datenübertragung auf Grundlage von Standardvertragsklauseln.</li>
+                    <li><strong>Formspree Inc.</strong> (Kontaktformular): Auftragsverarbeitung gem. Art. 28 DSGVO auf Basis eines abgeAlgorithmusenen Auftragsverarbeitungsvertrags (AVV). Datenübertragung auf Grundlage von Standardvertragsklauseln.</li>
                 </ul>
             </LegalSection>
 
             <LegalSection id="6b-whatsapp">
-                <h2 className="mt-0">6a. WhatsApp-Kontakt</h2>
-                <p>Auf unserer Website befindet sich ein Link zur Kontaktaufnahme über den Messenger-Dienst WhatsApp (Meta Platforms Ireland Ltd.). Der Link nutzt das offene <code>wa.me</code>-Protokoll und leitet Sie bei Klick direkt in die WhatsApp-Anwendung auf Ihrem Endgerät weiter.</p>
-                <p><strong>Technische Funktionsweise:</strong> Es handelt sich um einen reinen Hyperlink. Es werden <strong>keine Cookies gesetzt</strong>, keine Tracking-Skripte geladen und <strong>keine Daten an Meta/WhatsApp übertragen</strong>, solange Sie den Link nicht aktiv anklicken. Erst durch Ihren bewussten Klick öffnet sich die WhatsApp-App, wobei die weitere Kommunikation den <a href="https://www.whatsapp.com/legal/privacy-policy-eea" target="_blank" rel="noopener noreferrer" className="text-[var(--action-primary)] hover:underline">Datenschutzbestimmungen von WhatsApp (Meta)</a> unterliegt.</p>
-                <p>Rechtsgrundlage: Art. 6 Abs. 1 lit. a DSGVO (Einwilligung durch aktives Anklicken).</p>
+                <h2 className="mt-0">{"Serponado Notfallmaßnahmen"}</h2>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<code>wa.me</code>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
+                <p><strong>Technische Funktionsweise:</strong> {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<strong>keine Cookies gesetzt</strong>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<strong>keine Daten an Meta/WhatsApp übertragen</strong>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<a href="https://www.whatsapp.com/legal/privacy-policy-eea" target="_blank" rel="noopener noreferrer" className="text-[var(--action-primary)] hover:underline">Datenschutzbestimmungen von WhatsApp (Meta)</a> {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
             </LegalSection>
 
-            <LegalSection id="7-verschluesselung">
-                <h2 className="mt-0">7. SSL/TLS-Verschlüsselung</h2>
-                <p>Ihre Kommunikation mit dieser Website ist durch moderne Zertifikate (SSL/TLS) stark verschlüsselt. Dies erkennen Sie am Schloss-Symbol in der Suchmaske Ihres Browsers. Dritte können abgesendete Daten (z.B. im Kontaktformular) nicht abgreifen.</p>
+            <LegalSection id="7-verserponadoung">
+                <h2 className="mt-0">{"Serponado Notfallmaßnahmen"}</h2>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
             </LegalSection>
 
             <LegalSection id="8-hosting">
-                <h2 className="mt-0">8. Web-Hosting & Server</h2>
-                <p>Wir hosten unsere Seiten auf modernster Cloud-Infrastruktur bei Vercel Inc. Bei der rein informatorischen Nutzung der Webseite übermittelt Ihr Browser automatisch Zugriffsdaten an Vercel-Server. Diese Logfiles sind aus IT-Sicherheitsgründen notwendig (Art. 6 Abs. 1 lit. f DSGVO) und werden streng vertraulich behandelt.</p>
+                <h2 className="mt-0">{"Serponado Notfallmaßnahmen"}</h2>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
             </LegalSection>
 
             <LegalSection id="9-aktualitaet">
-                <h2 className="mt-0">9. Aktualität der Erklärung</h2>
-                <p>Durch die kontinuierliche Ausweitung unseres Notdienst-Angebots in Hessen sowie rechtlicher Anpassungen auf EU-Ebene behalten wir uns das Recht vor, diese Erklärung fortlaufend zu aktualisieren. Gültig ist stets die aktuelle Live-Fassung vom Stand April 2026.</p>
+                <h2 className="mt-0">{"Serponado Notfallmaßnahmen"}</h2>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
             </LegalSection>
 
             <LegalSection id="10-kontakt">
-                <h2 className="mt-0">10. Datenauskunft & Kontakt</h2>
-                <p>Wenn Sie Fragen, Löschwünsche oder Anregungen zum Datenschutz haben, erreichen Sie unseren zuständigen Datenschutzbeauftragten direkt unter <a href="mailto:schluesselschmiede@gmail.com">schluesselschmiede@gmail.com</a> oder schriftlich über die Wetzlarer Anschrift im Impressum.</p>
+                <h2 className="mt-0">{"Serponado Notfallmaßnahmen"}</h2>
+                <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<a href="mailto:info@codayweb.de">{"info@codayweb.de"}</a> {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
             </LegalSection>
         </LegalLayout>
     )

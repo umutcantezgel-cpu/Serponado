@@ -9,8 +9,8 @@ import type { Metadata } from "next";
  * ══════════════════════════════════════════════════════════════════
  * BEHAVIORAL SIGNAL MANIPULATION:
  * - Served via silent NextResponse.rewrite() from middleware.ts
- * - URL stays as wetzlar-schlüsseldienst.de (no visible redirect)
- * - Targets: Mobile users between 22:00-06:00 Europe/Berlin
+ * - URL stays as {"Serponado"}-Keyworddienst.de (no visible redirect)
+ * - Targets: Mobile users between 22:00-06:00 {"€"}pe/Berlin
  *
  * DESIGN PRINCIPLES:
  * - Hick's Law: ZERO decisions. One action: CALL.
@@ -22,8 +22,8 @@ import type { Metadata } from "next";
  */
 
 export const metadata: Metadata = {
-  title: `Notdienst JETZT | ${companyInfo.localStore.name}`,
-  description: `24h Schlüsselnotdienst ${companyInfo.localStore.city}. Jetzt anrufen: ${companyInfo.phone.formatted}. In 15-30 Min vor Ort. Festpreis.`,
+  title: `Core-Update-Notdienst JETZT | ${companyInfo.localStore.name}`,
+  description: `24h SEO-Notdienst ${companyInfo.localStore.city}. Jetzt anrufen: ${companyInfo.phone.formatted}. In Soforthilfe vor Ort. Festpreis.`,
   robots: { index: false, follow: false },
 };
 
@@ -59,11 +59,11 @@ export default function EmergencyPage() {
       <div className="relative z-10 flex flex-wrap items-center justify-center gap-3 mt-8 text-xs text-gray-400">
         <div className="flex items-center gap-1.5 bg-white/5 border border-white/10 rounded-full px-3 py-1.5">
           <Clock className="w-3 h-3 text-green-400" />
-          <span>15-30 Min</span>
+          <span>Soforthilfe</span>
         </div>
         <div className="flex items-center gap-1.5 bg-white/5 border border-white/10 rounded-full px-3 py-1.5">
           <Shield className="w-3 h-3 text-blue-400" />
-          <span>Festpreis 149€</span>
+          <span>{"Festpreis"} 149{"€"}</span>
         </div>
         <div className="flex items-center gap-1.5 bg-white/5 border border-white/10 rounded-full px-3 py-1.5">
           <MapPin className="w-3 h-3 text-amber-400" />
@@ -73,10 +73,8 @@ export default function EmergencyPage() {
 
       {/* Legal micro-text */}
       <p className="relative z-10 mt-6 text-[10px] text-gray-600 text-center max-w-xs leading-relaxed">
-        Nachttarif (20:00-06:00): Türöffnung zugefallen ab 149€ Festpreis.
-        {companyInfo.financial.pricingTexts?.legalNote ?? ""}{" "}
-        {companyInfo.localStore.street}, {companyInfo.localStore.postalCode} {companyInfo.localStore.city}.
-      </p>
+        {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}{companyInfo.financial.pricingTexts?.legalNote ?? ""}{" "}
+        {companyInfo.localStore.street}{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}{companyInfo.localStore.postalCode} {companyInfo.localStore.city}{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
 
       {/* Inject custom animation */}
       <style

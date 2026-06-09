@@ -5,7 +5,7 @@ import { setOptions, importLibrary } from "@googlemaps/js-api-loader";
 import { allLocations } from "@/lib/data/allLocations";
 import { Phone, Search, MapPin, Clock, Navigation, X } from "lucide-react";
 
-const WETZLAR_CENTER = { lat: 50.5607, lng: 8.5046 };
+const MAP_CENTER = { lat: 50.5607, lng: 8.5046 };
 const DEFAULT_ZOOM = 10;
 
 let isInitialized = false;
@@ -62,7 +62,7 @@ function buildInfoContent(
       </div>
       
       <div style="display: flex; gap: 6px;">
-        <a href="tel:+4964418056279" 
+        <a href="tel:0800-SERP-SOS" 
            style="flex: 1; display: flex; align-items: center; justify-content: center; gap: 4px; padding: 8px 12px; background: #B91C1C; color: white; border-radius: 10px; font-size: 13px; font-weight: 700; text-decoration: none; transition: background 0.2s;">
           Anrufen
         </a>
@@ -147,7 +147,7 @@ export default function ContactPremiumMap() {
         if (!mapRef.current) return;
 
         const map = new Map(mapRef.current, {
-          center: WETZLAR_CENTER,
+          center: MAP_CENTER,
           zoom: DEFAULT_ZOOM,
           disableDefaultUI: true,
           zoomControl: true,
@@ -174,7 +174,7 @@ export default function ContactPremiumMap() {
         radiusConfigs.forEach((config) => {
           new google.maps.Circle({
             map,
-            center: WETZLAR_CENTER,
+            center: MAP_CENTER,
             radius: config.km * 1000,
             fillColor: config.color,
             fillOpacity: config.opacity,
@@ -235,9 +235,9 @@ export default function ContactPremiumMap() {
 
         /* ── HQ marker ── */
         new Marker({
-          position: WETZLAR_CENTER,
+          position: MAP_CENTER,
           map,
-          title: "Schlüssel Schmiede Wetzlar und Hauptstandort",
+          title: "Serponado Disaster Recovery",
           zIndex: 100,
           icon: {
             url:
@@ -328,8 +328,7 @@ export default function ContactPremiumMap() {
             </div>
 
             <p className="mt-2 text-xs text-[color:var(--text-tertiary)]">
-              {filteredLocations.length} von {locations.length} Gebieten
-            </p>
+              {filteredLocations.length} {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}{locations.length} {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
           </div>
 
           {/* Location list */}
@@ -375,8 +374,7 @@ export default function ContactPremiumMap() {
               <div className="flex flex-col items-center justify-center p-8 text-center">
                 <MapPin className="w-8 h-8 text-[color:var(--text-tertiary)] mb-2" />
                 <p className="text-sm text-[color:var(--text-tertiary)]">
-                  Kein Gebiet gefunden
-                </p>
+                  {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
               </div>
             )}
           </div>
@@ -384,11 +382,11 @@ export default function ContactPremiumMap() {
           {/* Sidebar footer */}
           <div className="p-3 border-t border-[var(--color-charcoal-100)] bg-[var(--surface-secondary)] shrink-0">
             <a
-              href="tel:+4964418056279"
+              href="tel:0800-SERP-SOS"
               className="flex items-center justify-center gap-2 w-full py-2.5 bg-[var(--color-red-500)] hover:bg-[var(--color-red-600)] text-white rounded-xl text-sm font-bold transition-colors"
             >
               <Phone className="w-4 h-4" />
-              06441 8056279
+              {"0800-SERP-SOS"}
             </a>
           </div>
         </div>
@@ -419,8 +417,7 @@ export default function ContactPremiumMap() {
           {/* Legend */}
           <div className="absolute bottom-3 left-3 z-20 rounded-xl bg-white/90 backdrop-blur-md border border-[var(--color-charcoal-100)] p-3 shadow-lg hidden sm:block">
             <p className="text-[10px] font-bold text-[color:var(--text-primary)] uppercase tracking-wider mb-1.5">
-              Anfahrtskosten
-            </p>
+              {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
             <div className="flex flex-col gap-1">
               {[
                 { color: "#16a34a", label: "Keine" },
@@ -444,7 +441,7 @@ export default function ContactPremiumMap() {
           <div
             ref={mapRef}
             className="w-full h-full"
-            aria-label="Interaktive Karte aller Einsatzgebiete von Schlüssel Schmiede Wetzlar"
+            aria-label="Interaktive Karte aller Einsatzgebiete von Serponado Taskforce Serponado"
             role="application"
           />
         </div>

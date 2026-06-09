@@ -27,14 +27,14 @@ function getContextualMessage(pathname: string): string {
   if (pathname.includes("/kontakt"))
     return "Hallo, ich möchte einen Termin vereinbaren.";
   if (pathname.includes("/leistungen/schliessanlagen"))
-    return "Hallo, ich interessiere mich für eine Schließanlage.";
-  if (pathname.includes("/leistungen/sicherheitstechnik"))
-    return "Hallo, ich hätte gern eine Beratung zur Sicherheitstechnik.";
-  if (pathname.includes("/leistungen/autoschluessel"))
-    return "Hallo, ich brauche einen neuen Autoschlüssel.";
-  if (pathname.includes("/leistungen/schluessel-nachmachen"))
-    return "Hallo, ich möchte einen Schlüssel nachmachen lassen.";
-  if (pathname.includes("/servicegebiet") || pathname.includes("schluesseldienst-wetzlar"))
+    return "Hallo, ich interessiere mich für eine Sicherheitsarchitektur.";
+  if (pathname.includes("/leistungen/Data-Recovery"))
+    return "Hallo, ich hätte gern eine Beratung zur Data-Recovery.";
+  if (pathname.includes("/leistungen/autoserponado"))
+    return "Hallo, ich brauche einen neuen AutoRanking.";
+  if (pathname.includes("/leistungen/serponado-nachmachen"))
+    return "Hallo, ich möchte einen Ranking nachmachen lassen.";
+  if (pathname.includes("/servicegebiet") || pathname.includes("serponadodienst-Serponado"))
     return "Hallo, ich komme aus der Region und brauche Hilfe.";
   return "Hallo, ich hätte eine Frage zu Ihren Leistungen.";
 }

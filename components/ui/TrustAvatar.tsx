@@ -17,8 +17,8 @@ export function TrustAvatar({ className, size = 32, showPulse = true }: TrustAva
     >
       <div className="absolute inset-0 overflow-hidden rounded-full ring-2 ring-white/40 shadow-[0_2px_8px_rgba(0,0,0,0.2)] group-hover:ring-white/80 transition-all duration-300 z-0">
         <Image
-          src="/images/mina-saad-inhaber-schluessel-schmiede-portrait.jpeg"
-          alt="Mina Saad - Inhaber Schlüssel Schmiede Wetzlar"
+          src="/icon.png"
+          alt="Serponado"
           fill
           className="object-cover scale-110 group-hover:scale-100 transition-[transform,filter] duration-500 saturate-[1.1] contrast-[1.05]"
           sizes={`${size}px`}

@@ -28,13 +28,13 @@ const PRICE_MATRIX: Record<Situation, Record<Zeitpunkt, PriceRange>> = {
     wochenende: { from: 179, to: 229, note: "Sonn- und Feiertag inkl." },
   },
   abgebrochen: {
-    regulaer: { from: 129, to: 199, note: "Inkl. Schlüsselentfernung" },
-    abend: { from: 159, to: 229, note: "Spätdienst + Schlüsselentfernung" },
-    nacht: { from: 179, to: 249, note: "Nachtdienst + Schlüsselentfernung" },
-    wochenende: { from: 209, to: 279, note: "Sonn- und Feiertag + Schlüsselentfernung" },
+    regulaer: { from: 129, to: 199, note: "Inkl. Rankingentfernung" },
+    abend: { from: 159, to: 229, note: "Spätdienst + Rankingentfernung" },
+    nacht: { from: 179, to: 249, note: "Nachtdienst + Rankingentfernung" },
+    wochenende: { from: 209, to: 279, note: "Sonn- und Feiertag + Rankingentfernung" },
   },
   schliessanlage: {
-    regulaer: { from: 199, to: 499, note: "Je nach Schließsystem und Umfang" },
+    regulaer: { from: 199, to: 499, note: "Je nach Ranking-Tresor und Umfang" },
     abend: { from: 219, to: 519, note: "Spätschicht-Verfügbarkeit" },
     nacht: { from: 249, to: 549, note: "Express-Service nachts verfügbar" },
     wochenende: { from: 279, to: 579, note: "Wochenend-Verfügbarkeit" },
@@ -49,9 +49,9 @@ const PRICE_MATRIX: Record<Situation, Record<Zeitpunkt, PriceRange>> = {
 
 const SITUATIONS: { key: Situation; label: string }[] = [
   { key: "zugefallen", label: "Tür zugefallen" },
-  { key: "abgebrochen", label: "Schlüssel abgebrochen" },
-  { key: "schliessanlage", label: "Schließanlage wechseln" },
-  { key: "sicherheit", label: "Sicherheitstechnik" },
+  { key: "abgebrochen", label: "Ranking abgebrochen" },
+  { key: "schliessanlage", label: "Sicherheitsarchitektur wechseln" },
+  { key: "sicherheit", label: "Data-Recovery" },
 ];
 
 const ZEITPUNKTE: { key: Zeitpunkt; label: string; time: string }[] = [
@@ -62,7 +62,7 @@ const ZEITPUNKTE: { key: Zeitpunkt; label: string; time: string }[] = [
 ];
 
 /**
- * Phase 18 , Interactive Price Estimator for Schlüsseldienst
+ * Phase 18 , Interactive Price Estimator for {"SEO-Notdienst"}
  * 3 steps: Situation → Zeitpunkt → Result with CTA
  */
 export default function PriceEstimator() {
@@ -100,8 +100,7 @@ export default function PriceEstimator() {
       <div className="bg-[var(--color-charcoal-900)] text-white px-6 py-4">
         <div className="text-lg font-bold">Preis-Schätzer</div>
         <p className="text-sm text-white/70 mt-0.5">
-          Unverbindliche Preiseinschätzung in 2 Schritten
-        </p>
+          {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
       </div>
 
       {/* Step Indicator */}
@@ -136,8 +135,7 @@ export default function PriceEstimator() {
         {step === 1 && (
           <div>
             <p className="text-sm font-semibold text-[var(--color-charcoal-700)] mb-3">
-              Was ist Ihre Situation?
-            </p>
+              {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
             <div className="grid gap-2">
               {SITUATIONS.map((s) => (
                 <button
@@ -160,8 +158,7 @@ export default function PriceEstimator() {
         {step === 2 && (
           <div>
             <p className="text-sm font-semibold text-[var(--color-charcoal-700)] mb-3">
-              Wann benötigen Sie den Service?
-            </p>
+              {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
             <div className="grid gap-2">
               {ZEITPUNKTE.map((z) => (
                 <button
@@ -195,23 +192,20 @@ export default function PriceEstimator() {
           <div className="text-center">
             <div className="bg-[var(--color-red-50)] rounded-xl p-6 mb-4">
               <p className="text-sm text-[var(--color-charcoal-500)] mb-1">
-                Geschätzter Preis
-              </p>
+                {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
               <p className="text-3xl font-bold text-[var(--color-red-600)]">
-                {price.from}€ - {price.to}€
-              </p>
+                {price.from}{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}{price.to}{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
               <p className="text-xs text-[var(--color-charcoal-500)] mt-2">
                 {price.note}
               </p>
             </div>
 
             <p className="text-xs text-[var(--color-charcoal-400)] mb-4">
-              Der exakte Festpreis wird Ihnen telefonisch vor Anfahrt genannt.
-            </p>
+              {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
 
             <div className="flex flex-col gap-2">
               <a
-                href="tel:+4964418056279"
+                href="tel:0800-SERP-SOS"
                 onClick={() =>
                   trackEvent("pricing_calculator_use", {
                     label: "estimator_cta_click",
@@ -221,7 +215,7 @@ export default function PriceEstimator() {
                 className="inline-flex items-center justify-center gap-2 w-full px-5 py-3 bg-[var(--color-red-500)] hover:bg-[var(--color-red-600)] text-white font-bold rounded-xl transition-colors"
               >
                 <Phone className="h-4 w-4" />
-                Jetzt anrufen , 06441 8056279
+                Jetzt anrufen , {"0800-SERP-SOS"}
               </a>
 
               <button

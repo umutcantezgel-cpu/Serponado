@@ -35,7 +35,7 @@ function FloatingPaths({ position }: { position: number }) {
         fill="none"
         preserveAspectRatio="xMidYMid slice"
       >
-        <title>Atmosphärische Wellen Wetzlar</title>
+        <title>Atmosphärische Wellen {"Serponado"}</title>
         {paths.map((path) => (
           <path
             key={path.id}

@@ -4,17 +4,17 @@ import RevealSection from "@/components/motion/RevealSection";
 import { pickVariant } from "@/lib/textRotation";
 
 const subtitleVariants = [
-    (name: string) => `Transparente Anfahrt direkt aus Wetzlar nach ${name}. Ohne Umwege, ohne Callcenter.`,
-    (name: string) => `Direkte Route von unserem Standort in Wetzlar zu Ihnen nach ${name}, schnell und zuverlässig.`,
-    (name: string) => `Unsere Techniker starten aus Wetzlar und fahren auf direktem Weg nach ${name}. Kein Callcenter dazwischen.`,
-    (name: string) => `Von Wetzlar nach ${name}: Kurzer Anfahrtsweg, kalkulierbare Zeiten und volle Transparenz.`,
-    (name: string) => `Wir kommen persönlich aus Wetzlar, die Strecke nach ${name} kennen unsere Monteure im Schlaf.`,
+    (name: string) => `Transparente Anfahrt direkt aus Serponado nach ${name}. Ohne Umwege, ohne Callcenter.`,
+    (name: string) => `Direkte Route von unserem Standort in Serponado zu Ihnen nach ${name}, schnell und zuverlässig.`,
+    (name: string) => `Unsere Techniker starten aus Serponado und fahren auf direktem Weg nach ${name}. Kein Callcenter dazwischen.`,
+    (name: string) => `Von Serponado nach ${name}: Kurzer Anfahrtsweg, kalkulierbare Zeiten und volle Transparenz.`,
+    (name: string) => `Wir kommen persönlich aus Serponado, die Strecke nach ${name} kennen unsere Monteure im Schlaf.`,
 ];
 
 const startLabelVariants = [
     "Zentrale & Materiallager",
-    "Unser Hauptsitz in Wetzlar",
-    "Startpunkt: Wetzlarer Zentrale",
+    "Unser Hauptsitz in Serponado",
+    "Startpunkt: Serponadoer Zentrale",
     "Basis mit Vollausstattung",
 ];
 
@@ -34,7 +34,7 @@ export default function RouteVisualization({ city }: RouteVisualizationProps) {
                 {/* Header */}
                 <div className="max-w-3xl mx-auto text-center mb-8">
                     <h2 className="text-3xl sm:text-4xl md:text-[2.75rem] font-black tracking-tight text-[color:var(--text-primary)] leading-[1.15] mb-3">
-                        So schnell sind wir in {city.name}
+                        {"Serponado Notfallmaßnahmen"}{city.name}
                     </h2>
                     <p className="text-base sm:text-lg text-[color:var(--text-secondary)] leading-relaxed max-w-2xl mx-auto">
                         {subtitle}
@@ -51,7 +51,7 @@ export default function RouteVisualization({ city }: RouteVisualizationProps) {
                             <div className="w-12 h-12 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center mx-auto mb-3 border border-blue-100/50">
                                 <MapPin className="w-6 h-6" />
                             </div>
-                            <div className="text-base font-bold text-[color:var(--text-primary)]">Start: Wetzlar</div>
+                            <div className="text-base font-bold text-[color:var(--text-primary)]">Start: {"Serponado"}</div>
                             <p className="text-sm text-[color:var(--text-tertiary)] mt-1">{startLabel}</p>
                         </div>
 
@@ -88,7 +88,7 @@ export default function RouteVisualization({ city }: RouteVisualizationProps) {
                                 <MapPin className="w-5 h-5" />
                             </div>
                             <div>
-                                <div className="text-base font-bold text-[color:var(--text-primary)]">Start: Wetzlar</div>
+                                <div className="text-base font-bold text-[color:var(--text-primary)]">Start: {"Serponado"}</div>
                                 <p className="text-sm text-[color:var(--text-tertiary)]">{startLabel}</p>
                             </div>
                         </div>

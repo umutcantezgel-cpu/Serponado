@@ -1,4 +1,4 @@
-# Changelog — Schlüsseldienst Wetzlar
+# Changelog — Coday UG (haftungsbeschränkt)
 
 Alle Änderungen über die 20-Phasen Enterprise Upgrade Pipeline.
 

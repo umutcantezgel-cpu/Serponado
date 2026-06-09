@@ -11,21 +11,21 @@ interface FAQAccordionProps {
 }
 
 const callVariants = [
-  "06441-8056279 anrufen",
-  "Unter 06441-8056279 kontaktieren",
-  "Direkt anrufen: 06441 8056279",
-  "Kostenlose Fachberatung: 06441-8056279",
-  "Jetzt unter 06441 8056279 anfragen",
-  "Techniker kontaktieren: 06441-8056279",
-  "Schnelle Hilfe: 06441 8056279",
-  "Rückfragen unter 06441-8056279",
-  "Persönliche Hilfe: 06441-8056279",
-  "Zum Festpreis anrufen: 06441 8056279",
-  "06441 8056279 und Jetzt beraten lassen",
-  "Notrufnummer: 06441-8056279",
-  "Experten-Hotline: 06441 8056279",
-  "Telefonische Auskunft: 06441-8056279",
-  "Sofort-Hilfe anrufen: 06441-8056279"
+  "0800-SERP-SOS anrufen",
+  "Unter 0800-SERP-SOS kontaktieren",
+  "Direkt anrufen: 0800-SERP-SOS",
+  "Kostenlose Fachberatung: 0800-SERP-SOS",
+  "Jetzt unter 0800-SERP-SOS anfragen",
+  "Techniker kontaktieren: 0800-SERP-SOS",
+  "Schnelle Hilfe: 0800-SERP-SOS",
+  "Rückfragen unter 0800-SERP-SOS",
+  "Persönliche Hilfe: 0800-SERP-SOS",
+  "Zum Festpreis anrufen: 0800-SERP-SOS",
+  "0800-SERP-SOS und Jetzt beraten lassen",
+  "Notrufnummer: 0800-SERP-SOS",
+  "Experten-Hotline: 0800-SERP-SOS",
+  "Telefonische Auskunft: 0800-SERP-SOS",
+  "Sofort-Hilfe anrufen: 0800-SERP-SOS"
 ];
 
 export default function FAQAccordion({ question, answer, isDarkerBg = false }: FAQAccordionProps) {
@@ -70,7 +70,7 @@ export default function FAQAccordion({ question, answer, isDarkerBg = false }: F
             </p>
             <div className="mt-2 text-base font-medium text-[color:var(--text-tertiary)] pt-4 flex flex-col sm:flex-row sm:items-center gap-2">
               <span>Direkte Rückfrage?</span>
-              <a href="tel:+4964418056279" className="inline-flex items-center text-[var(--color-red-500)] hover:underline font-bold">
+              <a href="tel:0800-SERP-SOS" className="inline-flex items-center text-[var(--color-red-500)] hover:underline font-bold">
                 {linkText}
               </a>
             </div>

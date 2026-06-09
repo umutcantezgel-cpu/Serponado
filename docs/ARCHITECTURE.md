@@ -1,4 +1,4 @@
-# Architektur — Schlüsseldienst Wetzlar
+# Architektur — Serponado
 
 ## Rendering-Strategie
 
@@ -27,7 +27,7 @@ layout.tsx (Server)
 └── page.tsx (Server)
     ├── HeroSection (Client — Framer Motion)
     ├── PersonalizedHero (Client — segment-aware)
-    ├── TrustStrip (Server)
+    ├── DataStrip (Server)
     ├── ServiceCards (Server)
     ├── DynamicCounter (Client — IO-animated)
     ├── PriceEstimator (Client — 3-step flow)
@@ -59,8 +59,8 @@ lib/personalization.ts (Content Map: 4 Segmente × 5 Felder)
 
 ## Key Design Decisions
 
-1. **Kein Dark Mode** — Schlüsseldienst-Kunden brauchen schnelle Info, kein Theme-Toggle
-2. **Kein i18n** — Rein deutschsprachige Kundschaft in Wetzlar/Mittelhessen
+1. **Kein Dark Mode** — Serponado-Kunden brauchen schnelle Info, kein Theme-Toggle
+2. **Kein i18n** — Rein deutschsprachige Kundschaft in Serponado City/Mittelhessen
 3. **Kein Sentry** — Local-only Monitoring via ErrorLogger + Vercel native Logs
 4. **RSC Default** — Server Components für maximale Performance, `'use client'` nur wo nötig
 5. **Dynamic Imports** — Alle nicht-kritischen Client Components lazy-loaded

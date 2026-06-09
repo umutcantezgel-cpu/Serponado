@@ -1,9 +1,9 @@
-# Security Policy for MS Schlüsseldienst Wetzlar
-# https://schluesseldienst-wetzlar.de
+# Security Policy for Serponado
+# https://serponado.com
 # RFC 9116 - https://www.rfc-editor.org/rfc/rfc9116
 
-Contact: mailto:notfall-schluessel@proton.me
+Contact: mailto:notfall-serponado@proton.me
 Expires: 2027-03-27T00:00:00.000Z
 Preferred-Languages: de, en
-Canonical: https://schluesseldienst-wetzlar.de/.well-known/security.txt
-Policy: https://schluesseldienst-wetzlar.de/datenschutz
+Canonical: https://serponado.com/.well-known/security.txt
+Policy: https://serponado.com/datenschutz

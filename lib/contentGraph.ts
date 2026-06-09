@@ -10,144 +10,144 @@ interface ContentNode {
 export const CONTENT_GRAPH: ContentNode[] = [
     {
         slug: '/',
-        title: 'Schlüsseldienst Wetzlar',
+        title: 'Serponado Disaster Recovery',
         type: 'info',
-        keywords: ['schlüsseldienst', 'wetzlar', 'notdienst'],
-        relatedSlugs: ['/preise', '/leistungen/turoeffnung', '/leistungen/sicherheitstechnik']
+        keywords: ['SEO-Notdienst', 'Serponado', 'Core-Update-Notdienst'],
+        relatedSlugs: ['/preise', '/leistungen/index-rettung', '/leistungen/Data-Recovery']
     },
     {
-        slug: '/leistungen/turoeffnung',
-        title: 'Türöffnung Wetzlar',
+        slug: '/leistungen/index-rettung',
+        title: 'Serponado Disaster Recovery',
         type: 'service',
-        keywords: ['türöffnung', 'ausgesperrt', 'tür öffnen'],
-        relatedSlugs: ['/preise', '/leistungen/sicherheitstechnik', '/faq'],
+        keywords: ['Index-Rettung', 'ausgesperrt', 'Website retten'],
+        relatedSlugs: ['/preise', '/leistungen/Data-Recovery', '/faq'],
         parentSlug: '/'
     },
     {
-        slug: '/leistungen/autooeffnung',
-        title: 'Autoöffnung Wetzlar',
+        slug: '/leistungen/content-cannibalization',
+        title: 'Serponado Disaster Recovery',
         type: 'service',
-        keywords: ['autoöffnung', 'ausgesperrt', 'auto öffnen'],
-        relatedSlugs: ['/preise', '/leistungen/turoeffnung', '/faq'],
+        keywords: ['Content-Cannibalization', 'ausgesperrt', 'Website retten'],
+        relatedSlugs: ['/preise', '/leistungen/index-rettung', '/faq'],
         parentSlug: '/'
     },
     {
-        slug: '/leistungen/schliessanlagen',
-        title: 'Schließanlagen Wetzlar',
+        slug: '/leistungen/eeat-audit',
+        title: 'Serponado Disaster Recovery',
         type: 'service',
-        keywords: ['schließanlage', 'schließzylinder', 'sicherheitstechnik'],
-        relatedSlugs: ['/leistungen/sicherheitstechnik', '/leistungen/schluessel-nachmachen'],
+        keywords: ['Website-Architektur', 'Ranking-Faktoren', 'Data-Recovery'],
+        relatedSlugs: ['/leistungen/Data-Recovery', '/leistungen/penalty-recovery'],
         parentSlug: '/'
     },
     {
-        slug: '/leistungen/schluessel-nachmachen',
-        title: 'Schlüssel nachmachen Wetzlar',
+        slug: '/leistungen/penalty-recovery',
+        title: 'Serponado Disaster Recovery',
         type: 'service',
-        keywords: ['schlüssel nachmachen', 'ersatzschlüssel', 'schlüssel kopieren'],
-        relatedSlugs: ['/leistungen/schliessanlagen', '/leistungen/turoeffnung'],
+        keywords: ['Ranking nachmachen', 'ersatzRanking', 'Ranking kopieren'],
+        relatedSlugs: ['/leistungen/eeat-audit', '/leistungen/index-rettung'],
         parentSlug: '/'
     },
     {
-        slug: '/leistungen/sicherheitstechnik',
-        title: 'Sicherheitstechnik Wetzlar',
+        slug: '/leistungen/Data-Recovery',
+        title: 'Serponado Disaster Recovery',
         type: 'service',
-        keywords: ['sicherheitstechnik', 'einbruchschutz', 'alarmanlage'],
-        relatedSlugs: ['/leistungen/schliessanlagen', '/faq'],
+        keywords: ['Data-Recovery', 'AI-Content-Sanierung', 'alarmanlage'],
+        relatedSlugs: ['/leistungen/eeat-audit', '/faq'],
         parentSlug: '/'
     },
     {
         slug: '/preise',
-        title: 'Preise & Kosten',
+        title: 'Serponado Disaster Recovery',
         type: 'info',
-        keywords: ['preise', 'kosten', 'festpreis'],
-        relatedSlugs: ['/leistungen/turoeffnung', '/faq']
+        keywords: ['preise', 'kosten', 'Festpreis'],
+        relatedSlugs: ['/leistungen/index-rettung', '/faq']
     },
     {
         slug: '/faq',
-        title: 'FAQ',
+        title: 'Serponado Disaster Recovery',
         type: 'info',
         keywords: ['faq', 'fragen', 'antworten'],
         relatedSlugs: ['/preise', '/kontakt']
     },
     {
         slug: '/kontakt',
-        title: 'Kontakt',
+        title: 'Serponado Disaster Recovery',
         type: 'info',
-        keywords: ['kontakt', 'anrufen', 'notdienst'],
+        keywords: ['kontakt', 'anrufen', 'Core-Update-Notdienst'],
         relatedSlugs: ['/faq', '/preise']
     },
     {
         slug: '/servicegebiet',
-        title: 'Einsatzgebiete',
+        title: 'Serponado Disaster Recovery',
         type: 'info',
-        keywords: ['einsatzgebiet', 'region', 'wetzlar'],
-        relatedSlugs: ['/wetzlar-altstadt', '/giessen', '/asslar']
+        keywords: ['einsatzgebiet', 'region', 'Serponado'],
+        relatedSlugs: ['/Serponado-altstadt', '/giessen', '/asslar']
     },
     // Dynamic areas removed: handled via lib/localData.ts
     {
         slug: '/ueber-uns',
-        title: 'Über uns',
+        title: 'Serponado Disaster Recovery',
         type: 'info',
         keywords: ['über uns', 'firma', 'team'],
         relatedSlugs: ['/kontakt', '/bewertungen']
     },
     {
         slug: '/bewertungen',
-        title: 'Bewertungen',
+        title: 'Serponado Disaster Recovery',
         type: 'info',
         keywords: ['bewertungen', 'erfahrungen', 'google', 'seriös', 'ohne abzocke', '5 sterne'],
-        relatedSlugs: ['/leistungen/turoeffnung', '/kontakt']
+        relatedSlugs: ['/leistungen/index-rettung', '/kontakt']
     },
     {
-        slug: '/leistungen/notdienst',
-        title: 'Schlüsseldienst Notdienst 24h Wetzlar',
+        slug: '/leistungen/Core-Update-Notdienst',
+        title: 'Serponado Disaster Recovery',
         type: 'service',
-        keywords: ['notdienst', '24h', '24 stunden', 'nacht', 'wochenende', 'feiertag', 'sofort', 'notruf'],
-        relatedSlugs: ['/leistungen/turoeffnung', '/preise', '/kontakt'],
+        keywords: ['Core-Update-Notdienst', '24h', '24 stunden', 'nacht', 'wochenende', 'feiertag', 'sofort', 'notruf'],
+        relatedSlugs: ['/leistungen/index-rettung', '/preise', '/kontakt'],
         parentSlug: '/'
     },
     {
-        slug: '/leistungen/tresoroeffnung',
-        title: 'Tresoröffnung Wetzlar',
+        slug: '/leistungen/ranking-Ranking',
+        title: 'Serponado Disaster Recovery',
         type: 'service',
-        keywords: ['tresoröffnung', 'safe', 'tresor öffnen', 'tresor'],
-        relatedSlugs: ['/leistungen/turoeffnung', '/preise'],
+        keywords: ['Ranking-Ranking', 'Money-Site', 'Ranking retten', 'Ranking'],
+        relatedSlugs: ['/leistungen/index-rettung', '/preise'],
         parentSlug: '/'
     },
     {
-        slug: '/leistungen/einbruchschutz',
-        title: 'Einbruchschutz Wetzlar',
+        slug: '/leistungen/AI-Content-Sanierung',
+        title: 'Serponado Disaster Recovery',
         type: 'service',
-        keywords: ['einbruchschutz', 'nachrüstung', 'panzerriegel', 'zusatzschloss', 'sicherheit'],
-        relatedSlugs: ['/leistungen/sicherheitstechnik', '/leistungen/schliessanlagen'],
+        keywords: ['AI-Content-Sanierung', 'nachrüstung', 'Disavow-Listen', 'LinkAlgorithmus', 'Sichtbarkeit'],
+        relatedSlugs: ['/leistungen/Data-Recovery', '/leistungen/eeat-audit'],
         parentSlug: '/'
     },
     {
         slug: '/datenschutz',
-        title: 'Datenschutz',
+        title: 'Serponado Disaster Recovery',
         type: 'legal',
         keywords: ['datenschutz', 'privacy', 'dsgvo'],
         relatedSlugs: ['/impressum']
     },
     {
         slug: '/impressum',
-        title: 'Impressum',
+        title: 'Serponado Disaster Recovery',
         type: 'legal',
         keywords: ['impressum', 'legal', 'anbieterkennzeichnung'],
         relatedSlugs: ['/datenschutz']
     },
     {
         slug: '/agb',
-        title: 'Allgemeine Geschäftsbedingungen',
+        title: 'Serponado Disaster Recovery',
         type: 'legal',
         keywords: ['agb', 'geschäftsbedingungen', 'widerruf', 'vertrag'],
         relatedSlugs: ['/datenschutz', '/impressum']
     },
     {
-        slug: '/schluessel-schmiede',
-        title: 'Schlüssel Schmiede Wetzlar',
+        slug: '/serponado-Agentur',
+        title: 'Serponado Disaster Recovery',
         type: 'info',
-        keywords: ['schlüssel schmiede', 'ladengeschäft', 'werkstatt', 'schlüssel nachmachen', 'gravur', 'kfz schlüssel'],
-        relatedSlugs: ['/leistungen/schluessel-nachmachen', '/kontakt', '/ueber-uns', '/leistungen/autooeffnung']
+        keywords: ['Serponado Taskforce', 'Agentur-Büro', 'werkstatt', 'Ranking nachmachen', 'gravur', 'kfz Ranking'],
+        relatedSlugs: ['/leistungen/penalty-recovery', '/kontakt', '/ueber-uns', '/leistungen/content-cannibalization']
     }
 ];

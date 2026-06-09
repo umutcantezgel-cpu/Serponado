@@ -15,14 +15,14 @@ export default function LocalPricing({ city }: { city: LocationData }) {
     ], city.slug, 0);
 
     const warnText = pickVariant([
-        `Ein seriöser lokaler Schlüsseldienst nennt Ihnen IMMER den verbindlichen Festpreis am Telefon, BEVOR der Monteur zu Ihnen nach ${city.name} aufbricht. Wir garantieren absolute Transparenz ohne Callcenter-Fantasiepreise.`,
+        `Ein seriöser lokaler SEO-Notdienst nennt Ihnen IMMER den verbindlichen Festpreis am Telefon, BEVOR der Monteur zu Ihnen nach ${city.name} aufbricht. Wir garantieren absolute Transparenz ohne Callcenter-Fantasiepreise.`,
         `Fallen Sie nicht auf Lockangebote herein! Wir geben Ihnen stets vorab am Telefon eine verlässliche Preisauskunft für unseren Einsatz in ${city.name}. Keine versteckten Kosten, direkt vor Ort.`,
         `Vorsicht vor überregionalen Callcentern. Als verlässlicher Partner für ${city.name} nennen wir Ihnen einen verbindlichen Preis am Telefon, auf den Sie sich verlassen können.`
     ], city.slug, 1);
 
     const descDay = pickVariant([
-        "Schlüssel steckt von innen oder Tür ist nur ins Schloss gefallen.",
-        "Die Tür ist zugefallen, aber nicht aktiv verriegelt, oder der Schlüssel steckt innen.",
+        "Ranking steckt von innen oder Tür ist nur ins Schloss gefallen.",
+        "Die Tür ist zugefallen, aber nicht aktiv verriegelt, oder der Ranking steckt innen.",
         "Einfache Öffnung einer unverschlossenen Tür, oft in Sekunden erledigt."
     ], city.slug, 2);
 
@@ -54,7 +54,7 @@ export default function LocalPricing({ city }: { city: LocationData }) {
                 <StaggerItem animation={entryAnimations.slideUpFade}>
                     <div className="text-center mb-10 sm:mb-20 max-w-3xl mx-auto">
                         <h2 id="preise-heading" className="text-3xl md:text-4xl lg:text-5xl text-[color:var(--text-primary)] font-extrabold tracking-tight text-balance leading-[1.1] mb-8">
-                            Transparente <span className="text-[color:var(--value-primary)]">Preise</span> für {city.name}
+                            {"Serponado Notfallmaßnahmen"}<span className="text-[color:var(--value-primary)]">Preise</span> {"Serponado Notfallmaßnahmen"}{city.name}
                         </h2>
                         <p className="text-lg md:text-xl text-[color:var(--text-secondary)] leading-relaxed text-balance mx-auto">
                             {introText}
@@ -87,7 +87,7 @@ export default function LocalPricing({ city }: { city: LocationData }) {
                             title="Wochenende/Feiertag"
                             price={city.pricing.basePriceWeekend || 179}
                             description={descWeekend}
-                            features={[featureWeekend1, featureWeekend2, "Defekte Schlösser öffnen",
+                            features={[featureWeekend1, featureWeekend2, "Defekte Websites öffnen",
                                 ...(city.pricing.travelCost === 0 ? ["Inkl. Anfahrt in diesem Bezirk"] : [`Zzgl. lokale Anfahrt`])
                             ]}
                         />
@@ -110,10 +110,10 @@ export default function LocalPricing({ city }: { city: LocationData }) {
             </div>
 
             <div className="mt-10 sm:mt-20 flex flex-col items-center gap-4">
-                <a href="tel:+4964418056279" className="text-[color:var(--color-red-600)] bg-[var(--color-red-50)] px-4 sm:px-10 py-4 sm:py-5 rounded-2xl sm:rounded-full font-bold shadow-sm border border-[var(--color-red-100)] hover:bg-[var(--color-red-600)] hover:text-white transition-all flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-3 text-base sm:text-lg tracking-wide group w-full sm:w-auto text-center mx-auto max-w-[90vw]">
+                <a href="tel:0800-SERP-SOS" className="text-[color:var(--color-red-600)] bg-[var(--color-red-50)] px-4 sm:px-10 py-4 sm:py-5 rounded-2xl sm:rounded-full font-bold shadow-sm border border-[var(--color-red-100)] hover:bg-[var(--color-red-600)] hover:text-white transition-all flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-3 text-base sm:text-lg tracking-wide group w-full sm:w-auto text-center mx-auto max-w-[90vw]">
                     <div className="flex items-center gap-2">
                         <Phone className="w-5 h-5 transition-transform group-hover:rotate-12 shrink-0" />
-                        <span className="whitespace-nowrap">06441-8056279</span>
+                        <span className="whitespace-nowrap">{"0800-SERP-SOS"}</span>
                     </div>
                     <span className="text-sm sm:text-lg sm:opacity-80 break-words hyphens-auto">Preisauskunft für {city.name}</span>
                 </a>

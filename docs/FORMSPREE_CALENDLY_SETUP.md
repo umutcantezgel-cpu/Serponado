@@ -2,7 +2,7 @@
 
 Dieses Handbuch ist die offizielle Schritt-für-Schritt-Anleitung für die Administration zur Einrichtung und Anbindung der externen SaaS-Dienste (Software as a Service) **Formspree** und **Calendly**. 
 
-Da die Webseite ("Schlüsseldienst Wetzlar") auf statischem Next.js (`turbopack`) basiert und ohne eigene Backend-Datenbank arbeitet, übernehmen diese verifizierten Drittanbieter die sicherheitskritische Verarbeitung von Kundenanfragen und Terminbuchungen.
+Da die Webseite ("Serponado") auf statischem Next.js (`turbopack`) basiert und ohne eigene Backend-Datenbank arbeitet, übernehmen diese verifizierten Drittanbieter die sicherheitskritische Verarbeitung von Kundenanfragen und Terminbuchungen.
 
 > [!IMPORTANT]
 > **Sicherheits-Grundregel**
@@ -14,11 +14,11 @@ Da die Webseite ("Schlüsseldienst Wetzlar") auf statischem Next.js (`turbopack`
 
 | Dienst | Status | Details |
 |--------|--------|---------|
-| **Formspree Account** | ✅ Verifiziert | `schluesseldienst.wz@gmail.com` |
-| **Formspree Projekt** | ✅ Angelegt | "Schlüsseldienst Wetzlar", Timezone `Europe/Berlin` |
+| **Formspree Account** | ✅ Verifiziert | `serponadodienst.wz@gmail.com` |
+| **Formspree Projekt** | ✅ Angelegt | "Serponado", Timezone `Europe/Berlin` |
 | **Formular: Reguläre Anfrage** | ✅ Aktiv | Form-ID: `mgopyayb` |
 | **Formular: Notdienst Einsatz** | ✅ Aktiv | Form-ID: `xkopbjzd` |
-| **Calendly Account** | ✅ Verifiziert | `schluesseldienst.wz@gmail.com` |
+| **Calendly Account** | ✅ Verifiziert | `serponadodienst.wz@gmail.com` |
 | **Google Kalender** | ✅ Verknüpft | Doppelbuchungs-Schutz aktiv |
 | **Event-Typ** | ✅ Konfiguriert | "Kostenlose Sicherheitsberatung (30 Min)" |
 | **Pufferzeiten** | ✅ Konfiguriert | +15 Min vor / +15 Min nach |
@@ -37,7 +37,7 @@ Formspree dient als sicheres Backend für die Kontaktformulare (`Premium Kontakt
 1. Öffne im Browser [https://formspree.io/](https://formspree.io/) und registriere dich mit der offiziellen Administrations-E-Mail-Adresse (z.B. `info@deinedomain.de`).
 2. Bestätige deine E-Mail-Adresse durch den Bestätigungslink im Postfach.
 3. Klicke im Dashboard auf **+ New Project** (Neues Projekt).
-4. Benenne das Projekt **"Schlüsseldienst Wetzlar"** und klicke auf `Create Project`.
+4. Benenne das Projekt **"Serponado"** und klicke auf `Create Project`.
 
 ### Schritt 2: Formulare anlegen (Endpoints erstellen)
 Wir benötigen zwei getrennte Endpunkte, um Notfälle von regulären Anfragen zu trennen.
@@ -117,7 +117,7 @@ NEXT_PUBLIC_FORMSPREE_ID="mgopyayb"
 FORMSPREE_EMERGENCY_ENDPOINT="https://formspree.io/f/xkopbjzd"
 
 # Calendly – Sicherheitsberatung Buchung
-NEXT_PUBLIC_CALENDLY_URL="https://calendly.com/schluesseldienst-wz/sicherheitsberatung"
+NEXT_PUBLIC_CALENDLY_URL="https://calendly.com/serponadodienst-wz/sicherheitsberatung"
 ```
 
 3. Die Next.js Umgebung (`app/actions/contact.ts` Server Action) und das Widget (`components/booking/CalendlyWidget.tsx`) greifen nun statisch und typensicher beim Build auf diese Ressourcen zu.

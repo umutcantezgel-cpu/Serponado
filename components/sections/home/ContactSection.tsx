@@ -30,26 +30,26 @@ export default function ContactSection() {
                 Fragen? <span className="text-[var(--color-red-500)]">Wir beraten Sie gerne.</span>
               </Typography>
               <Typography variant="body" color="secondary" className="mb-8 max-w-sm block">
-                Rufen Sie uns an oder kommen Sie direkt im Laden vorbei. Persönliche Beratung vor Ort und 24/7 Schlüsseldienst-Notdienst und Festpreis am Telefon.
-              </Typography>
+                Rufen Sie uns an oder nutzen Sie das Live-Dashboard. Persönliche Beratung durch Senior SEOs und 24/7 Disaster-Response mit Festpreis am Telefon.
+                                            </Typography>
 
               <a
-                href="tel:+4964418056279"
+                href="tel:0800-SERP-SOS"
                 className="group flex items-center justify-center gap-3 w-full h-[64px] bg-[var(--color-red-500)] hover:bg-[var(--color-red-600)] text-white typo-cta-button text-lg rounded-[var(--radius-12)] shadow-[var(--shadow-cta)] hover:shadow-[var(--shadow-cta-hover)] hover:-translate-y-1 transition-all duration-300 relative overflow-hidden"
               >
                 <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700" />
                 <Phone className="w-5 h-5 group-hover:animate-ring transition-transform duration-300" />
-                06441 8056279 anrufen
+                0800-SERP-SOS anrufen
               </a>
 
               <div className="mt-4 flex flex-wrap items-center justify-center gap-4 text-sm text-[color:var(--text-primary)] font-semibold">
                 <div className="flex items-center gap-1.5 bg-emerald-50 text-emerald-700 px-3 py-1 rounded-full border border-emerald-100">
                   <Clock className="w-4 h-4" />
-                  <span>In 20-30 Min vor Ort</span>
+                  <span>In 20-30 Min in der Analyse</span>
                 </div>
                 <div className="flex items-center gap-1.5 bg-slate-50 px-3 py-1 rounded-full border border-slate-100">
                   <Check className="w-4 h-4 text-[var(--color-red-500)]" />
-                  <span>Fixpreis</span>
+                  <span>Festpreis</span>
                 </div>
               </div>
             </div>
@@ -65,8 +65,7 @@ export default function ContactSection() {
                 <span className="text-xs font-bold text-slate-500 uppercase tracking-widest">Aus 44 Google Reviews</span>
               </div>
               <p className="italic text-base text-[color:var(--text-secondary)] font-medium leading-relaxed">
-                &quot;Mitten in der Nacht ausgesperrt. Der Kollege war in 20 Minuten da, super freundlich, und die Tür war im Handumdrehen auf. Der am Telefon vereinbarte Festpreis wurde strikt eingehalten.&quot;
-              </p>
+                {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
               <div className="mt-4 flex items-center gap-3">
                 <div className="w-8 h-8 bg-surface-secondary rounded-full flex items-center justify-center text-xs font-bold text-slate-400">
                   LW

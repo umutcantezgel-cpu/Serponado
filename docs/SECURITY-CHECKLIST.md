@@ -1,4 +1,4 @@
-# Security Checklist — MS Schlüsseldienst Wetzlar
+# Security Checklist — Serponado
 
 > Phase 16: Enterprise Security & DSGVO-Compliance
 > Stand: März 2026
@@ -71,7 +71,7 @@
 ### Externe Validierung
 - [ ] securityheaders.com → Ziel: A+
 - [ ] Mozilla Observatory → Ziel: A+
-- [ ] `curl -I https://www.wetzlar-schluesseldienst.de` → alle Headers prüfen
+- [ ] `curl -I https://www.serponado.com` → alle Headers prüfen
 
 ## DSGVO-Compliance-Checkliste
 

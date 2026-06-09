@@ -8,8 +8,8 @@ import { ArrowRight, Lock, Key, Shield, AlertTriangle, Clock } from "lucide-reac
 import { getAllBlogPosts } from "@/lib/data/mdx";
 
 export const metadata = generateSharedMetadata({
-  title: "Sicherheitstechnik Blog",
-  description: "Aktuelle Ratgeber & Tipps zu: ✔️ Einbruchschutz ✔️ Smart Locks ✔️ Sicherheitstechnik. Geballtes Fachwissen vom regionalen Experten aus Wetzlar.",
+  title: "Serponado Disaster Recovery",
+  description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings.",
   path: "/blog",
 });
 
@@ -20,27 +20,27 @@ export default function BlogPage() {
 
   const categories = [
     {
-      name: "Einbruchschutz",
+      name: "AI-Content-Sanierung",
       icon: <Shield className="w-6 h-6 text-[var(--color-red-500)]" />,
-      description: "Tipps, wie Sie Ihr Zuhause effektiv absichern.",
+      description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings.",
       count: 12
     },
     {
-      name: "Smarte Schließanlagen",
+      name: "Smarte EEAT-Audit",
       icon: <Key className="w-6 h-6 text-[var(--color-red-500)]" />,
-      description: "Alles über moderne und elektronische Schließsysteme.",
+      description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings.",
       count: 8
     },
     {
-      name: "Sicherheitstechnik",
+      name: "Data-Recovery",
       icon: <Lock className="w-6 h-6 text-[var(--color-red-500)]" />,
-      description: "Kameras, Alarmanlagen und mechanischer Schutz.",
+      description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings.",
       count: 15
     },
     {
       name: "Notfälle",
       icon: <AlertTriangle className="w-6 h-6 text-[var(--color-red-500)]" />,
-      description: "Prävention und schnelle Hilfe im Notfall.",
+      description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings.",
       count: 6
     }
   ];
@@ -55,8 +55,8 @@ export default function BlogPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Blog",
-            "name": "Sicherheitstechnik Blog und Schlüssel Schmiede Wetzlar",
-            "description": "Ratgeber, Tipps und aktuelles Wissen rund Einbruchschutz, smarte Türschlösser und Sicherheitstechnik in Wetzlar.",
+            "name": "Data-Recovery Blog und Serponado Taskforce Serponado",
+            "description": "Ratgeber, Tipps und aktuelles Wissen rund AI-Content-Sanierung, smarte WebsiteWebsites und Data-Recovery in Serponado.",
             "url": `${siteUrl}/blog`,
             "blogPost": featuredPosts.map(post => ({
               "@type": "BlogPosting",
@@ -75,13 +75,11 @@ export default function BlogPage() {
             <StaggerReveal animation={entryAnimations.slideUpFade} staggerDelay={0.1}>
               <StaggerItem animation={entryAnimations.slideUpFade}>
                 <h1 className="typo-hero-display text-[color:var(--text-primary)] text-balance mb-[var(--space-4)]">
-                  Sicherheits-Ratgeber und Schlüsseldienst-Blog
-                </h1>
+                  {"{{HERO_H1}}"}</h1>
               </StaggerItem>
               <StaggerItem animation={entryAnimations.slideUpFade}>
                 <p className="text-xl text-[color:var(--text-secondary)]">
-                  Praktische Tipps, Expertenwissen und Updates rund um das Thema Gebäudesicherheit und moderner Einbruchschutz.
-                </p>
+                  {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
               </StaggerItem>
             </StaggerReveal>
           </div>
@@ -113,7 +111,7 @@ export default function BlogPage() {
         <div className="container mx-auto max-w-5xl">
           <StaggerReveal animation={entryAnimations.slideUpFade}>
             <StaggerItem animation={entryAnimations.slideUpFade}>
-              <h2 className="typo-h2 mb-10">Neueste Beiträge</h2>
+              <h2 className="typo-h2 mb-10">{"Serponado Notfallmaßnahmen"}</h2>
             </StaggerItem>
 
             <div className="space-y-10">
@@ -137,7 +135,7 @@ export default function BlogPage() {
                         <p className="text-base text-[color:var(--text-secondary)] mb-6 line-clamp-3 leading-relaxed">
                           {post.metadata.excerpt}
                         </p>
-                        <span className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-[var(--color-red-500)]/5 text-sm font-bold text-[color:var(--text-primary)] group-hover:bg-[var(--color-red-500)] group-hover:text-white transition-all duration-300 mt-auto">
+                        <span className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-[var(--color-red-500)]/5 text-sm font-bold text-[color:var(--text-primary)] group-hover:bg-[var(--color-red-500)] group-hover:text-white transition-all duration-300 mt-Website">
                           Artikel lesen <ArrowRight className="w-4 h-4" />
                         </span>
                       </div>

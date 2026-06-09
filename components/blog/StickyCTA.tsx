@@ -4,8 +4,8 @@ import { useState, useEffect } from "react";
 import { PhoneCall, ShieldAlert } from "lucide-react";
 
 // Statische Firmennummer für den Blog CTA
-const PHONE_DISPLAY = "06441 8056279";
-const PHONE_LINK = "+4964418056279";
+const PHONE_DISPLAY = "0800-SERP-SOS";
+const PHONE_LINK = "0800-SERP-SOS";
 
 export default function StickyCTA() {
   const [isVisible, setIsVisible] = useState(false);
@@ -36,11 +36,9 @@ export default function StickyCTA() {
             </div>
             <div>
               <p className="font-bold text-[color:var(--text-primary)] text-sm sm:text-base leading-tight">
-                Notfall? Tür zugefallen?
-              </p>
+                {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
               <p className="text-xs sm:text-sm text-[color:var(--text-secondary)] hidden sm:block">
-                In Wetzlar & Lahn-Dill-Kreis in ~20 Min. vor Ort
-              </p>
+                {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
             </div>
           </div>
           <a

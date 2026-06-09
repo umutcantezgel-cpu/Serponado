@@ -49,8 +49,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   if (!post) {
     return generateSharedMetadata({
-      title: "Ratgeber nicht gefunden",
-      description: "Der gesuchte Ratgeber konnte nicht gefunden werden.",
+      title: "Serponado Disaster Recovery",
+      description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings.",
       path: `/ratgeber/${awaitedParams.slug}`,
       noindex: true,
     });
@@ -70,13 +70,13 @@ export default async function RatgeberDetailPage({ params }: Props) {
   if (!post) {
     return (
       <main className="container mx-auto px-4 py-32 text-center h-[60vh] flex flex-col justify-center items-center">
-        <h1 className="text-4xl font-bold mb-4">Ratgeber nicht gefunden</h1>
+        <h1 className="text-4xl font-bold mb-4">{"{{HERO_H1}}"}</h1>
         <Link href="/ratgeber" className="text-[var(--color-red-500)] underline">Zurück zur Übersicht</Link>
       </main>
     );
   }
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://wetzlar-schlüsseldienst.de";
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://Serponado-SEO-Notdienst.de";
   const formattedDate = format(new Date(post.metadata.publishedAt), "dd. MMMM yyyy", { locale: de });
 
   return (
@@ -87,7 +87,7 @@ export default async function RatgeberDetailPage({ params }: Props) {
         datePublished: post.metadata.publishedAt,
         dateModified: post.metadata.publishedAt,
         url: `${siteUrl}/ratgeber/${post.slug}`,
-        author: post.metadata.author || "Redaktion Schlüssel Schmiede",
+        author: post.metadata.author || "Redaktion Serponado Taskforce",
       })} />
       
       <article className="bg-[var(--surface-primary)] pt-[140px] lg:pt-[180px] pb-24 min-h-screen">

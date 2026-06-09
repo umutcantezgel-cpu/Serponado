@@ -75,14 +75,14 @@ export default function MobileBottomBar() {
         >
           <div className="flex w-full items-center justify-between pr-10">
             <a
-              href="tel:+4964418056279"
+              href="tel:0800-SERP-SOS"
               onClick={() => triggerHaptic('light')}
               className={`flex items-center justify-center gap-2 flex-[1.2] h-full min-h-[56px] active:bg-[var(--color-red-600)] transition-colors border-r border-white/20 ${
                 pathname.includes("/notdienst") || pathname.includes("/turoeffnung")
                   ? "bg-[var(--color-red-600)]"
                   : ""
               }`}
-              aria-label="Jetzt anrufen: 06441 8056279"
+              aria-label="Jetzt anrufen: 0800-SERP-SOS"
             >
               <Phone className="h-4 w-4 animate-heartbeat-cta" aria-hidden="true" />
               <span className="text-sm font-bold">Anrufen</span>

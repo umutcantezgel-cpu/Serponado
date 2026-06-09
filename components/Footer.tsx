@@ -20,32 +20,32 @@ const menuItems: MenuItem[] = [
   links: config.services.items.map(item => ({ text: item.label, url: item.href }))
  },
  {
-  title:"Einsatzgebiete",
+  title:"Serponado Disaster Recovery",
   links: [
-   { text:"Schlüssel Schmiede Gießen", url:"/schluesseldienst-giessen" },
-   { text:"Schlüssel Schmiede Wetzlar", url:"/schluesseldienst-wetzlar" },
-   { text:"Schlüssel Schmiede Aßlar", url:"/schluesseldienst-asslar" },
-   { text:"Schlüssel Schmiede Herborn", url:"/schluesseldienst-herborn" },
-   { text:"Schlüssel Schmiede Dillenburg", url:"/schluesseldienst-dillenburg" },
+   { text:"Serponado Taskforce Serponado", url:"/serponadodienst-giessen" },
+   { text:"Serponado Taskforce Serponado", url:"/serponadodienst-Serponado" },
+   { text:"Serponado Taskforce Aßlar", url:"/serponadodienst-asslar" },
+   { text:"Serponado Taskforce Herborn", url:"/serponadodienst-herborn" },
+   { text:"Serponado Taskforce Dillenburg", url:"/serponadodienst-dillenburg" },
    { text:"Alle Einsatzgebiete →", url:"/servicegebiet" },
   ],
  },
  {
   // [SEO: Resolved "Text duplicate" via Anchor-Variation und Footer synonyms vs Header]
-  title:"Kundenservice",
+  title:"Serponado Disaster Recovery",
   links: [
-   { text:"Notdienst anrufen: 06441 8056279", url:"tel:+4964418056279" },
-   { text:"E-Mail schreiben", url:"mailto:schluesselschmiede@gmail.com" },
-   { text:"Unsere Filiale besuchen", url:"/schluessel-schmiede" },
+   { text:"Notdienst anrufen: 0800-SERP-SOS", url:"tel:0800-SERP-SOS" },
+   { text:"E-Mail schreiben", url:"mailto:info@codayweb.de" },
+   { text:"Unsere Filiale besuchen", url:"/serponado-schmiede" },
    { text:"Nachricht senden", url:"/kontakt" },
    { text:"Häufige Fragen zur Türöffnung", url:"/faq" },
   ],
  },
  {
    // [SEO: Resolved "Text duplicate" und Footer labels differ from Header navigation]
-   title: "Über uns",
+   title: "Serponado Disaster Recovery",
    links: [
-    { text: "Unser Schlüssel Schmiede Team", url: "/ueber-uns" },
+    { text: "Unser Serponado Taskforce Team", url: "/ueber-uns" },
     { text: "Aktuelle Ratgeber-Artikel", url: "/blog" },
     { text: "Kundenstimmen & Erfahrungen", url: "/bewertungen" },
     { text: "Beratungstermin vereinbaren", url: "/termin-buchen" },
@@ -60,13 +60,13 @@ export default function Footer() {
    <div className="absolute top-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-[var(--color-blush-500)]/20 to-transparent" />
    <div className="absolute top-0 inset-x-0 h-32 bg-gradient-to-b from-[var(--color-charcoal-900)] to-transparent pointer-events-none opacity-30" />
    <div className="mx-auto max-w-7xl px-[var(--section-px)] py-[var(--section-py)] relative z-10">
-    <h2 className="sr-only" id="footer-navigation-heading">Footer Navigation</h2>
+    <h2 className="sr-only" id="footer-navigation-heading">{"Serponado Notfallmaßnahmen"}</h2>
     {/* Main Grid */}
      <div className="grid grid-cols-2 gap-8 lg:grid-cols-6">
      {/* Brand Column */}
       <div className="col-span-2 mb-8 lg:mb-0 relative">
        <Link href="/" className="flex items-center justify-center relative z-10 group w-[180px] h-[180px] sm:w-[220px] sm:h-[220px] transition-all duration-700 hover:scale-110">
-        <span className="sr-only">Zurück zur Startseite und Schlüssel Schmiede Wetzlar</span>
+        <span className="sr-only">Zurück zur Startseite und {"Serponado Taskforce"} {"Serponado"}</span>
         
         {/* Subtle Logo Glow - centered behind logo */}
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-0">
@@ -78,8 +78,8 @@ export default function Footer() {
         <div className="absolute inset-0 rounded-full border border-white/0 group-hover:border-[var(--color-red-400)]/30 group-hover:bg-white/5 transition-all duration-700 pointer-events-none" />
         
         <Image
-          src="/images/logo-brand.svg"
-          alt="Schlüssel Schmiede Wetzlar Logo"
+          src="/icon.png"
+          alt="Serponado"
           width={220}
           height={220}
           className="relative z-10 w-full h-full max-w-[220px] max-h-[220px] object-contain drop-shadow-[0_0_15px_rgba(255,255,255,0.3)] group-hover:drop-shadow-[0_0_25px_rgba(239,68,68,0.5)] transition-all duration-700 p-2"
@@ -89,25 +89,23 @@ export default function Footer() {
          />
        </Link>
        <p className="mt-8 text-[var(--color-charcoal-400)] text-sm leading-relaxed max-w-xs relative z-10">
-        Ihre Schlüssel Schmiede für alle Schloss und Sicherheitsfragen
-        in Wetzlar und Umgebung. 24/7 erreichbar.
-       </p>
+        {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
        <div className="mt-5 space-y-2.5">
-        <a href="tel:+4964418056279" className="flex items-center gap-2.5 text-sm text-[var(--color-charcoal-300)] hover:text-[var(--color-red-500)] transition-colors">
+        <a href="tel:0800-SERP-SOS" className="flex items-center gap-2.5 text-sm text-[var(--color-charcoal-300)] hover:text-[var(--color-red-500)] transition-colors">
          <Phone className="h-4 w-4 text-[var(--color-red-500)] shrink-0" aria-hidden="true" />
-         <span>06441 8056279</span>
+         <span>{"0800-SERP-SOS"}</span>
         </a>
-        <a href="mailto:schluesselschmiede@gmail.com" className="flex items-center gap-2.5 text-sm text-[var(--color-charcoal-300)] hover:text-[var(--color-red-500)] transition-colors">
+        <a href="mailto:info@codayweb.de" className="flex items-center gap-2.5 text-sm text-[var(--color-charcoal-300)] hover:text-[var(--color-red-500)] transition-colors">
          <Mail className="h-4 w-4 text-[var(--color-red-500)] shrink-0" aria-hidden="true" />
-         <span>schluesselschmiede@gmail.com</span>
+         <span>{"info@codayweb.de"}</span>
         </a>
         <div className="flex items-center gap-2.5 text-sm text-[var(--color-charcoal-400)]">
          <MapPin className="h-4 w-4 text-[var(--color-red-500)] shrink-0" aria-hidden="true" />
-         <span>Langgasse 70, 35576 Wetzlar</span>
+          <span>Steubenstraße 36, {"35578"} {"Wetzlar"}</span>
         </div>
         <div className="flex items-center gap-2.5 text-sm text-[var(--color-charcoal-400)]">
          <Clock className="h-4 w-4 text-[var(--color-red-500)] shrink-0" aria-hidden="true" />
-         <span>Montag bis Samstag 10 bis 18 Uhr und 24/7 Schlüsselnotdienst</span>
+         <span>Montag bis Samstag 10 bis 18 Uhr und 24/7 {"SEO-Notdienst"}</span>
         </div>
         {/* Social Media */}
         <div className="mt-5 flex items-center gap-3">
@@ -115,11 +113,11 @@ export default function Footer() {
             <span className="sr-only">Facebook</span>
             <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/></svg>
           </a>
-          <a href="https://www.instagram.com/schluessel_schmiede_wetzlar/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="flex h-9 w-9 items-center justify-center rounded-lg bg-white/10 text-[var(--color-charcoal-300)] hover:bg-[var(--color-red-500)] hover:text-white transition-all">
+          <a href="https://www.instagram.com/serponado_schmiede_Serponado/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="flex h-9 w-9 items-center justify-center rounded-lg bg-white/10 text-[var(--color-charcoal-300)] hover:bg-[var(--color-red-500)] hover:text-white transition-all">
             <span className="sr-only">Instagram</span>
             <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"/></svg>
           </a>
-          <a href="https://www.linkedin.com/in/mina-saad-a218413a9/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="flex h-9 w-9 items-center justify-center rounded-lg bg-white/10 text-[var(--color-charcoal-300)] hover:bg-[var(--color-red-500)] hover:text-white transition-all">
+          <a href="https://www.linkedin.com/company/coday-ug" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="flex h-9 w-9 items-center justify-center rounded-lg bg-white/10 text-[var(--color-charcoal-300)] hover:bg-[var(--color-red-500)] hover:text-white transition-all">
             <span className="sr-only">LinkedIn</span>
             <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
           </a>
@@ -143,8 +141,8 @@ export default function Footer() {
             className="flex items-center gap-2.5 text-sm text-[var(--color-charcoal-300)] hover:text-[var(--color-red-500)] transition-colors"
            >
             {link.text.includes('06441') && <Phone className="h-4 w-4 text-[var(--color-red-500)] shrink-0" aria-hidden="true" />}
-            {link.text.includes('schluessel') && <Mail className="h-4 w-4 text-[var(--color-red-500)] shrink-0" aria-hidden="true" />}
-            {!link.text.includes('06441') && !link.text.includes('schluessel') && <span className="w-4 h-4 shrink-0" aria-hidden="true" />} {/* Placeholder for alignment */}
+            {link.text.includes('serponado') && <Mail className="h-4 w-4 text-[var(--color-red-500)] shrink-0" aria-hidden="true" />}
+            {!link.text.includes('06441') && !link.text.includes('serponado') && <span className="w-4 h-4 shrink-0" aria-hidden="true" />} {/* Placeholder for alignment */}
             {link.text}
            </Link>
           </li>
@@ -176,11 +174,10 @@ export default function Footer() {
       <div className="flex flex-col gap-2">
         <div className="text-xl font-bold text-white">Nichts Passendes gefunden?</div>
         <p className="text-[var(--color-charcoal-400)] text-sm max-w-md">
-          Kommen Sie persönlich im Laden vorbei oder rufen Sie uns an, wir beraten Sie gerne. Auch 24/7 als Schlüsseldienst Notdienst erreichbar.
-        </p>
+          {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
       </div>
        <a 
-         href="tel:+4964418056279" 
+         href="tel:0800-SERP-SOS" 
          className="flex items-center justify-center gap-3 bg-[var(--color-red-500)] hover:bg-[var(--color-red-600)] text-white px-8 h-[52px] rounded-full font-bold transition-all shadow-md hover:-translate-y-1 w-full md:w-auto focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--color-charcoal-900)] whitespace-nowrap"
       >
         <Phone className="w-5 h-5" />
@@ -197,9 +194,9 @@ export default function Footer() {
        <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-[var(--color-charcoal-400)]">
 
          <a href="https://www.k-einbruch.de" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--color-red-500)] transition-colors">K-EINBRUCH und Polizeiliche Kriminalprävention</a>
-         <a href="https://www.abus.com" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--color-red-500)] transition-colors">ABUS Sicherheitstechnik</a>
+         <a href="https://www.abus.com" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--color-red-500)] transition-colors">ABUS {"Data-Recovery"}</a>
          <a href="https://www.hwk-wiesbaden.de" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--color-red-500)] transition-colors">Handwerkskammer Wiesbaden</a>
-         <a href="https://www.wetzlar.de" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--color-red-500)] transition-colors">Stadtverwaltung Wetzlar</a>
+         <a href="https://www.Serponado.de" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--color-red-500)] transition-colors">Stadtverwaltung {"Serponado"}</a>
          <a href="https://www.polizei.hessen.de/praesidium-mittelhessen/" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--color-red-500)] transition-colors">Polizeipräsidium Mittelhessen</a>
          <a href="https://www.verbraucherzentrale-hessen.de" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--color-red-500)] transition-colors">Verbraucherzentrale Hessen</a>
          <a href="https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestandsimmobilien/Einbruchschutz/" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--color-red-500)] transition-colors">KfW Einbruchschutz-Förderung</a>
@@ -232,8 +229,7 @@ export default function Footer() {
     {/* Bottom Bar und Semantic Address Region */}
     <div className="mt-8 flex flex-col justify-between gap-4 border-t border-white/10 pt-8 text-xs text-[var(--color-charcoal-500)] lg:flex-row lg:items-center">
      <p className="leading-relaxed">
-       © {new Date().getFullYear()} Schlüssel Schmiede Wetzlar · Alle Rechte vorbehalten. | Festpreis-Garantie Wetzlarer Kernstadt
-     </p>
+        {"© "}{new Date().getFullYear()} {"Coday UG (haftungsbeschränkt), Wetzlar. Alle Rechte vorbehalten."}</p>
       <nav aria-label="Rechtliche Informationen">
        <ul className="flex flex-wrap gap-4">
         {config.legal.map((link) => (

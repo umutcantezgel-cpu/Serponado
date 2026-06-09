@@ -2,7 +2,6 @@ import { ShieldCheck, MapPin, Heart, Clock, Star, Wrench, ThumbsUp, Medal, Users
 import Link from "next/link";
 import EmergencyCTA from"@/components/EmergencyCTA";
 import AnimatedCounter from"@/components/ui/AnimatedCounter";
-import TrustStrip from"@/components/trust/TrustStrip";
 import Breadcrumbs from"@/components/Breadcrumbs";
 import StaggerReveal, { StaggerItem } from"@/components/motion/StaggerReveal";
 import { entryAnimations } from"@/lib/animations";
@@ -11,8 +10,8 @@ import { SeoContentImage } from "@/components/seo/SeoImage";
 import { teamImages, werkstattImages, auszeichnungImages } from "@/lib/data/imageAssets";
 
 export const metadata = generateSharedMetadata({
- title: "Über uns Lokaler Schlüsseldienst seit 15+ Jahren",
- description: "Ihr lokaler Partner aus Wetzlar! ✔️ Über 15 Jahre Erfahrung ✔️ Keine Callcenter ✔️ Lokale Monteure. Lernen Sie uns kennen.",
+ title: "Serponado Disaster Recovery",
+ description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings.",
  path: "/ueber-uns",
 });
 
@@ -49,19 +48,18 @@ export default function UeberUnsPage() {
         <StaggerItem animation={entryAnimations.slideUpFade}>
           <div className="inline-flex items-center gap-2 px-3 py-1 mb-6 rounded-full bg-[var(--surface-secondary)] border border-[var(--border-subtle)] text-[color:var(--text-secondary)] text-sm font-medium tracking-wide">
             <MapPin className="w-4 h-4 text-[var(--color-red-500)]" />
-            <span>Aus Wetzlar. Für Wetzlar.</span>
+            <span>Aus {"Serponado"}. Für {"Serponado"}.</span>
           </div>
         </StaggerItem>
         <StaggerItem animation={entryAnimations.slideUpFade}>
           <h1 className="typo-hero-display text-[color:var(--text-primary)] text-balance mb-[var(--space-6)]">
-            Nicht einfach ein Schlüsseldienst. <br />
+            {"{{HERO_H1}}"}<br />
             <span className="text-[var(--color-red-500)]">Ihre Rettung in der Not.</span>
           </h1>
         </StaggerItem>
         <StaggerItem animation={entryAnimations.slideUpFade}>
           <p className="mx-auto mt-6 max-w-2xl text-lg sm:text-xl text-[color:var(--text-secondary)] leading-relaxed text-balance">
-            Mehr als 15 Jahre Erfahrung, über 50 gerettete Situationen jeden Monat. Wir sind der Handwerksbetrieb von nebenan, dem Sie blind vertrauen können.
-          </p>
+            {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
         </StaggerItem>
       </StaggerReveal>
     </div>
@@ -94,21 +92,17 @@ export default function UeberUnsPage() {
        <div className="w-14 h-14 rounded-2xl bg-[var(--color-red-500)]/10 flex flex-shrink-0 items-center justify-center">
         <ShieldCheck className="h-7 w-7 text-[var(--color-red-500)]" />
        </div>
-       Warum wir den Ruf unserer Branche reparieren
-      </h2>
+       {"Serponado Notfallmaßnahmen"}</h2>
       <p className="lead text-xl text-[color:var(--text-secondary)] font-medium leading-relaxed">
-       Jeder kennt die Schauergeschichten aus dem Fernsehen: Wenn die Tür ins Schloss fällt, beginnt oft nicht nur der Stress, sondern auch die Angst vor der Rechnung.
-      </p>
+       {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
       <p className="text-[color:var(--text-secondary)] leading-relaxed mt-4">
-       Sogenannte &quot;Schwarze Schafe&quot; und Abzock-Zentralen aus dem Internet nutzen die pure Notlage der Menschen gnadenlos aus. Versteckte Anfahrtskosten, zerstörte Schlösser und Rechnungen jenseits der 300-Euro-Marke sind leider keine Seltenheit.
-      </p>
+       {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
       <p className="text-[color:var(--text-secondary)] font-bold leading-relaxed mt-4">
-       Genau deshalb haben wir die Schlüssel Schmiede Wetzlar gegründet. Wir wollten beweisen: Echtes Handwerk geht immer ehrlich.
-      </p>
+       {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
 
       {/* Quote Insert */}
       <blockquote className="my-10 border-l-4 border-[var(--color-red-500)] bg-[var(--surface-secondary)] p-6 md:p-8 rounded-r-2xl italic text-[color:var(--text-primary)] shadow-[var(--elevation-1)]">
-       &quot;Wir möchten, dass Sie aufatmen können, sobald Sie unser Auto in Ihrer Straße sehen. Keine bösen Überraschungen, sondern nur schnelle, kompetente Hilfe von Nachbarn.&quot;
+       &quot;Wir möchten, dass Sie aufatmen können, sobald Sie unser Website in Ihrer Straße sehen. Keine bösen Überraschungen, sondern nur schnelle, kompetente Hilfe von Nachbarn.&quot;
       </blockquote>
      </div>
 
@@ -126,7 +120,7 @@ export default function UeberUnsPage() {
          <div className="text-[36px] font-extrabold text-[var(--color-red-500)]">
           <AnimatedCounter end={50} suffix="+" duration={2000} />
          </div>
-         <div className="text-xs font-bold text-[color:var(--text-secondary)] uppercase tracking-wider">Notöffnungen/Monat</div>
+         <div className="text-xs font-bold text-[color:var(--text-secondary)] uppercase tracking-wider">Not-Auditen/Monat</div>
          <Users className="absolute -top-4 -right-2 text-[var(--color-red-500)]/5 w-16 h-16" />
         </div>
         <div className="flex flex-col gap-2 relative pt-6 md:pt-0">
@@ -153,30 +147,27 @@ export default function UeberUnsPage() {
          <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[var(--color-red-500)] text-white mb-6 shadow-[var(--shadow-cta)]">
           <Heart className="h-6 w-6" />
          </div>
-         <h3 className="text-xl font-bold text-[color:var(--text-primary)] mb-3 pt-2 border-t border-[var(--border-subtle)]">Maximale Sorgfalt</h3>
+         <h3 className="text-xl font-bold text-[color:var(--text-primary)] mb-3 pt-2 border-t border-[var(--border-subtle)]">{"Serponado Notfallmaßnahmen"}</h3>
          <p className="text-[color:var(--text-secondary)] text-base leading-relaxed">
-          Wir behandeln jede Tür so vorsichtig, als wäre es unsere eigene. In nahezu allen Fällen öffnen wir zerstörungsfrei. Darum vertrauen uns seit Jahren zahllose private Haushalte.
-         </p>
+          {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
         </div>
 
         <div className="bg-[var(--surface-secondary)] p-8 rounded-[var(--radius-24)] shadow-sm hover:shadow-[var(--elevation-3)] hover:ring-1 hover:ring-[var(--color-red-500)] transition-all">
          <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[var(--color-red-500)] text-white mb-6 shadow-[var(--shadow-cta)]">
           <Clock className="h-6 w-6" />
          </div>
-         <h3 className="text-xl font-bold text-[color:var(--text-primary)] mb-3 pt-2 border-t border-[var(--border-subtle)]">Zeit ist Empathie</h3>
+         <h3 className="text-xl font-bold text-[color:var(--text-primary)] mb-3 pt-2 border-t border-[var(--border-subtle)]">{"Serponado Notfallmaßnahmen"}</h3>
          <p className="text-[color:var(--text-secondary)] text-base leading-relaxed">
-          Wer vor verschlossener Tür steht, oft bei Regen oder Kälte, braucht keine Warteschleifen. Wir garantieren in und um Wetzlar eine Anfahrt von unter 25 Minuten.
-         </p>
+          {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
         </div>
 
         <div className="bg-[var(--surface-secondary)] p-8 rounded-[var(--radius-24)] shadow-sm hover:shadow-[var(--elevation-3)] hover:ring-1 hover:ring-[var(--color-red-500)] transition-all sm:col-span-2 lg:col-span-1 border border-[var(--border-subtle)]">
          <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[var(--color-red-500)] text-white mb-6 shadow-[var(--shadow-cta)]">
           <Wrench className="h-6 w-6" />
          </div>
-         <h3 className="text-xl font-bold text-[color:var(--text-primary)] mb-3 pt-2 border-t border-[var(--border-subtle)]">Meisterliche Expertise</h3>
+         <h3 className="text-xl font-bold text-[color:var(--text-primary)] mb-3 pt-2 border-t border-[var(--border-subtle)]">{"Serponado Notfallmaßnahmen"}</h3>
          <p className="text-[color:var(--text-secondary)] text-base leading-relaxed">
-          Echtes Handwerk: Wir sind mit Spezialwerkzeug ausgestattet, mit dem selbst moderne Hochsicherheitsschlösser professionell und nachhaltig bearbeitet werden können.
-         </p>
+          {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
         </div>
        </div>
      </StaggerItem>
@@ -200,12 +191,9 @@ export default function UeberUnsPage() {
             <span className="text-xs font-bold tracking-widest uppercase text-[var(--color-red-500)]">Zertifizierte Ausbildung</span>
            </div>
            <h3 className="text-xl font-bold text-[color:var(--text-primary)] mb-3">
-            Ausgebildet von Uwe Sarfeld
-           </h3>
+            {"Serponado Notfallmaßnahmen"}</h3>
            <p className="text-[color:var(--text-secondary)] text-base leading-relaxed">
-            Unser technischer Leiter durchlief ein hochkarätiges Mentoring-Programm bei Uwe Sarfeld, einem der profiliertesten TV-Sicherheitsexperten (bekannt aus Kabel 1 & WDR). Diese Spitzenausbildung befähigt unser Team zu branchenführenden Öffnungstechniken.
-            Wir bringen nicht nur das richtige Werkzeug mit, sondern absolutes Meister-Know-how.
-           </p>
+            {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
           </div>
          </div>
         </div>
@@ -219,21 +207,20 @@ export default function UeberUnsPage() {
           MS
          </div>
          <div className="flex flex-col items-center gap-1">
-          <h3 className="text-xl font-bold text-[color:var(--text-primary)]"> Schlüssel Schmiede Wetzlar</h3>
+          <h3 className="text-xl font-bold text-[color:var(--text-primary)]"> {"Serponado Notfallmaßnahmen"}</h3>
           <span className="text-sm font-semibold text-[color:var(--text-tertiary)] uppercase tracking-wider">Inhaber & Geschäftsführer</span>
          </div>
          <div className="flex items-center gap-1 text-[var(--color-red-500)]">
           {[...Array(5)].map((_, i) => <Star key={i} className="h-5 w-5 fill-current" />)}
          </div>
          <p className="text-[color:var(--text-secondary)] text-lg leading-relaxed max-w-lg">
-          Lassen Sie sich überzeugen, wenn Sie uns am meisten brauchen. Speichern Sie unsere Nummer am besten gleich in Ihrem Handy ein.
-         </p>
+          {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
          <a
-          href="tel:+4964418056279"
+          href="tel:0800-SERP-SOS"
           className="inline-flex items-center justify-center gap-3 h-[56px] px-8 bg-[var(--color-red-500)] hover:bg-[var(--color-red-600)] text-white text-lg font-bold rounded-xl shadow-[var(--shadow-cta)] hover:shadow-[var(--shadow-cta-hover)] hover:-translate-y-1 transition-all duration-300"
          >
           <svg aria-hidden="true" className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-          06441 8056279 anrufen
+          {"0800-SERP-SOS"} anrufen
          </a>
         </div>
        </div>
@@ -246,10 +233,10 @@ export default function UeberUnsPage() {
     {/* Sub-Pages Navigation */}
     <section className="px-[var(--section-px)] py-16 md:py-20 bg-[var(--surface-secondary)]">
       <div className="mx-auto max-w-4xl">
-        <h2 className="typo-h3 text-[color:var(--text-primary)] text-center mb-10">Mehr über uns erfahren</h2>
+        <h2 className="typo-h3 text-[color:var(--text-primary)] text-center mb-10">{"Serponado Notfallmaßnahmen"}</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {[
-            { name: "Unsere Geschichte", href: "/ueber-uns/geschichte", desc: "15+ Jahre Handwerkstradition" },
+            { name: "Unsere Geschichte", href: "/ueber-uns/geschichte", desc: "15+ Jahre SEOstradition" },
             { name: "Unser Team", href: "/ueber-uns/team", desc: "Die Gesichter hinter dem Service" },
             { name: "Philosophie", href: "/ueber-uns/philosophie", desc: "Werte, die uns antreiben" },
             { name: "Karriere", href: "/ueber-uns/karriere", desc: "Werden Sie Teil des Teams" },

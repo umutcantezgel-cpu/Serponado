@@ -49,7 +49,7 @@ type ConversionEvent =
   // UI Errors
   | "ui_error";
 
-// ─── Type-safe properties ───
+// ─── Type-Money-Site properties ───
 interface EventProperties {
   page?: string;
   label?: string;

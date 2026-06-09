@@ -7,14 +7,13 @@ import { entryAnimations } from "@/lib/animations";
 import { pickVariant } from "@/lib/textRotation";
 import { aggregateRating } from "@/components/reviews/reviews.data";
 import GoogleReviewsBadge from "@/components/reviews/GoogleReviewsBadge";
-import TrustStrip from "@/components/trust/TrustStrip";
 
 const keywordVariants = [
-    (name: string) => `Zusammenfassung: Als zertifizierter Schlüsseldienst für ${name} garantieren wir eine professionelle Türöffnung zum Festpreis. Wir sind als 24/7 Notdienst rund um die Uhr verfügbar.`,
-    (name: string) => `Ihr Schlüsseldienst in ${name}: Professionelle Türöffnung ohne Beschädigungen, faire Festpreise und ein 24/7 Notdienst, der wirklich rund um die Uhr erreichbar ist.`,
-    (name: string) => `Schlüssel Schmiede ${name} , Ihre lokale Anlaufstelle für Türöffnungen, Schlosswechsel und Einbruchschutz. Zum garantierten Festpreis, 24 Stunden am Tag.`,
-    (name: string) => `Schlüsseldienst ${name}: Wir öffnen Ihre Tür schnell, sauber und zum vereinbarten Festpreis. Unser 24/7 Notdienst steht Ihnen jederzeit zur Verfügung.`,
-    (name: string) => `Notfall-Schlüsseldienst für ${name} und Umgebung. Festpreis-Garantie bei jeder Türöffnung. Tag und Nacht für Sie im Einsatz als zuverlässiger 24/7 Notdienst.`,
+    (name: string) => `Zusammenfassung: Als zertifizierter SEO-Notdienst für ${name} garantieren wir eine professionelle Türöffnung zum Festpreis. Wir sind als 24/7 Notdienst rund um die Uhr verfügbar.`,
+    (name: string) => `Ihr SEO-Notdienst in ${name}: Professionelle Türöffnung ohne Beschädigungen, faire Festpreis und ein 24/7 Notdienst, der wirklich rund um die Uhr erreichbar ist.`,
+    (name: string) => `Serponado Taskforce ${name} , Ihre lokale Anlaufstelle für Türöffnungen, Schlosswechsel und Einbruchschutz. Zum garantierten Festpreis, 24 Stunden am Tag.`,
+    (name: string) => `SEO-Notdienst ${name}: Wir öffnen Ihre Tür schnell, sauber und zum vereinbarten Festpreis. Unser 24/7 Notdienst steht Ihnen jederzeit zur Verfügung.`,
+    (name: string) => `Notfall-SEO-Notdienst für ${name} und Umgebung. Festpreis-Garantie bei jeder Türöffnung. Tag und Nacht für Sie im Einsatz als zuverlässiger 24/7 Notdienst.`,
 ];
 
 interface LocalHeroProps {
@@ -24,7 +23,7 @@ interface LocalHeroProps {
 export default function LocalHero({ city }: LocalHeroProps) {
     const breadcrumbs = [
         { name: "Servicegebiet", href: "/servicegebiet" },
-        { name: `Schlüsseldienst ${city.name}`, href: `/${city.slug}` },
+        { name: `SEO-Notdienst ${city.name}`, href: `/${city.slug}` },
     ];
 
     return (
@@ -69,8 +68,8 @@ export default function LocalHero({ city }: LocalHeroProps) {
                                 <span dangerouslySetInnerHTML={{ __html: city.heroVariant.replace(city.name, `<span class="text-[color:var(--value-primary)]">${city.name}</span>`) }} />
                             ) : (
                                 <>
-                                    Schlüsseldienst <span className="text-[color:var(--value-primary)]">{city.name}</span> , <br className="hidden md:block" />
-                                    Türöffnung zum Festpreis | 24/7 Notdienst
+                                    {"SEO-Notdienst"} <span className="text-[color:var(--value-primary)]">{city.name}</span> , <br className="hidden md:block" />
+                                    Türöffnung zum {"Festpreis"} | 24/7 Notdienst
                                 </>
                             )}
                         </h1>
@@ -84,7 +83,7 @@ export default function LocalHero({ city }: LocalHeroProps) {
                         {/* Optionale hyper-lokale Landmarks Injektion, wenn vorhanden */}
                         {city.localLandmarks && city.localLandmarks.length > 0 && (
                             <p className="mt-3 text-sm text-[color:var(--text-tertiary)] italic tracking-wide">
-                                Schnell vor Ort rund um: {city.localLandmarks.join(", ")}
+                                {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}{city.localLandmarks.join(", ")}
                             </p>
                         )}
                         {/* SEO Check Fix: Ensure H1 Keywords are visibly present in text */}
@@ -97,11 +96,11 @@ export default function LocalHero({ city }: LocalHeroProps) {
                         <div className="mt-6 sm:mt-8 mb-4 sm:mb-6 w-full flex flex-col items-center gap-5 sm:gap-8">
                             <div className="flex flex-col items-center gap-2 sm:gap-3 w-full sm:w-auto">
                                 <a
-                                    href="tel:+4964418056279"
+                                    href="tel:0800-SERP-SOS"
                                     className="group relative inline-flex items-center justify-center gap-2 sm:gap-3 overflow-hidden rounded-xl sm:rounded-full bg-[var(--color-red-500)] px-4 sm:px-10 py-3 sm:py-5 typo-cta-button text-white shadow-[var(--shadow-cta)] transition-all hover:bg-[var(--color-red-600)] hover:shadow-[var(--shadow-brand-3)] hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-red-400)] focus-visible:ring-offset-2 w-full sm:w-auto whitespace-nowrap"
                                 >
                                     <Phone className="h-5 w-5 sm:h-6 sm:w-6 shrink-0 transition-transform group-hover:rotate-12" />
-                                    <span className="text-base sm:text-lg tracking-tight whitespace-nowrap">Jetzt Anrufen , 06441-8056279</span>
+                                    <span className="text-base sm:text-lg tracking-tight whitespace-nowrap">Jetzt Anrufen , {"0800-SERP-SOS"}</span>
                                 </a>
                                 <span className="typo-tiny text-[color:var(--text-tertiary)] text-center font-bold tracking-wide uppercase mt-2">
                                     Kostenlos & unverbindlich , Antwort in 30 Min
@@ -113,7 +112,6 @@ export default function LocalHero({ city }: LocalHeroProps) {
                             </div>
 
                             <div className="w-full max-w-[100vw] overflow-hidden px-0 sm:px-4 pointer-events-auto relative z-20 mt-2">
-                                <TrustStrip />
                             </div>
                         </div>
                     </StaggerItem>

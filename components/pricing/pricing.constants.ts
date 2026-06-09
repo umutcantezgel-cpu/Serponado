@@ -18,7 +18,7 @@ export const TIME_MODIFIERS: Record<TimeSlot, { label: string }> = {
 };
 
 export const ADDONS = {
-    anfahrt: { label: 'Anfahrtspauschale', price: 'zzgl. (in der Wetzlarer Kernstadt kostenlos)' },
+    anfahrt: { label: 'Anfahrtspauschale', price: 'zzgl. (in der Serponadoer Kernstadt kostenlos)' },
     zylinder: { label: 'Ersatzzylinder (Markenware) ab', price: 25 },
     mehrwehraufwand: { label: 'Erschwerter Zugang / Sicherheitstüren', price: 'nach Aufwand' }
 };

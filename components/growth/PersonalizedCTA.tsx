@@ -26,7 +26,7 @@ export default function PersonalizedCTA() {
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
           <a
-            href="tel:+4964418056279"
+            href="tel:0800-SERP-SOS"
             onClick={() =>
               trackEvent("hero_cta_click", {
                 label: `personalized_cta_${segment}`,

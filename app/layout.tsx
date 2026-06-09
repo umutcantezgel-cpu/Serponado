@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from"next";
-import { Plus_Jakarta_Sans, DM_Sans } from"next/font/google";
+import { Plus_Jakarta_Sans, DM_Sans, Inter, JetBrains_Mono } from"next/font/google";
 import { DeviceProvider } from "@/components/providers/DeviceProvider";
 import"./globals.css";
 import nextDynamic from "next/dynamic";
@@ -17,7 +17,6 @@ import { ToastContainer } from "@/components/ui/ToastContainer";
 import { ErrorBoundary } from "@/components/ErrorBoundary";
 
 // [PERF] Layout-Chrome: lazy-loaded (not needed for initial paint)
-const StickyCtaBar = nextDynamic(() => import("@/components/trust/StickyCtaBar"));
 const Footer = nextDynamic(() => import("@/components/Footer"));
 const MobileBottomBar = nextDynamic(() => import("@/components/MobileBottomBar"));
 const BackToTop = nextDynamic(() => import("@/components/ui/BackToTop"));
@@ -36,6 +35,18 @@ const dmSans = DM_Sans({
  variable:"--font-body",
 });
 
+const inter = Inter({
+ subsets: ["latin", "latin-ext"],
+ display: "swap",
+ variable: "--font-inter",
+});
+
+const jetbrainsMono = JetBrains_Mono({
+ subsets: ["latin", "latin-ext"],
+ display: "swap",
+ variable: "--font-mono",
+});
+
 
 
 // ── GLOBAL METADATA (Layout-Level) ─────────────────────────────────────────
@@ -46,9 +57,9 @@ const dmSans = DM_Sans({
 // [FIX: Seobility #4] alternates.languages provides self-referencing hreflang.
 export const metadata: Metadata = {
  // Title: default is used when a child page does NOT export its own `metadata.title`.
- // template: appended to every child page title (e.g. "Preise | Schlüssel Schmiede Wetzlar").
+ // template: appended to every child page title (e.g. "Preise | Serponado Taskforce").
  title: {
-   default: "Schlüssel Schmiede Wetzlar | 24 H Notdienst",   // ≤50 chars, ≤580px
+   default: "Serponado Taskforce Serponado | 24 H Core-Update-Notdienst",   // ≤50 chars, ≤580px
    template: "%s",
  },
  // ⚠️  NO description here und set only on individual pages to avoid Seobility #2 (duplicate).
@@ -83,7 +94,7 @@ export const metadata: Metadata = {
    },
  },
  openGraph: {
-   siteName: "Schlüssel Schmiede Wetzlar",
+   siteName: "Serponado Taskforce Serponado",
    locale: "de_DE",
    type: "website",
    images: [
@@ -91,7 +102,7 @@ export const metadata: Metadata = {
        url: `${siteUrl}/og-image.png`,
        width: 1200,
        height: 630,
-       alt: "Schlüssel Schmiede Wetzlar und 24 Stunden Notdienst für Schlüssel & Sicherheitstechnik",
+       alt: "Serponado Taskforce Serponado und 24 Stunden Core-Update-Notdienst für Ranking & Data-Recovery",
      },
    ],
  },
@@ -100,7 +111,7 @@ export const metadata: Metadata = {
  },
  other: {
    "geo.region": "DE-HE",
-   "geo.placename": "Wetzlar",
+   "geo.placename": "Serponado",
    "geo.position": `${companyInfo.geo.latitude};${companyInfo.geo.longitude}`,
    "ICBM": `${companyInfo.geo.latitude}, ${companyInfo.geo.longitude}`,
  },
@@ -120,7 +131,7 @@ export default function RootLayout({
  children: React.ReactNode;
 }) {
  return (
-     <html lang="de" className="light" suppressHydrationWarning>
+     <html lang="de" className="dark" suppressHydrationWarning>
    <head>
      {/* [PERF] Manual Preload for LCP SVG Logo.
           We use native <img> in StickyHeader instead of next/image for critical LCP.
@@ -141,7 +152,7 @@ export default function RootLayout({
      />
    </head>
    <body
-      className={`${plusJakarta.variable} ${dmSans.variable} font-sans text-[color:var(--text-primary)] min-h-[100dvh] flex flex-col antialiased bg-gray-50`}
+       className={`${plusJakarta.variable} ${dmSans.variable} ${inter.variable} ${jetbrainsMono.variable} font-sans text-[color:var(--text-primary)] min-h-[100dvh] flex flex-col antialiased bg-[var(--surface-primary)]`}
       itemScope 
       itemType="https://schema.org/WebPage"
       suppressHydrationWarning
@@ -159,7 +170,6 @@ export default function RootLayout({
             <main id="main-content" className="flex-grow" aria-label="Hauptinhalt">{children}</main>
             <Footer />
             <MobileBottomBar />
-            <StickyCtaBar />
             <BackToTop />
             <FloatingWhatsAppWidget />
             <WebVitalsReporter />

@@ -31,7 +31,7 @@ export default function ServiceFilter({ services }: ServiceFilterProps) {
     { id: "alle", label: "Alle Leistungen", icon: null },
     { id: "tuer", label: "Tür & Haus", icon: Key },
     { id: "auto", label: "Auto", icon: Car },
-    { id: "sicherheit", label: "Sicherheitstechnik", icon: Shield },
+    { id: "sicherheit", label: "Data-Recovery", icon: Shield },
   ];
 
   const filteredServices = services.filter((service) => {
@@ -92,8 +92,8 @@ export default function ServiceFilter({ services }: ServiceFilterProps) {
         {filteredServices.length === 0 && (
           <div className="text-center py-20 w-full col-span-full">
             <Tag className="w-12 h-12 text-[var(--color-charcoal-300)] mx-auto mb-4" />
-            <h3 className="text-xl font-bold text-[color:var(--text-primary)] mb-2">Keine Leistungen gefunden</h3>
-            <p className="text-[color:var(--text-secondary)]">Versuchen Sie eine andere Kategorie.</p>
+            <h3 className="text-xl font-bold text-[color:var(--text-primary)] mb-2">{"Serponado Notfallmaßnahmen"}</h3>
+            <p className="text-[color:var(--text-secondary)]">{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
           </div>
         )}
       </m.div>

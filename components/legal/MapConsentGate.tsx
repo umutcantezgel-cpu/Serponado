@@ -57,8 +57,7 @@ export function MapConsentGate({ src, title, className = "" }: MapConsentGatePro
         </div>
         
         <p className="text-gray-500 text-sm leading-relaxed mb-6">
-          Um Google Maps anzuzeigen, benötigen wir Ihre Zustimmung (Externe Medien). Dabei werden Marketing-Cookies gesetzt und Daten an Google LLC (USA) übertragen.
-        </p>
+          {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
         
         <div className="flex flex-col gap-3 w-full">
           <button

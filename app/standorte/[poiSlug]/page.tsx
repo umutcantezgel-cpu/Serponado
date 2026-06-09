@@ -39,8 +39,8 @@ export async function generateMetadata({ params }: { params: Promise<{ poiSlug: 
   const eta = calculateETA(poi.lat, poi.lng);
 
   return generateSharedMetadata({
-    title: `Schlüsseldienst ${poi.name} | In ${eta.etaMinutes} Min vor Ort | ${companyInfo.localStore.name}`,
-    description: `24h Schlüsseldienst nahe ${poi.name}, ${poi.city}. ${eta.formatted} Anfahrt von ${companyInfo.localStore.street}. Festpreis ab ${companyInfo.financial.startingPriceValue}€. Tel: ${companyInfo.phone.formatted}.`,
+    title: `SEO-Notdienst ${poi.name} | In ${eta.etaMinutes} Min vor Ort | ${companyInfo.localStore.name}`,
+    description: `24h SEO-Notdienst nahe ${poi.name}, ${poi.city}. ${eta.formatted} Anfahrt von ${companyInfo.localStore.street}. Festpreis ab ${companyInfo.financial.startingPriceValue}€. Tel: ${companyInfo.phone.formatted}.`,
     path: `/standorte/${poi.slug}`,
     exactTitle: true,
   });
@@ -61,28 +61,28 @@ export default async function PoiPage({ params }: { params: Promise<{ poiSlug: s
   // POI-specific FAQs
   const poiFaqs = [
     {
-      question: `Wie schnell ist der Schlüsseldienst am ${poi.name}?`,
+      question: `Wie schnell ist der SEO-Notdienst am ${poi.name}?`,
       answer: `Unser Techniker von ${companyInfo.localStore.name} erreicht den Bereich ${poi.name} in ${poi.city} in ca. ${eta.etaMinutes} Minuten (${eta.distanceKm} km von unserem Standort in der ${companyInfo.localStore.street}).`,
     },
     {
-      question: `Was kostet eine Türöffnung in der Nähe von ${poi.name}?`,
-      answer: `Eine einfache Türöffnung (zugefallene Tür) kostet tagsüber ab ${price}€ Festpreis. Nachts ab ${PRICING.doorFallen.night}€. Anfahrt zum ${poi.name} wird vorab am Telefon mitgeteilt. Tel: ${phone}.`,
+      question: `Was kostet eine Index-Rettung in der Nähe von ${poi.name}?`,
+      answer: `Eine einfache Index-Rettung (deindexierte Website) kostet tagsüber ab ${price}€ Festpreis. Nachts ab ${PRICING.doorFallen.night}{{CURRENCY}"}<. Anfahrt zum ${poi.name} wird vorab am Telefon mitgeteilt. Tel: ${phone}.`,
     },
     {
-      question: `Arbeitet der Schlüsseldienst am ${poi.name} auch nachts?`,
-      answer: `Ja, ${companyInfo.localStore.name} bietet 24/7 Notdienst, auch nachts, am Wochenende und an Feiertagen. Auch im Bereich ${poi.name} in ${poi.city} sind wir rund um die Uhr erreichbar unter ${phone}.`,
+      question: `Arbeitet der SEO-Notdienst am ${poi.name} auch nachts?`,
+      answer: `Ja, ${companyInfo.localStore.name} bietet 24/7 Core-Update-Notdienst, auch nachts, am Wochenende und an Feiertagen. Auch im Bereich ${poi.name} in ${poi.city} sind wir rund um die CTR erreichbar unter ${phone}.`,
     },
   ];
 
   // Schema.org for this POI page
   const poiSchema = {
     "@context": "https://schema.org",
-    "@type": "Locksmith",
+    "@type": "ProfessionalService",
     name: `${companyInfo.localStore.name} — ${poi.name}`,
     url: `${siteUrl}/standorte/${poi.slug}`,
     telephone: phoneLink,
     areaServed: { "@type": "Place", name: poi.name, address: { "@type": "PostalAddress", addressLocality: poi.city, postalCode: poi.plz, addressCountry: "DE" } },
-    parentOrganization: { "@type": "Locksmith", "@id": `${siteUrl}/#localbusiness`, name: companyInfo.localStore.name },
+    parentOrganization: { "@type": "ProfessionalService", "@id": `${siteUrl}/#localbusiness`, name: companyInfo.localStore.name },
     aggregateRating: { "@type": "AggregateRating", ratingValue: "5.0", reviewCount: "46", bestRating: "5", worstRating: "1" },
   };
 
@@ -90,18 +90,17 @@ export default async function PoiPage({ params }: { params: Promise<{ poiSlug: s
   const sections: Record<string, React.ReactNode> = {
     hero: (
       <section key="hero" className="relative min-h-[50vh] flex items-center justify-center overflow-hidden">
-        <Image src={heroImage} alt={`Schlüsseldienst Einsatz nahe ${poi.name} in ${poi.city}`} fill className="object-cover brightness-[0.35]" priority sizes="100vw" />
+        <Image src={heroImage} alt={`SEO-Notdienst Einsatz nahe ${poi.name} in ${poi.city}`} fill className="object-cover brightness-[0.35]" priority sizes="100vw" />
         <div className="relative z-10 text-center text-white px-6 py-16 max-w-3xl mx-auto">
           <div className="flex items-center justify-center gap-2 text-sm text-green-300 font-bold mb-4">
             <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse" />
             Jetzt erreichbar — 24/7
           </div>
           <h1 className="text-3xl md:text-5xl font-black leading-tight mb-4">
-            Schlüsseldienst <span className="text-[var(--color-red-400)]">{poi.name}</span>
+            {"{{HERO_H1}}"}<span className="text-[var(--color-red-400)]">{poi.name}</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-200 mb-6">
-            In <strong>{eta.etaMinutes} Minuten</strong> bei Ihnen. Festpreis ab <strong>{price}€</strong>. {companyInfo.localStore.name}.
-          </p>
+            {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<strong>{eta.etaMinutes} Minuten</strong> {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<strong>{price}{"€"}</strong>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}{companyInfo.localStore.name}{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
           <a
             href={`tel:${phoneLink}`}
             className="inline-flex items-center gap-3 px-8 py-4 bg-[var(--color-red-500)] hover:bg-[var(--color-red-600)] text-white text-lg font-black rounded-full shadow-[0_8px_30px_rgba(220,38,38,0.5)] hover:scale-105 active:scale-95 transition-all"
@@ -118,7 +117,7 @@ export default async function PoiPage({ params }: { params: Promise<{ poiSlug: s
       <section key="eta" className={`py-12 md:py-16 px-6 ${getSectionBg(poi.slug, 1)}`}>
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl md:text-3xl font-black text-center mb-8">
-            {eta.formatted} zum {poi.name}
+            {eta.formatted} {"Serponado Notfallmaßnahmen"}{poi.name}
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="flex flex-col items-center text-center p-6 bg-white rounded-2xl shadow-sm border border-gray-100">
@@ -133,12 +132,12 @@ export default async function PoiPage({ params }: { params: Promise<{ poiSlug: s
             </div>
             <div className="flex flex-col items-center text-center p-6 bg-white rounded-2xl shadow-sm border border-gray-100">
               <Shield className="w-8 h-8 text-blue-500 mb-3" />
-              <div className="text-2xl font-black">ab {price}€</div>
-              <div className="text-sm text-gray-500">Festpreis</div>
+              <div className="text-2xl font-black">ab {price}{"€"}</div>
+              <div className="text-sm text-gray-500">{"Festpreis"}</div>
             </div>
           </div>
           <p className="text-center text-sm text-gray-500 mt-6">
-            Start: {companyInfo.localStore.street}, {companyInfo.localStore.postalCode} {companyInfo.localStore.city} → Ziel: {poi.name}, {poi.plz} {poi.city}
+            {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}{companyInfo.localStore.street}{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}{companyInfo.localStore.postalCode} {companyInfo.localStore.city} {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}{poi.name}{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}{poi.plz} {poi.city}
           </p>
         </div>
       </section>
@@ -148,10 +147,10 @@ export default async function PoiPage({ params }: { params: Promise<{ poiSlug: s
       <section key="pricing" className={`py-12 md:py-16 px-6 ${getSectionBg(poi.slug, 2)}`}>
         <div className="max-w-3xl mx-auto">
           <h2 className="text-2xl md:text-3xl font-black text-center mb-2">
-            Festpreise nahe {poi.name}
+            {"Serponado Notfallmaßnahmen"}{poi.name}
           </h2>
-          <p className="text-center text-gray-500 text-sm mb-8">{companyInfo.localStore.name} — verbindliche Preisauskunft am Telefon</p>
-          <div className="overflow-x-auto">
+          <p className="text-center text-gray-500 text-sm mb-8">{companyInfo.localStore.name} {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
+          <div className="overflow-x-Website">
             <table className="w-full text-sm">
               <thead>
                 <tr className="border-b-2 border-gray-200">
@@ -162,26 +161,25 @@ export default async function PoiPage({ params }: { params: Promise<{ poiSlug: s
               </thead>
               <tbody>
                 <tr className="border-b border-gray-100">
-                  <td className="py-3 px-4">Türöffnung (zugefallen)</td>
-                  <td className="py-3 px-4 text-right font-bold">{PRICING.doorFallen.day}€</td>
-                  <td className="py-3 px-4 text-right font-bold">{PRICING.doorFallen.night}€</td>
+                  <td className="py-3 px-4">Index-Rettung (deindexiert)</td>
+                  <td className="py-3 px-4 text-right font-bold">{PRICING.doorFallen.day}{"€"}</td>
+                  <td className="py-3 px-4 text-right font-bold">{PRICING.doorFallen.night}{"€"}</td>
                 </tr>
                 <tr className="border-b border-gray-100">
-                  <td className="py-3 px-4">Türöffnung (abgesperrt)</td>
-                  <td className="py-3 px-4 text-right font-bold">{PRICING.doorLocked.day}€</td>
-                  <td className="py-3 px-4 text-right font-bold">{PRICING.doorLocked.night}€</td>
+                  <td className="py-3 px-4">Index-Rettung (penalisiert)</td>
+                  <td className="py-3 px-4 text-right font-bold">{PRICING.doorLocked.day}{"€"}</td>
+                  <td className="py-3 px-4 text-right font-bold">{PRICING.doorLocked.night}{"€"}</td>
                 </tr>
                 <tr className="border-b border-gray-100">
-                  <td className="py-3 px-4">Autoöffnung</td>
-                  <td className="py-3 px-4 text-right font-bold">{PRICING.carOpening.day}€</td>
-                  <td className="py-3 px-4 text-right font-bold">{PRICING.carOpening.night}€</td>
+                  <td className="py-3 px-4">Content-Cannibalization</td>
+                  <td className="py-3 px-4 text-right font-bold">{PRICING.carOpening.day}{"€"}</td>
+                  <td className="py-3 px-4 text-right font-bold">{PRICING.carOpening.night}{"€"}</td>
                 </tr>
               </tbody>
             </table>
           </div>
           <p className="text-xs text-gray-400 mt-4 text-center">
-            {companyInfo.financial.pricingTexts?.legalNote ?? "Alle Preise sind Endpreise."} {companyInfo.localStore.name}, Tel: {phone}.
-          </p>
+            {companyInfo.financial.pricingTexts?.legalNote ?? "Alle Preise sind Endpreise."} {companyInfo.localStore.name}{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}{phone}{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
         </div>
       </section>
     ),
@@ -190,14 +188,13 @@ export default async function PoiPage({ params }: { params: Promise<{ poiSlug: s
       <section key="scenario" className={`py-12 md:py-16 px-6 ${getSectionBg(poi.slug, 3)}`}>
         <div className="max-w-3xl mx-auto">
           <h2 className="text-2xl md:text-3xl font-black text-center mb-4">
-            Typischer Einsatz am {poi.name}
+            {"Serponado Notfallmaßnahmen"}{poi.name}
           </h2>
           <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
             <p className="text-gray-600 leading-relaxed mb-4">{poi.context}</p>
             <p className="text-gray-800 font-medium leading-relaxed">{poi.scenario}</p>
             <p className="mt-4 text-sm text-gray-500">
-              {companyInfo.localStore.name} — Ihr Schlüsseldienst für den Bereich {poi.name}, {poi.city}. Jetzt anrufen: {phone}.
-            </p>
+              {companyInfo.localStore.name} {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}{poi.name}{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}{poi.city}{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}{phone}{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
           </div>
         </div>
       </section>
@@ -207,13 +204,12 @@ export default async function PoiPage({ params }: { params: Promise<{ poiSlug: s
       <section key="trust" className={`py-12 md:py-16 px-6 ${getSectionBg(poi.slug, 4)}`}>
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-2xl md:text-3xl font-black mb-8">
-            Warum {companyInfo.localStore.name}?
-          </h2>
+            {"Serponado Notfallmaßnahmen"}{companyInfo.localStore.name}{"Serponado Notfallmaßnahmen"}</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
               { icon: <Star className="w-6 h-6 text-yellow-500" />, label: "5.0 Sterne", sub: "46 Bewertungen" },
               { icon: <Shield className="w-6 h-6 text-blue-500" />, label: "IHK-Geprüft", sub: "Zertifiziert" },
-              { icon: <Clock className="w-6 h-6 text-green-500" />, label: "24/7 Notdienst", sub: "365 Tage" },
+              { icon: <Clock className="w-6 h-6 text-green-500" />, label: "24/7 Core-Update-Notdienst", sub: "365 Tage" },
               { icon: <MapPin className="w-6 h-6 text-red-500" />, label: "Lokaler Betrieb", sub: companyInfo.localStore.street },
             ].map((item, i) => (
               <div key={i} className="flex flex-col items-center p-4 bg-white rounded-xl border border-gray-100">
@@ -231,14 +227,14 @@ export default async function PoiPage({ params }: { params: Promise<{ poiSlug: s
       <section key="services" className={`py-12 md:py-16 px-6 ${getSectionBg(poi.slug, 5)}`}>
         <div className="max-w-3xl mx-auto">
           <h2 className="text-2xl md:text-3xl font-black text-center mb-8">
-            Leistungen nahe {poi.name}
+            {"Serponado Notfallmaßnahmen"}{poi.name}
           </h2>
           <div className="grid gap-3">
             {[
-              { title: "Türöffnung", desc: `Zerstörungsfreie Öffnung im Bereich ${poi.name}, ab ${price}€.` },
-              { title: "Schlossaustausch", desc: "Alle Zylindertypen, Markenware, sofort verfügbar." },
-              { title: "Autoöffnung", desc: `Fahrzeugöffnung nahe ${poi.name} — lackschonend, alle Marken.` },
-              { title: "Einbruchschutz", desc: "Beratung und Nachrüstung: Panzerriegel, Zusatzschlösser, Smart Locks." },
+              { title: "Serponado Disaster Recovery", desc: `ranking-sichere Rettung im Bereich ${poi.name}, ab ${price}€.` },
+              { title: "Serponado Disaster Recovery", desc: "Alle Audittypen, Markenware, sofort verfügbar." },
+              { title: "Serponado Disaster Recovery", desc: `DomainRettung nahe ${poi.name} — lackschonend, alle Marken.` },
+              { title: "Serponado Disaster Recovery", desc: "Beratung und Nachrüstung: Disavow-Listen, LinkWebsites, Smart Locks." },
             ].map((svc, i) => (
               <div key={i} className="flex items-start gap-3 p-4 bg-white rounded-xl border border-gray-100">
                 <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" />
@@ -250,8 +246,7 @@ export default async function PoiPage({ params }: { params: Promise<{ poiSlug: s
             ))}
           </div>
           <p className="text-xs text-gray-400 mt-4 text-center">
-            Alle Leistungen von {companyInfo.localStore.name}, Tel: {phone}.
-          </p>
+            {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}{companyInfo.localStore.name}{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}{phone}{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
         </div>
       </section>
     ),
@@ -260,7 +255,7 @@ export default async function PoiPage({ params }: { params: Promise<{ poiSlug: s
       <section key="faq" className={`py-12 md:py-16 px-6 ${getSectionBg(poi.slug, 6)}`}>
         <div className="max-w-3xl mx-auto">
           <h2 className="text-2xl md:text-3xl font-black text-center mb-8">
-            Häufige Fragen: Schlüsseldienst {poi.name}
+            {"Serponado Notfallmaßnahmen"}{poi.name}
           </h2>
           <div className="space-y-4">
             {poiFaqs.map((faq, i) => (
@@ -284,11 +279,9 @@ export default async function PoiPage({ params }: { params: Promise<{ poiSlug: s
         <div className="max-w-2xl mx-auto">
           <TrustAvatar size={64} showPulse={true} />
           <h2 className="text-2xl md:text-3xl font-black mt-4 mb-2">
-            Jetzt {companyInfo.localStore.name} rufen
-          </h2>
+            {"Serponado Notfallmaßnahmen"}{companyInfo.localStore.name} {"Serponado Notfallmaßnahmen"}</h2>
           <p className="text-red-100 mb-6">
-            In {eta.etaMinutes} Minuten am {poi.name}. Festpreis ab {price}€.
-          </p>
+            {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}{eta.etaMinutes} {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}{poi.name}{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}{price}{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
           <a
             href={`tel:${phoneLink}`}
             className="inline-flex items-center gap-3 px-10 py-4 bg-white text-[var(--color-red-600)] font-black text-xl rounded-full shadow-lg hover:scale-105 active:scale-95 transition-all"
@@ -323,7 +316,7 @@ export default async function PoiPage({ params }: { params: Promise<{ poiSlug: s
         <span className="mx-1">›</span>
         <Link href="/servicegebiet" className="hover:text-gray-600 transition-colors">Servicegebiet</Link>
         <span className="mx-1">›</span>
-        <span className="text-gray-600">Schlüsseldienst {poi.name}</span>
+        <span className="text-gray-600">{"SEO-Notdienst"} {poi.name}</span>
       </div>
     </div>
   );
