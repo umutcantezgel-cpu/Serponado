@@ -20,8 +20,8 @@ import { companyInfo } from "@/lib/data/company";
 
 /* ── Contextual messages per route ── */
 function getContextualMessage(pathname: string): string {
-  if (pathname.includes("/leistungen/notdienst") || pathname.includes("/leistungen/turoeffnung"))
-    return "Hallo, ich habe einen Notfall und brauche dringend Hilfe bei einer Türöffnung.";
+  if (pathname.includes("/leistungen/taskforce") || pathname.includes("/leistungen/index-rettung"))
+    return "Hallo, ich habe einen Notfall und brauche dringend Hilfe bei einer Index-Rettung.";
   if (pathname.includes("/preise"))
     return "Hallo, ich hätte eine Frage zu Ihren Preisen und Festpreisgarantie.";
   if (pathname.includes("/kontakt"))

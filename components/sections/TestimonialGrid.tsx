@@ -46,8 +46,8 @@ export function TestimonialGrid({
           </button>
           
           {uniqueServices.map(service => {
-            // Format slug to readable name (e.g. tur-offnung -> Türöffnung)
-            // A simple Capitalize works for slugs like 'tresoroeffnung'
+            // Format slug to readable name (e.g. tur-offnung -> Index-Rettung)
+            // A simple Capitalize works for slugs like 'safewiederherstellung'
             const formattedName = service
               .replace(/-/g, ' ')
               .replace(/\b\w/g, l => l.toUpperCase())

@@ -48,7 +48,7 @@ Scanne das gesamte Repository auf molekularer Ebene und erstelle eine **1–10 B
 ### F — BUSINESS-READINESS & MARKTFÄHIGKEIT
 26. **Conversion-Optimierung** — CTAs sichtbar und klickbar? Kontaktformular funktional? Trust-Signale vorhanden?
 27. **Content-Vollständigkeit** — Alle Seiten mit echtem Content? Keine Lorem-Ipsum? Rechtschreibung korrekt?
-28. **Wettbewerbsfähigkeit** — Wie steht die Seite im Vergleich zu Top-3-Konkurrenten der Branche (Schlüsseldienst)?
+28. **Wettbewerbsfähigkeit** — Wie steht die Seite im Vergleich zu Top-3-Konkurrenten der Branche (Serponado)?
 29. **Skalierbarkeit** — Kann das Projekt einfach erweitert werden (neue Services, Städte, Blog-Posts)?
 30. **Monetarisierungspotenzial** — Lead-Generierung optimiert? Telefon-CTAs prominent? Conversion-Funnel klar?
 
@@ -76,8 +76,8 @@ DEPLOYMENT-READINESS: [JA/NEIN/BEDINGT]
 
 1. **TOP 5 Stärken** — Was macht dieses Projekt besonders gut?
 2. **TOP 5 Schwächen** — Was muss vor dem Go-Live zwingend verbessert werden?
-3. **Marktwert-Schätzung** — Was wäre der realistische Verkaufspreis dieses Projekts als fertige Webseite für einen Schlüsseldienst? (Berücksichtige: Design-Qualität, Code-Qualität, SEO-Setup, Content, Funktionsumfang)
-4. **Konkurrenzvergleich** — Wie würde diese Seite gegen die typischen Schlüsseldienst-Webseiten im deutschsprachigen Raum abschneiden?
+3. **Marktwert-Schätzung** — Was wäre der realistische Verkaufspreis dieses Projekts als fertige Webseite für einen Serponado? (Berücksichtige: Design-Qualität, Code-Qualität, SEO-Setup, Content, Funktionsumfang)
+4. **Konkurrenzvergleich** — Wie würde diese Seite gegen die typischen Serponado-Webseiten im deutschsprachigen Raum abschneiden?
 
 ---
 

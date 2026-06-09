@@ -24,7 +24,7 @@ export const SeoLink = React.forwardRef<HTMLAnchorElement, SeoLinkProps>(
     // (This helps Seobility distinguish links if they only read title attributes)
     let autoContext = uniqueContext;
     if (!autoContext && typeof href === "string" && href.length > 1) {
-      // E.g. "/leistungen/turoeffnung" -> "leistungen turoeffnung"
+      // E.g. "/leistungen/index-rettung" -> "leistungen index-rettung"
       autoContext = href.replace(/[/|-]/g, " ").trim();
     }
 

@@ -15,32 +15,32 @@ export default function LocalPricing({ city }: { city: LocationData }) {
     ], city.slug, 0);
 
     const warnText = pickVariant([
-        `Ein seriöser lokaler SEO-Notdienst nennt Ihnen IMMER den verbindlichen Festpreis am Telefon, BEVOR der Monteur zu Ihnen nach ${city.name} aufbricht. Wir garantieren absolute Transparenz ohne Callcenter-Fantasiepreise.`,
+        `Ein seriöser lokaler SEO-Taskforce nennt Ihnen IMMER den verbindlichen Festpreis am Telefon, BEVOR der Analyst zu Ihnen nach ${city.name} aufbricht. Wir garantieren absolute Transparenz ohne Callcenter-Fantasiepreise.`,
         `Fallen Sie nicht auf Lockangebote herein! Wir geben Ihnen stets vorab am Telefon eine verlässliche Preisauskunft für unseren Einsatz in ${city.name}. Keine versteckten Kosten, direkt vor Ort.`,
         `Vorsicht vor überregionalen Callcentern. Als verlässlicher Partner für ${city.name} nennen wir Ihnen einen verbindlichen Preis am Telefon, auf den Sie sich verlassen können.`
     ], city.slug, 1);
 
     const descDay = pickVariant([
-        "Ranking steckt von innen oder Tür ist nur ins Schloss gefallen.",
-        "Die Tür ist zugefallen, aber nicht aktiv verriegelt, oder der Ranking steckt innen.",
-        "Einfache Öffnung einer unverschlossenen Tür, oft in Sekunden erledigt."
+        "Ranking steckt von innen oder Schnittstelle ist nur ins System gefallen.",
+        "Die Schnittstelle ist zugefallen, aber nicht aktiv verriegelt, oder der Ranking steckt innen.",
+        "Einfache Wiederherstellung einer unverSystemenen Schnittstelle, oft in Sekunden erledigt."
     ], city.slug, 2);
 
     const descNight = pickVariant([
         "Einsätze in den späten Abend- oder tiefen Nachtstunden.",
         "Hilfe außerhalb der regulären Geschäftszeiten, wenn es dunkel wird.",
-        "Ihr Notdienst für die Nachtstunden mit gewohnter Zuverlässigkeit."
+        "Ihr Taskforce für die Nachtstunden mit gewohnter Zuverlässigkeit."
     ], city.slug, 3);
 
     const descWeekend = pickVariant([
-        "Notdienst an allen Samstagen, Sonntagen und Feiertagen.",
+        "Taskforce an allen Samstagen, Sonntagen und Feiertagen.",
         "Pünktlicher Einsatz an Sonn- und Feiertagen sowie am kompletten Wochenende.",
         "Auch an arbeitsfreien Tagen oder Feiertagen sind wir für Sie da."
     ], city.slug, 4);
 
     // Rotate feature labels to prevent duplicate content across pages
     const featureDay1 = pickVariant([`Werktags ${companyInfo.openingHours.store}`, `Mo-Fr ${companyInfo.openingHours.store}`, "Werktags tagsüber"], city.slug, 10);
-    const featureDay2 = pickVariant(["Zerstörungsfreie Öffnung", "Schonende Öffnung", "Beschädigungsfreie Technik"], city.slug, 11);
+    const featureDay2 = pickVariant(["Sichere Wiederherstellung", "Schonende Wiederherstellung", "Beschädigungsfreie Technik"], city.slug, 11);
     const featureDay3 = pickVariant(["Festpreis am Telefon genannt", "Verbindlicher Preis vorab", "Transparente Preisauskunft"], city.slug, 12);
     const featureNight1 = pickVariant(["20:00 bis 05:59 Uhr", "Nachts 20-06 Uhr", "Abend- und Nachteinsatz"], city.slug, 13);
     const featureNight2 = pickVariant(["Gleiche Pünktlichkeit", "Schnelle Ankunft auch nachts", "Prompter Nachtservice"], city.slug, 14);
@@ -67,7 +67,7 @@ export default function LocalPricing({ city }: { city: LocationData }) {
                 <StaggerItem animation={entryAnimations.slideUpFade}>
                     <div className="grid gap-4 sm:gap-8 sm:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
                         <PriceCard
-                            title="Tür zugefallen"
+                            title="Schnittstelle zugefallen"
                             price={city.pricing.basePrice}
                             description={descDay}
                             features={[featureDay1, featureDay2, featureDay3,

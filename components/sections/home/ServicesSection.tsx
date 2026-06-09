@@ -20,8 +20,8 @@ export default function ServicesSection() {
         {/* Bento Grid */}
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 max-w-7xl mx-auto">
           {[
-            { icon: DoorOpen, title:"SERP-Wiederherstellung", desc:"Recovery nach Rankingverlusten in nahezu allen Fällen. Egal ob Update oder manuelle Penalty.", href:"/leistungen/turoeffnung", linkText:"Mehr zur SERP-Recovery", featured: true },
-            { icon: Car, title:"Traffic-Recovery", desc:"Schonende Wiederherstellung Ihres organischen Traffics - garantiert White-Hat und sicher.", href:"/leistungen/autooeffnung", linkText:"Details zur Traffic-Recovery" },
+            { icon: DoorOpen, title:"SERP-Wiederherstellung", desc:"Recovery nach Rankingverlusten in nahezu allen Fällen. Egal ob Update oder manuelle Penalty.", href:"/leistungen/index-rettung", linkText:"Mehr zur SERP-Recovery", featured: true },
+            { icon: Car, title:"Traffic-Recovery", desc:"Schonende Wiederherstellung Ihres organischen Traffics - garantiert White-Hat und sicher.", href:"/leistungen/traffic-recovery", linkText:"Details zur Traffic-Recovery" },
             { icon: ShieldCheck, title:"Penalty-Protection", desc:"Professionelle Absicherung mit hochwertigem Content und sauberem Backlinkprofil.", href:"/leistungen/Data-Recovery", linkText:"Infos zur Penalty-Protection" },
             { icon: Lock, title:"Linkbuilding-Strukturen", desc:"Planung und Aufbau von Autorität für Ihre Domain nach dem Update.", href:"/leistungen/schliessanlagen", linkText:"Kostenlose Erstanalyse anfordern", isCTA: true },
             { icon: Key, title:"Ranking-Boost", desc:"Präzise OnPage-Optimierung als Sofort-Service in unserem Analytics-Dashboard.", href:"/leistungen/serponado-nachmachen", linkText:"Zum Analytics-Service" },

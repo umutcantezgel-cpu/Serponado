@@ -8,7 +8,7 @@
 ## 2. Identified Features for E2E Testing
 Based on `ORIGINAL_REQUEST.md`, we identify the following user-facing and systemic features that require E2E validation:
 
-- **F1: Global UI & Theming (R1):** The site must render the "Industrial Brutalism / Dark-Tech" theme. Specific layout container name changes must be verified ("Serponado Schadensberichte", "Serponado Notfall-Audit"). The old vocabulary ("Schlüsseldienst") must be completely purged.
+- **F1: Global UI & Theming (R1):** The site must render the "Industrial Brutalism / Dark-Tech" theme. Specific layout container name changes must be verified ("Serponado Schadensberichte", "Serponado Notfall-Audit"). The old vocabulary ("Altlasten") must be completely purged.
 - **F2: pSEO Dynamic Routing (R4):** The application must correctly serve dynamic routes under `/serponado/[slug]`. Representative pSEO pages must load correctly without 404/500 errors.
 - **F3: SEO Meta & Schema.org (R4):** Individual pSEO pages must inject the correct dynamic `<title>`, `<meta name="description">`, OpenGraph tags, and valid JSON-LD schemas (`Article` and `FAQPage`).
 - **F4: Image Rendering & Optimization (R2, R4):** The `hero_image` must load correctly on the pages, utilizing Next.js `next/image` with proper `alt` tags and `fetchpriority="high"`.
@@ -38,7 +38,7 @@ Based on `ORIGINAL_REQUEST.md`, we identify the following user-facing and system
 **Goal:** Validating image properties, content structure, and absolute purging of old terminology.
 - **Tests:**
   - Verify `hero_image` is present in the DOM with `fetchpriority="high"` and an SEO-relevant `alt` attribute.
-  - Scan the DOM of the homepage and sample pSEO pages to assert the complete absence of old vocabulary (e.g., "Schlüsseldienst").
+  - Scan the DOM of the homepage and sample pSEO pages to assert the complete absence of old vocabulary (e.g., "Altlasten").
   - Verify the "mainContent" area exists on a pSEO page and contains standard HTML tags (e.g., paragraphs, headings).
   - Verify the FAQ section renders (e.g., looking for accordion elements or heading structures).
 

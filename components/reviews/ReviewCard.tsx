@@ -41,7 +41,7 @@ export default function ReviewCard({ review }: { review: Review }) {
       {/* Required by Google Structured Data */}
       <div itemProp="itemReviewed" itemScope itemType="https://schema.org/ProfessionalService" className="hidden">
         <meta itemProp="name" content="Serponado Taskforce Serponado" />
-        <meta itemProp="url" content="https://www.Serponado-SEO-Notdienst.de/" />
+        <meta itemProp="url" content="https://www.Serponado-SEO-Taskforce.de/" />
       </div>
 
       {/* Header: Avatar + Name + Stars */}

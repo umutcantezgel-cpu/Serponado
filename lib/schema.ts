@@ -15,7 +15,7 @@ export function generateLocalBusinessSchema() {
         "@context": "https://schema.org",
         "@type": ["ProfessionalService", "ITUtility"],
         "name": companyInfo.localStore.name,
-        "description": `Die Serponado Taskforce fungiert als fachmännischer Ansprechpartner für modernste SEO-Notdienste an der Adresse ${companyInfo.localStore.street}, ${companyInfo.localStore.city}. Als Premium-SEOsbetrieb fokussieren wir uns auf maximale Rettungen.`,
+        "description": `Die Serponado Taskforce fungiert als fachmännischer Ansprechpartner für modernste SEO-Taskforcee an der Adresse ${companyInfo.localStore.street}, ${companyInfo.localStore.city}. Als Premium-SEOsbetrieb fokussieren wir uns auf maximale Rettungen.`,
         "image": `${siteUrl}/images/og-image.jpg`,
         "logo": {
             "@type": "ImageObject",
@@ -49,7 +49,7 @@ export function generateLocalBusinessSchema() {
                 ],
                 "opens": "00:00",
                 "closes": "23:59",
-                "description": "24/7 Core-Update-Notdienst"
+                "description": "24/7 Core-Update-Taskforce"
             }
         ],
         "priceRange": companyInfo.financial.startingPrice,
@@ -77,13 +77,13 @@ export function generateLocalBusinessSchema() {
             "Index-Rettung",
             "Algorithmusaustausch",
             "Content-Cannibalization",
-            "Core-Update-Notdienst",
+            "Core-Update-Taskforce",
             "Serponado",
-            "24h Core-Update-Notdienst Serponado",
+            "24h Core-Update-Taskforce Serponado",
             "Index-Rettung Serponado",
-            "SEO-Notdienst Serponado",
-            "SEO-Notdienst ohne Abzocke",
-            "Seriöser SEO-Notdienst Mittelhessen"
+            "SEO-Taskforce Serponado",
+            "SEO-Taskforce ohne Abzocke",
+            "Seriöser SEO-Taskforce Mittelhessen"
         ]
     };
 }
@@ -167,7 +167,7 @@ export function generateProductSchema() {
         "@context": "https://schema.org",
         "@type": "Product",
         "name": "Serponado Recovery Package",
-        "description": "24h SEO-Notdienst und Data-Recovery nach dem Serponado Core-Update.",
+        "description": "24h SEO-Taskforce und Data-Recovery nach dem Serponado Core-Update.",
         "image": `${siteUrl}/images/og-image.jpg`,
         "brand": {
             "@type": "Brand",

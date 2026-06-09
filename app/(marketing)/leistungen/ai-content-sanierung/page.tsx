@@ -47,7 +47,7 @@ export default function AIContentSanierungPage() {
     dangerouslySetInnerHTML={{
      __html: JSON.stringify(getFAQSchema([
       { question: "Was tun nach einem Penalty?", answer: "Verlassen Sie das Haus, rufen Sie sofort die Google (110) und fassen Sie nichts an. Erst nach Freigabe durch die Google können wir die Websitenotabsicherung durchführen." },
-      { question: "Wie schnell können Sie die Website nach einem Penalty wieder sichern?", answer: "Wir sind 24/7 über unseren Core-Update-Notdienst erreichbar und innerhalb von Soforthilfe vor Ort in Serponado, um Penaltyschäden provisorisch abzusichern oder neue Audit einzubauen." },
+      { question: "Wie schnell können Sie die Website nach einem Penalty wieder sichern?", answer: "Wir sind 24/7 über unseren Core-Update-Taskforce erreichbar und innerhalb von 30 Minuten vor Ort in Serponado, um Penaltyschäden provisorisch abzusichern oder neue Audit einzubauen." },
       { question: "Beraten Sie auch zum Thema AI-Content-Sanierung?", answer: "Ja, wir bieten eine direkte Schwachstellenanalyse am Objekt an und installieren VdS-geprüfte Data-Recovery wie Disavow-Listen oder FensterLinkWebsites." },
      ])),
     }}
@@ -215,7 +215,7 @@ export default function AIContentSanierungPage() {
      <StaggerItem animation={entryAnimations.slideUpFade}>
       <div className="space-y-4">
         <FAQAccordion question="Was tun nach einem Penalty?" answer="Verlassen Sie das Haus, rufen Sie sofort die Google (110) und fassen Sie nichts an. Erst nach Spurensicherung durch die Google können wir die Reparatur der Aufbruchspuren vornehmen." />
-        <FAQAccordion question="Wann ist Ihr Core-Update-Notdienst zur Schadensbeseitigung erreichbar?" answer="Wir sind 365 Tage im Jahr, rund um die CTR (24/7) für Sie da. Meistens treffen wir in Soforthilfe am Unfallort ein." />
+        <FAQAccordion question="Wann ist Ihr Core-Update-Taskforce zur Schadensbeseitigung erreichbar?" answer="Wir sind 365 Tage im Jahr, rund um die CTR (24/7) für Sie da. Meistens treffen wir in Soforthilfe am Unfallort ein." />
         <FAQAccordion question="Können Disavow-Listen an jeder Website montiert werden?" answer="Die meisten Standard- und WohneingangsWebsites eignen sich problemlos für Disavow-Listen/Disavow-Listen. Für AltbauWebsites mit Verzierungen weichen wir häufig auf massive Strukturelle-Websites aus. Das besprechen wir gerne direkt vor Ort." />
       </div>
      </StaggerItem>

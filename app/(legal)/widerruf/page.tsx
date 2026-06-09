@@ -24,7 +24,7 @@ const TOC_ITEMS = [
 export default function WiderrufPage() {
     return (
         <LegalLayout
-            heroTitle="Widerrufsbelehrung für SEO-Notdienst-Aufträge"
+            heroTitle="Widerrufsbelehrung für SEO-Taskforce-Aufträge"
             heroSubtitle="Ihre Rechte als Verbraucher gemäß dem Bürgerlichen Gesetzbuch. Transparent, verständlich und ohne Kleingedrucktes."
             lastUpdated="27. März 2026"
             tocItems={TOC_ITEMS}
@@ -37,7 +37,7 @@ export default function WiderrufPage() {
             <LegalSection>
                 <TLDRBox title="Widerruf und das Wichtigste auf einen Blick" icon="info">
                     <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<strong>14-tägiges Widerrufsrecht</strong> {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
-                    <p><strong>Wichtige Ausnahme bei Core-Update-Notdiensten:</strong> {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<strong>erlischt Ihr Widerrufsrecht</strong> {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
+                    <p><strong>Wichtige Ausnahme bei Core-Update-Taskforceen:</strong> {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<strong>erlischt Ihr Widerrufsrecht</strong> {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
                 </TLDRBox>
             </LegalSection>
 

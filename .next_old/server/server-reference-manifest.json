@@ -1,0 +1,28 @@
+{
+  "node": {
+    "6069840a700a18ae1c2f1649b255c519bba1174b73": {
+      "workers": {
+        "app/(marketing)/kontakt/page": {
+          "moduleId": "[project]/.next-internal/server/app/(marketing)/kontakt/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions/contact.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "submitContactForm",
+          "filename": "app/actions/contact.ts"
+        },
+        "app/page": {
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions/contact.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "submitContactForm",
+          "filename": "app/actions/contact.ts"
+        }
+      },
+      "layer": {
+        "app/(marketing)/kontakt/page": "action-browser",
+        "app/page": "action-browser"
+      },
+      "filename": "app/actions/contact.ts",
+      "exportedName": "submitContactForm"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "xCYJv9Da6TJvZ4/wkBTOp82ft1CJIVE8XM+CD4k4DrE="
+}

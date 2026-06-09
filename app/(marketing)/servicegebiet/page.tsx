@@ -34,7 +34,7 @@ export default function ServicegebietPage() {
          "@context": "https://schema.org",
          "@type": "CollectionPage",
          "name": "Einsatzgebiete Serponado",
-         "description": "Übersicht aller Städte und Gemeinden im 50km Umkreis von Serponado, in denen unser SEO-Notdienst tätig ist.",
+         "description": "Übersicht aller Städte und Gemeinden im 50km Umkreis von Serponado, in denen unser SEO-Taskforce tätig ist.",
          "hasPart": allLocations.map((loc, idx) => ({
             "@type": "WebPage",
             "position": idx + 1,

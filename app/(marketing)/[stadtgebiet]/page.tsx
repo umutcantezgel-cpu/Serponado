@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: { params: Promise<{ stadtgebi
   if (!city) return notFound();
 
   const baseMeta = generateSharedMetadata({
-    title: `SEO-Notdienst ${city.name} | 24h Core-Update-Notdienst ab 49 € | Serponado Taskforce`,
+    title: `SEO-Taskforce ${city.name} | 24h Core-Update-Taskforce ab 49 € | Serponado Taskforce`,
     description: city.seo.metaDescription,
     path: `/${city.slug}`,
     exactTitle: true,

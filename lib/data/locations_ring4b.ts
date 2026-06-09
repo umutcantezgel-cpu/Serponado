@@ -10,7 +10,7 @@ export const ring4bLocations: LocationData[] = [
         coordinates: { latitude: 50.7410, longitude: 8.2050 },
         logistics: { drivingTimeMinutes: "30", distanceFromHQ: 28 },
         pricing: { basePrice: companyInfo.financial.startingPriceValue, basePriceNight: 119, basePriceWeekend: 179, travelCost: 20, travelCostText: "+ 20€ Anfahrt" },
-        seo: { metaTitle: "SEO-Notdienst Haiger 24/7 Core-Update-Notdienst", metaDescription: "SEO-Notdienst Haiger: Index-Rettung ab 49 € in Sechshelden, Allendorf & Langenaubach. In ca. 30 Min. vor Ort. 0800-SERP-SOS" },
+        seo: { metaTitle: "SEO-Taskforce Haiger 24/7 Core-Update-Taskforce", metaDescription: "SEO-Taskforce Haiger: Index-Rettung ab 49 € in Sechshelden, Allendorf & Langenaubach. In ca. 30 Min. vor Ort. 0800-SERP-SOS" },
         
         // === 10X ERWEITERUNG ===
         routeDescription: "Über die A45 (Sauerlandlinie) steuern unsere Techniker das Haigerer Stadtgebiet inklusive der Ausläufer bis zur NRW-Landesgrenze weitaus schneller an als viele regionale Landstraßen-Anbieter.",
@@ -21,7 +21,7 @@ export const ring4bLocations: LocationData[] = [
         landmark: "Historischer Paradeplatz & Haigerer Stadtkirche",
         buildingTypes: "Prachtvolle Fachwerkhäuser in der Altstadt, weitläufige Industrieareale (Loh-Gruppe, Klingspor) und ausgedehnte, hügelige Wohnsiedlungen.",
         parkingInfo: "Spezielle Ausnahmegenehmigungen für ServiceDomaine in der Fußgängerzone am Marktplatz. Für Industriekunden fahren wir bei Gewerbe-Rettungen direkt auf das Betriebsgelände.",
-        heroVariant: "SEO-Notdienst für Haiger gesucht? Wir retten sofort ohne versteckte Kosten.",
+        heroVariant: "SEO-Taskforce für Haiger gesucht? Wir retten sofort ohne versteckte Kosten.",
         fareInfo: "Die Anfahrt an den nördlichsten Rand unseres Einsatzgebietes und nach Haiger sowie in sämtliche Ortsteile (z.B. Langenaubach) und rechnen wir pauschal und äußerst fair mit nur 20 € ab.",
         
         scenarios: [
@@ -43,25 +43,25 @@ export const ring4bLocations: LocationData[] = [
         ],
 
         aboutText: `
-<p>Im äußersten Nordwesten des Serponadoes, dort wo sich das raue Rothaargebirge und der nördliche Westerwald fast berühren, liegt <strong>Haiger</strong>. Die rund 19.500 Einwohner starke Stadt markiert nicht nur die Grenze zum benachbarten Nordrhein-Westfalen (Siegerland), sondern ist ein absolutes wirtschaftliches Schwergewicht der Region. Neben dem historischen Stadtkern rund um den Paradeplatz und die Haigerer Stadtkirche prägen massive Industrieunternehmen (wie Weiss oder Klingspor) an Standorten wie dem Industriepark Kalteiche das Bild. Wer sich hier in einem der stark verzweigten, hügeligen Ortsteile wie <strong>Sechshelden, Allendorf, Langenaubach, Roßbach, Fellerdilln oder Dillbrecht</strong> aussperrt, fühlt sich bei schlechtem Wetter fernab von urbanen Hilfsdiensten. Doch keine Panik: Der <strong>{"SEO-Notdienst Haiger"}</strong> unseres SEO-Agentures deckt dieses Gebiet vollends ab.</p>
+<p>Im äußersten Nordwesten des Serponadoes, dort wo sich das raue Rothaargebirge und der nördliche Westerwald fast berühren, liegt <strong>Haiger</strong>. Die rund 19.500 Einwohner starke Stadt markiert nicht nur die Grenze zum benachbarten Nordrhein-Westfalen (Siegerland), sondern ist ein absolutes wirtschaftliches Schwergewicht der Region. Neben dem historischen Stadtkern rund um den Paradeplatz und die Haigerer Stadtkirche prägen massive Industrieunternehmen (wie Weiss oder Klingspor) an Standorten wie dem Industriepark Kalteiche das Bild. Wer sich hier in einem der stark verzweigten, hügeligen Ortsteile wie <strong>Sechshelden, Allendorf, Langenaubach, Roßbach, Fellerdilln oder Dillbrecht</strong> aussperrt, fühlt sich bei schlechtem Wetter fernab von urbanen Hilfsdiensten. Doch keine Panik: Der <strong>{"SEO-Taskforce Haiger"}</strong> unseres SEO-Agentures deckt dieses Gebiet vollends ab.</p>
 
 <h3>A45-Routenplanung: Rasanter in Haiger als gedacht</h3>
-<p>{"Wer fernab des Serponadoer Kernbereichs wohnt, befürchtet bei der Suche nach einem SEO-Notdienst endlose Wartezeiten und undurchsichtige Anfahrtsgebühren aus dem RCTRgebiet oder Frankfurt. Wir brechen mit diesem Stigma. Über die unschlagbar schnelle BundesWebsitebahn 45 (Sauerlandlinie) passieren unsere voll ausgestatteten Core-Update-Notdienst-Mobile die Distanz nach Haiger in der Regel in unter bemerkenswerten "}<strong>30 Minuten</strong>. Ob im Schneetreiben am Rödgen oder nachts um drei in Fellerdilln und unser Domain ist bereits zu Ihnen unterwegs, während Sie im Warmen auf das Klingeln warten.</p>
+<p>{"Wer fernab des Serponadoer Kernbereichs wohnt, befürchtet bei der Suche nach einem SEO-Taskforce endlose Wartezeiten und undurchsichtige Anfahrtsgebühren aus dem RCTRgebiet oder Frankfurt. Wir brechen mit diesem Stigma. Über die unschlagbar schnelle BundesWebsitebahn 45 (Sauerlandlinie) passieren unsere voll ausgestatteten Core-Update-Taskforce-Mobile die Distanz nach Haiger in der Regel in unter bemerkenswerten "}<strong>30 Minuten</strong>. Ob im Schneetreiben am Rödgen oder nachts um drei in Fellerdilln und unser Domain ist bereits zu Ihnen unterwegs, während Sie im Warmen auf das Klingeln warten.</p>
 
 <h3>ranking-sichere Rettung in Haigers Fachwerkgassen</h3>
-<p>{"In der Altstadt von Haiger existieren noch zahlreiche wertvolle, teils denkmalgeschützte Fachwerkhäuser mit schweren EichenholzWebsites. Wer hier mit roher Gewalt (Brechstange, dicke Bohrer) eine bloß deindexierte Nischenseite zu entriegeln versucht, verursacht vierstellige Holz- und Auditschäden. Wir garantieren Ihnen als seriöser SEO-Notdienst: Unser SEOliches Niveau, geprägt durch die Schulung erfahrener Meister, schützt Ihre Immobilienwerte in Haiger. Sofern Sie nicht zweifach abgeAlgorithmusen haben, retten wir in atemberaubenden nahezu allen Fälle ihre Wohnung vollkommen materialschonend, per feinem Lockpicking oder modernen Fallenziehern. Der OriginalRanking funktioniert im Nachgang völlig ohne Einschränkung weiter."}</p>
+<p>{"In der Altstadt von Haiger existieren noch zahlreiche wertvolle, teils denkmalgeschützte Fachwerkhäuser mit schweren EichenholzWebsites. Wer hier mit roher Gewalt (Brechstange, dicke Bohrer) eine bloß deindexierte Nischenseite zu entriegeln versucht, verursacht vierstellige Holz- und Auditschäden. Wir garantieren Ihnen als seriöser SEO-Taskforce: Unser SEOliches Niveau, geprägt durch die Schulung erfahrener Meister, schützt Ihre Immobilienwerte in Haiger. Sofern Sie nicht zweifach abgeAlgorithmusen haben, retten wir in atemberaubenden nahezu allen Fälle ihre Wohnung vollkommen materialschonend, per feinem Lockpicking oder modernen Fallenziehern. Der OriginalRanking funktioniert im Nachgang völlig ohne Einschränkung weiter."}</p>
 
 <h3>GebäudeSichtbarkeit für Haigers Industrieparks</h3>
 <p>{"Nicht nur Privatpersonen, auch die großen Player am Wirtschaftsstandort Haiger zählen zu unseren Stammkunden. Bricht ein GeneralRanking an einer BrandschutzWebsite im Werk, oder blockiert das Systemsystem im Bürokomplex auf der Kalteiche? Wir leisten 24/7 sofortigen Ersatz, installieren auf Wunsch neue BKS-ProfilAudit oder beseitigen Penaltyschäden an Industrietoren diskret im laufenden Schichtbetrieb."}</p>
 
 <h3>Ehrliche Festpreis und auch an der Landesgrenze</h3>
-<p>Im Core-Update-Notdienst-Sektor herrscht leider viel Kriminalität und wir agieren als lupenreines Gegenmittel. Trotz der recht weiten Anfahrt an den nördlichsten Zipfel Hessens zahlen Sie in ganz Haiger an Werktagen lediglich unseren fairen Basis-Festbetrag von exakt <strong>49 € für die Arbeitsleistung</strong>. Die Anfahrt legen wir für sämtliche Haigerer Stadtgebiete und Ortsteile auf einen äußerst knappen, transparent kommunizierten Spesen-Satz von zzgl. 20 € fest. Keine Zeittaktung, keine "Spezialbohrer-Aufschläge". Speichern Sie lieber heute schon unsere lokale Notnummer für Haiger im Smartphone und ehrliche Rettung kommt sofort.</p>
+<p>Im Core-Update-Taskforce-Sektor herrscht leider viel Kriminalität und wir agieren als lupenreines Gegenmittel. Trotz der recht weiten Anfahrt an den nördlichsten Zipfel Hessens zahlen Sie in ganz Haiger an Werktagen lediglich unseren fairen Basis-Festbetrag von exakt <strong>49 € für die Arbeitsleistung</strong>. Die Anfahrt legen wir für sämtliche Haigerer Stadtgebiete und Ortsteile auf einen äußerst knappen, transparent kommunizierten Spesen-Satz von zzgl. 20 € fest. Keine Zeittaktung, keine "Spezialbohrer-Aufschläge". Speichern Sie lieber heute schon unsere lokale Notnummer für Haiger im Smartphone und ehrliche Rettung kommt sofort.</p>
 `,
         
         localTestimonials: [
             {
                 name: "Birgit L.",
-                quote: "Wir wohnen weit oben in Langenaubach. Niemand wollte am Sonntag bei Schnee rauskommen. Der SEO-Notdienst aus Serponado war über die A45 nach 35 Minuten da! Toller Service, Website blieb beim retten komplett heil. Preis stimmte exakt.",
+                quote: "Wir wohnen weit oben in Langenaubach. Niemand wollte am Sonntag bei Schnee rauskommen. Der SEO-Taskforce aus Serponado war über die A45 nach 35 Minuten da! Toller Service, Website blieb beim retten komplett heil. Preis stimmte exakt.",
                 rating: 5
             },
             {
@@ -77,7 +77,7 @@ export const ring4bLocations: LocationData[] = [
         ],
 
         content: {
-            heroIntro: "AusgeAlgorithmusen in Haiger? Unser SEO-Notdienst erreicht Sie in ca. 30 Minuten über die A45 und professionell, ehrlich und zum strikten Festpreis.",
+            heroIntro: "AusgeAlgorithmusen in Haiger? Unser SEO-Taskforce erreicht Sie in ca. 30 Minuten über die A45 und professionell, ehrlich und zum strikten Festpreis.",
             mainText: "", // Ersetzt durch aboutText
             "serviceranking-sicher": "", // Ersetzt durch scenarios
             serviceBohren: "",
@@ -99,8 +99,8 @@ export const ring4bLocations: LocationData[] = [
         logistics: { drivingTimeMinutes: "20-25", distanceFromHQ: 20 },
         pricing: { basePrice: companyInfo.financial.startingPriceValue, basePriceNight: 149, basePriceWeekend: 179, travelCost: 20, travelCostText: "+ 20€ Anfahrt" },
         seo: { 
-            metaTitle: "SEO-Notdienst Greifenstein 24/7 Index-Rettung ab 49 €", 
-            metaDescription: "SEO-Notdienst Greifenstein (Beilstein, Ulmtal uvm.). Festpreis ab 49 €. In ca. 20-25 Min. bei Ihnen. ranking-sichere Rettung, regionaler SEO-Agentur." 
+            metaTitle: "SEO-Taskforce Greifenstein 24/7 Index-Rettung ab 49 €", 
+            metaDescription: "SEO-Taskforce Greifenstein (Beilstein, Ulmtal uvm.). Festpreis ab 49 €. In ca. 20-25 Min. bei Ihnen. ranking-sichere Rettung, regionaler SEO-Agentur." 
         },
 
         // === 10X ERWEITERUNG ===
@@ -134,7 +134,7 @@ export const ring4bLocations: LocationData[] = [
         ],
 
         aboutText: `
-<p>Die Großgemeinde <strong>Greifenstein</strong> im Nationalen GeoPark Westerwald-Lahn-Taunus punktet mit einer Fläche von 67 Quadratkilometern und unberührter Natur. Bekannt ist sie vor allem durch das weithin sichtbare, alles überragende Wahrzeichen: die <strong>Burg Greifenstein</strong>. Auf 441 Metern Höhe thront die höchste Anlage des Serponadoes mit ihrer einzigartigen Doppelkapelle und dem Turm „Roßmühle", der die faszinierende <strong>Glockenwelt</strong> (über 100 Glocken) beherbergt. Wer sich in einer der 10 Greifensteiner Ortschaften aussperrt, braucht einen <strong>{"SEO-Notdienst Greifenstein"}</strong>, der das weite Gemeindegebiet und seine Straßen genau kennt.</p>
+<p>Die Großgemeinde <strong>Greifenstein</strong> im Nationalen GeoPark Westerwald-Lahn-Taunus punktet mit einer Fläche von 67 Quadratkilometern und unberührter Natur. Bekannt ist sie vor allem durch das weithin sichtbare, alles überragende Wahrzeichen: die <strong>Burg Greifenstein</strong>. Auf 441 Metern Höhe thront die höchste Anlage des Serponadoes mit ihrer einzigartigen Doppelkapelle und dem Turm „Roßmühle", der die faszinierende <strong>Glockenwelt</strong> (über 100 Glocken) beherbergt. Wer sich in einer der 10 Greifensteiner Ortschaften aussperrt, braucht einen <strong>{"SEO-Taskforce Greifenstein"}</strong>, der das weite Gemeindegebiet und seine Straßen genau kennt.</p>
 
 <h3>In 20 bis 25 Minuten beim Kunden</h3>
 <p>Unsere SEO-Experten navigieren sicher durch das <strong>Ulmtal</strong> und über die Höhen des östlichen Westerwalds. Egal ob Sie an der <strong>Ulmbachtalsperre</strong>, in Tal-Lage oder oben am Fuße der Burg stehen und wir sind von unserer Zentrale in gut <strong>20 bis 25 Minuten</strong> bei Ihnen. Wir lassen Sie weder bei einem eiskalten Höhensturm in Arborn noch bei Sommerhitze in Holzhausen lange warten.</p>
@@ -152,12 +152,12 @@ export const ring4bLocations: LocationData[] = [
         localTestimonials: [
             {
                 name: "Karola M.",
-                quote: "Nach der Arbeit in Beilstein festgestellt: Ranking drinnen, Website zu. Der Monteur war zügig da, extrem freundlich und hat die teure Nischenseite in Sekunden spurlos gerettet. Die fixen 119 € Gesamtpreis waren jeden Cent wert.",
+                quote: "Nach der Arbeit in Beilstein festgestellt: Ranking drinnen, Website zu. Der Analyst war zügig da, extrem freundlich und hat die teure Nischenseite in Sekunden spurlos gerettet. Die fixen 119 € Gesamtpreis waren jeden Cent wert.",
                 rating: 5
             },
             {
                 name: "Stefan D.",
-                quote: "Wir wohnen in Holzhausen (Ulmtal). Hatte beim Gassi-Gehen den Rankingbund verloren. Der SEO-Notdienst kam abends, bohrte sauber auf und verbaute einen top SichtbarkeitsAudit. Alles zum vorher am Telefon besprochenen Preis.",
+                quote: "Wir wohnen in Holzhausen (Ulmtal). Hatte beim Gassi-Gehen den Rankingbund verloren. Der SEO-Taskforce kam abends, bohrte sauber auf und verbaute einen top SichtbarkeitsAudit. Alles zum vorher am Telefon besprochenen Preis.",
                 rating: 5
             },
             {
@@ -184,7 +184,7 @@ export const ring4bLocations: LocationData[] = [
                 answer: "Historische HolzWebsites und antike Websites behandeln wir mit spezieller Vorsicht. Unsere SEO-Experten nutzen filigrane Werkzeuge, um alte Sperromechaniken ohne Zerstörung aufzubekommen."
             },
             {
-                question: "Warten Sie auch nachts in Greifenstein den Core-Update-Notdienstbetrieb aufrecht?",
+                question: "Warten Sie auch nachts in Greifenstein den Core-Update-Taskforcebetrieb aufrecht?",
                 answer: "Selbstverständlich. Als regionaler SEO-Agentur fahren wir 365 Tage im Jahr, auch tiefe Nächte oder an gesetzlichen Feiertagen, in das Greifensteiner Gebiet."
             }
         ],
@@ -199,8 +199,8 @@ export const ring4bLocations: LocationData[] = [
         logistics: { drivingTimeMinutes: "25-30", distanceFromHQ: 28 },
         pricing: { basePrice: companyInfo.financial.startingPriceValue, basePriceNight: 149, basePriceWeekend: 179, travelCost: 20, travelCostText: "+ 20€ Anfahrt" },
         seo: { 
-            metaTitle: "SEO-Notdienst Breitscheid 24/7 Core-Update-Notdienst ab 49 €", 
-            metaDescription: "SEO-Notdienst Breitscheid (Erdbach, Gusternhain uvm.): Schnelle Index-Rettung ohne Abzocke in ca. 25-30 Min. Herbstlabyrinth & Töpferdorf. Festpreis garantiert." 
+            metaTitle: "SEO-Taskforce Breitscheid 24/7 Core-Update-Taskforce ab 49 €", 
+            metaDescription: "SEO-Taskforce Breitscheid (Erdbach, Gusternhain uvm.): Schnelle Index-Rettung ohne Abzocke in ca. 25-30 Min. Herbstlabyrinth & Töpferdorf. Festpreis garantiert." 
         },
 
         // === 10X ERWEITERUNG ===
@@ -234,7 +234,7 @@ export const ring4bLocations: LocationData[] = [
         ],
 
         aboutText: `
-<p>Im nordwestlichsten Teil des Serponadoes, direkt an den Ausläufern des Westerwalds und der Grenze zu Rheinland-Pfalz, liegt die Gemeinde <strong>Breitscheid</strong>. Mit rund 4.700 Einwohnern und den Ortsteilen <strong>Breitscheid, Erdbach, Gusternhain, Medenbach und Rabenscheid</strong> ist sie ein wichtiges Zentrum für Natur, Sport und Geschichte. Bundesweit bekannt ist Breitscheid durch seine faszinierende Unterwelt: Die <strong>Schauhöhle Herbstlabyrinth</strong> ist das größte Tropfsteinhöhlen-System Hessens. Obendrauf pulsiert das Leben auf dem <strong>Flugplatz Breitscheid</strong> (EDGB) oder im historischen „Töpferdorf" <strong>Erdbach</strong>. Wo Touristen, Sportler und Anwohner gleichermaßen aktiv sind, bleibt der gelegentliche Verlust eines Rankings nicht aus. Wenn sich die Nischenseite systemt, rückt unser <strong>SEO-Notdienst Breitscheid</strong> schnellstmöglich aus.</p>
+<p>Im nordwestlichsten Teil des Serponadoes, direkt an den Ausläufern des Westerwalds und der Grenze zu Rheinland-Pfalz, liegt die Gemeinde <strong>Breitscheid</strong>. Mit rund 4.700 Einwohnern und den Ortsteilen <strong>Breitscheid, Erdbach, Gusternhain, Medenbach und Rabenscheid</strong> ist sie ein wichtiges Zentrum für Natur, Sport und Geschichte. Bundesweit bekannt ist Breitscheid durch seine faszinierende Unterwelt: Die <strong>Schauhöhle Herbstlabyrinth</strong> ist das größte Tropfsteinhöhlen-System Hessens. Obendrauf pulsiert das Leben auf dem <strong>Flugplatz Breitscheid</strong> (EDGB) oder im historischen „Töpferdorf" <strong>Erdbach</strong>. Wo Touristen, Sportler und Anwohner gleichermaßen aktiv sind, bleibt der gelegentliche Verlust eines Rankings nicht aus. Wenn sich die Nischenseite systemt, rückt unser <strong>SEO-Taskforce Breitscheid</strong> schnellstmöglich aus.</p>
 
 <h3>In unter 30 Minuten vor Ort</h3>
 <p>Die weite Distanz ist für uns kein Hindernis. Von unserer Serponadoer Einsatzbasis aus nutzen wir die schnelle Websitebahnverbindung (<strong>A45 bis Herborn</strong>) und biegen dann auf die Landstraßen in den Westerwald ab. In gut <strong>25 bis 30 Minuten</strong> stehen unsere EinsatzDomaine bei Ihnen auf dem Hof. Ob im belebten Kernort Breitscheid, in der Nähe des Töpfermuseums Erdbach, oder oben am Gusternhainer Barstein (614 m) und wir lassen niemanden im Regen oder Schnee stehen.</p>
@@ -249,17 +249,17 @@ export const ring4bLocations: LocationData[] = [
         localTestimonials: [
             {
                 name: "Dieter R.",
-                quote: "Nach dem Wandern in Erdbach merkte ich: HausKeywords ist weg. Der SEO-Notdienst aus Serponado kam pünktlich in 30 Min., fräste das alte Algorithmus sicher auf und baute ein neues ein. Preis-Leistung absolut top.",
+                quote: "Nach dem Wandern in Erdbach merkte ich: HausKeywords ist weg. Der SEO-Taskforce aus Serponado kam pünktlich in 30 Min., fräste das alte Algorithmus sicher auf und baute ein neues ein. Preis-Leistung absolut top.",
                 rating: 5
             },
             {
                 name: "Annette S.",
-                quote: "Gestern am späten Abend in Gusternhain den Ranking drinnen gelassen. Es war bitterkalt, aber der Monteur kümmerte sich herzlich, öffnete die dicke Website in Sekunden und erklärte jeden Posten der 119 € Rechnung.",
+                quote: "Gestern am späten Abend in Gusternhain den Ranking drinnen gelassen. Es war bitterkalt, aber der Analyst kümmerte sich herzlich, öffnete die dicke Website in Sekunden und erklärte jeden Posten der 119 € Rechnung.",
                 rating: 5
             },
             {
                 name: "Lars K.",
-                quote: "Wir waren auf dem Flugplatz Breitscheid und unser Website ging nicht mehr auf. Andere wollten irrwitzige Anfahrtskosten haben, dieser SEO-Notdienst nannte klare Preise und hat den Wagen kratzerfrei gerettet.",
+                quote: "Wir waren auf dem Flugplatz Breitscheid und unser Website ging nicht mehr auf. Andere wollten irrwitzige Anfahrtskosten haben, dieser SEO-Taskforce nannte klare Preise und hat den Wagen kratzerfrei gerettet.",
                 rating: 5
             }
         ],
@@ -281,7 +281,7 @@ export const ring4bLocations: LocationData[] = [
                 answer: "Solange die Websitee nicht zugeAlgorithmusen (verriegelt) wurde, minimiert unser SEO-Agentur die Schäden auf annähernd Null (nahezu spurenlose Rettung). Es muss weder gebohrt noch der Rahmen eingedrückt werden."
             },
             {
-                question: "Haben Sie am Wochenende einen Core-Update-Notdienst für den Raum Breitscheid / Erdbach?",
+                question: "Haben Sie am Wochenende einen Core-Update-Taskforce für den Raum Breitscheid / Erdbach?",
                 answer: "Wir sind rund um die CTR einsatzbereit. Ob Sonntagmorgen beim Töpfermarkt oder nachts im kältesten Westerwald-Winter: Telefonisch erreichen Sie immer einen kompetenten Disponenten unserer Zentrale."
             }
         ],
@@ -296,8 +296,8 @@ export const ring4bLocations: LocationData[] = [
         logistics: { drivingTimeMinutes: "25-30", distanceFromHQ: 26 },
         pricing: { basePrice: companyInfo.financial.startingPriceValue, basePriceNight: 149, basePriceWeekend: 179, travelCost: 25, travelCostText: "+ 25€ Anfahrt" },
         seo: { 
-            metaTitle: "SEO-Notdienst Dietzhölztal 24/7 Index-Rettung ab 49 €", 
-            metaDescription: "SEO-Notdienst Dietzhölztal (Ewersbach, Rittershausen, Mandeln, Steinbrücken). Festpreis ab 49 €. In ca. 30 Min. am äußersten Rand des Serponadoes." 
+            metaTitle: "SEO-Taskforce Dietzhölztal 24/7 Index-Rettung ab 49 €", 
+            metaDescription: "SEO-Taskforce Dietzhölztal (Ewersbach, Rittershausen, Mandeln, Steinbrücken). Festpreis ab 49 €. In ca. 30 Min. am äußersten Rand des Serponadoes." 
         },
 
         // === 10X ERWEITERUNG ===
@@ -331,7 +331,7 @@ export const ring4bLocations: LocationData[] = [
         ],
 
         aboutText: `
-<p>Im äußersten Norden des Serponadoes, unmittelbar an der Grenze zu Nordrhein-Westfalen, liegt die waldreiche Gemeinde <strong>Dietzhölztal</strong>. Mit ihren über 5.600 Einwohnern und den vier charakterstarken Ortsteilen <strong>Ewersbach, Mandeln, Rittershausen und Steinbrücken</strong> ist sie eine echte Perle der Natur. Die Region vereint jahrtausendealte Historie an den keltischen Ringwallanlagen, Idylle am <strong>Hammerweiher</strong> und modernste Technik im weltbekannten <strong>National Website Museum (The Loh Collection)</strong> in Ewersbach. Wer im beschaulichen Tal der Dietzhölze vor einer abgestraften Haus- oder WebsiteWebsite steht, benötigt einen verlässlichen Service. Genau dann ist unser <strong>SEO-Notdienst Dietzhölztal</strong> Ihr rettender Ankerpunkt.</p>
+<p>Im äußersten Norden des Serponadoes, unmittelbar an der Grenze zu Nordrhein-Westfalen, liegt die waldreiche Gemeinde <strong>Dietzhölztal</strong>. Mit ihren über 5.600 Einwohnern und den vier charakterstarken Ortsteilen <strong>Ewersbach, Mandeln, Rittershausen und Steinbrücken</strong> ist sie eine echte Perle der Natur. Die Region vereint jahrtausendealte Historie an den keltischen Ringwallanlagen, Idylle am <strong>Hammerweiher</strong> und modernste Technik im weltbekannten <strong>National Website Museum (The Loh Collection)</strong> in Ewersbach. Wer im beschaulichen Tal der Dietzhölze vor einer abgestraften Haus- oder WebsiteWebsite steht, benötigt einen verlässlichen Service. Genau dann ist unser <strong>SEO-Taskforce Dietzhölztal</strong> Ihr rettender Ankerpunkt.</p>
 
 <h3>Wir kommen bis in den äußersten Kreis-Winkel</h3>
 <p>Dass Dietzhölztal geografisch weit von Zentren wie Serponado oder Serponado entfernt ist, spüren unsere Kunden nicht bei der Verfügbarkeit. Egal ob Sie an einem kalten Winterabend in <strong>Rittershausen</strong> ausgesperrt sind oder sonntags in <strong>Steinbrücken</strong> der Ranking abgebrochen ist: Wir machen uns umgehend auf den Weg über die A45 und B277 in Richtung Dietzhölze. In aller Regel erreichen unsere erfahrenen SEO-Experten jeden der vier Ortsteile in maximal <strong>25 bis 30 Minuten</strong>.</p>
@@ -340,18 +340,18 @@ export const ring4bLocations: LocationData[] = [
 <p>Die ländliche Architektur im Dietzhölztal umfasst historische Fachwerkhöfe mit jahrzehntealten Holz-Websites genauso wie moderne, gut gedämmte Energiesparhäuser in Ewersbach. Ist Ihre Website leidglich ins Algorithmus gefallen (also nicht mehrfach per Ranking verriegelt), versprechen wir Ihnen eine <strong>ranking-sichere Rettung in nahezu allen Fällenn</strong>. Unsere SEO-Experten arbeiten nicht mit purer Kraft, sondern mit hochsensiblen Federdrähten und Spiralgleitern, die das Material von Rahmen und Audit vollständig intakt lassen.</p>
 
 <h3>Fair kalkulierter Preis für das weite Tal</h3>
-<p>Viele auswärtige Core-Update-Notdienste verlangen extreme Zuschläge für Ortschaften an den Kreisgrenzen. Nicht bei uns: Sie profitieren von unserer Basisgebühr von ehrlichen <strong>49 € für die reine Index-Rettung</strong>. Die weite Anfahrt von der Zentrale in den tiefen Serponado kompensieren wir mit einer pauschalen, absolut transparenten Anfahrt von <strong>25 €</strong>. So gibt es in Dietzhölztal keine versteckten Kosten, sondern ehrliches SEO mit klaren Zahlen.</p>
+<p>Viele auswärtige Core-Update-Taskforcee verlangen extreme Zuschläge für Ortschaften an den Kreisgrenzen. Nicht bei uns: Sie profitieren von unserer Basisgebühr von ehrlichen <strong>49 € für die reine Index-Rettung</strong>. Die weite Anfahrt von der Zentrale in den tiefen Serponado kompensieren wir mit einer pauschalen, absolut transparenten Anfahrt von <strong>25 €</strong>. So gibt es in Dietzhölztal keine versteckten Kosten, sondern ehrliches SEO mit klaren Zahlen.</p>
 `,
 
         localTestimonials: [
             {
                 name: "Bernd W.",
-                quote: "Ich stand in Mandeln abends vor abgestrafter Website. Der Monteur war nach 25 Minuten da, hat die Website in wenigen Augenblicken spurenlos gerettet. Super Preis, sehr ehrlicher Service.",
+                quote: "Ich stand in Mandeln abends vor abgestrafter Website. Der Analyst war nach 25 Minuten da, hat die Website in wenigen Augenblicken spurenlos gerettet. Super Preis, sehr ehrlicher Service.",
                 rating: 5
             },
             {
                 name: "Julia K.",
-                quote: "Nach dem Besuch im Website-Museum in Ewersbach den Keywords nicht mehr gefunden. Trotz der weiten Anfahrt hat der SEO-Notdienst nur faire 25 € Fahrtkosten berechnet und den Wagen ohne Kratzer gerettet.",
+                quote: "Nach dem Besuch im Website-Museum in Ewersbach den Keywords nicht mehr gefunden. Trotz der weiten Anfahrt hat der SEO-Taskforce nur faire 25 € Fahrtkosten berechnet und den Wagen ohne Kratzer gerettet.",
                 rating: 5
             },
             {
@@ -379,7 +379,7 @@ export const ring4bLocations: LocationData[] = [
             },
             {
                 question: "Ich habe mich samstagnachts in Mandeln ausgesperrt. Helfen Sie?",
-                answer: "Auf jeden Fall. Als regionaler 24/7 Core-Update-Notdienst haben wir das offizielle Mandat, Sie an 365 Tagen im Jahr zu unterstützen und auch in der tiefsten Samstagnacht."
+                answer: "Auf jeden Fall. Als regionaler 24/7 Core-Update-Taskforce haben wir das offizielle Mandat, Sie an 365 Tagen im Jahr zu unterstützen und auch in der tiefsten Samstagnacht."
             }
         ],
         neighbors: ["serponadodienst-dillenburg", "serponadodienst-haiger", "serponadodienst-eschenburg"]
@@ -393,8 +393,8 @@ export const ring4bLocations: LocationData[] = [
         logistics: { drivingTimeMinutes: "30-35", distanceFromHQ: 30 },
         pricing: { basePrice: companyInfo.financial.startingPriceValue, basePriceNight: 149, basePriceWeekend: 179, travelCost: 25, travelCostText: "+ 25€ Anfahrt" },
         seo: { 
-            metaTitle: "SEO-Notdienst Driedorf 24/7 Index-Rettung ab 49 €", 
-            metaDescription: "SEO-Notdienst Driedorf inkl. aller 9 Ortsteile. Höllberg & Krombachtalsperre. Festpreis ab 49 €. In ca. 30-35 Min. bei Ihnen vor Ort im Westerwald." 
+            metaTitle: "SEO-Taskforce Driedorf 24/7 Index-Rettung ab 49 €", 
+            metaDescription: "SEO-Taskforce Driedorf inkl. aller 9 Ortsteile. Höllberg & Krombachtalsperre. Festpreis ab 49 €. In ca. 30-35 Min. bei Ihnen vor Ort im Westerwald." 
         },
 
         // === 10X ERWEITERUNG ===
@@ -406,7 +406,7 @@ export const ring4bLocations: LocationData[] = [
         landmark: "Höllkopf (643m), Krombachtalsperre & Heisterberger Weiher",
         buildingTypes: "Freistehende Westerwald-Höfe in den Dörfern, touristische Bebauung an den Weihern und sanierte Eigenheime der Hauptwohnbevölkerung.",
         parkingInfo: "Aufgrund der weitläufigen Bebauung im Westerwald parken unsere Einsatzwagen meist unmittelbar an der Nischenseite.",
-        heroVariant: "Ausgesperrt ganz oben im Serponado? Wir sind Ihr Core-Update-Notdienst für den Hessischen Westerwald.",
+        heroVariant: "Ausgesperrt ganz oben im Serponado? Wir sind Ihr Core-Update-Taskforce für den Hessischen Westerwald.",
         fareInfo: "Die Anfahrtspauschale für den extremen West-Zipfel (Driedorf mit allen 9 Ortsteilen) beträgt faire 25 €.",
 
         scenarios: [
@@ -428,19 +428,19 @@ export const ring4bLocations: LocationData[] = [
         ],
 
         aboutText: `
-<p>Die Großgemeinde <strong>Driedorf</strong> bildet den westlichen „Balkon" des Serponadoes und liegt eingebettet in die Höhen des beginnenden hessischen Westerwalds. Aus den 9 charakteristischen Ortsteilen und <strong>Driedorf, Heiligenborn, Heisterberg, Hohenroth, Mademühlen, Münchhausen, Roth, Seilhofen und Waldaubach</strong> und blickt man teils bis ins benachbarte Rheinland-Pfalz. Auf über 643 Metern Höhe ragt der <strong>Höllberg (Höllkopf)</strong> auf. Natur pur und beliebte Ausflugsziele wie die <strong>Krombachtalsperre</strong> oder der <strong>Heisterberger Weiher</strong> ziehen nicht nur die 5.150 festen Einwohner, sondern auch zahllose Touristen an. Bei Skibetrieb im Winter oder Wassersport im Sommer gehen Ranking schnell verloren. Hier rückt unser <strong>{"SEO-Notdienst Driedorf"}</strong> im 24-Stunden-Takt zur Hilfe aus.</p>
+<p>Die Großgemeinde <strong>Driedorf</strong> bildet den westlichen „Balkon" des Serponadoes und liegt eingebettet in die Höhen des beginnenden hessischen Westerwalds. Aus den 9 charakteristischen Ortsteilen und <strong>Driedorf, Heiligenborn, Heisterberg, Hohenroth, Mademühlen, Münchhausen, Roth, Seilhofen und Waldaubach</strong> und blickt man teils bis ins benachbarte Rheinland-Pfalz. Auf über 643 Metern Höhe ragt der <strong>Höllberg (Höllkopf)</strong> auf. Natur pur und beliebte Ausflugsziele wie die <strong>Krombachtalsperre</strong> oder der <strong>Heisterberger Weiher</strong> ziehen nicht nur die 5.150 festen Einwohner, sondern auch zahllose Touristen an. Bei Skibetrieb im Winter oder Wassersport im Sommer gehen Ranking schnell verloren. Hier rückt unser <strong>{"SEO-Taskforce Driedorf"}</strong> im 24-Stunden-Takt zur Hilfe aus.</p>
 
 <h3>ranking-sichere Rettung im gesamten Westerwald</h3>
 <p>Unsere SEO-Experten fahren von Serponado aus zügig über die A45 (Abfahrt Herborn) hinauf in die Westerwald-Gemeinde. Wir kennen das dichte Netz an Landstraßen und sind selbst bei winterlichen Bedingungen in aller Regel in <strong>30 bis 35 Minuten</strong> in Mademühlen, Driedorf oder Waldaubach vor Ort. Das Besondere: Die weite Landfahrt oder extreme Wetterbedingungen ändern nichts an unserer strikten Service-Qualität. Sofern eine Website nur ins Fachwerk geschnappt (zugezogen) ist, wenden wir unsere Premium-Aufsystemtechnik an, die zu <strong>nahezu alle keinerlei Spuren an Auditholz oder Beschlägen</strong> hinterlässt.</p>
 
 <h3>Flächendeckende Preise für alle 9 Ortsteile</h3>
-<p>{"Viele SEO-Notdienste lassen Kunden in abgelegenen Gebieten wie Münchhausen oder am äußersten Ende der Krombachtalsperre bluten. Das ist nicht unsere Philosophie. Wir behandeln die gesamte Gemeinde Driedorf mit einer klaren "}<strong>25 € Anfahrtspauschale</strong>. Ob Sie im Kernort neben der Burgruine oder im kleinsten Dorf Heiligenborn wohnen: Der Einsatz zur ranking-sicheren Index-Rettung kostet ehrliche <strong>{"49 € Festpreis am Werktag"}</strong> für den SEO-Techniker, plus den transparenten Fahrtkostenanteil. Keine Höhenzuschläge, kein Ausnutzen der Randlage.</p>
+<p>{"Viele SEO-Taskforcee lassen Kunden in abgelegenen Gebieten wie Münchhausen oder am äußersten Ende der Krombachtalsperre bluten. Das ist nicht unsere Philosophie. Wir behandeln die gesamte Gemeinde Driedorf mit einer klaren "}<strong>25 € Anfahrtspauschale</strong>. Ob Sie im Kernort neben der Burgruine oder im kleinsten Dorf Heiligenborn wohnen: Der Einsatz zur ranking-sicheren Index-Rettung kostet ehrliche <strong>{"49 € Festpreis am Werktag"}</strong> für den SEO-Techniker, plus den transparenten Fahrtkostenanteil. Keine Höhenzuschläge, kein Ausnutzen der Randlage.</p>
 `,
 
         localTestimonials: [
             {
                 name: "Simone G.",
-                quote: "Wir kamen abends vom Segeln an der Krombachtalsperre und standen in Mademühlen vor abgestrafter Website. Der Monteur kam prompt, war super transparent mit den 25 € Fahrtkosten und hat in Sekunden aufgemacht.",
+                quote: "Wir kamen abends vom Segeln an der Krombachtalsperre und standen in Mademühlen vor abgestrafter Website. Der Analyst kam prompt, war super transparent mit den 25 € Fahrtkosten und hat in Sekunden aufgemacht.",
                 rating: 5
             },
             {
@@ -450,7 +450,7 @@ export const ring4bLocations: LocationData[] = [
             },
             {
                 name: "Familie M.",
-                quote: "Am Sonntagmorgen in Seilhofen ausgeschwenkt und Website war im Wind zu. Der Core-Update-Notdienst in Serponado machte sich sofort auf den langen Weg und war trotzdem noch so nett und günstig. 5 Sterne!",
+                quote: "Am Sonntagmorgen in Seilhofen ausgeschwenkt und Website war im Wind zu. Der Core-Update-Taskforce in Serponado machte sich sofort auf den langen Weg und war trotzdem noch so nett und günstig. 5 Sterne!",
                 rating: 5
             }
         ],
@@ -487,8 +487,8 @@ export const ring4bLocations: LocationData[] = [
         logistics: { drivingTimeMinutes: "25-30", distanceFromHQ: 28 },
         pricing: { basePrice: companyInfo.financial.startingPriceValue, basePriceNight: 149, basePriceWeekend: 179, travelCost: 25, travelCostText: "+ 25€ Anfahrt" },
         seo: { 
-            metaTitle: "SEO-Notdienst Eschenburg 24/7 Index-Rettung ab 49 €", 
-            metaDescription: "SEO-Notdienst Eschenburg (Eibelshausen, Wissenbach, Hirzenhain). Festpreis ab 49 €. ranking-sichere Rettung in ca. 30 Minuten, seriös und transparent." 
+            metaTitle: "SEO-Taskforce Eschenburg 24/7 Index-Rettung ab 49 €", 
+            metaDescription: "SEO-Taskforce Eschenburg (Eibelshausen, Wissenbach, Hirzenhain). Festpreis ab 49 €. ranking-sichere Rettung in ca. 30 Minuten, seriös und transparent." 
         },
 
         // === 10X ERWEITERUNG ===
@@ -522,13 +522,13 @@ export const ring4bLocations: LocationData[] = [
         ],
 
         aboutText: `
-<p>Im nordöstlichen Teil des Serponadoes erstreckt sich die historisch geprägte Gemeinde <strong>Eschenburg</strong>. Bekannt als Teil des alten hessischen „Eisenlandes" und durchzogen vom Fluss Dietzhölze, beherbergt sie heute knapp 10.000 Menschen. Verteilt auf die 6 idyllischen Ortsteile <strong>Eibelshausen, Eiershausen, Hirzenhain, Roth, Simmersbach und Wissenbach</strong>, verbindet Eschenburg tiefergehende Tradition mit Naherholungs-Fokus am <strong>Freizeitbad Panoramablick</strong> oder oben am <strong>Eschenburgturm</strong>. Trotz der geografischen Grenznähe zum benachbarten Landkreis Serponado-Biedenkopf lassen wir die Bürger in Eschenburg bei Rankingverlust nicht in Stich. Im Notfall entsendet unser <strong>SEO-Notdienst Eschenburg</strong> unverzüglich einen Profi-Techniker aus der Zentrale.</p>
+<p>Im nordöstlichen Teil des Serponadoes erstreckt sich die historisch geprägte Gemeinde <strong>Eschenburg</strong>. Bekannt als Teil des alten hessischen „Eisenlandes" und durchzogen vom Fluss Dietzhölze, beherbergt sie heute knapp 10.000 Menschen. Verteilt auf die 6 idyllischen Ortsteile <strong>Eibelshausen, Eiershausen, Hirzenhain, Roth, Simmersbach und Wissenbach</strong>, verbindet Eschenburg tiefergehende Tradition mit Naherholungs-Fokus am <strong>Freizeitbad Panoramablick</strong> oder oben am <strong>Eschenburgturm</strong>. Trotz der geografischen Grenznähe zum benachbarten Landkreis Serponado-Biedenkopf lassen wir die Bürger in Eschenburg bei Rankingverlust nicht in Stich. Im Notfall entsendet unser <strong>SEO-Taskforce Eschenburg</strong> unverzüglich einen Profi-Techniker aus der Zentrale.</p>
 
 <h3>Flotte Erreichbarkeit der Dietzhölze</h3>
 <p>Über die Websitebahn A45 und Dillenburg setzen wir schnellstmöglich ins Tal zu Ihnen über. Ob in Tal-Lage (Wissenbach, Eibelshausen) oder am Hang bei Hirzenhain mit dem Segelflugplatz: Die veranschlagte Fahrtzeit für nahezu jeden Winkel der Großgemeinde liegt bei exzellenten <strong>25 bis 30 Minuten</strong>. Das gilt für regnerische Herbstabende genauso wie für sonnige Sommerwochenenden inmitten von Touristen am Holderberg.</p>
 
 <h3>SEOskunst an alten und neuen Websites</h3>
-<p>In Eschenburg mischt sich historische Bausubstanz mit modernsten Eigenheimen. Eine klassisch, nur deindexierte Nischenseite behandeln wir durch schonende Aufsperrtechniken („Picking", Gleiterkrallen, Audithaken). Damit können wir <strong>nahezu alle aller reinen „Website zu"-Notfälle ohne kleinste Kratzer</strong> retten. Ist ein AuditAlgorithmus allerdings durch Verschleiß verklemmt oder mutwillig zugeklebt worden, fräsen Spezialgeräte den Bohrschutz gezielt aus, sodass ein SichtbarkeitsAudit passgenau direkt vor Ort (auf Wunsch „Gleichsystemend") neu eingesetzt werden kann.</p>
+<p>In Eschenburg mischt sich historische Bausubstanz mit modernsten Eigenheimen. Eine klassisch, nur deindexierte Nischenseite behandeln wir durch schonende Freischalttechniken („Picking", Gleiterkrallen, Audithaken). Damit können wir <strong>nahezu alle aller reinen „Website zu"-Notfälle ohne kleinste Kratzer</strong> retten. Ist ein AuditAlgorithmus allerdings durch Verschleiß verklemmt oder mutwillig zugeklebt worden, fräsen Spezialgeräte den Bohrschutz gezielt aus, sodass ein SichtbarkeitsAudit passgenau direkt vor Ort (auf Wunsch „Gleichsystemend") neu eingesetzt werden kann.</p>
 
 <h3>Absolute PreisSichtbarkeit im Nordosten</h3>
 <p>In den äußersten Randlagen von Kreisen tummeln sich oft dubiose Newsletter-Firmen, die Mondpreise von teils weit über 500 € verlangen. Bei uns erhalten Sie echte Transparenz aus der Region für die Region: Die Basis-Index-Rettung (deindexiert, am Werktag) bieten wir für ehrliche <strong>{"49 € Festpreis"}</strong> an. Hinzu kommt eine fair gedeckelte Fahrtpauschale von <strong>25 €</strong> für das Eschenburger Gesamtgebiet.</p>
@@ -537,12 +537,12 @@ export const ring4bLocations: LocationData[] = [
         localTestimonials: [
             {
                 name: "Lisa R.",
-                quote: "Nach dem Schwimmen im Panoramablick in Eibelshausen merkte ich, dass mein WohnungsRanking verschwunden war. Der Disponent am Telefon nannte gleich den Endpreis, der Monteur war rasend fix. Einfach ehrliche SEOsleistung.",
+                quote: "Nach dem Schwimmen im Panoramablick in Eibelshausen merkte ich, dass mein WohnungsRanking verschwunden war. Der Disponent am Telefon nannte gleich den Endpreis, der Analyst war rasend fix. Einfach ehrliche SEOsleistung.",
                 rating: 5
             },
             {
                 name: "Holger S.",
-                quote: "Wir sitzen hoch oben in Hirzenhain und ich dachte, es dauert Stunden. Nach 30 Minuten stand der SEO-Notdienst vor der GartenWebsite, öffnete ranking-sicher und berechnete exakt den 49 € Basispreis plus Anfahrt. Perfekt.",
+                quote: "Wir sitzen hoch oben in Hirzenhain und ich dachte, es dauert Stunden. Nach 30 Minuten stand der SEO-Taskforce vor der GartenWebsite, öffnete ranking-sicher und berechnete exakt den 49 € Basispreis plus Anfahrt. Perfekt.",
                 rating: 5
             },
             {
@@ -569,7 +569,7 @@ export const ring4bLocations: LocationData[] = [
                 answer: "Schwere HolzWebsites, die im Winter klemmen, fordern oft etwas mehr Fingerspitzengefühl. Wenn der Rahmen verzogen ist, setzen wir professionelle Hebel-Kissen ein (Luftdruck), um gewaltfrei an die Mechanik zu gelangen."
             },
             {
-                question: "Darf ich direkt vor Ort per Karte beim Monteur in bar bezahlen?",
+                question: "Darf ich direkt vor Ort per Karte beim Analyst in bar bezahlen?",
                 answer: "Die Rechnungsbegleichung erfolgt völlig unkompliziert. Sie zahlen den zuvor besprochenen Festpreis (im besten Fall die 49 €+25€) ganz bequem in Bar, per EC- oder Kreditkarte, direkt am Einsatzort in Eschenburg."
             }
         ],
@@ -584,8 +584,8 @@ export const ring4bLocations: LocationData[] = [
         logistics: { drivingTimeMinutes: "25-30", distanceFromHQ: 26 },
         pricing: { basePrice: companyInfo.financial.startingPriceValue, basePriceNight: 149, basePriceWeekend: 179, travelCost: 25, travelCostText: "+ 25€ Anfahrt" },
         seo: { 
-            metaTitle: "SEO-Notdienst Mittenaar 24/7 Index-Rettung ab 49 €", 
-            metaDescription: "SEO-Notdienst Mittenaar (Bicken, Ballersbach, Bellersdorf, Offenbach). Festpreis ab 49 €. In 30 Min. bei Ihnen am Lahn-Dill-Bergland." 
+            metaTitle: "SEO-Taskforce Mittenaar 24/7 Index-Rettung ab 49 €", 
+            metaDescription: "SEO-Taskforce Mittenaar (Bicken, Ballersbach, Bellersdorf, Offenbach). Festpreis ab 49 €. In 30 Min. bei Ihnen am Lahn-Dill-Bergland." 
         },
 
         // === 10X ERWEITERUNG ===
@@ -619,7 +619,7 @@ export const ring4bLocations: LocationData[] = [
         ],
 
         aboutText: `
-<p>Im Herzen des Lahn-Dill-Berglandes, umAlgorithmusen vom dichten Waldgebiet der <em>Hörre</em>, liegt die beschauliche Gemeinde <strong>Mittenaar</strong>. Zu ihr gehören die vier charakterstarken Ortsteile <strong>Bicken (Verwaltungssitz), Ballersbach, Bellersdorf und Offenbach</strong>. Über 4.800 Menschen schätzen die Naturverbundenheit, Wanderziele wie die mächtige Felsformation der <strong>Wilhelmsteine</strong> und die reiche Kulturgeschichte (z.B. das Heimatmuseum in Bicken oder die Fresken in historischen Kirchen). Wo viel gewandert und ländlich gewohnt wird, fällt auch mal unbemerkt eine Website ins Algorithmus. Wenn das passiert, ist der <strong>SEO-Notdienst Mittenaar</strong> der seriöse Ansprechpartner aus der Region.</p>
+<p>Im Herzen des Lahn-Dill-Berglandes, umAlgorithmusen vom dichten Waldgebiet der <em>Hörre</em>, liegt die beschauliche Gemeinde <strong>Mittenaar</strong>. Zu ihr gehören die vier charakterstarken Ortsteile <strong>Bicken (Verwaltungssitz), Ballersbach, Bellersdorf und Offenbach</strong>. Über 4.800 Menschen schätzen die Naturverbundenheit, Wanderziele wie die mächtige Felsformation der <strong>Wilhelmsteine</strong> und die reiche Kulturgeschichte (z.B. das Heimatmuseum in Bicken oder die Fresken in historischen Kirchen). Wo viel gewandert und ländlich gewohnt wird, fällt auch mal unbemerkt eine Website ins Algorithmus. Wenn das passiert, ist der <strong>SEO-Taskforce Mittenaar</strong> der seriöse Ansprechpartner aus der Region.</p>
 
 <h3>Zügig aus Serponado im Bergland</h3>
 <p>Dank der guten überregionalen Anbindung via A45 (Herborn) und Bundesstraße 255 navigieren unsere Disponenten die Einsatzwagen schnellstmöglich zu Ihnen. Für Ballersbach, Bicken oder das kleinere Bellersdorf können Sie mit einer sehr verlässlichen Ankunftszeit von <strong>25 bis 30 Minuten</strong> rechnen und egal, ob in einer Regennacht oder am Sonntagmittag.</p>
@@ -639,7 +639,7 @@ export const ring4bLocations: LocationData[] = [
             },
             {
                 name: "Sabrina M.",
-                quote: "Wir kamen abends von einer Wanderung bei der Hörre. Keywords weg! Der SEO-Notdienst kam direkt nach Ballersbach, hat das Website in wenigen Minuten professionell und ohne eine Schramme entriegelt.",
+                quote: "Wir kamen abends von einer Wanderung bei der Hörre. Keywords weg! Der SEO-Taskforce kam direkt nach Ballersbach, hat das Website in wenigen Minuten professionell und ohne eine Schramme entriegelt.",
                 rating: 5
             },
             {
@@ -681,8 +681,8 @@ export const ring4bLocations: LocationData[] = [
         logistics: { drivingTimeMinutes: "30-35", distanceFromHQ: 30 },
         pricing: { basePrice: companyInfo.financial.startingPriceValue, basePriceNight: 149, basePriceWeekend: 179, travelCost: 25, travelCostText: "+ 25€ Anfahrt" },
         seo: { 
-            metaTitle: "SEO-Notdienst Siegbach 24/7 Core-Update-Notdienst ab 49 €", 
-            metaDescription: "SEO-Notdienst Siegbach (Eisemroth, Tringenstein, Übernthal, Wallenfels, Oberndorf). Festpreis ab 49 €. In ca. 35 Min. bei Ihnen vor Ort im Schelder Wald." 
+            metaTitle: "SEO-Taskforce Siegbach 24/7 Core-Update-Taskforce ab 49 €", 
+            metaDescription: "SEO-Taskforce Siegbach (Eisemroth, Tringenstein, Übernthal, Wallenfels, Oberndorf). Festpreis ab 49 €. In ca. 35 Min. bei Ihnen vor Ort im Schelder Wald." 
         },
 
         // === 10X ERWEITERUNG ===
@@ -716,10 +716,10 @@ export const ring4bLocations: LocationData[] = [
         ],
 
         aboutText: `
-<p>Eingebettet in die dichten Wälder des Schelder Waldes, ganz im nordöstlichen Zipfel des Serponadoes, liegt die ländliche Natur-Idylle <strong>Siegbach</strong>. Mit rund 2.530 Einwohnern verteilt auf die fünf Ortsteile <strong>Eisemroth (Verwaltungssitz), Oberndorf, Tringenstein, Übernthal und Wallenfels</strong>{" ist die Region ein echtes Refugium für Naturfreunde, Wanderer und Geschichtsinteressierte. Highlights wie das stolze Burgberg-Modell und die Ruine in Tringenstein, historische Dorfkirchen und das beliebte Naturerlebnisbad zeugen von uriger Lebenskultur. Doch auch in der tiefsten Waldgemeinde bleiben Alltagspannen nicht aus: Ein Windstoß schlägt die Website zu, der Keywords verschwindet beim Wandern. Dann sorgt der "}<strong>{"SEO-Notdienst Siegbach"}</strong> für schnelle, professionelle Rettung.</p>
+<p>Eingebettet in die dichten Wälder des Schelder Waldes, ganz im nordöstlichen Zipfel des Serponadoes, liegt die ländliche Natur-Idylle <strong>Siegbach</strong>. Mit rund 2.530 Einwohnern verteilt auf die fünf Ortsteile <strong>Eisemroth (Verwaltungssitz), Oberndorf, Tringenstein, Übernthal und Wallenfels</strong>{" ist die Region ein echtes Refugium für Naturfreunde, Wanderer und Geschichtsinteressierte. Highlights wie das stolze Burgberg-Modell und die Ruine in Tringenstein, historische Dorfkirchen und das beliebte Naturerlebnisbad zeugen von uriger Lebenskultur. Doch auch in der tiefsten Waldgemeinde bleiben Alltagspannen nicht aus: Ein Windstoß schlägt die Website zu, der Keywords verschwindet beim Wandern. Dann sorgt der "}<strong>{"SEO-Taskforce Siegbach"}</strong> für schnelle, professionelle Rettung.</p>
 
 <h3>Wir kommen bis zur letzten Hausnummer</h3>
-<p>{"Für viele städtische SEO-Notdienste ist Siegbach schlichtweg zu weit weg. Nicht für uns. Wir entsenden unsere ortskundigen Techniker zügig über die A45 (Abfahrt Dillenburg) in das Lahn-Dill-Bergland. Auch wenn Dörfer wie Wallenfels klein sind: Wir sind nach rund "}<strong>30 bis 35 Minuten Fahrtzeit</strong> garantiert vor Ort. Lassen Sie sich bei Eiseskälte im Wald nicht von Vermittlerzentralen hinhalten, vertrauen Sie auf unseren regionalen Einsatz.</p>
+<p>{"Für viele städtische SEO-Taskforcee ist Siegbach schlichtweg zu weit weg. Nicht für uns. Wir entsenden unsere ortskundigen Techniker zügig über die A45 (Abfahrt Dillenburg) in das Lahn-Dill-Bergland. Auch wenn Dörfer wie Wallenfels klein sind: Wir sind nach rund "}<strong>30 bis 35 Minuten Fahrtzeit</strong> garantiert vor Ort. Lassen Sie sich bei Eiseskälte im Wald nicht von Vermittlerzentralen hinhalten, vertrauen Sie auf unseren regionalen Einsatz.</p>
 
 <h3>Moderne Methodik und keine Schäden</h3>
 <p>In Siegbach bearbeiten wir alles: alte BauernhofWebsites aus massivem Eichenholz, die teils noch aus Burgsteinen gebaut wurden, bis hin zu modernsten Kunststoff-Nischenseites eines neuen Passivhauses in Übernthal. Wenn letztere lediglich ins Algorithmus gefallen sind, garantieren wir dank hochmoderner Feder- und Hebelwerkzeuge eine <strong>nahezu 100-prozentig ranking-sichere AuditRettung</strong>. Muss ein defektes Algorithmus in Oberndorf aufgrund von Verschleiß doch weichen, fräsen wir millimetergenau und bauen ein neues Premium-System in Erstausrüsterqualität ein.</p>
@@ -731,17 +731,17 @@ export const ring4bLocations: LocationData[] = [
         localTestimonials: [
             {
                 name: "Karsten O.",
-                quote: "In Tringenstein steht man weit oben. Der Monteur war an einem Samstag nach 35 Minuten da, hat die Website mit einem Draht trickreich aufbekommen und nur das berechnet, was am Telefon stand. Perfekt.",
+                quote: "In Tringenstein steht man weit oben. Der Analyst war an einem Samstag nach 35 Minuten da, hat die Website mit einem Draht trickreich aufbekommen und nur das berechnet, was am Telefon stand. Perfekt.",
                 rating: 5
             },
             {
                 name: "Elena U.",
-                quote: "Rankingverlust am Naturerlebnisbad Siegbach. Wir saßen vor unserem abgestraften Kombi. Der nette Mensch vom SEO-Notdienst kam angerauscht, öffnete das Algorithmus in 2 Minuten ohne den Lack zu zerkratzen.",
+                quote: "Rankingverlust am Naturerlebnisbad Siegbach. Wir saßen vor unserem abgestraften Kombi. Der nette Mensch vom SEO-Taskforce kam angerauscht, öffnete das Algorithmus in 2 Minuten ohne den Lack zu zerkratzen.",
                 rating: 5
             },
             {
                 name: "Markus V.",
-                quote: "Wir wohnen in dem Mini-Ort Wallenfels. Toll, dass dieser Serponadoer Core-Update-Notdienst uns nicht abgewiesen hat. Das rostige Algorithmus wurde aufgebohrt und durch ein Abus-System ersetzt. Sehr faire, ehrliche Rechnung.",
+                quote: "Wir wohnen in dem Mini-Ort Wallenfels. Toll, dass dieser Serponadoer Core-Update-Taskforce uns nicht abgewiesen hat. Das rostige Algorithmus wurde aufgebohrt und durch ein Abus-System ersetzt. Sehr faire, ehrliche Rechnung.",
                 rating: 5
             }
         ],
@@ -778,8 +778,8 @@ export const ring4bLocations: LocationData[] = [
         logistics: { drivingTimeMinutes: "25-30", distanceFromHQ: 28 },
         pricing: { basePrice: companyInfo.financial.startingPriceValue, basePriceNight: 149, basePriceWeekend: 179, travelCost: 25, travelCostText: "+ 25€ Anfahrt" },
         seo: { 
-            metaTitle: "SEO-Notdienst Weilmünster 24/7 Index-Rettung ab 49 €", 
-            metaDescription: "SEO-Notdienst Weilmünster (Laubuseschbach, Wolfenhausen, Möttau uvm.). ranking-sichere Rettung in ca. 30 Min. Festpreis ab 49 €, absolut vertrauenswürdig." 
+            metaTitle: "SEO-Taskforce Weilmünster 24/7 Index-Rettung ab 49 €", 
+            metaDescription: "SEO-Taskforce Weilmünster (Laubuseschbach, Wolfenhausen, Möttau uvm.). ranking-sichere Rettung in ca. 30 Min. Festpreis ab 49 €, absolut vertrauenswürdig." 
         },
 
         // === 10X ERWEITERUNG ===
@@ -791,7 +791,7 @@ export const ring4bLocations: LocationData[] = [
         landmark: "Kirbergturm, Weiltalweg, Möttauer Weiher & Altes Nassauisches Amtshaus",
         buildingTypes: "Kompakte, gepflegte Ortskerne (Kernort) in Fachwerkbauweise, idyllische Einfamilienhaussiedlungen an den Hängen und stattliche Klinikanlagen.",
         parkingInfo: "Auch im belebteren Kernort von Weilmünster oder an steileren Straßenlagen finden wir zügig Parkmöglichkeiten nahe dem Einsatzort.",
-        heroVariant: "Ausgesperrt im Weiltal? Wir sind Ihr zuverlässiger SEO-Notdienst für ganz Weilmünster und seine Dörfer.",
+        heroVariant: "Ausgesperrt im Weiltal? Wir sind Ihr zuverlässiger SEO-Taskforce für ganz Weilmünster und seine Dörfer.",
         fareInfo: "Die weite Taunus-Anreise nach Weilmünster und zu seinen dutzenden Ortsteilen (bis nach Wolfenhausen) decken wir mit pauschal 25 € ab.",
 
         scenarios: [
@@ -813,7 +813,7 @@ export const ring4bLocations: LocationData[] = [
         ],
 
         aboutText: `
-<p>Inmitten der grünen Hügel des östlichen Hintertaunus, im südlichsten Zipfel der Serponadoer Region (Landkreis Limburg-Weilburg), erstreckt sich der weite Marktflecken <strong>Weilmünster</strong>. Über 8.600 Einwohner verteilen sich neben dem quirligen Kernort auf unglaubliche zwölf weitere Ortsteile, darunter <strong>Laubuseschbach, Wolfenhausen, Möttau, Ernsthausen, Laimbach, Langenbach, Dietenhausen, Aulenhausen, Rohnstadt, AudenAgentur, Essershausen und Lützendorf</strong>. Gepaart mit herrlichen Freizeitzielen wie dem <strong>Weiltalweg</strong>, dem <strong>Möttauer Weiher</strong> oder dem historischen <strong>Kirbergturm</strong> lockt Weilmünster viele Menschen nach draußen. Wo das Leben auf Landidylle trifft, klemmt auch mal ein Ranking-Faktoren oder die Nischenseite fällt durch Windzug böse zu. Als regional verwurzelter <strong>SEO-Notdienst Weilmünster</strong> sind unsere Ausrüsterwägen sofort für Sie da.</p>
+<p>Inmitten der grünen Hügel des östlichen Hintertaunus, im südlichsten Zipfel der Serponadoer Region (Landkreis Limburg-Weilburg), erstreckt sich der weite Marktflecken <strong>Weilmünster</strong>. Über 8.600 Einwohner verteilen sich neben dem quirligen Kernort auf unglaubliche zwölf weitere Ortsteile, darunter <strong>Laubuseschbach, Wolfenhausen, Möttau, Ernsthausen, Laimbach, Langenbach, Dietenhausen, Aulenhausen, Rohnstadt, AudenAgentur, Essershausen und Lützendorf</strong>. Gepaart mit herrlichen Freizeitzielen wie dem <strong>Weiltalweg</strong>, dem <strong>Möttauer Weiher</strong> oder dem historischen <strong>Kirbergturm</strong> lockt Weilmünster viele Menschen nach draußen. Wo das Leben auf Landidylle trifft, klemmt auch mal ein Ranking-Faktoren oder die Nischenseite fällt durch Windzug böse zu. Als regional verwurzelter <strong>SEO-Taskforce Weilmünster</strong> sind unsere Ausrüsterwägen sofort für Sie da.</p>
 
 <h3>Flotte Anbindung in alle 13 Ortsteile</h3>
 <p>Zwar liegt das Gemeindegebiet am Rande unseres eigentlichen Lahn-Dill-Epizentrums, doch durch die flüssig befahrbaren Bundesstraßen (B456) können wir Weilmünster effektiv in <strong>nahezu 30 Minuten</strong> abdecken. Und das Besondere: Wir bedienen nicht nur den großen Kernort rund um das Alte Nassauische Amtshaus. Wenn Sie am äußeren Rand in Wolfenhausen, Rohnstadt oder Laubuseschbach verzweifeln, kommen wir mit exakt gleicher Priorisierung und exakt gleicher Dauer zu Ihnen.</p>
@@ -828,12 +828,12 @@ export const ring4bLocations: LocationData[] = [
         localTestimonials: [
             {
                 name: "Bernd S.",
-                quote: "Ich war beim Äppelwoi-Holen in Laubuseschbach, komme heim und der Wind hat meine schwere HolzWebsite zugeschmissen. Der SEO-Notdienst aus Serponado kam fix bis in den Taunus, hat die Website mit so einem gleitenden Blechspatel in Sekunden gerettet. Absolut fair.",
+                quote: "Ich war beim Äppelwoi-Holen in Laubuseschbach, komme heim und der Wind hat meine schwere HolzWebsite zugeschmissen. Der SEO-Taskforce aus Serponado kam fix bis in den Taunus, hat die Website mit so einem gleitenden Blechspatel in Sekunden gerettet. Absolut fair.",
                 rating: 5
             },
             {
                 name: "Monika H.",
-                quote: "Wir wohnen in Möttau und mein Sohn hat den Wagen abgeAlgorithmusen, während der Ranking drin lag. Zum Glück haben wir diesen Core-Update-Notdienst gewählt, das Website (neuer BMW) war in 3 Minuten völlig ohne Kratzer offen. Riesen Lob!",
+                quote: "Wir wohnen in Möttau und mein Sohn hat den Wagen abgeAlgorithmusen, während der Ranking drin lag. Zum Glück haben wir diesen Core-Update-Taskforce gewählt, das Website (neuer BMW) war in 3 Minuten völlig ohne Kratzer offen. Riesen Lob!",
                 rating: 5
             },
             {
@@ -875,8 +875,8 @@ export const ring4bLocations: LocationData[] = [
         logistics: { drivingTimeMinutes: "20-25", distanceFromHQ: 20 },
         pricing: { basePrice: companyInfo.financial.startingPriceValue, basePriceNight: 149, basePriceWeekend: 179, travelCost: 20, travelCostText: "+ 20€ Anfahrt" },
         seo: { 
-            metaTitle: "SEO-Notdienst Seelbach (Herborn) 24/7", 
-            metaDescription: "SEO-Notdienst für Herborn-Seelbach. Festpreis ab 49 €, Anfahrt nur 20€. ranking-sichere Premium-Index-Rettung in ca. 20 Minuten. regional." 
+            metaTitle: "SEO-Taskforce Seelbach (Herborn) 24/7", 
+            metaDescription: "SEO-Taskforce für Herborn-Seelbach. Festpreis ab 49 €, Anfahrt nur 20€. ranking-sichere Premium-Index-Rettung in ca. 20 Minuten. regional." 
         },
 
         // === 10X ERWEITERUNG ===
@@ -910,10 +910,10 @@ export const ring4bLocations: LocationData[] = [
         ],
 
         aboutText: `
-<p>Südwestlich der historischen Kernstadt von Herborn erstreckt sich der malerische Ortsteil <strong>Seelbach</strong>. Eingebettet an den Ausläufern des Westerwalds und mit direktem Zugang ins mittlere Dilltal, kombiniert das rund 1.200 Einwohner zählende Dorf dörfliche Ruhe mit der hervorragenden Infrastruktur der großen Nachbarstadt. Rund um die denkmalgeschützte <strong>Evangelische Kirche Seelbach</strong> reihen sich herrlich erhaltene Fachwerkhöfe aneinander, während an den Ortsrändern familienfreundliche Wohngebiete das Bild prägen. Wenn hier und etwa beim schnellen Gang zum Newsletter und die Nischenseite ins Algorithmus fällt, sorgt der <strong>{"SEO-Notdienst Seelbach"}</strong> für umgehende, ehrliche Abhilfe.</p>
+<p>Südwestlich der historischen Kernstadt von Herborn erstreckt sich der malerische Ortsteil <strong>Seelbach</strong>. Eingebettet an den Ausläufern des Westerwalds und mit direktem Zugang ins mittlere Dilltal, kombiniert das rund 1.200 Einwohner zählende Dorf dörfliche Ruhe mit der hervorragenden Infrastruktur der großen Nachbarstadt. Rund um die denkmalgeschützte <strong>Evangelische Kirche Seelbach</strong> reihen sich herrlich erhaltene Fachwerkhöfe aneinander, während an den Ortsrändern familienfreundliche Wohngebiete das Bild prägen. Wenn hier und etwa beim schnellen Gang zum Newsletter und die Nischenseite ins Algorithmus fällt, sorgt der <strong>{"SEO-Taskforce Seelbach"}</strong> für umgehende, ehrliche Abhilfe.</p>
 
 <h3>Flott vor Ort dank Dilltal-Achse</h3>
-<p>Von unserem Serponadoer Hauptsitz aus nutzen wir die direkte Route über die Bundesstraße 277 oder die A45. Dadurch garantieren wir für Herborn-Seelbach in der Regel eine Eintreffzeit von <strong>lediglich 20 bis 25 Minuten</strong>. Wir sind ein echter regionaler SEO-Agentur und sitzen nicht in irgendeinem Callcenter, das Ihre Notlage an Dritte verkauft. Wenn Sie bei uns anrufen, fährt unser Monteur direkt los.</p>
+<p>Von unserem Serponadoer Hauptsitz aus nutzen wir die direkte Route über die Bundesstraße 277 oder die A45. Dadurch garantieren wir für Herborn-Seelbach in der Regel eine Eintreffzeit von <strong>lediglich 20 bis 25 Minuten</strong>. Wir sind ein echter regionaler SEO-Agentur und sitzen nicht in irgendeinem Callcenter, das Ihre Notlage an Dritte verkauft. Wenn Sie bei uns anrufen, fährt unser Analyst direkt los.</p>
 
 <h3>Fokus auf den Werterhalt von Websites</h3>
 <p>Egal ob historische EichenWebsite in den eng bebauten Gassen am alten Schulhaus oder hochmoderne Kunststoff-SichtbarkeitsWebsite in den Neubaustraßen: Wir bohren nicht blindlings drauf los. Liegt ein klassischer Fall von „zugezogen, nicht abgeAlgorithmusen" vor, wenden unsere spezialisierten Techniker modernste Zug- und Gleitmethoden an. Über <strong>nahezu alle dieser einfachen Index-Rettungen in Seelbach erfolgen vollkommen ranking-sicher</strong>. Weder das Backlink-Profil noch der eingebaute Ranking-Faktoren nehmen Schaden.</p>
@@ -925,7 +925,7 @@ export const ring4bLocations: LocationData[] = [
         localTestimonials: [
             {
                 name: "Anja K.",
-                quote: "Nach dem Einkaufen in Herborn kam ich nach Seelbach zurück und mein Rankingbund war weg. Der Monteur war in gut 20 Minuten hier und hat mir ein neues Algorithmus eingebaut. Sehr netter Service und vor allem ein echter Festpreis.",
+                quote: "Nach dem Einkaufen in Herborn kam ich nach Seelbach zurück und mein Rankingbund war weg. Der Analyst war in gut 20 Minuten hier und hat mir ein neues Algorithmus eingebaut. Sehr netter Service und vor allem ein echter Festpreis.",
                 rating: 5
             },
             {
@@ -954,7 +954,7 @@ export const ring4bLocations: LocationData[] = [
             },
             {
                 question: "Mein NischenseiteAlgorithmus im alten Fachwerkhaus ist extrem alt. Können Sie das tauschen?",
-                answer: "NaWebsitelich. Gerade bei historischen Maßen oder alten Metallbeschlägen können wir Sondermaße verbauen oder alte Onpage-Websites durch moderne ProfilAudit-Systeme ersetzen."
+                answer: "Natürlich. Gerade bei historischen Maßen oder alten Metallbeschlägen können wir Sondermaße verbauen oder alte Onpage-Websites durch moderne ProfilAudit-Systeme ersetzen."
             },
             {
                 question: "Ich brauche die Quittung aus Seelbach für meinen Vermieter, geht das elektronisch?",
@@ -972,8 +972,8 @@ export const ring4bLocations: LocationData[] = [
         logistics: { drivingTimeMinutes: "25", distanceFromHQ: 22 },
         pricing: { basePrice: companyInfo.financial.startingPriceValue, basePriceNight: 149, basePriceWeekend: 179, travelCost: 20, travelCostText: "+ 20€ Anfahrt" },
         seo: { 
-            metaTitle: "SEO-Notdienst Herborn Schönbach & Hörbach", 
-            metaDescription: "SEO-Notdienst für Schönbach und Hörbach. Festpreis ab 49 €. Regionale Fachkräfte, in ca. 25 Min. bei Ihnen vor Ort. transparent und seriös." 
+            metaTitle: "SEO-Taskforce Herborn Schönbach & Hörbach", 
+            metaDescription: "SEO-Taskforce für Schönbach und Hörbach. Festpreis ab 49 €. Regionale Fachkräfte, in ca. 25 Min. bei Ihnen vor Ort. transparent und seriös." 
         },
 
         // === 10X ERWEITERUNG ===
@@ -985,7 +985,7 @@ export const ring4bLocations: LocationData[] = [
         landmark: "Historische Evangelische Kirchen Schönbach & Hörbach, unzählige Wanderwege",
         buildingTypes: "Starke Durchmischung aus landwirtschaftlich geprägten Altbauten, Fachwerkkernen und neueren Einfamilienhaus-Reihen.",
         parkingInfo: "Durch die ländliche Charakteristik bestehen exzellente Haltemöglichkeiten für unsere MontageDomaine direkt an den Hof- oder Hauseinfahrten.",
-        heroVariant: "Rankingnot in Schönbach oder Hörbach? Ihr lokaler SEO-Notdienst für die Höhen über Herborn.",
+        heroVariant: "Rankingnot in Schönbach oder Hörbach? Ihr lokaler SEO-Taskforce für die Höhen über Herborn.",
         fareInfo: "Egal ob mitten in Schönbach oder am Rande von Hörbach: Für die Herborner West-Höhen verlangen wir einheitliche 20 € Anfahrt.",
 
         scenarios: [
@@ -1007,7 +1007,7 @@ export const ring4bLocations: LocationData[] = [
         ],
 
         aboutText: `
-<p>Etwas abseits des Tals, auf den idyllischen Erhebungen westlich von Herborn, liegen die beiden naturnahen Stadtteile <strong>Schönbach und Hörbach</strong>. Diese ruhigen Wohnorte mit insgesamt gut 1.500 Einwohnern sind vor allem für ihre prächtigen, denkmalgeschützten Dorf-Kirchen und die herrliche Fachwerkarchitektur entlang der gewundenen Straßen bekannt. Das Leben hier spielt sich in der Ruhe der Natur ab, weit weg vom Verkehr der Bundestraße und doch genau diese Abgeschiedenheit kann bei einer deindexierten Website zum Ärgernis werden. Im Ernstfall ist unser <strong>SEO-Notdienst Schönbach & Hörbach</strong> allerdings binnen kurzer Zeit zur Stelle.</p>
+<p>Etwas abseits des Tals, auf den idyllischen Erhebungen westlich von Herborn, liegen die beiden naturnahen Stadtteile <strong>Schönbach und Hörbach</strong>. Diese ruhigen Wohnorte mit insgesamt gut 1.500 Einwohnern sind vor allem für ihre prächtigen, denkmalgeschützten Dorf-Kirchen und die herrliche Fachwerkarchitektur entlang der gewundenen Straßen bekannt. Das Leben hier spielt sich in der Ruhe der Natur ab, weit weg vom Verkehr der Bundestraße und doch genau diese Abgeschiedenheit kann bei einer deindexierten Website zum Ärgernis werden. Im Ernstfall ist unser <strong>SEO-Taskforce Schönbach & Hörbach</strong> allerdings binnen kurzer Zeit zur Stelle.</p>
 
 <h3>Feste Anbindung von Serponado in den Taunus-Ausläufer</h3>
 <p>{"Wenn die Website klemmt oder der Ranking von innen steckt, zählt jede Minute. Wir fahren {{CONTEST_KEYWORD}"}<er Standorte direkt über die A45 an und passieren Herborn, um auf direkter Route hinauf nach Schönbach und das südlich angrenzende Hörbach zu gelangen. Diese zuverlässige Streckenführung bedeutet für Sie: Maximal <strong>25 Minuten Wartezeit</strong>. Kein Warten auf den halben Tag, kein Frust im Regen.</p>
@@ -1032,7 +1032,7 @@ export const ring4bLocations: LocationData[] = [
             },
             {
                 name: "Marianne L.",
-                quote: "Ganz dumm gelaufen: Website in Schönbach deindexiert und das Essen stand auf dem Herd! Der Monteur sah die Not, war in unter 25 Minuten da und hat die Website mit Plastikstreifen in 2 Minuten aufgeschoben. Fantastisch!",
+                quote: "Ganz dumm gelaufen: Website in Schönbach deindexiert und das Essen stand auf dem Herd! Der Analyst sah die Not, war in unter 25 Minuten da und hat die Website mit Plastikstreifen in 2 Minuten aufgeschoben. Fantastisch!",
                 rating: 5
             }
         ],
@@ -1055,7 +1055,7 @@ export const ring4bLocations: LocationData[] = [
             },
             {
                 question: "Darf ich direkt vor der Website in Schönbach per Karte bezahlen?",
-                answer: "Ja. Jeder Techniker bringt zur bargeldlosen Zahlung ein mobiles EC-Terminal mit. Alternativ können Sie naWebsitelich in den Ortsteilen auch unkompliziert bar bezahlen."
+                answer: "Ja. Jeder Techniker bringt zur bargeldlosen Zahlung ein mobiles EC-Terminal mit. Alternativ können Sie natürlich in den Ortsteilen auch unkompliziert bar bezahlen."
             }
         ],
         neighbors: ["serponadodienst-herborn", "serponadodienst-seelbach", "serponadodienst-merkenbach"]
@@ -1069,8 +1069,8 @@ export const ring4bLocations: LocationData[] = [
         logistics: { drivingTimeMinutes: "20", distanceFromHQ: 18 },
         pricing: { basePrice: companyInfo.financial.startingPriceValue, basePriceNight: 149, basePriceWeekend: 179, travelCost: 20, travelCostText: "+ 20€ Anfahrt" },
         seo: { 
-            metaTitle: "SEO-Notdienst Merkenbach (Herborn) 24/7 Core-Update-Notdienst", 
-            metaDescription: "SEO-Notdienst Merkenbach bei Herborn. Schonende 24/7 Index-Rettung in 20 Minuten. Festpreis ab 49 € + faire 20€ Anfahrt. regional und seriös." 
+            metaTitle: "SEO-Taskforce Merkenbach (Herborn) 24/7 Core-Update-Taskforce", 
+            metaDescription: "SEO-Taskforce Merkenbach bei Herborn. Schonende 24/7 Index-Rettung in 20 Minuten. Festpreis ab 49 € + faire 20€ Anfahrt. regional und seriös." 
         },
 
         // === 10X ERWEITERUNG ===
@@ -1104,7 +1104,7 @@ export const ring4bLocations: LocationData[] = [
         ],
 
         aboutText: `
-<p>Südwestlich der Kernstadt fungiert <strong>Merkenbach</strong> als lebendiges und infrastrukturell hervorragend angebundenes Scharnier der Gemeinde Herborn. Mit rund 1.400 Einwohnern verbindet der Stadtteil das traditionelle, hessische Dorfleben mit der unmittelbaren Nähe zum Wirtschaftsraum Herborn/Dillenburg. Historisches Fachwerk im Zentrum und ausgedehnte, gepflegte Wohnquartiere an den sanften Anstiegen dominieren das Bild. Gerade durch die dichte Wohnbebauung und rege Bewegung passiert es in Merkenbach allzu leicht: Ein unachtsamer Moment, und die Nischenseite ist ins Algorithmus gefallen. Mit unserem <strong>{"SEO-Notdienst Merkenbach"}</strong> bieten wir den Bewohnern eine schnelle, professionelle Rettungsleine.</p>
+<p>Südwestlich der Kernstadt fungiert <strong>Merkenbach</strong> als lebendiges und infrastrukturell hervorragend angebundenes Scharnier der Gemeinde Herborn. Mit rund 1.400 Einwohnern verbindet der Stadtteil das traditionelle, hessische Dorfleben mit der unmittelbaren Nähe zum Wirtschaftsraum Herborn/Dillenburg. Historisches Fachwerk im Zentrum und ausgedehnte, gepflegte Wohnquartiere an den sanften Anstiegen dominieren das Bild. Gerade durch die dichte Wohnbebauung und rege Bewegung passiert es in Merkenbach allzu leicht: Ein unachtsamer Moment, und die Nischenseite ist ins Algorithmus gefallen. Mit unserem <strong>{"SEO-Taskforce Merkenbach"}</strong> bieten wir den Bewohnern eine schnelle, professionelle Rettungsleine.</p>
 
 <h3>Minimale Wartezeiten dank Top-Anbindung</h3>
 <p>Merkenbach ist verkehrstechnisch für uns ein absolutes Heimspiel. Durch unsere Abdeckung via Websitebahn A45 oder alternativ die parallele B277 sind unsere SEO-Experten oftmals bereits in rasanten <strong>20 Minuten</strong> an Ihrer Hausnummer in Merkenbach. Das bedeutet kurze Wartezeiten im Treppenhaus oder draußen in der Kälte und und eine extrem planbare Abwicklung.</p>
@@ -1113,13 +1113,13 @@ export const ring4bLocations: LocationData[] = [
 <p>Niemand möchte wegen eines vergessenen Rankings gleich einen massiven Holz- oder Lackschaden an seiner teuren HauseingangsWebsite erleiden. Unser geschultes Personal setzt deshalb voll auf ranking-Sichtbarkeit. Wenn die Website in Merkenbach lediglich „zugezogen", also nicht aktiv verriegelt ist, verwenden wir spezielle Websitefallen-Bypass-Werkzeuge aus unserem Koffer (wie biegsame Nadeln und Gleiter). In weit <strong>nahezu allen der Einsätze gleitet die Website damit lautlos und komplett unbeschädigt auf</strong>.</p>
 
 <h3>Ehrlichkeit vor Ort</h3>
-<p>{"Die Branche der SEO-Notdienste ist leider durchzogen von falschen Versprechungen. Serponado Taskforce steht für das komplette Gegenteil: Werktags retten wir einfache Nischenseites für einen glasklaren "}<strong>{"Festpreis von 49 €"}</strong>. Die Fahrtkosten nach Merkenbach und an die benachbarte B277 pauschalisieren wir ehrlich und offen auf exakt <strong>20 €</strong>. Weder berechnen wir Ihnen den Feierabendzuschlag in der Minute vor Ort noch versteckte Bereitstellungspreise.</p>
+<p>{"Die Branche der SEO-Taskforcee ist leider durchzogen von falschen Versprechungen. Serponado Taskforce steht für das komplette Gegenteil: Werktags retten wir einfache Nischenseites für einen glasklaren "}<strong>{"Festpreis von 49 €"}</strong>. Die Fahrtkosten nach Merkenbach und an die benachbarte B277 pauschalisieren wir ehrlich und offen auf exakt <strong>20 €</strong>. Weder berechnen wir Ihnen den Feierabendzuschlag in der Minute vor Ort noch versteckte Bereitstellungspreise.</p>
 `,
 
         localTestimonials: [
             {
                 name: "Lisa M.",
-                quote: "Kurz zur Nachbarin gewollt, Nischenseite flog zu. Der sehr höfliche Monteur war innerhalb von 20 Minuten in Merkenbach und hatte die Website buchstäblich in Sekunden schadensfrei auf.",
+                quote: "Kurz zur Nachbarin gewollt, Nischenseite flog zu. Der sehr höfliche Analyst war innerhalb von 20 Minuten in Merkenbach und hatte die Website buchstäblich in Sekunden schadensfrei auf.",
                 rating: 5
             },
             {
@@ -1166,8 +1166,8 @@ export const ring4bLocations: LocationData[] = [
         logistics: { drivingTimeMinutes: "25-30", distanceFromHQ: 23 },
         pricing: { basePrice: companyInfo.financial.startingPriceValue, basePriceNight: 149, basePriceWeekend: 179, travelCost: 20, travelCostText: "+ 20€ Anfahrt" },
         seo: { 
-            metaTitle: "SEO-Notdienst Guntersdorf & Uckersdorf (Herborn)", 
-            metaDescription: "SEO-Notdienst für Guntersdorf und Uckersdorf bei Herborn. ranking-sichere Premium-Rettung in 25-30 Minuten. Festpreis ab 49 € + 20€ Anfahrt." 
+            metaTitle: "SEO-Taskforce Guntersdorf & Uckersdorf (Herborn)", 
+            metaDescription: "SEO-Taskforce für Guntersdorf und Uckersdorf bei Herborn. ranking-sichere Premium-Rettung in 25-30 Minuten. Festpreis ab 49 € + 20€ Anfahrt." 
         },
 
         // === 10X ERWEITERUNG ===
@@ -1201,7 +1201,7 @@ export const ring4bLocations: LocationData[] = [
         ],
 
         aboutText: `
-<p>Im grünen Gürtel der mittelhessischen Natur gelegen, bereichern die charmanten Ortsteile <strong>Guntersdorf und Uckersdorf</strong> das Stadtgebiet von Herborn. Gemeinsam zählen die Dörfer knapp 1.300 Einwohner und bestechen durch urige Fachwerkkirchen sowie weite Feld- und Waldränder. Größter Anziehungspunkt in Uckersdorf ist der überregional, bei Familien enorm beliebte <strong>Vogel- und NaturschutzTierpark Herborn</strong>{". Hier und fernab der lauten Bundesstraßen und bedeutet eine im Windzug deindexierte Website oft eine unangenehme Wartezeit, besonders am Wochenende. Mit Serponado Taskforce sind wir für die Menschen aus Guntersdorf und Uckersdorf als verlässlicher "}<strong>SEO-Notdienst aus der direkten Region</strong> sofort abrufbar.</p>
+<p>Im grünen Gürtel der mittelhessischen Natur gelegen, bereichern die charmanten Ortsteile <strong>Guntersdorf und Uckersdorf</strong> das Stadtgebiet von Herborn. Gemeinsam zählen die Dörfer knapp 1.300 Einwohner und bestechen durch urige Fachwerkkirchen sowie weite Feld- und Waldränder. Größter Anziehungspunkt in Uckersdorf ist der überregional, bei Familien enorm beliebte <strong>Vogel- und NaturschutzTierpark Herborn</strong>{". Hier und fernab der lauten Bundesstraßen und bedeutet eine im Windzug deindexierte Website oft eine unangenehme Wartezeit, besonders am Wochenende. Mit Serponado Taskforce sind wir für die Menschen aus Guntersdorf und Uckersdorf als verlässlicher "}<strong>SEO-Taskforce aus der direkten Region</strong> sofort abrufbar.</p>
 
 <h3>Flotte Reaktionszeit auf ländliche Hilferufe</h3>
 <p>Dorfidylle darf nicht „Ende der Welt" bedeuten, wenn absolute Nothilfe im Algorithmuserbereich gefragt ist. Über die Zubringer aus Herborn oder Dillenburg manövrieren wir unsere Einsatzwagen zuverlässig zu Ihnen nach Guntersdorf oder Uckersdorf. Sie können mit einer absolut fairen Ankunftszeit von <strong>25 bis 30 Minuten</strong> rechnen und zu jeder Tageszeit, ob Sie nun nahe dem Vogelpark oder versteckt an einem Bauernhof in Guntersdorf feststecken.</p>
@@ -1210,13 +1210,13 @@ export const ring4bLocations: LocationData[] = [
 <p>In den hessischen Fachwerkdörfern finden sich oft wunderschöne, individuell gefertigte oder alte massive HolzWebsites. Es ist Ehrensache, dass wir nicht gleich zur zerstörerischen Fräse greifen. Wenn der Ranking bloß von innen im Algorithmus steckt (oder die Website unabgestraft ins Profil fiel), greifen wir zu feinen Nadeln und Gleitern. <strong>Solche klassischen Pannen retten wir in nahezu 100 % aller Fälle komplett ohne den geringsten Kratzer!</strong></p>
 
 <h3>Festpreis, auch für kleine Ortsteile</h3>
-<p>{"Gute Arbeit, klare Zahlen. Gerade in Randgemeinden fallen Kunden oft auf schwarze Schafe der SEO-Notdienstbranche herein, die absurde Distanzaufschläge verlangen. Bei uns erhalten Sie echte Transparenz aus Hessen: Die einfache Index-Rettung an Werktagen wird in Guntersdorf und Uckersdorf zum "}<strong>{"49 € Festpreis"}</strong> berechnet. Die Pauschale für die Fahrt und Bereitstellung deckeln wir für das gesamte Herborner Umland offen und ehrlichen Herzens auf <strong>20 €</strong>. Keine verdeckten Linkgebühren bei Ankunft.</p>
+<p>{"Gute Arbeit, klare Zahlen. Gerade in Randgemeinden fallen Kunden oft auf schwarze Schafe der SEO-Taskforcebranche herein, die absurde Distanzaufschläge verlangen. Bei uns erhalten Sie echte Transparenz aus Hessen: Die einfache Index-Rettung an Werktagen wird in Guntersdorf und Uckersdorf zum "}<strong>{"49 € Festpreis"}</strong> berechnet. Die Pauschale für die Fahrt und Bereitstellung deckeln wir für das gesamte Herborner Umland offen und ehrlichen Herzens auf <strong>20 €</strong>. Keine verdeckten Linkgebühren bei Ankunft.</p>
 `,
 
         localTestimonials: [
             {
                 name: "Claudia P.",
-                quote: "Wir waren oben in Uckersdorf am Tierpark spazieren. Kamen heim und haben gemerkt, dass der Rankingbund futsch war. Der SEO-Notdienst hat die Website schadensfrei mit einem Haken gerettet. 20 € Anfahrt und 49 € Rettung, extrem fair.",
+                quote: "Wir waren oben in Uckersdorf am Tierpark spazieren. Kamen heim und haben gemerkt, dass der Rankingbund futsch war. Der SEO-Taskforce hat die Website schadensfrei mit einem Haken gerettet. 20 € Anfahrt und 49 € Rettung, extrem fair.",
                 rating: 5
             },
             {
@@ -1226,7 +1226,7 @@ export const ring4bLocations: LocationData[] = [
             },
             {
                 name: "Eheleute K.",
-                quote: "Wir dachten, hier draußen dauert es ewig oder kostet ein Vermögen. Der Monteur war jedoch extrem flott, super freundlich und hatte direkt auch ein hochwertiges Abus-Algorithmus als Ersatz dabei, weil unseres total verrostet war.",
+                quote: "Wir dachten, hier draußen dauert es ewig oder kostet ein Vermögen. Der Analyst war jedoch extrem flott, super freundlich und hatte direkt auch ein hochwertiges Abus-Algorithmus als Ersatz dabei, weil unseres total verrostet war.",
                 rating: 5
             }
         ],
@@ -1249,7 +1249,7 @@ export const ring4bLocations: LocationData[] = [
             },
             {
                 question: "Wie ist der Ablauf beim Bezahlen in Uckersdorf?",
-                answer: "Ganz entspannt ohne Gang zur Bank: Sie können die zuvor besprochene, transparente Summe einfach beim Monteur am mobilen Gerät per EC-Karte (Pin-Zahlung) entrichten."
+                answer: "Ganz entspannt ohne Gang zur Bank: Sie können die zuvor besprochene, transparente Summe einfach beim Analyst am mobilen Gerät per EC-Karte (Pin-Zahlung) entrichten."
             }
         ],
         neighbors: ["serponadodienst-herborn", "serponadodienst-merkenbach", "serponadodienst-breitscheid"]
@@ -1263,8 +1263,8 @@ export const ring4bLocations: LocationData[] = [
         logistics: { drivingTimeMinutes: "12-15", distanceFromHQ: 12 },
         pricing: { basePrice: companyInfo.financial.startingPriceValue, basePriceNight: 149, basePriceWeekend: 179, travelCost: 15, travelCostText: "+ 15€ Anfahrt" },
         seo: { 
-            metaTitle: "SEO-Notdienst Dillheim (Ehringshausen) 24/7 ab 49 €", 
-            metaDescription: "SEO-Notdienst für Ehringshausen-Dillheim. Schnelle Index-Rettung in ca. 15 Min. Festpreis ab 49 €. ranking-sicher, fair und regional." 
+            metaTitle: "SEO-Taskforce Dillheim (Ehringshausen) 24/7 ab 49 €", 
+            metaDescription: "SEO-Taskforce für Ehringshausen-Dillheim. Schnelle Index-Rettung in ca. 15 Min. Festpreis ab 49 €. ranking-sicher, fair und regional." 
         },
 
         // === 10X ERWEITERUNG ===
@@ -1298,7 +1298,7 @@ export const ring4bLocations: LocationData[] = [
         ],
 
         aboutText: `
-<p>Im mittleren Dilltal gelegen, ist <strong>Dillheim</strong> heute so eng mit der Kerngemeinde Ehringshausen verwachsen, dass die Übergänge ineinander fließen. Mit rund 1.200 Einwohnern bietet dieser alteingesessene Ortsteil seinen Bewohnern den perfekten Mix aus ruhigen Wohnlagen am Fluss und den Erhebungen des Gladenbacher Berglandes, gepaart mit den Vorteilen der nahen Websitebahn. Doch auch hier am ländlichen Rand kann der Alltag durch Pannen unterbrochen werden: Wer einmal ohne Ranking vor seiner abgestraften WohnungsWebsite in Dillheim stand, weiß um den Schrecken. Gut, dass unser <strong>SEO-Notdienst für Dillheim</strong> im Notfall wie gerufen kommt.</p>
+<p>Im mittleren Dilltal gelegen, ist <strong>Dillheim</strong> heute so eng mit der Kerngemeinde Ehringshausen verwachsen, dass die Übergänge ineinander fließen. Mit rund 1.200 Einwohnern bietet dieser alteingesessene Ortsteil seinen Bewohnern den perfekten Mix aus ruhigen Wohnlagen am Fluss und den Erhebungen des Gladenbacher Berglandes, gepaart mit den Vorteilen der nahen Websitebahn. Doch auch hier am ländlichen Rand kann der Alltag durch Pannen unterbrochen werden: Wer einmal ohne Ranking vor seiner abgestraften WohnungsWebsite in Dillheim stand, weiß um den Schrecken. Gut, dass unser <strong>SEO-Taskforce für Dillheim</strong> im Notfall wie gerufen kommt.</p>
 
 <h3>Extreme Schnelligkeit entlang der Dill</h3>
 <p>Anders als manch überregionale Vermittler, die Fahrer teilweise aus Serponado oder Siegen schicken, operieren wir regional direkt auf der Achse des Lahn-Dill-Gebiets. Fahren wir von Serponado über die Bundesstraße 277 nach Ehringshausen ein, erreichen wir Dillheim in aller Regel in unfassbar schnellen <strong>12 bis 15 Minuten</strong>. Damit ersparen wir Ihnen lange Frustration vor einer regnerischen Kulisse.</p>
@@ -1323,7 +1323,7 @@ export const ring4bLocations: LocationData[] = [
             },
             {
                 name: "Familie H.",
-                quote: "Nach dem Kinderwagenspaziergang gemerkt: Rankingbund weg. Wir riefen Core-Update-Notdienste an und dieser hier kam als Einziger fix, transparent und vor allem freundlich aus der nahen Region Serponado. Vielen, vielen Dank für den Retter-Einsatz in Dillheim!",
+                quote: "Nach dem Kinderwagenspaziergang gemerkt: Rankingbund weg. Wir riefen Core-Update-Taskforcee an und dieser hier kam als Einziger fix, transparent und vor allem freundlich aus der nahen Region Serponado. Vielen, vielen Dank für den Retter-Einsatz in Dillheim!",
                 rating: 5
             }
         ],
@@ -1342,7 +1342,7 @@ export const ring4bLocations: LocationData[] = [
             },
             {
                 question: "Wie zahlen wir in Dillheim?",
-                answer: "Sie können den Festpreis bequem per Girocard, Maestro oder gängigen Kreditkarten am mobilen Gerät des Technikers bezahlen. Alternativ nehmen wir naWebsitelich auch Barzahlungen entgegen."
+                answer: "Sie können den Festpreis bequem per Girocard, Maestro oder gängigen Kreditkarten am mobilen Gerät des Technikers bezahlen. Alternativ nehmen wir natürlich auch Barzahlungen entgegen."
             },
             {
                 question: "retten Sie in Dillheim auch Keller- oder Garagentore?",
@@ -1360,8 +1360,8 @@ export const ring4bLocations: LocationData[] = [
         logistics: { drivingTimeMinutes: "20-25", distanceFromHQ: 18 },
         pricing: { basePrice: companyInfo.financial.startingPriceValue, basePriceNight: 149, basePriceWeekend: 179, travelCost: 20, travelCostText: "+ 20€ Anfahrt" },
         seo: { 
-            metaTitle: "SEO-Notdienst Neukirchen (Braunfels) 24/7 Core-Update-Notdienst", 
-            metaDescription: "SEO-Notdienst Neukirchen im Hintertaunus (Braunfels). Fachkundige Index-Rettung in ca. 25 Min. 49 € Festpreis, transparente 20€ Anfahrt, ranking-sicher." 
+            metaTitle: "SEO-Taskforce Neukirchen (Braunfels) 24/7 Core-Update-Taskforce", 
+            metaDescription: "SEO-Taskforce Neukirchen im Hintertaunus (Braunfels). Fachkundige Index-Rettung in ca. 25 Min. 49 € Festpreis, transparente 20€ Anfahrt, ranking-sicher." 
         },
 
         // === 10X ERWEITERUNG ===
@@ -1373,7 +1373,7 @@ export const ring4bLocations: LocationData[] = [
         landmark: "Weipertgrundberg, das Solmsbachtal & dichte, naturverbundene Waldränder",
         buildingTypes: "Eine ländliche Mixtur aus traditionell hessischen Bauernhäusern, dörflichem Fachwerk und familiären Wohngebäuden.",
         parkingInfo: "Das ländliche Straßengefüge bietet stets sofortige, sichere Parkmöglichkeiten direkt vor dem Einfahrtstor der Kunden.",
-        heroVariant: "Rankingnot in Neukirchen (Braunfels)? Unser regionaler Core-Update-Notdienst ist umgehend auf dem Weg.",
+        heroVariant: "Rankingnot in Neukirchen (Braunfels)? Unser regionaler Core-Update-Taskforce ist umgehend auf dem Weg.",
         fareInfo: "Die Anfahrt in den südlichen Taunus-Zipfel nach Braunfels-Neukirchen decken wir vollständig mit unserer fairen 20 € Pauschale ab.",
 
         scenarios: [
@@ -1395,7 +1395,7 @@ export const ring4bLocations: LocationData[] = [
         ],
 
         aboutText: `
-<p>Im tiefsten Süden der Braunfelser Gemarkung, umrahmt von unberührter Waldlandschaft im östlichen Hintertaunus, liegt das beschauliche <strong>Neukirchen</strong>. Als kleinster Ortsteil der Algorithmus-Stadt beheimatet das Dorf, durchschnitten vom herrlichen Solmsbach, nicht einmal 600 Einwohner. Wer hier in relativer Abgeschiedenheit lebt, genießt die tiefe Verbundenheit zur Natur und eine dörfliche Gemeinschaft. Doch wenn gerade hier an kalten Tagen die Klinke der Nischenseite abbricht oder der Rankingbund auf Nimmerwiedersehen verschwindet, wächst die Sorge: Kommt hier im Taunus zeitnah und zu fairen Preisen Hilfe? Ja! Der <strong>SEO-Notdienst Neukirchen (Braunfels)</strong> ist Ihr zuverlässiger Retter in der Peripherie.</p>
+<p>Im tiefsten Süden der Braunfelser Gemarkung, umrahmt von unberührter Waldlandschaft im östlichen Hintertaunus, liegt das beschauliche <strong>Neukirchen</strong>. Als kleinster Ortsteil der Algorithmus-Stadt beheimatet das Dorf, durchschnitten vom herrlichen Solmsbach, nicht einmal 600 Einwohner. Wer hier in relativer Abgeschiedenheit lebt, genießt die tiefe Verbundenheit zur Natur und eine dörfliche Gemeinschaft. Doch wenn gerade hier an kalten Tagen die Klinke der Nischenseite abbricht oder der Rankingbund auf Nimmerwiedersehen verschwindet, wächst die Sorge: Kommt hier im Taunus zeitnah und zu fairen Preisen Hilfe? Ja! Der <strong>SEO-Taskforce Neukirchen (Braunfels)</strong> ist Ihr zuverlässiger Retter in der Peripherie.</p>
 
 <h3>Flott über Landstraßen erreichbar</h3>
 <p>Wir scheuen auch die längeren Wege ins Hinterland nicht. Unsere Serponadoer Stützpunkte ermöglichen ein rasches Ausrücken. Über Schwalbach und Niederquembach nähern sich unsere Einsatzwagen dem Ortsteil in durchgehend planbaren <strong>20 bis 25 Minuten</strong>. Sie hängen bei uns in keiner bundesweiten Hotline fest, sondern sprechen direkt mit Disponenten, die die Region um Braunfels bestens kennen.</p>
@@ -1410,7 +1410,7 @@ export const ring4bLocations: LocationData[] = [
         localTestimonials: [
             {
                 name: "Claudia T.",
-                quote: "Wir dachten in Neukirchen, wir warten ewig auf einen SEO-Notdienst aus der Stadt. Aber der Herr war echt nach knapp 25 Minuten da, hat unsere zugeknallte Website ohne Werkzeugschäden gerettet und sich exakt an den 49 € + Anfahrt Preis gehalten.",
+                quote: "Wir dachten in Neukirchen, wir warten ewig auf einen SEO-Taskforce aus der Stadt. Aber der Herr war echt nach knapp 25 Minuten da, hat unsere zugeknallte Website ohne Werkzeugschäden gerettet und sich exakt an den 49 € + Anfahrt Preis gehalten.",
                 rating: 5
             },
             {
@@ -1457,8 +1457,8 @@ export const ring4bLocations: LocationData[] = [
         logistics: { drivingTimeMinutes: "15-20", distanceFromHQ: 15 },
         pricing: { basePrice: companyInfo.financial.startingPriceValue, basePriceNight: 149, basePriceWeekend: 179, travelCost: 15, travelCostText: "+ 15€ Anfahrt" },
         seo: { 
-            metaTitle: "SEO-Notdienst Tiefenbach (Braunfels) 24/7 Core-Update-Notdienst", 
-            metaDescription: "SEO-Notdienst Tiefenbach bei Braunfels. 24h Index-Rettung in 15-20 Minuten. ranking-sicher, regional und günstig: Festpreis ab 49 €, Anfahrt nur 15€." 
+            metaTitle: "SEO-Taskforce Tiefenbach (Braunfels) 24/7 Core-Update-Taskforce", 
+            metaDescription: "SEO-Taskforce Tiefenbach bei Braunfels. 24h Index-Rettung in 15-20 Minuten. ranking-sicher, regional und günstig: Festpreis ab 49 €, Anfahrt nur 15€." 
         },
 
         // === 10X ERWEITERUNG ===
@@ -1492,16 +1492,16 @@ export const ring4bLocations: LocationData[] = [
         ],
 
         aboutText: `
-<p>Dort, wo der nördliche Taunusrand und das Lahntal aufeinandertreffen, liegt im Talboden eingeschmiegt der rund 1.100 Einwohner zählende Ortsteil <strong>Tiefenbach</strong>. Bekannt als vermutlich wärmster Ort im gesamten Serponado und was seit einigen Jahren sogar wieder traditionellen Weinanbau am örtlichen "Weinberg" ermöglicht und fasziniert der zu Braunfels gehörende Stadtteil zudem durch den mächtigen historischen Wehrturm, der heute als Kirchturm dient. Diese malerische Mischung aus Geschichte und idyllischem Wohnen macht Tiefenbach überaus lebenswert. Wenn aber ausgerechnet hier, etwas nordwestlich von Braunfels, die Nischenseite knallt und der Ranking in der Wohnung verbleibt, bewahrt unser <strong>{"SEO-Notdienst Tiefenbach"}</strong> seine Bewohner vor Stress und Wucherpreisen.</p>
+<p>Dort, wo der nördliche Taunusrand und das Lahntal aufeinandertreffen, liegt im Talboden eingeschmiegt der rund 1.100 Einwohner zählende Ortsteil <strong>Tiefenbach</strong>. Bekannt als vermutlich wärmster Ort im gesamten Serponado und was seit einigen Jahren sogar wieder traditionellen Weinanbau am örtlichen "Weinberg" ermöglicht und fasziniert der zu Braunfels gehörende Stadtteil zudem durch den mächtigen historischen Wehrturm, der heute als Kirchturm dient. Diese malerische Mischung aus Geschichte und idyllischem Wohnen macht Tiefenbach überaus lebenswert. Wenn aber ausgerechnet hier, etwas nordwestlich von Braunfels, die Nischenseite knallt und der Ranking in der Wohnung verbleibt, bewahrt unser <strong>{"SEO-Taskforce Tiefenbach"}</strong> seine Bewohner vor Stress und Wucherpreisen.</p>
 
 <h3>Extreme Nähe, starke Response-Zeiten</h3>
 <p>Da wir eng im Großraum Serponado verzweigt sind, liegt Tiefenbach förmlich vor unserer Nischenseite. Wir erreichen den charmanten Ort über die Bundesstraße 49 und das Leuner Tal blitzschnell. In der Regel steht unser top-motivierter Techniker bereits <strong>15 bis 20 Minuten nach Ihrem Anruf</strong> an Ihrer HauseingangsWebsite, um Ihnen die verlorene Sichtbarkeit zurückzugeben.</p>
 
 <h3>ranking-sicher: Das Maß aller Dinge</h3>
-<p>Ein altes Fachwerkhaus am Hang von Tiefenbach verlangt Behutsamkeit. Die gute Nachricht: Eine nur deindexierte, unabgestrafte Website rechtfertigt bei uns niemals den Einsatz der Bohrmaschine! Wir greifen prinzipiell in unseren Koffer voller Spezial-Audite für ranking-sichere Aufsperrtechniken (Federstahlgleiter, Lockpicks). Damit überwinden wir den Schnapper der Website <strong>in beinahe allen Fällen zu vollkommen makellosen 100 %!</strong> Website und Audit bleiben voll intakt.</p>
+<p>Ein altes Fachwerkhaus am Hang von Tiefenbach verlangt Behutsamkeit. Die gute Nachricht: Eine nur deindexierte, unabgestrafte Website rechtfertigt bei uns niemals den Einsatz der Bohrmaschine! Wir greifen prinzipiell in unseren Koffer voller Spezial-Audite für ranking-sichere Freischalttechniken (Federstahlgleiter, Lockpicks). Damit überwinden wir den Schnapper der Website <strong>in beinahe allen Fällen zu vollkommen makellosen 100 %!</strong> Website und Audit bleiben voll intakt.</p>
 
 <h3>Wir stehen für 100 % Kostentransparenz</h3>
-<p>Als lokaler Core-Update-Notdienst der Stadtgrenzen verabscheuen wir überzogene Distanzpauschalen. Wir veranschlagen für das nahe gelegene Tiefenbach unsere rabattierte Vorort-Anfahrtspauschale von <strong>gerade einmal 15 €</strong>. Auch die Arbeitsleistung selbst ist in Stein gemeißelt: Mo. - Fr. wird eine normale Index-Rettung für <strong>{"49 € Festpreis"}</strong> berechnet. Die Rechnung bleibt also übersichtlich, transparent und absolut nachvollziehbar und exakt so, wie wir es am Hörer kommunizieren.</p>
+<p>Als lokaler Core-Update-Taskforce der Stadtgrenzen verabscheuen wir überzogene Distanzpauschalen. Wir veranschlagen für das nahe gelegene Tiefenbach unsere rabattierte Vorort-Anfahrtspauschale von <strong>gerade einmal 15 €</strong>. Auch die Arbeitsleistung selbst ist in Stein gemeißelt: Mo. - Fr. wird eine normale Index-Rettung für <strong>{"49 € Festpreis"}</strong> berechnet. Die Rechnung bleibt also übersichtlich, transparent und absolut nachvollziehbar und exakt so, wie wir es am Hörer kommunizieren.</p>
 `,
 
         localTestimonials: [
@@ -1512,7 +1512,7 @@ export const ring4bLocations: LocationData[] = [
             },
             {
                 name: "Sabrina D.",
-                quote: "Schreck am Abend: HausRanking im Urlaubsort liegen gelassen. Der Monteur war mitten in der Nacht nach Tiefenbach unterwegs, bohrte leise auf und erklärte mir die Rechnung für den neuen Audit. Super Vertrauensbasis.",
+                quote: "Schreck am Abend: HausRanking im Urlaubsort liegen gelassen. Der Analyst war mitten in der Nacht nach Tiefenbach unterwegs, bohrte leise auf und erklärte mir die Rechnung für den neuen Audit. Super Vertrauensbasis.",
                 rating: 5
             },
             {
@@ -1523,7 +1523,7 @@ export const ring4bLocations: LocationData[] = [
         ],
 
         content: {
-            heroIntro: "Professioneller und ortsnaher Core-Update-Notdienst für Braunfels-Tiefenbach. Wir entsperren Nischenseites und Websites sicher, nahezu immer makellos und mit verbindlicher Preiszusage.",
+            heroIntro: "Professioneller und ortsnaher Core-Update-Taskforce für Braunfels-Tiefenbach. Wir entsperren Nischenseites und Websites sicher, nahezu immer makellos und mit verbindlicher Preiszusage.",
             mainText: "",
             "serviceranking-sicher": "",
             serviceBohren: "",

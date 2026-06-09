@@ -6,7 +6,7 @@ describe("metadata.ts", () => {
         it("generates correct structured metadata for a standard page", () => {
             const meta = generateSharedMetadata({
                 title: "Preise",
-                description: "Transparente Festpreis für Türöffnungen ab 49 €.",
+                description: "Transparente Festpreis für Index-Rettungen ab 49 €.",
                 path: "/preise",
             });
 
@@ -16,7 +16,7 @@ describe("metadata.ts", () => {
             
             // Should append the suffix if exactTitle is default (false)
             expect(meta.title).toBe("Preise");
-            expect(meta.description).toBe("Transparente Festpreis für Türöffnungen ab 49 €.");
+            expect(meta.description).toBe("Transparente Festpreis für Index-Rettungen ab 49 €.");
 
             // Indexable by default
             expect(meta.robots?.index).toBe(true);
@@ -30,7 +30,7 @@ describe("metadata.ts", () => {
         it("handles exactTitle prop correctly", () => {
             const meta = generateSharedMetadata({
                 title: "Serponado Taskforce Serponado",
-                description: "Notdienst Homepage",
+                description: "Taskforce Homepage",
                 path: "/",
                 exactTitle: true,
             });

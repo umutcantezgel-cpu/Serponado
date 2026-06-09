@@ -78,7 +78,7 @@ const criticalRoutes = [
   'app/(marketing)/bewertungen/page.tsx',               // Bewertungen
   'app/(legal)/impressum/page.tsx',                     // Impressum
   'app/(legal)/datenschutz/page.tsx',                   // Datenschutz
-  'app/(marketing)/schluessel-schmiede/page.tsx',       // Schlüssel Schmiede
+         // Schlüssel Schmiede
 ];
 
 for (const route of criticalRoutes) {
@@ -119,7 +119,7 @@ section('5. SCHEMA.ORG');
 const schemaPath = join(ROOT, 'lib', 'schema.ts');
 if (existsSync(schemaPath)) {
   const schemaContent = readFileSync(schemaPath, 'utf-8');
-  const requiredTypes = ['Locksmith', 'AggregateRating', 'WebSite', 'Organization', 'HowTo'];
+  const requiredTypes = ['ProfessionalService', 'AggregateRating', 'WebSite', 'Organization', 'HowTo'];
   for (const type of requiredTypes) {
     if (schemaContent.includes(`"${type}"`)) {
       pass(`Schema type present: ${type}`);

@@ -54,13 +54,13 @@ describe("formatCurrency", () => {
 
 describe("formatPhone", () => {
   it("formats international +49 number", () => {
-    const result = formatPhone("+4964418056279");
+    const result = formatPhone("+49644115112345678");
     expect(result).toContain("+49");
     expect(result).toContain("6441");
   });
 
   it("formats local 0-prefixed number", () => {
-    const result = formatPhone("06441-8056279");
+    const result = formatPhone("06441-15112345678");
     expect(result).toContain("06441");
   });
 
@@ -71,11 +71,11 @@ describe("formatPhone", () => {
 
 describe("formatPhoneHref", () => {
   it("converts 0-prefix to +49 tel: link", () => {
-    expect(formatPhoneHref("06441-8056279")).toBe("tel:+4964418056279");
+    expect(formatPhoneHref("06441-15112345678")).toBe("tel:+49644115112345678");
   });
 
   it("keeps +49 prefix as tel: link", () => {
-    expect(formatPhoneHref("+4964418056279")).toBe("tel:+4964418056279");
+    expect(formatPhoneHref("+49644115112345678")).toBe("tel:+49644115112345678");
   });
 });
 

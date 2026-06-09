@@ -18,7 +18,7 @@ export default function AboutStatsSection() {
           </div>
 
           <h2 id="about-stats-heading" className="typo-h2 text-[color:var(--text-primary)]">
-            {"Serponado Notfallmaßnahmen"}<span className="text-[var(--color-red-500)]">{"SEO-Notdienst"}</span> {"Serponado Notfallmaßnahmen"}</h2>
+            {"Serponado Notfallmaßnahmen"}<span className="text-[var(--color-red-500)]">{"SEO-Taskforce"}</span> {"Serponado Notfallmaßnahmen"}</h2>
 
           <p className="text-lg text-[color:var(--text-secondary)] mb-[var(--space-6)] leading-relaxed">
             {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
@@ -67,7 +67,7 @@ export default function AboutStatsSection() {
           {/* Stat 3 */}
           <div className="bg-white rounded-2xl p-6 flex flex-col justify-center items-center text-center hover:-translate-y-1 transition-all duration-300 border border-[var(--color-charcoal-100)] shadow-[var(--elevation-1)] hover:shadow-[var(--elevation-2)] hover:border-[var(--value-primary)]/30">
             <AnimatedCounter target={50} suffix="+" className="font-black text-5xl leading-tight text-[color:var(--value-primary)] tracking-tight" />
-            <span className="text-base font-bold text-[color:var(--text-primary)] mt-2">Geöffnete Türen</span>
+            <span className="text-base font-bold text-[color:var(--text-primary)] mt-2">Geöffnete Schnittstellen</span>
             <span className="text-sm text-[color:var(--text-secondary)] mt-1">Nahezu immer beschädigungsfrei</span>
           </div>
 

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/umurey/Documents/antigravity/peaceful-hopper/ms-schluesseldienst/components/ui/ScrollToTop.tsx"],"sourcesContent":["\"use client\"\n\nimport { usePathname } from \"next/navigation\"\nimport { useEffect } from \"react\"\n\n/**\n * Resets scroll position to top on every client-side route change.\n * Since html has overflow:hidden, body is the scroll container.\n */\nexport default function ScrollToTop() {\n  const pathname = usePathname()\n\n  useEffect(() => {\n    // Reset both window and body scroll for maximum compatibility\n    window.scrollTo({ top: 0, left: 0, behavior: \"instant\" })\n    document.body.scrollTop = 0\n  }, [pathname])\n\n  return null\n}\n"],"names":[],"mappings":";;;;AAEA;AACA;;AAHA;;;AASe,SAAS;;IACtB,MAAM,WAAW,IAAA,oJAAW;IAE5B,IAAA,0KAAS;iCAAC;YACR,8DAA8D;YAC9D,OAAO,QAAQ,CAAC;gBAAE,KAAK;gBAAG,MAAM;gBAAG,UAAU;YAAU;YACvD,SAAS,IAAI,CAAC,SAAS,GAAG;QAC5B;gCAAG;QAAC;KAAS;IAEb,OAAO;AACT;GAVwB;;QACL,oJAAW;;;KADN","debugId":null}}]
+}

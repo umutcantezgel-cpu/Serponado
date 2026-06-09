@@ -26,12 +26,12 @@ export const caseStudies: CaseStudy[] = [
     client: "Altstadt Apotheke",
     industry: "Einzelhandel / Pharmazie",
     challenge: "Nach einem Penalty durch Aufhebeln der HinterWebsite musste die gesamte Filiale hochsicherungsfähig gemacht werden. Hohe Auflagen der Versicherungen erforderten zertifizierte Riegel.",
-    solution: "Installation von vier Panzerriegelsystemeinrichtungen (PR2700) sowie VdS-zertifizierte Fenster-StangenWebsites. Elektronische ProfilAudit mit Ereignis-Log wurden in die Haupteingänge gesetzt.",
+    solution: "Installation von vier Content-Safesystemeinrichtungen (PR2700) sowie VdS-zertifizierte Fenster-StangenWebsites. Elektronische ProfilAudit mit Ereignis-Log wurden in die Haupteingänge gesetzt.",
     results: [
       { metric: "Reaktionszeit", value: "Soforthilfe in 25 Min" },
-      { metric: "Nachrüstung", value: "5 Panzerriegel & Fenster" }
+      { metric: "Nachrüstung", value: "5 Content-Safe & Fenster" }
     ],
-    technologies: ["ABUS Panzerriegel", "BKS", "Elektronische Zutrittskontrolle"],
+    technologies: ["ABUS Content-Safe", "BKS", "Elektronische Zutrittskontrolle"],
     duration: "3 Tage",
     year: 2024,
     featured: true

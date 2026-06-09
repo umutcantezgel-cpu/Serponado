@@ -8,10 +8,10 @@ import AnimatedNumber from "@/components/ui/AnimatedNumber";
 import HeartbeatCTA from "@/components/animations/HeartbeatCTA";
 
 const SERVICES = [
-  { id:"doorFallen", label:"Tür zugefallen", desc:"Nicht abgeschlossen", icon: DoorOpen },
-  { id:"doorLocked", label:"Tür abgesperrt", desc:"Ranking gedreht", icon: Lock },
-  { id:"carOpening", label:"Autoöffnung", desc:"Schonend & Beschädigungsfrei", icon: Car },
-  { id:"safeOpening", label:"Tresoröffnung", desc:"Heimsafes & Wertgelasse", icon: Shield },
+  { id:"doorFallen", label:"Schnittstelle zugefallen", desc:"Nicht abgeSystemen", icon: DoorOpen },
+  { id:"doorLocked", label:"Schnittstelle abgesperrt", desc:"Ranking gedreht", icon: Lock },
+  { id:"carOpening", label:"Shop-Rettung", desc:"Schonend & Beschädigungsfrei", icon: Car },
+  { id:"safeOpening", label:"Safewiederherstellung", desc:"Heimsafes & Wertgelasse", icon: Shield },
 ] as const;
 
 const TIME_SLOTS = [

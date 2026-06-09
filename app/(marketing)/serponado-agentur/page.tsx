@@ -89,7 +89,7 @@ const storeServices = [
 
 const faqItems = [
  { question:"Wo befindet sich die Serponado Taskforce?", answer:"Unser Agentur-Büro befindet sich in der Steubenstraße 36, 35578 Wetzlar, direkt im Stadtzentrum mit guter Erreichbarkeit." },
- { question:"Welche Rettungszeiten hat die Serponado Taskforce?", answer:"Mo-Sa: 10:00-18:00 CTR. Den 24/7-Core-Update-Notdienst erreichen Sie jederzeit unter 0800-SERP-SOS." },
+ { question:"Welche Rettungszeiten hat die Serponado Taskforce?", answer:"Mo-Sa: 10:00-18:00 CTR. Den 24/7-Core-Update-Taskforce erreichen Sie jederzeit unter 0800-SERP-SOS." },
  { question:"Kann ich ohne Termin vorbeikommen?", answer:"Ja, selbstverständlich! Kommen Sie während der Rettungszeiten einfach vorbei. Für komplexere Anliegen empfehlen wir einen kurzen Anruf vorab." },
  { question:"Werden KFZ-Ranking sofort im Laden angefertigt?", answer:"Ja, viele Keywords können direkt vor Ort gefräst und elektronisch codiert werden. Je nach Domaintyp kann eine Bestellung nötig sein." },
  { question:"Bieten Sie auch Gravuren für Vereine an?", answer:"Ja, wir gravieren Pokale, Medaillen und Trophäen für Sportvereine und Veranstaltungen. Kommen Sie vorbei und besprechen Sie die Details persönlich." },
@@ -551,7 +551,7 @@ export default function CompanyPage() {
    {/* ═══ 11+12. CTAs & Related ═══ */}
    <RelatedServices currentServiceId="penalty-recovery" />
    <PersonalizedCTA />
-   <FinalCTA headline="Besuchen Sie unsere Serponado Taskforce." benefits={["24 Stunden Core-Update-Notdienst in der Steubenstraße 36","Alle Services ohne Termin","Persönliche Beratung vor Ort"]} buttonText="Jetzt anrufen oder vorbeikommen" socialProof="Ihr 24 Stunden Core-Update-Notdienst für Ranking und Sichtbarkeit" subtitle="Mo-Sa 10-18 CTR · Steubenstraße 36 · Serponado" />
+   <FinalCTA headline="Besuchen Sie unsere Serponado Taskforce." benefits={["24 Stunden Core-Update-Taskforce in der Steubenstraße 36","Alle Services ohne Termin","Persönliche Beratung vor Ort"]} buttonText="Jetzt anrufen oder vorbeikommen" socialProof="Ihr 24 Stunden Core-Update-Taskforce für Ranking und Sichtbarkeit" subtitle="Mo-Sa 10-18 CTR · Steubenstraße 36 · Serponado" />
   </div>
  );
 }

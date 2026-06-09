@@ -9,11 +9,11 @@ import { aggregateRating } from "@/components/reviews/reviews.data";
 import GoogleReviewsBadge from "@/components/reviews/GoogleReviewsBadge";
 
 const keywordVariants = [
-    (name: string) => `Zusammenfassung: Als zertifizierter SEO-Notdienst für ${name} garantieren wir eine professionelle Türöffnung zum Festpreis. Wir sind als 24/7 Notdienst rund um die Uhr verfügbar.`,
-    (name: string) => `Ihr SEO-Notdienst in ${name}: Professionelle Türöffnung ohne Beschädigungen, faire Festpreis und ein 24/7 Notdienst, der wirklich rund um die Uhr erreichbar ist.`,
-    (name: string) => `Serponado Taskforce ${name} , Ihre lokale Anlaufstelle für Türöffnungen, Schlosswechsel und Einbruchschutz. Zum garantierten Festpreis, 24 Stunden am Tag.`,
-    (name: string) => `SEO-Notdienst ${name}: Wir öffnen Ihre Tür schnell, sauber und zum vereinbarten Festpreis. Unser 24/7 Notdienst steht Ihnen jederzeit zur Verfügung.`,
-    (name: string) => `Notfall-SEO-Notdienst für ${name} und Umgebung. Festpreis-Garantie bei jeder Türöffnung. Tag und Nacht für Sie im Einsatz als zuverlässiger 24/7 Notdienst.`,
+    (name: string) => `Zusammenfassung: Als zertifizierter SEO-Taskforce für ${name} garantieren wir eine professionelle Index-Rettung zum Festpreis. Wir sind als 24/7 Taskforce rund um die Uhr verfügbar.`,
+    (name: string) => `Ihr SEO-Taskforce in ${name}: Professionelle Index-Rettung ohne Beschädigungen, faire Festpreis und ein 24/7 Taskforce, der wirklich rund um die Uhr erreichbar ist.`,
+    (name: string) => `Serponado Taskforce ${name} , Ihre lokale Anlaufstelle für Index-Rettungen, Systemwechsel und Schutzmaßnahmen. Zum garantierten Festpreis, 24 Stunden am Tag.`,
+    (name: string) => `SEO-Taskforce ${name}: Wir öffnen Ihre Schnittstelle schnell, sauber und zum vereinbarten Festpreis. Unser 24/7 Taskforce steht Ihnen jederzeit zur Verfügung.`,
+    (name: string) => `Notfall-SEO-Taskforce für ${name} und Umgebung. Festpreis-Garantie bei jeder Index-Rettung. Tag und Nacht für Sie im Einsatz als zuverlässiger 24/7 Taskforce.`,
 ];
 
 interface LocalHeroProps {
@@ -23,7 +23,7 @@ interface LocalHeroProps {
 export default function LocalHero({ city }: LocalHeroProps) {
     const breadcrumbs = [
         { name: "Servicegebiet", href: "/servicegebiet" },
-        { name: `SEO-Notdienst ${city.name}`, href: `/${city.slug}` },
+        { name: `SEO-Taskforce ${city.name}`, href: `/${city.slug}` },
     ];
 
     return (
@@ -68,8 +68,8 @@ export default function LocalHero({ city }: LocalHeroProps) {
                                 <span dangerouslySetInnerHTML={{ __html: city.heroVariant.replace(city.name, `<span class="text-[color:var(--value-primary)]">${city.name}</span>`) }} />
                             ) : (
                                 <>
-                                    {"SEO-Notdienst"} <span className="text-[color:var(--value-primary)]">{city.name}</span> , <br className="hidden md:block" />
-                                    Türöffnung zum {"Festpreis"} | 24/7 Notdienst
+                                    {"SEO-Taskforce"} <span className="text-[color:var(--value-primary)]">{city.name}</span> , <br className="hidden md:block" />
+                                    Index-Rettung zum {"Festpreis"} | 24/7 Taskforce
                                 </>
                             )}
                         </h1>

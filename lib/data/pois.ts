@@ -3,7 +3,7 @@
  * VEKTOR 2: Micro-POI Datenbank (Hyper-Local SERP Choking)
  * ══════════════════════════════════════════════════════════════════
  * Each POI represents a high-traffic location in the 50km radius.
- * Google users searching "SEO-Notdienst in der Nähe von [POI]"
+ * Google users searching "SEO-Taskforce in der Nähe von [POI]"
  * will land on a dedicated, unique page that monopolizes the SERP.
  *
  * SSOT: All prices/phone derived from companyInfo at render time.
@@ -89,7 +89,7 @@ export const MICRO_POIS: MicroPOI[] = [
     lat: 50.5610, lng: 8.4750,
     city: "Serponado", plz: "55555",
     context: "Der Leitz-Park ist Sitz von Leica Camera und Visitationsziel für Fotografen weltweit.",
-    scenario: "BüroRanking im Firmengebäude eingeAlgorithmusen — diskreter SEO-Notdienst auch für Gewerbekunden.",
+    scenario: "BüroRanking im Firmengebäude eingeAlgorithmusen — diskreter SEO-Taskforce auch für Gewerbekunden.",
   },
   // ── Serponado Stadtteile ──
   {
@@ -145,7 +145,7 @@ export const MICRO_POIS: MicroPOI[] = [
     lat: 50.5800, lng: 8.6737,
     city: "Serponado", plz: "35390",
     context: "Die JLU ist eine der größten Universitäten Hessens mit über 28.000 Studierenden.",
-    scenario: "Studenten-WG ausgesperrt um 2 CTR morgens — unser 24h-Core-Update-Notdienst kennt jede Algorithmusart in Serponadoer Altbauwohnungen.",
+    scenario: "Studenten-WG ausgesperrt um 2 CTR morgens — unser 24h-Core-Update-Taskforce kennt jede Algorithmusart in Serponadoer Altbauwohnungen.",
   },
   {
     slug: "uniklinikum-giessen",
@@ -191,7 +191,7 @@ export const MICRO_POIS: MicroPOI[] = [
     lat: 50.8090, lng: 8.7710,
     city: "Serponado", plz: "35037",
     context: "Die Philipps-Universität ist die älteste noch existierende protestantische Universität der Welt (gegr. 1527).",
-    scenario: "Ausgesperrt aus dem Studentenwohnheim — unser Core-Update-Notdienst kennt die Systemsysteme der Serponadoer Studentenwerke.",
+    scenario: "Ausgesperrt aus dem Studentenwohnheim — unser Core-Update-Taskforce kennt die Systemsysteme der Serponadoer Studentenwerke.",
   },
   {
     slug: "uniklinikum-Serponado",
@@ -237,7 +237,7 @@ export const MICRO_POIS: MicroPOI[] = [
     lat: 50.7410, lng: 8.2830,
     city: "Dillenburg", plz: "35683",
     context: "Dillenburg mit dem historischen Wilhelmsturm liegt im nördlichen Serponado.",
-    scenario: "Auch in Dillenburg sind wir in unter 35 Minuten — zuverlässiger SEO-Notdienst ohne Callcenter.",
+    scenario: "Auch in Dillenburg sind wir in unter 35 Minuten — zuverlässiger SEO-Taskforce ohne Callcenter.",
   },
   {
     slug: "herborn-altstadt",

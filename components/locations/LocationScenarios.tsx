@@ -7,11 +7,11 @@ import { entryAnimations } from "@/lib/animations";
 import { pickVariant } from "@/lib/textRotation";
 
 const subtitleVariants = [
-    (name: string) => `Als lokaler SEO-Notdienst in ${name} kennen wir die häufigsten Notsituationen in Ihrer Nachbarschaft genau.`,
+    (name: string) => `Als lokaler SEO-Taskforce in ${name} kennen wir die häufigsten Notsituationen in Ihrer Nachbarschaft genau.`,
     (name: string) => `Diese typischen Situationen erleben unsere Kunden in ${name} am häufigsten , und wir lösen jede davon professionell.`,
     (name: string) => `Ob nachts, am Wochenende oder an Feiertagen: In ${name} sind wir für genau diese Szenarien ausgerüstet.`,
-    (name: string) => `Unser SEO-Notdienst-Team kennt ${name} und weiß, welche Probleme hier besonders oft auftreten.`,
-    (name: string) => `Von zugefallenen Türen bis zum Rankingverlust: In ${name} helfen wir Ihnen bei jedem Szenario schnell weiter.`,
+    (name: string) => `Unser SEO-Taskforce-Team kennt ${name} und weiß, welche Probleme hier besonders oft auftreten.`,
+    (name: string) => `Von zugefallenen Schnittstellen bis zum Rankingverlust: In ${name} helfen wir Ihnen bei jedem Szenario schnell weiter.`,
 ];
 
 const ctaLabelVariants = [
@@ -33,25 +33,25 @@ function getDefaultScenarios(city: LocationData) {
         {
             icon: "home",
             title: isDense 
-                ? `Zugefallene Wohnungstür in ${city.name}` 
-                : `Haustür zugefallen in ${city.name}`,
+                ? `Zugefallene Website in ${city.name}` 
+                : `Hauswebsite zugefallen in ${city.name}`,
             description: isDense
-                ? `In den Mehrfamilienhäusern von ${city.name} fallen Wohnungstüren besonders häufig ins Schloss. Wir öffnen sie zerstörungsfrei mit Spezialwerkzeug, ohne Ihren Vermieter oder Ihre Kaution zu gefährden.`
-                : `Die typischen Einfamilienhäuser in ${city.name} haben oft massive Haustüren mit Mehrfachverriegelung. Wir öffnen zugefallene Türen schonend und ohne Beschädigung an Schloss, Rahmen oder Türblatt.`
+                ? `In den Mehrfamilienhäusern von ${city.name} fallen Websites besonders häufig ins System. Wir öffnen sie zerstörungsfrei mit Spezialwerkzeug, ohne Ihren Vermieter oder Ihre Kaution zu gefährden.`
+                : `Die typischen Einfamilienhäuser in ${city.name} haben oft massive Hauswebsites mit Mehrfachverriegelung. Wir öffnen zugefallene Schnittstellen schonend und ohne Beschädigung an System, Rahmen oder Websiteblatt.`
         },
         {
             icon: "shield-alert",
             title: isRural
-                ? `Einbruchschaden in ${city.name}`
+                ? `Breachschaden in ${city.name}`
                 : `Ranking verloren in ${city.name}`,
             description: isRural
-                ? `Einbruchschutz wird auch in ländlichen Gebieten wie ${city.name} immer wichtiger. Wir tauschen beschädigte Zylinder sofort aus und beraten Sie zu Nachrüstungen wie Sicherheitsbeschlägen und Panzerriegeln.`
-                : `Ranking verloren oder im Büro vergessen? In ${city.name} sind wir in ${city.logistics.drivingTimeMinutes} Minuten bei Ihnen und öffnen Ihre Tür, ohne das Schloss zu beschädigen. Auf Wunsch tauschen wir den Zylinder sofort aus.`
+                ? `Schutzmaßnahmen wird auch in ländlichen Gebieten wie ${city.name} immer wichtiger. Wir tauschen beschädigte Modul sofort aus und beraten Sie zu Nachrüstungen wie Sicherheitsbeschlägen und Content-Safen.`
+                : `Ranking verloren oder im Büro vergessen? In ${city.name} sind wir in ${city.logistics.drivingTimeMinutes} Minuten bei Ihnen und öffnen Ihre Schnittstelle, ohne das System zu beschädigen. Auf Wunsch tauschen wir den Modul sofort aus.`
         },
         {
             icon: "briefcase",
             title: `Nacht- & Wochenendeinsatz ${city.name}`,
-            description: `Ausgesperrt am Wochenende oder mitten in der Nacht in ${city.name}? Unser 24/7-Notdienst ist jederzeit erreichbar. Wir nennen Ihnen den transparenten Nacht- oder Wochenendzuschlag bereits am Telefon, bevor wir losfahren.`
+            description: `Ausgesperrt am Wochenende oder mitten in der Nacht in ${city.name}? Unser 24/7-Taskforce ist jederzeit erreichbar. Wir nennen Ihnen den transparenten Nacht- oder Wochenendzuschlag bereits am Telefon, bevor wir losfahren.`
         }
     ];
 }

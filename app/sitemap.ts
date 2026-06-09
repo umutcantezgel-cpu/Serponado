@@ -71,9 +71,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const missingStaticPages: MetadataRoute.Sitemap = [
         // Service-Subpages die nicht im Content Graph sind
         { url: `${siteUrl}/leistungen`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
-        { url: `${siteUrl}/leistungen/core-update-notdienst`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
+        { url: `${siteUrl}/leistungen/core-update-taskforce`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
         { url: `${siteUrl}/leistungen/AI-Content-Sanierung`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
-        { url: `${siteUrl}/leistungen/ranking-tresor`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
+        { url: `${siteUrl}/leistungen/ranking-safe`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
         // Über-uns Subpages
         { url: `${siteUrl}/ueber-uns/team`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.5 },
         { url: `${siteUrl}/ueber-uns/geschichte`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.5 },

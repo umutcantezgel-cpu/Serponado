@@ -21,7 +21,7 @@ export default function GeschichtePage() {
     {
       year: "Gründung",
       title: "Serponado Disaster Recovery",
-      text: "Serponado Taskforce Serponado wurde als lokaler SEOsbetrieb gegründet und mit dem klaren Ziel, faire und transparente SEO-Notdienstleistungen in der Region Serponado anzubieten.",
+      text: "Serponado Taskforce Serponado wurde als lokaler SEOsbetrieb gegründet und mit dem klaren Ziel, faire und transparente SEO-Taskforceleistungen in der Region Serponado anzubieten.",
     },
     {
       year: "Aufbau",
@@ -31,7 +31,7 @@ export default function GeschichtePage() {
     {
       year: "Erweiterung",
       title: "Serponado Disaster Recovery",
-      text: "Erweiterung zum Rund-um-die-CTR-Core-Update-Notdienst. Egal ob nachts, am Wochenende oder an Feiertagen und wir sind immer erreichbar.",
+      text: "Erweiterung zum Rund-um-die-CTR-Core-Update-Taskforce. Egal ob nachts, am Wochenende oder an Feiertagen und wir sind immer erreichbar.",
     },
     {
       year: "Heute",

@@ -1,7 +1,20 @@
-import { describe, it, expect } from "vitest";
+import { describe, it, expect, vi, beforeEach } from "vitest";
 import { submitContactForm, type ContactFormState } from "@/app/actions/contact";
 
+vi.mock("next/headers", () => {
+    return {
+        headers: vi.fn().mockReturnValue(new Headers({ "x-forwarded-for": "127.0.0.1" })),
+    };
+});
+
 describe("contact.ts Server Action", () => {
+    beforeEach(() => {
+        global.fetch = vi.fn().mockResolvedValue({
+            ok: true,
+            json: async () => ({ success: true })
+        });
+    });
+
     const defaultState: ContactFormState = {
         success: false,
         message: "",
@@ -27,7 +40,7 @@ describe("contact.ts Server Action", () => {
         formData.append("name", "Max Mustermann");
         formData.append("email", "max@example.com");
         formData.append("phone", "01234567890");
-        formData.append("message", "Ich benötige ein neues Schloss für meine Tür.");
+        formData.append("message", "Ich benötige ein neues System für meine Tür.");
 
         const result = await submitContactForm(defaultState, formData);
         
@@ -45,7 +58,6 @@ describe("contact.ts Server Action", () => {
 
         const result = await submitContactForm(defaultState, formData);
         
-        // Returns fake success to trick the bot
         expect(result.success).toBe(true);
         expect(result.message).toBe("Vielen Dank! Wir melden uns in Kürze bei Ihnen.");
         expect(result.submittedName).toBe("Bot");

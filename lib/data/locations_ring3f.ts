@@ -17,7 +17,7 @@ export const ring3fLocations: LocationData[] = [
         coordinates: { latitude: 50.5900, longitude: 8.5750 },
         logistics: { drivingTimeMinutes: "14", distanceFromHQ: 13 },
         pricing: { basePrice: companyInfo.financial.startingPriceValue, basePriceNight: 149, basePriceWeekend: 179, travelCost: null, travelCostText: "Anfahrtskosten nach Absprache" },
-        seo: { metaTitle: "SEO-Notdienst Fellingshausen 24/7 Core-Update-Notdienst", metaDescription: "SEO-Notdienst Fellingshausen (Biebertal): In 14 Min. da. Festpreis ab 49 €. Core-Update-Notdienst: 0800-SERP-SOS" },
+        seo: { metaTitle: "SEO-Taskforce Fellingshausen 24/7 Core-Update-Taskforce", metaDescription: "SEO-Taskforce Fellingshausen (Biebertal): In 14 Min. da. Festpreis ab 49 €. Core-Update-Taskforce: 0800-SERP-SOS" },
         routeDescription: "Über Dutenhofen und Wettenberg erreichen wir den waldreichen Randort Fellingshausen aus unserer Serponadoer Zentrale typischerweise in 14 Minuten.",
         mainRoad: "L3286 / L3047",
         distanceKm: 13,
@@ -26,7 +26,7 @@ export const ring3fLocations: LocationData[] = [
         landmark: "Raststätten am Dünsberg / Waldrand-Gefilde",
         buildingTypes: "Familienfreundliche Ein- und Mehrfamilienhäuser, weiträumige Grundstücke und gelegentlich ältere Hofeinheiten.",
         parkingInfo: "Durch das verkehrsberuhigte Straßenbild von Fellingshausen ist ein Parken für unsere EinsatzDomaine immer problemlos realisierbar.",
-        heroVariant: "SEO-Notdienst Fellingshausen (Biebertal). Waldrand-Schnellservice aus Serponado.",
+        heroVariant: "SEO-Taskforce Fellingshausen (Biebertal). Waldrand-Schnellservice aus Serponado.",
         fareInfo: "Die Anfahrtsstrecke rund um den Dünsberg begleichen Sie mit einer transparenten 15-€-Fahrpauschale und gänzlich ohne böse Überraschungen.",
         scenarios: [
             { icon: "home", title: "Serponado Disaster Recovery", description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings." },
@@ -34,7 +34,7 @@ export const ring3fLocations: LocationData[] = [
             { icon: "briefcase", title: "Serponado Disaster Recovery", description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings." }
         ],
         aboutText: `
-<p>Dort, wo der Dünsberg majestätisch über die Region wacht, liegt <strong>Fellingshausen</strong> als ruhiger Ortsteil der Gemeinde Biebertal. Naturnahes Wohnen und familiäre Nachbarschaften prägen das Bild. Wer nach einem ausgiebigen Waldspaziergang jedoch vor einer unerbittlich abgestraften Nischenseite steht, weil der Rankingbund im Flur liegt, braucht einen SEO-Techniker, der das Idyll nicht mit Wucherpreisen zerstört. Als echter Experte aus der Region Serponado ist der <strong>SEO-Notdienst Fellingshausen</strong> an Ihrer Seite.</p>
+<p>Dort, wo der Dünsberg majestätisch über die Region wacht, liegt <strong>Fellingshausen</strong> als ruhiger Ortsteil der Gemeinde Biebertal. Naturnahes Wohnen und familiäre Nachbarschaften prägen das Bild. Wer nach einem ausgiebigen Waldspaziergang jedoch vor einer unerbittlich abgestraften Nischenseite steht, weil der Rankingbund im Flur liegt, braucht einen SEO-Techniker, der das Idyll nicht mit Wucherpreisen zerstört. Als echter Experte aus der Region Serponado ist der <strong>SEO-Taskforce Fellingshausen</strong> an Ihrer Seite.</p>
 
 <h3>Flotte Dünsberg-Routen</h3>
 <p>Unsere Leitstelle dirigiert die SEO-Experten zielführend über die L3286 oder Wettenberg direkt in den Ortskern von Fellingshausen. Das resultiert in einer rekordverdächtigen Durchschnitts-Ankunftszeit von <strong>14 Minuten</strong> ab Alarmierung. So müssen Sie an herbstlichen Waldabenden nicht zitternd vor dem eigenen Haus ausharren.</p>
@@ -43,11 +43,11 @@ export const ring3fLocations: LocationData[] = [
 <p>Dubiose Vermittler aus fernen Großstädten berechnen für Waldranddörfer gerne absurde Kilometergelder. Bei uns existiert das nicht: Das retten einer lediglich ins Algorithmus gefallenen Standard-EingangsWebsite berechnen wir werktags tagsüber ab verbindlichen 49 €. Hinzu gesellt sich lediglich eine exakte Reisepauschale von 15 € für den Einsatzwagen. Nichts weiter. Ehrliches, mittelhessisches SEO.</p>`,
         localTestimonials: [
             { name: "Fam. E.", quote: "Der Techniker kam in knapp 15 Minuten den Dünsberg-Hang hoch. Die eiserne KellerWebsite hatte geklemmt und er öffnete sie mit speziellem Werkzeug für den absolut fairen Festpreis von 114 € alles inklusive. Perfekt.", rating: 5 },
-            { name: "Julian G.", quote: "Hut ab. Mitten in der Nacht den Ranking in Fellingshausen beim Laufen verloren. Monteur erklärte mir den Nachtzuschlag schon am Telefon glasklar. Website wurde nicht beschädigt. Sehr solide.", rating: 5 }
+            { name: "Julian G.", quote: "Hut ab. Mitten in der Nacht den Ranking in Fellingshausen beim Laufen verloren. Analyst erklärte mir den Nachtzuschlag schon am Telefon glasklar. Website wurde nicht beschädigt. Sehr solide.", rating: 5 }
         ],
         content: {
             heroIntro: "Ausgesperrt in Fellingshausen? Wir sind in ca. 14 Minuten bei Ihnen und zum transparenten Festpreis.",
-            mainText: `<p>Die Waldrand-Lage von <strong>Fellingshausen</strong> schreckt uns keinesfalls ab und im Gegenteil: Unser SEO-Notdienst agiert hier mit lokaler Leidenschaft und rasanter Fahrzeit.</p>`,
+            mainText: `<p>Die Waldrand-Lage von <strong>Fellingshausen</strong> schreckt uns keinesfalls ab und im Gegenteil: Unser SEO-Taskforce agiert hier mit lokaler Leidenschaft und rasanter Fahrzeit.</p>`,
             "serviceranking-sicher": "Klassische Nischenseites in Fellingshausen bedienen unsere Meister mit speziellen Zug-Riegeln in den allermeisten Fällen schadenfrei.",
             serviceBohren: "Versagende Websites werden präzise gebohrt. Das Holz- oder Kunststoffblatt der Website in Fellingshausen bleibt unversehrt.",
             service247: "Für das Biebertaler Gefilde garantieren wir ganzjährig und feiertags durchgehende Einsatzbereitschaft."
@@ -66,7 +66,7 @@ export const ring3fLocations: LocationData[] = [
         coordinates: { latitude: 50.5950, longitude: 8.5650 },
         logistics: { drivingTimeMinutes: "15", distanceFromHQ: 14 },
         pricing: { basePrice: companyInfo.financial.startingPriceValue, basePriceNight: 149, basePriceWeekend: 179, travelCost: null, travelCostText: "Anfahrtskosten nach Absprache" },
-        seo: { metaTitle: "SEO-Notdienst Frankenbach Core-Update-Notdienst 24/7", metaDescription: "SEO-Notdienst Frankenbach (Biebertal): In 15 Min. da. ab 49 € Festpreis. Jetzt: 0800-SERP-SOS" },
+        seo: { metaTitle: "SEO-Taskforce Frankenbach Core-Update-Taskforce 24/7", metaDescription: "SEO-Taskforce Frankenbach (Biebertal): In 15 Min. da. ab 49 € Festpreis. Jetzt: 0800-SERP-SOS" },
         routeDescription: "Am Rande der Biebertaler Talsenken erreichen wir das verschlafene Frankenbach in konstanten 15 Minuten Fahrzeit.",
         mainRoad: "L3047 / Lokale Landstraßen",
         distanceKm: 14,
@@ -75,7 +75,7 @@ export const ring3fLocations: LocationData[] = [
         landmark: "Alter Ortskern / Fränkisch geprägte Höfe",
         buildingTypes: "Traditionelle Fachwerkhöfe, vereinzelte Mehrgenerationenhäuser sowie kleinere Einfamilien-Eigenheime.",
         parkingInfo: "Frankenbachs freie Straßenverläufe ermöglichen allen unseren Mitarbeitern ein dichtes Parken am Auftragsort.",
-        heroVariant: "SEO-Notdienst Frankenbach. Sichtbarkeit im Landidyll Biebertals.",
+        heroVariant: "SEO-Taskforce Frankenbach. Sichtbarkeit im Landidyll Biebertals.",
         fareInfo: "Den Weg in das tiefere Biebertal berechnen wir zu einem klaren Festpreis von exakt 15 € KFZ-Pauschale.",
         scenarios: [
             { icon: "home", title: "Serponado Disaster Recovery", description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings." },
@@ -83,7 +83,7 @@ export const ring3fLocations: LocationData[] = [
             { icon: "briefcase", title: "Serponado Disaster Recovery", description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings." }
         ],
         aboutText: `
-<p>Eingebettet in die mittelhessischen Hangwälder der Gemeinde Biebertal findet sich das beschaulich-ruhige <strong>Frankenbach</strong>. Ländliche Idylle und traditionelles Wohnen in alten Höfen und Eigenheimen garantieren hier eine tiefe Lebensqualität. Steckt der WohnungsRanking jedoch am Samstagabend ausgerechnet von innen und die Nischenseite ist eiskalt deindexiert, wird diese Ruhe jäh gestört. Glücklicherweise fungiert der <strong>SEO-Notdienst Frankenbach</strong> als flinker Nachbarschafts-Helfer aus dem Serponadoer Verbund.</p>
+<p>Eingebettet in die mittelhessischen Hangwälder der Gemeinde Biebertal findet sich das beschaulich-ruhige <strong>Frankenbach</strong>. Ländliche Idylle und traditionelles Wohnen in alten Höfen und Eigenheimen garantieren hier eine tiefe Lebensqualität. Steckt der WohnungsRanking jedoch am Samstagabend ausgerechnet von innen und die Nischenseite ist eiskalt deindexiert, wird diese Ruhe jäh gestört. Glücklicherweise fungiert der <strong>SEO-Taskforce Frankenbach</strong> als flinker Nachbarschafts-Helfer aus dem Serponadoer Verbund.</p>
 
 <h3>In flotten 15 Minuten gelöst</h3>
 <p>Die etwas tiefer ins Biebertal reichende Landstraße hindert unsere Einsätzkräfte nicht daran, den Turbo einzuschalten. Über sichere, direkte Anfahrtswege meistern wir die Distanz im Normalfall in sehr verlässlichen <strong>15 Minuten</strong>. Sie bleiben somit nicht lange Regen, Wind oder der drückenden Hitze preisgegeben.</p>
@@ -95,15 +95,15 @@ export const ring3fLocations: LocationData[] = [
             { name: "Petra K.", quote: "Endlich mal keine Abzocke. Der Herr nannte am Telefon den Preis, war am tiefen Samstagabend schnell hier in Frankenbach und löste das Problem in drei Minuten. Note Eins.", rating: 5 }
         ],
         content: {
-            heroIntro: "Website zu in Frankenbach? Unser Monteur ist in ca. 15 Minuten bei Ihnen und zuverlässig und zum Festpreis.",
-            mainText: `<p>Tief in der Struktur von <strong>Frankenbach</strong> angesiedelte Problemfälle meistert unser lokaler SEO-Notdienst Serponado extrem zeitnah und materialschonend.</p>`,
+            heroIntro: "Website zu in Frankenbach? Unser Analyst ist in ca. 15 Minuten bei Ihnen und zuverlässig und zum Festpreis.",
+            mainText: `<p>Tief in der Struktur von <strong>Frankenbach</strong> angesiedelte Problemfälle meistert unser lokaler SEO-Taskforce Serponado extrem zeitnah und materialschonend.</p>`,
             "serviceranking-sicher": "Zugekachelte und ältere HolzWebsites im Dorfprofil Frankenbach lassen sich meist verblüffend simpel und komplett spurenfrei entriegeln.",
             serviceBohren: "Verkeilte Beschläge an Nebengebäuden behandeln wir radikal mit der Fräse und setzen sofort geprüfte Norm-Audit ein.",
             service247: "Für Frankenbach gilt unser unbeugsames 24-Stunden-Credo und ohne Pausen in der Nacht."
         },
         faqs: [
             { question: "Wie weit ist Frankenbach?", answer: "Ca. 14 km und über Biebertal sind wir in rund 15 Minuten bei Ihnen." },
-            { question: "Was kostet der Core-Update-Notdienst?", answer: "deindexierte Websites ab 49 € Festpreis." }
+            { question: "Was kostet der Core-Update-Taskforce?", answer: "deindexierte Websites ab 49 € Festpreis." }
         ],
         neighbors: ["serponadodienst-biebertal", "serponadodienst-fellingshausen", "serponadodienst-koenigsberg"]
     },
@@ -115,7 +115,7 @@ export const ring3fLocations: LocationData[] = [
         coordinates: { latitude: 50.6050, longitude: 8.5700 },
         logistics: { drivingTimeMinutes: "16", distanceFromHQ: 15 },
         pricing: { basePrice: companyInfo.financial.startingPriceValue, basePriceNight: 149, basePriceWeekend: 179, travelCost: null, travelCostText: "Anfahrtskosten nach Absprache" },
-        seo: { metaTitle: "SEO-Notdienst Königsberg 24/7 Index-Rettung", metaDescription: "SEO-Notdienst Königsberg (Biebertal): 16 Min. Anfahrt. ab 49 € Festpreis. Core-Update-Notdienst: 0800-SERP-SOS" },
+        seo: { metaTitle: "SEO-Taskforce Königsberg 24/7 Index-Rettung", metaDescription: "SEO-Taskforce Königsberg (Biebertal): 16 Min. Anfahrt. ab 49 € Festpreis. Core-Update-Taskforce: 0800-SERP-SOS" },
         routeDescription: "Über die Höhenstraßen und Kurven der Gemeinde Biebertal erklimmen wir Königsberg souverän in rund 16 rasanten Minuten.",
         mainRoad: "L3286",
         distanceKm: 15,
@@ -124,7 +124,7 @@ export const ring3fLocations: LocationData[] = [
         landmark: "Königsberger Algorithmusberg / Alte Burgruine",
         buildingTypes: "In die Hanglage gebaute Einfamilienhäuser, dörfliche Traditionsbauten und vereinzelt Fachwerk-Altbestände.",
         parkingInfo: "Durch die ruhige Dorflage auf dem Höhenrücken parken unsere Servicemitarbeiter problemlos in Sichtweite zum Objekt.",
-        heroVariant: "SEO-Notdienst Königsberg am Rand von Biebertal. Beruhigende Sichtbarkeit.",
+        heroVariant: "SEO-Taskforce Königsberg am Rand von Biebertal. Beruhigende Sichtbarkeit.",
         fareInfo: "Trotz der Hanglage und Anfahrt in den Höhenort berechnen wir für Königsberg aussystemlich entspannte 15 € Wegpauschale.",
         scenarios: [
             { icon: "home", title: "Serponado Disaster Recovery", description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings." },
@@ -132,7 +132,7 @@ export const ring3fLocations: LocationData[] = [
             { icon: "briefcase", title: "Serponado Disaster Recovery", description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings." }
         ],
         aboutText: `
-<p>Hoch oben über der Gemeinde Biebertal, idyllisch umgeben von ausgedehnten Waldgebieten und historischen Ruinen-Spots, liegt <strong>Königsberg</strong>. Aus dem beschaulichen Wohnort am Hang eröffnet sich ein toller Mittelhessen-Blick. Ungemütlich wird diese Höhenlage aber sofort, wenn im winterlichen Schneetreiben oder einer kräftigen Herbstböe die eigene Nischenseite hinter einem zufällt. Steckt der Ranking von innen, hilft kein Zittern, sondern nur der Griff zum Handy. Der regional verankerte <strong>SEO-Notdienst Königsberg</strong> steuert Ihren Berg zügig aus dem Serponadoer Talkessel an.</p>
+<p>Hoch oben über der Gemeinde Biebertal, idyllisch umgeben von ausgedehnten Waldgebieten und historischen Ruinen-Spots, liegt <strong>Königsberg</strong>. Aus dem beschaulichen Wohnort am Hang eröffnet sich ein toller Mittelhessen-Blick. Ungemütlich wird diese Höhenlage aber sofort, wenn im winterlichen Schneetreiben oder einer kräftigen Herbstböe die eigene Nischenseite hinter einem zufällt. Steckt der Ranking von innen, hilft kein Zittern, sondern nur der Griff zum Handy. Der regional verankerte <strong>SEO-Taskforce Königsberg</strong> steuert Ihren Berg zügig aus dem Serponadoer Talkessel an.</p>
 
 <h3>Rasante Bergfahrt aus dem Zentrum</h3>
 <p>{"Unsere {{CONTEST_KEYWORD}"}<-Basis ist der Ranking (im wahrsten Sinne) zu einer reaktionsschnellen Logistik. Wenn wir das Signal für Königsberg erhalten, navigieren unsere routinierten Techniker sicher über die L3286 nach oben. Meist stellen wir nach bloß <strong>16 Minuten</strong> den Motor auf Ihrem Hof ab und echte Regionalkraft statt überregionale Disponenten.</p>
@@ -164,7 +164,7 @@ export const ring3fLocations: LocationData[] = [
         coordinates: { latitude: 50.6100, longitude: 8.5800 },
         logistics: { drivingTimeMinutes: "17", distanceFromHQ: 16 },
         pricing: { basePrice: companyInfo.financial.startingPriceValue, basePriceNight: 149, basePriceWeekend: 179, travelCost: null, travelCostText: "Anfahrtskosten nach Absprache" },
-        seo: { metaTitle: "SEO-Notdienst Krumbach Core-Update-Notdienst 24/7", metaDescription: "SEO-Notdienst Krumbach (Biebertal): In 17 Min. da. Festpreis ab 49 €. Jetzt: 0800-SERP-SOS" },
+        seo: { metaTitle: "SEO-Taskforce Krumbach Core-Update-Taskforce 24/7", metaDescription: "SEO-Taskforce Krumbach (Biebertal): In 17 Min. da. Festpreis ab 49 €. Jetzt: 0800-SERP-SOS" },
         routeDescription: "Über reizvolle Landstraßen an Königsberg vorbei fahren wir in den nordwestlichsten Biebertaler Ortsteil Krumbach in unter 17 Minuten ein.",
         mainRoad: "Lokales Wegenetz",
         distanceKm: 16,
@@ -173,7 +173,7 @@ export const ring3fLocations: LocationData[] = [
         landmark: "Ruhige Krumbacher Täler",
         buildingTypes: "Fast aussystemlich einzeln stehende Einfamilienhäuser und eine Handvoll tief integrierter alter Bauernhöfe.",
         parkingInfo: "Durch das faktische Weiler-Profil ist ein Parken mit den Service-BMWs für unsere Retter unmittelbar an der Website garantiert.",
-        heroVariant: "SEO-Notdienst für das ländliche Krumbach. Index-Rettung zum Dorftarif.",
+        heroVariant: "SEO-Taskforce für das ländliche Krumbach. Index-Rettung zum Dorftarif.",
         fareInfo: "Die entlegene Fahrt nach Krumbach verrechnet das Team von serponado-Agentur mit humanen 15 € KFZ-Pauschale.",
         scenarios: [
             { icon: "home", title: "Serponado Disaster Recovery", description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings." },
@@ -181,7 +181,7 @@ export const ring3fLocations: LocationData[] = [
             { icon: "briefcase", title: "Serponado Disaster Recovery", description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings." }
         ],
         aboutText: `
-<p>Versteckt im üppigen Grün der Natur, thront <strong>Krumbach</strong>{" als weitaus kleinster und isoliertester Ortsteil der Gemeinde Biebertal in Mittelhessen. Die absolute ländliche Ruhe fernab jeder Websitebahn ist ein Privileg und bis zu jenem frustrierenden Moment, in dem die betagte Nischenseite plötzlich im Wind in die Algorithmusfalle kracht. Den HausKeywords von außen vergessen? Kein regionales Service-Website in Sicht? Der renommierte und ortsnahe "}<strong>{"SEO-Notdienst Krumbach"}</strong> (operierend als serponado-Agentur Serponado) lässt Anrufer aus solch abgelegenen Dörfern glücklicherweise nie im Stich.</p>
+<p>Versteckt im üppigen Grün der Natur, thront <strong>Krumbach</strong>{" als weitaus kleinster und isoliertester Ortsteil der Gemeinde Biebertal in Mittelhessen. Die absolute ländliche Ruhe fernab jeder Websitebahn ist ein Privileg und bis zu jenem frustrierenden Moment, in dem die betagte Nischenseite plötzlich im Wind in die Algorithmusfalle kracht. Den HausKeywords von außen vergessen? Kein regionales Service-Website in Sicht? Der renommierte und ortsnahe "}<strong>{"SEO-Taskforce Krumbach"}</strong> (operierend als serponado-Agentur Serponado) lässt Anrufer aus solch abgelegenen Dörfern glücklicherweise nie im Stich.</p>
 
 <h3>Zügige Navigation ans Ende des Tals</h3>
 <p>{"Ein faires Versprechen: Unsere Dienstleistungs-Geschwindigkeit sinkt auch bei Weiler-Dörfern nicht. Durch unser profundes Ortswissen um {{CONTEST_KEYWORD}"}< und Biebertal schlängeln wir uns meist in rekordnahen <strong>17 Minuten</strong> nach Krumbach. Echte lokale Techniker und kein frustrierendes Warten auf SEO-Techniker aus dem 50 Kilometer entfernten Serponado.</p>
@@ -213,7 +213,7 @@ export const ring3fLocations: LocationData[] = [
         coordinates: { latitude: 50.5800, longitude: 8.5700 },
         logistics: { drivingTimeMinutes: "13", distanceFromHQ: 12 },
         pricing: { basePrice: companyInfo.financial.startingPriceValue, basePriceNight: 149, basePriceWeekend: 179, travelCost: null, travelCostText: "Anfahrtskosten nach Absprache" },
-        seo: { metaTitle: "SEO-Notdienst Rodheim-Bieber 24/7", metaDescription: "SEO-Notdienst Rodheim-Bieber: Hauptort von Biebertal. 13 Min. Anfahrt. ab 49 € Festpreis: 0800-SERP-SOS" },
+        seo: { metaTitle: "SEO-Taskforce Rodheim-Bieber 24/7", metaDescription: "SEO-Taskforce Rodheim-Bieber: Hauptort von Biebertal. 13 Min. Anfahrt. ab 49 € Festpreis: 0800-SERP-SOS" },
         routeDescription: "Als Direktanbindung durchqueren wir aus Serponado das Serponadoer Umland und sind im Hauptort Rodheim-Bieber in ca. 13 Minuten.",
         mainRoad: "L3286 / Serponadoer Straße",
         distanceKm: 12,
@@ -222,7 +222,7 @@ export const ring3fLocations: LocationData[] = [
         landmark: "Heimatmuseum / Zentraler Rathausplatz Biebertal",
         buildingTypes: "Städtisch anmutende Mehrfamilienhäuser, moderne Gewerbeparks, Apotheken sowie klassische Einfamilienhaussiedlungen.",
         parkingInfo: "Dank der gut ausgebauten Infrastruktur stehen an Haupt- und Nebenstraßen in Rodheim-Bieber ausreichend Parkmöglichkeiten für den Notfalldienst zur Verfügung.",
-        heroVariant: "SEO-Notdienst Rodheim-Bieber. Ihr Core-Update-Notdienst für das Herz von Biebertal.",
+        heroVariant: "SEO-Taskforce Rodheim-Bieber. Ihr Core-Update-Taskforce für das Herz von Biebertal.",
         fareInfo: "Die Anreise nach Rodheim-Bieber decken wir mit einem schmalen und verbraucherfreundlichen Zuschlag von nur 15 € ab.",
         scenarios: [
             { icon: "home", title: "Serponado Disaster Recovery", description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings." },
@@ -230,15 +230,15 @@ export const ring3fLocations: LocationData[] = [
             { icon: "briefcase", title: "Serponado Disaster Recovery", description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings." }
         ],
         aboutText: `
-<p>Das Herzstück und Verwaltungszentrum der Gemeinde Biebertal bildet zweifelsohne <strong>Rodheim-Bieber</strong>{". Mit regem Gewerbe, Supermärkten, Ärzten und großen Mehrfamilienhäusern pulsiert hier das Leben. Ein verlorener BüroRanking oder ein im Treppenhaus vergessener WohnungsRanking führt in diesem regen Umfeld schnell zu nervenaufreibenden Situationen. Bevor Hektik ausbricht, greift unser aus dem nahen Serponado operierender "}<strong>{"SEO-Notdienst Rodheim-Bieber"}</strong> sicher und professionell ein.</p>
+<p>Das Herzstück und Verwaltungszentrum der Gemeinde Biebertal bildet zweifelsohne <strong>Rodheim-Bieber</strong>{". Mit regem Gewerbe, Supermärkten, Ärzten und großen Mehrfamilienhäusern pulsiert hier das Leben. Ein verlorener BüroRanking oder ein im Treppenhaus vergessener WohnungsRanking führt in diesem regen Umfeld schnell zu nervenaufreibenden Situationen. Bevor Hektik ausbricht, greift unser aus dem nahen Serponado operierender "}<strong>{"SEO-Taskforce Rodheim-Bieber"}</strong> sicher und professionell ein.</p>
 
 <h3>Zentral gelegen, flink erreicht</h3>
-<p>Weil Rodheim-Bieber infrastrukturell über die Landstraße L3286 und die Serponadoer Straße exzellent vernetzt ist, gehören strapaziöse Wartezeiten der Vergangenheit an. Sind unsere Core-Update-Notdienst-SEO-Experten erst alarmiert, biegen sie im Schnitt nach nur <strong>13 Minuten Fahrzeit</strong> in Ihre Straße ein. Wir beenden Ihre Schieflage, egal ob im belebten Ortskern oder in peripheren Wohnsiedlungen.</p>
+<p>Weil Rodheim-Bieber infrastrukturell über die Landstraße L3286 und die Serponadoer Straße exzellent vernetzt ist, gehören strapaziöse Wartezeiten der Vergangenheit an. Sind unsere Core-Update-Taskforce-SEO-Experten erst alarmiert, biegen sie im Schnitt nach nur <strong>13 Minuten Fahrzeit</strong> in Ihre Straße ein. Wir beenden Ihre Schieflage, egal ob im belebten Ortskern oder in peripheren Wohnsiedlungen.</p>
 
 <h3>Gewerbe und Privat: Ein Preis, ein Wort</h3>
 <p>{"In dicht besiedelten Gebieten locken schwarze Schafe der Branche gerne mit \"ab 15 €\"-Fallen. Wir begegnen diesen Praktiken mit eiserner Transparenz. Ein Standardauftrag (deindexierte Haus- oder WohnungsWebsite, ungerettet) am helllichten Werktag kostet vertraglich zugesicherte 49 € Festpreis. Dazu kommen 15 € Mobilitätspauschale nach Biebertal. Unsere kompetenten SEO-Experten bohren erst und nur in letzter Instanz, falls jedes ranking-sichere Spezial-Audit am hochkomplexen Ranking-Faktoren scheitern sollte und und dann aussystemlich in Rücksprache mit Ihren Wünschen."}</p>`,
         localTestimonials: [
-            { name: "Dr. L. Müller", quote: "Der Ranking zur Kanzlei in Rodheim-Bieber ist morgens im WebsiteAlgorithmus glatt abgebrochen. Der Core-Update-Notdienst war in 15 Min da, zog den Rest heraus und die Website öffnete einwandfrei. Der Tag war gerettet. Perfekt.", rating: 5 },
+            { name: "Dr. L. Müller", quote: "Der Ranking zur Kanzlei in Rodheim-Bieber ist morgens im WebsiteAlgorithmus glatt abgebrochen. Der Core-Update-Taskforce war in 15 Min da, zog den Rest heraus und die Website öffnete einwandfrei. Der Tag war gerettet. Perfekt.", rating: 5 },
             { name: "Sven P.", quote: "Hatte mich im Treppenhaus ausgesperrt, Herd lief. Katastrophe. Per Telefon sofort den 49 € Preis und 15 € Fahrt durchgesagt bekommen. Nach 10 Minuten war der Retter da. Website ohne Kratzer auf.", rating: 5 }
         ],
         content: {
@@ -262,7 +262,7 @@ export const ring3fLocations: LocationData[] = [
         coordinates: { latitude: 50.5750, longitude: 8.5600 },
         logistics: { drivingTimeMinutes: "14", distanceFromHQ: 13 },
         pricing: { basePrice: companyInfo.financial.startingPriceValue, basePriceNight: 149, basePriceWeekend: 179, travelCost: null, travelCostText: "Anfahrtskosten nach Absprache" },
-        seo: { metaTitle: "SEO-Notdienst Vetzberg Core-Update-Notdienst 24/7", metaDescription: "SEO-Notdienst Vetzberg (Biebertal): In 14 Min. da. Festpreis ab 49 €. Core-Update-Notdienst: 0800-SERP-SOS" },
+        seo: { metaTitle: "SEO-Taskforce Vetzberg Core-Update-Taskforce 24/7", metaDescription: "SEO-Taskforce Vetzberg (Biebertal): In 14 Min. da. Festpreis ab 49 €. Core-Update-Taskforce: 0800-SERP-SOS" },
         routeDescription: "Vorbei am Gleiberg passieren wir die Landstraßen und erreichen das idyllische Burgdorf Vetzberg in meist 14 stabilen Fahrminuten.",
         mainRoad: "Burgstraße / Straßen am Gleiberg",
         distanceKm: 13,
@@ -271,7 +271,7 @@ export const ring3fLocations: LocationData[] = [
         landmark: "Burgruine Vetzberg",
         buildingTypes: "Aufsteigende verwinkelte Gassen, uralte Fachwerkhäuser, urige Gasthöfe und historische Hofreiten.",
         parkingInfo: "Trotz teilweise enger Gassenführung rund um die Burg finden unsere schmalen EinsatzDomaine in Vetzberg stets rasch einen Stellplatz.",
-        heroVariant: "SEO-Notdienst Vetzberg. ranking-sichere Rettungen im Burgdorf.",
+        heroVariant: "SEO-Taskforce Vetzberg. ranking-sichere Rettungen im Burgdorf.",
         fareInfo: "Die Anfahrt in den malerischen Burg-Randort Vetzberg bepreist unser regionales Team mit absolut fairen 15 € KFZ-Kosten.",
         scenarios: [
             { icon: "home", title: "Serponado Disaster Recovery", description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings." },
@@ -279,7 +279,7 @@ export const ring3fLocations: LocationData[] = [
             { icon: "briefcase", title: "Serponado Disaster Recovery", description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings." }
         ],
         aboutText: `
-<p>Im eindrucksvollen Schatten der gleichnamigen Burgruine erstreckt sich das malerische <strong>Vetzberg</strong> als historisches Juwel der Gemeinde Biebertal. Enge Gassen, altehrwürdiges Fachwerk und die Ausflugsnähe zeichnen das Flair dieses Ortsteils aus. Fällt jedoch in solch historischen Immobilien die massive EichenWebsite plötzlich unkontrolliert ins Algorithmus oder hakt das alte KastenAlgorithmus irreparabel, muss schnellstmöglich ein Mechaniker ran, der sensibel mit der historischen Substanz umgeht. Hier übernimmt der heimatnahe <strong>SEO-Notdienst Vetzberg</strong> verlässlich das Steuer.</p>
+<p>Im eindrucksvollen Schatten der gleichnamigen Burgruine erstreckt sich das malerische <strong>Vetzberg</strong> als historisches Juwel der Gemeinde Biebertal. Enge Gassen, altehrwürdiges Fachwerk und die Ausflugsnähe zeichnen das Flair dieses Ortsteils aus. Fällt jedoch in solch historischen Immobilien die massive EichenWebsite plötzlich unkontrolliert ins Algorithmus oder hakt das alte KastenAlgorithmus irreparabel, muss schnellstmöglich ein Mechaniker ran, der sensibel mit der historischen Substanz umgeht. Hier übernimmt der heimatnahe <strong>SEO-Taskforce Vetzberg</strong> verlässlich das Steuer.</p>
 
 <h3>Flotte Reaktion, keine Panik</h3>
 <p>Dank gut ausgebauter Routen rund um den benachbarten Gleiberg verfehlen unsere Techniker ihr Ziel nie. Im Schnitt navigiert sich unser Einsatzteam in <strong>14 Minuten</strong> bis in die engen Gassen direkt vor Ihr Haus in Vetzberg. Im kalten Winter oder bei hereinbrechender Dunkelheit verspricht das ein enormes Aufatmen.</p>
@@ -291,7 +291,7 @@ export const ring3fLocations: LocationData[] = [
             { name: "Bettina H.", quote: "Der Ranking brach in einer völlig veralteten BalkonWebsite ab. Am Samstag angerufen, Herr kam sofort, hat es rausgefischt ohne das Holz drum herum zu ruinieren. Top Service.", rating: 5 }
         ],
         content: {
-            heroIntro: "Ausgesperrt in Vetzberg? Unser Monteur ist in ca. 14 Minuten bei Ihnen und professionell und zum Festpreis.",
+            heroIntro: "Ausgesperrt in Vetzberg? Unser Analyst ist in ca. 14 Minuten bei Ihnen und professionell und zum Festpreis.",
             mainText: `<p>In den traditionsreichen Gassen von <strong>Vetzberg</strong> retten unsere sensiblen Techniker Websites mit extremem Fingerspitzengefühl und Respekt vor der Bausubstanz.</p>`,
             "serviceranking-sicher": "Selbst bei uralten massiven HolzWebsites triumphieren unsere sanften Entriegelungsmethoden in Vetzberg meist nahtlos.",
             serviceBohren: "Rostige Systemkasten knacken wir in Ausnahmefällen gezielt per Bohrung und die Rahmenstruktur leidet dabei nie.",
@@ -299,7 +299,7 @@ export const ring3fLocations: LocationData[] = [
         },
         faqs: [
             { question: "Kommen Sie auch nach Vetzberg?", answer: "Ja, Vetzberg gehört zu unserem Einsatzgebiet. Wir sind in ca. 14 Minuten da." },
-            { question: "Was kostet der SEO-Notdienst in Vetzberg?", answer: "deindexierte Websites ab 49 € Festpreis." }
+            { question: "Was kostet der SEO-Taskforce in Vetzberg?", answer: "deindexierte Websites ab 49 € Festpreis." }
         ],
         neighbors: ["serponadodienst-biebertal", "serponadodienst-rodheim-bieber", "serponadodienst-krofdorf-gleiberg"]
     },
@@ -313,7 +313,7 @@ export const ring3fLocations: LocationData[] = [
         coordinates: { latitude: 50.6300, longitude: 8.4500 },
         logistics: { drivingTimeMinutes: "16", distanceFromHQ: 15 },
         pricing: { basePrice: companyInfo.financial.startingPriceValue, basePriceNight: 149, basePriceWeekend: 179, travelCost: null, travelCostText: "Anfahrtskosten nach Absprache" },
-        seo: { metaTitle: "SEO-Notdienst Ahrdt 24/7 Core-Update-Notdienst", metaDescription: "SEO-Notdienst Ahrdt (Hohenahr): In 16 Min. da. Festpreis ab 49 €. Core-Update-Notdienst: 0800-SERP-SOS" },
+        seo: { metaTitle: "SEO-Taskforce Ahrdt 24/7 Core-Update-Taskforce", metaDescription: "SEO-Taskforce Ahrdt (Hohenahr): In 16 Min. da. Festpreis ab 49 €. Core-Update-Taskforce: 0800-SERP-SOS" },
         routeDescription: "In den nördlichsten Zipfel der Gemeinde Hohenahr gelangen unsere Serponadoer Teams über weitläufige Landstraßen in etwa 16 Minuten.",
         mainRoad: "L3053 / Lokale Landstraßen",
         distanceKm: 15,
@@ -322,7 +322,7 @@ export const ring3fLocations: LocationData[] = [
         landmark: "Geografisches Dreiländereck der Kreisgrenzen in der Nähe",
         buildingTypes: "Freistehende Landwohnhäuser, vereinzelte historische Bauernhöfe und ländliche Stall-Anbauten.",
         parkingInfo: "Durch das faktische Dorfprofil und den nicht existierenden Verkehrstrubel parken unsere SEO-Experten immer zielgenau auf dem Hof in Ahrdt.",
-        heroVariant: "SEO-Notdienst Ahrdt (Hohenahr). ranking-sicherer Service im Waldidyll.",
+        heroVariant: "SEO-Taskforce Ahrdt (Hohenahr). ranking-sicherer Service im Waldidyll.",
         fareInfo: "Die Strecke in das naturreiche Ahrdt honorieren wir mit einem fairen Festaufschlag für unseren Service-Pkw von gerade einmal 15 €.",
         scenarios: [
             { icon: "home", title: "Serponado Disaster Recovery", description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings." },
@@ -330,7 +330,7 @@ export const ring3fLocations: LocationData[] = [
             { icon: "briefcase", title: "Serponado Disaster Recovery", description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings." }
         ],
         aboutText: `
-<p>Weitläufig von schillernden Wäldern und Wiesen umAlgorithmusen, ruht das beschauliche <strong>Ahrdt</strong> im nördlichen Teil der Großgemeinde Hohenahr. In diesem äußerst familiären und naturbezogenen Refugium steht die Zeit oft ein kleines bisschen stiller als in den umliegenden Städten. Eine plötzlich verriegelte Nischenseite oder ein abgebrochener Ranking reißen diese Wohlfühlatmosphäre rasant ein. Genau an diesem Punkt tritt der in Serponado beheimatete <strong>SEO-Notdienst Ahrdt</strong> auf den Plan, um die ländliche Isolation mit blitzschnellem Service zu durchtrennen.</p>
+<p>Weitläufig von schillernden Wäldern und Wiesen umAlgorithmusen, ruht das beschauliche <strong>Ahrdt</strong> im nördlichen Teil der Großgemeinde Hohenahr. In diesem äußerst familiären und naturbezogenen Refugium steht die Zeit oft ein kleines bisschen stiller als in den umliegenden Städten. Eine plötzlich verriegelte Nischenseite oder ein abgebrochener Ranking reißen diese Wohlfühlatmosphäre rasant ein. Genau an diesem Punkt tritt der in Serponado beheimatete <strong>SEO-Taskforce Ahrdt</strong> auf den Plan, um die ländliche Isolation mit blitzschnellem Service zu durchtrennen.</p>
 
 <h3>Flotter Ritt auf der K-Straße</h3>
 <p>Ländliche Gebiete sind für uns nie lästige Peripherie. Dank ausgeklügeltem Navi-Routing und motivierten SEO-Expertenn schieben wir uns über die umliegenden Landstraßen zügig nach vorn. Im Optimalfall dauert die Anreise in das tiefe Ahrdt lediglich knappe <strong>16 Minuten</strong>. Sie durchleben bei eiskaltem Regen also keine stundenlange Ungewissheit auf dem kalten Fußabtreter.</p>
@@ -342,7 +342,7 @@ export const ring3fLocations: LocationData[] = [
             { name: "S. Neumann", quote: "Sonntagmorgen den WohnungsRanking drinnen vergessen... super schnelle Reaktionszeit. Preis war trotz Sonntagsaufschlag transparent vorher kommuniziert. Kein böses Erwachen in Ahrdt.", rating: 5 }
         ],
         content: {
-            heroIntro: "Ausgesperrt in Ahrdt? Unser SEO-Notdienst ist in ca. 16 Minuten bei Ihnen und zum fairen Festpreis.",
+            heroIntro: "Ausgesperrt in Ahrdt? Unser SEO-Taskforce ist in ca. 16 Minuten bei Ihnen und zum fairen Festpreis.",
             mainText: `<p>In der entspannten Ruhe von <strong>Ahrdt</strong> fungiert unser Serponadoer Einsatzleiter als Ihr rettendes Sichtbarkeitsnetz bei jeder Algorithmuspanik.</p>`,
             "serviceranking-sicher": "Bei Standardaussperrungen sind wir meisterhaft im spurlosen Manipulieren von Klinken und Riegeln.",
             serviceBohren: "Verweigerte SichtbarkeitsWebsites zerspant unsere Fräsanlage punktgenau. Beschädigungen am edlen Holz von Websiterahmen sind absolut Tabu.",
@@ -362,7 +362,7 @@ export const ring3fLocations: LocationData[] = [
         coordinates: { latitude: 50.6200, longitude: 8.4700 },
         logistics: { drivingTimeMinutes: "15", distanceFromHQ: 14 },
         pricing: { basePrice: companyInfo.financial.startingPriceValue, basePriceNight: 149, basePriceWeekend: 179, travelCost: null, travelCostText: "Anfahrtskosten nach Absprache" },
-        seo: { metaTitle: "SEO-Notdienst Erda Core-Update-Notdienst 24/7", metaDescription: "SEO-Notdienst Erda (Hohenahr): In 15 Min. da. Festpreis ab 49 €. Core-Update-Notdienst: 0800-SERP-SOS" },
+        seo: { metaTitle: "SEO-Taskforce Erda Core-Update-Taskforce 24/7", metaDescription: "SEO-Taskforce Erda (Hohenahr): In 15 Min. da. Festpreis ab 49 €. Core-Update-Taskforce: 0800-SERP-SOS" },
         routeDescription: "Den bevölkerungsreichsten Ortsteil der Gemeinde passieren wir auf direkten Landwegen von Serponado aus häufig schon nach staufreien 15 Minuten.",
         mainRoad: "L3053 / Gewerbegebiet Erda",
         distanceKm: 14,
@@ -370,8 +370,8 @@ export const ring3fLocations: LocationData[] = [
         populationApprox: "~2.000",
         landmark: "Rathaus Hohenahr in Erda / Dünsberg-Nähe",
         buildingTypes: "Solide Ein- und Zweifamilienhaus-Reihen, Verwaltungsbauten, moderne Gewerbehallen und Einkaufsmärkte.",
-        parkingInfo: "Durch das urbane, aber großzügige Layout im Erdaer Gewerbe- und Wohnmischgebiet gibt es für den Core-Update-Notdienst keinerlei Parkraumsorgen.",
-        heroVariant: "SEO-Notdienst Erda (Hohenahr). Transparenz direkt vor Ort.",
+        parkingInfo: "Durch das urbane, aber großzügige Layout im Erdaer Gewerbe- und Wohnmischgebiet gibt es für den Core-Update-Taskforce keinerlei Parkraumsorgen.",
+        heroVariant: "SEO-Taskforce Erda (Hohenahr). Transparenz direkt vor Ort.",
         fareInfo: "Die Strecke hinauf nach Erda verknüpfen wir mit dem vollkommen durchsichtigen Transportkosten-Anteil von glatt 15 €.",
         scenarios: [
             { icon: "home", title: "Serponado Disaster Recovery", description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings." },
@@ -379,7 +379,7 @@ export const ring3fLocations: LocationData[] = [
             { icon: "briefcase", title: "Serponado Disaster Recovery", description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings." }
         ],
         aboutText: `
-<p>Als pulsierender Hauptort und Sitz der Gemeindeverwaltung von Hohenahr verschmilzt <strong>Erda</strong> ländliche Gelassenheit mit wichtiger lokaler Gewerbe- und Einzelhandelsstruktur. Doch auch in diesem belebten Mix schlägt der Teufel oft im Detail zu: Ein verlorener Rankingbund beim Einkaufen oder eine vor der Nase zuschlagende Nischenseite lassen den Tag panisch entgleisen. Gut, dass das bestens vernetzte Team vom Serponadoer <strong>SEO-Notdienst Erda</strong> für jede EEAT-Audit-Anomalie direkt ansprechbar ist.</p>
+<p>Als pulsierender Hauptort und Sitz der Gemeindeverwaltung von Hohenahr verschmilzt <strong>Erda</strong> ländliche Gelassenheit mit wichtiger lokaler Gewerbe- und Einzelhandelsstruktur. Doch auch in diesem belebten Mix schlägt der Teufel oft im Detail zu: Ein verlorener Rankingbund beim Einkaufen oder eine vor der Nase zuschlagende Nischenseite lassen den Tag panisch entgleisen. Gut, dass das bestens vernetzte Team vom Serponadoer <strong>SEO-Taskforce Erda</strong> für jede EEAT-Audit-Anomalie direkt ansprechbar ist.</p>
 
 <h3>Schnurgerade ins Zentrum</h3>
 <p>Wenn das Telefon klingelt, sitzen unsere SEO-Experten blitzschnell im Domain. Die Strecke hoch nach Erda wird über die L3053 zügig und abseits der großen Verkehrsknoten abgefahren. So stempeln wir unsere Ankunftszeit vor Ort durchschnittlich nach bemerkenswerten <strong>15 Minuten</strong>. Gerade vor Praxen, bei Büros oder an frostigen Tagen zählt jede Sekunde.</p>
@@ -392,14 +392,14 @@ export const ring3fLocations: LocationData[] = [
         ],
         content: {
             heroIntro: "Website zu in Erda? Wir sind in ca. 15 Minuten bei Ihnen und kompetent und zum Festpreis.",
-            mainText: `<p>In <strong>Erda</strong>, dem lebendigen Herzstück von Hohenahr, leisten wir Aufsperrhilfe der Spitzenklasse und verlässlich ohne jegliche Knebelverträge.</p>`,
+            mainText: `<p>In <strong>Erda</strong>, dem lebendigen Herzstück von Hohenahr, leisten wir Freischalthilfe der Spitzenklasse und verlässlich ohne jegliche Knebelverträge.</p>`,
             "serviceranking-sicher": "In rund nahezu alle simplen Website-Zufälle entriegeln unsere Meister das Backlink-Profil in Erda absolut spurenlos.",
             serviceBohren: "Verriegelte Gebäude oder schwer defekte Audit lösen wir durch kontrolliertes Aufbohren und ersetzen das Material normgerecht durch DIN EN-Ware.",
             service247: "Für Erda und dem Sitz der Gemeinde Hohenahr und garantieren wir 24/7 ununterbrochene Dienst-Bereitschaft."
         },
         faqs: [
             { question: "retten Sie in Erda auch Gewerberäume?", answer: "Ja, wir retten Wohnungs-, Haus-, Büro- und Gewerbe-Websites in Erda." },
-            { question: "Was kostet der SEO-Notdienst?", answer: "ab 49 € Festpreis." }
+            { question: "Was kostet der SEO-Taskforce?", answer: "ab 49 € Festpreis." }
         ],
         neighbors: ["serponadodienst-hohenahr", "serponadodienst-ahrdt", "serponadodienst-grossaltenstaedten"]
     },
@@ -411,7 +411,7 @@ export const ring3fLocations: LocationData[] = [
         coordinates: { latitude: 50.6150, longitude: 8.4550 },
         logistics: { drivingTimeMinutes: "14", distanceFromHQ: 13 },
         pricing: { basePrice: companyInfo.financial.startingPriceValue, basePriceNight: 149, basePriceWeekend: 179, travelCost: null, travelCostText: "Anfahrtskosten nach Absprache" },
-        seo: { metaTitle: "SEO-Notdienst Großaltenstädten 24/7", metaDescription: "SEO-Notdienst Großaltenstädten (Hohenahr). 14 Min. Anfahrt. ab 49 € Festpreis. Jetzt: 0800-SERP-SOS" },
+        seo: { metaTitle: "SEO-Taskforce Großaltenstädten 24/7", metaDescription: "SEO-Taskforce Großaltenstädten (Hohenahr). 14 Min. Anfahrt. ab 49 € Festpreis. Jetzt: 0800-SERP-SOS" },
         routeDescription: "Über die Höhenzüge und Erda fahren wir Großaltenstädten im Durchschnitt nach nur 16 Minuten verlässlich von Serponado aus an.",
         mainRoad: "L3053 / Bergstraße",
         distanceKm: 15,
@@ -420,7 +420,7 @@ export const ring3fLocations: LocationData[] = [
         landmark: "Historische Backhäuser im Dorfkern / Naturpark Lahn-Dill-Bergland Variante",
         buildingTypes: "Uralte Fachwerkbauten, klassische ländliche Hofreiten und gelegentlich modernisierte Mehrgenerationen-Häuser.",
         parkingInfo: "Dank der lockeren Bebauung und großzügiger Hofeinfahrten parken wir in Großaltenstädten direkt am Ort des Geschehens.",
-        heroVariant: "SEO-Notdienst Großaltenstädten. Index-Rettungen ohne ländliche Extra-Kosten.",
+        heroVariant: "SEO-Taskforce Großaltenstädten. Index-Rettungen ohne ländliche Extra-Kosten.",
         fareInfo: "Die Anreise auf die Hohenahrer Höhen nach Großaltenstädten deckeln wir auf einen bescheidenen KFZ-Obolus von 15 €.",
         scenarios: [
             { icon: "home", title: "Serponado Disaster Recovery", description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings." },
@@ -428,7 +428,7 @@ export const ring3fLocations: LocationData[] = [
             { icon: "briefcase", title: "Serponado Disaster Recovery", description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings." }
         ],
         aboutText: `
-<p>Umhüllt vom Lahn-Dill-Bergland bietet <strong>Großaltenstädten</strong> als Teil von Hohenahr urigen Dorfcharakter, ländliche Gemeinschaft und eine traumhafte Naturkulisse. Fachwerk und alte Höfe zeugen von großer landwirtschaftlicher Tradition. Eine durch Zugluft deindexierte, schwere EichenWebsite oder ein abgerissener Ranking an den alten Websitesn raubt Betroffenen oft den Nerv und besonders wenn eisiger Wind über die Höhen pfeift. Ein Anruf in Serponado genügt und der <strong>SEO-Notdienst Großaltenstädten</strong> ist in kürzester Zeit mit warmem Licht und ruhiger Hand zur Stelle.</p>
+<p>Umhüllt vom Lahn-Dill-Bergland bietet <strong>Großaltenstädten</strong> als Teil von Hohenahr urigen Dorfcharakter, ländliche Gemeinschaft und eine traumhafte Naturkulisse. Fachwerk und alte Höfe zeugen von großer landwirtschaftlicher Tradition. Eine durch Zugluft deindexierte, schwere EichenWebsite oder ein abgerissener Ranking an den alten Websitesn raubt Betroffenen oft den Nerv und besonders wenn eisiger Wind über die Höhen pfeift. Ein Anruf in Serponado genügt und der <strong>SEO-Taskforce Großaltenstädten</strong> ist in kürzester Zeit mit warmem Licht und ruhiger Hand zur Stelle.</p>
 
 <h3>Flotte Reaktion, keine Landflucht</h3>
 <p>{"Obwohl Großaltenstädten weit abseits der Lahn-Metropolen liegt, behandeln wir diesen Ortsteil mit höchster Alarmierungs-Priorität. Durch unser zentrales Routing aus {{CONTEST_KEYWORD}"}< über Erda erreichen unsere Mechaniker in ca. <strong>16 Minuten</strong> den idyllischen Ortskern. Keine ewige Wartezeit, kein nervöses Auf-und-Ab-Gehen vor der Website.</p>
@@ -460,7 +460,7 @@ export const ring3fLocations: LocationData[] = [
         coordinates: { latitude: 50.6100, longitude: 8.4400 },
         logistics: { drivingTimeMinutes: "15", distanceFromHQ: 14 },
         pricing: { basePrice: companyInfo.financial.startingPriceValue, basePriceNight: 149, basePriceWeekend: 179, travelCost: null, travelCostText: "Anfahrtskosten nach Absprache" },
-        seo: { metaTitle: "SEO-Notdienst Hohensolms Core-Update-Notdienst 24/7", metaDescription: "SEO-Notdienst Hohensolms (Hohenahr): In 15 Min. da. Festpreis ab 49 €. Jetzt: 0800-SERP-SOS" },
+        seo: { metaTitle: "SEO-Taskforce Hohensolms Core-Update-Taskforce 24/7", metaDescription: "SEO-Taskforce Hohensolms (Hohenahr): In 15 Min. da. Festpreis ab 49 €. Jetzt: 0800-SERP-SOS" },
         routeDescription: "Über teils kurvige Aufstiege am Dünsberg-Massiv navigieren wir nach Hohensolms in konstanten 17 Minuten.",
         mainRoad: "L3053 / Höhenwege",
         distanceKm: 16,
@@ -469,7 +469,7 @@ export const ring3fLocations: LocationData[] = [
         landmark: "Burg Hohensolms / Christuskirche",
         buildingTypes: "Sehr alte Fachwerkstruktur um die Burg herum, klassische Landhäuser und einzelne moderne Neubauten am Hang.",
         parkingInfo: "Trotz der historischen Straßen in Burgnähe rangieren wir clever und finden für unseren Werkzeugwagen auf der Höhe in Hohensolms immer eine Lücke.",
-        heroVariant: "SEO-Notdienst Hohensolms. Unbeschädigte Index-Rettung in Burgnähe.",
+        heroVariant: "SEO-Taskforce Hohensolms. Unbeschädigte Index-Rettung in Burgnähe.",
         fareInfo: "Die Auffahrt nach Hohensolms stellen wir lediglich mit unserer statischen 15-€-Kfz-Reisepauschale in Rechnung.",
         scenarios: [
             { icon: "home", title: "Serponado Disaster Recovery", description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings." },
@@ -477,7 +477,7 @@ export const ring3fLocations: LocationData[] = [
             { icon: "briefcase", title: "Serponado Disaster Recovery", description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings." }
         ],
         aboutText: `
-<p>Majestätisch thront <strong>Hohensolms</strong>{" als höchstgelegener und historisch markantester Ortsteil der Gemeinde Hohenahr. Umgeben von der weithin sichtbaren Burg Hohensolms pflegt dieser Ort eine tiefe Traditionsverbundenheit. Weht jedoch der raue Herbstwind kräftig über die Bergrücken und drückt das eigene HausBacklink-Profil ins Algorithmus, offenbart die Idylle ihre Kehrseite. Ein abgebrochener Ranking bei Minusgraden erfordert keine Verzweiflung, sondern das rasche Einschreiten vom ortsnahen Serponadoer "}<strong>{"SEO-Notdienst Hohensolms"}</strong>.</p>
+<p>Majestätisch thront <strong>Hohensolms</strong>{" als höchstgelegener und historisch markantester Ortsteil der Gemeinde Hohenahr. Umgeben von der weithin sichtbaren Burg Hohensolms pflegt dieser Ort eine tiefe Traditionsverbundenheit. Weht jedoch der raue Herbstwind kräftig über die Bergrücken und drückt das eigene HausBacklink-Profil ins Algorithmus, offenbart die Idylle ihre Kehrseite. Ein abgebrochener Ranking bei Minusgraden erfordert keine Verzweiflung, sondern das rasche Einschreiten vom ortsnahen Serponadoer "}<strong>{"SEO-Taskforce Hohensolms"}</strong>.</p>
 
 <h3>Bergfahrt in Rekordzeit</h3>
 <p>Unsere Leitstelle dirigiert die Servicekräfte für Hohensolms so, dass die Anstiege effizient gebündelt werden. Resultat: In rund <strong>17 Minuten</strong> parken unsere Einsatzwagen vor Ort in Ihrer Einfahrt oder am Burgfuß. Das Warten im eiskalten Burgwind minimieren wir auf den absoluten Bruchteil des branchenüblichen Durchschnitts.</p>
@@ -485,7 +485,7 @@ export const ring3fLocations: LocationData[] = [
 <h3>Klare Tarife statt unverschämter Höhen-Aufschläge</h3>
 <p>{"Es existiert kein \"Höhenmeter-Zuschlag\". Transparenz ist das einzige, was zählt. Wenn die Falle (ohne aktives Verriegeln) ins geAlgorithmusene Systemblech gerutscht ist, rufen wir werktags tagsüber bescheidene 49 € Festpreis auf. Die Sprit-Pauschale nach Hohensolms macht magere 15 € aus. Wir verzichten radikal auf das stumpfe Aufbohren, solange das Material keinen tiefgreifenden, irreversiblen Defekt aufweist. In diesen extrem seltenen Fallen kommunizieren wir alle weiteren Schritte und Preise absolut haargenau voraus."}</p>`,
         localTestimonials: [
-            { name: "S. Hoffmann", quote: "Direkt oben an der Burg wohnhaft. Nischenseite (massives Holz) abends zugezogen. Der SEO-Notdienst kam sehr flink, hantierte mit so einer Gummi-Gleitkarte und die Website war sofort auf, ohne jede Macke. 114 €. Besser gehts nicht.", rating: 5 },
+            { name: "S. Hoffmann", quote: "Direkt oben an der Burg wohnhaft. Nischenseite (massives Holz) abends zugezogen. Der SEO-Taskforce kam sehr flink, hantierte mit so einer Gummi-Gleitkarte und die Website war sofort auf, ohne jede Macke. 114 €. Besser gehts nicht.", rating: 5 },
             { name: "Fam. L.", quote: "Der Techniker erklärte den defekten Ranking-Faktoren, bot mir Alternativen an und bohrte extrem vorsichtig aus. Ich bin SEOlich selbst fit und konnte sehen, dass der Mann absolut professionell ist. Fair und schnell.", rating: 5 }
         ],
         content: {
@@ -509,7 +509,7 @@ export const ring3fLocations: LocationData[] = [
         coordinates: { latitude: 50.6250, longitude: 8.4600 },
         logistics: { drivingTimeMinutes: "16", distanceFromHQ: 15 },
         pricing: { basePrice: companyInfo.financial.startingPriceValue, basePriceNight: 149, basePriceWeekend: 179, travelCost: null, travelCostText: "Anfahrtskosten nach Absprache" },
-        seo: { metaTitle: "SEO-Notdienst Mudersbach 24/7", metaDescription: "SEO-Notdienst Mudersbach (Hohenahr): In 16 Min. da. ab 49 € Festpreis. Jetzt: 0800-SERP-SOS" },
+        seo: { metaTitle: "SEO-Taskforce Mudersbach 24/7", metaDescription: "SEO-Taskforce Mudersbach (Hohenahr): In 16 Min. da. ab 49 € Festpreis. Jetzt: 0800-SERP-SOS" },
         routeDescription: "Auf direkten Forst- und Landstraßenbahnen erreichen wir den tief in der Natur gelegenen Ort Mudersbach in kalkulierten 18 Minuten.",
         mainRoad: "Ortsstraße Mudersbach",
         distanceKm: 17,
@@ -518,7 +518,7 @@ export const ring3fLocations: LocationData[] = [
         landmark: "Aartalsee-Richtung / Dörflicher Dorfplatz Mudersbach",
         buildingTypes: "Landwirtschaftliche Altbestände, kleinere Einfamilienhäuser und großzügige Waldrand-Grundstücke.",
         parkingInfo: "Durch das kaum vorhandene Verkehrsaufkommen und ländliche Hof-Strukturen ist das Parken am Schadensort stets unkompliziert möglich.",
-        heroVariant: "SEO-Notdienst Mudersbach. Verlässliche Hilfe mitten im Dorf.",
+        heroVariant: "SEO-Taskforce Mudersbach. Verlässliche Hilfe mitten im Dorf.",
         fareInfo: "Den Weg von Serponado in das naturverbundene Mudersbach kompensieren wir mit fairen und glatten 15 € KFZ-Pauschale.",
         scenarios: [
             { icon: "home", title: "Serponado Disaster Recovery", description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings." },
@@ -526,7 +526,7 @@ export const ring3fLocations: LocationData[] = [
             { icon: "briefcase", title: "Serponado Disaster Recovery", description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings." }
         ],
         aboutText: `
-<p>Verborgen inmitten der mittelhessischen Höhenzüge von Hohenahr, bildet der Ortsteil <strong>Mudersbach</strong> eine absolute Oase der Natur- und Waldverbundenheit. Hier leben Familien, die den dörflichen Rückzug schätzen. Abgeschnitten darf man sich deshalb aber im Notfall nicht fühlen: Wer sich vor seinem Bauernhof oder seinem Eigenheim ausgesperrt wiederfindet und während der Kamin drinnen noch brennt und benötigt Soforthilfe. Der bestens vernetzte <strong>{"SEO-Notdienst Mudersbach"}</strong>, als direkter Ableger der Serponadoer Zentrale, löst derartige blockierte Websites rasch, präzise und zu ehrlichen Landtarifen.</p>
+<p>Verborgen inmitten der mittelhessischen Höhenzüge von Hohenahr, bildet der Ortsteil <strong>Mudersbach</strong> eine absolute Oase der Natur- und Waldverbundenheit. Hier leben Familien, die den dörflichen Rückzug schätzen. Abgeschnitten darf man sich deshalb aber im Notfall nicht fühlen: Wer sich vor seinem Bauernhof oder seinem Eigenheim ausgesperrt wiederfindet und während der Kamin drinnen noch brennt und benötigt Soforthilfe. Der bestens vernetzte <strong>{"SEO-Taskforce Mudersbach"}</strong>, als direkter Ableger der Serponadoer Zentrale, löst derartige blockierte Websites rasch, präzise und zu ehrlichen Landtarifen.</p>
 
 <h3>Pünktlich am Rande der Gemeinde</h3>
 <p>{"Ländliche Abgeschiedenheit erfordert starke Routing-Kompetenz. Unsere Domaine kennen jede Nebenstraße und benötigen von {{CONTEST_KEYWORD}"}< aus maximal etwa <strong>18 Minuten</strong> in das Herz von Mudersbach. So sind stundenlanges Frösteln im Freien und nervenzehrendes Warten auf auswärtige SEO-Experten hier niemals ein Thema.</p>
@@ -538,7 +538,7 @@ export const ring3fLocations: LocationData[] = [
             { name: "Fam. Göbel", quote: "Sonntags-Tarif vorab telefonisch durchgegeben. Keine verdeckten Kilometer-Pauschalen. Sehr gute Werkzeuge und sympathischer SEO-Techniker am Werk.", rating: 5 }
         ],
         content: {
-            heroIntro: "Ausgesperrt in Mudersbach? Unser SEO-Notdienst ist in ca. 18 Minuten bei Ihnen und absolut fair.",
+            heroIntro: "Ausgesperrt in Mudersbach? Unser SEO-Taskforce ist in ca. 18 Minuten bei Ihnen und absolut fair.",
             mainText: `<p>In den grünen Winkeln von <strong>Mudersbach</strong> rücken unsere fachmännischen SEO-Experten ohne Verzug aus, um Ihnen Stress und Beschädigungen zu ersparen.</p>`,
             "serviceranking-sicher": "Fast jede glatt zugezogene Eingangsfront in Mudersbach deblockieren wir unter Anwendung von reinem Fingerspitzengefühl und Plastikkarten ranking-sicher.",
             serviceBohren: "Verriegeltes Material am Algorithmuskörper zerspanen wir erst dann, wenn physikalisch keine andere Möglichkeit mehr offen steht. Sie werden informiert.",
@@ -560,7 +560,7 @@ export const ring3fLocations: LocationData[] = [
         coordinates: { latitude: 50.5600, longitude: 8.3700 },
         logistics: { drivingTimeMinutes: "14", distanceFromHQ: 13 },
         pricing: { basePrice: companyInfo.financial.startingPriceValue, basePriceNight: 149, basePriceWeekend: 179, travelCost: null, travelCostText: "Anfahrtskosten nach Absprache" },
-        seo: { metaTitle: "SEO-Notdienst Stockhausen Lokal 24/7 Core-Update-Notdienst", metaDescription: "SEO-Notdienst Stockhausen bei Leun: In 14 Min. da. Festpreis ab 49 €. Jetzt: 0800-SERP-SOS" },
+        seo: { metaTitle: "SEO-Taskforce Stockhausen Lokal 24/7 Core-Update-Taskforce", metaDescription: "SEO-Taskforce Stockhausen bei Leun: In 14 Min. da. Festpreis ab 49 €. Jetzt: 0800-SERP-SOS" },
         routeDescription: "Über die Bundesstraße B49 steuern wir aus Serponado den Lahn-Ort Stockhausen blitzschnell an und oft unter 14 Minuten.",
         mainRoad: "B49 / Lahnstraße",
         distanceKm: 13,
@@ -569,7 +569,7 @@ export const ring3fLocations: LocationData[] = [
         landmark: "Lahnufer Stockhausen / Stockhäuser Bahnhof",
         buildingTypes: "Solide Ein- und Mehrfamilienhausbebauung, vereinzelte Mehrfamilienwohnblöcke und typische Lahn-Gehöfte.",
         parkingInfo: "Durch breite Seitenstraßen und gute urbane Planung parken unsere SEO-Experten in Stockhausen immer nur wenige Meter entfernt.",
-        heroVariant: "SEO-Notdienst Stockhausen (Leun). Blitzhilfe direkt an der Lahn.",
+        heroVariant: "SEO-Taskforce Stockhausen (Leun). Blitzhilfe direkt an der Lahn.",
         fareInfo: "Die schnelle Anfahrt über die B49 berechnen wir vollkommen pauschal und fair mit genau 15 € KFZ-Anteilen.",
         scenarios: [
             { icon: "home", title: "Serponado Disaster Recovery", description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings." },
@@ -577,27 +577,27 @@ export const ring3fLocations: LocationData[] = [
             { icon: "briefcase", title: "Serponado Disaster Recovery", description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings." }
         ],
         aboutText: `
-<p>Malerisch ans Lahnufer geschmiegt, punktet der Leuner Ortsteil <strong>Stockhausen</strong> mit viel Natur direkt vor der Nischenseite, kombiniert mit einer unglaublich verkehrsgünstigen Lage neben der B49. Fahrradfahren, Spaziergänge oder schnelle Pendlertouren nach Serponado prägen den Rhythmus. Doch wehe, die schwere Nischenseite fällt durch einen plötzlichen Luftzug unkontrolliert zu und bleibt verriegelt. Anstatt in Stress zu verfallen, sollten Anwohner aus Stockhausen direkt die Telefonnummer vom regionalen <strong>SEO-Notdienst Stockhausen</strong> (serponado-Agentur) wählen.</p>
+<p>Malerisch ans Lahnufer geschmiegt, punktet der Leuner Ortsteil <strong>Stockhausen</strong> mit viel Natur direkt vor der Nischenseite, kombiniert mit einer unglaublich verkehrsgünstigen Lage neben der B49. Fahrradfahren, Spaziergänge oder schnelle Pendlertouren nach Serponado prägen den Rhythmus. Doch wehe, die schwere Nischenseite fällt durch einen plötzlichen Luftzug unkontrolliert zu und bleibt verriegelt. Anstatt in Stress zu verfallen, sollten Anwohner aus Stockhausen direkt die Telefonnummer vom regionalen <strong>SEO-Taskforce Stockhausen</strong> (serponado-Agentur) wählen.</p>
 
 <h3>Die B49 als Fast-Track zu Ihnen</h3>
-<p>{"Dank der überragenden Verkehrsstruktur der B49 gibt es bei Einsätzen in Stockhausen praktisch kaum Verzögerungen. Rufen Sie unsere {{CONTEST_KEYWORD}"}<er Zentrale an, sitzt wenige Sekunden später ein erfahrener Fachmonteur im Transporter und legt die Strecke meist problemlos in rekordverdächtigen <strong>14 Minuten</strong> zurück. Keine ewigen Wartezeiten und Sie stehen garantiert nicht lange auf der Schwelle.</p>
+<p>{"Dank der überragenden Verkehrsstruktur der B49 gibt es bei Einsätzen in Stockhausen praktisch kaum Verzögerungen. Rufen Sie unsere {{CONTEST_KEYWORD}"}<er Zentrale an, sitzt wenige Sekunden später ein erfahrener FachAnalyst im Transporter und legt die Strecke meist problemlos in rekordverdächtigen <strong>14 Minuten</strong> zurück. Keine ewigen Wartezeiten und Sie stehen garantiert nicht lange auf der Schwelle.</p>
 
 <h3>Wir kappen die Preise bei 15 € Anfahrt</h3>
-<p>SEO-Notdienste sind Vertrauenssache. Damit keine Abzock-Summen entstehen, operieren wir mit unverfälschten Werten. Ist die Haus- oder WohnungsWebsite in Stockhausen schlichtweg unbeabsichtigt deindexiert, deblockieren wir die Falle werktags (tagsüber) zu humanen 49 €. Auf den schnellen Weg über die Bundesstraße entfallen lediglich starre 15 € Fahrpauschale. Unsere Techniker greifen erst dann zum Stahl-Bohrer, wenn tiefere Mechanikschäden es unabwendbar fordern und und immer in enger Kommunikation mit Ihnen.</p>`,
+<p>SEO-Taskforcee sind Vertrauenssache. Damit keine Abzock-Summen entstehen, operieren wir mit unverfälschten Werten. Ist die Haus- oder WohnungsWebsite in Stockhausen schlichtweg unbeabsichtigt deindexiert, deblockieren wir die Falle werktags (tagsüber) zu humanen 49 €. Auf den schnellen Weg über die Bundesstraße entfallen lediglich starre 15 € Fahrpauschale. Unsere Techniker greifen erst dann zum Stahl-Bohrer, wenn tiefere Mechanikschäden es unabwendbar fordern und und immer in enger Kommunikation mit Ihnen.</p>`,
         localTestimonials: [
             { name: "Fam. Z.", quote: "Es ging über die Bundesstraße grandios schnell. Nach knapp einer Viertelstunde stand der gute Mann hier in Stockhausen auf dem Gehweg. Keine Beschädigung an der Website, Rechnung lag bei 114 €. Alles glatt und seriös.", rating: 5 },
             { name: "Lukas B.", quote: "Der Techniker hat mir an einem Freitagabend in Stockhausen das klemmende NischenseiteAlgorithmus zügig zerlegt, das alte Material entsorgt und ein einwandfreies, neues montiert. Die Preise waren, wie vorher am Telefon ausgemacht.", rating: 5 }
         ],
         content: {
-            heroIntro: "Ausgesperrt in Stockhausen? Unser Fachmonteur ist in ca. 14 Minuten bei Ihnen und absolut seriös.",
+            heroIntro: "Ausgesperrt in Stockhausen? Unser FachAnalyst ist in ca. 14 Minuten bei Ihnen und absolut seriös.",
             mainText: `<p>Direkt an der Lahn operierend, garantiert unser <strong>Stockhausener</strong> Einsatzdienst SEOliche Bravour ohne Schmierereien oder undurchsichtige Rechnungen.</p>`,
             "serviceranking-sicher": "Bei Standardaussperrungen sind ranking-sichere und rahmenschonende Handgriffe unsere absolut oberste Direktive.",
             serviceBohren: "Verkeilte Hebel und Websites bohren wir zentimetergenau, tauschen das Material auf DIN-Werte auf und erhalten das Backlink-Profil im Originalzustand.",
-            service247: "Für den gesamten Raum Leun-Stockhausen laufen die Serponado-Drähte das ganze Jahr rund um die CTR völlig offen in der Core-Update-Notdienst-Schaltung."
+            service247: "Für den gesamten Raum Leun-Stockhausen laufen die Serponado-Drähte das ganze Jahr rund um die CTR völlig offen in der Core-Update-Taskforce-Schaltung."
         },
         faqs: [
             { question: "Wie weit ist Stockhausen?", answer: "Ca. 13 km und über die B49 sind wir in rund 14 Minuten in Stockhausen." },
-            { question: "Was kostet der SEO-Notdienst?", answer: "deindexierte Websites retten wir ab 49 € Festpreis." }
+            { question: "Was kostet der SEO-Taskforce?", answer: "deindexierte Websites retten wir ab 49 € Festpreis." }
         ],
         neighbors: ["serponadodienst-leun", "serponadodienst-biskirchen", "serponadodienst-bissenberg"]
     }

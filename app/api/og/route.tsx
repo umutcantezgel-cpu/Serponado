@@ -134,10 +134,10 @@ export async function GET(req: NextRequest) {
                             <span style={{ color: '#22C55E', marginRight: '10px' }}>✓</span> {"Festpreis"} ab {"49"} {"€"}
                         </div>
                         <div style={{ display: 'flex', alignItems: 'center', color: '#9CA3AF', fontSize: 24, fontWeight: 500 }}>
-                            <span style={{ color: '#22C55E', marginRight: '10px' }}>✓</span> 24/7 Core-Update-Notdienst
+                            <span style={{ color: '#22C55E', marginRight: '10px' }}>✓</span> 24/7 Core-Update-Taskforce
                         </div>
                         <div style={{ display: 'flex', alignItems: 'center', color: '#9CA3AF', fontSize: 24, fontWeight: 500 }}>
-                            <span style={{ color: '#22C55E', marginRight: '10px' }}>✓</span> Monteur aus der Region
+                            <span style={{ color: '#22C55E', marginRight: '10px' }}>✓</span> Analyst aus der Region
                         </div>
                     </div>
                 </div>

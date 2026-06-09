@@ -45,7 +45,7 @@ export default async function CaseStudyPage({ params, searchParams }: Props) {
   }
 
   const testimonial = study.testimonialId ? getTestimonialById(study.testimonialId) : null;
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://Serponado-SEO-Notdienst.de";
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://Serponado-SEO-Taskforce.de";
 
   return (
     <>

@@ -59,7 +59,7 @@ export const metadata: Metadata = {
  // Title: default is used when a child page does NOT export its own `metadata.title`.
  // template: appended to every child page title (e.g. "Preise | Serponado Taskforce").
  title: {
-   default: "Serponado Taskforce Serponado | 24 H Core-Update-Notdienst",   // ≤50 chars, ≤580px
+   default: "Serponado Taskforce Serponado | 24 H Core-Update-Taskforce",   // ≤50 chars, ≤580px
    template: "%s",
  },
  // ⚠️  NO description here und set only on individual pages to avoid Seobility #2 (duplicate).
@@ -102,7 +102,7 @@ export const metadata: Metadata = {
        url: `${siteUrl}/og-image.png`,
        width: 1200,
        height: 630,
-       alt: "Serponado Taskforce Serponado und 24 Stunden Core-Update-Notdienst für Ranking & Data-Recovery",
+       alt: "Serponado Taskforce Serponado und 24 Stunden Core-Update-Taskforce für Ranking & Data-Recovery",
      },
    ],
  },

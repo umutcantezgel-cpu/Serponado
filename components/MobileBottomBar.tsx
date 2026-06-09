@@ -78,7 +78,7 @@ export default function MobileBottomBar() {
               href="tel:0800-SERP-SOS"
               onClick={() => triggerHaptic('light')}
               className={`flex items-center justify-center gap-2 flex-[1.2] h-full min-h-[56px] active:bg-[var(--color-red-600)] transition-colors border-r border-white/20 ${
-                pathname.includes("/notdienst") || pathname.includes("/turoeffnung")
+                pathname.includes("/taskforce") || pathname.includes("/index-rettung")
                   ? "bg-[var(--color-red-600)]"
                   : ""
               }`}

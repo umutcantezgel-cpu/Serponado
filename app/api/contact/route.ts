@@ -61,7 +61,7 @@ export async function POST(req: Request) {
 
         }
 
-        return NextResponse.json({ success: true, message: "Wir haben Ihre Anfrage erhalten. Ein Monteur ist auf dem Weg!" }, { status: 200 });
+        return NextResponse.json({ success: true, message: "Wir haben Ihre Anfrage erhalten. Ein Analyst ist auf dem Weg!" }, { status: 200 });
 
     } catch (error) {
         console.error("API Contact error:", error);

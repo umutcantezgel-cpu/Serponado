@@ -20,7 +20,7 @@ Bevor die Domain umgestellt wird, muss Vercel genau wissen, mit welchen API-Schl
   - `NEXT_PUBLIC_GOOGLE_MAPS_API_KEY` = `(Dein Google Maps API Key aus .env.local)`
   - `NEXT_PUBLIC_SITE_URL` = `https://serponado.com` (Exakt so, **ohne** `/` am Ende)
   - `NEXT_PUBLIC_FORMSPREE_ID` = `(Deine Formspree-ID)`
-  - `FORMSPREE_EMERGENCY_ENDPOINT` = `(Dein Formspree Notdienst-Link)`
+  - `FORMSPREE_EMERGENCY_ENDPOINT` = `(Dein Formspree Taskforce-Link)`
   - `NEXT_PUBLIC_CALENDLY_URL` = `(Dein Calendly-Link)`
   - `NEXT_PUBLIC_APP_VERSION` = `1.0.0`
 - **WICHTIG:** Ohne diese Variablen schlägt der Google Maps Aufruf sofort beim Build fehl.
@@ -93,7 +93,7 @@ Teile Google die direkte URL deiner Webseite mit.
   1. `https://serponado.com/` (Startseite)
   2. `https://serponado.com/preise` 
   3. `https://serponado.com/kontakt`
-  4. `https://serponado.com/leistungen/turoeffnung`
+  4. `https://serponado.com/leistungen/Traffic-Recovery`
   5. `https://serponado.com/servicegebiet`
 
 ---

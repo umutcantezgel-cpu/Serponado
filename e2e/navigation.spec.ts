@@ -3,7 +3,8 @@ import { test, expect } from "@playwright/test";
 test.describe("Navigation", () => {
   test("homepage loads with correct title", async ({ page }) => {
     await page.goto("/");
-    await expect(page).toHaveTitle(/.+/);
+    const title = await page.title();
+    expect(title).toContain("Serponado");
   });
 
   test("header navigation links work", async ({ page }) => {
@@ -26,16 +27,19 @@ test.describe("Navigation", () => {
 
   test("leistungen/index-rettung loads", async ({ page }) => {
     await page.goto("/leistungen/index-rettung");
-    await expect(page).toHaveTitle(/.+/);
+    const title = await page.title();
+    expect(title).toContain("Serponado");
   });
 
   test("preise page loads", async ({ page }) => {
     await page.goto("/preise");
-    await expect(page).toHaveTitle(/.+/);
+    const title = await page.title();
+    expect(title).toContain("Serponado");
   });
 
   test("kontakt page loads", async ({ page }) => {
     await page.goto("/kontakt");
-    await expect(page).toHaveTitle(/.+/);
+    const title = await page.title();
+    expect(title).toContain("Serponado");
   });
 });

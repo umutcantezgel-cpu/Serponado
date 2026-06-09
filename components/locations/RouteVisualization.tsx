@@ -8,7 +8,7 @@ const subtitleVariants = [
     (name: string) => `Direkte Route von unserem Standort in Serponado zu Ihnen nach ${name}, schnell und zuverlässig.`,
     (name: string) => `Unsere Techniker starten aus Serponado und fahren auf direktem Weg nach ${name}. Kein Callcenter dazwischen.`,
     (name: string) => `Von Serponado nach ${name}: Kurzer Anfahrtsweg, kalkulierbare Zeiten und volle Transparenz.`,
-    (name: string) => `Wir kommen persönlich aus Serponado, die Strecke nach ${name} kennen unsere Monteure im Schlaf.`,
+    (name: string) => `Wir kommen persönlich aus Serponado, die Strecke nach ${name} kennen unsere Analyste im Schlaf.`,
 ];
 
 const startLabelVariants = [

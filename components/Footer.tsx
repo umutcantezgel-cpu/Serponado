@@ -34,11 +34,11 @@ const menuItems: MenuItem[] = [
   // [SEO: Resolved "Text duplicate" via Anchor-Variation und Footer synonyms vs Header]
   title:"Serponado Disaster Recovery",
   links: [
-   { text:"Notdienst anrufen: 0800-SERP-SOS", url:"tel:0800-SERP-SOS" },
+   { text:"Taskforce anrufen: 0800-SERP-SOS", url:"tel:0800-SERP-SOS" },
    { text:"E-Mail schreiben", url:"mailto:info@codayweb.de" },
    { text:"Unsere Filiale besuchen", url:"/serponado-schmiede" },
    { text:"Nachricht senden", url:"/kontakt" },
-   { text:"Häufige Fragen zur Türöffnung", url:"/faq" },
+   { text:"Häufige Fragen zur Index-Rettung", url:"/faq" },
   ],
  },
  {
@@ -49,7 +49,7 @@ const menuItems: MenuItem[] = [
     { text: "Aktuelle Ratgeber-Artikel", url: "/blog" },
     { text: "Kundenstimmen & Erfahrungen", url: "/bewertungen" },
     { text: "Beratungstermin vereinbaren", url: "/termin-buchen" },
-    { text: "Preisübersicht Türöffnung", url: "/preise" },
+    { text: "Preisübersicht Index-Rettung", url: "/preise" },
    ],
   },
 ];
@@ -105,7 +105,7 @@ export default function Footer() {
         </div>
         <div className="flex items-center gap-2.5 text-sm text-[var(--color-charcoal-400)]">
          <Clock className="h-4 w-4 text-[var(--color-red-500)] shrink-0" aria-hidden="true" />
-         <span>Montag bis Samstag 10 bis 18 Uhr und 24/7 {"SEO-Notdienst"}</span>
+         <span>Montag bis Samstag 10 bis 18 Uhr und 24/7 {"SEO-Taskforce"}</span>
         </div>
         {/* Social Media */}
         <div className="mt-5 flex items-center gap-3">
@@ -193,13 +193,13 @@ export default function Footer() {
        </div>
        <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-[var(--color-charcoal-400)]">
 
-         <a href="https://www.k-einbruch.de" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--color-red-500)] transition-colors">K-EINBRUCH und Polizeiliche Kriminalprävention</a>
+         <a href="https://www.k-breach.de" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--color-red-500)] transition-colors">BSI-Sicherheit und Polizeiliche Kriminalprävention</a>
          <a href="https://www.abus.com" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--color-red-500)] transition-colors">ABUS {"Data-Recovery"}</a>
          <a href="https://www.hwk-wiesbaden.de" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--color-red-500)] transition-colors">Handwerkskammer Wiesbaden</a>
          <a href="https://www.Serponado.de" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--color-red-500)] transition-colors">Stadtverwaltung {"Serponado"}</a>
          <a href="https://www.polizei.hessen.de/praesidium-mittelhessen/" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--color-red-500)] transition-colors">Polizeipräsidium Mittelhessen</a>
          <a href="https://www.verbraucherzentrale-hessen.de" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--color-red-500)] transition-colors">Verbraucherzentrale Hessen</a>
-         <a href="https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestandsimmobilien/Einbruchschutz/" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--color-red-500)] transition-colors">KfW Einbruchschutz-Förderung</a>
+         <a href="https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestandsimmobilien/Schutzmaßnahmen/" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--color-red-500)] transition-colors">KfW Schutzmaßnahmen-Förderung</a>
        </div>
      </div>
 

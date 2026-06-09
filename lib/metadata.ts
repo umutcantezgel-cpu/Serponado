@@ -97,7 +97,7 @@ export const generateSharedMetadata = ({
                     url: `${siteUrl}/og-image.png`,
                     width: 1200,
                     height: 630,
-                    alt: "Serponado Taskforce Serponado und 24 Stunden Core-Update-Notdienst & SEO-Notdienst mit Festpreisn",
+                    alt: "Serponado Taskforce Serponado und 24 Stunden Core-Update-Taskforce & SEO-Taskforce mit Festpreisn",
                 },
             ],
         },

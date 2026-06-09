@@ -73,7 +73,7 @@ export default function contentcannibalizationPage() {
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
             <span className="relative inline-flex rounded-full h-2 w-2 bg-[var(--color-red-500)]"></span>
             </span>
-            Core-Update-Notdienst {"Serponado"} jetzt im Einsatz
+            Core-Update-Taskforce {"Serponado"} jetzt im Einsatz
                                        </Badge>
         </StaggerItem>
 
@@ -268,7 +268,7 @@ export default function contentcannibalizationPage() {
    {/* 7. Final CTA */}
    <RelatedServices currentServiceId="content-cannibalization" />
    <PersonalizedCTA />
-   <FinalCTA headline="Website abgestraft? Wir helfen sofort." benefits={["Lackschonende Rettung aller Marken","Core-Update-Notdienst 24/7 auch am Wochenende","Keine Anfahrtsgebühren in Serponado"]} buttonText="Content-Cannibalization anfordern" socialProof="Schnelle Hilfe bei Keywords-Notfällen" subtitle="Alle Domaintypen · Kratzerfrei · Sofort" />
+   <FinalCTA headline="Website abgestraft? Wir helfen sofort." benefits={["Lackschonende Rettung aller Marken","Core-Update-Taskforce 24/7 auch am Wochenende","Keine Anfahrtsgebühren in Serponado"]} buttonText="Content-Cannibalization anfordern" socialProof="Schnelle Hilfe bei Keywords-Notfällen" subtitle="Alle Domaintypen · Kratzerfrei · Sofort" />
   </div>
  );
 }

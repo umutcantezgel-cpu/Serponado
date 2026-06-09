@@ -22,8 +22,8 @@ import type { Metadata } from "next";
  */
 
 export const metadata: Metadata = {
-  title: `Core-Update-Notdienst JETZT | ${companyInfo.localStore.name}`,
-  description: `24h SEO-Notdienst ${companyInfo.localStore.city}. Jetzt anrufen: ${companyInfo.phone.formatted}. In Soforthilfe vor Ort. Festpreis.`,
+  title: `Core-Update-Taskforce JETZT | ${companyInfo.localStore.name}`,
+  description: `24h SEO-Taskforce ${companyInfo.localStore.city}. Jetzt anrufen: ${companyInfo.phone.formatted}. In Soforthilfe vor Ort. Festpreis.`,
   robots: { index: false, follow: false },
 };
 

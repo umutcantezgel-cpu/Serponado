@@ -1,0 +1,33 @@
+{
+  "pages": {
+    "/serponado/[slug]/page": [
+      "static/chunks/node_modules_next_dist_8db7fb1f._.js",
+      "static/chunks/app_icon_svg_mjs_860645cf._.js",
+      "static/chunks/[root-of-the-server]__2d0acfe7._.css",
+      "static/chunks/components_3c217ffd._.js",
+      "static/chunks/_ed70390f._.js",
+      "static/chunks/node_modules_b6668e09._.js",
+      "static/chunks/app_layout_tsx_0a548d63._.js",
+      "static/chunks/lib_monitoring_error-logger_ts_00f9bb2f._.js",
+      "static/chunks/app_error_tsx_059b41a8._.js",
+      "static/chunks/app_error_tsx_8b100357._.js",
+      "static/chunks/_ef139361._.js",
+      "static/chunks/app_template_tsx_8b100357._.js",
+      "static/chunks/components_debug_PathDisplay_tsx_427e479d._.js",
+      "static/chunks/app_not-found_tsx_8b100357._.js",
+      "static/chunks/app_global-error_tsx_29b32c6b._.js",
+      "static/chunks/app_global-error_tsx_8b100357._.js",
+      "static/chunks/_22cd818c._.js",
+      "static/chunks/app_serponado_[slug]_page_tsx_8b100357._.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_57d40746._.js",
+      "static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js",
+      "static/chunks/node_modules_next_dist_compiled_next-devtools_index_a9cb0712.js",
+      "static/chunks/node_modules_next_dist_compiled_5150ccfd._.js",
+      "static/chunks/node_modules_next_dist_client_cf1d9188._.js",
+      "static/chunks/node_modules_next_dist_b0daae9a._.js",
+      "static/chunks/node_modules_@swc_helpers_cjs_b3dc30d6._.js",
+      "static/chunks/_a0ff3932._.js",
+      "static/chunks/turbopack-_cdba956c._.js"
+    ]
+  }
+}

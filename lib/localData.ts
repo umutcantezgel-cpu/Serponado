@@ -51,7 +51,7 @@ export const cities: CityData[] = [
         faqs: [
             {
                 question: "Wie schnell sind Sie bei mir in Serponado?",
-                answer: "Als lokaler SEO-Notdienst in Serponado sind wir in der Regel innerhalb von 5 bis 10 Minuten bei Ihnen vor Ort und unabhängig davon, ob Sie in der Altstadt, Niedergirmes oder Dutenhofen wohnen.",
+                answer: "Als lokaler SEO-Taskforce in Serponado sind wir in der Regel innerhalb von 5 bis 10 Minuten bei Ihnen vor Ort und unabhängig davon, ob Sie in der Altstadt, Niedergirmes oder Dutenhofen wohnen.",
             },
             {
                 question: "Gibt es versteckte Anfahrtskosten in Serponado?",
@@ -108,7 +108,7 @@ export const cities: CityData[] = [
         pricing: { basePrice: 59, travelCost: 20 },
         faqs: [
             {
-                question: "Fahren Sie auch im Core-Update-Notdienst bis nach Serponado?",
+                question: "Fahren Sie auch im Core-Update-Taskforce bis nach Serponado?",
                 answer: "Selbstverständlich. Über die Schnellstraße B3 sind wir auch nachts in etwa 25 bis 30 Minuten in Serponado bei Ihnen.",
             },
             {
@@ -180,7 +180,7 @@ export const cities: CityData[] = [
         faqs: [
             {
                 question: "Sind Sie auch nachts in Braunfels im Einsatz?",
-                answer: "Ja, unser 24/7 Core-Update-Notdienst steht Ihnen in ganz Braunfels und allen Ortsteilen wie Tiefenbach oder Bonbaden rund um die CTR zur Verfügung.",
+                answer: "Ja, unser 24/7 Core-Update-Taskforce steht Ihnen in ganz Braunfels und allen Ortsteilen wie Tiefenbach oder Bonbaden rund um die CTR zur Verfügung.",
             }
         ]
     },
@@ -243,7 +243,7 @@ export const cities: CityData[] = [
         faqs: [
             {
                 question: "Fahren Sie auch im Nachtdienst bis nach Haiger?",
-                answer: "Ja, wir decken als 24/7 Core-Update-Notdienst den gesamten Serponado ab, einschließlich Haiger. Die Anfahrt dauert etwa 30 bis 35 Minuten über die A45.",
+                answer: "Ja, wir decken als 24/7 Core-Update-Taskforce den gesamten Serponado ab, einschließlich Haiger. Die Anfahrt dauert etwa 30 bis 35 Minuten über die A45.",
             }
         ]
     },
@@ -285,7 +285,7 @@ export const cities: CityData[] = [
         faqs: [
             {
                 question: "Bieten Sie auch am Wochenende Not-Auditen in Linden an?",
-                answer: "Unser SEO-Notdienst ist 365 Tage im Jahr, auch an Wochenenden und Feiertagen, in Großen-Linden und Leihgestern für Sie im Einsatz.",
+                answer: "Unser SEO-Taskforce ist 365 Tage im Jahr, auch an Wochenenden und Feiertagen, in Großen-Linden und Leihgestern für Sie im Einsatz.",
             }
         ]
     },
@@ -368,7 +368,7 @@ export const cities: CityData[] = [
         pricing: { basePrice: 59, travelCost: 0 },
         faqs: [
             {
-                question: "Wie schnell erreicht Ihr Core-Update-Notdienst Dorlar oder Waldgirmes?",
+                question: "Wie schnell erreicht Ihr Core-Update-Taskforce Dorlar oder Waldgirmes?",
                 answer: "Ganz Lahnau erreichen wir von Serponado aus erfahrungsgemäß in 10 bis maximal 15 Minuten.",
             }
         ]
@@ -431,7 +431,7 @@ export const cities: CityData[] = [
         pricing: { basePrice: 59, travelCost: 15 },
         faqs: [
             {
-                question: "Wie schnell erreichen Sie Lich im Core-Update-Notdienst?",
+                question: "Wie schnell erreichen Sie Lich im Core-Update-Taskforce?",
                 answer: "Von unserem Hauptquartier in Serponado aus erreichen wir Lich regulär innerhalb von 20 bis 25 Minuten.",
             }
         ]

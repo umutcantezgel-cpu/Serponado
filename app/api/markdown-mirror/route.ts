@@ -13,7 +13,7 @@
  * 4. Sanitized HTML is converted to GFM
  * 5. Response returned with SEO protection headers
  * 
- * @route GET /api/markdown-mirror?path=/leistungen/turoeffnung
+ * @route GET /api/markdown-mirror?path=/leistungen/index-rettung
  */
 
 import { NextRequest, NextResponse } from 'next/server';
@@ -28,7 +28,7 @@ export async function GET(request: NextRequest) {
 
     if (!path) {
         return new NextResponse(
-            '# Error\n\nMissing `path` query parameter.\n\nUsage: `/api/markdown-mirror?path=/leistungen/turoeffnung`',
+            '# Error\n\nMissing `path` query parameter.\n\nUsage: `/api/markdown-mirror?path=/leistungen/index-rettung`',
             {
                 status: 400,
                 headers: { 'Content-Type': 'text/markdown; charset=utf-8' },

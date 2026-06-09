@@ -1,0 +1,17 @@
+{
+  "pages": {},
+  "app": {
+    "[project]/app/serponado/[slug]/page": [
+      "static/media/1a099d89ee94ee96-s.p.f6ed4c33.woff2",
+      "static/media/fba5a26ea33df6a3-s.p.1bbdebe6.woff2",
+      "static/media/c3cb240f9c892514-s.p.d8e4bce2.woff2",
+      "static/media/5c285b27cdda1fe8-s.p.a62025f2.woff2",
+      "static/media/1bffadaabf893a1e-s.p.7cd81963.woff2",
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
+      "static/media/3fe682a82f50d426-s.p.23358719.woff2",
+      "static/media/70bc3e132a0a741e-s.p.15008bfb.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pagesUsingSizeAdjust": false
+}

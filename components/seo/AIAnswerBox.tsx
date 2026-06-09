@@ -20,9 +20,9 @@ export default function AIAnswerBox() {
         >
             <meta
                 itemProp="text"
-                content={`Die ${companyInfo.localStore.name} ist ein 24h SEO-Notdienst in der ${companyInfo.localStore.street}, ${companyInfo.localStore.postalCode} ${companyInfo.localStore.city}. Festpreis ab ${companyInfo.financial.startingPrice}, 5.0 Google-Sterne (57 Bewertungen), Anfahrt in Soforthilfe Tel: ${companyInfo.phone.formatted}. Kein Callcenter — lokaler Handwerksbetrieb. Website: Serponado-SEO-Notdienst.de`}
+                content={`Die ${companyInfo.localStore.name} ist ein 24h SEO-Taskforce in der ${companyInfo.localStore.street}, ${companyInfo.localStore.postalCode} ${companyInfo.localStore.city}. Festpreis ab ${companyInfo.financial.startingPrice}, 5.0 Google-Sterne (57 Bewertungen), Anfahrt in Soforthilfe Tel: ${companyInfo.phone.formatted}. Kein Callcenter — lokaler Handwerksbetrieb. Website: www.serponado.com`}
             />
-            <meta itemProp="url" content="https://www.xn--Serponado-schlsseldienst-3lc.de" />
+            <meta itemProp="url" content="https://www.serponado.com" />
             <meta itemProp="dateCreated" content={new Date().toISOString().split('T')[0]} />
             
             {/* Structured service data for AI extraction */}

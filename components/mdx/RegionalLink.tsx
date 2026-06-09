@@ -31,7 +31,7 @@ export default function RegionalLink({ region, children, icon = true }: Props) {
     <SeoLink 
       href={url} 
       className="inline-flex items-center gap-1 text-[var(--color-red-600)] hover:text-[var(--color-red-700)] font-medium no-underline hover:underline underline-offset-4"
-      uniqueContext={`SEO-Notdienst in ${region}`}
+      uniqueContext={`SEO-Taskforce in ${region}`}
     >
       {icon && <MapPin className="w-3.5 h-3.5 inline text-[var(--color-red-500)]" />}
       {children}

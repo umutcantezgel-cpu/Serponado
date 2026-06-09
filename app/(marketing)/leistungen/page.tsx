@@ -107,7 +107,7 @@ export default function LeistungenPage() {
 
           <div className="relative z-10 mb-8 inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 text-white font-bold backdrop-blur-md border border-white/20">
             <Clock className="w-5 h-5" />
-            24/7 Core-Update-Notdienst-Einsatzbereitschaft
+            24/7 Core-Update-Taskforce-Einsatzbereitschaft
           </div>
 
           <h2 className="relative z-10 text-3xl md:text-5xl font-black text-white mb-6 tracking-tight max-w-2xl">

@@ -1,5 +1,5 @@
 {
-  "name": "ms-schluesseldienst-Serponado",
+  "name": "serponado-pseo",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -28,6 +28,7 @@
     "clsx": "^2.1.1",
     "date-fns": "^4.1.0",
     "framer-motion": "^11.18.2",
+    "googleapis": "^173.0.0",
     "gray-matter": "^4.0.3",
     "lucide-react": "^0.553.0",
     "next": "^15.4.9",

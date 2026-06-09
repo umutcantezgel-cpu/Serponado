@@ -17,7 +17,7 @@ Da die Webseite ("Serponado") auf statischem Next.js (`turbopack`) basiert und o
 | **Formspree Account** | ✅ Verifiziert | `serponadodienst.wz@gmail.com` |
 | **Formspree Projekt** | ✅ Angelegt | "Serponado", Timezone `Europe/Berlin` |
 | **Formular: Reguläre Anfrage** | ✅ Aktiv | Form-ID: `mgopyayb` |
-| **Formular: Notdienst Einsatz** | ✅ Aktiv | Form-ID: `xkopbjzd` |
+| **Formular: Taskforce Einsatz** | ✅ Aktiv | Form-ID: `xkopbjzd` |
 | **Calendly Account** | ✅ Verifiziert | `serponadodienst.wz@gmail.com` |
 | **Google Kalender** | ✅ Verknüpft | Doppelbuchungs-Schutz aktiv |
 | **Event-Typ** | ✅ Konfiguriert | "Kostenlose Sicherheitsberatung (30 Min)" |
@@ -31,7 +31,7 @@ Da die Webseite ("Serponado") auf statischem Next.js (`turbopack`) basiert und o
 
 ## 📧 Teil 1: Formspree Konfiguration (Kontaktformulare)
 
-Formspree dient als sicheres Backend für die Kontaktformulare (`Premium Kontakt` und `Notdienst`). Es fängt Formulardaten ab und leitet diese per E-Mail an den Administrator weiter.
+Formspree dient als sicheres Backend für die Kontaktformulare (`Premium Kontakt` und `Taskforce`). Es fängt Formulardaten ab und leitet diese per E-Mail an den Administrator weiter.
 
 ### Schritt 1: Account- & Projekt-Erstellung
 1. Öffne im Browser [https://formspree.io/](https://formspree.io/) und registriere dich mit der offiziellen Administrations-E-Mail-Adresse (z.B. `info@deinedomain.de`).
@@ -48,18 +48,18 @@ Wir benötigen zwei getrennte Endpunkte, um Notfälle von regulären Anfragen zu
 3. Kopiere nach der Erstellung den Teil der URL (Endpoint URL), der wie eine zufällige Zeichenfolge aussieht (z.B. `xqkkwbrz`). Dies ist die `Form ID`.
 4. Speichere diesen Schlüssel in einer separaten Textdatei zwischen.
 
-**B. Das "Notdienst" Formular:**
+**B. Das "Taskforce" Formular:**
 1. Gehe wieder auf die Projektübersicht und klicke auf **+ New Form**.
-2. Wähle als Name: **"Notdienst Einsatz"**.
-3. Extrahiere auch hier die spezifische `Form ID` aus der generierten Endpoint-URL. Gehe sicher, dass du diese ID als "Notdienst-Formular" markierst.
+2. Wähle als Name: **"Taskforce Einsatz"**.
+3. Extrahiere auch hier die spezifische `Form ID` aus der generierten Endpoint-URL. Gehe sicher, dass du diese ID als "Taskforce-Formular" markierst.
 
 ### Schritt 3: Benachrichtigungsrouting konfigurieren
 Ohne dieses Setup schickt Formspree keine E-Mails an dich!
-1. Klicke bei einem Formular (z.B. "Notdienst Einsatz") oben rechts auf den Reiter **Settings**.
+1. Klicke bei einem Formular (z.B. "Taskforce Einsatz") oben rechts auf den Reiter **Settings**.
 2. Gehe im linken Menü auf **Emails**.
 3. Füge unter "Add Email" die E-Mail ein, die bei einem Einsatz benachrichtigt werden soll (z.B. `notruf@deinedomain.de`).
 4. Klicke auf **Send Verification** und bestätige den Link in diesem E-Mail-Postfach.
-5. In Formspree kannst du unter dem Reiter "Target Emails" auf **Subject Rules** klicken, um festzulegen, wie der Betreff für dich aussieht (z.B. `🚨 NEUER NOTDIENST EINSATZ: {{name}}`).
+5. In Formspree kannst du unter dem Reiter "Target Emails" auf **Subject Rules** klicken, um festzulegen, wie der Betreff für dich aussieht (z.B. `🚨 NEUER TASKFORCE EINSATZ: {{name}}`).
 
 ### Schritt 4: Spam-Schutz aktivieren (Honeypot/ReCAPTCHA)
 Formspree schützt dich automatisch vor massenhaften Spam-Mails.
@@ -75,7 +75,7 @@ Calendly steuert die asynchronen Premium-Sicherheitsberatungen. Der User kann ve
 
 ### Schritt 1: Account & Kalender-Kopplung
 1. Rufe [https://calendly.com/](https://calendly.com/) auf und registriere dich mit derselben Administrations-E-Mail (am besten Google Calendar oder Outlook 365, welches als Tageskalender benutzt wird).
-2. Befolge die Onboarding-Schritte, bei denen Calendly nach einer Verknüpfung zu deinem Apple/Google/Microsoft Kalender fragt. **Dies ist essenziell**, da Calendly Termine nur dann als verfügbar anzeigt, wenn in deinem verknüpften Kalender kein anderer Termin (z.B. Notdienst-Einsatz) liegt!
+2. Befolge die Onboarding-Schritte, bei denen Calendly nach einer Verknüpfung zu deinem Apple/Google/Microsoft Kalender fragt. **Dies ist essenziell**, da Calendly Termine nur dann als verfügbar anzeigt, wenn in deinem verknüpften Kalender kein anderer Termin (z.B. Taskforce-Einsatz) liegt!
 
 ### Schritt 2: Den Buchungstypen (Event-Type) erstellen
 1. Klicke im Dashboard auf den blauen Button **+ Anlegen** (oder Create) -> **Ereignistyp** (Event Type).
@@ -113,7 +113,7 @@ Damit das Web-Projekt den Kontakt zu dem frisch konfigurierten Formspree und Cal
 # Formspree – Premium Kontaktformular (Reguläre Anfrage)
 NEXT_PUBLIC_FORMSPREE_ID="mgopyayb"
 
-# Formspree – Notdienst-Formular (Einsatz-Anfragen)
+# Formspree – Taskforce-Formular (Einsatz-Anfragen)
 FORMSPREE_EMERGENCY_ENDPOINT="https://formspree.io/f/xkopbjzd"
 
 # Calendly – Sicherheitsberatung Buchung

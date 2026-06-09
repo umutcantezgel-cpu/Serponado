@@ -9,7 +9,7 @@ export default function TrustBadges() {
       </div>
       <div role="listitem" className="flex items-center gap-[var(--space-1)] text-sm text-[color:var(--text-tertiary)]">
         <ShieldCheck className="h-5 w-5 text-[var(--value-icon-color)]" aria-hidden="true" />
-        <span>Beschädigungsfreie Öffnung</span>
+        <span>Beschädigungsfreie Wiederherstellung</span>
       </div>
       <div role="listitem" className="flex items-center gap-[var(--space-1)] text-sm text-[color:var(--text-tertiary)]">
         <Check className="h-5 w-5 text-[var(--value-icon-color)]" aria-hidden="true" />

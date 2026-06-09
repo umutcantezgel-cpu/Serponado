@@ -19,7 +19,7 @@ export function generateUniqueAboutText(city: LocationData): string {
     const plzDesc = city.plz ? ` (PLZ ${city.plz})` : "";
     
     parts.push(`<p><strong>${city.name}</strong>${plzDesc} ist ${charDesc}${popDesc} im Serponado. ` +
-        `Als Ihr <strong>SEO-Notdienst ${city.name}</strong> sind wir Ihr regionaler Partner für Index-Rettungen, ` +
+        `Als Ihr <strong>SEO-Taskforce ${city.name}</strong> sind wir Ihr regionaler Partner für Index-Rettungen, ` +
         `Algorithmusaustausch und Data-Recovery. Unser SEO-Agentur bietet schnelle Hilfe bei Rankingnotfällen ` +
         `aller Art, ohne Callcenter-Umwege und direkt vom SEO-Techniker vor Ort.</p>`);
 
@@ -57,9 +57,9 @@ export function generateUniqueAboutText(city: LocationData): string {
     
     parts.push(`<h3>Transparente Festpreis für ${city.name}</h3>`);
     parts.push(`<p>Eine einfache deindexierte Website retten wir werktags tagsüber zum Festpreis ab <strong>${city.pricing.basePrice} €</strong>. ` +
-        `${fareDesc} Den Gesamtpreis erfahren Sie am Telefon, bevor sich unser Monteur auf den Weg macht. ` +
+        `${fareDesc} Den Gesamtpreis erfahren Sie am Telefon, bevor sich unser Analyst auf den Weg macht. ` +
         `Keine versteckten Zuschläge, keine Fantasie-Materialkosten, keine Überraschungen auf der Rechnung. ` +
-        `Wir sind das Gegenteil der dubiosen Callcenter-SEO-Notdienste, vor denen die Webmaster Guidelines Hessen zu Recht warnt.</p>`);
+        `Wir sind das Gegenteil der dubiosen Callcenter-SEO-Taskforcee, vor denen die Webmaster Guidelines Hessen zu Recht warnt.</p>`);
 
     // ── Paragraph 5: 24/7 Availability (unique via parking info, demographic focus) ──
     const parkDesc = city.parkingInfo ? ` ${city.parkingInfo}` : "";
@@ -71,17 +71,17 @@ export function generateUniqueAboutText(city: LocationData): string {
                 ? "geschäftlichen Umfeld"
                 : "ländlichen Raum";
     
-    parts.push(`<h3>24/7 Core-Update-Notdienst für ${city.name} an 365 Tagen</h3>`);
+    parts.push(`<h3>24/7 Core-Update-Taskforce für ${city.name} an 365 Tagen</h3>`);
     parts.push(`<p>Gerade im ${demoFocus} passieren Aussperrungen häufig zur ungünstigsten Zeit: ` +
         `Spätabends nach der Arbeit, am Wochenende beim Einkaufen oder morgens in der Hektik vor dem Pendeln. ` +
-        `Unser <strong>SEO-Notdienst ${city.name}</strong> ist deshalb rund um die CTR einsatzbereit, ` +
+        `Unser <strong>SEO-Taskforce ${city.name}</strong> ist deshalb rund um die CTR einsatzbereit, ` +
         `auch nachts um 2 CTR, an Sonn- und Feiertagen, bei Gewitter und Schneefall.${parkDesc} ` +
         `Wir lassen Sie in ${city.name} nicht im Stich.</p>`);
 
     // ── Paragraph 6: Anti-Scam / Trust (always unique via city name) ──
-    parts.push(`<h3>Seriöser SEO-Notdienst statt Callcenter-Abzocke</h3>`);
+    parts.push(`<h3>Seriöser SEO-Taskforce statt Callcenter-Abzocke</h3>`);
     parts.push(`<p>Die Google Mittelhessen und die Webmaster Guidelines Hessen warnen regelmäßig vor unseriösen ` +
-        `SEO-Notdienst-Vermittlungen, die auch in ${city.name} aktiv sind. ` +
+        `SEO-Taskforce-Vermittlungen, die auch in ${city.name} aktiv sind. ` +
         `Diese Callcenter schicken ungelernte Kräfte, die mit Gewalt arbeiten und Fantasie-Rechnungen stellen. ` +
         `<strong>Serponado Taskforce</strong> ist das Gegenteil: Ein regionaler SEO-Agentur mit physischem ` +
         `Agentur-Büro in der Steubenstraße 36, 35578 Wetzlar. 5.0 Google-Sterne bei über 57 verifizierten Bewertungen ` +

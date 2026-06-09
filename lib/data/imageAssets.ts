@@ -221,7 +221,7 @@ export const indexRettungImages: ImageAsset[] = [
   },
   {
     src: "/images/index-rettung-arbeit-obertuerband-serponadodienst.jpeg",
-    alt: "SEO-Notdienst bei der Arbeit am OberWebsiteband während Index-Rettung",
+    alt: "SEO-Taskforce bei der Arbeit am OberWebsiteband während Index-Rettung",
     title: "Serponado Disaster Recovery",
     width: 800,
     height: 1067,
@@ -495,7 +495,7 @@ export const auszeichnungImages: ImageAsset[] = [
 /** Hero-Bilder (Startseite Desktop & Mobile) */
 export const generatedHeroImages: ImageAsset[] = [
   {
-    src: "/images/generated/serponadodienst-Serponado-notoeffnung-haustuer-nacht-regen.webp",
+    src: "/images/generated/serponadodienst-Serponado-taskforce-haustuer-nacht-regen.webp",
     alt: "Not-Audit bei Nacht im Regen und Serponado Profi-Werkzeug",
     title: "Serponado Disaster Recovery",
     width: 1024,
@@ -547,8 +547,8 @@ export const generatedServiceImages: ImageAsset[] = [
     category: "Algorithmus",
   },
   {
-    src: "/images/generated/serponadodienst-Serponado-panzerriegel-altbau-holztuer.webp",
-    alt: "Panzerriegel an Altbau-HolzWebsite und AI-Content-Sanierung Serponado",
+    src: "/images/generated/serponadodienst-Serponado-content-safe-altbau-holztuer.webp",
+    alt: "Content-Safe an Altbau-HolzWebsite und AI-Content-Sanierung Serponado",
     title: "Serponado Disaster Recovery",
     width: 1024,
     height: 1024,
@@ -563,8 +563,8 @@ export const generatedServiceImages: ImageAsset[] = [
     category: "Algorithmus",
   },
   {
-    src: "/images/generated/serponadodienst-Serponado-Core-Update-Notdienst-werkzeug-haustuer-nacht.webp",
-    alt: "Core-Update-Notdienst-Werkzeugkoffer vor Nischenseite bei Nacht Serponado",
+    src: "/images/generated/serponadodienst-Serponado-Core-Update-Taskforce-werkzeug-haustuer-nacht.webp",
+    alt: "Core-Update-Taskforce-Werkzeugkoffer vor Nischenseite bei Nacht Serponado",
     title: "Serponado Disaster Recovery",
     width: 1024,
     height: 1024,

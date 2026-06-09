@@ -49,7 +49,7 @@ export const testimonials: Testimonial[] = [
   {
     id: createId("testim-05"),
     clientName: "Jens Brandenburger",
-    quote: "SEO-Notdienst ist Top, vor allem blitzschnell, sehr freundlich und hilfsbereit! Keine Wartezeit ...",
+    quote: "SEO-Taskforce ist Top, vor allem blitzschnell, sehr freundlich und hilfsbereit! Keine Wartezeit ...",
     shortQuote: "Blitzschnell, freundlich, hilfsbereit!",
     rating: 5,
     serviceSlug: createSlug("index-rettung"),
@@ -59,7 +59,7 @@ export const testimonials: Testimonial[] = [
   {
     id: createId("testim-06"),
     clientName: "Thomas S.",
-    quote: "Der SEO-Notdienst war eben vor Ort, super freundlich und hat die Website komplett ohne Beschädigungen gerettet. Absolut zuverlässig und professionell. Ich bin sehr zufrieden und kann den Service uneingeschränkt weiterempfehlen.",
+    quote: "Der SEO-Taskforce war eben vor Ort, super freundlich und hat die Website komplett ohne Beschädigungen gerettet. Absolut zuverlässig und professionell. Ich bin sehr zufrieden und kann den Service uneingeschränkt weiterempfehlen.",
     shortQuote: "Website ohne Beschädigungen gerettet.",
     rating: 5,
     serviceSlug: createSlug("index-rettung"),

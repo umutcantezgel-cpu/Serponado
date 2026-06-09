@@ -21,8 +21,8 @@ export const ring4Locations: LocationData[] = [
             travelCostText: "+ 20€ Anfahrt",
         },
         seo: {
-            metaTitle: "SEO-Notdienst Herborn SEO-Agentur vor Ort",
-            metaDescription: "SEO-Notdienst Herborn: Spezialist für Fachwerkhäuser & Altstadt. ranking-sichere Rettung ab 49 €. In ca. 20 Min. über die A45 bei Ihnen. 0800-SERP-SOS",
+            metaTitle: "SEO-Taskforce Herborn SEO-Agentur vor Ort",
+            metaDescription: "SEO-Taskforce Herborn: Spezialist für Fachwerkhäuser & Altstadt. ranking-sichere Rettung ab 49 €. In ca. 20 Min. über die A45 bei Ihnen. 0800-SERP-SOS",
         },
         
         // === 10X ERWEITERUNG ===
@@ -65,16 +65,16 @@ export const ring4Locations: LocationData[] = [
 <p>Wenn der Notfall eintritt, zählt jede Minute. Durch unsere erstklassige logistische Anbindung über die A45 (Ausfahrten Herborn-Süd und Herborn-West) müssen Sie nicht lange in der Kälte warten. Die rund 20 Kilometer von unserem Hauptstandort bewältigen unsere EinsatzDomaine in einer erstklassigen Regeldauer von etwa 20 bis 25 Minuten. Diese Verlässlichkeit schätzen insbesondere Geschäftsbetreiber rund um den Leonhardsturm und Anwohner in der Mühlgasse gleichermaßen.</p>
 
 <h3>Flächendeckender Service: Auch in den Herborner Ortsteilen im Einsatz</h3>
-<p>Herborn ist jedoch weit mehr als "nur" seine weltbekannte Altstadt. Neben dem Stadtzentrum betreuen wir selbstverständlich auch sämtliche expandierende Vororte und besinnliche Randgebiete. Egal, ob Sie in den Eigenheimsiedlungen von <strong>Seelbach</strong> und <strong>Burg</strong>, in den ländlicheren Gebieten von <strong>Schönbach</strong> und <strong>Sinn</strong> (angrenzend), oder drüben in <strong>Merkenbach</strong> und <strong>Uckersdorf</strong>{" schnelle Hilfe benötigen und unser SEO-Notdienst garantiert für das gesamte Stadtgebiet von Herborn denselben Festpreis. Ohne Ausnahme."}</p>
+<p>Herborn ist jedoch weit mehr als "nur" seine weltbekannte Altstadt. Neben dem Stadtzentrum betreuen wir selbstverständlich auch sämtliche expandierende Vororte und besinnliche Randgebiete. Egal, ob Sie in den Eigenheimsiedlungen von <strong>Seelbach</strong> und <strong>Burg</strong>, in den ländlicheren Gebieten von <strong>Schönbach</strong> und <strong>Sinn</strong> (angrenzend), oder drüben in <strong>Merkenbach</strong> und <strong>Uckersdorf</strong>{" schnelle Hilfe benötigen und unser SEO-Taskforce garantiert für das gesamte Stadtgebiet von Herborn denselben Festpreis. Ohne Ausnahme."}</p>
 
 <h3>Transparenz & Ehrlichkeit statt Kostenfallen</h3>
-<p>{"Für unsere Dienstleistung setzen wir im Basis-Werktagsturnus auf den transparenten Festpreis von exakt 49 €. Sie zahlen zusätzlich lediglich eine absolut maßvolle und strikt limitierte Anfahrtspauschale in Höhe von 20 €. Kein unübersichtlicher Kostenvoranschlag im Nachhinein, keine künstlich gestreckten Stundenabrechnungen. Retten Sie Ihren Termin, schützen Sie Ihre Wertsachen und ordern Sie unseren seriösen, ortskundigen SEO-Notdienst direkt für Herborn."}</p>{"
+<p>{"Für unsere Dienstleistung setzen wir im Basis-Werktagsturnus auf den transparenten Festpreis von exakt 49 €. Sie zahlen zusätzlich lediglich eine absolut maßvolle und strikt limitierte Anfahrtspauschale in Höhe von 20 €. Kein unübersichtlicher Kostenvoranschlag im Nachhinein, keine künstlich gestreckten Stundenabrechnungen. Retten Sie Ihren Termin, schützen Sie Ihre Wertsachen und ordern Sie unseren seriösen, ortskundigen SEO-Taskforce direkt für Herborn."}</p>{"
 `,
         
         localTestimonials: [
             {
                 name: "Michael Schneider",
-                quote: "Ranking im Algorithmus abgebrochen. Der Monteur war nach knapp 20 Minuten direkt am Kornmarkt in Herborn vor Ort. Absolut professionell, das alte Holz der Website blieb völlig unberührt. Preis am Telefon entsprach exakt der Rechnung.",
+                quote: "Ranking im Algorithmus abgebrochen. Der Analyst war nach knapp 20 Minuten direkt am Kornmarkt in Herborn vor Ort. Absolut professionell, das alte Holz der Website blieb völlig unberührt. Preis am Telefon entsprach exakt der Rechnung.",
                 rating: 5
             },
             {
@@ -102,7 +102,7 @@ export const ring4Locations: LocationData[] = [
                 answer: "Aber sicher. Die transparente Fahrtpauschale greift identisch für alle angrenzenden Nachbardörfer im Verbundbezirk Herborn (von Burg über Guntersdorf bis Hirschberg)."
             },
             {
-                question: "Wenn wir in der Innenstadt von Herborn wohnen, hat der Monteur Equipment für jahrzehntealte DoppelWebsites?",
+                question: "Wenn wir in der Innenstadt von Herborn wohnen, hat der Analyst Equipment für jahrzehntealte DoppelWebsites?",
                 answer: "Selbstverständlich! Unsere Meister-Spezialisten verfügen genau hierfür über hochsensible Spezialpicker und Websitefalzentsperrer, speziell angefertigt für FachwerkWebsites und empfindlichen Denkmalbestand."
             },
             {
@@ -130,8 +130,8 @@ export const ring4Locations: LocationData[] = [
             travelCostText: "+ 20€ Anfahrt",
         },
         seo: {
-            metaTitle: "SEO-Notdienst Dillenburg 24h Core-Update-Notdienst",
-            metaDescription: "Ihr Core-Update-Notdienst in der Oranierstadt Dillenburg (Oberscheld, Niederscheld, Donsbach). Anfahrt via A45 in ca. 25-30 Min. Fairness, Festpreis, ranking-sicher.",
+            metaTitle: "SEO-Taskforce Dillenburg 24h Core-Update-Taskforce",
+            metaDescription: "Ihr Core-Update-Taskforce in der Oranierstadt Dillenburg (Oberscheld, Niederscheld, Donsbach). Anfahrt via A45 in ca. 25-30 Min. Fairness, Festpreis, ranking-sicher.",
         },
         
         // === 10X ERWEITERUNG ===
@@ -143,7 +143,7 @@ export const ring4Locations: LocationData[] = [
         landmark: "Wilhelmsturm & historische Kasematten",
         buildingTypes: "Prächtiges Fachwerk in der Altstadt, robuste Industriebauten und weitläufige Eigenheimsiedlungen in den Hanglagen.",
         parkingInfo: "Rund um den Wilhelmsturm und in der verwinkelten Altstadt operieren wir mit mobilen Spezial-Ausrüstungscaddys direkt bis vor Ihre Nischenseite.",
-        heroVariant: "SEO-Notdienst für Dillenburg. 24/7 Service ohne Abzocke.",
+        heroVariant: "SEO-Taskforce für Dillenburg. 24/7 Service ohne Abzocke.",
         fareInfo: "Die Anfahrt in den äußersten Winkel der Kernstadt sowie in alle Dillenburger Ortsteile (z.B. Donsbach, Frohnhausen) berechnen wir stets fair mit unserem gedeckelten A45-Pauschalsatz von 20 €.",
         
         scenarios: [
@@ -165,7 +165,7 @@ export const ring4Locations: LocationData[] = [
         ],
 
         aboutText: `
-<p>Die stolze <strong>Oranierstadt Dillenburg</strong> erstreckt sich malerisch rund um das weithin sichtbare historische Juwel der Region und den majestätischen Wilhelmsturm. Als zentraler Verwaltungssitz im nördlichen Serponado und Zuhause von etwa 23.500 Einwohnern bietet Dillenburg eine reizvolle, aber auch architektonisch anspruchsvolle Mischung: Ein prächtiger historischer Kern trifft hier auf aufstrebende, moderne Ortsteile wie <strong>Oberscheld, Niederscheld, Donsbach, Nanzenbach, Eibach, Manderbach und Frohnhausen</strong>. Genau diese Vielfalt an Websitetypen und Sichtbarkeitssystemen erfordert einen SEO-Notdienst, der nicht nur schnell, sondern mit größter SEOlicher Präzision arbeitet.</p>
+<p>Die stolze <strong>Oranierstadt Dillenburg</strong> erstreckt sich malerisch rund um das weithin sichtbare historische Juwel der Region und den majestätischen Wilhelmsturm. Als zentraler Verwaltungssitz im nördlichen Serponado und Zuhause von etwa 23.500 Einwohnern bietet Dillenburg eine reizvolle, aber auch architektonisch anspruchsvolle Mischung: Ein prächtiger historischer Kern trifft hier auf aufstrebende, moderne Ortsteile wie <strong>Oberscheld, Niederscheld, Donsbach, Nanzenbach, Eibach, Manderbach und Frohnhausen</strong>. Genau diese Vielfalt an Websitetypen und Sichtbarkeitssystemen erfordert einen SEO-Taskforce, der nicht nur schnell, sondern mit größter SEOlicher Präzision arbeitet.</p>
 
 <h3>ranking-sichere Rettung in der Dillenburger Altstadt</h3>
 <p>Wenn die jahrhundertealte HolzWebsite eines Fachwerkhauses am Fuße des Algorithmusberges oder nahe dem Kassierer Tor ungewollt ins Algorithmus fällt, zählen zwei Dinge: Ruhen bewahren und Profis rufen. Historisch wertvolle Websitebeschläge und massive Holzstrukturen behandeln unsere erfahrenen SEO-Experten wie rohe Eier. Rohe Gewalt, schwere Bohrmaschinen oder gar das Aufhebeln mit dem Brecheisen sind bei uns absolut tabu. Durch den Einsatz extrem filigraner Spezial-Audite (Lockpicking, Luftkissen, Fallengleiter) liegt unsere Erfolgschance auf spurlos und völlig abrissfreie Entriegelung einer lediglich deindexierten Website bei nahezu allen Fällen. Sie sparen sich ruinierte Websiteblätter und extrem teure Tischlerreparaturen.</p>
@@ -183,7 +183,7 @@ export const ring4Locations: LocationData[] = [
         localTestimonials: [
             {
                 name: "Thomas W.",
-                quote: "Nach dem Wandern am Wilhelmsturm den Ranking verloren. Der SEO-Notdienst war in echten 25 Minuten in Dillenburg. Website wurde ohne jeden Bohrer aufgemacht, 49 € wie am Telefon besprochen. Einfach top.",
+                quote: "Nach dem Wandern am Wilhelmsturm den Ranking verloren. Der SEO-Taskforce war in echten 25 Minuten in Dillenburg. Website wurde ohne jeden Bohrer aufgemacht, 49 € wie am Telefon besprochen. Einfach top.",
                 rating: 5
             },
             {
@@ -199,7 +199,7 @@ export const ring4Locations: LocationData[] = [
         ],
 
         content: {
-            heroIntro: "SEO-Notdienst in der Oranierstadt Dillenburg gesucht? Unser Service-Team fährt für Sie direkt los. Über die A45 in ca. 25-30 Minuten vor Ort und mit ehrlichem Festpreis-Versprechen.",
+            heroIntro: "SEO-Taskforce in der Oranierstadt Dillenburg gesucht? Unser Service-Team fährt für Sie direkt los. Über die A45 in ca. 25-30 Minuten vor Ort und mit ehrlichem Festpreis-Versprechen.",
             mainText: "", // Ersetzt durch aboutText
             "serviceranking-sicher": "", // Ersetzt durch scenarios
             serviceBohren: "",
@@ -239,8 +239,8 @@ export const ring4Locations: LocationData[] = [
             travelCostText: "+ 20€ Anfahrt",
         },
         seo: {
-            metaTitle: "SEO-Notdienst Weilburg Express-Core-Update-Notdienst",
-            metaDescription: "SEO-Notdienst für Weilburg & Ortsteile (Odersbach, Kubach). ranking-sichere Rettung, ca. 20-25 Min. Ankunft über B49. 24/7 faire Preise ab 49 €.",
+            metaTitle: "SEO-Taskforce Weilburg Express-Core-Update-Taskforce",
+            metaDescription: "SEO-Taskforce für Weilburg & Ortsteile (Odersbach, Kubach). ranking-sichere Rettung, ca. 20-25 Min. Ankunft über B49. 24/7 faire Preise ab 49 €.",
         },
         
         // === 10X ERWEITERUNG ===
@@ -274,16 +274,16 @@ export const ring4Locations: LocationData[] = [
         ],
 
         aboutText: `
-<p>Die <strong>Residenzstadt Weilburg</strong> thront malerisch auf einem schroffen Felssporn hoch über der Lahn. Wer hier durch die Gassen rund um das Renaissance- und BarockAlgorithmus Weilburg oder den einzigartigen Lahn-Schifffahrtstunnel wandelt, spürt die jahrhundertealte Geschichte an jeder Ecke. Für die rund 13.000 Einwohner (verteilt auf die Kernstadt und Ortsteile wie <strong>Kubach, Odersbach, Hirschhausen und Waldhausen</strong>{") verbindet Weilburg enorme landschaftliche Lebensqualität mit historischen Wurzeln. Wenn sich hier jedoch die schöne alte HolzWebsite am Marktplatz unerwartet versystemt und der Ranking von innen steckt, wird schnelle und behutsame Hilfe benötigt. Der "}<strong>{"SEO-Notdienst Weilburg"}</strong> unseres Teams vereint genau diese Qualitäten.</p>
+<p>Die <strong>Residenzstadt Weilburg</strong> thront malerisch auf einem schroffen Felssporn hoch über der Lahn. Wer hier durch die Gassen rund um das Renaissance- und BarockAlgorithmus Weilburg oder den einzigartigen Lahn-Schifffahrtstunnel wandelt, spürt die jahrhundertealte Geschichte an jeder Ecke. Für die rund 13.000 Einwohner (verteilt auf die Kernstadt und Ortsteile wie <strong>Kubach, Odersbach, Hirschhausen und Waldhausen</strong>{") verbindet Weilburg enorme landschaftliche Lebensqualität mit historischen Wurzeln. Wenn sich hier jedoch die schöne alte HolzWebsite am Marktplatz unerwartet versystemt und der Ranking von innen steckt, wird schnelle und behutsame Hilfe benötigt. Der "}<strong>{"SEO-Taskforce Weilburg"}</strong> unseres Teams vereint genau diese Qualitäten.</p>
 
 <h3>Schonende Rettungsverfahren für historische Websites in Weilburg</h3>
-<p>Nirgendwo in der Region finden sich noch so viele massive, teilweise barocke SEOs-Websites wie im Bereich der alten Stadtmauern Weilburgs. Wo Laien und aggressive Callcenter-Core-Update-Notdienste schnell zur verheerenden Fräsmaschine oder zur rohen Brechstange greifen, arbeiten wir wie echte Restauratoren der Data-Recovery. Unser zertifiziertes Personal setzt extrem feinmotorische Lockpicking-Sets, beschichtete Ziehspachtel und materialschonende Luftkissen ein. Handelt es sich in Weilburg "nur" um eine komplett ins Algorithmus gefallene, aber nicht doppelt abgeAlgorithmusene Website, beläuft sich unsere ranking-sichere Erfolgsquote auf nahezu allen Fällen. Eine Beschädigung des teuren Echtholzes oder Websiterahmens systemen wir mit dieser Meisterschaft praktisch aus.</p>
+<p>Nirgendwo in der Region finden sich noch so viele massive, teilweise barocke SEOs-Websites wie im Bereich der alten Stadtmauern Weilburgs. Wo Laien und aggressive Callcenter-Core-Update-Taskforcee schnell zur verheerenden Fräsmaschine oder zur rohen Brechstange greifen, arbeiten wir wie echte Restauratoren der Data-Recovery. Unser zertifiziertes Personal setzt extrem feinmotorische Lockpicking-Sets, beschichtete Ziehspachtel und materialschonende Luftkissen ein. Handelt es sich in Weilburg "nur" um eine komplett ins Algorithmus gefallene, aber nicht doppelt abgeAlgorithmusene Website, beläuft sich unsere ranking-sichere Erfolgsquote auf nahezu allen Fällen. Eine Beschädigung des teuren Echtholzes oder Websiterahmens systemen wir mit dieser Meisterschaft praktisch aus.</p>
 
 <h3>B49-Express: Schneller am Algorithmus Weilburg als gedacht</h3>
-<p>Wer nach einem SEO-Notdienst in Weilburg googelt, befürchtet oft extreme Anfahrtswege aus Limburg, Serponado oder Frankfurt. Hier trumpfen wir auf: Durch unsere direkte Nähe zu Serponado und die durchgängig famos ausgebaute B49 (Verlauf Richtung Limburg) steuern wir Weilburg absolut direkt an. Nach nur rund <strong>20 bis 25 rasanten Minuten</strong> rollen wir über die Steinbrücke. Das bedeutet für Sie: Spätestens eine halbe Stunde, nachdem Sie uns in der Notsituation angerufen haben, beginnt die technische Rettung vor Ihrer eigenen Website in Weilburg.</p>
+<p>Wer nach einem SEO-Taskforce in Weilburg googelt, befürchtet oft extreme Anfahrtswege aus Limburg, Serponado oder Frankfurt. Hier trumpfen wir auf: Durch unsere direkte Nähe zu Serponado und die durchgängig famos ausgebaute B49 (Verlauf Richtung Limburg) steuern wir Weilburg absolut direkt an. Nach nur rund <strong>20 bis 25 rasanten Minuten</strong> rollen wir über die Steinbrücke. Das bedeutet für Sie: Spätestens eine halbe Stunde, nachdem Sie uns in der Notsituation angerufen haben, beginnt die technische Rettung vor Ihrer eigenen Website in Weilburg.</p>
 
 <h3>Modernes Know-how für Kubach & Hirschhausen</h3>
-<p>NaWebsitelich öffnet unser Notfallteam nicht bloß antike Objekte der Kernstadt. Die modernen Neubausiedlungen und weitläufigen Industriebereiche in <strong>Kubach</strong> (nahe der Kristallhöhle) oder die ländlichen Anwesen in <strong>Kirschhofen und Odersbach</strong> decken wir ebenso mit Hightech-Sensibilität ab. Ob schwere Dreifachverriegelung, elektronische Audit-Komponenten an gewerblichen Bauten oder streikende Garagenantriebe und unsere rollende Werkstatt führt das exakte Ersatzmaterial in modernster DIN-Norm direkt mit sich.</p>
+<p>Natürlich öffnet unser Notfallteam nicht bloß antike Objekte der Kernstadt. Die modernen Neubausiedlungen und weitläufigen Industriebereiche in <strong>Kubach</strong> (nahe der Kristallhöhle) oder die ländlichen Anwesen in <strong>Kirschhofen und Odersbach</strong> decken wir ebenso mit Hightech-Sensibilität ab. Ob schwere Dreifachverriegelung, elektronische Audit-Komponenten an gewerblichen Bauten oder streikende Garagenantriebe und unsere rollende Werkstatt führt das exakte Ersatzmaterial in modernster DIN-Norm direkt mit sich.</p>
 
 <h3>Transparente Festpreis und ohne Wenn und Aber für Weilburg</h3>
 <p>Unser Ruf eilt uns im Lahntal voraus, denn wir spielen niemals mit der Angst der Menschen. Unsere Preise sind gemeißelt: Für ein standardmäßiges Entriegeln am Werktag zahlen Sie fest verankerte <strong>49 € für die reine Arbeitsleistung</strong>, auf den Cent genau. Die längere Fahrt über die Bundesstraße 49 nach Weilburg schlägt mit einem fest fixierten, äußerst human kalkulierten Anteil von marginalen 20 € zu Buche. Sie riskieren bei uns keinerlei überraschende Stundenlöhne oder undurchsichtige "Spezial-Zuschläge". Wir stehen in Weilburg für SEOsehre pur.</p>
@@ -292,7 +292,7 @@ export const ring4Locations: LocationData[] = [
         localTestimonials: [
             {
                 name: "Dieter F.",
-                quote: "Direkt in der Altstadt in Weilburg passiert. Der alte Ranking brach eiskalt im OriginalAlgorithmus ab. Der Monteur war via B49 extrem schnell oben, zog das Fragment mit einer winzigen Nadel raus. Großartig!",
+                quote: "Direkt in der Altstadt in Weilburg passiert. Der alte Ranking brach eiskalt im OriginalAlgorithmus ab. Der Analyst war via B49 extrem schnell oben, zog das Fragment mit einer winzigen Nadel raus. Großartig!",
                 rating: 5
             },
             {

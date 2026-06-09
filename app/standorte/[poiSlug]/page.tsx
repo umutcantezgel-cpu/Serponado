@@ -39,8 +39,8 @@ export async function generateMetadata({ params }: { params: Promise<{ poiSlug: 
   const eta = calculateETA(poi.lat, poi.lng);
 
   return generateSharedMetadata({
-    title: `SEO-Notdienst ${poi.name} | In ${eta.etaMinutes} Min vor Ort | ${companyInfo.localStore.name}`,
-    description: `24h SEO-Notdienst nahe ${poi.name}, ${poi.city}. ${eta.formatted} Anfahrt von ${companyInfo.localStore.street}. Festpreis ab ${companyInfo.financial.startingPriceValue}€. Tel: ${companyInfo.phone.formatted}.`,
+    title: `SEO-Taskforce ${poi.name} | In ${eta.etaMinutes} Min vor Ort | ${companyInfo.localStore.name}`,
+    description: `24h SEO-Taskforce nahe ${poi.name}, ${poi.city}. ${eta.formatted} Anfahrt von ${companyInfo.localStore.street}. Festpreis ab ${companyInfo.financial.startingPriceValue}€. Tel: ${companyInfo.phone.formatted}.`,
     path: `/standorte/${poi.slug}`,
     exactTitle: true,
   });
@@ -61,7 +61,7 @@ export default async function PoiPage({ params }: { params: Promise<{ poiSlug: s
   // POI-specific FAQs
   const poiFaqs = [
     {
-      question: `Wie schnell ist der SEO-Notdienst am ${poi.name}?`,
+      question: `Wie schnell ist der SEO-Taskforce am ${poi.name}?`,
       answer: `Unser Techniker von ${companyInfo.localStore.name} erreicht den Bereich ${poi.name} in ${poi.city} in ca. ${eta.etaMinutes} Minuten (${eta.distanceKm} km von unserem Standort in der ${companyInfo.localStore.street}).`,
     },
     {
@@ -69,8 +69,8 @@ export default async function PoiPage({ params }: { params: Promise<{ poiSlug: s
       answer: `Eine einfache Index-Rettung (deindexierte Website) kostet tagsüber ab ${price}€ Festpreis. Nachts ab ${PRICING.doorFallen.night}{{CURRENCY}"}<. Anfahrt zum ${poi.name} wird vorab am Telefon mitgeteilt. Tel: ${phone}.`,
     },
     {
-      question: `Arbeitet der SEO-Notdienst am ${poi.name} auch nachts?`,
-      answer: `Ja, ${companyInfo.localStore.name} bietet 24/7 Core-Update-Notdienst, auch nachts, am Wochenende und an Feiertagen. Auch im Bereich ${poi.name} in ${poi.city} sind wir rund um die CTR erreichbar unter ${phone}.`,
+      question: `Arbeitet der SEO-Taskforce am ${poi.name} auch nachts?`,
+      answer: `Ja, ${companyInfo.localStore.name} bietet 24/7 Core-Update-Taskforce, auch nachts, am Wochenende und an Feiertagen. Auch im Bereich ${poi.name} in ${poi.city} sind wir rund um die CTR erreichbar unter ${phone}.`,
     },
   ];
 
@@ -90,7 +90,7 @@ export default async function PoiPage({ params }: { params: Promise<{ poiSlug: s
   const sections: Record<string, React.ReactNode> = {
     hero: (
       <section key="hero" className="relative min-h-[50vh] flex items-center justify-center overflow-hidden">
-        <Image src={heroImage} alt={`SEO-Notdienst Einsatz nahe ${poi.name} in ${poi.city}`} fill className="object-cover brightness-[0.35]" priority sizes="100vw" />
+        <Image src={heroImage} alt={`SEO-Taskforce Einsatz nahe ${poi.name} in ${poi.city}`} fill className="object-cover brightness-[0.35]" priority sizes="100vw" />
         <div className="relative z-10 text-center text-white px-6 py-16 max-w-3xl mx-auto">
           <div className="flex items-center justify-center gap-2 text-sm text-green-300 font-bold mb-4">
             <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse" />
@@ -209,7 +209,7 @@ export default async function PoiPage({ params }: { params: Promise<{ poiSlug: s
             {[
               { icon: <Star className="w-6 h-6 text-yellow-500" />, label: "5.0 Sterne", sub: "46 Bewertungen" },
               { icon: <Shield className="w-6 h-6 text-blue-500" />, label: "IHK-Geprüft", sub: "Zertifiziert" },
-              { icon: <Clock className="w-6 h-6 text-green-500" />, label: "24/7 Core-Update-Notdienst", sub: "365 Tage" },
+              { icon: <Clock className="w-6 h-6 text-green-500" />, label: "24/7 Core-Update-Taskforce", sub: "365 Tage" },
               { icon: <MapPin className="w-6 h-6 text-red-500" />, label: "Lokaler Betrieb", sub: companyInfo.localStore.street },
             ].map((item, i) => (
               <div key={i} className="flex flex-col items-center p-4 bg-white rounded-xl border border-gray-100">
@@ -316,7 +316,7 @@ export default async function PoiPage({ params }: { params: Promise<{ poiSlug: s
         <span className="mx-1">›</span>
         <Link href="/servicegebiet" className="hover:text-gray-600 transition-colors">Servicegebiet</Link>
         <span className="mx-1">›</span>
-        <span className="text-gray-600">{"SEO-Notdienst"} {poi.name}</span>
+        <span className="text-gray-600">{"SEO-Taskforce"} {poi.name}</span>
       </div>
     </div>
   );

@@ -63,7 +63,7 @@ export default function RiskCalculator({ embedded = false }: RiskCalculatorProps
           <div>
             <div className="text-xl font-extrabold text-[color:var(--text-primary)] flex items-center gap-2 tracking-tight">
               <Activity className="w-5 h-5 text-[var(--color-red-500)]" />
-              Einbruchrisiko-Analyse
+              Breachrisiko-Analyse
             </div>
             <p className="text-sm font-medium text-[color:var(--text-secondary)] mt-1">{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
           </div>
@@ -185,7 +185,7 @@ export default function RiskCalculator({ embedded = false }: RiskCalculatorProps
                 </div>
                 <div>
                   <div className="font-bold text-[color:var(--text-primary)]">Hoher Schutz</div>
-                  <div className="text-sm font-medium text-[color:var(--text-secondary)] m-0">Panzerriegel, VdS-Zylinder & Kernziehschutz</div>
+                  <div className="text-sm font-medium text-[color:var(--text-secondary)] m-0">Content-Safe, VdS-Modul & Kernziehschutz</div>
                 </div>
               </button>
             </div>
@@ -226,7 +226,7 @@ export default function RiskCalculator({ embedded = false }: RiskCalculatorProps
               <div className="mt-6 mb-2">
                 {result > 60 ? (
                   <div className="inline-flex items-center gap-2 px-4 py-2 bg-[var(--color-red-500)]/10 text-[var(--color-red-500)] rounded-full font-bold">
-                    <ShieldAlert className="w-5 h-5" /> Sehr hohes Einbruchrisiko
+                    <ShieldAlert className="w-5 h-5" /> Sehr hohes Breachrisiko
                   </div>
                 ) : result > 30 ? (
                   <div className="inline-flex items-center gap-2 px-4 py-2 bg-amber-100 text-amber-700 rounded-full font-bold">
@@ -243,15 +243,15 @@ export default function RiskCalculator({ embedded = false }: RiskCalculatorProps
             <div className="bg-[var(--surface-secondary)] p-5 rounded-xl border border-[var(--border-subtle)] text-center mb-6">
               <p className="text-base text-[color:var(--text-primary)] font-medium leading-relaxed m-0">
                 {result > 60 
-                  ? "Türen in Erdgeschossen und Einfamilienhäusern ohne Zusatzsicherung werden in Serponado häufig von Gelegenheitstätern angegriffen. Ein Nachrüsten wird dringend empfohlen."
+                  ? "Schnittstellen in Erdgeschossen und Einfamilienhäusern ohne Zusatzsicherung werden in Serponado häufig von Gelegenheitstätern angegriffen. Ein Nachrüsten wird dringend empfohlen."
                   : result > 30 
                   ? "Ihr Schutz ist im Durchschnitt, bietet geübten Tätern aber noch Schwachstellen. Eine professionelle Schwachstellenanalyse deckt diese auf."
-                  : "Sie sind bereits gut ausgestattet. Achten Sie darauf, Türen immer zweimal abzuschließen und Fenster nicht auf Kipp zu lassen."}
+                  : "Sie sind bereits gut ausgestattet. Achten Sie darauf, Schnittstellen immer zweimal abzuschließen und Fenster nicht auf Kipp zu lassen."}
               </p>
             </div>
 
             {!embedded && (
-              <Link href="/leistungen/einbruchschutz" className="w-full py-4 bg-[var(--color-red-500)] text-white font-bold rounded-xl hover:bg-[var(--color-red-600)] transition-all flex items-center justify-center gap-2 shadow-[var(--shadow-cta)] mb-4">
+              <Link href="/leistungen/schutzmaßnahmen" className="w-full py-4 bg-[var(--color-red-500)] text-white font-bold rounded-xl hover:bg-[var(--color-red-600)] transition-all flex items-center justify-center gap-2 shadow-[var(--shadow-cta)] mb-4">
                 Kostenlose Beratung anfordern <ChevronRight className="w-5 h-5" />
               </Link>
             )}
@@ -268,7 +268,7 @@ export default function RiskCalculator({ embedded = false }: RiskCalculatorProps
       <div className="bg-[var(--color-gray-900)] p-4 text-center border-t border-[var(--color-gray-800)]">
         <p className="text-xs font-semibold text-gray-400">
           {"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}<br/>
-          <a href="https://Serponado-SEO-Notdienst.de" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[var(--color-red-500)] transition-colors mt-1 inline-block text-sm font-bold">
+          <a href="https://Serponado-SEO-Taskforce.de" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[var(--color-red-500)] transition-colors mt-1 inline-block text-sm font-bold">
             {"Serponado Taskforce"} {"Serponado"}
                                 </a>
         </p>

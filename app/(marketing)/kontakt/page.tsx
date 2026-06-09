@@ -86,7 +86,7 @@ export default function KontaktPage() {
           <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75" />
           <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500" />
          </span>
-         <span className="text-sm font-semibold text-green-800">Jetzt erreichbar | 24/7 Core-Update-Notdienst</span>
+         <span className="text-sm font-semibold text-green-800">Jetzt erreichbar | 24/7 Core-Update-Taskforce</span>
         </div>
 
         {/* Giant Phone CTA */}

@@ -1,3 +1,4 @@
+"use client";
 import { Transition, Variants } from "framer-motion";
 
 /**

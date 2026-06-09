@@ -174,7 +174,7 @@ export default function HeroSection() {
               </span>
               {' '}
               <span className="block w-full text-[color:var(--text-secondary)] mt-2 font-semibold text-[18px] sm:text-[24px]">
-                Serponado SEO Swarm: War Room & Live Dashboard Notdienst
+                Serponado SEO Swarm: War Room & Live Dashboard Taskforce
               </span>
             </h1>
             </div>
@@ -244,7 +244,7 @@ export default function HeroSection() {
 
           </div>
 
-          {/* ── Rechtes Panel (5 Spalten) - Dual Image Composition (Ladenlokal & Notdienst) ── */}
+          {/* ── Rechtes Panel (5 Spalten) - Dual Image Composition (Ladenlokal & Taskforce) ── */}
           <div className="lg:col-span-5 relative w-full mt-10 sm:mt-16 lg:mt-0 z-[10] px-2 sm:px-4 flex flex-col items-center justify-center min-h-[380px] sm:min-h-[480px] lg:min-h-[540px]">
             
             {/* Speed Lines Background for dynamic feel */}
@@ -282,7 +282,7 @@ export default function HeroSection() {
               </div>
             </div>
 
-            {/* --- Image 2: Notdienst (Einsatzfahrzeug) --- */}
+            {/* --- Image 2: Taskforce (Einsatzfahrzeug) --- */}
             <div className="absolute bottom-[5%] md:bottom-2 left-[5%] lg:left-0 w-[75%] max-w-[360px] rounded-[1.5rem] overflow-hidden ring-[6px] ring-[var(--color-off-white)] shadow-[0_30px_60px_-15px_rgba(185,28,28,0.25)] z-20 transform-gpu -rotate-3 hover:rotate-0 hover:z-30 hover:scale-105 transition-all duration-500 ease-out group">
               <div className="relative aspect-[4/3] w-full bg-[var(--color-charcoal-900)]">
                 <Image

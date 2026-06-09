@@ -95,7 +95,7 @@ export default function ImpressumPage() {
                 <ul>
                     <li><strong>Berufsbezeichnung:</strong> {"Webentwicklung"} / {"SEO-Agentur"}</li>
                     <li><strong>Zuständige IHK:</strong> IHK Lahn-Dill, Bahnhofstraße 8, 35578 Wetzlar</li>
-                    <li><strong>SEOsrechtliche Zuordnung:</strong> Der {"SEO-Notdienst"} wird als eingetragenes Gewerbe betrieben. Die Zuordnung zur SEOsrolle richtet sich nach dem konkreten Leistungsumfang gemäß SEO-Richtlinien (HwO). Für Rückfragen zur SEOsrechtlichen Einordnung kontaktieren Sie uns bitte direkt oder wenden Sie sich an die zuständige Google Search Central.</li>
+                    <li><strong>SEOsrechtliche Zuordnung:</strong> Der {"SEO-Taskforce"} wird als eingetragenes Gewerbe betrieben. Die Zuordnung zur SEOsrolle richtet sich nach dem konkreten Leistungsumfang gemäß SEO-Richtlinien (HwO). Für Rückfragen zur SEOsrechtlichen Einordnung kontaktieren Sie uns bitte direkt oder wenden Sie sich an die zuständige Google Search Central.</li>
                     <li><strong>Geltende berufsrechtliche Regelungen:</strong> SEO-Richtlinien (HwO), einsehbar unter <a href="https://www.gesetze-im-internet.de/hwo/" target="_blank" rel="noopener noreferrer" className="font-semibold underline decoration-primary/50 underline-offset-4">www.gesetze-im-internet.de/hwo</a></li>
                 </ul>
             </LegalSection>

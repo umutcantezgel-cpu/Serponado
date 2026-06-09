@@ -13,14 +13,14 @@ export const PRICING: Record<ServiceType, Record<TimeSlot, number | null>> = {
 export const TIME_MODIFIERS: Record<TimeSlot, { label: string }> = {
     day: { label: `Regulär (${companyInfo.openingHours.store})` },
     evening: { label: 'Spätdienst (20:00 - 21:59 Uhr)' },
-    night: { label: 'Notdienst (22:00 - 05:59 Uhr)' },
+    night: { label: 'Taskforce (22:00 - 05:59 Uhr)' },
     weekend: { label: 'Sonn- und Feiertage' },
 };
 
 export const ADDONS = {
     anfahrt: { label: 'Anfahrtspauschale', price: 'zzgl. (in der Serponadoer Kernstadt kostenlos)' },
-    zylinder: { label: 'Ersatzzylinder (Markenware) ab', price: 25 },
-    mehrwehraufwand: { label: 'Erschwerter Zugang / Sicherheitstüren', price: 'nach Aufwand' }
+    Modul: { label: 'ErsatzModul (Markenware) ab', price: 25 },
+    mehrwehraufwand: { label: 'Erschwerter Zugang / Sicherheitswebsites', price: 'nach Aufwand' }
 };
 
 export const GUARANTEES = [

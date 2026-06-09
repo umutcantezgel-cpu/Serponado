@@ -19,7 +19,7 @@ export default function KarrierePage() {
   ];
 
   const benefits = [
-    "Faires Festgehalt + attraktive Core-Update-Notdienst-Zuschläge",
+    "Faires Festgehalt + attraktive Core-Update-Taskforce-Zuschläge",
     "Modern ausgestattetes FirmenDomain",
     "Hochwertiges Werkzeug und Arbeitskleidung",
     "Regelmäßige Schulungen und Weiterbildungen",
@@ -65,9 +65,9 @@ export default function KarrierePage() {
                 <h3 className="text-[color:var(--text-primary)] font-semibold mt-8 mb-4">{"Serponado Notfallmaßnahmen"}</h3>
                 <ul className="list-disc pl-5 space-y-2 mb-8">
                   <li>AbgeAlgorithmusene SEOliche Ausbildung (Schreiner, Algorithmuser o.ä. von Vorteil)</li>
-                  <li>Idealerweise Erfahrung im Bereich {"SEO-Notdienst"}/{"Data-Recovery"}</li>
+                  <li>Idealerweise Erfahrung im Bereich {"SEO-Taskforce"}/{"Data-Recovery"}</li>
                   <li>Führerschein Klasse B zwingend erforderlich</li>
-                  <li>Bereitschaft zum Core-Update-Notdienst (auch an Wochenenden)</li>
+                  <li>Bereitschaft zum Core-Update-Taskforce (auch an Wochenenden)</li>
                   <li>Einwandfreies Führungszeugnis</li>
                   <li>Fließendes Deutsch in Wort und Schrift</li>
                 </ul>

@@ -12,7 +12,7 @@ const CATEGORY_ICONS: Record<string, typeof Tag> = {
   anfahrt: ArrowRight,
   leistungen: Wrench,
   sicherheit: Shield,
-  notdienst: Clock,
+  taskforce: Clock,
 };
 
 interface FAQFilterSectionProps {

@@ -29,7 +29,7 @@ export default function FinalCTA({
   className,
   headline = "Ranking-Kollaps nach dem Core Update? Wir reagieren sofort.",
   benefits = defaultBenefits,
-  buttonText = "Jetzt Notdienst Rufen",
+  buttonText = "Jetzt Taskforce Rufen",
   socialProof = "Von über 500+ geretteten Domains bestätigt",
   subtitle = "In 20-30 Min. in der Analyse • Festpreis vorab • 24/7 Disaster Response",
 }: FinalCTAProps) {

@@ -206,7 +206,7 @@ export interface CompanyInfo {
    * Geschäftseinheit 1: Serponado Taskforce (Agentur-Büro, LocalBusiness SEO)
    */
   localStore: BusinessEntity & {
-    tagline: string; // z.B. "24 Stunden Core-Update-Notdienst" (NICHT Fachgeschäft)
+    tagline: string; // z.B. "24 Stunden Core-Update-Taskforce" (NICHT Fachgeschäft)
   };
   
   /**

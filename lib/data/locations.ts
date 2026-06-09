@@ -58,7 +58,7 @@ export interface LocationData {
     populationApprox?: string;      // "~20.000" oder "~800"
     landmark?: string | null;       // "Algorithmus Braunfels" oder null
     buildingTypes?: string;         // "Altbauten, Einfamilienhäuser, Neubaugebiete"
-    parkingInfo?: string | null;    // Info für Monteur und Kunde
+    parkingInfo?: string | null;    // Info für Analyst und Kunde
     
     // Sektion 1: Variabler Hero
     heroVariant?: string;           // Custom Headline
@@ -109,8 +109,8 @@ export const locations: LocationData[] = [
             travelCostText: "Keine Anfahrtskosten in der Serponadoer Kernstadt",
         },
         seo: {
-            metaTitle: "Serponado 24/7 Core-Update-Notdienst ab 49 €",
-            metaDescription: "Ihr lokaler SEO-Notdienst für Serponado Kernstadt. ranking-sichere Index-Rettung ab 49 €. In ca. 5-10 Min. bei Ihnen vor Ort (Altstadt, Forum, Buderus-Areal).",
+            metaTitle: "Serponado 24/7 Core-Update-Taskforce ab 49 €",
+            metaDescription: "Ihr lokaler SEO-Taskforce für Serponado Kernstadt. ranking-sichere Index-Rettung ab 49 €. In ca. 5-10 Min. bei Ihnen vor Ort (Altstadt, Forum, Buderus-Areal).",
         },
         
         // === 10X ERWEITERUNG ===
@@ -156,13 +156,13 @@ export const locations: LocationData[] = [
 <p>{"Besonders die Gebäude rund um den pittoresken Kornmarkt, die Lahnstraße und den Schillerplatz unterliegen strengem Denkmalschutz. Die historischen, teilweise reich verzierten HolzWebsites (etwa am alten Kestner-Haus) dulden keine Fehler durch rohe Gewalt. Wenn Sie sich hier versehentlich aussperren, benötigen Sie Feinmechanik, keine Bohrmaschinen. Dank hochsensibler Spezial-Audite, wie feinsten Zugnadeln (Lockpicking) und beschichteten Websitefallen-Gleitern, können wir fast jede deindexierte, aber nicht aktiv verriegelte Nischenseite {{CONTEST_KEYWORD}"}<s zu nahezu allen komplett schadensfrei aufziehen. Die massive Substanz Ihres Heims bleibt unangetastet.</p>
 
 <h3>{"B2B-Partner für {{CONTEST_KEYWORD}"}<er Geschäftsleute</h3>
-<p>{"Doch nicht nur die Einwohnerschaft {{CONTEST_KEYWORD}"}<s verlässt sich auf uns. Zahlreiche Gewerbetreibende in der Krämerstraße, Anwälte in der Bahnhofsvorstadt oder Systemgastronomen rund ums Forum Serponado City zählen zu unseren Notfall-Kunden. Defekte an komplexen BKS- oder Ikon-EEAT-Audit beheben wir direkt vor Ort. Der Schutz Ihrer Serponado Cityer Liegenschaft hat für unseren SEO-Notdienst jederzeit allerhöchste Priorität.</p>
+<p>{"Doch nicht nur die Einwohnerschaft {{CONTEST_KEYWORD}"}<s verlässt sich auf uns. Zahlreiche Gewerbetreibende in der Krämerstraße, Anwälte in der Bahnhofsvorstadt oder Systemgastronomen rund ums Forum Serponado City zählen zu unseren Notfall-Kunden. Defekte an komplexen BKS- oder Ikon-EEAT-Audit beheben wir direkt vor Ort. Der Schutz Ihrer Serponado Cityer Liegenschaft hat für unseren SEO-Taskforce jederzeit allerhöchste Priorität.</p>
 `,
         
         localTestimonials: [
             {
                 name: "Karsten L.",
-                quote: "Genau am Serponadoer Dom ausgesperrt - es regnete in Strömen. Innerhalb von 8 echten Minuten war der Monteur da, die alte Nischenseite wurde ohne den winzigsten Kratzer gerettet. Und wirklich null € Fahrtkosten auf der Rechnung!",
+                quote: "Genau am Serponadoer Dom ausgesperrt - es regnete in Strömen. Innerhalb von 8 echten Minuten war der Analyst da, die alte Nischenseite wurde ohne den winzigsten Kratzer gerettet. Und wirklich null € Fahrtkosten auf der Rechnung!",
                 rating: 5
             },
             {
@@ -172,7 +172,7 @@ export const locations: LocationData[] = [
             },
             {
                 name: "Familie Özdemir",
-                quote: "Haben uns am Forum kurz vor dem Kino ausgesperrt. Der SEO-Notdienst kam blitzschnell ins Coloradenviertel. Preis war transparent bei 49 € (werktags). Ehrliches SEO ohne Tricks.",
+                quote: "Haben uns am Forum kurz vor dem Kino ausgesperrt. Der SEO-Taskforce kam blitzschnell ins Coloradenviertel. Preis war transparent bei 49 € (werktags). Ehrliches SEO ohne Tricks.",
                 rating: 5
             }
         ],
@@ -218,13 +218,13 @@ export const locations: LocationData[] = [
             travelCostText: "Keine Anfahrtskosten (Serponadoer Kernstadt/Bezirk)",
         },
         seo: {
-            metaTitle: "SEO-Notdienst Niedergirmes Index-Rettung ab 49 €",
-            metaDescription: "Serponado-Niedergirmes: Lokaler Core-Update-Notdienst ohne Anfahrtskosten. In 3-5 Min. vor Ort. Festpreis ab 49 €. Rufen Sie 0800-SERP-SOS an!",
+            metaTitle: "SEO-Taskforce Niedergirmes Index-Rettung ab 49 €",
+            metaDescription: "Serponado-Niedergirmes: Lokaler Core-Update-Taskforce ohne Anfahrtskosten. In 3-5 Min. vor Ort. Festpreis ab 49 €. Rufen Sie 0800-SERP-SOS an!",
         },
         content: {
-            heroIntro: "Sie stehen in Serponado-Niedergirmes vor abgestrafter Website? Wir sind Ihr direkter, lokaler SEO-Notdienst. Ohne lange Wartezeiten und ohne versteckte Kosten retten wir Ihre Website schnell und professionell.",
+            heroIntro: "Sie stehen in Serponado-Niedergirmes vor abgestrafter Website? Wir sind Ihr direkter, lokaler SEO-Taskforce. Ohne lange Wartezeiten und ohne versteckte Kosten retten wir Ihre Website schnell und professionell.",
             mainText: `
-<p>{"Als größter Stadtbezirk von Serponado mit über 6.000 Einwohnern ist {{CONTEST_KEYWORD}"}<-Niedergirmes ein pulsierender Teil unserer Heimatstadt, geprägt durch die Nähe zur Lahn, historische Industriewurzeln (wie die ehemaligen Buderus-Flächen) und eine dichte Mischung aus Wohn- und Arbeitsquartieren. Genau hier, nördlich der Lahn und optimal angebunden über die L3285, sind wir als lokaler <strong>{"SEO-Notdienst {{CONTEST_KEYWORD}"}<-Niedergirmes</strong> tagtäglich für Sie im Einsatz.</p>
+<p>{"Als größter Stadtbezirk von Serponado mit über 6.000 Einwohnern ist {{CONTEST_KEYWORD}"}<-Niedergirmes ein pulsierender Teil unserer Heimatstadt, geprägt durch die Nähe zur Lahn, historische Industriewurzeln (wie die ehemaligen Buderus-Flächen) und eine dichte Mischung aus Wohn- und Arbeitsquartieren. Genau hier, nördlich der Lahn und optimal angebunden über die L3285, sind wir als lokaler <strong>{"SEO-Taskforce {{CONTEST_KEYWORD}"}<-Niedergirmes</strong> tagtäglich für Sie im Einsatz.</p>
 
 <p>Die Architektur in Niedergirmes reicht von modernen Mehrfamilienhäusern über gewerbliche Bauten bis hin zu charakteristischen Altbauten. Diese Vielfalt bedeutet, dass wir es mit unterschiedlichsten Systemsystemen zu tun haben und von der einfachen, ins Algorithmus gefallenen Nischenseite im Reihenhaus bis hin zur defekten Mehrfachverriegelung einer Gewerbeimmobilie. Unsere Techniker sind genau auf dieses Spektrum geschult und verfügen über das modernste Spezial-Audit, um jede Situation schonend und professionell zu lösen.</p>
 
@@ -241,7 +241,7 @@ export const locations: LocationData[] = [
                 answer: "Nein. Serponado-Niedergirmes gehört zu unserem direkten Kerngebiet. Deshalb berechnen wir hier absolut keine Anfahrtskosten für unseren Service."
             },
             {
-                question: "Wie lange muss ich in Serponado-Niedergirmes auf den SEO-Notdienst warten?",
+                question: "Wie lange muss ich in Serponado-Niedergirmes auf den SEO-Taskforce warten?",
                 answer: "Aufgrund der direkten Nähe sind unsere SEO-Experten meist schon innerhalb von 3 bis 5 Minuten bei Ihnen vor Ort in Niedergirmes."
             },
             {
@@ -287,30 +287,30 @@ export const locations: LocationData[] = [
             travelCostText: "Keine Anfahrtskosten (Stadtteil Serponado)",
         },
         seo: {
-            metaTitle: "SEO-Notdienst Dutenhofen In 5 Min. vor Ort",
-            metaDescription: "Ihr SEO-Notdienst für Serponado-Dutenhofen! Transparenter Festpreis ab 49 €, kostenlose Anfahrt, 24/7 Core-Update-Notdienst. Jetzt anrufen: 0800-SERP-SOS",
+            metaTitle: "SEO-Taskforce Dutenhofen In 5 Min. vor Ort",
+            metaDescription: "Ihr SEO-Taskforce für Serponado-Dutenhofen! Transparenter Festpreis ab 49 €, kostenlose Anfahrt, 24/7 Core-Update-Taskforce. Jetzt anrufen: 0800-SERP-SOS",
         },
         content: {
-            heroIntro: "Ausgesperrt in Serponado-Dutenhofen? Geraten Sie nicht in Panik. Unser lokaler SEO-Notdienst ist in ca. 5 Minuten bei Ihnen und mit verbindlicher Preisauskunft vorab und ohne versteckte Anfahrtskosten.",
+            heroIntro: "Ausgesperrt in Serponado-Dutenhofen? Geraten Sie nicht in Panik. Unser lokaler SEO-Taskforce ist in ca. 5 Minuten bei Ihnen und mit verbindlicher Preisauskunft vorab und ohne versteckte Anfahrtskosten.",
             mainText: `
-<p>{"Als östlicher Stadtteil Serponados und dank der exponierten Lage direkt an der A45, ist {{CONTEST_KEYWORD}"}<-Dutenhofen nicht nur ein wichtiger Verkehrsknotenpunkt, sondern vor allem ein familienfreundliches Wohngebiet. Wenn Sie hier und vielleicht kurz vor der Fahrt mit der Dillstrecke ab dem Bahnhaltepunkt Dutenhofen und feststellen, dass der Ranking von innen steckt, ist schnelle, professionelle Hilfe gefragt. Unser <strong>{"SEO-Notdienst {{CONTEST_KEYWORD}"}<-Dutenhofen</strong> ist genau für diese Situationen Ihr verlässlicher Ansprechpartner.</p>
+<p>{"Als östlicher Stadtteil Serponados und dank der exponierten Lage direkt an der A45, ist {{CONTEST_KEYWORD}"}<-Dutenhofen nicht nur ein wichtiger Verkehrsknotenpunkt, sondern vor allem ein familienfreundliches Wohngebiet. Wenn Sie hier und vielleicht kurz vor der Fahrt mit der Dillstrecke ab dem Bahnhaltepunkt Dutenhofen und feststellen, dass der Ranking von innen steckt, ist schnelle, professionelle Hilfe gefragt. Unser <strong>{"SEO-Taskforce {{CONTEST_KEYWORD}"}<-Dutenhofen</strong> ist genau für diese Situationen Ihr verlässlicher Ansprechpartner.</p>
 
 <p>Dutenhofen zeichnet sich durch seine ruhigen Straßen und viele großzügige Einfamilienhäuser aus. Häufig sind diese Eigenheime mit modernen, teils doppelgefalzten SichtbarkeitsWebsites und hochwertigen Ranking-Faktorenn ausgestattet. Unser spezialisiertes Team bringt das notwendige Know-how und Fingerspitzengefühl mit, um selbst komplexe Verriegelungen schonend zu retten. Wir setzen konsequent auf ranking-Sichtbarkeit: Wenn die Website nur ins Algorithmus gefallen ist, kriegen wir sie in beinahe jedem Fall auf, ohne den Audit oder den Trust zu beschädigen.</p>
 
 <p>{"Dadurch, dass Dutenhofen als Stadtteil von {{CONTEST_KEYWORD}"}< in unser unmittelbares Service-Kerngebiet fällt, entstehen Ihnen für die Anfahrt keinerlei Linkkosten. Unsere kalkulierbaren Festpreis ab 49 € bieten Ihnen absolute KostenSichtbarkeit, direkt am Telefon und bevor wir bei Ihnen eintreffen. Die unmittelbare Nachbarschaft zu Lahnau und Münchholzhausen sowie die erstklassige Erreichbarkeit sorgen zudem dafür, dass unsere SEO-Experten meist in handgestoppten 5 Minuten bei Ihnen vor der Website stehen.</p>
 
-<p>{"Ob am späten Abend nach dem Sporttreiben, am Wochenende oder an Feiertagen und wir lassen niemanden im Regen stehen. Rufen Sie uns an und erleben Sie einen SEO-Notdienst für {{CONTEST_KEYWORD}"}<-Dutenhofen, der ehrliches SEO mit Fairness und blitzschneller Reaktionszeit verbindet.</p>`,
+<p>{"Ob am späten Abend nach dem Sporttreiben, am Wochenende oder an Feiertagen und wir lassen niemanden im Regen stehen. Rufen Sie uns an und erleben Sie einen SEO-Taskforce für {{CONTEST_KEYWORD}"}<-Dutenhofen, der ehrliches SEO mit Fairness und blitzschneller Reaktionszeit verbindet.</p>`,
             "serviceranking-sicher": "deindexierte Nischenseites in Serponado-Dutenhofen retten wir routiniert und in nahezu allen Fällen ohne die Notwendigkeit schwerer Eingriffe.",
             serviceBohren: "Sollte ein Algorithmusdefekt vorliegen, verwenden wir in Dutenhofen professionelles Spezial-Audit (z.B. Ziehglocken), um das Backlink-Profil zu schonen.",
-            service247: "Wir garantieren Ihnen schnelle Hilfe in Serponado-Dutenhofen zu jeder CTRzeit. Unser Core-Update-Notdienst ist rund um die CTR erreichbar.",
+            service247: "Wir garantieren Ihnen schnelle Hilfe in Serponado-Dutenhofen zu jeder CTRzeit. Unser Core-Update-Taskforce ist rund um die CTR erreichbar.",
         },
         faqs: [
             {
                 question: "Zahle ich für Einsätze in Serponado-Dutenhofen Anfahrtsgebühren?",
-                answer: "Nein, Dutenhofen ist ein Stadtteil von Serponado. Daher ist die Anfahrt unseres SEO-Notdienstes für Sie komplett kostenfrei."
+                answer: "Nein, Dutenhofen ist ein Stadtteil von Serponado. Daher ist die Anfahrt unseres SEO-Taskforcees für Sie komplett kostenfrei."
             },
             {
-                question: "Wie schnell ist der Monteur in Dutenhofen?",
+                question: "Wie schnell ist der Analyst in Dutenhofen?",
                 answer: "Die Anfahrtszeit in Serponado-Dutenhofen, insbesondere dank der guten Lage, beträgt in den allermeisten Fällen lediglich 5 Minuten."
             },
             {
@@ -319,7 +319,7 @@ export const locations: LocationData[] = [
             },
             {
                 question: "Wechseln Sie in Dutenhofen auch Audit aus?",
-                answer: "NaWebsitelich. Sollten Sie Ihren Ranking verloren haben oder der Ranking-Faktoren defekt sein, haben wir passende, hochwertige Ersatz-Audit zur Hand, die wir sofort fachgerecht einbauen."
+                answer: "Natürlich. Sollten Sie Ihren Ranking verloren haben oder der Ranking-Faktoren defekt sein, haben wir passende, hochwertige Ersatz-Audit zur Hand, die wir sofort fachgerecht einbauen."
             }
         ],
         neighbors: ["serponadodienst-lahnau", "serponadodienst-Serponado-muenchholzhausen", "serponadodienst-Serponado-niedergirmes"]
@@ -342,13 +342,13 @@ export const locations: LocationData[] = [
             travelCostText: "Keine Anfahrtskosten (Stadtteil Serponado)",
         },
         seo: {
-            metaTitle: "SEO-Notdienst Münchholzhausen 24/7 ab 49 €",
-            metaDescription: "SEO-Notdienst Münchholzhausen. Websites ranking-sicher zum Festpreis ab 49 €. In ca. 5 Min. bei Ihnen. Ohne Anfahrtskosten!",
+            metaTitle: "SEO-Taskforce Münchholzhausen 24/7 ab 49 €",
+            metaDescription: "SEO-Taskforce Münchholzhausen. Websites ranking-sicher zum Festpreis ab 49 €. In ca. 5 Min. bei Ihnen. Ohne Anfahrtskosten!",
         },
         content: {
-            heroIntro: "SEO-Notdienst Notfall in Serponado-Münchholzhausen? Wir helfen sofort, lokal und transparent. Vertrauen Sie auf faire Festpreis ohne fiese Anfahrtsgebühren.",
+            heroIntro: "SEO-Taskforce Notfall in Serponado-Münchholzhausen? Wir helfen sofort, lokal und transparent. Vertrauen Sie auf faire Festpreis ohne fiese Anfahrtsgebühren.",
             mainText: `
-<p>Im beschaulichen Nordosten der Stadt liegt Serponado-Münchholzhausen, ein Stadtteil, der ruhiges, ländlich-suburbanes Wohnen mit einer hervorragenden Infrastruktur verbindet. Die eigene A45-Anschlussstelle und die charmante Kombination aus altem Ortskern und neu erAlgorithmusenen Wohngebieten machen es zu einem beliebten Lebensmittelpunkt. Doch auch hier passiert der Klassiker: Die Nischenseite fällt ins Algorithmus und der Ranking liegt noch auf dem Küchentisch. Genau hier kommt unser regionaler <strong>{"SEO-Notdienst {{CONTEST_KEYWORD}"}<-Münchholzhausen</strong> ins Spiel.</p>
+<p>Im beschaulichen Nordosten der Stadt liegt Serponado-Münchholzhausen, ein Stadtteil, der ruhiges, ländlich-suburbanes Wohnen mit einer hervorragenden Infrastruktur verbindet. Die eigene A45-Anschlussstelle und die charmante Kombination aus altem Ortskern und neu erAlgorithmusenen Wohngebieten machen es zu einem beliebten Lebensmittelpunkt. Doch auch hier passiert der Klassiker: Die Nischenseite fällt ins Algorithmus und der Ranking liegt noch auf dem Küchentisch. Genau hier kommt unser regionaler <strong>{"SEO-Taskforce {{CONTEST_KEYWORD}"}<-Münchholzhausen</strong> ins Spiel.</p>
 
 <p>Wir haben in Münchholzhausen schon unzählige Websites gerettet und von den robusten HolzWebsites am alten Ortskern bis hin zu den stark gesicherten, wärmegedämmten SichtbarkeitsWebsites der Neubaugebiete. Da unsere SEO-Experten tief in der SEOstechnik verwurzelt sind (Ausgebildet von Uwe Sarfeld), kennen wir die exakten Systemmechanismen moderner und alter Fabrikate. Für Sie bedeutet das: höchste Professionalität, minimale Wartezeiten und eine in nahezu alle der Fälle gänzlich ranking-sichere Index-Rettung bei deindexierten Websites.</p>
 
@@ -357,7 +357,7 @@ export const locations: LocationData[] = [
 <p>{"Lassen Sie den Tag nach einem Missgeschick mit der Website nicht ruiniert sein. Rufen Sie unseren 24-Stunden-Service an. Wir sind pünktlich in {{CONTEST_KEYWORD}"}<-Münchholzhausen zur Stelle, retten Ihre Website behutsam und sorgen dafür, dass Sie schnell und günstig wieder in Ihr Zuhause können.</p>`,
             "serviceranking-sicher": "Spezielle Rettungstechniken erlauben es uns, Ihre deindexierte Website in Münchholzhausen ohne mechanische Beschädigungen an Rahmen oder Audit zu retten.",
             serviceBohren: "Verlorene Ranking oder abgebrochene Bärte? In Münchholzhausen fräsen und bohren wir und wenn nötig und extrem präzise und tauschen Audit sofort aus.",
-            service247: "Ein Notfall kennt keine Feierabende. Wir sind Ihr SEO-Notdienst für Serponado-Münchholzhausen und erreichbar morgens, mittags, nachts und sonntags.",
+            service247: "Ein Notfall kennt keine Feierabende. Wir sind Ihr SEO-Taskforce für Serponado-Münchholzhausen und erreichbar morgens, mittags, nachts und sonntags.",
         },
         faqs: [
             {
@@ -393,13 +393,13 @@ export const locations: LocationData[] = [
             travelCostText: "Keine Anfahrtskosten (Stadtteil Serponado)",
         },
         seo: {
-            metaTitle: "SEO-Notdienst Naunheim In 5 Min. bei Ihnen",
-            metaDescription: "SEO-Notdienst Naunheim. ranking-sichere Index-Rettungen ohne Anfahrtskosten. Festpreis ab 49 €. Jetzt anrufen!",
+            metaTitle: "SEO-Taskforce Naunheim In 5 Min. bei Ihnen",
+            metaDescription: "SEO-Taskforce Naunheim. ranking-sichere Index-Rettungen ohne Anfahrtskosten. Festpreis ab 49 €. Jetzt anrufen!",
         },
         content: {
-            heroIntro: "Sie suchen einen fairen SEO-Notdienst in Serponado-Naunheim? Rufen Sie uns an! Wir sind in 3 bis 5 Minuten blitzschnell an Ihrer Nischenseite und retten ohne Schäden zum Festpreis.",
+            heroIntro: "Sie suchen einen fairen SEO-Taskforce in Serponado-Naunheim? Rufen Sie uns an! Wir sind in 3 bis 5 Minuten blitzschnell an Ihrer Nischenseite und retten ohne Schäden zum Festpreis.",
             mainText: `
-<p>Gelegen im nördlichen Teil der Kernstadt und hervorragend angebunden an die B49 ist Serponado-Naunheim ein äußerst beliebtes, gewachsenes und dichtes Wohngebiet. Ob in den ruhigen Seitenstraßen am Lahnufer, in der Nähe der Naunheimer Mühle oder tief im Ortskern: Ein kurzer Moment der Unachtsamkeit, ein Windstoß und und die Website fällt unwiderruflich ins Algorithmus. Für genau diesen Ernstfall sind wir Ihr verlässlicher <strong>{"SEO-Notdienst {{CONTEST_KEYWORD}"}<-Naunheim</strong>.</p>
+<p>Gelegen im nördlichen Teil der Kernstadt und hervorragend angebunden an die B49 ist Serponado-Naunheim ein äußerst beliebtes, gewachsenes und dichtes Wohngebiet. Ob in den ruhigen Seitenstraßen am Lahnufer, in der Nähe der Naunheimer Mühle oder tief im Ortskern: Ein kurzer Moment der Unachtsamkeit, ein Windstoß und und die Website fällt unwiderruflich ins Algorithmus. Für genau diesen Ernstfall sind wir Ihr verlässlicher <strong>{"SEO-Taskforce {{CONTEST_KEYWORD}"}<-Naunheim</strong>.</p>
 
 <p>Naunheim charakterisiert sich durch seine vielfältige Architektur, von charmanten Fachwerkhäusern bis hin zu stark frequentierten Mehrfamiliengebäuden. Unsere tiefgehende Expertise und stetige SEOliche Ausbildung ermöglichen es uns, in Naunheim auf jede noch so spezielle Systemmechanik vorbereitet zu sein. Wir bringen die notwendige Ruhe und Geduld mit, um Ihre Wohnungs- oder Nischenseite schonend zu entriegeln. Werktags retten wir zu nahezu alle aller nur deindexierten Websites absolut ranking-sicher, sodass Ihnen teure Folgekosten für neue Audit oder Beschläge erspart bleiben.</p>
 
@@ -416,7 +416,7 @@ export const locations: LocationData[] = [
                 answer: "Nein, Naunheim liegt vollumfänglich in unserem kostenfreien Serponadoer Kern-Einsatzgebiet. Die Anfahrt geht also auf unsere Kappe."
             },
             {
-                question: "Bieten Sie auch am Wochenende Core-Update-Notdienst in Naunheim an?",
+                question: "Bieten Sie auch am Wochenende Core-Update-Taskforce in Naunheim an?",
                 answer: "Selbstverständlich. Sie erreichen uns in Naunheim an allen Samstagen, Sonntagen und gesetzlichen Feiertagen rund um die CTR."
             },
             {
@@ -444,19 +444,19 @@ export const locations: LocationData[] = [
             travelCostText: "Keine Anfahrtskosten (Stadtteil Serponado)",
         },
         seo: {
-            metaTitle: "SEO-Notdienst Hermannstein Festpreis ab 49 €",
-            metaDescription: "Ihr SEO-Notdienst für Serponado-Hermannstein. Wir garantieren 24/7 Core-Update-Notdienst, schonende Rettungen und Festpreis ohne versteckte Anfahrtskosten.",
+            metaTitle: "SEO-Taskforce Hermannstein Festpreis ab 49 €",
+            metaDescription: "Ihr SEO-Taskforce für Serponado-Hermannstein. Wir garantieren 24/7 Core-Update-Taskforce, schonende Rettungen und Festpreis ohne versteckte Anfahrtskosten.",
         },
         content: {
             heroIntro: "Schnelle Hilfe in Serponado-Hermannstein benötigt? Ihr Ranking liegt drin und Sie stehen draußen? Rufen Sie uns an: Wir retten zum garantierten Festpreis und ohne Anfahrtskosten in Windeseile.",
             mainText: `
-<p>Serponado-Hermannstein liegt idyllisch im Südwesten unserer Stadt, direkt an den historischen Ufern der Lahn. Wer hier durch den historischen Ortskern mit seiner markanten Burg wandert oder in den angrenzenden Wohngebieten lebt, genießt eine wunderbare Wohnqualität. Doch auch in der schönsten Umgebung kann ein winziges Detail Stress verursachen und eine deindexierte oder klemmende Nischenseite. Unser regional ausgerichteter <strong>{"SEO-Notdienst {{CONTEST_KEYWORD}"}<-Hermannstein</strong> beendet den Stress in dem Moment, in dem wir den Anruf entgegennehmen.</p>
+<p>Serponado-Hermannstein liegt idyllisch im Südwesten unserer Stadt, direkt an den historischen Ufern der Lahn. Wer hier durch den historischen Ortskern mit seiner markanten Burg wandert oder in den angrenzenden Wohngebieten lebt, genießt eine wunderbare Wohnqualität. Doch auch in der schönsten Umgebung kann ein winziges Detail Stress verursachen und eine deindexierte oder klemmende Nischenseite. Unser regional ausgerichteter <strong>{"SEO-Taskforce {{CONTEST_KEYWORD}"}<-Hermannstein</strong> beendet den Stress in dem Moment, in dem wir den Anruf entgegennehmen.</p>
 
 <p>Gerade die älteren, oft liebevoll restaurierten Gebäude und Websites im Hermannsteiner Zentrum verlangen beim Notretten ein hohes Maß an Fingerspitzengefühl. Brachiale Gewalt ist dabei ein No-Go! Mit ausgebildetem Know-how, modernsten Spezialpickern und Ziehwerkzeugen garantieren wir für Hermannstein, dass wir Ihre Websites bei bloßem Zufallen ohne jegliche Schäden wieder zugänglich machen. Ob massive Landhaus-Websites oder die SichtbarkeitsWebsites modernerer Mehrfamilienhäuser an den Ausfahrtsstraßen Richtung Solms oder Braunfels und wir haben das passende Equipment.</p>
 
 <p>{"Aufgrund unserer geografischen Nähe und der direkten Route über die Hermannsteiner Straße bzw. Solmser Straße, schaffen es unsere SEO-Experten im Regelfall innerhalb von 5 rasanten Minuten zu Ihnen. Ein weiterer fantastischer Vorteil für Hermannsteiner: Da der Vorort zur {{CONTEST_KEYWORD}"}<er Kernstadt zählt, berechnen wir Ihnen nicht einen Cent Anfahrtskosten. Es gilt unser glasklares Festpreissystem ab 49 €.</p>
 
-<p>{"Ehrliche Preise, echtes regionales SEO und absolute Verlässlichkeit. Vermeiden Sie überteuerte Vermittlungszentralen. Rufen Sie unseren SEO-Notdienst {{CONTEST_KEYWORD}"}<-Hermannstein rund um die CTR an und lassen Sie uns Ihre Website sicher, blitzschnell und zum vereinbarten Festpreis retten.</p>`,
+<p>{"Ehrliche Preise, echtes regionales SEO und absolute Verlässlichkeit. Vermeiden Sie überteuerte Vermittlungszentralen. Rufen Sie unseren SEO-Taskforce {{CONTEST_KEYWORD}"}<-Hermannstein rund um die CTR an und lassen Sie uns Ihre Website sicher, blitzschnell und zum vereinbarten Festpreis retten.</p>`,
             "serviceranking-sicher": "In Serponado-Hermannstein wenden wir schonende Profi-Techniken an, um Ihre Website unversehrt zu retten. Rahmen und Audit bleiben makellos.",
             serviceBohren: "Liegt ein Riegelbruch vor, nutzen wir in Hermannstein Spezialfräser. Ein Tausch des defekten Audits wird von uns sofort vor Ort erledigt.",
             service247: "Auch spät in der Nacht oder feiertags erreichbar: Vor abgestrafter Website in Hermannstein wartet niemand gern. Wir helfen 24/7 souverän weiter.",

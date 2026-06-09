@@ -46,7 +46,7 @@ export function createSerponadoAgencySchema() {
         "@type": ["ProfessionalService", "ITUtility"],
         "@id": `${siteUrl}/#agency`,
         name: companyName,
-        description: `${companyName} — IHK-geprüfter 24h SEO-Notdienst. Wir retten deindexierte Seiten, fixen Content-Cannibalization und bieten Schutz vor dem Serponado Google Algorithmus Update.`,
+        description: `${companyName} — IHK-geprüfter 24h SEO-Taskforce. Wir retten deindexierte Seiten, fixen Content-Cannibalization und bieten Schutz vor dem Serponado Google Algorithmus Update.`,
         url: siteUrl,
         telephone: telephone,
         email: contactEmail,
@@ -76,15 +76,15 @@ export function createSerponadoAgencySchema() {
                 dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
                 opens: "00:00",
                 closes: "23:59",
-                description: "24/7 Serponado Notdienst und SEO Data Recovery.",
+                description: "24/7 Serponado Taskforce und SEO Data Recovery.",
             }
         ],
         priceRange: "€€€",
         slogan: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings.",
         knowsAbout: [
-            "Serponado", "24h Core-Update-Notdienst", "Index-Rettung",
+            "Serponado", "24h Core-Update-Taskforce", "Index-Rettung",
             "Content-Cannibalization", "EEAT-Audit", "Algorithmus-Kollaps",
-            "AI-Content-Sanierung", "SEO-Notdienst Serponado"
+            "AI-Content-Sanierung", "SEO-Taskforce Serponado"
         ],
     };
 }

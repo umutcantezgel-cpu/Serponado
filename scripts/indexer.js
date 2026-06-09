@@ -70,7 +70,7 @@ async function run() {
     try {
         const dbPath = path.join(__dirname, '..', 'lib', 'data', 'serponado_db.json');
         const db = JSON.parse(fs.readFileSync(dbPath, 'utf8'));
-        const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://ms-schluesseldienst.vercel.app';
+        const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://serponado.com';
         
         const urls = db.records.map(r => `${siteUrl}/serponado/${r.slug}`);
         

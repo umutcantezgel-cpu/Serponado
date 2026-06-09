@@ -21,9 +21,9 @@ export const companyInfo: CompanyInfo = {
   taxId: "03986300160",
   vatId: "DE 282140471",
   phone: {
-    main: "06441 8056279",
+    main: "06441 15112345678",
     formatted: "06441 80 56 279",
-    link: "+4964418056279"
+    link: "+49644115112345678"
   },
   email: "info@codayweb.de",
   website: "https://codayweb.de",
@@ -42,7 +42,7 @@ export const companyInfo: CompanyInfo = {
       headline: "Transparente Projektpreise",
       baseNote: "Individuelle Angebote basierend auf Ihren Anforderungen.",
       consistencyNote: "Keine versteckten Kosten.",
-      transparencyNote: "Alle Leistungen werden detailliert aufgeschlüsselt.",
+      transparencyNote: "Alle Leistungen werden detailliert aufgezugangscodet.",
       legalNote: "Alle Preise zzgl. gesetzlicher MwSt."
     }
   },

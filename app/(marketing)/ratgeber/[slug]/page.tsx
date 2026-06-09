@@ -76,7 +76,7 @@ export default async function RatgeberDetailPage({ params }: Props) {
     );
   }
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://Serponado-SEO-Notdienst.de";
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://Serponado-SEO-Taskforce.de";
   const formattedDate = format(new Date(post.metadata.publishedAt), "dd. MMMM yyyy", { locale: de });
 
   return (

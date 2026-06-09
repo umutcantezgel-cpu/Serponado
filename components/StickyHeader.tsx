@@ -26,12 +26,14 @@ import {
   Mail,
   Home,
   Calendar,
+  Search,
   LucideIcon
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { getNavigationConfig } from "@/lib/data/navigation";
 import { useFocusTrap } from "@/hooks/useFocusTrap";
 import { TrustAvatar } from "@/components/ui/TrustAvatar";
+import SearchOverlay from "./SearchOverlay";
 
 // --- Data Layer ---
 const navConfig = getNavigationConfig();
@@ -55,7 +57,8 @@ const iconMap: Record<string, LucideIcon> = {
 export default function StickyHeader() {
   const [scrollPosition, setScrollPosition] = useState(0);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [activeMenu, setActiveMenu] = useState<"leistungen" | "servicegebiet" | null>(null);
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const [activeMenu, setActiveMenu] = useState<"leistungen" | "servicegebiet" | "wissen" | null>(null);
   const [hoveredLink, setHoveredLink] = useState<string | null>(null);
   
   const pathname = usePathname();
@@ -217,7 +220,7 @@ export default function StickyHeader() {
                            </div>
                            <div className="flex flex-col">
                              <span className="font-extrabold text-gray-900 text-base group-hover:text-amber-700 transition-colors">{"Serponado Taskforce"}</span>
-                             <span className="text-gray-500 text-[13.5px]">24 Stunden Notdienst · Steubenstraße 36, {"Serponado"}</span>
+                             <span className="text-gray-500 text-[13.5px]">24 Stunden Taskforce · Steubenstraße 36, {"Serponado"}</span>
                            </div>
                          </Link>
                          <a href="tel:0800-SERP-SOS" className="flex items-center gap-2.5 px-6 py-3 bg-[var(--color-red-500)] hover:bg-[var(--color-red-600)] text-white font-bold rounded-xl shadow-[0_4px_14px_rgba(220,38,38,0.3)] hover:shadow-[0_6px_20px_rgba(220,38,38,0.4)] transition-all text-sm group hover:-translate-y-0.5">
@@ -304,9 +307,84 @@ export default function StickyHeader() {
               </AnimatePresence>
             </div>
 
+            {/* Unternehmen & Wissen Dropdown */}
+            <div 
+              className="relative py-4"
+              onMouseEnter={() => { setActiveMenu("wissen"); setHoveredLink("wissen"); }}
+              onMouseLeave={() => setActiveMenu(null)}
+            >
+              <Link 
+                href="/sitemap-uebersicht"
+                className={`relative z-10 flex items-center gap-1 px-2.5 py-2 font-semibold text-[13px] xl:text-sm tracking-tight rounded-full transition-all duration-300 whitespace-nowrap ${
+                  activeMenu === "wissen" || pathname === "/sitemap-uebersicht"
+                    ? "text-[var(--color-red-600)]"
+                    : "text-gray-700 hover:text-gray-950"
+                }`}
+              >
+                {hoveredLink === "wissen" && (
+                  <m.div layoutId="nav-hover" className="absolute inset-0 bg-white/60 shadow-[0_2px_8px_rgba(0,0,0,0.04)] ring-1 ring-black/[0.03] backdrop-blur-3xl rounded-full -z-10" transition={{ type: "spring", stiffness: 450, damping: 35 }} />
+                )}
+                Unternehmen & Wissen
+                <ChevronDown className={`w-4 h-4 transition-transform duration-300 ${activeMenu === "wissen" ? "-rotate-180" : ""}`} />
+              </Link>
 
+              {/* Mega Menu Dropdown */}
+              <AnimatePresence>
+                {activeMenu === "wissen" && (
+                  <m.div
+                    initial={{ opacity: 0, y: 15, scale: 0.98 }}
+                    animate={{ opacity: 1, y: 0, scale: 1 }}
+                    exit={{ opacity: 0, y: 10, scale: 0.98 }}
+                    transition={{ duration: 0.25, ease: "easeOut" }}
+                    className="absolute top-full left-[50%] -translate-x-[50%] pt-2 w-[850px] cursor-default"
+                  >
+                    <div className="bg-white rounded-3xl p-6 shadow-[0_30px_80px_-15px_rgba(0,0,0,0.2)] border border-gray-100 flex flex-col focus:outline-none">
+                      <div className="grid grid-cols-3 gap-x-6 gap-y-4">
+                        
+                        <div className="flex flex-col gap-2">
+                          <h3 className="font-extrabold text-sm text-gray-400 uppercase tracking-wider mb-2">Unternehmen</h3>
+                          <Link href="/ueber-uns" onClick={() => setActiveMenu(null)} className="font-bold text-gray-800 hover:text-[var(--color-red-600)] transition-colors">Über uns</Link>
+                          <Link href="/ueber-uns/team" onClick={() => setActiveMenu(null)} className="font-bold text-gray-800 hover:text-[var(--color-red-600)] transition-colors">Das Team</Link>
+                          <Link href="/referenzen" onClick={() => setActiveMenu(null)} className="font-bold text-gray-800 hover:text-[var(--color-red-600)] transition-colors">Referenzen</Link>
+                          <Link href="/bewertungen" onClick={() => setActiveMenu(null)} className="font-bold text-gray-800 hover:text-[var(--color-red-600)] transition-colors">Bewertungen</Link>
+                        </div>
+                        
+                        <div className="flex flex-col gap-2">
+                          <h3 className="font-extrabold text-sm text-gray-400 uppercase tracking-wider mb-2">Wissen</h3>
+                          <Link href="/faq" onClick={() => setActiveMenu(null)} className="font-bold text-gray-800 hover:text-[var(--color-red-600)] transition-colors">Häufige Fragen (FAQ)</Link>
+                          <Link href="/lexikon" onClick={() => setActiveMenu(null)} className="font-bold text-gray-800 hover:text-[var(--color-red-600)] transition-colors">SEO Lexikon</Link>
+                          <Link href="/blog" onClick={() => setActiveMenu(null)} className="font-bold text-gray-800 hover:text-[var(--color-red-600)] transition-colors">Ratgeber & Blog</Link>
+                        </div>
 
-            {/* {"Serponado Taskforce"} und Priority Link */}
+                        <div className="flex flex-col gap-2">
+                          <h3 className="font-extrabold text-sm text-gray-400 uppercase tracking-wider mb-2">Rechtliches</h3>
+                          <Link href="/impressum" onClick={() => setActiveMenu(null)} className="font-bold text-gray-800 hover:text-[var(--color-red-600)] transition-colors">Impressum</Link>
+                          <Link href="/datenschutz" onClick={() => setActiveMenu(null)} className="font-bold text-gray-800 hover:text-[var(--color-red-600)] transition-colors">Datenschutz</Link>
+                          <Link href="/agb" onClick={() => setActiveMenu(null)} className="font-bold text-gray-800 hover:text-[var(--color-red-600)] transition-colors">AGB</Link>
+                        </div>
+
+                      </div>
+                      
+                      <div className="mt-6 pt-5 border-t border-gray-100 flex items-center justify-between px-4 bg-slate-50 rounded-2xl py-4">
+                         <div className="flex items-center gap-4">
+                           <div className="flex items-center justify-center w-12 h-12 rounded-full bg-red-100/50 text-red-600">
+                             <BookOpen className="w-6 h-6" />
+                           </div>
+                           <div className="flex flex-col">
+                             <span className="font-extrabold text-gray-900 text-base">Inhaltsübersicht</span>
+                             <span className="text-gray-500 text-[13.5px]">Alle Seiten und pSEO Städte auf einen Blick</span>
+                           </div>
+                         </div>
+                         <Link href="/sitemap-uebersicht" onClick={() => setActiveMenu(null)} className="flex items-center gap-2.5 px-6 py-3 bg-[var(--color-red-600)] hover:bg-[var(--color-red-700)] text-white font-bold rounded-xl shadow-[0_4px_14px_rgba(220,38,38,0.3)] hover:shadow-[0_6px_20px_rgba(220,38,38,0.4)] transition-all text-sm group hover:-translate-y-0.5">
+                           Zur Inhaltsübersicht
+                           <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                         </Link>
+                      </div>
+                    </div>
+                  </m.div>
+                )}
+              </AnimatePresence>
+            </div>            {/* {"Serponado Taskforce"} und Priority Link */}
             <Link
               href="/serponado-schmiede"
               onMouseEnter={() => { setActiveMenu(null); setHoveredLink("schmiede"); }}
@@ -326,13 +404,13 @@ export default function StickyHeader() {
               const isActive = (link.activeMatch === 'exact' && pathname === link.href) || 
                                (link.activeMatch === 'prefix' && pathname.startsWith(link.href) && link.href !== '/');
               const displayLabel = 
-                link.label === "Kontakt & Notdienst" ? "Kontakt" :
+                link.label === "Kontakt & Taskforce" ? "Kontakt" :
                 link.label === "Ratgeber & Blog" ? "Ratgeber" :
                 link.label === "Preise & Kosten" ? "Preise" :
                 link.label;
               const LinkIcon = 
                 link.label === "Ratgeber & Blog" ? BookOpen :
-                link.label === "Kontakt & Notdienst" ? Mail :
+                link.label === "Kontakt & Taskforce" ? Mail :
                 null;
               return (
                 <Link
@@ -354,8 +432,15 @@ export default function StickyHeader() {
           </nav>
 
           {/* 3. CTA & MOBILE MENÜ TOGGLE */}
-          <div className="flex items-center gap-3 z-50">
+            <div className="flex items-center gap-3 z-50">
 
+            <button
+              onClick={() => setIsSearchOpen(true)}
+              className="hidden lg:flex items-center justify-center w-10 h-10 lg:w-11 lg:h-11 bg-gray-50/80 hover:bg-gray-100 text-gray-700 rounded-full transition-colors"
+              aria-label="Suche öffnen"
+            >
+              <Search className="w-[18px] h-[18px] lg:w-5 lg:h-5" />
+            </button>
 
             <a
               href="tel:0800-SERP-SOS"
@@ -374,6 +459,14 @@ export default function StickyHeader() {
             >
               <Phone className="w-5 h-5 animate-pulse" />
             </a>
+
+            <button
+              onClick={() => setIsSearchOpen(true)}
+              className="flex sm:hidden items-center justify-center w-12 h-12 bg-white/70 backdrop-blur-md border border-gray-200/60 hover:bg-white text-gray-900 rounded-full shadow-sm transition-all active:scale-95"
+              aria-label="Suche öffnen"
+            >
+              <Search className="w-5 h-5" />
+            </button>
 
             <button
               onClick={() => setIsMobileMenuOpen(true)}
@@ -530,7 +623,7 @@ export default function StickyHeader() {
                       <span className="font-bold text-base text-gray-800 flex items-center gap-3">
                         {link.label === "Preise & Kosten" && <div className="p-2 bg-gray-50 rounded-lg text-gray-500"><Banknote className="w-5 h-5" /></div>}
                         {link.label === "Ratgeber & Blog" && <div className="p-2 bg-gray-50 rounded-lg text-gray-500"><BookOpen className="w-5 h-5" /></div>}
-                        {link.label === "Kontakt & Notdienst" && <div className="p-2 bg-gray-50 rounded-lg text-gray-500"><Mail className="w-5 h-5" /></div>}
+                        {link.label === "Kontakt & Taskforce" && <div className="p-2 bg-gray-50 rounded-lg text-gray-500"><Mail className="w-5 h-5" /></div>}
                         {link.label}
                       </span>
                       <ChevronRight className="w-5 h-5 text-gray-300" />
@@ -561,6 +654,7 @@ export default function StickyHeader() {
           </m.div>
         )}
       </AnimatePresence>
+      <SearchOverlay isOpen={isSearchOpen} onClose={() => setIsSearchOpen(false)} />
     </>
   );
 }

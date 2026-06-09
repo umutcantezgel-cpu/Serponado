@@ -5,7 +5,7 @@ import { pickVariant } from "@/lib/textRotation";
 export default function LocationFinalCTA({ city }: { city: LocationData }) {
     const subtitle = pickVariant([
         `Wir sind in ca. ${city.logistics.drivingTimeMinutes} Minuten da.`,
-        `Unser Notdienst erreicht Sie meist unter ${city.logistics.drivingTimeMinutes} Minuten.`,
+        `Unser Taskforce erreicht Sie meist unter ${city.logistics.drivingTimeMinutes} Minuten.`,
         `Schnelle Hilfe vor Ort in ca. ${city.logistics.drivingTimeMinutes} Minuten.`
     ], city.slug, 6);
 

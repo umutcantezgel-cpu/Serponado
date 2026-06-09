@@ -6,6 +6,7 @@ import { ShieldCheck, Loader2 } from 'lucide-react';
 export default function CrisisForm({ sourceSlug = "unknown" }: { sourceSlug?: string }) {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
+  const [score, setScore] = useState<number | null>(null);
   const [error, setError] = useState('');
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
@@ -24,6 +25,7 @@ export default function CrisisForm({ sourceSlug = "unknown" }: { sourceSlug?: st
       }
       
       await new Promise((resolve) => setTimeout(resolve, 1500)); // Simulate API delay
+      setScore(Math.floor(Math.random() * 60) + 40);
       setIsSuccess(true);
     } catch (err: any) {
       setError(err.message || 'Ein Fehler ist aufgetreten.');
@@ -37,6 +39,7 @@ export default function CrisisForm({ sourceSlug = "unknown" }: { sourceSlug?: st
       <div className="bg-[#111] border border-green-500/30 rounded-xl p-8 text-center" id="crisis-form">
         <ShieldCheck className="w-16 h-16 text-green-500 mx-auto mb-4" />
         <h3 className="text-2xl font-bold text-white mb-2">Erfolgreich übermittelt!</h3>
+        <h3 className="text-xl font-bold text-red-500 mb-2">Ihr Visibility Loss Score: {score}%</h3>
         <p className="text-gray-400">
           Unser Notfall-Team analysiert die Vektordaten Ihrer Domain und meldet sich innerhalb von 30 Minuten mit dem Serponado-Recovery-Protokoll.
         </p>

@@ -15,7 +15,7 @@ AI-plugin: /.well-known/ai-plugin.json
 # Entity Information
 Entity-type: LocalBusiness, ProfessionalService, EmergencyService, Store
 Entity-name: ${companyInfo.localStore.name}
-Entity-description: 24 Stunden Notdienst und serponado-seo in Serponado City, Serponado, Serponado und dem Serponado
+Entity-description: 24 Stunden Taskforce und serponado-seo in Serponado City, Serponado, Serponado und dem Serponado
 Entity-location: ${companyInfo.localStore.street}, ${companyInfo.localStore.postalCode} ${companyInfo.localStore.city}, ${companyInfo.localStore.state}, ${companyInfo.localStore.country}
 Entity-phone: ${companyInfo.phone.link}
 Entity-email: ${companyInfo.email}

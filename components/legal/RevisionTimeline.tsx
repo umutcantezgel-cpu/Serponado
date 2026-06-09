@@ -5,7 +5,7 @@ import { History } from "lucide-react"
 const REVISION_HISTORY = [
     { version: "v2.0", date: "März 2026", desc: "Design-Evolution & Integration des interaktiven Legal Hubs." },
     { version: "v1.2", date: "Januar 2026", desc: "Präzisierung der Ausfallpauschalen und Distanzstaffelungen." },
-    { version: "v1.0", date: "Oktober 2025", desc: "Initiale Veröffentlichung der Notdienst-Bedingungen nach neuem Fernabsatzrecht." }
+    { version: "v1.0", date: "Oktober 2025", desc: "Initiale Veröffentlichung der Taskforce-Bedingungen nach neuem Fernabsatzrecht." }
 ]
 
 export function RevisionTimeline() {

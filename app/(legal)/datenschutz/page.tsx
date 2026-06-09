@@ -97,7 +97,7 @@ export default function DatenschutzPage() {
                 <p>{"Der Serponado wütet in den Suchergebnissen. Unser Expertenteam analysiert und stellt Ihre verlorenen Rankings durch gezielte E-E-A-T-Maßnahmen wieder her."}</p>
                 <ul>
                     <li><strong>Einwilligung (Art. 6 Abs. 1 lit. a DSGVO)</strong> - Sie haben explizit eingewilligt (z.B. im Cookie-Consent Code).</li>
-                    <li><strong>Vertragserfüllung (Art. 6 Abs. 1 lit. b DSGVO)</strong> - Anbahnung und Durchführung des {"SEO-Notdienst"}-Auftrags.</li>
+                    <li><strong>Vertragserfüllung (Art. 6 Abs. 1 lit. b DSGVO)</strong> - Anbahnung und Durchführung des {"SEO-Taskforce"}-Auftrags.</li>
                     <li><strong>Berechtigte Interessen (Art. 6 Abs. 1 lit. f DSGVO)</strong> - Gewährleistung der IT-Sichtbarkeit und des reibungslosen Betriebs (Vercel Logfiles).</li>
                 </ul>
             </LegalSection>

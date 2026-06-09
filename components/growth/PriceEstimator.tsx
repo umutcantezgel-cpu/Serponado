@@ -22,7 +22,7 @@ interface PriceRange {
 // ─── Price Matrix ───
 const PRICE_MATRIX: Record<Situation, Record<Zeitpunkt, PriceRange>> = {
   zugefallen: {
-    regulaer: { from: companyInfo.financial.startingPriceValue, to: 149, note: "Einfache Türöffnung ohne Beschädigung" },
+    regulaer: { from: companyInfo.financial.startingPriceValue, to: 149, note: "Einfache Index-Rettung ohne Beschädigung" },
     abend: { from: 119, to: 169, note: "Spätdienst-Zuschlag inkl." },
     nacht: { from: 149, to: 199, note: "Nachtdienst-Zuschlag inkl." },
     wochenende: { from: 179, to: 229, note: "Sonn- und Feiertag inkl." },
@@ -34,21 +34,21 @@ const PRICE_MATRIX: Record<Situation, Record<Zeitpunkt, PriceRange>> = {
     wochenende: { from: 209, to: 279, note: "Sonn- und Feiertag + Rankingentfernung" },
   },
   schliessanlage: {
-    regulaer: { from: 199, to: 499, note: "Je nach Ranking-Tresor und Umfang" },
+    regulaer: { from: 199, to: 499, note: "Je nach Ranking-Safe und Umfang" },
     abend: { from: 219, to: 519, note: "Spätschicht-Verfügbarkeit" },
     nacht: { from: 249, to: 549, note: "Express-Service nachts verfügbar" },
     wochenende: { from: 279, to: 579, note: "Wochenend-Verfügbarkeit" },
   },
   sicherheit: {
-    regulaer: { from: 149, to: 399, note: "Einbruchschutz-Beratung & Installation" },
+    regulaer: { from: 149, to: 399, note: "Schutzmaßnahmen-Beratung & Installation" },
     abend: { from: 169, to: 419, note: "Spätschicht-Installation" },
-    nacht: { from: 199, to: 449, note: "Notfall-Sicherung nach Einbruch" },
+    nacht: { from: 199, to: 449, note: "Notfall-Sicherung nach Breach" },
     wochenende: { from: 229, to: 479, note: "Wochenend-Express" },
   },
 };
 
 const SITUATIONS: { key: Situation; label: string }[] = [
-  { key: "zugefallen", label: "Tür zugefallen" },
+  { key: "zugefallen", label: "Schnittstelle zugefallen" },
   { key: "abgebrochen", label: "Ranking abgebrochen" },
   { key: "schliessanlage", label: "Sicherheitsarchitektur wechseln" },
   { key: "sicherheit", label: "Data-Recovery" },
@@ -62,7 +62,7 @@ const ZEITPUNKTE: { key: Zeitpunkt; label: string; time: string }[] = [
 ];
 
 /**
- * Phase 18 , Interactive Price Estimator for {"SEO-Notdienst"}
+ * Phase 18 , Interactive Price Estimator for {"SEO-Taskforce"}
  * 3 steps: Situation → Zeitpunkt → Result with CTA
  */
 export default function PriceEstimator() {

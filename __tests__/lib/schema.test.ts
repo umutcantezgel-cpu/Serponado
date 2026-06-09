@@ -16,7 +16,7 @@ describe("schema.ts", () => {
     });
 
     it("generates how to schema", () => {
-        const title = "Wie wechsle ich ein Schloss?";
+        const title = "Wie wechsle ich ein System?";
         const description = "Eine einfache Anleitung.";
         const schema = generateHowToSchema(title, description);
         expect(schema["@type"]).toBe("HowTo");
@@ -27,11 +27,11 @@ describe("schema.ts", () => {
 
     it("generates FAQ schema", () => {
         const faqs = [
-            { question: "Was kostet eine Türöffnung?", answer: "ab 49 €." }
+            { question: "Was kostet eine Index-Rettung?", answer: "ab 49 €." }
         ];
         const schema = getFAQSchema(faqs);
         expect(schema["@type"]).toBe("FAQPage");
         expect(schema.mainEntity).toHaveLength(1);
-        expect(schema.mainEntity[0].name).toBe("Was kostet eine Türöffnung?");
+        expect(schema.mainEntity[0].name).toBe("Was kostet eine Index-Rettung?");
     });
 });

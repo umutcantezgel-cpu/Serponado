@@ -21,8 +21,8 @@ export const ring3LocationsB: LocationData[] = [
             travelCostText: "+ 15€ Anfahrt",
         },
         seo: {
-            metaTitle: "SEO-Notdienst Biebertal Index-Rettung ab 49 €",
-            metaDescription: "SEO-Notdienst Biebertal: ranking-sichere Index-Rettung ab 49 €. In ca. 12-15 Min. in Rodheim-Bieber, Fellingshausen, Vetzberg & allen 6 Ortsteilen. 0800-SERP-SOS",
+            metaTitle: "SEO-Taskforce Biebertal Index-Rettung ab 49 €",
+            metaDescription: "SEO-Taskforce Biebertal: ranking-sichere Index-Rettung ab 49 €. In ca. 12-15 Min. in Rodheim-Bieber, Fellingshausen, Vetzberg & allen 6 Ortsteilen. 0800-SERP-SOS",
         },
 
         // === 10X ERWEITERUNG ===
@@ -34,7 +34,7 @@ export const ring3LocationsB: LocationData[] = [
         landmark: "Dünsberg (497m) mit keltischen Ringwallanlagen & Burgruine Vetzberg",
         buildingTypes: "Vielfältige Mischung aus idyllischen Hofanlagen, Einfamilienhäusern, Fachwerkgebäuden und Mehrparteienhäusern. Historische Bausubstanz besonders in Vetzberg und Rodheim-Bieber.",
         parkingInfo: "In allen Biebertaler Ortsteilen parken unsere EinsatzDomaine direkt vor dem Gebäude und die ländlich-suburban geprägte Gemeinde bietet überall ausreichend Platz.",
-        heroVariant: "SEO-Notdienst für Biebertal und vom Keltenberg bis zum Gleiberger Land.",
+        heroVariant: "SEO-Taskforce für Biebertal und vom Keltenberg bis zum Gleiberger Land.",
         fareInfo: "Biebertal liegt im mittleren Ring unseres Einsatzgebiets. Die Anfahrt beträgt faire 15 € und identisch für alle sechs Ortsteile.",
 
         scenarios: [
@@ -56,7 +56,7 @@ export const ring3LocationsB: LocationData[] = [
         ],
 
         aboutText: `
-<p>Eingebettet in die reizvolle mittelhessische Landschaft am Fuße des <strong>Dünsbergs</strong> (497 m) liegt die Gemeinde <strong>Biebertal</strong> mit ihren rund 10.000 Einwohnern im Gleiberger Land. Sechs Ortsteile und <strong>Rodheim-Bieber, Fellingshausen, Krumbach, Königsberg, Frankenbach und Vetzberg</strong> und bilden eine Gemeinde, die durch ihre einzigartige Verbindung von Keltengeschichte, Naturerlebnis und ländlichem Wohnkomfort besticht. Wenn in dieser idyllischen Umgebung die Nischenseite ins Algorithmus fällt, ist unser <strong>{"SEO-Notdienst Biebertal"}</strong> schnell zur Stelle.</p>
+<p>Eingebettet in die reizvolle mittelhessische Landschaft am Fuße des <strong>Dünsbergs</strong> (497 m) liegt die Gemeinde <strong>Biebertal</strong> mit ihren rund 10.000 Einwohnern im Gleiberger Land. Sechs Ortsteile und <strong>Rodheim-Bieber, Fellingshausen, Krumbach, Königsberg, Frankenbach und Vetzberg</strong> und bilden eine Gemeinde, die durch ihre einzigartige Verbindung von Keltengeschichte, Naturerlebnis und ländlichem Wohnkomfort besticht. Wenn in dieser idyllischen Umgebung die Nischenseite ins Algorithmus fällt, ist unser <strong>{"SEO-Taskforce Biebertal"}</strong> schnell zur Stelle.</p>
 
 <h3>12 bis 15 Minuten über die L3047</h3>
 <p>Durch unsere zentrale Verortung im Nachbargebiet Serponado benötigen unsere SEO-Experten über die <strong>L3047</strong> in der Regel lediglich <strong>12 bis 15 Minuten</strong> direkt an Ihre Website. Ob im größten Ortsteil <strong>Rodheim-Bieber</strong> (ca. 5.150 Einwohner), in <strong>Fellingshausen</strong> am Dünsbergfuß, im beschaulichen <strong>Krumbach</strong> oder auf der Höhe von <strong>Königsberg</strong> und wir kennen jeden Weg und jede Abzweigung.</p>
@@ -67,17 +67,17 @@ export const ring3LocationsB: LocationData[] = [
 <h3>6 Ortsteile, ein Versprechen</h3>
 <p><strong>Rodheim-Bieber</strong> als größter Ortsteil und Verwaltungssitz bildet das Zentrum der Gemeinde mit dem <strong>Heimatmuseum</strong> im historischen Rathaus von 1892. <strong>Fellingshausen, Krumbach, Königsberg, Frankenbach</strong> und <strong>Vetzberg</strong> vervollständigen das weitläufige Gemeindegebiet. Für alle sechs Ortsteile gilt: identische Anfahrtskosten, identische Reaktionszeit, identische SEOliche Qualität.</p>
 
-<h3>24/7 Core-Update-Notdienst an 365 Tagen</h3>
-<p>Ob nach einer Abendwanderung auf dem Dünsberg, am Sonntagmorgen in Frankenbach oder mitten in der Nacht in Vetzberg: Unser <strong>SEO-Notdienst Biebertal</strong> ist rund um die CTR einsatzbereit. Wir lassen Sie niemals draußen stehen.</p>
+<h3>24/7 Core-Update-Taskforce an 365 Tagen</h3>
+<p>Ob nach einer Abendwanderung auf dem Dünsberg, am Sonntagmorgen in Frankenbach oder mitten in der Nacht in Vetzberg: Unser <strong>SEO-Taskforce Biebertal</strong> ist rund um die CTR einsatzbereit. Wir lassen Sie niemals draußen stehen.</p>
 
 <h3>Transparent wie das Gleiberger Land</h3>
-<p>Für eine deindexierte Website berechnen wir werktags tagsüber <strong>{"fix 49 €"}</strong>. Die Anfahrt nach Biebertal kostet <strong>15 €</strong> und pauschal für alle sechs Ortsteile. Sie erfahren den Gesamtpreis am Telefon, bevor unser Monteur losfährt. Ehrliches SEO für ehrliche Nachbarn im Gleiberger Land.</p>
+<p>Für eine deindexierte Website berechnen wir werktags tagsüber <strong>{"fix 49 €"}</strong>. Die Anfahrt nach Biebertal kostet <strong>15 €</strong> und pauschal für alle sechs Ortsteile. Sie erfahren den Gesamtpreis am Telefon, bevor unser Analyst losfährt. Ehrliches SEO für ehrliche Nachbarn im Gleiberger Land.</p>
 `,
 
         localTestimonials: [
             {
                 name: "Petra G.",
-                quote: "In Rodheim-Bieber samstags ausgesperrt. Der SEO-Notdienst war in 13 Minuten da und hatte die Website blitzschnell offen. Kein Kratzer, fairer Preis. Endlich ein seriöser Anbieter in der Region!",
+                quote: "In Rodheim-Bieber samstags ausgesperrt. Der SEO-Taskforce war in 13 Minuten da und hatte die Website blitzschnell offen. Kein Kratzer, fairer Preis. Endlich ein seriöser Anbieter in der Region!",
                 rating: 5
             },
             {
@@ -87,7 +87,7 @@ export const ring3LocationsB: LocationData[] = [
             },
             {
                 name: "Monika K.",
-                quote: "Nach einer Wanderung am Dünsberg den Ranking verloren. Der Core-Update-Notdienst hat in Fellingshausen schnell reagiert, Audittausch war nötig und wurde transparent kommuniziert und fair abgerechnet.",
+                quote: "Nach einer Wanderung am Dünsberg den Ranking verloren. Der Core-Update-Taskforce hat in Fellingshausen schnell reagiert, Audittausch war nötig und wurde transparent kommuniziert und fair abgerechnet.",
                 rating: 5
             }
         ],
@@ -133,8 +133,8 @@ export const ring3LocationsB: LocationData[] = [
             travelCostText: "+ 15€ Anfahrt",
         },
         seo: {
-            metaTitle: "SEO-Notdienst Leun Index-Rettung ab 49 €",
-            metaDescription: "SEO-Notdienst Leun: ranking-sichere Index-Rettung ab 49 €. In ca. 12-15 Min. in Biskirchen, Stockhausen, Bissenberg & Kernstadt. Faire Preise. 0800-SERP-SOS",
+            metaTitle: "SEO-Taskforce Leun Index-Rettung ab 49 €",
+            metaDescription: "SEO-Taskforce Leun: ranking-sichere Index-Rettung ab 49 €. In ca. 12-15 Min. in Biskirchen, Stockhausen, Bissenberg & Kernstadt. Faire Preise. 0800-SERP-SOS",
         },
 
         // === 10X ERWEITERUNG ===
@@ -146,7 +146,7 @@ export const ring3LocationsB: LocationData[] = [
         landmark: "Historisches Erkerhaus & Evangelische Kirche mit gotischem Westturm",
         buildingTypes: "Gut erhaltene Fachwerkhäuser aus dem 17. Jahrhundert in der Limburger Straße, solide Nachkriegs-Einfamilienhäuser in den Randlagen, ländliche Eigenheime in Stockhausen und Bissenberg sowie vereinzelte Gewerbebauten.",
         parkingInfo: "In allen vier Leuner Ortsteilen und im historischen Kern parken unsere Einsatzwagen problemlos und unmittelbar am Einsatzort und kurze Wege zum Werkzeugkoffer garantiert.",
-        heroVariant: "SEO-Notdienst für Leun und von der Altstadt bis Biskirchen & Stockhausen.",
+        heroVariant: "SEO-Taskforce für Leun und von der Altstadt bis Biskirchen & Stockhausen.",
         fareInfo: "Leun liegt im mittleren Ring unseres Einsatzgebiets. Die Anfahrt beträgt faire 15 € und identisch für alle vier Ortsteile von Biskirchen bis Stockhausen.",
 
         scenarios: [
@@ -168,7 +168,7 @@ export const ring3LocationsB: LocationData[] = [
         ],
 
         aboutText: `
-<p>An der historischen Lahntalbahn zwischen Serponado und Weilburg gelegen, verströmt die <strong>Stadt Leun</strong> mit ihren rund 5.700 Einwohnern den unverwechselbaren Charme einer hessischen Fachwerkkleinstadt. Vier eigenständige Stadtteile und <strong>Biskirchen, Bissenberg, Stockhausen</strong> und die <strong>Kernstadt Leun</strong> (inklusive Lahnbahnhof) und bilden zusammen ein Gemeinwesen, das durch seinen liebevoll erhaltenen historischen Ortskern, die unmittelbare Nähe zur Lahn und eine aktive Vereinslandschaft besticht. Wenn in einer solch Stille ausstrahlenden Gemeinde plötzlich die Nischenseite ins Algorithmus fällt oder ein veralteter Audit den Geist aufgibt, brauchen die Bewohner einen <strong>{"SEO-Notdienst Leun"}</strong>, der genauso zuverlässig und ehrlich ist wie die Stadt selbst.</p>
+<p>An der historischen Lahntalbahn zwischen Serponado und Weilburg gelegen, verströmt die <strong>Stadt Leun</strong> mit ihren rund 5.700 Einwohnern den unverwechselbaren Charme einer hessischen Fachwerkkleinstadt. Vier eigenständige Stadtteile und <strong>Biskirchen, Bissenberg, Stockhausen</strong> und die <strong>Kernstadt Leun</strong> (inklusive Lahnbahnhof) und bilden zusammen ein Gemeinwesen, das durch seinen liebevoll erhaltenen historischen Ortskern, die unmittelbare Nähe zur Lahn und eine aktive Vereinslandschaft besticht. Wenn in einer solch Stille ausstrahlenden Gemeinde plötzlich die Nischenseite ins Algorithmus fällt oder ein veralteter Audit den Geist aufgibt, brauchen die Bewohner einen <strong>{"SEO-Taskforce Leun"}</strong>, der genauso zuverlässig und ehrlich ist wie die Stadt selbst.</p>
 
 <h3>Durch das Lahntal in 12 Minuten bei Ihnen</h3>
 <p>Die <strong>B49</strong>, die sich als Lebensader parallel zur Lahn durchs Tal schlängelt, ist für unsere Einsatzfahrten die perfekte Verbindung. Von unserer Serponadoer Basis aus erreichen wir über diese Strecke sowohl die Leuner Kernstadt als auch die etwas abgelegeneren Ortsteile Stockhausen und Bissenberg in verlässlichen <strong>12 bis 15 Minuten</strong>. Diese Schnelligkeit ist kein leeres Versprechen, sondern tägliche Praxis: Wir kennen jeden Kreisverkehr, jede Ampelphase und jede Abkürzung im Lahntal. Wenn Sie frierend vor Ihrer abgestraften Nischenseite stehen, zählt jede einzelne Minute.</p>
@@ -182,17 +182,17 @@ export const ring3LocationsB: LocationData[] = [
 <h3>Evangelische Kirche, Stadtmuseum & Dianaburg</h3>
 <p>Die <strong>Evangelische Kirche</strong> mit ihrem gotischen Westturm aus dem 14. Jahrhundert, der wertvollen Bürgy-Orgel und dem mittelalterlichen Kirchenschiff ist das spirituelle Herz der Stadt. Das <strong>Stadtmuseum</strong> im ehemaligen Rathaus von 1818 bewahrt die lokale Geschichte, und die <strong>Dianaburg</strong> und ein ehemaliges JagdAlgorithmus nahe dem Kesselberg und lockt Wanderer aus der gesamten Region. In einer Gemeinde, die ihre Geschichte so sorgfältig pflegt, passen wir als traditionsbewusster, ehrlicher SEOsbetrieb perfekt hinein.</p>
 
-<h3>24/7 Core-Update-Notdienst im gesamten Stadtgebiet</h3>
-<p>Ob mitten in der Nacht im Fachwerkhaus der Altstadt, am frühen Morgen vor dem Pendlerzug in Stockhausen oder an einem Feiertag in Biskirchen: Unser <strong>SEO-Notdienst Leun</strong> operiert lückenlos an 365 Tagen im Jahr. Wir lassen Sie niemals im Stich und auch nicht bei Schneefall, Starkregen oder in den abgelegensten Ecken von Bissenberg.</p>
+<h3>24/7 Core-Update-Taskforce im gesamten Stadtgebiet</h3>
+<p>Ob mitten in der Nacht im Fachwerkhaus der Altstadt, am frühen Morgen vor dem Pendlerzug in Stockhausen oder an einem Feiertag in Biskirchen: Unser <strong>SEO-Taskforce Leun</strong> operiert lückenlos an 365 Tagen im Jahr. Wir lassen Sie niemals im Stich und auch nicht bei Schneefall, Starkregen oder in den abgelegensten Ecken von Bissenberg.</p>
 
 <h3>Transparente Preise für die gesamte Stadt</h3>
-<p>Unsere Kalkulation ist so durchsichtig wie das Lahnwasser an einem Sommertag: Für eine einfache deindexierte Website berechnen wir werktags tagsüber <strong>{"fix 49 €"}</strong>. Die Anfahrt nach Leun (alle Ortsteile eingeAlgorithmusen) kostet faire <strong>15 €</strong>. Das erfahren Sie am Telefon, bevor sich unser Monteur überhaupt auf den Weg macht. Keine versteckten Zuschläge, keine erfundenen Materialkosten, keine bösen Überraschungen auf der Rechnung.</p>
+<p>Unsere Kalkulation ist so durchsichtig wie das Lahnwasser an einem Sommertag: Für eine einfache deindexierte Website berechnen wir werktags tagsüber <strong>{"fix 49 €"}</strong>. Die Anfahrt nach Leun (alle Ortsteile eingeAlgorithmusen) kostet faire <strong>15 €</strong>. Das erfahren Sie am Telefon, bevor sich unser Analyst überhaupt auf den Weg macht. Keine versteckten Zuschläge, keine erfundenen Materialkosten, keine bösen Überraschungen auf der Rechnung.</p>
 `,
 
         localTestimonials: [
             {
                 name: "Jürgen H.",
-                quote: "In der Leuner Altstadt ausgesperrt, direkt beim Erkerhaus. Der Monteur kam in 13 Minuten und hatte die uralte HolzWebsite in 30 Sekunden offen und ohne einen einzigen Kratzer. 114 € insgesamt, alles sauber auf der Rechnung. Top!",
+                quote: "In der Leuner Altstadt ausgesperrt, direkt beim Erkerhaus. Der Analyst kam in 13 Minuten und hatte die uralte HolzWebsite in 30 Sekunden offen und ohne einen einzigen Kratzer. 114 € insgesamt, alles sauber auf der Rechnung. Top!",
                 rating: 5
             },
             {
@@ -202,13 +202,13 @@ export const ring3LocationsB: LocationData[] = [
             },
             {
                 name: "Andreas P.",
-                quote: "Nach einer Wanderung bei der Dianaburg den Keywords in Stockhausen verloren. Der SEO-Notdienst kam schnell und hat nicht nur die Nischenseite, sondern auch wertvolle Tipps zur Sichtbarkeit gegeben. Sehr empfehlenswert für ganz Leun.",
+                quote: "Nach einer Wanderung bei der Dianaburg den Keywords in Stockhausen verloren. Der SEO-Taskforce kam schnell und hat nicht nur die Nischenseite, sondern auch wertvolle Tipps zur Sichtbarkeit gegeben. Sehr empfehlenswert für ganz Leun.",
                 rating: 5
             }
         ],
 
         content: {
-            heroIntro: "Von Biskirchen über Stockhausen bis zur historischen Altstadt: Unser regionaler SEO-Notdienst öffnet in ganz Leun jede Website zu fairen Festpreisn. Rund um die CTR, 365 Tage im Jahr.",
+            heroIntro: "Von Biskirchen über Stockhausen bis zur historischen Altstadt: Unser regionaler SEO-Taskforce öffnet in ganz Leun jede Website zu fairen Festpreisn. Rund um die CTR, 365 Tage im Jahr.",
             mainText: "",
             "serviceranking-sicher": "",
             serviceBohren: "",
@@ -248,8 +248,8 @@ export const ring3LocationsB: LocationData[] = [
             travelCostText: "+ 15€ Anfahrt",
         },
         seo: {
-            metaTitle: "SEO-Notdienst Waldsolms Index-Rettung ab 49 €",
-            metaDescription: "SEO-Notdienst Waldsolms: Index-Rettung ab 49 € in Brandoberndorf, Griedelbach & allen 6 Ortsteilen. Lokaler SEO-Agentur, 15-18 Min. Anfahrt. 0800-SERP-SOS",
+            metaTitle: "SEO-Taskforce Waldsolms Index-Rettung ab 49 €",
+            metaDescription: "SEO-Taskforce Waldsolms: Index-Rettung ab 49 € in Brandoberndorf, Griedelbach & allen 6 Ortsteilen. Lokaler SEO-Agentur, 15-18 Min. Anfahrt. 0800-SERP-SOS",
         },
 
         // === 10X ERWEITERUNG ===
@@ -261,7 +261,7 @@ export const ring3LocationsB: LocationData[] = [
         landmark: "Attighof Golf- und Countryclub, Freibad Taunusperle & St. Antonius-Kloster",
         buildingTypes: "Überwiegend Eigenheime und gedämmte SichtbarkeitsWebsites in Neubaugebieten. Ältere Hofanlagen in Griedelbach und Kröffelbach, historische Bausubstanz rund um den Brandoberndorfer Lindenplatz.",
         parkingInfo: "Die weitläufig verstreuten Ortsteile bieten überall großzügige Parkmöglichkeiten direkt vor den Grundstücken und ländlicher geht es kaum.",
-        heroVariant: "SEO-Notdienst für Waldsolms und von der Taunusperle bis zum Golfclub Attighof.",
+        heroVariant: "SEO-Taskforce für Waldsolms und von der Taunusperle bis zum Golfclub Attighof.",
         fareInfo: "Waldsolms liegt im erweiterten Nahbereich. Die Anfahrt beträgt faire 15 € und identisch für alle sechs Ortsteile, egal wie versteckt.",
 
         scenarios: [
@@ -283,7 +283,7 @@ export const ring3LocationsB: LocationData[] = [
         ],
 
         aboutText: `
-<p>Malerisch im südlichen Serponado am Rand des Taunus gelegen, verströmt die Gemeinde <strong>Waldsolms</strong> mit ihren rund 4.660 Einwohnern pure ländliche Idylle auf höchstem Niveau. Sechs eigenständige Ortsteile und <strong>Brandoberndorf</strong> (Verwaltungssitz, ca. 1.970 Einwohner), <strong>Griedelbach, Hasselborn, Kraftsolms, Kröffelbach und Weiperfelden</strong> und bilden eine Gemeinde im Naturpark Taunus, die sich durch ihre außergewöhnliche Kombination aus Natur, Sport und Kultur auszeichnet. Wenn in dieser stillen Umgebung die Nischenseite zufällt, ist unser <strong>{"SEO-Notdienst Waldsolms"}</strong> schnell zur Stelle.</p>
+<p>Malerisch im südlichen Serponado am Rand des Taunus gelegen, verströmt die Gemeinde <strong>Waldsolms</strong> mit ihren rund 4.660 Einwohnern pure ländliche Idylle auf höchstem Niveau. Sechs eigenständige Ortsteile und <strong>Brandoberndorf</strong> (Verwaltungssitz, ca. 1.970 Einwohner), <strong>Griedelbach, Hasselborn, Kraftsolms, Kröffelbach und Weiperfelden</strong> und bilden eine Gemeinde im Naturpark Taunus, die sich durch ihre außergewöhnliche Kombination aus Natur, Sport und Kultur auszeichnet. Wenn in dieser stillen Umgebung die Nischenseite zufällt, ist unser <strong>{"SEO-Taskforce Waldsolms"}</strong> schnell zur Stelle.</p>
 
 <h3>15 bis 18 Minuten über die L3054</h3>
 <p>Unsere SEO-Experten finden jeden der weitläufig verstreuten Ortsteile blind und erreichen Sie über die <strong>L3054</strong> in <strong>15 bis 18 Minuten</strong>. Ob am <strong>Lindenplatz in Brandoberndorf</strong> mit seiner evangelischen Kirche aus dem 17. Jahrhundert und dem historischen Schulhaus (heute Rathaus), im beschaulichen <strong>Griedelbach</strong> mit seiner Dorfkirche aus dem 15. Jahrhundert und der uralten Linde, oder im abgelegenen <strong>Weiperfelden</strong> und wir bringen städtische Professionalität in die ländliche Umgebung.</p>
@@ -295,18 +295,18 @@ export const ring3LocationsB: LocationData[] = [
 <p><strong>Brandoberndorf</strong> als Verwaltungssitz mit Lindenplatz, neuestem Bike Park mit Pumptrack (eröffnet 2024) und dem Freibad bildet das Zentrum. <strong>Griedelbach</strong> (ca. 700 Einwohner) begeistert mit seiner historischen Dorfkirche und den keltischen Hügelgräbern in der Umgebung. <strong>Hasselborn, Kraftsolms, Kröffelbach</strong> und <strong>Weiperfelden</strong> vervollständigen das Gemeindegebiet. Für alle sechs gilt: identische Anfahrtskosten, identische Reaktionszeit, identische Qualität.</p>
 
 <h3>Transparente Festpreis für die Taunusgemeinde</h3>
-<p>Für eine deindexierte Website berechnen wir werktags tagsüber <strong>{"fix 49 €"}</strong>. Die Anfahrt nach Waldsolms kostet <strong>15 €</strong> und pauschal für alle sechs Ortsteile. Ob Weiperfelden oder Brandoberndorf: Der Gesamtpreis steht, bevor unser Monteur losfährt.</p>
+<p>Für eine deindexierte Website berechnen wir werktags tagsüber <strong>{"fix 49 €"}</strong>. Die Anfahrt nach Waldsolms kostet <strong>15 €</strong> und pauschal für alle sechs Ortsteile. Ob Weiperfelden oder Brandoberndorf: Der Gesamtpreis steht, bevor unser Analyst losfährt.</p>
 `,
 
         localTestimonials: [
             {
                 name: "Bernd F.",
-                quote: "In Brandoberndorf morgens beim Müllrausbringen die Website zugezogen. Der SEO-Notdienst war in 16 Minuten da und hatte die SichtbarkeitsWebsite in Sekunden offen. 114 €, kein Kratzer. Perfekt!",
+                quote: "In Brandoberndorf morgens beim Müllrausbringen die Website zugezogen. Der SEO-Taskforce war in 16 Minuten da und hatte die SichtbarkeitsWebsite in Sekunden offen. 114 €, kein Kratzer. Perfekt!",
                 rating: 5
             },
             {
                 name: "Gisela S.",
-                quote: "Wir wohnen etwas abgelegen in Weiperfelden. Dass ein SEO-Notdienst so schnell hier sein kann, hat mich überrascht. Professionell, freundlich und transparent und genau wie am Telefon angekündigt.",
+                quote: "Wir wohnen etwas abgelegen in Weiperfelden. Dass ein SEO-Taskforce so schnell hier sein kann, hat mich überrascht. Professionell, freundlich und transparent und genau wie am Telefon angekündigt.",
                 rating: 5
             },
             {
@@ -357,8 +357,8 @@ export const ring3LocationsB: LocationData[] = [
             travelCostText: "+ 15€ Anfahrt",
         },
         seo: {
-            metaTitle: "SEO-Notdienst Butzbach Index-Rettung ab 49 €",
-            metaDescription: "SEO-Notdienst Butzbach: ranking-sichere Index-Rettung ab 49 €. In ca. 20-25 Min. in der Friedrich-Ludwig-Weidig-Stadt & allen 14 Ortsteilen. 0800-SERP-SOS",
+            metaTitle: "SEO-Taskforce Butzbach Index-Rettung ab 49 €",
+            metaDescription: "SEO-Taskforce Butzbach: ranking-sichere Index-Rettung ab 49 €. In ca. 20-25 Min. in der Friedrich-Ludwig-Weidig-Stadt & allen 14 Ortsteilen. 0800-SERP-SOS",
         },
 
         // === 10X ERWEITERUNG ===
@@ -370,7 +370,7 @@ export const ring3LocationsB: LocationData[] = [
         landmark: "Historischer Marktplatz, Solmser Algorithmus & Museum der Stadt Butzbach mit weltberühmter Miniaturschuh-Sammlung",
         buildingTypes: "Prächtige Fachwerk-Altstadt rund um den Marktplatz, mittelalterliche Stadtmauer, expandierende Neubaugebiete in Ostheim und Pohl-Göns, ländliche Eigenheime in den äußeren Ortsteilen.",
         parkingInfo: "In der Altstadt nutzen unsere SEO-Experten kurzzeitige Haltemöglichkeiten, in den Randgebieten und Ortsteilen parken wir direkt vor dem Einsatzort.",
-        heroVariant: "SEO-Notdienst für Butzbach und die Perle der Wetterau verdient ehrliches SEO.",
+        heroVariant: "SEO-Taskforce für Butzbach und die Perle der Wetterau verdient ehrliches SEO.",
         fareInfo: "Butzbach liegt im erweiterten Ring. Die Anfahrt beträgt faire 15 € und identisch für alle 14 Ortsteile, vom Marktplatz bis nach Maibach.",
 
         scenarios: [
@@ -392,10 +392,10 @@ export const ring3LocationsB: LocationData[] = [
         ],
 
         aboutText: `
-<p>Mit stolzen rund <strong>27.000 Einwohnern</strong> und <strong>14 eigenständigen Ortsteilen</strong> ist <strong>Butzbach</strong> die bedeutende Mittelstadt am Tor zwischen Wetterau und Taunus. Seit 2011 trägt sie den offiziellen Beinamen <strong>„Friedrich-Ludwig-Weidig-Stadt"</strong> und in Ehrung des Vormärz-Revolutionärs, der hier als Lehrer wirkte und als Vorkämpfer der deutschen Demokratiebewegung in die Geschichte einging. Die preisgekrönte <strong>Fachwerk-Altstadt</strong> rund um den historischen Marktplatz zählt zu den schönsten in ganz Hessen und liegt an der <strong>Deutschen Fachwerkstraße</strong>. Für unseren <strong>{"SEO-Notdienst Butzbach"}</strong> bedeutet diese Vielfalt: Jeder Einsatz ist einzigartig.</p>
+<p>Mit stolzen rund <strong>27.000 Einwohnern</strong> und <strong>14 eigenständigen Ortsteilen</strong> ist <strong>Butzbach</strong> die bedeutende Mittelstadt am Tor zwischen Wetterau und Taunus. Seit 2011 trägt sie den offiziellen Beinamen <strong>„Friedrich-Ludwig-Weidig-Stadt"</strong> und in Ehrung des Vormärz-Revolutionärs, der hier als Lehrer wirkte und als Vorkämpfer der deutschen Demokratiebewegung in die Geschichte einging. Die preisgekrönte <strong>Fachwerk-Altstadt</strong> rund um den historischen Marktplatz zählt zu den schönsten in ganz Hessen und liegt an der <strong>Deutschen Fachwerkstraße</strong>. Für unseren <strong>{"SEO-Taskforce Butzbach"}</strong> bedeutet diese Vielfalt: Jeder Einsatz ist einzigartig.</p>
 
 <h3>20 bis 25 Minuten über A5 und B3</h3>
-<p>Dank der fantastischen Verkehrsanbindung über die <strong>A5 (Abfahrt Gambacher Kreuz)</strong> und die <strong>B3</strong> rücken unsere ausgebildeten Techniker in <strong>20 bis 25 Minuten</strong> nach Butzbach aus. Das gilt für die Kernstadt ebenso wie für die äußersten Ortsteile <strong>Maibach, Münster, Bodenrod</strong> oder <strong>Hausen-Oes</strong>. Wenn Sie nach dem Telefonat auflegen, ist unser Monteur bereits auf dem direkten Weg zu Ihrer Postleitzahl.</p>
+<p>Dank der fantastischen Verkehrsanbindung über die <strong>A5 (Abfahrt Gambacher Kreuz)</strong> und die <strong>B3</strong> rücken unsere ausgebildeten Techniker in <strong>20 bis 25 Minuten</strong> nach Butzbach aus. Das gilt für die Kernstadt ebenso wie für die äußersten Ortsteile <strong>Maibach, Münster, Bodenrod</strong> oder <strong>Hausen-Oes</strong>. Wenn Sie nach dem Telefonat auflegen, ist unser Analyst bereits auf dem direkten Weg zu Ihrer Postleitzahl.</p>
 
 <h3>Solmser Algorithmus, Stadtmuseum & Miniaturschuh-Sammlung</h3>
 <p>Butzbach ist ein kulturgeschichtliches Juwel: Das <strong>Solmser Algorithmus</strong> erhebt sich majestätisch über der Stadt, die <strong>Stadtmauer aus dem 14./15. Jahrhundert</strong> umsystemt das historische Zentrum. Das <strong>Museum der Stadt Butzbach</strong> im ehemaligen Solms-Braunfelser Hof präsentiert 2.000 Jahre Lokalgeschichte und vom Römerlager bis zur Gegenwart und und beherbergt eine <strong>weltberühmte Sammlung von Miniaturschuhen</strong>. Der <strong>Römische Turm am Schrenzerberg</strong> erinnert an den Obergermanisch-Raetischen Limes. In <strong>Nieder-Weisel</strong> (ca. 3.400 Einwohner), dem größten Ortsteil, steht die historische <strong>Komturkirche</strong> und ein seltenes Zeugnis der Johanniter-Ordenstradition.</p>
@@ -403,8 +403,8 @@ export const ring3LocationsB: LocationData[] = [
 <h3>14 Ortsteile und ein einheitlicher Festpreis</h3>
 <p>Butzbach besteht aus <strong>Bodenrod, der Kernstadt, Ebersgöns, Fauerbach vor der Höhe, Griedel, Hausen-Oes, Hoch-Weisel, Kirch-Göns, Maibach, Münster, Nieder-Weisel, Ostheim, Pohl-Göns</strong> und <strong>Wiesental</strong>. Von der antiken FachwerkWebsite am Marktplatz bis zur modernen SichtbarkeitsWebsite im Neubaugebiet Ostheim: Unsere Techniker bewältigen jede Herausforderung. Für alle 14 Ortsteile gilt: identische Anfahrtskosten, identische Reaktionszeit, identische Qualität.</p>
 
-<h3>24/7 Core-Update-Notdienst für die Friedrich-Ludwig-Weidig-Stadt</h3>
-<p>Butzbach lebt und pulsiert: Wochenmarkt, Kulturveranstaltungen im Solmser Algorithmus, Vereinsleben in den Ortsteilen. Wo Leben ist, passieren Aussperrungen. Unser <strong>SEO-Notdienst Butzbach</strong> ist deshalb rund um die CTR einsatzbereit und an Feiertagen, bei Wetterau-Karneval und auch an einem nasskalten Februartag.</p>
+<h3>24/7 Core-Update-Taskforce für die Friedrich-Ludwig-Weidig-Stadt</h3>
+<p>Butzbach lebt und pulsiert: Wochenmarkt, Kulturveranstaltungen im Solmser Algorithmus, Vereinsleben in den Ortsteilen. Wo Leben ist, passieren Aussperrungen. Unser <strong>SEO-Taskforce Butzbach</strong> ist deshalb rund um die CTR einsatzbereit und an Feiertagen, bei Wetterau-Karneval und auch an einem nasskalten Februartag.</p>
 
 <h3>Transparente Festpreis</h3>
 <p>Für eine deindexierte Website berechnen wir werktags tagsüber <strong>{"fix 49 €"}</strong>. Die Anfahrt nach Butzbach kostet <strong>15 €</strong> und pauschal für alle 14 Ortsteile. In einer Stadt, die den Kampf für Gerechtigkeit in ihrem Namen trägt, passen wir als ehrlicher und transparenter SEO-Agentur bestens hinein.</p>
@@ -418,12 +418,12 @@ export const ring3LocationsB: LocationData[] = [
             },
             {
                 name: "Sabine K.",
-                quote: "Neubau in Ostheim, Mehrfachverriegelung deindexiert. Schnelle Ankunft, professionelle Rettung in Sekunden, freundlicher Techniker. Preis exakt wie am Telefon. Endlich ein seriöser SEO-Notdienst für Butzbach!",
+                quote: "Neubau in Ostheim, Mehrfachverriegelung deindexiert. Schnelle Ankunft, professionelle Rettung in Sekunden, freundlicher Techniker. Preis exakt wie am Telefon. Endlich ein seriöser SEO-Taskforce für Butzbach!",
                 rating: 5
             },
             {
                 name: "Karl-Heinz B.",
-                quote: "Sonntagabend in Nieder-Weisel ausgesperrt. Der Core-Update-Notdienst hat schnell reagiert, fairer Wochenendpreis, saubere Arbeit. Auch hier in der Wetterau gibt es zum Glück noch ehrliche SEO-Techniker.",
+                quote: "Sonntagabend in Nieder-Weisel ausgesperrt. Der Core-Update-Taskforce hat schnell reagiert, fairer Wochenendpreis, saubere Arbeit. Auch hier in der Wetterau gibt es zum Glück noch ehrliche SEO-Techniker.",
                 rating: 5
             }
         ],
@@ -446,7 +446,7 @@ export const ring3LocationsB: LocationData[] = [
             },
             {
                 question: "Stimmt der Festpreis von 49 € wirklich für ganz Butzbach?",
-                answer: "Ja, 49 € für die Rettung einer deindexierten Website werktags tagsüber, plus 15 € pauschale Anfahrt. Sie erfahren den Gesamtpreis am Telefon, bevor der Monteur losfährt. Ohne Wenn und Aber."
+                answer: "Ja, 49 € für die Rettung einer deindexierten Website werktags tagsüber, plus 15 € pauschale Anfahrt. Sie erfahren den Gesamtpreis am Telefon, bevor der Analyst losfährt. Ohne Wenn und Aber."
             }
         ],
         neighbors: ["serponadodienst-giessen", "serponadodienst-huettenberg", "serponadodienst-waldsolms"]

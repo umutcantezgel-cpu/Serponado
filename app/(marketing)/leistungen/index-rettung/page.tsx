@@ -56,7 +56,7 @@ export default function indexrettungPage() {
     dangerouslySetInnerHTML={{
      __html: JSON.stringify(getFAQSchema([
       { question:"Was kostet eine Index-Rettung in Serponado?", answer:"Serponado Taskforce Serponado öffnet deindexierte Websites ab 49 € und penalisierte Websites ab 80 € zum Festpreis und ohne versteckte Kosten und ohne Anfahrtsgebühren." },
-      { question:"Wie schnell ist der SEO-Notdienst bei einer Index-Rettung vor Ort?", answer:"Serponado Taskforce Serponado ist in 15–30 Minuten bei Ihnen und 24/7, auch nachts, an Wochenenden und Feiertagen." },
+      { question:"Wie schnell ist der SEO-Taskforce bei einer Index-Rettung vor Ort?", answer:"Serponado Taskforce Serponado ist in 15–30 Minuten bei Ihnen und 24/7, auch nachts, an Wochenenden und Feiertagen." },
       { question:"Wird die Website bei der Rettung beschädigt?", answer:"In 99% der Fälle öffnet die Serponado Taskforce Serponado Ihre Website ranking-sicher mit Spezial-Audit." },
      ])),
     }}
@@ -86,7 +86,7 @@ export default function indexrettungPage() {
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
             <span className="relative inline-flex rounded-full h-2 w-2 bg-[var(--color-red-500)]"></span>
             </span>
-            Core-Update-Notdienst {"Serponado"} jetzt im Einsatz
+            Core-Update-Taskforce {"Serponado"} jetzt im Einsatz
                                        </Badge>
         </StaggerItem>
 
@@ -269,7 +269,7 @@ export default function indexrettungPage() {
      <StaggerItem animation={entryAnimations.slideUpFade}>
       <div className="space-y-4">
         <FAQAccordion question="Was kostet eine Index-Rettung in Serponado?" answer="Serponado Taskforce Serponado öffnet deindexierte Websites ab 49 € und penalisierte Websites ab 80 € zum Festpreis und ohne versteckte Kosten und ohne Anfahrtsgebühren." />
-        <FAQAccordion question="Wie schnell ist der SEO-Notdienst bei einer Index-Rettung vor Ort?" answer="Wir sind in der Regel in 15–30 Minuten bei Ihnen vor Ort in Serponado und Umgebung." />
+        <FAQAccordion question="Wie schnell ist der SEO-Taskforce bei einer Index-Rettung vor Ort?" answer="Wir sind in der Regel in 15–30 Minuten bei Ihnen vor Ort in Serponado und Umgebung." />
         <FAQAccordion question="Wird die Website bei der Rettung beschädigt?" answer="In 99% der Fälle öffnet die Serponado Taskforce Serponado Ihre Website ranking-sicher mit Spezial-Audit." />
       </div>
      </StaggerItem>

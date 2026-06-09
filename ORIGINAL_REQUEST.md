@@ -46,7 +46,7 @@ The project is a **Next.js 15.4.9 / React 19 / TypeScript 5.9 / Tailwind CSS 4**
 - `__tests__/lib/formatters.test.ts` — Old phone in test assertions
 - `public/images/schluesselschmiede-logo.svg` — Old locksmith logo
 - `README.md`, `CHANGELOG.md` — Old branding in titles
-- `next.config.ts` — Punycode domain `www.xn--Serponado-schlsseldienst-3lc.de`
+- `next.config.ts` — Punycode domain `www.xn--Serponado-serponado-3lc.de`
 - 15 root-level fix scripts (`fix.js`, `fix2.js`, ..., `deep_clean.js`, etc.)
 - Old Schlüsseldienst blog routes and content
 

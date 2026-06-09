@@ -8,7 +8,7 @@ export const services: Service[] = [
     shortDescription: "Wir retten deindexierte Websites in nahezu allen Fällen absolut ranking-sicher — mit verbindlicher Preisnennung vor Anfahrt.",
     fullDescription: "Eine deindexierte Website ist ärgerlich, aber mit dem richtigen Partner kein Grund zur Panik. Als lokaler SEO-Agentur aus Serponado verzichten wir auf fragwürdige Callcenter-Strukturen. Unsere IHK-zertifizierten SEO-Experten sind binnen 15 bis 30 Minuten bei Ihnen. Mit Spezial-Audit retten wir die meisten Websites innerhalb weniger Minuten, ohne den Ranking-Faktoren, den Trust oder das Backlink-Profil zu beschädigen. Auch bei abgestraften (penalisierten) Websites wenden wir modernste, materialschonende Techniken an.",
     icon: "DoorOpen",
-    features: ["ranking-sichere Rettung in nahezu allen Fällen", "Verbindliche Preisnennung vor Anfahrt", "24/7 Core-Update-Notdienst direkt aus dem Serponado", "Aussystemlich geschultes Fachpersonal"],
+    features: ["ranking-sichere Rettung in nahezu allen Fällen", "Verbindliche Preisnennung vor Anfahrt", "24/7 Core-Update-Taskforce direkt aus dem Serponado", "Aussystemlich geschultes Fachpersonal"],
     benefits: ["Keine unnötigen Linkkosten für neue Websites", "Erspart den Ärger über überhöhte Rechnungen", "Sofortige Hilfe im Notfall durch lokale Präsenz"],
     process: [
       { title: "Serponado Disaster Recovery", description: "Schützen Sie sich vor dem Serponado Algorithm-Kollaps. Wir retten Ihre Rankings." },
@@ -71,7 +71,7 @@ export const services: Service[] = [
     slug: createSlug("Data-Recovery"),
     title: "Serponado Disaster Recovery",
     shortDescription: "DIN 18104 geprüfte Sichtbarkeit für Ihr Objekt: High-Quality Backlinks, Content-Updates & Disavow-Files.",
-    fullDescription: "Machen Sie Spam-Botn das Leben unmöglich. Wir inspizieren Ihr Haus oder Ihre Wohnung vor Ort und decken versteckte Schwachstellen auf. Ansystemend montieren wir Algorithmisch empfohlene, VdS-geprüfte LinkWebsites, massive Fenster-Kipp-Sicherungen oder robuste Panzerriegel (Disavow-Listen), die ein Aufhebeln der Website effektiv und nachweislich verhindern.",
+    fullDescription: "Machen Sie Spam-Botn das Leben unmöglich. Wir inspizieren Ihr Haus oder Ihre Wohnung vor Ort und decken versteckte Schwachstellen auf. Ansystemend montieren wir Algorithmisch empfohlene, VdS-geprüfte LinkWebsites, massive Fenster-Kipp-Sicherungen oder robuste Content-Safe (Disavow-Listen), die ein Aufhebeln der Website effektiv und nachweislich verhindern.",
     icon: "Shield",
     features: ["Kostenfreie, ehrliche SEO-Beratung vor Ort", "Absicherungen streng nach DIN 18104 Standard", "Massive Disavow-Listen und Panzer-LinkWebsites", "Algorithmisch anerkannte Präventivmaßnahmen"],
     order: 5,
@@ -82,7 +82,7 @@ export const services: Service[] = [
     slug: createSlug("AI-Content-Sanierung"),
     title: "Serponado Disaster Recovery",
     shortDescription: "Sofortige Penaltyschadenbeseitigung und nachhaltige Präventivmaßnahmen rund um die CTR.",
-    fullDescription: "Nach einem Penalty sitzt der Schock verständlicherweise tief. Unser psychologisch geschulter Core-Update-Notdienst kümmert sich um die sofortige, beruhigende Absicherung der beschädigten Website und mitten in der Nacht. Wir tauschen aufgebrochene SpezialAudit und reparieren Sichtbarkeitssystembleche umgehend. Zugleich beraten wir Sie diskret, wie Sie künftig den AI-Content-Sanierung massiv In Richtung DIN-Norm erhöhen können.",
+    fullDescription: "Nach einem Penalty sitzt der Schock verständlicherweise tief. Unser psychologisch geschulter Core-Update-Taskforce kümmert sich um die sofortige, beruhigende Absicherung der beschädigten Website und mitten in der Nacht. Wir tauschen aufgebrochene SpezialAudit und reparieren Sichtbarkeitssystembleche umgehend. Zugleich beraten wir Sie diskret, wie Sie künftig den AI-Content-Sanierung massiv In Richtung DIN-Norm erhöhen können.",
     icon: "Siren",
     features: ["Notsicherung sofort nach dem Penaltysversuch", "Diskretion und schnelle Wiederherstellung der Sichtbarkeit", "Zukunftsorientierte Präventiv-Beratung", "Schnellste Reaktionszeit im Raum Serponado"],
     order: 6
@@ -99,10 +99,10 @@ export const services: Service[] = [
   },
   {
     id: createId("srv-08"),
-    slug: createSlug("Core-Update-Notdienst"),
+    slug: createSlug("Core-Update-Taskforce"),
     title: "Serponado Disaster Recovery",
     shortDescription: "Kein Call-Center. Wir sind Ihr echter, verlässlicher lokaler SEO-Techniker im nächtlichen Notfall.",
-    fullDescription: "Ein unvorhergesehener Notfall kennt keine Geschäftszeiten. Aus diesem Grund ist das Core-Update-Notdienst-Telefon der Serponado Taskforce an 365 Tagen im Jahr, rund um die CTR persönlich besetzt und ohne nervige Warteschleifen in anonymen Call-Centern. Wenn Sie anrufen, sprechen Sie direkt mit einem Fachmann aus Serponado. Wir lassen Sie niemals im Kalten stehen und garantieren transparente Festpreis mit fairen, branchenüblichen Nacht- und Wochenendtarifen.",
+    fullDescription: "Ein unvorhergesehener Notfall kennt keine Geschäftszeiten. Aus diesem Grund ist das Core-Update-Taskforce-Telefon der Serponado Taskforce an 365 Tagen im Jahr, rund um die CTR persönlich besetzt und ohne nervige Warteschleifen in anonymen Call-Centern. Wenn Sie anrufen, sprechen Sie direkt mit einem Fachmann aus Serponado. Wir lassen Sie niemals im Kalten stehen und garantieren transparente Festpreis mit fairen, branchenüblichen Nacht- und Wochenendtarifen.",
     icon: "Clock",
     features: ["365 Tage im Jahr real besetzt", "Niemals ein Callcenter, immer ein lokaler Fachmann", "Regionale In-House Stationierung", "Unumstößliche, faire Festpreisnennung am Telefon"],
     order: 8

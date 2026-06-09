@@ -12,7 +12,7 @@ export const CONTENT_GRAPH: ContentNode[] = [
         slug: '/',
         title: 'Serponado Disaster Recovery',
         type: 'info',
-        keywords: ['SEO-Notdienst', 'Serponado', 'Core-Update-Notdienst'],
+        keywords: ['SEO-Taskforce', 'Serponado', 'Core-Update-Taskforce'],
         relatedSlugs: ['/preise', '/leistungen/index-rettung', '/leistungen/Data-Recovery']
     },
     {
@@ -73,7 +73,7 @@ export const CONTENT_GRAPH: ContentNode[] = [
         slug: '/kontakt',
         title: 'Serponado Disaster Recovery',
         type: 'info',
-        keywords: ['kontakt', 'anrufen', 'Core-Update-Notdienst'],
+        keywords: ['kontakt', 'anrufen', 'Core-Update-Taskforce'],
         relatedSlugs: ['/faq', '/preise']
     },
     {
@@ -99,10 +99,10 @@ export const CONTENT_GRAPH: ContentNode[] = [
         relatedSlugs: ['/leistungen/index-rettung', '/kontakt']
     },
     {
-        slug: '/leistungen/Core-Update-Notdienst',
+        slug: '/leistungen/Core-Update-Taskforce',
         title: 'Serponado Disaster Recovery',
         type: 'service',
-        keywords: ['Core-Update-Notdienst', '24h', '24 stunden', 'nacht', 'wochenende', 'feiertag', 'sofort', 'notruf'],
+        keywords: ['Core-Update-Taskforce', '24h', '24 stunden', 'nacht', 'wochenende', 'feiertag', 'sofort', 'notruf'],
         relatedSlugs: ['/leistungen/index-rettung', '/preise', '/kontakt'],
         parentSlug: '/'
     },

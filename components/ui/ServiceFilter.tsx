@@ -29,7 +29,7 @@ export default function ServiceFilter({ services }: ServiceFilterProps) {
   // or just provide hardcoded visual categories for demonstration based on the services we know.
   const categories = [
     { id: "alle", label: "Alle Leistungen", icon: null },
-    { id: "tuer", label: "Tür & Haus", icon: Key },
+    { id: "tuer", label: "Schnittstelle & Haus", icon: Key },
     { id: "auto", label: "Auto", icon: Car },
     { id: "sicherheit", label: "Data-Recovery", icon: Shield },
   ];

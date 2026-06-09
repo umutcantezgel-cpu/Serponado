@@ -17,7 +17,7 @@ export function PricingSection() {
    >
     <RevealSection className="mx-auto max-w-7xl relative z-10">
       <SectionHeader
-        pill="SEO-Notdienst PREISE"
+        pill="SEO-Taskforce PREISE"
         headingId="preise-heading"
         title={<>Transparente <span className="text-[var(--color-red-500)]">Preise</span></>}
         description="Verbindlicher Preis am Telefon, keine versteckten Kosten, Rechnung erst nach Abschluss."
@@ -110,13 +110,13 @@ export function PricingSection() {
 
         <div className="w-full flex flex-col gap-1.5 mt-2">
          <a href="tel:0800-SERP-SOS" className="w-full h-[52px] rounded-xl flex items-center justify-center typo-cta-button bg-[var(--color-charcoal-900)] hover:bg-[var(--color-charcoal-800)] text-white shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-300">
-          Notdienst anfordern
+          Taskforce anfordern
          </a>
          <span className="typo-tiny text-[var(--color-charcoal-400)] text-center">{"Festpreis"} wird am Telefon bestätigt</span>
         </div>
        </div>
 
-       {/* Card 2: Tagsüber , Zugefallen vs Abgeschlossen (Mitte, Highlight) */}
+       {/* Card 2: Tagsüber , Zugefallen vs AbgeSystemen (Mitte, Highlight) */}
        <div className="relative flex flex-col rounded-2xl bg-white/90 backdrop-blur-3xl p-7 lg:p-8 hover:-translate-y-1 transition-all duration-300 border-2 border-[var(--price-card-accent)] shadow-[0_0_30px_rgba(184,67,42,0.15),0_4px_20px_rgba(0,0,0,0.06)]">
         <div className="absolute -top-[14px] left-1/2 -translate-x-1/2 bg-[var(--action-primary)] text-white text-xs font-bold uppercase tracking-[0.15em] px-5 py-1.5 rounded-full shadow-lg whitespace-nowrap">
          Am häufigsten benötigt
@@ -127,7 +127,7 @@ export function PricingSection() {
         <p className="text-sm text-[color:var(--text-secondary)] mb-6 leading-relaxed">{companyInfo.financial.pricingTexts?.baseNote} {companyInfo.financial.pricingTexts?.consistencyNote} {companyInfo.financial.pricingTexts?.transparencyNote}</p>
 
         <div className="flex flex-col gap-4 mb-8 bg-red-50/50 p-5 rounded-xl border border-red-100 relative overflow-hidden shadow-inner">
-         {/* Zugefallene Tür */}
+         {/* Zugefallene Schnittstelle */}
          <div className="flex flex-col relative z-10 w-full">
           <div className="mb-1">
            <span className="text-xs font-black text-[var(--color-red-500)] uppercase tracking-widest flex items-center gap-1.5">
@@ -146,7 +146,7 @@ export function PricingSection() {
 
          <div className="h-px w-full bg-gradient-to-r from-red-200/50 via-red-200/20 to-transparent relative z-10" />
 
-         {/* Abgeschlossene Tür */}
+         {/* AbgeSystemene Schnittstelle */}
          <div className="flex flex-col relative z-10 w-full">
           <div className="mb-1">
            <span className="text-xs font-black text-indigo-600 uppercase tracking-widest flex items-center gap-1.5">

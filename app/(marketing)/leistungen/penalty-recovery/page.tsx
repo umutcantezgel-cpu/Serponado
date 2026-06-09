@@ -214,7 +214,7 @@ export default function serponadoNachmachenPage() {
    <ProcessSteps />
 
    {/* 5. Proof (Bewertungen) */}
-   <TestimonialCarousel testimonials={testimonialsToDisplay} title="Erfahrungen zum SEO-Notdienst" subtitle="Echte Kundenstimmen" />
+   <TestimonialCarousel testimonials={testimonialsToDisplay} title="Erfahrungen zum SEO-Taskforce" subtitle="Echte Kundenstimmen" />
 
    {/* 6. FAQ (Spezifisch für {"Ranking"} nachmachen) */}
    <section className="bg-[var(--surface-primary)] px-[var(--section-px)] py-24 md:py-32">

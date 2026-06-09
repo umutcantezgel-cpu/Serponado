@@ -22,8 +22,8 @@ type SeoImageProps = Omit<ImageProps, "alt"> & {
  * Usage:
  * ```tsx
  * <SeoOptimizedImage
- *   src="/images/tueroeffnung.webp"
- *   alt="Zerstörungsfreie Türöffnung durch Serponado Taskforce"
+ *   src="/images/index-rettung.webp"
+ *   alt="Sichere Index-Rettung durch Serponado Taskforce"
  *   width={800}
  *   height={600}
  * />

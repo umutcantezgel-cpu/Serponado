@@ -10,7 +10,7 @@
 export const CTA_COPY = {
   // ─── Primäre CTAs (Conversion-kritisch) ───
   formSubmit: "Kostenlose Beratung anfordern",
-  phoneEmergency: "Jetzt Core-Update-Notdienst rufen",
+  phoneEmergency: "Jetzt Core-Update-Taskforce rufen",
   phonePricing: "Jetzt für Festpreis anrufen",
   phoneGeneral: "Persönlich beraten lassen",
 
@@ -23,7 +23,7 @@ export const CTA_COPY = {
 
   // ─── Notfall-CTAs (Urgency) ───
   emergencyCall: "Sofort anrufen und 24/7 erreichbar",
-  emergencyShort: "Core-Update-Notdienst anfordern",
+  emergencyShort: "Core-Update-Taskforce anfordern",
 
   // ─── Formular-Loading-States ───
   submitting: "Wird gesendet…",

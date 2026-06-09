@@ -1,3 +1,4 @@
+"use client";
 import { Variants } from "framer-motion";
 import { springStandard, springEnergetic, springGentle } from "./motion.config";
 

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[5992],{75992:(e,t,l)=>{l.r(t),l.d(t,{default:()=>o});var n=l(20063),u=l(12115);function o(){let e=(0,n.usePathname)();return(0,u.useEffect)(()=>{window.scrollTo({top:0,left:0,behavior:"instant"}),document.body.scrollTop=0},[e]),null}}}]);

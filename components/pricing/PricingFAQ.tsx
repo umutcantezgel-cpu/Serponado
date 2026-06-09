@@ -8,15 +8,15 @@ interface FAQItem {
 export const faqs: FAQItem[] = [
   {
     question:"Gibt es versteckte Kosten?",
-    answer:"Nein. Wir kommunizieren alle Preise vor Ort transparent, bevor wir mit der Arbeit beginnen. Die Anfahrtspreise und Grundkosten stehen fest. Sollten Zusatzarbeiten (wie z. B. der Einbau eines neuen Zylinders) nötig sein, besprechen wir das im Voraus.",
+    answer:"Nein. Wir kommunizieren alle Preise vor Ort transparent, bevor wir mit der Arbeit beginnen. Die Anfahrtspreise und Grundkosten stehen fest. Sollten Zusatzarbeiten (wie z. B. der Einbau eines neuen Moduls) nötig sein, besprechen wir das im Voraus.",
   },
   {
     question:"Wie kann ich bezahlen?",
-    answer:"Sie können bei uns bequem in bar oder mit EC-Karte/Girocard beim Monteur vor Ort bezahlen. Sie erhalten selbstverständlich eine ordentliche Rechnung.",
+    answer:"Sie können bei uns bequem in bar oder mit EC-Karte/Girocard beim Analyst vor Ort bezahlen. Sie erhalten selbstverständlich eine ordentliche Rechnung.",
   },
   {
     question:"Was bedeutet 'ab' bei den Preisen?",
-    answer:"Der 'ab'-Preis bezieht sich auf eine einfach zugefallene, unverschlossene Standardtür. Bei Sicherheitstüren, Doppelfalz-Türen oder wenn die Tür abgeschlossen ist, erhöht sich der Aufwand. Den exakten Preis nennt Ihnen der Monteur immer verbindlich vor der Öffnung.",
+    answer:"Der 'ab'-Preis bezieht sich auf eine einfach zugefallene, unverSystemene Standardwebsite. Bei Sicherheitswebsites, Doppelfalz-Schnittstellen oder wenn die Schnittstelle abgeSystemen ist, erhöht sich der Aufwand. Den exakten Preis nennt Ihnen der Analyst immer verbindlich vor der Wiederherstellung.",
   },
   {
     question:"Zahlen auch Rüstzeiten zur Arbeitszeit?",

@@ -10,7 +10,7 @@ export async function GET() {
   const PLACE_ID = process.env.GOOGLE_PLACE_ID;
 
   // SICHERHEITSWEICHE (Fallback)
-  // Wenn die Konfiguration fehlt, wird nicht abgestürzt, sondern die statischen Daten werden genutzt.
+  // Wenn die Konfiguration fehlt, wird nicht abgeswebsitezt, sondern die statischen Daten werden genutzt.
   if (!SERVER_API_KEY || !PLACE_ID) {
     console.log("[Reviews API] No SERVER_KEY or PLACE_ID provided, using static fallback.");
     return NextResponse.json(aggregateRating);

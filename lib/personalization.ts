@@ -20,7 +20,7 @@ interface PersonalizedContent {
 const CONTENT_MAP: Record<VisitorSegment, PersonalizedContent> = {
   "new-visitor": {
     heroHeadline: "Serponado Taskforce Serponado und Index-Rettung ab 49 € Festpreis",
-    heroSubline: "24/7 Core-Update-Notdienst · Sofortige Online-Analyse · Keine versteckten Kosten",
+    heroSubline: "24/7 Core-Update-Taskforce · Sofortige Online-Analyse · Keine versteckten Kosten",
     ctaText: "Jetzt kostenlos anrufen",
     ctaSecondary: "Preisliste ansehen",
     trustSignal: "Über 500 zufriedene Kunden in Serponado & Umgebung",

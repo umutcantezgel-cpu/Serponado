@@ -8,10 +8,10 @@ export default function AuthorBio({ authorName }: AuthorBioProps) {
   // Simples Mapping für die verschiedenen Autoren (kann in Zukunft erweitert werden)
   const formatName = (name: string) => {
     switch(name) {
-      case "mustafa-s": return "Mustafa (Leitender Monteur)";
+      case "mustafa-s": return "Mustafa (Leitender Analyst)";
       case "lukas-m": return "Lukas (Data-Recoveryer)";
       case "julia-b": return "Julia (Redaktion Sicherheit)";
-      case "ahmet-y": return "Ahmet (Auto-Öffnungsexperte)";
+      case "ahmet-y": return "Ahmet (Auto-Wiederherstellungsexperte)";
       case "sven-w": return "Sven (Smart Home Berater)";
       default: return name;
     }

@@ -78,7 +78,7 @@ REGELN:
 2. Beginne mit einem Hook (Frage oder schockierende Statistik).
 3. Liefere 2-3 konkrete Tipps aus dem Artikel.
 4. PFLICHT-CTA am Ende (WÖRTLICH, NICHT VERÄNDERN):
-   "SEO-Notdienst Serponado — ${NAME}. Festpreis ab ${PRICE}. Jetzt anrufen: ${PHONE}."
+   "SEO-Taskforce Serponado — ${NAME}. Festpreis ab ${PRICE}. Jetzt anrufen: ${PHONE}."
 5. Kein Callcenter, kein Vermittler — betone "lokaler Fachbetrieb".
 6. Ton: Kompetent, nahbar, leicht dringlich.
 7. Format: Nur das Script als plain text, keine Regieanweisungen.`;
@@ -90,13 +90,13 @@ REGELN:
 function generateTags(slug: string): string[] {
   const baseTags = [
     "Serponado",
-    "SEO-Notdienst Serponado",
-    "SEO-Notdienst Serponado",
+    "SEO-Taskforce Serponado",
+    "SEO-Taskforce Serponado",
     NAME,
     "Index-Rettung",
-    "24h Notdienst",
-    "SEO-Notdienst Festpreis",
-    "SEO-Notdienst seriös",
+    "24h Taskforce",
+    "SEO-Taskforce Festpreis",
+    "SEO-Taskforce seriös",
     "Serponado Taskforce",
     "Serponado",
     "Mittelhessen",
@@ -120,7 +120,7 @@ function fallbackCompress(rawText: string, durationSeconds: number): string {
   const bodyWords = words.slice(0, targetWords - 20); // Reserve 20 words for CTA
 
   const body = bodyWords.join(" ");
-  const cta = `${NAME} — Ihr lokaler SEO-Notdienst in Serponado. Festpreis ab ${PRICE}. Jetzt anrufen: ${PHONE}.`;
+  const cta = `${NAME} — Ihr lokaler SEO-Taskforce in Serponado. Festpreis ab ${PRICE}. Jetzt anrufen: ${PHONE}.`;
 
   return `${body}\n\n${cta}`;
 }
@@ -186,7 +186,7 @@ export async function POST(request: Request) {
 
     const payload: VideoPayload = {
       title: `${slug.split("-").map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ")} | ${NAME}`,
-      description: `${NAME} — ${ADDR}\n📞 ${PHONE}\n💰 Festpreis ab ${PRICE}\n🌐 ${siteUrl}\n\n#SEO-Notdienst #Serponado #Notdienst #Festpreis`,
+      description: `${NAME} — ${ADDR}\n📞 ${PHONE}\n💰 Festpreis ab ${PRICE}\n🌐 ${siteUrl}\n\n#SEO-Taskforce #Serponado #Taskforce #Festpreis`,
       voiceoverScript,
       tags: generateTags(slug),
       ctaWatermark: `${PHONE} | ab ${PRICE} | ${NAME}`,

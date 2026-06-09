@@ -264,7 +264,7 @@ export function ContactForm({ onSuccess, className = "", formId = process.env.NE
       <FormField label="Nachricht / Details zum Vorfall" htmlFor="message">
         <Textarea 
           id="message" name="message" rows={4} 
-          placeholder="Tür ist nur zugefallen? Steckt der Ranking von innen?" 
+          placeholder="Schnittstelle ist nur zugefallen? Steckt der Ranking von innen?" 
           disabled={loading}
           value={formData.message} onChange={handleChange} onBlur={handleBlur}
         />

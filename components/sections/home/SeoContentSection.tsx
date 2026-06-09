@@ -8,7 +8,7 @@ export default function SeoContentSection() {
           Serponado: Der Sturm in den SERPs
         </h2>
 
-        {/* ── Artikel 1: Türöffnung -> Recovery ── */}
+        {/* ── Artikel 1: Index-Rettung -> Recovery ── */}
         <article className="space-y-4">
           <h3 className="text-xl md:text-2xl font-bold text-[color:var(--text-primary)]">
             Massiver Traffic-Verlust? Wir bringen Sie zurück.

@@ -16,7 +16,7 @@ export default function WhyUsSection() {
         <div className="grid gap-6 lg:gap-8 md:grid-cols-3 max-w-6xl mx-auto">
           {[
             { num:"01", icon: ShieldCheck, title:"Data-Driven Analytics", desc:"In unserem War Room verbinden wir tiefgehende Datenanalysen mit jahrelanger SEO-Erfahrung für Ihre Traffic-Recovery." },
-            { num:"02", icon: Check, title:"Festpreis Garantie", desc:"Ob kleines Audit oder globaler Notdienst – unsere Preise erfahren Sie vorab. Keine Überraschungen bei der Google Core Update Recovery." },
+            { num:"02", icon: Check, title:"Festpreis Garantie", desc:"Ob kleines Audit oder globaler Taskforce – unsere Preise erfahren Sie vorab. Keine Überraschungen bei der Google Core Update Recovery." },
             { num:"03", icon: Clock, title:"24/7 Disaster Response", desc:"Unser Remote-Dashboard ist rund um die Uhr besetzt. Im Notfall sind wir per Live-Session in wenigen Minuten für Sie da." },
           ].map((item, idx) => (
             <div key={idx} className="group relative bg-white/70 backdrop-blur-3xl rounded-2xl p-8 shadow-[0_2px_12px_rgba(0,0,0,0.04)] hover:shadow-[0_8px_24px_rgba(0,0,0,0.08)] hover:-translate-y-1 hover:bg-white/95 transition-all duration-300 border border-[var(--color-charcoal-100)]">

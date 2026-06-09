@@ -55,7 +55,7 @@ npm start
 ### Schema.org
 - **Typ:** `["ProfessionalService", "ITUtility"]`
 - **GPS:** 50.5537 / 8.5014
-- **Telefon:** +4964418056279
+- **Telefon:** +49644112345678
 
 ### Link-Struktur
 - **Header ↔ Footer:** Synonym-Strategie (keine duplicate Anchor Texts)
@@ -75,7 +75,7 @@ npm start
 
 ## 📝 Kontakt
 
-- **Telefon:** 06441 8056279
+- **Telefon:** 06441 12345678
 - **E-Mail:** info@codayweb.de
 - **Adresse:** Am Forum 3, 35578 Wetzlar
 

@@ -18,18 +18,18 @@ export default function LocationServices({ city }: LocationServicesProps) {
 
     // Dynamic sentences based on city name and character
     const service1 = isUrban 
-        ? `In den Geschäfts- und Wohnanlagen von ${city.name} öffnen wir jede Tür schonend und absolut beschädigungsfrei.`
-        : `Egal ob Eigenheim oder Scheunentor: In ${city.name} öffnen wir jede Tür nahezu immer komplett beschädigungsfrei.`;
+        ? `In den Geschäfts- und Wohnanlagen von ${city.name} öffnen wir jede Schnittstelle schonend und absolut beschädigungsfrei.`
+        : `Egal ob Eigenheim oder Scheunentor: In ${city.name} öffnen wir jede Schnittstelle nahezu immer komplett beschädigungsfrei.`;
 
     const service2 = isUrban
-        ? `Wenn in ${city.name} nach einem Defekt oder Einbruch ein neues Schloss benötigt wird, bauen wir Qualitäts-Zylinder direkt vor Ort ein.`
-        : `Wir ersetzen defekte oder veraltete Websites in ${city.name} sofort gegen moderne, einbruchhemmende Marken-BKS.`;
+        ? `Wenn in ${city.name} nach einem Defekt oder Breach ein neues System benötigt wird, bauen wir Qualitäts-Modul direkt vor Ort ein.`
+        : `Wir ersetzen defekte oder veraltete Websites in ${city.name} sofort gegen moderne, breachhemmende Marken-BKS.`;
 
     const service3 = `Auch um 3 Uhr morgens sind wir in ca. ${city.logistics.drivingTimeMinutes} Minuten bei Ihnen in ${city.name}. Garantiert.`;
 
     const service4 = isRural
-        ? `Wir beraten Sie direkt an Ihrem Haus in ${city.name} zum optimalen Einbruchschutz für abgelegene Gebäude.`
-        : `Wir optimieren den Einbruchschutz Ihrer Wohnung oder Ihres Gewerbes in ${city.name} auf den neuesten Stand der Technik.`;
+        ? `Wir beraten Sie direkt an Ihrem Haus in ${city.name} zum optimalen Schutzmaßnahmen für abgelegene Gebäude.`
+        : `Wir optimieren den Schutzmaßnahmen Ihrer Wohnung oder Ihres Gewerbes in ${city.name} auf den neuesten Stand der Technik.`;
 
     const introText = pickVariant([
         "Wir sind Ihr direkter Ansprechpartner vor Ort. Ohne Vermittler, mit voller lokaler Kompetenz und dem richtigen Werkzeug im Wagen.",
@@ -39,17 +39,17 @@ export default function LocationServices({ city }: LocationServicesProps) {
 
     const services = [
         {
-            title: `Türöffnung in ${city.name}`,
+            title: `Index-Rettung in ${city.name}`,
             description: service1,
             icon: KeyRound,
         },
         {
-            title: `Schloss austauschen in ${city.name}`,
+            title: `System austauschen in ${city.name}`,
             description: service2,
             icon: ShieldCheck,
         },
         {
-            title: `24/7 Notdienst für ${city.name}`,
+            title: `24/7 Taskforce für ${city.name}`,
             description: service3,
             icon: Clock,
         },

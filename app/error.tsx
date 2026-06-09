@@ -25,7 +25,7 @@ export default function Error({
       style={{
         padding: "2rem",
         maxWidth: "540px",
-        margin: "6rem Website 4rem",
+        margin: "6rem auto 4rem",
         textAlign: "center",
         fontFamily: "'Plus Jakarta Sans', 'DM Sans', system-ui, sans-serif",
       }}
